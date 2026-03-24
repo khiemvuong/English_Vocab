@@ -140,16 +140,16 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
     <div className="flex flex-col h-dvh w-full overflow-hidden">
       <div className="flex flex-col flex-1 w-full max-w-3xl mx-auto px-4 md:px-6 pt-4 md:pt-6 overflow-hidden">
       {/* Header */}
-      <header className="flex items-center justify-between mb-8 shrink-0 relative">
-        <div className="flex items-center gap-3 z-10 flex-1">
-          <div className="text-xs font-bold text-slate-400 uppercase tracking-widest">
-            Lesson {lessonId.toString().padStart(2, '0')} 
-            <span className="ml-2 text-slate-300">•</span>
-            <span className="ml-2">{currentIndex + 1} / {quizData.questions.length}</span>
-          </div>
+      <header className="flex flex-wrap items-center justify-between mb-4 md:mb-8 shrink-0 gap-y-4">
+        {/* Left: Lesson Info */}
+        <div className="text-xs font-bold text-slate-500 uppercase tracking-widest shrink-0">
+          Lesson {lessonId.toString().padStart(2, '0')} 
+          <span className="mx-1.5 text-slate-300">•</span> 
+          {currentIndex + 1} / {quizData.questions.length}
         </div>
 
-        <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+        {/* Center: Progress Bar */}
+        <div className="flex-1 flex justify-center w-full min-w-[150px] order-3 md:order-2 md:w-auto px-2 md:px-0">
           <div className="w-full max-w-[200px] h-1.5 bg-slate-200 rounded-full overflow-hidden">
             <div 
               className="bg-blue-500 h-full transition-all duration-300 ease-out"
@@ -158,26 +158,27 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
           </div>
         </div>
 
-        <div className="flex-1 flex justify-end z-10 items-center">
+        {/* Right: Controls */}
+        <div className="flex justify-end items-center shrink-0 order-2 md:order-3 gap-2.5">
           <button 
             onClick={toggleMute}
-            className="p-1.5 mr-2 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-full transition-colors flex items-center justify-center h-8 w-8"
+            className="p-1.5 text-slate-500 bg-slate-100 hover:bg-slate-200 active:bg-slate-300 rounded-full transition-colors flex items-center justify-center h-8 w-8"
             title={isMuted ? "Unmute sounds" : "Mute sounds"}
           >
             {isMuted ? (
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" clipRule="evenodd" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" /></svg>
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" clipRule="evenodd" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" /></svg>
             ) : (
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" /></svg>
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" /></svg>
             )}
           </button>
           
           <Link 
             href="/" 
             title="Exit Quiz"
-            className="flex items-center gap-1.5 px-3 py-1.5 -mr-2 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-full transition-colors"
+            className="flex items-center gap-1.5 px-3 py-1.5 text-slate-600 bg-slate-100 hover:text-red-700 hover:bg-red-50 active:bg-red-100 rounded-full transition-colors"
           >
-            <span className="text-sm font-semibold">Exit</span>
-            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
+            <span className="text-sm font-bold">Exit</span>
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
           </Link>
         </div>
       </header>
