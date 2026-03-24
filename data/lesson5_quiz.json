@@ -1,0 +1,265 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 5",
+  "questions": [
+    {
+      "question": "Từ nào sau đây có nghĩa là đóng gói sản phẩm để chuẩn bị vận chuyển?",
+      "answerOptions": [
+        {
+          "text": "Package",
+          "isCorrect": true,
+          "rationale": "Từ này mô tả hành động bọc hoặc đóng gói hàng hóa vào bao bì trước khi gửi đi hoặc bán lẻ."
+        },
+        {
+          "text": "Owe",
+          "isCorrect": false,
+          "rationale": "Từ này diễn tả tình trạng nợ nần về tài chính hoặc trách nhiệm đối với ai đó."
+        },
+        {
+          "text": "Trim",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là cắt tỉa hoặc lược bớt, thường dùng cho cây cối hoặc các chi tiết trang trí."
+        },
+        {
+          "text": "Renew",
+          "isCorrect": false,
+          "rationale": "Từ này dùng để chỉ việc gia hạn một hợp đồng hoặc gói dịch vụ đã hết hạn."
+        }
+      ],
+      "hint": "Hãy nghĩ đến hành động chuẩn bị một bưu kiện trước khi gửi qua đường bưu điện."
+    },
+    {
+      "question": "Loại tài khoản nào thường được dùng để tích lũy tiền và hưởng lãi suất trong ngân hàng?",
+      "answerOptions": [
+        {
+          "text": "Research project",
+          "isCorrect": false,
+          "rationale": "Cụm từ này chỉ một đề án nghiên cứu khoa học hoặc học thuật."
+        },
+        {
+          "text": "Savings account",
+          "isCorrect": true,
+          "rationale": "Đây là tài khoản chuyên dụng để lưu giữ tiền tiết kiệm và nhận lãi định kỳ từ ngân hàng."
+        },
+        {
+          "text": "Side salad",
+          "isCorrect": false,
+          "rationale": "Đây là một món ăn phụ trong nhà hàng, không liên quan đến lĩnh vực tài chính ngân hàng."
+        },
+        {
+          "text": "Card reader",
+          "isCorrect": false,
+          "rationale": "Đây là thiết bị dùng để đọc dữ liệu từ thẻ thanh toán chứ không phải là một loại tài khoản."
+        }
+      ],
+      "hint": "Tên của loại tài khoản này bắt nguồn từ hành động 'tiết kiệm' tiền."
+    },
+    {
+      "question": "Nếu một chiếc máy photocopy được mô tả là \"malfunctioning\", điều đó có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Máy đã được nạp đầy mực",
+          "isCorrect": false,
+          "rationale": "Việc nạp mực thường liên quan đến từ 'refill' hoặc thay thế 'cartridge' hơn là chức năng vận hành."
+        },
+        {
+          "text": "Máy đang bị trục trặc hoặc hỏng hóc",
+          "isCorrect": true,
+          "rationale": "Tính từ này chỉ các thiết bị hoặc hệ thống không hoạt động đúng chức năng do lỗi kỹ thuật."
+        },
+        {
+          "text": "Máy đã quá hạn bảo trì",
+          "isCorrect": false,
+          "rationale": "Mặc dù có thể dẫn đến hỏng hóc, nhưng 'quá hạn' thường được diễn đạt bằng từ 'overdue'."
+        },
+        {
+          "text": "Máy đang hoạt động với hiệu suất tối đa",
+          "isCorrect": false,
+          "rationale": "Tính từ này mang nghĩa tiêu cực, trái ngược hoàn toàn với trạng thái hoạt động tốt."
+        }
+      ],
+      "hint": "Hãy xem xét tiền tố 'mal-' thường mang nghĩa là xấu hoặc sai lệch."
+    },
+    {
+      "question": "Khi bạn muốn tiếp tục sử dụng một dịch vụ đăng ký dài hạn (như báo chí) sau khi nó hết hạn, bạn cần phải làm gì?",
+      "answerOptions": [
+        {
+          "text": "Sign up",
+          "isCorrect": false,
+          "rationale": "Hành động này thường dùng cho lần đăng ký đầu tiên hơn là việc duy trì một dịch vụ cũ."
+        },
+        {
+          "text": "Count",
+          "isCorrect": false,
+          "rationale": "Đây là hành động tính toán số lượng, không liên quan đến việc kéo dài thời gian hiệu lực."
+        },
+        {
+          "text": "Tear down",
+          "isCorrect": false,
+          "rationale": "Cụm từ này có nghĩa là phá hủy hoặc dỡ bỏ một cấu trúc, thường là tòa nhà."
+        },
+        {
+          "text": "Renew",
+          "isCorrect": true,
+          "rationale": "Gia hạn (renew) là hành động làm cho một thỏa thuận hoặc thẻ thành viên có hiệu lực trở lại sau khi hết thời gian."
+        }
+      ],
+      "hint": "Từ này bắt nguồn từ việc làm cho một thứ gì đó trở nên 'mới' (new) trở lại."
+    },
+    {
+      "question": "Vị trí nào trong một công ty thường phụ trách việc tiếp đón khách và trả lời điện thoại tại sảnh?",
+      "answerOptions": [
+        {
+          "text": "Press release",
+          "isCorrect": false,
+          "rationale": "Đây là một văn bản thông báo dành cho báo chí, không phải vị trí nhân sự."
+        },
+        {
+          "text": "Packaging machine",
+          "isCorrect": false,
+          "rationale": "Đây là thiết bị máy móc dùng trong sản xuất, không phải là một vị trí làm việc của con người."
+        },
+        {
+          "text": "Front desk",
+          "isCorrect": true,
+          "rationale": "Đây là khu vực lễ tân, nơi tiếp xúc đầu tiên của khách hàng với doanh nghiệp."
+        },
+        {
+          "text": "Technical school",
+          "isCorrect": false,
+          "rationale": "Đây là một tổ chức giáo dục đào tạo nghề nghiệp."
+        }
+      ],
+      "hint": "Vị trí này nằm ngay 'phía trước' (front) của tòa nhà văn phòng hoặc khách sạn."
+    },
+    {
+      "question": "Trong thư viện hoặc hiệu sách, vật phẩm đã quá hạn trả sẽ được gọi là gì?",
+      "answerOptions": [
+        {
+          "text": "Front page",
+          "isCorrect": false,
+          "rationale": "Cụm từ này chỉ trang đầu tiên của một tờ báo."
+        },
+        {
+          "text": "Alphabetical order",
+          "isCorrect": false,
+          "rationale": "Đây là cách sắp xếp tài liệu theo thứ tự bảng chữ cái, không liên quan đến thời hạn."
+        },
+        {
+          "text": "Overdue materials",
+          "isCorrect": true,
+          "rationale": "Tính từ 'overdue' chỉ các sự vật đã vượt quá mốc thời gian quy định để hoàn thành hoặc trả lại."
+        },
+        {
+          "text": "Free sample",
+          "isCorrect": false,
+          "rationale": "Đây là mẫu thử miễn phí được tặng để khách hàng trải nghiệm sản phẩm."
+        }
+      ],
+      "hint": "Liên quan đến việc chậm trễ so với hạn chót (deadline)."
+    },
+    {
+      "question": "Thiết bị nào sau đây bị hỏng sẽ khiến cửa hàng không thể xử lý các giao dịch thanh toán bằng thẻ?",
+      "answerOptions": [
+        {
+          "text": "Lawn mower",
+          "isCorrect": false,
+          "rationale": "Máy cắt cỏ là công cụ làm vườn, không liên quan đến quy trình thanh toán."
+        },
+        {
+          "text": "Tablecloth",
+          "isCorrect": false,
+          "rationale": "Đây là khăn trải bàn, một vật dụng trang trí nội thất."
+        },
+        {
+          "text": "Card reader",
+          "isCorrect": true,
+          "rationale": "Máy đọc thẻ là thiết bị thiết yếu để kết nối và xác nhận thông tin từ thẻ ngân hàng của khách."
+        },
+        {
+          "text": "Cartridge",
+          "isCorrect": false,
+          "rationale": "Hộp mực bị hỏng chỉ ảnh hưởng đến việc in ấn tài liệu hoặc hóa đơn giấy."
+        }
+      ],
+      "hint": "Thiết bị này có chức năng 'đọc' (read) các thông tin trên thẻ."
+    },
+    {
+      "question": "Cụm từ \"be in effect\" dùng để mô tả một chính sách (policy) có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Đang có hiệu lực thi hành",
+          "isCorrect": true,
+          "rationale": "Cụm từ này khẳng định một quy định hoặc luật lệ đang được áp dụng chính thức vào thời điểm hiện tại."
+        },
+        {
+          "text": "Đang được chỉnh sửa lại",
+          "isCorrect": false,
+          "rationale": "Việc chỉnh sửa thường dùng các từ như 'revise' hoặc 'modify'."
+        },
+        {
+          "text": "Đã bị hủy bỏ hoàn toàn",
+          "isCorrect": false,
+          "rationale": "Trạng thái này thường được gọi là 'void' hoặc 'canceled'."
+        },
+        {
+          "text": "Đang chờ được phê duyệt",
+          "isCorrect": false,
+          "rationale": "Trạng thái này thường dùng cụm 'pending approval' thay vì 'in effect'."
+        }
+      ],
+      "hint": "Nó có nghĩa là chính sách đó đang thực sự 'hoạt động' và mọi người phải tuân theo."
+    },
+    {
+      "question": "Trong siêu thị, khu vực lối đi giữa các hàng kệ hàng hóa được gọi là gì?",
+      "answerOptions": [
+        {
+          "text": "Aisle",
+          "isCorrect": true,
+          "rationale": "Đây là từ chuyên dụng để chỉ lối đi hẹp giữa các dãy ghế hoặc kệ hàng trong không gian kín."
+        },
+        {
+          "text": "Sidewalk",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ vỉa hè dành cho người đi bộ ở ngoài đường phố."
+        },
+        {
+          "text": "Flat tire",
+          "isCorrect": false,
+          "rationale": "Đây là tình trạng lốp xe bị xẹp, hoàn toàn không liên quan đến kiến trúc cửa hàng."
+        },
+        {
+          "text": "Technical school",
+          "isCorrect": false,
+          "rationale": "Đây là một cơ sở đào tạo, không phải là một phần của siêu thị."
+        }
+      ],
+      "hint": "Từ này có âm câm, phát âm giống với từ 'I'll' trong tiếng Anh."
+    },
+    {
+      "question": "Hành động sắp xếp hồ sơ theo thứ tự từ $A$ đến $Z$ được gọi là sắp xếp theo:",
+      "answerOptions": [
+        {
+          "text": "Overdue schedule",
+          "isCorrect": false,
+          "rationale": "Cụm từ này không có ý nghĩa chuẩn trong việc sắp xếp hồ sơ theo tên."
+        },
+        {
+          "text": "Annual checkup",
+          "isCorrect": false,
+          "rationale": "Đây là hoạt động kiểm tra sức khỏe hàng năm."
+        },
+        {
+          "text": "Alphabetical order",
+          "isCorrect": true,
+          "rationale": "Đây là quy tắc sắp xếp dựa trên thứ tự của các chữ cái trong bảng chữ cái."
+        },
+        {
+          "text": "Malfunctioning process",
+          "isCorrect": false,
+          "rationale": "Cụm từ này mô tả một quy trình đang gặp lỗi, không phải phương pháp sắp xếp."
+        }
+      ],
+      "hint": "Phương pháp này dựa trên bảng chữ cái (alphabet)."
+    }
+  ]
+}

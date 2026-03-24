@@ -1,0 +1,265 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 6",
+  "questions": [
+    {
+      "question": "Trong bối cảnh kinh doanh, từ nào sau đây có nghĩa là \"chiến lược\"?",
+      "answerOptions": [
+        {
+          "text": "Strength",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là sức mạnh hoặc điểm mạnh, không phải là một kế hoạch hành động."
+        },
+        {
+          "text": "Struggle",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là sự đấu tranh hoặc nỗ lực khó khăn, không mang nghĩa chiến lược."
+        },
+        {
+          "text": "Straight",
+          "isCorrect": false,
+          "rationale": "Đây là một tính từ có nghĩa là thẳng, không liên quan đến lập kế hoạch kinh doanh."
+        },
+        {
+          "text": "Strategy",
+          "isCorrect": true,
+          "rationale": "Từ này được sử dụng để chỉ một kế hoạch hành động dài hạn nhằm đạt được một mục tiêu cụ thể."
+        }
+      ],
+      "hint": "Từ này thường đi kèm với cụm từ 'marketing' hoặc 'business'."
+    },
+    {
+      "question": "Tính từ nào sau đây mang nghĩa \"đúng lúc, kịp thời\"?",
+      "answerOptions": [
+        {
+          "text": "Timing",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ sự chọn thời điểm hoặc sự phối hợp thời gian."
+        },
+        {
+          "text": "Timeless",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là vô tận hoặc không bị ảnh hưởng bởi thời gian, không phải là kịp thời."
+        },
+        {
+          "text": "Timely",
+          "isCorrect": true,
+          "rationale": "Đây là một tính từ đặc biệt có đuôi -ly dùng để mô tả sự việc xảy ra đúng thời điểm cần thiết."
+        },
+        {
+          "text": "Time",
+          "isCorrect": false,
+          "rationale": "Đây là danh từ chỉ thời gian, không phải tính từ chỉ tính chất kịp thời."
+        }
+      ],
+      "hint": "Mặc dù có đuôi -ly nhưng đây là một tính từ thường dùng trong cụm 'in a ... manner'."
+    },
+    {
+      "question": "Từ \"Amenity\" (số thứ tự 198) thường được dùng để chỉ điều gì trong khách sạn?",
+      "answerOptions": [
+        {
+          "text": "Các tiện nghi, dịch vụ gia tăng",
+          "isCorrect": true,
+          "rationale": "Amenity dùng để chỉ các cơ sở vật chất hoặc dịch vụ làm cho nơi ở trở nên thoải mái và thuận tiện hơn."
+        },
+        {
+          "text": "Giấy phép đỗ xe",
+          "isCorrect": false,
+          "rationale": "Giấy phép được gọi là 'permit'."
+        },
+        {
+          "text": "Lực lượng lao động",
+          "isCorrect": false,
+          "rationale": "Lực lượng lao động được gọi là 'workforce'."
+        },
+        {
+          "text": "Sự phàn nàn của khách hàng",
+          "isCorrect": false,
+          "rationale": "Sự phàn nàn được gọi là 'complaint', không phải là tiện nghi."
+        }
+      ],
+      "hint": "Hãy nghĩ về những thứ như hồ bơi, phòng gym hoặc wifi trong khách sạn."
+    },
+    {
+      "question": "Khi một công ty quyết định \"thi hành\" hoặc \"thực hiện\" một chính sách mới, họ sử dụng động từ nào?",
+      "answerOptions": [
+        {
+          "text": "Improve",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là cải thiện, mặc dù thường đi cùng chính sách nhưng không mang nghĩa là bắt đầu thi hành."
+        },
+        {
+          "text": "Imply",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là ngụ ý hoặc ám chỉ, không liên quan đến việc thực thi chính sách."
+        },
+        {
+          "text": "Implement",
+          "isCorrect": true,
+          "rationale": "Động từ này có nghĩa là bắt đầu thực hiện một kế hoạch, hệ thống hoặc chính sách chính thức."
+        },
+        {
+          "text": "Impact",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là tác động hoặc ảnh hưởng đến cái gì đó."
+        }
+      ],
+      "hint": "Từ này thường đi với các danh từ như 'policy', 'plan' hoặc 'strategy'."
+    },
+    {
+      "question": "Điền cụm từ phù hợp vào chỗ trống: \"The data must be ___ before it can be properly analyzed.\"",
+      "answerOptions": [
+        {
+          "text": "Complained",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là phàn nàn, không phù hợp để mô tả hành động xử lý dữ liệu."
+        },
+        {
+          "text": "Compared",
+          "isCorrect": false,
+          "rationale": "So sánh dữ liệu thường xảy ra sau hoặc cùng lúc với phân tích, không phải là bước thu thập ban đầu."
+        },
+        {
+          "text": "Compiled",
+          "isCorrect": true,
+          "rationale": "Compile có nghĩa là thu thập và biên soạn dữ liệu từ nhiều nguồn khác nhau để xử lý."
+        },
+        {
+          "text": "Purchased",
+          "isCorrect": false,
+          "rationale": "Mua dữ liệu không phải là bước bắt buộc trước khi phân tích trong mọi ngữ cảnh như việc biên soạn."
+        }
+      ],
+      "hint": "Hành động này tương đương với việc 'gather' hoặc 'collect' thông tin."
+    },
+    {
+      "question": "Từ nào sau đây là từ đồng nghĩa của \"Refund\"?",
+      "answerOptions": [
+        {
+          "text": "Refusal",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là sự từ chối, trái ngược với việc chấp nhận hoàn tiền."
+        },
+        {
+          "text": "Reimbursement",
+          "isCorrect": true,
+          "rationale": "Cả hai từ đều chỉ việc trả lại số tiền mà ai đó đã chi trả hoặc nộp dư."
+        },
+        {
+          "text": "Requirement",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là yêu cầu hoặc điều kiện bắt buộc."
+        },
+        {
+          "text": "Reservation",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là sự đặt chỗ trước."
+        }
+      ],
+      "hint": "Hãy tìm một từ cũng bắt đầu bằng tiền tố 're-' liên quan đến tài chính."
+    },
+    {
+      "question": "Cụm từ \"In advance\" (số thứ tự 224) có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Nâng cao",
+          "isCorrect": false,
+          "rationale": "Tính từ 'advanced' có nghĩa là nâng cao, nhưng 'in advance' là một trạng ngữ chỉ thời gian."
+        },
+        {
+          "text": "Một cách đúng đắn",
+          "isCorrect": false,
+          "rationale": "Nghĩa này thuộc về từ 'properly'."
+        },
+        {
+          "text": "Tiến bộ",
+          "isCorrect": false,
+          "rationale": "Danh từ 'progress' mới có nghĩa là sự tiến bộ."
+        },
+        {
+          "text": "Trước (về thời gian)",
+          "isCorrect": true,
+          "rationale": "Cụm từ này có nghĩa là làm việc gì đó sớm hơn một thời điểm nhất định, thường dùng trong việc đặt chỗ."
+        }
+      ],
+      "hint": "Nó đồng nghĩa với cụm từ 'ahead of time'."
+    },
+    {
+      "question": "Động từ \"Devise\" (số thứ tự 220) có nghĩa tương đương với từ nào?",
+      "answerOptions": [
+        {
+          "text": "Divide",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là phân chia, không liên quan đến việc sáng tạo kế hoạch."
+        },
+        {
+          "text": "Create",
+          "isCorrect": true,
+          "rationale": "Devise có nghĩa là nghĩ ra hoặc sáng chế ra một kế hoạch, hệ thống hoặc công cụ mới."
+        },
+        {
+          "text": "Decide",
+          "isCorrect": false,
+          "rationale": "Quyết định là bước sau khi đã nghĩ ra (devise) các phương án."
+        },
+        {
+          "text": "Device",
+          "isCorrect": false,
+          "rationale": "Đây là danh từ chỉ thiết bị, dễ bị nhầm lẫn về cách viết với động từ 'devise'."
+        }
+      ],
+      "hint": "Hãy liên tưởng đến việc phát minh hoặc thiết lập một chiến lược mới."
+    },
+    {
+      "question": "Từ \"Appliance\" (số thứ tự 229) dùng để chỉ loại vật dụng nào?",
+      "answerOptions": [
+        {
+          "text": "Động cơ xe hơi",
+          "isCorrect": false,
+          "rationale": "Động cơ xe hơi được gọi là 'engine'."
+        },
+        {
+          "text": "Thiết bị, dụng cụ (thường là đồ điện gia dụng)",
+          "isCorrect": true,
+          "rationale": "Appliance thường dùng để chỉ máy giặt, tủ lạnh, lò vi sóng và các thiết bị gia đình khác."
+        },
+        {
+          "text": "Đơn xin việc",
+          "isCorrect": false,
+          "rationale": "Đơn xin việc là 'application'."
+        },
+        {
+          "text": "Hàng gia dụng bằng vải",
+          "isCorrect": false,
+          "rationale": "Các vật dụng bằng vải thường được gọi là 'textile' hoặc 'fabric'."
+        }
+      ],
+      "hint": "Từ này thường xuất hiện trong cụm 'household ...' hoặc 'home ...'."
+    },
+    {
+      "question": "Cụm từ \"Peak season\" (số thứ tự 228) được dùng để mô tả thời điểm nào trong năm?",
+      "answerOptions": [
+        {
+          "text": "Mùa cao điểm, đông khách nhất",
+          "isCorrect": true,
+          "rationale": "Peak có nghĩa là đỉnh điểm, dùng để chỉ giai đoạn nhu cầu dịch vụ cao nhất."
+        },
+        {
+          "text": "Thời điểm giao mùa",
+          "isCorrect": false,
+          "rationale": "Giao mùa không phải là nghĩa của từ này trong kinh doanh dịch vụ."
+        },
+        {
+          "text": "Mùa thu hoạch nông sản",
+          "isCorrect": false,
+          "rationale": "Mùa thu hoạch được gọi là 'harvest season'."
+        },
+        {
+          "text": "Mùa thấp điểm, ít khách",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của 'low season' hoặc 'off-peak season'."
+        }
+      ],
+      "hint": "Hãy nghĩ về đỉnh của một ngọn núi để suy luận nghĩa của từ 'peak'."
+    }
+  ]
+}

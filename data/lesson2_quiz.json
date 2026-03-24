@@ -1,0 +1,785 @@
+{
+  "title": "Từ vựng Trắc nghiệm",
+  "questions": [
+    {
+      "question": "Từ nào sau đây là từ đồng nghĩa của \"mandatory\"?",
+      "answerOptions": [
+        {
+          "text": "Optional",
+          "isCorrect": false,
+          "rationale": "Đây là từ trái nghĩa, mang nghĩa là tự chọn hoặc không bắt buộc."
+        },
+        {
+          "text": "Deliberate",
+          "isCorrect": false,
+          "rationale": "Deliberate có nghĩa là thận trọng hoặc có tính toán, không liên quan đến tính bắt buộc."
+        },
+        {
+          "text": "Compulsory",
+          "isCorrect": true,
+          "rationale": "Cả hai từ này đều mang nghĩa là bắt buộc theo quy định hoặc luật lệ."
+        },
+        {
+          "text": "Voluntary",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là tự nguyện, trái ngược với tính chất bắt buộc của mandatory."
+        }
+      ],
+      "hint": "Hãy nghĩ về một quy định mà bạn không có quyền lựa chọn việc tham gia hay không."
+    },
+    {
+      "question": "Nghĩa của từ \"analysis\" trong cụm \"market analysis\" là gì?",
+      "answerOptions": [
+        {
+          "text": "Sự phàn nàn",
+          "isCorrect": false,
+          "rationale": "Sự phàn nàn là nghĩa của từ 'complaint'."
+        },
+        {
+          "text": "Sự đóng góp",
+          "isCorrect": false,
+          "rationale": "Sự đóng góp liên quan đến từ 'contribution' trong cùng bài học."
+        },
+        {
+          "text": "Sự phân tích",
+          "isCorrect": true,
+          "rationale": "Analysis là danh từ chỉ quá trình nghiên cứu hoặc xem xét dữ liệu một cách chi tiết."
+        },
+        {
+          "text": "Sự thông báo",
+          "isCorrect": false,
+          "rationale": "Sự thông báo thường sử dụng từ 'announcement' hoặc 'notification'."
+        }
+      ],
+      "hint": "Đây là quá trình xem xét kỹ lưỡng các thành phần của một vấn đề để hiểu rõ hơn về nó."
+    },
+    {
+      "question": "Trong bối cảnh công ty, từ \"promote\" thường được dùng với nghĩa nào?",
+      "answerOptions": [
+        {
+          "text": "Thăng chức hoặc quảng bá",
+          "isCorrect": true,
+          "rationale": "Promote có hai nghĩa chính là nâng cao vị trí công việc hoặc giới thiệu sản phẩm đến công chúng."
+        },
+        {
+          "text": "Tuyển dụng nhân viên mới",
+          "isCorrect": false,
+          "rationale": "Hành động tuyển dụng thường dùng từ 'hire' hoặc 'recruit'."
+        },
+        {
+          "text": "Giải thể phòng ban",
+          "isCorrect": false,
+          "rationale": "Giải thể thường dùng 'dissolve' hoặc 'liquidate'."
+        },
+        {
+          "text": "Sa thải nhân viên",
+          "isCorrect": false,
+          "rationale": "Sa thải thường dùng 'dismiss' hoặc 'fire', trái ngược hoàn toàn với promote."
+        }
+      ],
+      "hint": "Nghĩ về việc nâng cao vị thế của một cá nhân trong sự nghiệp hoặc một sản phẩm trên thị trường."
+    },
+    {
+      "question": "Cụm từ \"residential area\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Khu dân cư",
+          "isCorrect": true,
+          "rationale": "Residential là tính từ thuộc về nơi ở, kết hợp với area tạo thành khu vực dành cho người dân sinh sống."
+        },
+        {
+          "text": "Khu công nghiệp",
+          "isCorrect": false,
+          "rationale": "Khu công nghiệp thường dùng cụm 'industrial zone' hoặc 'industrial area'."
+        },
+        {
+          "text": "Khu bảo tồn",
+          "isCorrect": false,
+          "rationale": "Khu bảo tồn là 'preserve' hoặc 'sanctuary' như đã học ở bài trước."
+        },
+        {
+          "text": "Trung tâm thương mại",
+          "isCorrect": false,
+          "rationale": "Trung tâm thương mại là 'commercial center' hoặc 'shopping mall'."
+        }
+      ],
+      "hint": "Đây là khu vực tập trung nhiều nhà ở, căn hộ thay vì các nhà máy hay công ty."
+    },
+    {
+      "question": "Từ \"prohibit\" đồng nghĩa với từ nào sau đây?",
+      "answerOptions": [
+        {
+          "text": "Allow",
+          "isCorrect": false,
+          "rationale": "Allow có nghĩa là cho phép, là từ trái nghĩa của prohibit."
+        },
+        {
+          "text": "Ban",
+          "isCorrect": true,
+          "rationale": "Cả prohibit và ban đều có nghĩa là cấm đoán một hành động nào đó bằng luật lệ hoặc quy định."
+        },
+        {
+          "text": "Promote",
+          "isCorrect": false,
+          "rationale": "Promote có nghĩa là quảng bá hoặc thăng chức, không liên quan đến việc ngăn cấm."
+        },
+        {
+          "text": "Permit",
+          "isCorrect": false,
+          "rationale": "Permit cũng có nghĩa là cho phép, tương tự như allow."
+        }
+      ],
+      "hint": "Từ này thường xuất hiện trên các biển báo yêu cầu không được làm điều gì đó (ví dụ: hút thuốc)."
+    },
+    {
+      "question": "Sự khác biệt chính giữa \"certificate\" và \"certification\" là gì?",
+      "answerOptions": [
+        {
+          "text": "Hai từ này hoàn toàn giống hệt nhau về cách dùng",
+          "isCorrect": false,
+          "rationale": "Mặc dù liên quan, chúng có sắc thái khác nhau về đối tượng và quy trình."
+        },
+        {
+          "text": "Certificate là động từ, Certification là danh từ",
+          "isCorrect": false,
+          "rationale": "Cả hai đều là danh từ trong bối cảnh này."
+        },
+        {
+          "text": "Certificate là giấy chứng nhận đơn lẻ, Certification là sự cấp chứng chỉ/chứng nhận chuyên môn",
+          "isCorrect": true,
+          "rationale": "Certificate thường chỉ văn bằng cụ thể, còn Certification nhấn mạnh vào quá trình cấp hoặc chứng chỉ nghề nghiệp."
+        },
+        {
+          "text": "Certificate chỉ dùng trong y tế, Certification chỉ dùng trong giáo dục",
+          "isCorrect": false,
+          "rationale": "Cả hai từ đều có thể dùng đa dạng trong nhiều lĩnh vực khác nhau."
+        }
+      ],
+      "hint": "Một từ thường là tờ giấy hữu hình, từ còn lại thường chỉ hệ thống hoặc chứng chỉ chuyên môn cao hơn."
+    },
+    {
+      "question": "Từ \"substantial\" trong cụm \"substantial amount\" mang ý nghĩa gì?",
+      "answerOptions": [
+        {
+          "text": "Bí mật, riêng tư",
+          "isCorrect": false,
+          "rationale": "Bí mật là nghĩa của từ 'confidential'."
+        },
+        {
+          "text": "Tạm thời, ngắn hạn",
+          "isCorrect": false,
+          "rationale": "Tạm thời thường dùng từ 'temporary' hoặc 'provisional'."
+        },
+        {
+          "text": "Đáng kể, lớn lao",
+          "isCorrect": true,
+          "rationale": "Substantial được dùng để chỉ mức độ hoặc số lượng có tầm quan trọng và quy mô lớn."
+        },
+        {
+          "text": "Nhỏ bé, không quan trọng",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược hoàn toàn với substantial."
+        }
+      ],
+      "hint": "Nghĩ về một con số hoặc sự thay đổi đủ lớn để gây ra tác động mạnh mẽ."
+    },
+    {
+      "question": "Cụm từ \"confidential information\" dùng để chỉ loại thông tin nào?",
+      "answerOptions": [
+        {
+          "text": "Thông tin bảo mật, bí mật",
+          "isCorrect": true,
+          "rationale": "Confidential là tính từ chỉ những gì cần được giữ kín, không được tiết lộ ra ngoài."
+        },
+        {
+          "text": "Thông tin đại chúng",
+          "isCorrect": false,
+          "rationale": "Thông tin đại chúng thường dùng 'public information'."
+        },
+        {
+          "text": "Thông tin quảng cáo",
+          "isCorrect": false,
+          "rationale": "Thông tin quảng cáo là 'promotional information'."
+        },
+        {
+          "text": "Thông tin sai lệch",
+          "isCorrect": false,
+          "rationale": "Thông tin sai lệch có thể gọi là 'misinformation' hoặc 'false information'."
+        }
+      ],
+      "hint": "Đây là loại thông tin mà bạn phải cam kết không được kể cho người không liên quan biết."
+    },
+    {
+      "question": "Từ \"deliberate\" khi đóng vai trò là tính từ có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Nhanh chóng, tức thì",
+          "isCorrect": false,
+          "rationale": "Nhanh chóng là 'quick' hoặc 'prompt' như đã học ở bài trước."
+        },
+        {
+          "text": "Bắt buộc, cưỡng chế",
+          "isCorrect": false,
+          "rationale": "Bắt buộc là nghĩa của từ 'mandatory'."
+        },
+        {
+          "text": "Thận trọng, có suy tính",
+          "isCorrect": true,
+          "rationale": "Deliberate dùng để mô tả một hành động được thực hiện một cách có mục đích và chuẩn bị kỹ."
+        },
+        {
+          "text": "Ngẫu nhiên, vô tình",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược, thường dùng 'accidental' hoặc 'unintentional'."
+        }
+      ],
+      "hint": "Nghĩ về một quyết định được đưa ra sau khi đã suy nghĩ rất lâu và kỹ lưỡng."
+    },
+    {
+      "question": "Khi khách hàng cảm thấy không hài lòng với sản phẩm, họ thường thực hiện hành động \"complain\". Nghĩa của nó là gì?",
+      "answerOptions": [
+        {
+          "text": "Khen ngợi, tán dương",
+          "isCorrect": false,
+          "rationale": "Khen ngợi thường dùng 'praise' hoặc 'compliment'."
+        },
+        {
+          "text": "Phàn nàn, khiếu nại",
+          "isCorrect": true,
+          "rationale": "Complain là động từ chỉ việc bày tỏ sự không hài lòng về một vấn đề nào đó."
+        },
+        {
+          "text": "Đặt hàng thêm",
+          "isCorrect": false,
+          "rationale": "Đặt hàng là 'order'."
+        },
+        {
+          "text": "Giới thiệu sản phẩm",
+          "isCorrect": false,
+          "rationale": "Giới thiệu có thể là 'recommend' hoặc 'introduce'."
+        }
+      ],
+      "hint": "Đây là hành động bạn làm khi dịch vụ tại nhà hàng quá tệ."
+    },
+    {
+      "question": "Từ \"appreciate\" thường được dùng trong câu \"I appreciate your help\" với nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Yêu cầu, đòi hỏi",
+          "isCorrect": false,
+          "rationale": "Yêu cầu là 'request' hoặc 'require'."
+        },
+        {
+          "text": "Trân trọng, cảm kích",
+          "isCorrect": true,
+          "rationale": "Appreciate thể hiện sự biết ơn hoặc đánh giá cao giá trị của ai đó/việc gì đó."
+        },
+        {
+          "text": "Phê bình, chỉ trích",
+          "isCorrect": false,
+          "rationale": "Phê bình thường dùng 'criticize'."
+        },
+        {
+          "text": "Từ chối, bác bỏ",
+          "isCorrect": false,
+          "rationale": "Từ chối là 'reject' hoặc 'decline'."
+        }
+      ],
+      "hint": "Đây là cách trang trọng để nói lời cảm ơn khi ai đó làm điều gì tốt cho bạn."
+    },
+    {
+      "question": "Trong cụm từ \"Asian region\", từ \"region\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Quốc gia",
+          "isCorrect": false,
+          "rationale": "Quốc gia là 'country' hoặc 'nation'."
+        },
+        {
+          "text": "Lục địa",
+          "isCorrect": false,
+          "rationale": "Lục địa là 'continent'."
+        },
+        {
+          "text": "Vùng, khu vực",
+          "isCorrect": true,
+          "rationale": "Region dùng để chỉ một phạm vi địa lý hoặc hành chính cụ thể."
+        },
+        {
+          "text": "Thành phố",
+          "isCorrect": false,
+          "rationale": "Thành phố là 'city'."
+        }
+      ],
+      "hint": "Từ này có nghĩa tương đương với 'area' hoặc 'district'."
+    },
+    {
+      "question": "Nếu một sản phẩm được bán \"exclusively online\", điều đó có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Chủ yếu là bán online",
+          "isCorrect": false,
+          "rationale": "Chủ yếu thường dùng 'mainly' hoặc 'primarily'."
+        },
+        {
+          "text": "Bán ở cả cửa hàng và online",
+          "isCorrect": false,
+          "rationale": "Nếu bán ở cả hai nơi thì không dùng trạng từ exclusively."
+        },
+        {
+          "text": "Không bao giờ bán online",
+          "isCorrect": false,
+          "rationale": "Nghĩa này trái ngược với đề bài."
+        },
+        {
+          "text": "Duy nhất, chỉ dành riêng trên mạng",
+          "isCorrect": true,
+          "rationale": "Exclusively mang nghĩa là độc quyền, duy nhất, không bao gồm các kênh khác."
+        }
+      ],
+      "hint": "Từ này nhấn mạnh tính 'độc nhất' của một địa điểm hoặc đối tượng cụ thể."
+    },
+    {
+      "question": "Nghĩa của từ \"attendance\" trong cụm \"attendance record\" là gì?",
+      "answerOptions": [
+        {
+          "text": "Sự vắng mặt",
+          "isCorrect": false,
+          "rationale": "Vắng mặt là 'absence'."
+        },
+        {
+          "text": "Sự thăng tiến",
+          "isCorrect": false,
+          "rationale": "Thăng tiến liên quan đến từ 'promotion'."
+        },
+        {
+          "text": "Sự tham dự, có mặt",
+          "isCorrect": true,
+          "rationale": "Attendance là danh từ chỉ việc có mặt tại một sự kiện hoặc nơi làm việc."
+        },
+        {
+          "text": "Sự chú ý",
+          "isCorrect": false,
+          "rationale": "Chú ý là 'attention'."
+        }
+      ],
+      "hint": "Danh từ này xuất phát từ động từ 'attend' (tham gia)."
+    },
+    {
+      "question": "Từ nào sau đây có nghĩa là \"đóng góp vào\"?",
+      "answerOptions": [
+        {
+          "text": "Attribute to",
+          "isCorrect": false,
+          "rationale": "Attribute to thường mang nghĩa là quy cho/do cái gì đó."
+        },
+        {
+          "text": "Complain about",
+          "isCorrect": false,
+          "rationale": "Đây là phàn nàn về vấn đề gì đó."
+        },
+        {
+          "text": "Contribute to",
+          "isCorrect": true,
+          "rationale": "Contribute đi với giới từ 'to' để chỉ việc góp phần vào sự thành công hoặc một nguyên nhân nào đó."
+        },
+        {
+          "text": "Distribute to",
+          "isCorrect": false,
+          "rationale": "Distribute là phân phát, không phải đóng góp."
+        }
+      ],
+      "hint": "Khi bạn cùng mọi người làm từ thiện hoặc hỗ trợ dự án, bạn đang làm hành động này."
+    },
+    {
+      "question": "Từ \"branch\" trong \"open a new branch\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Trụ sở chính",
+          "isCorrect": false,
+          "rationale": "Trụ sở chính là 'headquarters' hoặc 'main office'."
+        },
+        {
+          "text": "Nhân viên",
+          "isCorrect": false,
+          "rationale": "Nhân viên là 'staff' hoặc 'employee'."
+        },
+        {
+          "text": "Cành cây",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa gốc của branch nhưng không phù hợp trong bối cảnh thi TOEIC/kinh doanh."
+        },
+        {
+          "text": "Chi nhánh",
+          "isCorrect": true,
+          "rationale": "Trong kinh doanh, branch là một văn phòng hoặc cửa hàng đại diện tại một địa điểm mới."
+        }
+      ],
+      "hint": "Nghĩ về một ngân hàng có nhiều địa điểm giao dịch khác nhau ở khắp các quận."
+    },
+    {
+      "question": "Trạng từ \"actively\" trong cụm \"actively participate\" mang nghĩa gì?",
+      "answerOptions": [
+        {
+          "text": "Một cách tích cực, chủ động",
+          "isCorrect": true,
+          "rationale": "Actively mô tả việc thực hiện hành động với sự nhiệt tình và nỗ lực rõ rệt."
+        },
+        {
+          "text": "Một cách hiếm khi",
+          "isCorrect": false,
+          "rationale": "Hiếm khi là 'rarely' hoặc 'seldom'."
+        },
+        {
+          "text": "Một cách thụ động",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược, thường dùng 'passively'."
+        },
+        {
+          "text": "Một cách bí mật",
+          "isCorrect": false,
+          "rationale": "Bí mật là 'secretly' hoặc 'confidentially'."
+        }
+      ],
+      "hint": "Khi bạn không chỉ tham gia cho có mà còn đóng góp rất nhiều ý kiến, bạn đang tham gia như thế này."
+    },
+    {
+      "question": "Từ \"cord\" thường được dùng để chỉ vật gì?",
+      "answerOptions": [
+        {
+          "text": "Bàn làm việc",
+          "isCorrect": false,
+          "rationale": "Bàn làm việc là 'desk'."
+        },
+        {
+          "text": "Cái móc",
+          "isCorrect": false,
+          "rationale": "Cái móc là 'hook' như đã học ở bài trước."
+        },
+        {
+          "text": "Dây điện, dây buộc",
+          "isCorrect": true,
+          "rationale": "Cord là một loại dây thừng nhỏ hoặc dây dẫn điện có bọc vỏ cách điện."
+        },
+        {
+          "text": "Tấm thảm",
+          "isCorrect": false,
+          "rationale": "Tấm thảm là 'carpet' hoặc 'rug'."
+        }
+      ],
+      "hint": "Vật này được dùng để kết nối máy tính với ổ cắm điện."
+    },
+    {
+      "question": "Nghĩa của từ \"division\" trong bối cảnh tổ chức công ty là gì?",
+      "answerOptions": [
+        {
+          "text": "Sự đoàn kết",
+          "isCorrect": false,
+          "rationale": "Sự đoàn kết là 'unity', ngược nghĩa với nghĩa gốc của division (sự phân chia)."
+        },
+        {
+          "text": "Phép chia toán học",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trong toán học, không phải trong quản trị kinh doanh."
+        },
+        {
+          "text": "Phân bộ, phòng ban",
+          "isCorrect": true,
+          "rationale": "Division dùng để chỉ các bộ phận lớn trong một tập đoàn hoặc công ty."
+        },
+        {
+          "text": "Quy định chung",
+          "isCorrect": false,
+          "rationale": "Quy định thường dùng 'regulation' hoặc 'rule'."
+        }
+      ],
+      "hint": "Từ này có nghĩa tương đương với 'department'."
+    },
+    {
+      "question": "Từ nào sau đây mang nghĩa là \"đáng kể\" (đồng nghĩa với Significant)?",
+      "answerOptions": [
+        {
+          "text": "Constant",
+          "isCorrect": false,
+          "rationale": "Constant có nghĩa là liên tục, không thay đổi."
+        },
+        {
+          "text": "Remarkable",
+          "isCorrect": true,
+          "rationale": "Cả hai từ đều dùng để chỉ sự thay đổi hoặc thành quả ấn tượng, đáng chú ý."
+        },
+        {
+          "text": "Insignificant",
+          "isCorrect": false,
+          "rationale": "Đây là tiền tố phủ định, mang nghĩa là không quan trọng/không đáng kể."
+        },
+        {
+          "text": "Minor",
+          "isCorrect": false,
+          "rationale": "Minor có nghĩa là nhỏ, không đáng kể, trái nghĩa với significant."
+        }
+      ],
+      "hint": "Hãy tìm một tính từ mô tả điều gì đó gây ấn tượng mạnh do quy mô hoặc tầm quan trọng của nó."
+    },
+    {
+      "question": "Trong tài chính, \"stock market\" được hiểu là gì?",
+      "answerOptions": [
+        {
+          "text": "Hệ thống thanh toán",
+          "isCorrect": false,
+          "rationale": "Hệ thống thanh toán là 'payment system'."
+        },
+        {
+          "text": "Thị trường hàng hóa",
+          "isCorrect": false,
+          "rationale": "Thị trường hàng hóa thường dùng 'commodity market'."
+        },
+        {
+          "text": "Kho chứa hàng",
+          "isCorrect": false,
+          "rationale": "Kho chứa là 'warehouse' hoặc 'stockroom'."
+        },
+        {
+          "text": "Thị trường chứng khoán",
+          "isCorrect": true,
+          "rationale": "Đây là nơi diễn ra các hoạt động mua bán cổ phiếu và các loại chứng khoán khác."
+        }
+      ],
+      "hint": "Liên quan đến việc đầu tư cổ phiếu của các công ty."
+    },
+    {
+      "question": "Từ \"deliberation\" (danh từ) mang ý nghĩa gì?",
+      "answerOptions": [
+        {
+          "text": "Sự vội vã",
+          "isCorrect": false,
+          "rationale": "Sự vội vã là 'haste' hoặc 'hurry'."
+        },
+        {
+          "text": "Sự cân nhắc kỹ lưỡng",
+          "isCorrect": true,
+          "rationale": "Deliberation là quá trình thảo luận hoặc suy nghĩ cẩn thận trước khi đưa ra quyết định."
+        },
+        {
+          "text": "Sự phân phát",
+          "isCorrect": false,
+          "rationale": "Sự phân phát là 'distribution'."
+        },
+        {
+          "text": "Sự thăng chức",
+          "isCorrect": false,
+          "rationale": "Sự thăng chức là 'promotion'."
+        }
+      ],
+      "hint": "Đây là việc mà một hội đồng quản trị làm trước khi ký kết một hợp đồng lớn."
+    },
+    {
+      "question": "Từ \"illness\" đồng nghĩa với từ nào sau đây?",
+      "answerOptions": [
+        {
+          "text": "Fitness",
+          "isCorrect": false,
+          "rationale": "Fitness chỉ sự cân đối và khỏe mạnh của cơ thể."
+        },
+        {
+          "text": "Sickness",
+          "isCorrect": true,
+          "rationale": "Cả hai từ đều dùng để chỉ trạng thái không khỏe hoặc bị bệnh."
+        },
+        {
+          "text": "Health",
+          "isCorrect": false,
+          "rationale": "Health là sức khỏe, trái nghĩa hoàn toàn với illness."
+        },
+        {
+          "text": "Wellness",
+          "isCorrect": false,
+          "rationale": "Wellness chỉ tình trạng sức khỏe tốt và lối sống lành mạnh."
+        }
+      ],
+      "hint": "Nghĩ về lý do khiến một nhân viên phải xin nghỉ phép (sick leave)."
+    },
+    {
+      "question": "Cụm từ \"significant increase\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Sự giữ nguyên mức cũ",
+          "isCorrect": false,
+          "rationale": "Giữ nguyên có thể dùng 'remain constant'."
+        },
+        {
+          "text": "Sự gia tăng đột ngột nhưng nhỏ",
+          "isCorrect": false,
+          "rationale": "Significant luôn mang sắc thái quan trọng hoặc to lớn."
+        },
+        {
+          "text": "Sự gia tăng đáng kể",
+          "isCorrect": true,
+          "rationale": "Significant bổ nghĩa cho increase để nhấn mạnh mức độ tăng trưởng lớn."
+        },
+        {
+          "text": "Sự sụt giảm nhẹ",
+          "isCorrect": false,
+          "rationale": "Sụt giảm là 'decrease' và nhẹ là 'slight'."
+        }
+      ],
+      "hint": "Thường dùng để mô tả lợi nhuận công ty tăng mạnh so với năm ngoái."
+    },
+    {
+      "question": "Khi muốn nói về việc \"tuân thủ nghiêm ngặt lệnh cấm\", ta dùng cụm nào với \"prohibit\"?",
+      "answerOptions": [
+        {
+          "text": "Mandatory prohibited",
+          "isCorrect": false,
+          "rationale": "Cụm này không tự nhiên, vì cả hai đều là tính từ mang nghĩa bắt buộc/cấm."
+        },
+        {
+          "text": "Exclusively prohibited",
+          "isCorrect": false,
+          "rationale": "Exclusively thường đi với các quyền lợi dành riêng thay vì lệnh cấm."
+        },
+        {
+          "text": "Strictly prohibited",
+          "isCorrect": true,
+          "rationale": "Strictly là trạng từ nhấn mạnh tính nghiêm khắc của lệnh cấm (prohibited)."
+        },
+        {
+          "text": "Substantially prohibited",
+          "isCorrect": false,
+          "rationale": "Substantially thường dùng cho số lượng hoặc mức độ đóng góp."
+        }
+      ],
+      "hint": "Cụm từ này thường thấy trên các biển báo cấm hút thuốc hoặc cấm vào."
+    },
+    {
+      "question": "Trong TOEIC, cụm \"sales region\" dùng để chỉ điều gì?",
+      "answerOptions": [
+        {
+          "text": "Cửa hàng bán lẻ",
+          "isCorrect": false,
+          "rationale": "Cửa hàng bán lẻ là 'retail store'."
+        },
+        {
+          "text": "Doanh số bán hàng",
+          "isCorrect": false,
+          "rationale": "Doanh số là 'sales figures'."
+        },
+        {
+          "text": "Khu vực kinh doanh/bán hàng",
+          "isCorrect": true,
+          "rationale": "Region kết hợp với sales để chỉ phạm vi địa lý mà một đội ngũ bán hàng phụ trách."
+        },
+        {
+          "text": "Thời gian khuyến mãi",
+          "isCorrect": false,
+          "rationale": "Thời gian khuyến mãi là 'promotion period'."
+        }
+      ],
+      "hint": "Nghĩ về việc phân chia thị trường theo các vùng miền (Bắc, Trung, Nam)."
+    },
+    {
+      "question": "Nghĩa của trạng từ \"substantially\" là gì?",
+      "answerOptions": [
+        {
+          "text": "Đáng kể, lớn lao",
+          "isCorrect": true,
+          "rationale": "Đây là trạng từ của 'substantial', dùng để mô tả mức độ của hành động hoặc sự thay đổi."
+        },
+        {
+          "text": "Một cách bắt buộc",
+          "isCorrect": false,
+          "rationale": "Bắt buộc thường dùng 'compulsorily'."
+        },
+        {
+          "text": "Một cách bí mật",
+          "isCorrect": false,
+          "rationale": "Bí mật là 'confidentially'."
+        },
+        {
+          "text": "Một cách hời hợt",
+          "isCorrect": false,
+          "rationale": "Một cách hời hợt thường dùng 'superficially'."
+        }
+      ],
+      "hint": "Nó đồng nghĩa với 'significantly' hoặc 'considerably'."
+    },
+    {
+      "question": "Cụm từ \"professional certification\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Giấy khai sinh",
+          "isCorrect": false,
+          "rationale": "Giấy khai sinh là 'birth certificate'."
+        },
+        {
+          "text": "Sự phát triển sự nghiệp",
+          "isCorrect": false,
+          "rationale": "Sự phát triển sự nghiệp là 'professional development'."
+        },
+        {
+          "text": "Chứng chỉ chuyên môn/nghề nghiệp",
+          "isCorrect": true,
+          "rationale": "Certification dùng cho các chứng chỉ xác nhận trình độ kỹ năng trong một ngành nghề cụ thể."
+        },
+        {
+          "text": "Thái độ chuyên nghiệp",
+          "isCorrect": false,
+          "rationale": "Thái độ là 'professional attitude' hoặc 'professionalism'."
+        }
+      ],
+      "hint": "Đây là thứ mà các kế toán viên (CPA) hay kỹ sư phải thi để có được."
+    },
+    {
+      "question": "Từ \"exit\" đóng vai trò là động từ mang nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Rời khỏi",
+          "isCorrect": true,
+          "rationale": "Dưới dạng động từ, exit có nghĩa là đi ra ngoài hoặc rời khỏi một tòa nhà/khu vực."
+        },
+        {
+          "text": "Đi vào",
+          "isCorrect": false,
+          "rationale": "Đi vào là 'enter', trái nghĩa với exit."
+        },
+        {
+          "text": "Tìm kiếm",
+          "isCorrect": false,
+          "rationale": "Tìm kiếm là 'search' hoặc 'seek'."
+        },
+        {
+          "text": "Sửa chữa",
+          "isCorrect": false,
+          "rationale": "Sửa chữa thường dùng 'repair' hoặc 'fix'."
+        }
+      ],
+      "hint": "Khi buổi hòa nhạc kết thúc, mọi người bắt đầu hành động này khỏi nhà hát."
+    },
+    {
+      "question": "Tính từ \"confidential\" đồng nghĩa với từ nào sau đây?",
+      "answerOptions": [
+        {
+          "text": "Formal",
+          "isCorrect": false,
+          "rationale": "Formal có nghĩa là trang trọng, không nhất thiết phải là bí mật."
+        },
+        {
+          "text": "Mandatory",
+          "isCorrect": false,
+          "rationale": "Mandatory có nghĩa là bắt buộc."
+        },
+        {
+          "text": "Public",
+          "isCorrect": false,
+          "rationale": "Đây là từ trái nghĩa, mang nghĩa công khai."
+        },
+        {
+          "text": "Secret",
+          "isCorrect": true,
+          "rationale": "Cả hai từ đều mô tả những thứ không được phép để lộ cho công chúng."
+        }
+      ],
+      "hint": "Thông tin về lương nhân viên thường được coi là thuộc tính này."
+    }
+  ]
+}

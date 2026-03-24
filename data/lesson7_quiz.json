@@ -1,0 +1,395 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 7",
+  "questions": [
+    {
+      "question": "Trong môi trường công sở, từ 'confidential' thường được dùng để mô tả loại thông tin nào?",
+      "answerOptions": [
+        {
+          "text": "Thông tin công khai dành cho tất cả mọi người",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược hoàn toàn, vì thông tin bảo mật không được phổ biến rộng rãi."
+        },
+        {
+          "text": "Thông tin đã lỗi thời và không còn giá trị",
+          "isCorrect": false,
+          "rationale": "Tính chất bảo mật liên quan đến quyền tiếp cận thông tin chứ không phải là giá trị thời gian của nó."
+        },
+        {
+          "text": "Thông tin liên quan đến các chiến dịch quảng cáo",
+          "isCorrect": false,
+          "rationale": "Mặc dù chiến dịch quảng cáo có thể chứa thông tin bảo mật trước khi ra mắt, nhưng từ này không dùng để định nghĩa loại hình quảng cáo."
+        },
+        {
+          "text": "Thông tin bảo mật, không được tiết lộ ra ngoài",
+          "isCorrect": true,
+          "rationale": "Từ này dùng để chỉ những thông tin mang tính riêng tư hoặc bí mật mà chỉ những người có thẩm quyền mới được biết."
+        }
+      ],
+      "hint": "Hãy nghĩ đến các tài liệu mà bạn cần có mật mã hoặc sự cho phép đặc biệt để xem."
+    },
+    {
+      "question": "Từ nào sau đây là từ đồng nghĩa phổ biến nhất của 'postpone' trong bài thi TOEIC?",
+      "answerOptions": [
+        {
+          "text": "Advance",
+          "isCorrect": false,
+          "rationale": "Đây là từ mang nghĩa trái ngược, ám chỉ việc đẩy nhanh tiến độ hoặc làm cho điều gì đó xảy ra sớm hơn."
+        },
+        {
+          "text": "Cancel",
+          "isCorrect": false,
+          "rationale": "Hủy bỏ có nghĩa là sự kiện sẽ không diễn ra nữa, trong khi hoãn lại nghĩa là nó vẫn diễn ra nhưng vào lúc khác."
+        },
+        {
+          "text": "Delay",
+          "isCorrect": true,
+          "rationale": "Cả hai từ này đều có nghĩa là dời lịch hoặc hoãn một sự kiện lại sau thời gian dự kiến ban đầu."
+        },
+        {
+          "text": "Organize",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ hành động sắp xếp hoặc tổ chức, không mang nghĩa thay đổi thời điểm diễn ra sự kiện."
+        }
+      ],
+      "hint": "Đây là hành động dời một cuộc họp sang một ngày khác muộn hơn."
+    },
+    {
+      "question": "Khi một khách sạn nói rằng họ có thể 'accommodate' 200 khách, điều này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Họ đang từ chối phục vụ thêm khách vì đã hết chỗ",
+          "isCorrect": false,
+          "rationale": "Nghĩa của từ này thiên về việc đáp ứng hoặc cung cấp, không phải là từ chối."
+        },
+        {
+          "text": "Họ đang yêu cầu khách phải thanh toán trước",
+          "isCorrect": false,
+          "rationale": "Việc đáp ứng chỗ ở liên quan đến sức chứa vật lý chứ không liên quan trực tiếp đến quy trình thanh toán."
+        },
+        {
+          "text": "Họ đang tuyển thêm nhân viên để phục vụ khách",
+          "isCorrect": false,
+          "rationale": "Mặc dù việc có nhiều khách có thể dẫn đến thuê thêm người, nhưng bản thân từ này không có nghĩa là tuyển dụng."
+        },
+        {
+          "text": "Họ có đủ không gian để chứa hoặc phục vụ số lượng khách đó",
+          "isCorrect": true,
+          "rationale": "Trong ngữ cảnh này, từ này dùng để chỉ khả năng cung cấp chỗ ở hoặc đáp ứng nhu cầu về không gian."
+        }
+      ],
+      "hint": "Hãy xem xét khả năng chứa đựng hoặc cung cấp dịch vụ của một cơ sở vật chất."
+    },
+    {
+      "question": "Cụm từ 'eligible for a refund' có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Phải trả thêm một khoản phí phạt khi trả lại hàng",
+          "isCorrect": false,
+          "rationale": "Hoàn tiền là việc nhận lại tiền, trong khi phí phạt là việc phải chi trả thêm."
+        },
+        {
+          "text": "Đang trong quá trình chờ đợi hàng hóa được giao đến",
+          "isCorrect": false,
+          "rationale": "Việc đủ điều kiện hoàn tiền chỉ xảy ra sau khi giao dịch đã thực hiện, không liên quan đến việc chờ giao hàng."
+        },
+        {
+          "text": "Đủ điều kiện để nhận lại tiền đã thanh toán",
+          "isCorrect": true,
+          "rationale": "Từ này chỉ trạng thái một người đáp ứng đầy đủ các tiêu chí hoặc quy định để được hoàn trả tiền."
+        },
+        {
+          "text": "Bị từ chối quyền được hoàn tiền do lỗi của khách hàng",
+          "isCorrect": false,
+          "rationale": "Đây là trạng thái ngược lại; nếu đủ điều kiện, khách hàng sẽ nhận được tiền chứ không phải bị từ chối."
+        }
+      ],
+      "hint": "Hãy nghĩ đến việc bạn đáp ứng các chính sách của cửa hàng để lấy lại tiền khi trả hàng."
+    },
+    {
+      "question": "Từ 'merchandise' thường được sử dụng để chỉ đối tượng nào trong kinh doanh?",
+      "answerOptions": [
+        {
+          "text": "Vị trí địa lý của một tòa nhà văn phòng",
+          "isCorrect": false,
+          "rationale": "Vị trí thuộc về bất động sản, trong khi hàng hóa thường là những vật phẩm có thể di dời và trao đổi."
+        },
+        {
+          "text": "Các loại hàng hóa được bày bán tại cửa hàng",
+          "isCorrect": true,
+          "rationale": "Từ này là thuật ngữ chung để chỉ sản phẩm hoặc hàng hóa mà một doanh nghiệp mua và bán để kiếm lời."
+        },
+        {
+          "text": "Hóa đơn thanh toán tiền điện nước của công ty",
+          "isCorrect": false,
+          "rationale": "Hóa đơn là chứng từ tài chính, không phải là hàng hóa hữu hình để bán."
+        },
+        {
+          "text": "Các nhân viên làm việc tại bộ phận kho",
+          "isCorrect": false,
+          "rationale": "Đây là từ chỉ đồ vật, không phải từ chỉ người hay nghề nghiệp."
+        }
+      ],
+      "hint": "Đây là những thứ bạn nhìn thấy trên kệ trong một cửa hàng bách hóa."
+    },
+    {
+      "question": "Cụm từ 'schedule a delivery' ám chỉ hành động nào sau đây?",
+      "answerOptions": [
+        {
+          "text": "Hủy bỏ một chuyến hàng do thời tiết xấu",
+          "isCorrect": false,
+          "rationale": "Lên lịch là thiết lập thời gian, trái ngược với việc hủy bỏ một kế hoạch đã có."
+        },
+        {
+          "text": "Kiểm kê số lượng hàng hóa còn lại trong kho",
+          "isCorrect": false,
+          "rationale": "Việc kiểm kê là hoạt động quản lý kho, còn cụm từ này tập trung vào khâu vận chuyển hàng đến khách."
+        },
+        {
+          "text": "Sắp xếp và ấn định thời gian để giao hàng",
+          "isCorrect": true,
+          "rationale": "Động từ này nghĩa là lên kế hoạch cho một sự kiện xảy ra vào một thời điểm cụ thể trong tương lai."
+        },
+        {
+          "text": "Đóng gói sản phẩm vào hộp để chuẩn bị vận chuyển",
+          "isCorrect": false,
+          "rationale": "Đóng gói là bước vật lý chuẩn bị hàng, còn lên lịch là bước quản lý thời gian vận chuyển."
+        }
+      ],
+      "hint": "Hãy tưởng tượng bạn gọi điện cho bên vận chuyển để chọn ngày nhận món đồ bạn đã mua."
+    },
+    {
+      "question": "Nếu bạn thực hiện một yêu cầu 'in person', điều đó có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Bạn nhờ một người đồng nghiệp làm hộ",
+          "isCorrect": false,
+          "rationale": "Làm hộ có nghĩa là thông qua đại diện, trái với nghĩa tự mình có mặt trực tiếp."
+        },
+        {
+          "text": "Bạn đến tận nơi để gặp mặt và thực hiện trực tiếp",
+          "isCorrect": true,
+          "rationale": "Cụm từ này nhấn mạnh việc có mặt thực tế của một người thay vì liên lạc qua trung gian hoặc công nghệ."
+        },
+        {
+          "text": "Bạn gửi yêu cầu thông qua thư bưu điện",
+          "isCorrect": false,
+          "rationale": "Gửi thư là hình thức liên lạc gián tiếp, không phải là gặp mặt trực tiếp."
+        },
+        {
+          "text": "Bạn sử dụng ứng dụng trên điện thoại để đăng ký",
+          "isCorrect": false,
+          "rationale": "Đây là hình thức trực tuyến (online), không yêu cầu sự hiện diện vật lý tại địa điểm."
+        }
+      ],
+      "hint": "Hãy nghĩ đến việc bạn không dùng điện thoại hay email mà đi bộ đến văn phòng của họ."
+    },
+    {
+      "question": "Một sản phẩm bị coi là 'faulty' khi nó có đặc điểm nào?",
+      "answerOptions": [
+        {
+          "text": "Được bán với mức giá giảm cực sâu",
+          "isCorrect": false,
+          "rationale": "Hàng giảm giá có thể vì nhiều lý do, còn hàng bị lỗi là vấn đề về tình trạng vật lý của sản phẩm."
+        },
+        {
+          "text": "Bị lỗi, hỏng hóc hoặc không hoạt động đúng cách",
+          "isCorrect": true,
+          "rationale": "Từ này mô tả tình trạng vật phẩm có khuyết điểm về chức năng hoặc cấu tạo khiến nó không thể sử dụng bình thường."
+        },
+        {
+          "text": "Có thiết kế hiện đại và rất dễ sử dụng",
+          "isCorrect": false,
+          "rationale": "Đây là một đặc tính tích cực, trong khi từ này mang nghĩa tiêu cực về chất lượng."
+        },
+        {
+          "text": "Vẫn còn trong thời hạn bảo hành của nhà sản xuất",
+          "isCorrect": false,
+          "rationale": "Bảo hành là dịch vụ đi kèm, không phải là tính chất hỏng hóc của bản thân món đồ."
+        }
+      ],
+      "hint": "Hãy nghĩ đến một chiếc máy ảnh mới mua nhưng không thể bật nguồn được."
+    },
+    {
+      "question": "Từ 'access' trong cụm 'access confidential files' đóng vai trò là loại từ gì và nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Trạng từ, có nghĩa là thực hiện một cách cẩn thận",
+          "isCorrect": false,
+          "rationale": "Từ này không có chức năng là trạng từ chỉ cách thức hành động."
+        },
+        {
+          "text": "Động từ, có nghĩa là truy cập hoặc tiếp cận",
+          "isCorrect": true,
+          "rationale": "Trong ngữ cảnh này, nó diễn tả hành động đi vào hoặc sử dụng thông tin từ các tệp tin."
+        },
+        {
+          "text": "Danh từ, có nghĩa là lối đi bộ trong văn phòng",
+          "isCorrect": false,
+          "rationale": "Mặc dù có thể là danh từ, nhưng nghĩa 'lối đi' không phù hợp khi đi kèm với 'tệp tin dữ liệu'."
+        },
+        {
+          "text": "Tính từ, có nghĩa là rất đắt tiền và sang trọng",
+          "isCorrect": false,
+          "rationale": "Từ này không phải là tính từ chỉ giá trị hay phong cách của đồ vật."
+        }
+      ],
+      "hint": "Hãy xem xét hành động bạn thực hiện khi nhập mật khẩu để mở một tài liệu trên máy tính."
+    },
+    {
+      "question": "Nghĩa của động từ 'monitor' trong câu 'The supervisor monitors the system 24/7' là gì?",
+      "answerOptions": [
+        {
+          "text": "Thay thế hệ thống cũ bằng một phiên bản mới hơn",
+          "isCorrect": false,
+          "rationale": "Thay thế (replace) là một thay đổi lớn, không phải là hoạt động quan sát liên tục."
+        },
+        {
+          "text": "Cài đặt phần mềm mới vào máy tính",
+          "isCorrect": false,
+          "rationale": "Cài đặt (install) là thiết lập ban đầu, không phải là việc theo dõi duy trì."
+        },
+        {
+          "text": "Sửa chữa các linh kiện bị hỏng của hệ thống",
+          "isCorrect": false,
+          "rationale": "Việc giám sát chỉ là bước phát hiện lỗi, còn sửa chữa là một hành động kỹ thuật khác (repair)."
+        },
+        {
+          "text": "Giám sát, theo dõi sát sao tiến độ hoặc tình trạng",
+          "isCorrect": true,
+          "rationale": "Từ này chỉ việc quan sát và kiểm tra thường xuyên để đảm bảo mọi thứ hoạt động ổn định hoặc đúng quy trình."
+        }
+      ],
+      "hint": "Hãy nghĩ đến công việc của một nhân viên bảo vệ khi nhìn vào các màn hình camera an ninh."
+    },
+    {
+      "question": "Động từ 'direct' trong ngữ cảnh 'direct the customer to the service desk' mang ý nghĩa gì?",
+      "answerOptions": [
+        {
+          "text": "Yêu cầu khách hàng thanh toán bằng biên lai",
+          "isCorrect": false,
+          "rationale": "Đây là hành động đòi hỏi tài chính, không phải là hành động chỉ dẫn phương hướng."
+        },
+        {
+          "text": "Hướng dẫn hoặc chỉ đường cho ai đó",
+          "isCorrect": true,
+          "rationale": "Từ này dùng để chỉ dẫn người khác đi đến một vị trí cụ thể hoặc cung cấp thông tin về hướng đi."
+        },
+        {
+          "text": "Phàn nàn với khách hàng về một lỗi dịch vụ",
+          "isCorrect": false,
+          "rationale": "Phàn nàn (complain) là hành động bày tỏ sự không hài lòng, trái ngược với việc giúp đỡ chỉ đường."
+        },
+        {
+          "text": "Sản xuất hàng hóa theo yêu cầu của khách",
+          "isCorrect": false,
+          "rationale": "Sản xuất (manufacture) liên quan đến chế tạo, không liên quan đến việc hướng dẫn vị trí."
+        }
+      ],
+      "hint": "Hãy tưởng tượng bạn là một nhân viên lễ tân đang chỉ cho khách hàng biết quầy hỗ trợ ở đâu."
+    },
+    {
+      "question": "Trong cụm từ 'nature preserve', từ 'preserve' có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Hành động phá hủy các nguồn tài nguyên thiên nhiên",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược hoàn toàn vì từ này mang nghĩa bảo vệ và duy trì."
+        },
+        {
+          "text": "Một loại thực phẩm đóng hộp bán trong siêu thị",
+          "isCorrect": false,
+          "rationale": "Mặc dù 'preserves' có thể chỉ mứt hoặc đồ bảo quản, nhưng trong cụm 'nature preserve', nó chỉ địa điểm."
+        },
+        {
+          "text": "Một tòa nhà văn phòng hiện đại giữa trung tâm",
+          "isCorrect": false,
+          "rationale": "Từ này liên quan đến thiên nhiên và sự bảo vệ, không phải là các kiến trúc đô thị mới."
+        },
+        {
+          "text": "Khu bảo tồn (nơi động thực vật được bảo vệ)",
+          "isCorrect": true,
+          "rationale": "Khi đóng vai trò là danh từ trong cụm này, nó chỉ một khu vực thiên nhiên được duy trì và bảo vệ khỏi sự xâm hại."
+        }
+      ],
+      "hint": "Hãy nghĩ đến một khu rừng nơi việc săn bắn và khai thác gỗ bị cấm để bảo vệ động vật."
+    },
+    {
+      "question": "Khi nói về thời gian, động từ 'last' trong câu 'The meeting lasted for three hours' có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Kéo dài trong một khoảng thời gian nhất định",
+          "isCorrect": true,
+          "rationale": "Từ này diễn tả độ dài thời gian mà một sự kiện hoặc hoạt động diễn ra từ lúc bắt đầu đến lúc kết thúc."
+        },
+        {
+          "text": "Là người cuối cùng đến tham dự buổi họp",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa tính từ/trạng từ của từ này, không phải là nghĩa động từ diễn tả thời gian."
+        },
+        {
+          "text": "Kết thúc đột ngột do gặp sự cố kỹ thuật",
+          "isCorrect": false,
+          "rationale": "Kết thúc đột ngột là trạng thái chấm dứt, không chỉ thời lượng tồn tại của sự việc."
+        },
+        {
+          "text": "Bắt đầu muộn hơn so với dự kiến ban đầu",
+          "isCorrect": false,
+          "rationale": "Bắt đầu muộn liên quan đến thời điểm khởi đầu, không diễn tả toàn bộ quá trình diễn ra."
+        }
+      ],
+      "hint": "Hãy xem xét khoảng thời gian từ khi buổi họp bắt đầu lúc 9 giờ và kết thúc lúc 12 giờ."
+    },
+    {
+      "question": "Từ 'distribute' trong câu 'The staff will distribute flyers to commuters' có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Phân phát hoặc chia sẻ cái gì đó cho nhiều người",
+          "isCorrect": true,
+          "rationale": "Động từ này nghĩa là đưa ra các vật phẩm (như tờ rơi, hàng hóa) cho một nhóm người ở các địa điểm khác nhau."
+        },
+        {
+          "text": "Bán hàng hóa với mức giá chiết khấu cao",
+          "isCorrect": false,
+          "rationale": "Việc bán hàng (sell) liên quan đến giao dịch tiền bạc, còn phân phát có thể là miễn phí."
+        },
+        {
+          "text": "Thu thập lại tất cả tài liệu sau buổi họp",
+          "isCorrect": false,
+          "rationale": "Thu thập (collect) là hành động gom lại, trái ngược với việc phát ra (distribute)."
+        },
+        {
+          "text": "Thiết kế và in ấn các loại tờ quảng cáo",
+          "isCorrect": false,
+          "rationale": "Thiết kế và in ấn là khâu sản xuất, còn từ này tập trung vào khâu đưa sản phẩm đến tay người dùng."
+        }
+      ],
+      "hint": "Hãy nghĩ đến việc một người đứng ở cổng ga tàu và đưa tờ rơi cho từng người đi ngang qua."
+    },
+    {
+      "question": "Từ 'accurate' dùng để mô tả thông tin có tính chất như thế nào?",
+      "answerOptions": [
+        {
+          "text": "Được trình bày một cách đẹp mắt, thu hút",
+          "isCorrect": false,
+          "rationale": "Hình thức trình bày (attractive) không đảm bảo được tính đúng đắn của nội dung bên trong."
+        },
+        {
+          "text": "Cực kỳ bí mật và nhạy cảm",
+          "isCorrect": false,
+          "rationale": "Đây là tính chất bảo mật (confidential), không phải là tính chất chính xác của dữ liệu."
+        },
+        {
+          "text": "Chính xác, không có sai sót",
+          "isCorrect": true,
+          "rationale": "Tính từ này xác nhận rằng thông tin, số liệu hoặc mô tả là đúng đắn và sát với thực tế."
+        },
+        {
+          "text": "Mang tính dự đoán về tương lai",
+          "isCorrect": false,
+          "rationale": "Dự đoán (predictive) chưa chắc đã chính xác vì nó chưa xảy ra."
+        }
+      ],
+      "hint": "Hãy nghĩ đến một bản báo cáo tài chính mà tất cả các con số đều hoàn toàn đúng."
+    }
+  ]
+}

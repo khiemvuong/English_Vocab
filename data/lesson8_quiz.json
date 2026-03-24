@@ -1,0 +1,265 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 8",
+  "questions": [
+    {
+      "question": "Trong bối cảnh công sở, khi một nhân viên thể hiện 'a positive attitude toward the project', từ 'attitude' có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Trình độ",
+          "isCorrect": false,
+          "rationale": "Trình độ thường liên quan đến bằng cấp hoặc cấp độ chuyên môn, không phải là cách nhìn nhận vấn đề."
+        },
+        {
+          "text": "Thói quen",
+          "isCorrect": false,
+          "rationale": "Thói quen (habit) là những hành động lặp đi lặp lại, trong khi 'attitude' là trạng thái tâm lý."
+        },
+        {
+          "text": "Kỹ năng",
+          "isCorrect": false,
+          "rationale": "Kỹ năng thường dùng từ 'skill' hoặc 'proficiency', thiên về khả năng thực hiện công việc hơn là tâm thế."
+        },
+        {
+          "text": "Thái độ",
+          "isCorrect": true,
+          "rationale": "Từ này dùng để chỉ cách suy nghĩ, cảm nhận hoặc quan điểm của một người đối với một sự việc cụ thể."
+        }
+      ],
+      "hint": "Đây là danh từ chỉ tâm thế hoặc cách nhìn nhận của một người đối với công việc."
+    },
+    {
+      "question": "Từ nào sau đây là từ đồng nghĩa phổ biến nhất của 'vendor' trong bài thi TOEIC?",
+      "answerOptions": [
+        {
+          "text": "Customer",
+          "isCorrect": false,
+          "rationale": "Đây là từ trái nghĩa, chỉ người mua hàng thay vì người cung cấp hàng."
+        },
+        {
+          "text": "Supplier",
+          "isCorrect": true,
+          "rationale": "Cả hai từ đều dùng để chỉ cá nhân hoặc tổ chức cung cấp hàng hóa hoặc dịch vụ."
+        },
+        {
+          "text": "Applicant",
+          "isCorrect": false,
+          "rationale": "Đây là người nộp đơn xin việc hoặc ứng viên, không liên quan đến việc cung cấp vật tư."
+        },
+        {
+          "text": "Shareholder",
+          "isCorrect": false,
+          "rationale": "Đây là người sở hữu cổ phần của công ty, không trực tiếp đóng vai trò là bên bán hàng hóa."
+        }
+      ],
+      "hint": "Hãy tìm từ chỉ người hoặc công ty cung cấp hàng hóa cho doanh nghiệp khác."
+    },
+    {
+      "question": "Khi hai công ty quyết định sáp nhập với nhau để cùng phát triển, quá trình này được gọi là gì?",
+      "answerOptions": [
+        {
+          "text": "Acquisition",
+          "isCorrect": false,
+          "rationale": "Mặc dù liên quan, nhưng từ này cụ thể chỉ việc một công ty mua lại hoàn toàn một công ty khác."
+        },
+        {
+          "text": "Merger",
+          "isCorrect": true,
+          "rationale": "Đây là thuật ngữ kinh tế chỉ sự kết hợp giữa hai tổ chức thành một thực thể duy nhất."
+        },
+        {
+          "text": "Negotiation",
+          "isCorrect": false,
+          "rationale": "Đây là quá trình đàm phán, là bước chuẩn bị trước khi đi đến việc sáp nhập chính thức."
+        },
+        {
+          "text": "Collaboration",
+          "isCorrect": false,
+          "rationale": "Đây là sự hợp tác chung nhưng không nhất thiết dẫn đến việc hợp nhất về mặt pháp lý như 'merger'."
+        }
+      ],
+      "hint": "Thuật ngữ này thường đi kèm với từ 'acquisition' trong cụm từ M&A."
+    },
+    {
+      "question": "Từ 'prosperous' trong cụm từ 'a prosperous future for shareholders' có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Khó khăn",
+          "isCorrect": false,
+          "rationale": "Đây là trạng thái ngược lại với ý nghĩa tích cực và thành đạt của từ đang xét."
+        },
+        {
+          "text": "Tạm thời",
+          "isCorrect": false,
+          "rationale": "Từ này thiên về thời gian ngắn hạn, không phản ánh sự thành công về kinh tế."
+        },
+        {
+          "text": "Thịnh vượng",
+          "isCorrect": true,
+          "rationale": "Tính từ này mô tả trạng thái thành công, phát đạt và giàu có về mặt tài chính."
+        },
+        {
+          "text": "Ổn định",
+          "isCorrect": false,
+          "rationale": "Mặc dù ổn định là tốt, nhưng 'prosperous' mang hàm ý phát triển mạnh mẽ và giàu có hơn thế."
+        }
+      ],
+      "hint": "Tính từ này đồng nghĩa với 'thriving' hoặc 'successful'."
+    },
+    {
+      "question": "Nếu bạn muốn đề nghị người khác 'thông báo' cho mình về bất kỳ sự thay đổi nào, bạn nên dùng động từ nào?",
+      "answerOptions": [
+        {
+          "text": "Notify",
+          "isCorrect": true,
+          "rationale": "Động từ này có nghĩa là chính thức cho ai đó biết về một thông tin hoặc sự việc."
+        },
+        {
+          "text": "Enforce",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là bắt thi hành luật lệ hoặc quy định, không mang nghĩa truyền đạt thông tin."
+        },
+        {
+          "text": "Certify",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là chứng nhận hoặc xác nhận bằng văn bản, không đơn thuần là thông báo tin tức."
+        },
+        {
+          "text": "Notify",
+          "isCorrect": false,
+          "rationale": "Đáp án này bị trùng lặp trong hệ thống xử lý (vui lòng chọn đáp án đúng duy nhất)."
+        }
+      ],
+      "hint": "Từ này đồng nghĩa với 'inform' hoặc 'advise'."
+    },
+    {
+      "question": "Trong cụm từ 'subject to local regulations', từ 'subject to' mang ý nghĩa gì?",
+      "answerOptions": [
+        {
+          "text": "Bỏ qua",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược hoàn toàn vì 'subject to' đòi hỏi sự chú trọng và áp dụng quy định."
+        },
+        {
+          "text": "Liên quan đến",
+          "isCorrect": false,
+          "rationale": "Mặc dù có liên quan, nhưng nghĩa chính xác của cấu trúc này mạnh hơn, mang tính bắt buộc tuân thủ."
+        },
+        {
+          "text": "Phải tuân theo",
+          "isCorrect": true,
+          "rationale": "Cấu trúc này dùng để chỉ một sự việc phụ thuộc vào hoặc phải thực hiện theo một quy định nào đó."
+        },
+        {
+          "text": "Thay đổi",
+          "isCorrect": false,
+          "rationale": "Cấu trúc này không có nghĩa là biến đổi mà là sự lệ thuộc vào các điều kiện có sẵn."
+        }
+      ],
+      "hint": "Cụm từ này cho biết một hành động bị ràng buộc bởi các quy tắc địa phương."
+    },
+    {
+      "question": "Khi một chính sách hoặc luật lệ mới được đưa vào áp dụng thực tế, người ta dùng động từ nào?",
+      "answerOptions": [
+        {
+          "text": "Enforce",
+          "isCorrect": true,
+          "rationale": "Đây là động từ dùng để chỉ việc bắt buộc mọi người phải tuân thủ một luật lệ hoặc quy định cụ thể."
+        },
+        {
+          "text": "Measure",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là đo lường hoặc đánh giá kích thước, số lượng của một vật."
+        },
+        {
+          "text": "Motivate",
+          "isCorrect": false,
+          "rationale": "Đây là hành động tạo động lực cho ai đó, không mang tính cưỡng chế của pháp luật."
+        },
+        {
+          "text": "Master",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là học tập để trở nên thành thạo một kỹ năng, không phải áp dụng luật pháp."
+        }
+      ],
+      "hint": "Động từ này đồng nghĩa với 'implement' hoặc 'apply' trong bối cảnh luật lệ."
+    },
+    {
+      "question": "Danh từ nào dùng để chỉ bảng câu hỏi khảo sát ý kiến khách hàng?",
+      "answerOptions": [
+        {
+          "text": "Grant application",
+          "isCorrect": false,
+          "rationale": "Đây là đơn xin cấp kinh phí hoặc tài trợ, không phải là công cụ khảo sát ý kiến."
+        },
+        {
+          "text": "Operating hours",
+          "isCorrect": false,
+          "rationale": "Đây là cụm từ chỉ thời gian làm việc của một cơ sở kinh doanh."
+        },
+        {
+          "text": "Questionnaire",
+          "isCorrect": true,
+          "rationale": "Đây là một tập hợp các câu hỏi dùng để thu thập dữ liệu nghiên cứu hoặc ý kiến từ người tham gia."
+        },
+        {
+          "text": "Requirement",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là yêu cầu hoặc điều kiện cần thiết, không phải là một dạng văn bản khảo sát."
+        }
+      ],
+      "hint": "Từ này bắt đầu bằng từ 'Question' (câu hỏi)."
+    },
+    {
+      "question": "Hoạt động 'mở rộng' quy mô kinh doanh vào các thị trường mới được gọi là gì?",
+      "answerOptions": [
+        {
+          "text": "Notify",
+          "isCorrect": false,
+          "rationale": "Đây là việc thông báo, không phản ánh sự thay đổi về kích cỡ doanh nghiệp."
+        },
+        {
+          "text": "Measure",
+          "isCorrect": false,
+          "rationale": "Đây là việc đo đạc, không liên quan đến sự tăng trưởng về quy mô."
+        },
+        {
+          "text": "Expand",
+          "isCorrect": true,
+          "rationale": "Động từ này có nghĩa là tăng trưởng về kích thước, phạm vi hoặc mức độ quan trọng."
+        },
+        {
+          "text": "Expand",
+          "isCorrect": false,
+          "rationale": "Dữ liệu bị trùng, vui lòng chọn phương án 'Expand' đầu tiên nếu có."
+        }
+      ],
+      "hint": "Từ này đồng nghĩa với 'grow' hoặc 'enlarge'."
+    },
+    {
+      "question": "Để tham gia vào một hội thảo (seminar), mỗi cá nhân tham dự được gọi bằng danh từ gì?",
+      "answerOptions": [
+        {
+          "text": "Shareholder",
+          "isCorrect": false,
+          "rationale": "Người này sở hữu cổ phần công ty, có thể không trực tiếp tham gia hội thảo."
+        },
+        {
+          "text": "Vendor",
+          "isCorrect": false,
+          "rationale": "Đây là người bán hàng, họ có thể có mặt nhưng danh xưng chung cho mọi người tham dự là 'participant'."
+        },
+        {
+          "text": "Participant",
+          "isCorrect": true,
+          "rationale": "Từ này chỉ một người tham gia vào một sự kiện, hoạt động hoặc nghiên cứu cụ thể."
+        },
+        {
+          "text": "Applicant",
+          "isCorrect": false,
+          "rationale": "Đây là người nộp đơn xin việc, không phải là danh xưng cho người đang dự hội thảo."
+        }
+      ],
+      "hint": "Danh từ này xuất phát từ động từ 'participate'."
+    }
+  ]
+}

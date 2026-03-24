@@ -1,0 +1,681 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 4",
+  "questions": [
+    {
+      "question": "Trong ngữ cảnh bài thi TOEIC, từ \"address\" trong cụm \"address a complaint\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Gửi thư",
+          "isCorrect": false,
+          "rationale": "Mặc dù liên quan đến việc ghi địa chỉ lên thư từ, nhưng nó không phản ánh đúng hành động xử lý vấn đề trong câu hỏi."
+        },
+        {
+          "text": "Địa chỉ",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa danh từ phổ biến của từ này, nhưng không phù hợp khi đóng vai trò là động từ đi kèm với một lời phàn nàn."
+        },
+        {
+          "text": "Phát biểu",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là diễn thuyết trước đám đông, nhưng trong cụm từ cụ thể này, nghĩa xử lý vấn đề là chính xác nhất."
+        },
+        {
+          "text": "Giải quyết",
+          "isCorrect": true,
+          "rationale": "Trong môi trường công sở, động từ này thường được dùng với nghĩa là xử lý hoặc tìm cách giải quyết một vấn đề hay khiếu nại."
+        }
+      ],
+      "hint": "Hãy nghĩ về hành động mà một người quản lý cần làm khi nhận được phản hồi không hài lòng từ khách hàng."
+    },
+    {
+      "question": "Từ nào sau đây là từ đồng nghĩa gần nhất với \"relocate\"?",
+      "answerOptions": [
+        {
+          "text": "Remove",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là loại bỏ hoặc gỡ bỏ, dễ bị nhầm lẫn do có hậu tố giống nhau nhưng ý nghĩa hoàn toàn khác."
+        },
+        {
+          "text": "Rebuild",
+          "isCorrect": false,
+          "rationale": "Xây dựng lại một công trình không nhất thiết phải thay đổi vị trí của nó."
+        },
+        {
+          "text": "Replace",
+          "isCorrect": false,
+          "rationale": "Thay thế một vật này bằng một vật khác không mang hàm ý di dời vị trí như từ gốc."
+        },
+        {
+          "text": "Move",
+          "isCorrect": true,
+          "rationale": "Cả hai từ đều chỉ hành động di chuyển hoặc chuyển địa điểm của một cá nhân hay tổ chức sang một nơi khác."
+        }
+      ],
+      "hint": "Đây là hành động thay đổi vị trí làm việc từ văn phòng cũ sang văn phòng mới."
+    },
+    {
+      "question": "Động từ \"renovate\" thường được dùng để chỉ hành động nào đối với một tòa nhà cũ?",
+      "answerOptions": [
+        {
+          "text": "Phá dỡ hoàn toàn",
+          "isCorrect": false,
+          "rationale": "Hành động này ngược lại với việc làm mới hay sửa chữa để sử dụng tiếp."
+        },
+        {
+          "text": "Bán bất động sản",
+          "isCorrect": false,
+          "rationale": "Giao dịch quyền sở hữu không phải là hành động tác động vật lý lên tình trạng của tòa nhà."
+        },
+        {
+          "text": "Thuê văn phòng",
+          "isCorrect": false,
+          "rationale": "Việc sử dụng không gian làm việc thông qua hợp đồng thuê không liên quan đến việc thay đổi cấu trúc hay nội thất của nó."
+        },
+        {
+          "text": "Cải tạo và sửa chữa",
+          "isCorrect": true,
+          "rationale": "Động từ này nhấn mạnh vào việc nâng cấp, làm mới hoặc phục hồi trạng thái tốt của một cơ sở vật chất."
+        }
+      ],
+      "hint": "Hãy nhớ đến các từ như 'refurbish' hoặc 'remodel' trong tiếng Anh."
+    },
+    {
+      "question": "Từ \"facility\" trong cụm \"production facility\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Chính sách công ty",
+          "isCorrect": false,
+          "rationale": "Đây là một khái niệm trừu tượng liên quan đến quy định, không phải là một địa điểm vật lý."
+        },
+        {
+          "text": "Sự dễ dàng",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa gốc liên quan đến tính từ 'facile', nhưng không phù hợp khi đi kèm với danh từ chỉ hoạt động sản xuất."
+        },
+        {
+          "text": "Kỹ năng thuần thục",
+          "isCorrect": false,
+          "rationale": "Mặc dù từ này có nghĩa là sự khéo léo trong một số ngữ cảnh học thuật, nhưng trong kinh doanh nó thường chỉ địa điểm hữu hình."
+        },
+        {
+          "text": "Cơ sở vật chất",
+          "isCorrect": true,
+          "rationale": "Từ này chỉ một tòa nhà, thiết bị hoặc dịch vụ được cung cấp cho một mục đích cụ thể, chẳng hạn như sản xuất."
+        }
+      ],
+      "hint": "Từ này thường dùng để gọi chung các nhà máy, văn phòng hoặc trung tâm thể thao."
+    },
+    {
+      "question": "Cụm từ \"manufacturing industry\" được dịch sang tiếng Việt là gì?",
+      "answerOptions": [
+        {
+          "text": "Máy móc chế tạo",
+          "isCorrect": false,
+          "rationale": "Đây là các công cụ được sử dụng trong ngành, không phải tên gọi của chính lĩnh vực đó."
+        },
+        {
+          "text": "Sự siêng năng trong sản xuất",
+          "isCorrect": false,
+          "rationale": "Đây là một nghĩa cũ của từ 'industry', nhưng không được sử dụng trong bài thi TOEIC hiện đại."
+        },
+        {
+          "text": "Công ty sản xuất",
+          "isCorrect": false,
+          "rationale": "Một công ty chỉ là một thực thể đơn lẻ, trong khi từ này chỉ toàn bộ một lĩnh vực kinh tế rộng lớn."
+        },
+        {
+          "text": "Ngành công nghiệp chế tạo",
+          "isCorrect": true,
+          "rationale": "Đây là cách dịch chuẩn xác cho lĩnh vực kinh tế liên quan đến việc sản xuất hàng hóa."
+        }
+      ],
+      "hint": "Hãy tập trung vào nghĩa của danh từ chỉ một lĩnh vực kinh tế lớn như 'thời trang' hay 'xây dựng'."
+    },
+    {
+      "question": "Động từ \"predict\" có nghĩa tương đương với từ nào dưới đây?",
+      "answerOptions": [
+        {
+          "text": "Recall",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ hành động nhớ lại quá khứ hoặc thu hồi sản phẩm lỗi, trái ngược với việc nhìn về phía trước."
+        },
+        {
+          "text": "Report",
+          "isCorrect": false,
+          "rationale": "Báo cáo thường tập trung vào những sự kiện đã xảy ra hoặc đang diễn ra, thay vì nói về tương lai."
+        },
+        {
+          "text": "Prevent",
+          "isCorrect": false,
+          "rationale": "Ngăn chặn là hành động để một sự việc không xảy ra, không phải là đưa ra lời dự đoán."
+        },
+        {
+          "text": "Forecast",
+          "isCorrect": true,
+          "rationale": "Cả hai từ đều có nghĩa là đưa ra nhận định về những gì sẽ xảy ra trong tương lai dựa trên dữ liệu hoặc phỏng đoán."
+        }
+      ],
+      "hint": "Các nhà kinh tế thường làm việc này đối với xu hướng giá cả thị trường sắp tới."
+    },
+    {
+      "question": "Khi một nhân viên được trao danh hiệu \"Employee of the Month\", họ đang nhận được một loại:",
+      "answerOptions": [
+        {
+          "text": "Warning",
+          "isCorrect": false,
+          "rationale": "Lời cảnh báo dùng để nhắc nhở về lỗi lầm, không phải để tán thưởng nỗ lực."
+        },
+        {
+          "text": "Award",
+          "isCorrect": true,
+          "rationale": "Đây là một giải thưởng hoặc sự công nhận chính thức dành cho thành tích xuất sắc của cá nhân."
+        },
+        {
+          "text": "Interviewer",
+          "isCorrect": false,
+          "rationale": "Đây là danh từ chỉ người thực hiện phỏng vấn, không phải là một danh hiệu hay giải thưởng."
+        },
+        {
+          "text": "Penalty",
+          "isCorrect": false,
+          "rationale": "Đây là hình phạt dành cho sai phạm, hoàn toàn trái ngược với việc tuyên dương thành tích."
+        }
+      ],
+      "hint": "Từ này đồng nghĩa với 'prize' hoặc 'trophy'."
+    },
+    {
+      "question": "Động từ \"honor\" trong câu \"The company will honor its top performers\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Từ chức",
+          "isCorrect": false,
+          "rationale": "Rời bỏ vị trí công việc thường là quyết định cá nhân và không mang nghĩa tích cực như từ gốc."
+        },
+        {
+          "text": "Thuê mướn",
+          "isCorrect": false,
+          "rationale": "Việc ký hợp đồng lao động mới được gọi là 'hire' hoặc 'employ', không liên quan đến việc khen thưởng."
+        },
+        {
+          "text": "Vinh danh",
+          "isCorrect": true,
+          "rationale": "Trong ngữ cảnh này, từ này thể hiện sự tôn trọng, khen ngợi và công nhận công lao của những người làm việc hiệu quả."
+        },
+        {
+          "text": "Thẩm vấn",
+          "isCorrect": false,
+          "rationale": "Đây là một hành động mang tính chất pháp lý hoặc kiểm tra, không mang ý nghĩa tôn vinh."
+        }
+      ],
+      "hint": "Hành động này thể hiện sự công nhận công khai đối với những đóng góp quý báu."
+    },
+    {
+      "question": "Một công ty lớn, thường đa quốc gia, được gọi là một:",
+      "answerOptions": [
+        {
+          "text": "Corporation",
+          "isCorrect": true,
+          "rationale": "Đây là thuật ngữ chỉ các tập đoàn lớn có cấu trúc tổ chức phức tạp và quy mô hoạt động rộng."
+        },
+        {
+          "text": "Internship",
+          "isCorrect": false,
+          "rationale": "Đây là danh từ chỉ kỳ thực tập, không phải là một thực thể kinh doanh."
+        },
+        {
+          "text": "Retailer",
+          "isCorrect": false,
+          "rationale": "Đây là thuật ngữ chỉ người bán lẻ, một loại hình kinh doanh cụ thể, không nhất thiết phải là một tập đoàn lớn."
+        },
+        {
+          "text": "Cooperation",
+          "isCorrect": false,
+          "rationale": "Đây là danh từ chỉ sự hợp tác giữa các bên, dễ bị nhầm lẫn vì cách viết và phát âm gần giống."
+        }
+      ],
+      "hint": "Từ này đồng nghĩa với 'firm' hoặc 'company' nhưng thường mang sắc thái quy mô lớn hơn."
+    },
+    {
+      "question": "Cụm từ \"contract negotiation\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Đàm phán hợp đồng",
+          "isCorrect": true,
+          "rationale": "Đây là quá trình thảo luận giữa các bên để đạt được sự đồng thuận về các điều khoản trong hợp đồng."
+        },
+        {
+          "text": "Hủy bỏ hợp đồng",
+          "isCorrect": false,
+          "rationale": "Sự chấm dứt thỏa thuận được gọi là 'cancellation' hoặc 'termination'."
+        },
+        {
+          "text": "Vi phạm hợp đồng",
+          "isCorrect": false,
+          "rationale": "Việc không tuân thủ các điều khoản đã ký được gọi là 'breach of contract'."
+        },
+        {
+          "text": "Ký kết hợp đồng",
+          "isCorrect": false,
+          "rationale": "Việc ký kết là bước cuối cùng sau khi đã hoàn tất quá trình thương thảo, được gọi là 'signing'."
+        }
+      ],
+      "hint": "Đây là cuộc thảo luận căng thẳng để thống nhất lợi ích trước khi chính thức đặt bút ký."
+    },
+    {
+      "question": "Khi bạn muốn giới thiệu ai đó vào một vị trí hoặc giải thưởng, bạn sẽ dùng động từ:",
+      "answerOptions": [
+        {
+          "text": "Eliminate",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là loại bỏ, hoàn toàn trái ngược với việc đưa ai đó vào danh sách đề cử."
+        },
+        {
+          "text": "Terminate",
+          "isCorrect": false,
+          "rationale": "Nghĩa là chấm dứt, thường dùng cho hợp đồng hoặc công việc, không dùng để đề cử."
+        },
+        {
+          "text": "Nominal",
+          "isCorrect": false,
+          "rationale": "Đây là tính từ có nghĩa là 'nhỏ không đáng kể', dễ nhầm lẫn vì có chung gốc từ."
+        },
+        {
+          "text": "Nominate",
+          "isCorrect": true,
+          "rationale": "Động từ này có nghĩa là đề cử hoặc chỉ định chính thức một người cho một nhiệm vụ hay danh hiệu nào đó."
+        }
+      ],
+      "hint": "Hãy nghĩ đến hành động chọn ra ứng viên sáng giá để tranh giải."
+    },
+    {
+      "question": "Một buổi đào tạo ngắn hoặc hội thảo chuyên đề được gọi là:",
+      "answerOptions": [
+        {
+          "text": "Salary",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là tiền lương, một khái niệm tài chính hoàn toàn khác."
+        },
+        {
+          "text": "Seminar",
+          "isCorrect": true,
+          "rationale": "Đây là thuật ngữ phổ biến để chỉ các buổi hội thảo giáo dục hoặc đào tạo tập trung vào một chủ đề cụ thể."
+        },
+        {
+          "text": "Vacation",
+          "isCorrect": false,
+          "rationale": "Kỳ nghỉ là thời gian thư giãn, không phải là hoạt động học tập hay làm việc chuyên môn."
+        },
+        {
+          "text": "Scenario",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ một kịch bản hoặc tình huống giả định, không phải là một sự kiện gặp gỡ."
+        }
+      ],
+      "hint": "Từ này thường đi kèm với các hoạt động như thảo luận nhóm hoặc thuyết trình chuyên gia."
+    },
+    {
+      "question": "Từ nào sau đây có nghĩa là \"kết thúc\" một sự kiện hoặc buổi họp?",
+      "answerOptions": [
+        {
+          "text": "Consider",
+          "isCorrect": false,
+          "rationale": "Cân nhắc là một quá trình tư duy, không phải là một hành động đánh dấu sự kết thúc của sự kiện."
+        },
+        {
+          "text": "Conclude",
+          "isCorrect": true,
+          "rationale": "Động từ này được dùng để chỉ việc kết thúc một cách chính thức các bài diễn văn, buổi họp hoặc nghiên cứu."
+        },
+        {
+          "text": "Continue",
+          "isCorrect": false,
+          "rationale": "Tiếp tục một hoạt động nghĩa là duy trì nó, chưa phải là lúc kết thúc."
+        },
+        {
+          "text": "Commence",
+          "isCorrect": false,
+          "rationale": "Đây là một từ trang trọng có nghĩa là 'bắt đầu', trái ngược với nghĩa cần tìm."
+        }
+      ],
+      "hint": "Đây là phần cuối cùng sau khi các nội dung chính đã được trình bày xong."
+    },
+    {
+      "question": "Trong cụm \"sales department\", từ \"department\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Phòng ban",
+          "isCorrect": true,
+          "rationale": "Từ này chỉ một bộ phận chuyên trách trong một tổ chức lớn, chịu trách nhiệm về một mảng công việc nhất định."
+        },
+        {
+          "text": "Căn hộ",
+          "isCorrect": false,
+          "rationale": "Người học thường nhầm lẫn với từ 'apartment' do cấu trúc âm tiết cuối tương tự."
+        },
+        {
+          "text": "Sự phụ thuộc",
+          "isCorrect": false,
+          "rationale": "Nghĩa này liên quan đến 'dependence', không phản ánh cấu trúc tổ chức của công ty."
+        },
+        {
+          "text": "Sự khởi hành",
+          "isCorrect": false,
+          "rationale": "Dễ nhầm lẫn với 'departure', từ chỉ hành động rời đi tại sân bay hoặc nhà ga."
+        }
+      ],
+      "hint": "Mỗi công ty thường chia thành các nhóm nhỏ như nhân sự, kế toán, hay kinh doanh."
+    },
+    {
+      "question": "Từ đồng nghĩa của \"offer\" trong câu \"The hotel now offers a spa service\" là gì?",
+      "answerOptions": [
+        {
+          "text": "Request",
+          "isCorrect": false,
+          "rationale": "Yêu cầu là hành động từ phía khách hàng, không phải từ phía người cung cấp dịch vụ."
+        },
+        {
+          "text": "Discard",
+          "isCorrect": false,
+          "rationale": "Loại bỏ hoặc vứt bỏ một thứ gì đó không mang nghĩa tích cực là đưa ra dịch vụ mới."
+        },
+        {
+          "text": "Provide",
+          "isCorrect": true,
+          "rationale": "Cả hai từ đều mang nghĩa là cung cấp hoặc đưa ra một dịch vụ/sản phẩm cho người dùng."
+        },
+        {
+          "text": "Refuse",
+          "isCorrect": false,
+          "rationale": "Từ chối cung cấp dịch vụ là hành động ngược lại hoàn toàn với việc đưa ra đề nghị."
+        }
+      ],
+      "hint": "Hãy nghĩ về hành động một doanh nghiệp đưa sản phẩm của mình đến với khách hàng."
+    },
+    {
+      "question": "Khi quản lý đồng ý với một yêu cầu, chúng ta nói rằng họ đã ... yêu cầu đó.",
+      "answerOptions": [
+        {
+          "text": "Postponed",
+          "isCorrect": false,
+          "rationale": "Trì hoãn là việc dời lịch sang lúc khác, không khẳng định là có đồng ý hay không."
+        },
+        {
+          "text": "Approved",
+          "isCorrect": true,
+          "rationale": "Động từ này có nghĩa là phê duyệt hoặc chấp thuận một cách chính thức cho một đề nghị hay kế hoạch."
+        },
+        {
+          "text": "Ignored",
+          "isCorrect": false,
+          "rationale": "Phớt lờ là không quan tâm đến yêu cầu, không phải là hành động phê duyệt chính thức."
+        },
+        {
+          "text": "Opposed",
+          "isCorrect": false,
+          "rationale": "Phản đối nghĩa là không đồng tình, trái ngược với việc đồng ý phê duyệt."
+        }
+      ],
+      "hint": "Đây là bước cần thiết để một dự án có thể bắt đầu sau khi nộp đề xuất."
+    },
+    {
+      "question": "Một sinh viên đang đi làm để lấy kinh nghiệm thực tế (thường không lương hoặc lương thấp) được gọi là:",
+      "answerOptions": [
+        {
+          "text": "Intern",
+          "isCorrect": true,
+          "rationale": "Thực tập sinh là người làm việc tại một tổ chức trong thời gian ngắn để học hỏi kinh nghiệm chuyên môn."
+        },
+        {
+          "text": "Consultant",
+          "isCorrect": false,
+          "rationale": "Cố vấn là chuyên gia cung cấp lời khuyên chuyên môn, không phải là người đang đi học việc."
+        },
+        {
+          "text": "Representative",
+          "isCorrect": false,
+          "rationale": "Người đại diện thường là nhân viên chính thức thay mặt công ty giao dịch với khách hàng."
+        },
+        {
+          "text": "Executive",
+          "isCorrect": false,
+          "rationale": "Đây là từ chỉ nhân viên cấp cao hoặc giám đốc điều hành, những người có rất nhiều kinh nghiệm."
+        }
+      ],
+      "hint": "Từ này thường dùng để chỉ những bạn trẻ mới bắt đầu bước chân vào môi trường công sở."
+    },
+    {
+      "question": "Nhóm người được chọn để đưa ra quyết định hoặc thực hiện một nhiệm vụ cụ thể được gọi là:",
+      "answerOptions": [
+        {
+          "text": "Candidate",
+          "isCorrect": false,
+          "rationale": "Đây là từ chỉ một cá nhân đang ứng tuyển hoặc tranh cử, không phải là một nhóm quản lý."
+        },
+        {
+          "text": "Competitor",
+          "isCorrect": false,
+          "rationale": "Đối thủ cạnh tranh là bên đối lập trên thị trường, không phải là bộ phận bên trong công ty."
+        },
+        {
+          "text": "Customer",
+          "isCorrect": false,
+          "rationale": "Khách hàng là người mua sản phẩm, không tham gia vào quá trình quản trị nội bộ của doanh nghiệp."
+        },
+        {
+          "text": "Committee",
+          "isCorrect": true,
+          "rationale": "Ủy ban hoặc hội đồng là một nhóm người đại diện cho tổ chức để xử lý các vấn đề chuyên biệt."
+        }
+      ],
+      "hint": "Hãy nghĩ đến các cụm từ như 'search committee' (hội đồng tìm kiếm nhân sự) hay 'charity committee'."
+    },
+    {
+      "question": "Danh từ \"innovation\" mang ý nghĩa gì?",
+      "answerOptions": [
+        {
+          "text": "Sự đổi mới",
+          "isCorrect": true,
+          "rationale": "Từ này chỉ việc giới thiệu những ý tưởng, phương pháp hoặc sản phẩm mới và mang tính cải tiến."
+        },
+        {
+          "text": "Sự đầu tư",
+          "isCorrect": false,
+          "rationale": "Đầu tư ('investment') có thể thúc đẩy sự đổi mới nhưng bản thân nó không đồng nghĩa với việc tạo ra cái mới."
+        },
+        {
+          "text": "Sự đình trệ",
+          "isCorrect": false,
+          "rationale": "Không có sự thay đổi hay phát triển là biểu hiện của sự thiếu đổi mới."
+        },
+        {
+          "text": "Sự bắt chước",
+          "isCorrect": false,
+          "rationale": "Việc làm theo những gì đã có sẵn là hành động trái ngược hoàn toàn với tinh thần đổi mới sáng tạo."
+        }
+      ],
+      "hint": "Đây là chìa khóa để các công ty công nghệ duy trì lợi thế cạnh tranh trên thị trường."
+    },
+    {
+      "question": "Từ \"sector\" trong cụm \"financial sector\" có nghĩa đồng nghĩa với từ nào?",
+      "answerOptions": [
+        {
+          "text": "Field",
+          "isCorrect": true,
+          "rationale": "Cả hai từ đều dùng để chỉ một lĩnh vực hoạt động hoặc một mảng kinh tế cụ thể."
+        },
+        {
+          "text": "Circle",
+          "isCorrect": false,
+          "rationale": "Mặc dù 'sector' có nghĩa là hình quạt trong toán học, nhưng trong kinh tế nó không đồng nghĩa với hình tròn."
+        },
+        {
+          "text": "Building",
+          "isCorrect": false,
+          "rationale": "Tòa nhà là một công trình hữu hình, không phải là khái niệm phân chia lĩnh vực kinh tế."
+        },
+        {
+          "text": "Season",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ một khoảng thời gian trong năm, không liên quan đến việc phân loại ngành nghề."
+        }
+      ],
+      "hint": "Hãy nghĩ về cách phân chia nền kinh tế thành các mảng như dịch vụ, nông nghiệp hay tài chính."
+    },
+    {
+      "question": "Khi bạn giúp đỡ ai đó trong công việc, bạn đang ... họ.",
+      "answerOptions": [
+        {
+          "text": "Insisting",
+          "isCorrect": false,
+          "rationale": "Khăng khăng đòi hỏi một điều gì đó không mang hàm ý hỗ trợ người khác hoàn thành công việc."
+        },
+        {
+          "text": "Assisting",
+          "isCorrect": true,
+          "rationale": "Đây là động từ mang sắc thái trang trọng hơn từ 'help', thường dùng trong môi trường chuyên nghiệp."
+        },
+        {
+          "text": "Resisting",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là chống cự hoặc kháng cự, hoàn toàn ngược lại với việc giúp đỡ."
+        },
+        {
+          "text": "Consisting",
+          "isCorrect": false,
+          "rationale": "Động từ này thường đi với giới từ 'of' để chỉ thành phần cấu tạo, không phải hành động trợ giúp."
+        }
+      ],
+      "hint": "Danh từ của từ này là 'assistant', có nghĩa là trợ lý."
+    },
+    {
+      "question": "Danh từ \"completion\" được hình thành từ động từ nào?",
+      "answerOptions": [
+        {
+          "text": "Complete",
+          "isCorrect": true,
+          "rationale": "Sự hoàn thành ('completion') là trạng thái đạt được sau khi đã hoàn thành ('complete') một nhiệm vụ."
+        },
+        {
+          "text": "Complain",
+          "isCorrect": false,
+          "rationale": "Động từ này có nghĩa là phàn nàn, danh từ của nó là 'complaint'."
+        },
+        {
+          "text": "Complex",
+          "isCorrect": false,
+          "rationale": "Đây là tính từ có nghĩa là phức tạp, không phải là gốc từ của hành động kết thúc công việc."
+        },
+        {
+          "text": "Compete",
+          "isCorrect": false,
+          "rationale": "Từ này có nghĩa là cạnh tranh, danh từ tương ứng là 'competition'."
+        }
+      ],
+      "hint": "Hãy tìm động từ có nghĩa là làm cho xong hoặc làm cho đầy đủ."
+    },
+    {
+      "question": "Điền vào chỗ trống: \"The company will ... to a new facility next month.\"",
+      "answerOptions": [
+        {
+          "text": "Nominate",
+          "isCorrect": false,
+          "rationale": "Không thể đề cử một công ty 'đến một cơ sở mới' trong ngữ cảnh này."
+        },
+        {
+          "text": "Renovate",
+          "isCorrect": false,
+          "rationale": "Nếu đã chuyển sang địa điểm mới ('to a new facility'), hành động 'cải tạo' thường đã diễn ra trước đó hoặc dành cho văn phòng cũ."
+        },
+        {
+          "text": "Predict",
+          "isCorrect": false,
+          "rationale": "Dự đoán không đi kèm trực tiếp với trạng ngữ chỉ nơi chốn ('to a new facility') theo cách này."
+        },
+        {
+          "text": "Relocate",
+          "isCorrect": true,
+          "rationale": "Động từ này phù hợp nhất để diễn tả việc một tổ chức chuyển toàn bộ trụ sở đến một địa điểm mới."
+        }
+      ],
+      "hint": "Cụm từ này nói về việc thay đổi địa điểm hoạt động của doanh nghiệp."
+    },
+    {
+      "question": "Chọn cụm từ đúng để chỉ người thắng cuộc trong cuộc thi nhân viên xuất sắc:",
+      "answerOptions": [
+        {
+          "text": "Sector manager",
+          "isCorrect": false,
+          "rationale": "Đây là chức danh quản lý một lĩnh vực, không phải danh xưng của người nhận giải thưởng."
+        },
+        {
+          "text": "Intern participant",
+          "isCorrect": false,
+          "rationale": "Thực tập sinh tham gia không đồng nghĩa với việc là người chiến thắng giải thưởng nhân viên xuất sắc."
+        },
+        {
+          "text": "Industry predicted",
+          "isCorrect": false,
+          "rationale": "Đây là một cụm danh từ kết hợp sai ngữ pháp và không có ý nghĩa chỉ người."
+        },
+        {
+          "text": "Award recipient",
+          "isCorrect": true,
+          "rationale": "Đây là cụm từ chuyên dụng để chỉ người nhận giải thưởng trong các buổi lễ vinh danh."
+        }
+      ],
+      "hint": "Hãy kết hợp từ chỉ 'giải thưởng' và từ chỉ 'người nhận'."
+    },
+    {
+      "question": "Cụm từ \"upon completion of the project\" có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Do sự trì hoãn dự án",
+          "isCorrect": false,
+          "rationale": "Nguyên nhân do chậm trễ không liên quan đến cụm từ chỉ mốc thời gian hoàn thành này."
+        },
+        {
+          "text": "Trong khi đang thực hiện dự án",
+          "isCorrect": false,
+          "rationale": "Giai đoạn đang triển khai thường dùng các từ như 'during' hoặc 'while', không phải là khi kết thúc."
+        },
+        {
+          "text": "Ngay sau khi dự án hoàn thành",
+          "isCorrect": true,
+          "rationale": "Cấu trúc 'upon + danh từ' thường dùng để chỉ một mốc thời gian ngay khi sự việc đó kết thúc."
+        },
+        {
+          "text": "Trước khi bắt đầu dự án",
+          "isCorrect": false,
+          "rationale": "Giai đoạn chuẩn bị dùng từ 'prior to' hoặc 'before', trái ngược với nghĩa hoàn tất."
+        }
+      ],
+      "hint": "Hãy chú ý đến giới từ 'upon' và ý nghĩa kết thúc của danh từ gốc."
+    },
+    {
+      "question": "Từ nào sau đây thường được dùng để chỉ một \"lĩnh vực\" của nền kinh tế như phát sóng (broadcasting) hay tài chính (finance)?",
+      "answerOptions": [
+        {
+          "text": "Sector",
+          "isCorrect": true,
+          "rationale": "Từ này được dùng phổ biến để phân loại các mảng khác nhau của nền kinh tế hoặc thị trường."
+        },
+        {
+          "text": "Section",
+          "isCorrect": false,
+          "rationale": "Mặc dù có nghĩa là 'phần', nhưng nó thường chỉ các đoạn nhỏ trong văn bản hoặc các khu vực trong cửa hàng hơn là ngành kinh tế."
+        },
+        {
+          "text": "Session",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ một phiên làm việc hoặc một buổi học, không phải là một ngành nghề kinh doanh."
+        },
+        {
+          "text": "Service",
+          "isCorrect": false,
+          "rationale": "Đây là loại hình sản phẩm (dịch vụ), không phải là thuật ngữ dùng để gọi tên một lĩnh vực kinh tế lớn."
+        }
+      ],
+      "hint": "Từ này bắt đầu bằng chữ 'S' và có nghĩa tương tự như 'area' hoặc 'field' trong kinh tế."
+    }
+  ]
+}
