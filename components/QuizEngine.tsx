@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useQuizStore } from "@/store/quizStore";
+import { playSound } from "@/utils/audio";
 
 interface AnswerOption {
   text: string;
@@ -41,7 +42,7 @@ const renderFormattedText = (text: string) => {
 };
 
 export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonId: string }) {
-  const { progress, initLesson, answerQuestion, goToNext, goToPrev, restartLesson } = useQuizStore();
+  const { progress, isMuted, toggleMute, initLesson, answerQuestion, goToNext, goToPrev, restartLesson } = useQuizStore();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -59,6 +60,15 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
   const selectedOption = answers[currentIndex] ?? null;
   const isAnswered = selectedOption !== null;
 
+  const handleSelectOption = (idx: number, isCorrect: boolean) => {
+    if (selectedOption !== null) return;
+    answerQuestion(lessonId, currentIndex, idx, isCorrect);
+    
+    if (!isMuted) {
+      playSound(isCorrect ? 'correct' : 'incorrect');
+    }
+  };
+
   useEffect(() => {
     if (!mounted || !session) return;
 
@@ -67,7 +77,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
       if (selectedOption === null) {
         const key = parseInt(e.key);
         if (key >= 1 && key <= question.answerOptions.length) {
-          answerQuestion(lessonId, currentIndex, key - 1, question.answerOptions[key - 1].isCorrect);
+          handleSelectOption(key - 1, question.answerOptions[key - 1].isCorrect);
         }
       } else {
         if (e.code === "Space") {
@@ -122,7 +132,8 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
   }
 
   return (
-    <div className="flex flex-col h-dvh w-full max-w-3xl mx-auto p-4 md:p-6 pb-0">
+    <div className="flex flex-col h-dvh w-full overflow-hidden">
+      <div className="flex flex-col flex-1 w-full max-w-3xl mx-auto px-4 md:px-6 pt-4 md:pt-6 overflow-hidden">
       {/* Header */}
       <header className="flex items-center justify-between mb-8 shrink-0 relative">
         <div className="flex items-center gap-3 z-10 flex-1">
@@ -142,7 +153,19 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
           </div>
         </div>
 
-        <div className="flex-1 flex justify-end z-10">
+        <div className="flex-1 flex justify-end z-10 items-center">
+          <button 
+            onClick={toggleMute}
+            className="p-1.5 mr-2 text-slate-400 hover:text-slate-600 hover:bg-slate-100 rounded-full transition-colors flex items-center justify-center h-8 w-8"
+            title={isMuted ? "Unmute sounds" : "Mute sounds"}
+          >
+            {isMuted ? (
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" clipRule="evenodd" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" /></svg>
+            ) : (
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" /></svg>
+            )}
+          </button>
+          
           <Link 
             href="/" 
             title="Exit Quiz"
@@ -155,8 +178,8 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
       </header>
 
       {/* Main Content Area - Scrollable */}
-      <div className="flex-1 overflow-y-auto no-scrollbar pb-32">
-        <h1 className="text-xl md:text-2xl font-semibold text-slate-800 leading-relaxed mb-8">
+      <div className="flex-1 overflow-y-auto no-scrollbar pb-8">
+        <h1 className="text-lg md:text-xl font-semibold text-slate-800 leading-relaxed mb-6">
           {renderFormattedText(question.question)}
         </h1>
 
@@ -180,15 +203,11 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
               <button
                 key={idx}
                 disabled={isAnswered}
-                onClick={() => answerQuestion(lessonId, currentIndex, idx, isCorrect)}
-                className={`w-full text-left p-4 md:p-5 rounded-2xl transition-all duration-300 ${boxClass} ${!isAnswered ? 'cursor-pointer hover:-translate-y-0.5' : 'cursor-default'}`}
+                onClick={() => handleSelectOption(idx, isCorrect)}
+                className={`w-full text-left p-3.5 md:p-4 rounded-xl transition-all duration-300 ${boxClass} ${!isAnswered ? 'cursor-pointer hover:-translate-y-0.5' : 'cursor-default'}`}
               >
                 <div className="flex items-start gap-4">
-                  <span className={`shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-sm font-semibold transition-colors
-                     ${!isAnswered ? 'bg-slate-100 text-slate-500' :
-                       (isCorrect ? 'bg-green-500 text-white' : 
-                       (isSelected ? 'bg-red-500 text-white' : 'bg-slate-100 text-slate-400'))}
-                  `}>
+                  <span className={`w-7 h-7 rounded-full flex items-center justify-center font-bold text-[13px] shrink-0 mt-0.5 transition-colors ${!isAnswered ? 'bg-slate-100 text-slate-500' : (isCorrect ? 'bg-green-500 text-white' : (isSelected ? 'bg-red-500 text-white' : 'bg-slate-100/50 text-slate-400'))}`}>
                     {String.fromCharCode(65 + idx)}
                   </span>
                   
@@ -217,10 +236,11 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
           })}
         </div>
       </div>
+      </div>
 
-      {/* Floating Footer Action */}
-      <div className="fixed bottom-0 left-0 right-0 p-3 md:p-5 bg-white/90 backdrop-blur-md border-t border-slate-200 shadow-[0_-4px_20px_-10px_rgba(0,0,0,0.05)] flex justify-center z-50">
-        <div className="w-full max-w-3xl flex justify-between items-center px-2 md:px-0">
+      {/* Footer Action */}
+      <div className="shrink-0 w-full bg-white/90 backdrop-blur-md border-t border-slate-200 shadow-[0_-4px_20px_-10px_rgba(0,0,0,0.05)] z-50">
+        <div className="w-full max-w-3xl mx-auto p-3 md:p-5 px-4 md:px-6 flex justify-between items-center">
           
           <button 
             title="Go to previous question"

@@ -11,6 +11,8 @@ export interface LessonProgress {
 
 interface QuizStore {
   progress: Record<string, LessonProgress>;
+  isMuted: boolean;
+  toggleMute: () => void;
   initLesson: (lessonId: string, totalQuestions: number) => void;
   answerQuestion: (lessonId: string, qIndex: number, optionIndex: number, isCorrect: boolean) => void;
   goToNext: (lessonId: string, totalQuestions: number) => void;
@@ -22,6 +24,8 @@ export const useQuizStore = create<QuizStore>()(
   persist(
     (set) => ({
       progress: {},
+      isMuted: false,
+      toggleMute: () => set((state) => ({ isMuted: !state.isMuted })),
       initLesson: (lessonId, totalQuestions) => set((state) => {
         const lesson = state.progress[lessonId];
         if (!lesson) {
