@@ -35,3 +35,21 @@ export const playSound = (type: 'correct' | 'incorrect') => {
     // Silently fail if blocked by browser policies
   }
 };
+
+export const speakWord = (text: string) => {
+  try {
+    if (!window.speechSynthesis) return;
+    const word = text.replace(/['"]/g, '').trim();
+    const utterance = new SpeechSynthesisUtterance(word);
+    const voices = window.speechSynthesis.getVoices();
+    const enVoice = voices.find(v => v.lang === 'en-US' || v.lang === 'en-GB');
+    if (enVoice) {
+      utterance.voice = enVoice;
+    } else {
+       utterance.lang = 'en-US';
+    }
+    utterance.rate = 0.85;
+    window.speechSynthesis.speak(utterance);
+  } catch (e) {
+  }
+};
