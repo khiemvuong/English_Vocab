@@ -70,6 +70,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
   const { progress, isMuted, toggleMute, initLesson, answerQuestion, goToNext, goToPrev, restartLesson } = useQuizStore();
   const [mounted, setMounted] = useState(false);
   const [showHint, setShowHint] = useState(false);
+  const [previewQuestionIndex, setPreviewQuestionIndex] = useState<number | null>(null);
 
   useEffect(() => {
     initLesson(lessonId, quizData.questions.length);
@@ -134,32 +135,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
 
   if (!session) return null;
 
-  if (isFinished) {
-    const percentage = Math.round((score / quizData.questions.length) * 100);
-    return (
-      <div className="flex flex-col items-center justify-center min-h-dvh p-6 text-center animate-in fade-in duration-500">
-        <div className="w-20 h-20 bg-blue-50 text-blue-600 rounded-full flex items-center justify-center mb-6">
-          <svg className="w-10 h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-        </div>
-        <h2 className="text-3xl font-bold text-slate-800 mb-2">Quiz Complete</h2>
-        <p className="text-slate-500 mb-8">You have successfully mastered Module {lessonId}.</p>
-        
-        <div className="bg-white border border-slate-200 rounded-3xl p-8 w-full max-w-sm shadow-sm mb-8">
-          <div className="text-5xl font-bold text-blue-600 mb-2">{score}/{quizData.questions.length}</div>
-          <div className="text-sm font-medium text-slate-400 uppercase tracking-widest">Score ({percentage}%)</div>
-        </div>
-        
-        <div className="flex gap-4">
-          <Link href="/" className="px-6 py-3 bg-white border border-slate-200 rounded-full font-medium text-slate-600 hover:bg-slate-50 transition-colors">
-            Dashboard
-          </Link>
-          <button onClick={() => restartLesson(lessonId)} className="cursor-pointer px-6 py-3 bg-blue-600 rounded-full font-medium text-white shadow-md shadow-blue-500/20 hover:bg-blue-700 hover:shadow-lg transition-all">
-            Restart Mission
-          </button>
-        </div>
-      </div>
-    );
-  }
+
 
   return (
     <div className="flex flex-col h-dvh w-full overflow-hidden">
@@ -168,7 +144,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
       <header className="flex flex-wrap items-center justify-between mb-4 md:mb-8 shrink-0 gap-y-4">
         {/* Left: Lesson Info */}
         <div className="text-xs font-bold text-slate-500 uppercase tracking-widest shrink-0">
-          Lesson {lessonId.toString().padStart(2, '0')} 
+          Lesson {(lessonId.match(/-(\d+)$/)?.[1] || lessonId).padStart(2, '0')} 
           <span className="mx-1.5 text-slate-300">•</span> 
           {currentIndex + 1} / {quizData.questions.length}
         </div>
@@ -287,6 +263,15 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
             )
           })}
         </div>
+
+        {/* Keyboard shortcut note for PCs */}
+        <div className="hidden md:flex items-center justify-center gap-1.5 mt-10 mb-2 text-[13px] font-medium text-slate-400 opacity-80">
+           <span>Mẹo: Nhấn phím</span>
+           <kbd className="font-sans font-bold bg-slate-100 border border-slate-200 rounded px-1.5 py-0.5 text-slate-500 leading-none">1</kbd>
+           <span className="mx-0.5">-</span>
+           <kbd className="font-sans font-bold bg-slate-100 border border-slate-200 rounded px-1.5 py-0.5 text-slate-500 leading-none">4</kbd>
+           <span>để chọn nhanh tương ứng A, B, C, D</span>
+        </div>
       </div>
       </div>
 
@@ -321,6 +306,143 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
           </div>
         </div>
       </div>
+
+      {/* End of Quiz Modal Popup */}
+      {isFinished && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 backdrop-blur-sm p-4">
+          {previewQuestionIndex !== null ? (
+            <div className="bg-slate-50 rounded-3xl shadow-2xl w-full max-w-lg flex flex-col overflow-hidden max-h-[85vh] animate-in slide-in-from-right-8 duration-300">
+               {/* Preview Header */}
+               <div className="flex items-center justify-between p-4 border-b border-slate-200 bg-white shrink-0">
+                  <button onClick={() => setPreviewQuestionIndex(null)} className="p-2 hover:bg-slate-100 rounded-full text-slate-500 transition-colors cursor-pointer">
+                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M15 19l-7-7 7-7" /></svg>
+                  </button>
+                  <div className="font-bold text-slate-700">Xem lại Câu {previewQuestionIndex + 1}</div>
+                  <div className="w-9" />
+               </div>
+               
+               {/* Preview Body */}
+               <div className="p-5 lg:p-6 overflow-y-auto flex-1">
+                  <h3 className="font-bold text-slate-800 leading-relaxed mb-6 text-lg">
+                     {renderFormattedText(quizData.questions[previewQuestionIndex].question)}
+                  </h3>
+                  
+                  <div className="flex flex-col gap-3">
+                    {quizData.questions[previewQuestionIndex].answerOptions.map((opt, oIdx) => {
+                      const ansObj = answers[previewQuestionIndex];
+                      const isSelected = ansObj === oIdx;
+                      const isCorrect = opt.isCorrect;
+                      
+                      let boxClass = "border border-slate-200 bg-white opacity-60";
+                      if (isCorrect) {
+                        boxClass = "border-green-300 bg-green-50 shadow-sm opacity-100 ring-2 ring-green-500/20";
+                      } else if (isSelected) {
+                        boxClass = "border-red-200 bg-red-50 opacity-100 ring-2 ring-red-500/20";
+                      }
+
+                      return (
+                        <div key={oIdx} className={`w-full text-left p-4 rounded-2xl transition-all duration-300 ${boxClass}`}>
+                          <div className="flex items-start gap-4">
+                            <span className={`w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm mt-0.5 shrink-0 ${isCorrect ? 'bg-green-500 text-white' : (isSelected ? 'bg-red-500 text-white' : 'bg-slate-100 text-slate-400')}`}>
+                              {String.fromCharCode(65 + oIdx)}
+                            </span>
+                            <div className="flex flex-col w-full">
+                              <span className={`text-[15px] leading-snug mt-0.5 ${isCorrect ? 'text-green-900 font-bold' : (isSelected ? 'text-red-900 font-bold' : 'text-slate-500 font-medium')}`}>
+                                {renderFormattedText(opt.text)}
+                              </span>
+                              {(isCorrect || isSelected) && opt.rationale && (
+                                <div className="mt-3 text-sm animate-in fade-in duration-300">
+                                  {isCorrect && <div className="text-green-700 font-bold flex items-center gap-1.5 mb-1.5">
+                                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+                                    Chính xác!
+                                  </div>}
+                                  {isSelected && !isCorrect && <div className="text-red-700 font-bold flex items-center gap-1.5 mb-1.5">
+                                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
+                                    Lựa chọn của bạn
+                                  </div>}
+                                  <p className={`leading-relaxed ${isSelected && !isCorrect ? 'text-slate-600' : 'text-slate-700'}`}>{opt.rationale}</p>
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+                      )
+                    })}
+                  </div>
+               </div>
+            </div>
+          ) : (
+            <div className="bg-white rounded-3xl shadow-2xl w-full max-w-md flex flex-col overflow-hidden max-h-[85vh] animate-in fade-in zoom-in-95 duration-300">
+              
+              {/* Modal Header */}
+              <div className="px-6 py-6 lg:py-8 border-b border-slate-100 text-center shrink-0 bg-white relative">
+                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-blue-50/80 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-500 ring-4 ring-blue-50/50">
+                  <svg className="w-8 h-8 lg:w-10 lg:h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                </div>
+                <h2 className="text-xl lg:text-2xl font-bold text-slate-800 mb-1 lg:mb-2">Hoàn thành bài tập!</h2>
+                <p className="text-slate-500 font-medium">
+                  Kết quả: <strong className="text-blue-600 text-xl mx-0.5">
+                    {score}
+                  </strong> / {quizData.questions.length}
+                </p>
+              </div>
+              
+              {/* Modal Body - Scrollable Modal approx 50vh */}
+              <div className="p-4 lg:p-6 overflow-y-auto bg-slate-50/50 flex-1 max-h-[50vh]">
+                <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4 px-1">Kết quả chi tiết</h3>
+                
+                <div className="flex flex-col gap-2.5">
+                  {quizData.questions.map((q, i) => {
+                    const optionIndex = answers[i];
+                    const hasAnswered = optionIndex !== undefined;
+                    const isCorrect = hasAnswered ? q.answerOptions[optionIndex].isCorrect : false;
+                    return (
+                      <button
+                        key={i}
+                        onClick={() => setPreviewQuestionIndex(i)}
+                        className={`flex items-center justify-between p-3.5 lg:p-4 cursor-pointer rounded-2xl border transition-transform hover:-translate-y-0.5 active:scale-95 ${isCorrect ? 'bg-green-50/60 border-green-200 text-green-700 hover:bg-green-50' : 'bg-red-50/60 border-red-200 text-red-700 hover:bg-red-50'}`}
+                      >
+                        <div className="flex items-center gap-3">
+                          <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${isCorrect ? 'bg-green-100' : 'bg-red-100/80'}`}>
+                             {isCorrect ? (
+                               <svg className="w-4 h-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
+                             ) : (
+                               <svg className="w-4 h-4 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" /></svg>
+                             )}
+                          </div>
+                          <span className="font-bold text-sm lg:text-base">Câu {i + 1}</span>
+                        </div>
+                        
+                        <div className="text-xs lg:text-sm font-semibold flex items-center gap-1 opacity-80">
+                          Xem lại
+                          <svg className="w-4 h-4 mt-px" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
+                        </div>
+                      </button>
+                    )
+                  })}
+                </div>
+              </div>
+
+              {/* Modal Footer */}
+              <div className="p-4 lg:p-6 bg-white border-t border-slate-100 flex gap-3 shrink-0">
+                <button 
+                  onClick={() => restartLesson(lessonId)} 
+                  className="flex-[0.4] py-3.5 bg-slate-100 hover:bg-slate-200 text-slate-600 font-bold rounded-xl transition-colors text-sm lg:text-base cursor-pointer"
+                >
+                  Làm lại
+                </button>
+                <Link 
+                  href="/" 
+                  className="flex-1 py-3.5 flex justify-center items-center bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors shadow-xl shadow-blue-600/20 text-sm lg:text-base cursor-pointer"
+                >
+                  Về Dashboard
+                </Link>
+              </div>
+
+            </div>
+          )}
+        </div>
+      )}
     </div>
   );
 }
