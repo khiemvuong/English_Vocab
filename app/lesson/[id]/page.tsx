@@ -20,6 +20,12 @@ interface QuizData {
   questions: Question[];
 }
 
+export async function generateStaticParams() {
+  return Array.from({ length: 8 }, (_, i) => ({
+    id: (i + 1).toString(),
+  }));
+}
+
 export default async function LessonPage({
   params,
 }: {

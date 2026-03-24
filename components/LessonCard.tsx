@@ -19,7 +19,7 @@ export function LessonCard({ lesson }: { lesson: number }) {
   const inProgress = mounted && !isCompleted && amountAnswered > 0;
   
   return (
-    <Link href={isAvailable ? `/lesson/${lesson}` : "#"}>
+    <Link href={isAvailable ? `/lesson/${lesson}` : "#"} prefetch={false}>
       <div 
         className={`flex flex-col h-full bg-white border rounded-2xl p-5 md:p-6 transition-all duration-300 relative overflow-hidden
           ${!isAvailable 
