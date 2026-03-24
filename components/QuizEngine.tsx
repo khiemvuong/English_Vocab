@@ -14,7 +14,7 @@ interface AnswerOption {
 interface Question {
   question: string;
   answerOptions: AnswerOption[];
-  hint: string;
+  hint?: string;
 }
 
 interface QuizData {
@@ -44,6 +44,7 @@ const renderFormattedText = (text: string) => {
 export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonId: string }) {
   const { progress, isMuted, toggleMute, initLesson, answerQuestion, goToNext, goToPrev, restartLesson } = useQuizStore();
   const [mounted, setMounted] = useState(false);
+  const [showHint, setShowHint] = useState(false);
 
   useEffect(() => {
     initLesson(lessonId, quizData.questions.length);
@@ -68,6 +69,10 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
       playSound(isCorrect ? 'correct' : 'incorrect');
     }
   };
+
+  useEffect(() => {
+    setShowHint(false);
+  }, [currentIndex]);
 
   useEffect(() => {
     if (!mounted || !session) return;
@@ -179,9 +184,31 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
 
       {/* Main Content Area - Scrollable */}
       <div className="flex-1 overflow-y-auto no-scrollbar pb-8">
-        <h1 className="text-lg md:text-xl font-semibold text-slate-800 leading-relaxed mb-6">
-          {renderFormattedText(question.question)}
-        </h1>
+        <div className="flex flex-col gap-4 mb-6">
+          <h1 className="text-lg md:text-xl font-semibold text-slate-800 leading-relaxed">
+            {renderFormattedText(question.question)}
+          </h1>
+          
+          {question.hint && (
+            <div className="self-start">
+              {!showHint ? (
+                <button 
+                  onClick={() => setShowHint(true)}
+                  disabled={isAnswered}
+                  className={`text-xs font-semibold flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors ${isAnswered ? 'text-slate-400 bg-slate-100 cursor-not-allowed hidden' : 'text-amber-600 hover:text-amber-700 bg-amber-50 hover:bg-amber-100'}`}
+                >
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                  Gợi ý
+                </button>
+              ) : (
+                <div className={`text-sm px-4 py-3 rounded-xl border flex items-start gap-3 transition-colors ${isAnswered ? 'text-slate-500 bg-slate-50 border-slate-200' : 'text-amber-700 bg-amber-50/80 border-amber-200/50'}`}>
+                  <svg className="w-5 h-5 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                  <span className="leading-relaxed">{question.hint}</span>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
 
         <div className="flex flex-col gap-3">
           {question.answerOptions.map((opt, idx) => {
