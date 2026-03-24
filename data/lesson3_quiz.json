@@ -2,784 +2,1044 @@
   "title": "Từ vựng Trắc nghiệm Lesson 3",
   "questions": [
     {
-      "question": "Trong bối cảnh chuẩn bị làm việc, từ 'take off' thường mang nghĩa là gì khi nói về trang phục?",
+      "question": "Bạn chuẩn bị đi qua cửa an ninh sân bay để đi công tác, nhân viên yêu cầu bạn 'take off' /teɪk ɔ:f/ áo khoác. Từ này có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Giặt ủi",
+          "text": "Gấp lại",
           "isCorrect": false,
-          "rationale": "Việc làm sạch quần áo sử dụng các động từ như 'wash' hoặc 'clean', không liên quan đến động từ này."
+          "rationale": "Từ này tương ứng với 'fold', một hành động xử lý quần áo sau khi đã cởi ra chứ không phải chính hành động cởi."
         },
         {
-          "text": "Cất cánh",
+          "text": "Mua thêm",
           "isCorrect": false,
-          "rationale": "Mặc dù 'take off' có nghĩa là máy bay rời mặt đất, nhưng trong bối cảnh trang phục, nó chỉ việc tháo bỏ quần áo."
+          "rationale": "Nghĩa này liên quan đến việc mua sắm ('purchase'), không phù hợp với yêu cầu thực tế tại cửa kiểm soát an ninh."
         },
         {
           "text": "Cởi ra",
           "isCorrect": true,
-          "rationale": "Từ này mô tả hành động loại bỏ trang phục hoặc phụ kiện đang mang trên người như áo khoác hay giày."
+          "rationale": "Trong ngữ cảnh trang phục, 'take off' có nghĩa là cởi bỏ quần áo hoặc phụ kiện ra khỏi cơ thể."
         },
         {
           "text": "Mặc vào",
           "isCorrect": false,
-          "rationale": "Hành động mặc vào được mô tả bởi cụm từ 'put on', trái ngược với việc cởi ra."
+          "rationale": "Đây là nghĩa của cụm từ 'put on', trái ngược hoàn toàn với yêu cầu cởi bỏ trang phục tại cửa an ninh."
         }
       ],
-      "hint": "Hãy nghĩ đến hành động ngược lại với việc mặc quần áo vào."
+      "hint": "Hãy nghĩ đến hành động bạn thường làm với giày dép trước khi bước vào một ngôi nhà kiểu truyền thống."
     },
     {
-      "question": "Vật dụng nào sau đây được gọi là 'badge' trong môi trường công sở?",
+      "question": "Khi vào làm việc tại một tòa nhà văn phòng mới, bạn được phát một chiếc 'badge' /bædʒ/ để đeo ở ngực. Từ này đồng nghĩa với cụm từ nào sau đây?",
       "answerOptions": [
         {
-          "text": "Bảng thông báo",
+          "text": "Business card",
           "isCorrect": false,
-          "rationale": "Bảng thông báo là một tấm bảng lớn treo trên tường, được gọi là 'bulletin board'."
+          "rationale": "Danh thiếp dùng để trao đổi thông tin liên lạc, thường được cất trong ví thay vì đeo trên áo như huy hiệu."
         },
         {
-          "text": "Cà vạt",
+          "text": "Credit card",
           "isCorrect": false,
-          "rationale": "Cà vạt là phụ kiện thời trang nam, được gọi là 'necktie', không dùng để định danh."
+          "rationale": "Đây là thẻ tín dụng dùng để thanh toán, không dùng để đeo nhằm mục đích nhận diện nhân viên."
         },
         {
-          "text": "Huy hiệu hoặc thẻ tên",
+          "text": "Postcard",
+          "isCorrect": false,
+          "rationale": "Bưu thiếp là vật phẩm dùng để gửi qua bưu điện, hoàn toàn không liên quan đến việc nhận diện nhân sự."
+        },
+        {
+          "text": "Name tag",
           "isCorrect": true,
-          "rationale": "Đây là vật dụng nhỏ thường được gắn lên áo hoặc đeo ở cổ để xác nhận danh tính nhân viên."
-        },
-        {
-          "text": "Hóa đơn",
-          "isCorrect": false,
-          "rationale": "Hóa đơn là giấy tờ thanh toán, được gọi là 'invoice', không phải vật đeo trên người."
+          "rationale": "Cả 'badge' và 'name tag' đều chỉ thẻ tên hoặc huy hiệu dùng để nhận diện cá nhân trong một tổ chức."
         }
       ],
-      "hint": "Đây là thứ bạn thường đeo để bảo vệ hoặc bộ phận an ninh nhận diện mình."
+      "hint": "Vật dụng này giúp mọi người xung quanh biết được tên và vị trí công tác của bạn một cách nhanh chóng."
     },
     {
-      "question": "Hành động 'lean over' thường được thấy trong các bức tranh miêu tả điều gì?",
+      "question": "Thang máy của công ty đang bảo trì nên mọi người phải sử dụng 'stairs' /sterz/ để lên văn phòng. 'Stairs' nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Cúi người hoặc nghiêng người",
-          "isCorrect": true,
-          "rationale": "Cụm từ này mô tả tư thế cơ thể không thẳng đứng, thường là để nhìn rõ hơn hoặc nhặt vật gì đó."
+          "text": "Thang cuốn",
+          "isCorrect": false,
+          "rationale": "Thang cuốn ('escalator') là loại thang tự động di chuyển, thường thấy ở các trung tâm thương mại hơn là văn phòng nhỏ."
         },
         {
-          "text": "Chạy bộ",
+          "text": "Hành lang",
           "isCorrect": false,
-          "rationale": "Chạy bộ là hoạt động di chuyển tốc độ cao, không tập trung vào tư thế cúi gập của lưng."
+          "rationale": "Hành lang ('hallway/corridor') là lối đi bằng phẳng nối các phòng, không giúp thay đổi độ cao giữa các tầng."
+        },
+        {
+          "text": "Cầu thang bộ",
+          "isCorrect": true,
+          "rationale": "Stairs là các bậc thang cố định được sử dụng để di chuyển giữa các tầng trong một tòa nhà bằng sức chân."
+        },
+        {
+          "text": "Cửa sổ",
+          "isCorrect": false,
+          "rationale": "Cửa sổ ('window') là bộ phận của tường để lấy sáng và gió, không có chức năng di chuyển giữa các tầng."
+        }
+      ],
+      "hint": "Đây là phương tiện di chuyển truyền thống giữa các tầng giúp bạn vận động cơ chân nhiều hơn."
+    },
+    {
+      "question": "Trong giờ làm việc, một đồng nghiệp 'lean over' /li:n 'əʊvər/ để nhặt cây bút bị rơi dưới sàn. Hành động này được hiểu là gì?",
+      "answerOptions": [
+        {
+          "text": "Nhảy lên",
+          "isCorrect": false,
+          "rationale": "Hành động 'jump' không phù hợp khi mục đích là tiếp cận một vật nằm sát mặt đất như cây bút rơi."
+        },
+        {
+          "text": "Ngồi xuống",
+          "isCorrect": false,
+          "rationale": "Dù 'sit down' cũng đưa cơ thể xuống thấp nhưng nó không thể hiện rõ sự nghiêng người để với tới vật phẩm."
         },
         {
           "text": "Đứng thẳng",
           "isCorrect": false,
-          "rationale": "Đứng thẳng là tư thế không có độ nghiêng, trong khi cụm từ này yêu cầu sự thay đổi trọng tâm cơ thể."
+          "rationale": "Đây là hành động ngược lại với việc cúi xuống để tiếp cận vật ở dưới thấp."
         },
         {
-          "text": "Nằm nghỉ",
-          "isCorrect": false,
-          "rationale": "Nằm nghỉ là trạng thái tĩnh trên bề mặt phẳng, không phải là động tác nghiêng người."
-        }
-      ],
-      "hint": "Hãy tưởng tượng bạn đang cúi xuống lan can để nhìn xuống phía dưới."
-    },
-    {
-      "question": "Từ 'railing' tương ứng với bộ phận nào của một công trình?",
-      "answerOptions": [
-        {
-          "text": "Cửa sổ",
-          "isCorrect": false,
-          "rationale": "Cửa sổ là phần khung kính để lấy ánh sáng và gió, không phải là thanh chắn bảo vệ."
-        },
-        {
-          "text": "Bậc thang",
-          "isCorrect": false,
-          "rationale": "Bậc thang là phần để bước lên, được gọi là 'stairs' hoặc 'steps'."
-        },
-        {
-          "text": "Lan can",
+          "text": "Nghiêng người/Cúi người",
           "isCorrect": true,
-          "rationale": "Lan can là thanh chắn bảo vệ dọc theo cầu thang hoặc ban công để người dùng có thể bám vào."
-        },
-        {
-          "text": "Mái nhà",
-          "isCorrect": false,
-          "rationale": "Mái nhà là phần bao phủ phía trên cùng của công trình, được gọi là 'roof'."
+          "rationale": "Lean over mô tả hành động nghiêng phần trên của cơ thể về phía trước hoặc sang một bên."
         }
       ],
-      "hint": "Đây là vật bạn thường nắm vào để giữ thăng bằng khi đi lên hoặc xuống cầu thang."
+      "hint": "Hành động này thường xảy ra khi bạn muốn xem thứ gì đó ở gần hoặc nhặt vật rơi mà không nhất thiết phải ngồi hẳn xuống."
     },
     {
-      "question": "Một người đang sử dụng 'ladder' có nghĩa là họ đang làm gì?",
+      "question": "Khi chuyển văn phòng, bạn cần 'lift' /lɪft/ những chiếc hộp tài liệu nặng lên kệ cao. 'Lift' ở đây có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Lái xe tải",
+          "text": "Mở ra",
           "isCorrect": false,
-          "rationale": "Lái xe tải yêu cầu kỹ năng vận hành phương tiện, không liên quan đến việc leo bậc."
+          "rationale": "Hành động 'open' liên quan đến việc tháo dỡ nắp hộp, không mô tả việc di chuyển toàn bộ chiếc hộp lên kệ."
         },
         {
-          "text": "Quét dọn vỉa hè",
+          "text": "Đẩy đi",
           "isCorrect": false,
-          "rationale": "Việc dọn dẹp thường sử dụng chổi hoặc máy hút bụi, không cần đến dụng cụ hỗ trợ độ cao này."
+          "rationale": "Đây là nghĩa của từ 'push', tác động lực theo phương ngang thay vì phương thẳng đứng như 'lift'."
         },
         {
-          "text": "Đẩy xe rùa",
-          "isCorrect": false,
-          "rationale": "Đẩy xe rùa liên quan đến 'wheelbarrow', một công cụ di chuyển vật liệu trên mặt đất."
-        },
-        {
-          "text": "Sử dụng cái thang",
+          "text": "Nâng lên/Nhấc lên",
           "isCorrect": true,
-          "rationale": "Thang là dụng cụ có các bậc để leo lên những vị trí cao hơn mà tầm với bình thường không tới được."
+          "rationale": "Lift là hành động dùng lực để đưa một vật từ vị trí thấp lên vị trí cao hơn."
+        },
+        {
+          "text": "Kéo lại",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của từ 'pull', hành động di chuyển vật về phía mình thay vì đưa vật lên cao."
         }
       ],
-      "hint": "Dụng cụ này có thể di chuyển được và thường được dựa vào tường để leo lên cao."
+      "hint": "Cần rất nhiều sức lực từ cánh tay và lưng để thực hiện hành động này đối với các vật nặng."
     },
     {
-      "question": "Đâu là nghĩa của từ 'display case' trong một cửa hàng?",
+      "question": "Khi đứng giải lao ở ban công văn phòng, bạn nên vịn vào 'railing' /'reɪlɪŋ/ để đảm bảo an toàn. Từ đồng nghĩa của nó là?",
       "answerOptions": [
         {
-          "text": "Quầy thanh toán",
+          "text": "Roof",
           "isCorrect": false,
-          "rationale": "Quầy thanh toán là nơi thực hiện giao dịch, được gọi là 'checkout counter' hoặc 'cashier'."
+          "rationale": "Mái nhà ('roof') là phần che chắn phía trên đỉnh tòa nhà, không phải là bộ phận dùng để vịn tay khi đứng ở ban công."
         },
         {
-          "text": "Giỏ mua hàng",
+          "text": "Floor",
           "isCorrect": false,
-          "rationale": "Giỏ mua hàng là dụng cụ để khách đựng đồ khi chọn, được gọi là 'shopping basket'."
+          "rationale": "Sàn nhà ('floor') là bề mặt bạn đứng lên, không có chức năng làm vật bám trụ ở ngang tầm tay."
         },
         {
-          "text": "Nhà kho",
-          "isCorrect": false,
-          "rationale": "Nhà kho là nơi lưu trữ hàng hóa chưa bán, thường được gọi là 'warehouse' hoặc 'storage'."
+          "text": "Handrail",
+          "isCorrect": true,
+          "rationale": "Cả 'railing' và 'handrail' đều chỉ phần thanh chắn hoặc tay vịn được thiết kế để bảo vệ người dùng ở các mép cao."
         },
+        {
+          "text": "Ceiling",
+          "isCorrect": false,
+          "rationale": "Trần nhà ('ceiling') nằm ở phía trên cao, vượt ngoài tầm với của người đang đứng bình thường."
+        }
+      ],
+      "hint": "Đây là một thanh chắn dài chạy dọc theo cầu thang hoặc ban công để ngăn người ta bị ngã."
+    },
+    {
+      "question": "Người thợ sửa điện đang 'climb' /klaɪm/ lên cái 'ladder' /'lædər/ để kiểm tra bóng đèn trần. 'Ladder' nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Cái thang",
+          "isCorrect": true,
+          "rationale": "Ladder là một thiết bị di động gồm các bậc dùng để leo lên những vị trí cao mà tay không với tới được."
+        },
+        {
+          "text": "Cái ghế",
+          "isCorrect": false,
+          "rationale": "Ghế ('chair') dùng để ngồi; mặc dù đôi khi được dùng để đứng lên nhưng không chuyên dụng và an toàn bằng thang."
+        },
+        {
+          "text": "Bàn làm việc",
+          "isCorrect": false,
+          "rationale": "Bàn ('desk') có bề mặt phẳng lớn để làm việc, không được thiết kế với các bậc để leo trèo lên cao."
+        },
+        {
+          "text": "Thang máy",
+          "isCorrect": false,
+          "rationale": "Thang máy ('elevator') là hệ thống cơ khí tự động, không phải là vật dụng cầm tay đơn giản mà người thợ thường mang theo."
+        }
+      ],
+      "hint": "Vật dụng này có thể gấp gọn hoặc dựa vào tường, giúp bạn tiếp cận được những vị trí như nóc tủ hoặc bóng đèn trần."
+    },
+    {
+      "question": "Các dãy ghế trong hội trường công ty được xếp thành từng 'row' /rəʊ/. Cụm từ nào sau đây thường xuất hiện trong bài thi liên quan đến từ này?",
+      "answerOptions": [
+        {
+          "text": "Run in a race",
+          "isCorrect": false,
+          "rationale": "Đây là hành động chạy trong một cuộc đua, không liên quan đến cách thức sắp xếp vị trí ngồi trong văn phòng."
+        },
+        {
+          "text": "Sit in a row",
+          "isCorrect": true,
+          "rationale": "Cụm từ này mô tả việc nhiều người hoặc vật được sắp xếp ngồi theo một hàng ngang hoặc dọc nhất định."
+        },
+        {
+          "text": "Walk on a bridge",
+          "isCorrect": false,
+          "rationale": "Hành động đi bộ trên cầu không phản ánh tính chất sắp xếp thứ tự theo dãy của từ 'row'."
+        },
+        {
+          "text": "Stand in a circle",
+          "isCorrect": false,
+          "rationale": "Cụm từ này chỉ việc đứng thành vòng tròn, cấu trúc sắp xếp hoàn toàn khác với việc xếp theo hàng ('row')."
+        }
+      ],
+      "hint": "Hãy tưởng tượng cách các khán giả ngồi trong rạp chiếu phim để xác định cụm từ phù hợp."
+    },
+    {
+      "question": "Những mẫu sản phẩm mới nhất của công ty được trưng bày trang trọng trong 'display case' /dɪ'spleɪ keɪs/. Nghĩa của từ này là gì?",
+      "answerOptions": [
         {
           "text": "Tủ trưng bày",
           "isCorrect": true,
-          "rationale": "Tủ trưng bày thường làm bằng kính để khách hàng có thể nhìn thấy sản phẩm bên trong mà không cần chạm vào."
+          "rationale": "Display case là loại tủ (thường có mặt kính) được dùng để trình bày hàng hóa hoặc hiện vật cho mọi người xem."
+        },
+        {
+          "text": "Cặp tài liệu",
+          "isCorrect": false,
+          "rationale": "Cặp tài liệu ('briefcase') dùng để vận chuyển giấy tờ cá nhân, không dùng để trưng bày cố định tại văn phòng."
+        },
+        {
+          "text": "Hộp bút",
+          "isCorrect": false,
+          "rationale": "Hộp bút ('pencil case') có kích thước nhỏ và mục đích lưu trữ đồ dùng học tập cá nhân thay vì trưng bày cho công chúng."
+        },
+        {
+          "text": "Thùng rác",
+          "isCorrect": false,
+          "rationale": "Thùng rác ('trash bin') dùng để chứa đồ bỏ đi, hoàn toàn trái ngược với mục đích trình diễn sản phẩm mới."
         }
       ],
-      "hint": "Vật dụng này thường bằng kính, dùng để giới thiệu các món đồ quý giá hoặc sản phẩm mới."
+      "hint": "Bạn thường thấy vật này trong các cửa hàng trang sức hoặc bảo tàng để bảo vệ hiện vật mà vẫn cho phép khách tham quan nhìn thấy."
     },
     {
-      "question": "Công cụ 'wheelbarrow' thường được dùng trong công việc nào?",
+      "question": "Để trông chuyên nghiệp hơn trong buổi lễ ký kết hợp đồng, giám đốc đã thắt một chiếc 'necktie' /'nektaɪ/. Từ này còn có cách gọi ngắn gọn là gì?",
       "answerOptions": [
         {
-          "text": "Làm vườn hoặc xây dựng",
+          "text": "Ribbon",
+          "isCorrect": false,
+          "rationale": "Ruy băng ('ribbon') thường dùng để gói quà hoặc trang trí tóc, không phải là trang phục công sở chính thức cho nam giới."
+        },
+        {
+          "text": "Belt",
+          "isCorrect": false,
+          "rationale": "Dây lưng ('belt') dùng để giữ quần ở hông, không phải phụ kiện đeo quanh cổ như cà vạt."
+        },
+        {
+          "text": "Tie",
           "isCorrect": true,
-          "rationale": "Xe cút kít (xe rùa) được thiết kế để một người có thể đẩy và vận chuyển đất, cát hoặc vật liệu xây dựng."
+          "rationale": "Trong tiếng Anh, 'tie' là cách gọi ngắn gọn và phổ biến nhất của 'necktie'."
         },
         {
-          "text": "Giảng dạy tại trường học",
+          "text": "Scarf",
           "isCorrect": false,
-          "rationale": "Giáo dục sử dụng bảng và sách vở, xe cút kít không phải là công cụ giảng dạy phổ biến."
-        },
-        {
-          "text": "Lập trình máy tính",
-          "isCorrect": false,
-          "rationale": "Lập trình là công việc trí óc, không yêu cầu sử dụng xe đẩy vật liệu nặng."
-        },
-        {
-          "text": "Nấu ăn trong nhà hàng",
-          "isCorrect": false,
-          "rationale": "Trong bếp, người ta sử dụng các loại khay hoặc xe đẩy thực phẩm chuyên dụng, không dùng xe cút kít."
+          "rationale": "Khăn quàng ('scarf') thường dùng để giữ ấm hoặc trang trí, có kiểu dáng và cách thắt khác hẳn cà vạt."
         }
       ],
-      "hint": "Đây là một loại xe nhỏ có một bánh ở phía trước và hai tay cầm ở phía sau."
+      "hint": "Đây là một dải vải dài được thắt quanh cổ áo sơ mi, thường đi kèm với bộ com-lê."
     },
     {
-      "question": "Động từ 'suspend' trong câu 'The lamp is suspended from the ceiling' có nghĩa là gì?",
+      "question": "Phía ngoài công trường xây dựng trụ sở mới, một công nhân đang đẩy chiếc 'wheelbarrow' /'wi:lbærəʊ/. Từ này nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Treo lơ lửng",
+          "text": "Xe nâng",
+          "isCorrect": false,
+          "rationale": "Xe nâng ('forklift') là máy móc công nghiệp dùng để nâng hạ pallet, không vận hành bằng cách đẩy tay như wheelbarrow."
+        },
+        {
+          "text": "Xe đạp",
+          "isCorrect": false,
+          "rationale": "Xe đạp ('bicycle') dùng làm phương tiện di chuyển cá nhân, không có chức năng chở vật liệu rời như cát, đá ở công trường."
+        },
+        {
+          "text": "Xe tải",
+          "isCorrect": false,
+          "rationale": "Xe tải ('truck') là phương tiện cơ giới lớn, không phải là loại xe đẩy thủ công đơn giản như xe cút kít."
+        },
+        {
+          "text": "Xe cút kít",
           "isCorrect": true,
-          "rationale": "Treo lơ lửng mô tả trạng thái vật được giữ ở trên không bằng dây xích, dây thừng hoặc giá đỡ từ phía trên."
-        },
-        {
-          "text": "Bật sáng",
-          "isCorrect": false,
-          "rationale": "Bật sáng mô tả trạng thái hoạt động của đèn, không phải vị trí vật lý của nó."
-        },
-        {
-          "text": "Đặt trên sàn",
-          "isCorrect": false,
-          "rationale": "Nếu đặt trên sàn, đèn sẽ không thể ở vị trí 'from the ceiling' (từ trần nhà)."
-        },
-        {
-          "text": "Sửa chữa",
-          "isCorrect": false,
-          "rationale": "Sửa chữa là hành động khắc phục lỗi, không diễn tả cách thức lắp đặt vật dụng."
+          "rationale": "Wheelbarrow là loại xe nhỏ có một bánh ở phía trước và hai tay cầm phía sau, dùng để vận chuyển vật liệu xây dựng hoặc làm vườn."
         }
       ],
-      "hint": "Nó mô tả trạng thái của một vật dụng không chạm đất và được giữ từ trên cao."
+      "hint": "Loại xe này chỉ có một bánh duy nhất và cần người điều khiển giữ thăng bằng bằng hai tay cầm."
     },
     {
-      "question": "Vật dụng 'bulletin board' thường được đặt ở đâu trong văn phòng?",
+      "question": "Kỹ thuật viên thông báo rằng có nhiều 'wire' /'waɪər/ treo từ trần nhà xuống sau buổi sửa chữa hệ thống mạng. 'Wire' nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Dưới sàn nhà",
+          "text": "Công tắc",
           "isCorrect": false,
-          "rationale": "Đặt bảng dưới sàn sẽ gây cản trở lối đi và làm thông tin khó được tiếp cận một cách chuyên nghiệp."
+          "rationale": "Công tắc ('switch') là bộ phận điều khiển đóng ngắt mạch điện, không có dạng sợi dài như wire."
         },
         {
-          "text": "Trong ngăn kéo",
-          "isCorrect": false,
-          "rationale": "Thông tin trên bảng thông báo cần được công khai, việc cất trong ngăn kéo sẽ làm mất mục đích của nó."
-        },
-        {
-          "text": "Trên tường",
+          "text": "Dây điện/Dây kim loại",
           "isCorrect": true,
-          "rationale": "Bảng thông báo thường được gắn cố định trên tường ở những nơi đông người qua lại để dễ quan sát."
+          "rationale": "Wire là sợi dây làm bằng kim loại, thường được bọc nhựa để truyền dẫn điện hoặc tín hiệu."
         },
         {
-          "text": "Trên trần nhà",
+          "text": "Ống nước",
           "isCorrect": false,
-          "rationale": "Trần nhà không phải là vị trí thuận tiện để mọi người có thể đọc thông tin trên bảng."
+          "rationale": "Ống nước ('pipe') có dạng hình trụ rỗng và đường kính lớn hơn nhiều so với dây điện."
+        },
+        {
+          "text": "Bóng đèn",
+          "isCorrect": false,
+          "rationale": "Bóng đèn ('light bulb') là thiết bị phát sáng, không phải là dây dẫn kết nối hệ thống."
         }
       ],
-      "hint": "Nó cần được đặt ở vị trí ngang tầm mắt mọi người để thông báo các tin tức quan trọng."
+      "hint": "Vật liệu này rất quan trọng để kết nối các thiết bị điện tử và máy tính trong văn phòng của bạn."
     },
     {
-      "question": "Từ 'prop' (động từ) thường đi kèm với giới từ nào để diễn tả việc dựa một vật vào vật khác?",
+      "question": "Một tấm bảng thông báo được 'suspend' /sə'spend/ từ trần nhà ngay lối ra vào. Từ đồng nghĩa của 'suspend' trong ngữ cảnh này là?",
       "answerOptions": [
         {
-          "text": "Between",
+          "text": "Build",
           "isCorrect": false,
-          "rationale": "Giới từ này chỉ vị trí ở giữa hai vật, thường không dùng để mô tả tư thế của một vật đang dựa vào tường."
+          "rationale": "Xây dựng ('build') liên quan đến việc tạo ra cấu trúc, không mô tả hành động gắn một vật có sẵn lên trần nhà."
         },
         {
-          "text": "Through",
+          "text": "Place",
           "isCorrect": false,
-          "rationale": "Giới từ này chỉ sự xuyên qua, không liên quan đến cơ chế vật lý của việc chống đỡ."
+          "rationale": "Từ này chỉ việc đặt vật lên một bề mặt phẳng, không thể hiện trạng thái lơ lửng như khi được treo ('hang')."
         },
         {
-          "text": "Under",
-          "isCorrect": false,
-          "rationale": "Giới từ này chỉ vị trí phía dưới, không phù hợp với hành động tựa hoặc chống đỡ từ phía bên cạnh."
-        },
-        {
-          "text": "Against",
+          "text": "Hang",
           "isCorrect": true,
-          "rationale": "Cấu trúc 'prop something against something' dùng để diễn tả việc đặt một vật tựa vào bề mặt thẳng đứng để giữ thăng bằng."
-        }
-      ],
-      "hint": "Hãy nghĩ về cách bạn đặt một chiếc thang dựa vào bức tường."
-    },
-    {
-      "question": "Một cuốn 'manual' cung cấp loại thông tin nào cho người dùng?",
-      "answerOptions": [
-        {
-          "text": "Danh sách các món ăn",
-          "isCorrect": false,
-          "rationale": "Danh sách món ăn thường nằm trong 'menu', không phải là tài liệu hướng dẫn vận hành."
+          "rationale": "Trong ngữ cảnh vật lý, 'suspend' có nghĩa là treo một vật gì đó lên cao để nó không chạm đất."
         },
         {
-          "text": "Hướng dẫn sử dụng hoặc quy trình",
+          "text": "Drop",
+          "isCorrect": false,
+          "rationale": "Thả rơi ('drop') là hành động để vật rơi tự do xuống dưới, ngược lại với việc giữ cố định vật trên cao."
+        }
+      ],
+      "hint": "Hãy nghĩ đến trạng thái của những chiếc đèn chùm hoặc quạt trần đối với mặt sàn bên dưới."
+    },
+    {
+      "question": "Vào giờ nghỉ trưa nắng gắt, các nhân viên thường ngồi thư giãn trong 'shade' /ʃeɪd/ của những tán cây ở khuôn viên. Từ này nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Cánh đồng",
+          "isCorrect": false,
+          "rationale": "Cánh đồng ('field') chỉ một không gian rộng lớn, không mang nghĩa cụ thể về việc che chắn ánh sáng."
+        },
+        {
+          "text": "Vỉa hè",
+          "isCorrect": false,
+          "rationale": "Vỉa hè ('sidewalk') là lối đi bộ, có thể nằm ngoài nắng hoặc trong bóng râm nhưng bản thân từ đó không chỉ bóng mát."
+        },
+        {
+          "text": "Bóng râm",
           "isCorrect": true,
-          "rationale": "Sách hướng dẫn (manual) chứa các thông tin chi tiết về cách lắp đặt, vận hành và bảo trì thiết bị."
+          "rationale": "Shade là khu vực tối và mát hơn do có vật chắn ánh nắng mặt trời trực tiếp."
         },
         {
-          "text": "Bản tin thời tiết",
+          "text": "Ánh nắng",
           "isCorrect": false,
-          "rationale": "Thông tin thời tiết được gọi là 'weather forecast', thường được cập nhật hàng ngày thay vì in thành sách cố định."
-        },
-        {
-          "text": "Tiểu thuyết hư cấu",
-          "isCorrect": false,
-          "rationale": "Tiểu thuyết nhằm mục đích giải trí, trong khi manual nhằm mục đích cung cấp kiến thức kỹ thuật thực tế."
+          "rationale": "Ánh nắng ('sunlight') là nguồn gây ra sức nóng, trái ngược với khu vực mát mẻ mà nhân viên đang tìm kiếm."
         }
       ],
-      "hint": "Bạn sẽ cần đến nó khi mua một chiếc máy giặt mới và chưa biết cách vận hành."
+      "hint": "Đây là nơi bạn tìm đến để tránh cái nóng trực tiếp từ mặt trời khi ở ngoài trời."
     },
     {
-      "question": "Từ 'except for' được sử dụng khi bạn muốn làm gì?",
+      "question": "Mọi thông báo về lịch nghỉ lễ và quy định mới đều được dán trên 'bulletin board' /'bʊlətɪn bɔ:rd/ ở sảnh chính. Từ này nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Liệt kê thêm các món đồ",
-          "isCorrect": false,
-          "rationale": "Để thêm vào, chúng ta dùng các từ như 'in addition to' hoặc 'also', không phải từ mang tính loại trừ."
-        },
-        {
-          "text": "Nêu ra một ngoại lệ",
+          "text": "Bảng thông báo",
           "isCorrect": true,
-          "rationale": "'Except for' dùng để chỉ ra một đối tượng không nằm trong nhóm hoặc quy tắc vừa được nhắc đến."
+          "rationale": "Bulletin board là tấm bảng được đặt ở nơi công cộng để dán các mẩu tin, thông báo cho mọi người cùng đọc."
         },
         {
-          "text": "Nhấn mạnh sự đồng ý",
+          "text": "Bàn làm việc",
           "isCorrect": false,
-          "rationale": "Sự đồng ý thường dùng các từ như 'absolutely' hoặc 'agree', không mang nghĩa loại trừ."
+          "rationale": "Bàn làm việc ('desk') là không gian cá nhân để xử lý giấy tờ, không phải nơi niêm yết thông tin chung cho toàn công ty."
         },
         {
-          "text": "Yêu cầu sự giúp đỡ",
+          "text": "Kệ sách",
           "isCorrect": false,
-          "rationale": "Yêu cầu giúp đỡ sử dụng các cấu trúc như 'could you help me', không liên quan đến cấu trúc loại trừ này."
+          "rationale": "Kệ sách ('bookshelf') dùng để lưu trữ sách vở theo chiều đứng, không có bề mặt phẳng để dán các tờ thông báo."
+        },
+        {
+          "text": "Bảng viết phấn",
+          "isCorrect": false,
+          "rationale": "Bảng viết phấn ('blackboard/chalkboard') dùng để giảng dạy và có thể xóa đi, khác với bảng chuyên dùng để dán thông báo cố định."
         }
       ],
-      "hint": "Cụm từ này có nghĩa tương đương với 'ngoại trừ' trong tiếng Việt."
+      "hint": "Nếu bạn muốn biết thực đơn hôm nay ở căng tin hoặc tin tuyển dụng nội bộ, bạn nên nhìn vào vật này."
     },
     {
-      "question": "Chất liệu 'fabric' là thành phần chính của sản phẩm nào?",
+      "question": "Để giữ cho cửa kho luôn mở khi chuyển hàng, người ta dùng một thanh gỗ để 'prop' /prɒp/ nó lại. Nghĩa của từ này là gì?",
       "answerOptions": [
         {
-          "text": "Lốp xe ô tô",
+          "text": "Sơn màu",
           "isCorrect": false,
-          "rationale": "Lốp xe được làm từ cao su và lõi thép để chịu lực và ma sát, không phải từ vải thông thường."
+          "rationale": "Sơn ('paint') là thay đổi màu sắc bề mặt, không liên quan đến việc cố định vị trí của cánh cửa."
         },
         {
-          "text": "Gạch xây dựng",
-          "isCorrect": false,
-          "rationale": "Gạch được làm từ đất sét nung hoặc bê tông, là vật liệu cứng và không có tính chất của sợi dệt."
-        },
-        {
-          "text": "Máy tính để bàn",
-          "isCorrect": false,
-          "rationale": "Máy tính được làm từ kim loại, nhựa và các linh kiện điện tử, không sử dụng vải làm chất liệu chính."
-        },
-        {
-          "text": "Quần áo và rèm cửa",
+          "text": "Chống/Đỡ",
           "isCorrect": true,
-          "rationale": "Vải (fabric) là nguyên liệu dệt may cơ bản để sản xuất các mặt hàng mềm như trang phục hoặc đồ gia dụng bằng vải."
+          "rationale": "Prop là hành động sử dụng một vật khác làm điểm tựa để giữ một vật ở nguyên vị trí mong muốn."
+        },
+        {
+          "text": "Khóa lại",
+          "isCorrect": false,
+          "rationale": "Khóa cửa ('lock') là để ngăn việc mở cửa, ngược lại với mục đích của việc dùng vật chống để giữ cửa mở."
+        },
+        {
+          "text": "Dỡ bỏ",
+          "isCorrect": false,
+          "rationale": "Dỡ bỏ ('remove/tear down') là phá hủy hoặc lấy đi, không phải là hành động hỗ trợ vị trí đứng của vật."
         }
       ],
-      "hint": "Hãy nghĩ đến những thứ có thể cắt được bằng kéo và có thể khâu lại bằng kim chỉ."
+      "hint": "Hành động này thường cần một vật trung gian để tạo ra lực đỡ, giúp vật chính không bị đổ hoặc đóng lại."
     },
     {
-      "question": "Nếu một doanh nghiệp thuê 'seasonal help', họ đang làm gì?",
+      "question": "Khi mới nhận máy tính xách tay từ phòng IT, bạn nên đọc kỹ 'manual' /'mænjuəl/ để biết cách sử dụng các tính năng mới. Từ này đồng nghĩa với?",
       "answerOptions": [
         {
-          "text": "Thuê nhân viên thời vụ",
+          "text": "Magazine",
+          "isCorrect": false,
+          "rationale": "Tạp chí ('magazine') là ấn phẩm định kỳ về các chủ đề đa dạng, không tập trung vào hướng dẫn sử dụng cho một sản phẩm cụ thể."
+        },
+        {
+          "text": "Newspaper",
+          "isCorrect": false,
+          "rationale": "Báo ('newspaper') cung cấp tin tức hàng ngày, hoàn toàn không phải là tài liệu hướng dẫn vận hành thiết bị văn phòng."
+        },
+        {
+          "text": "Novel",
+          "isCorrect": false,
+          "rationale": "Tiểu thuyết ('novel') là tác phẩm văn học hư cấu, không chứa các chỉ dẫn kỹ thuật hay hướng dẫn sử dụng."
+        },
+        {
+          "text": "Guide/Handbook",
           "isCorrect": true,
-          "rationale": "Nhân viên thời vụ chỉ được thuê vào những giai đoạn bận rộn cụ thể như mùa du lịch hoặc dịp lễ tết."
-        },
-        {
-          "text": "Đóng cửa doanh nghiệp",
-          "isCorrect": false,
-          "rationale": "Thuê thêm người giúp đỡ là dấu hiệu của sự hoạt động, không phải là dấu hiệu của việc ngừng kinh doanh."
-        },
-        {
-          "text": "Thuê nhân viên làm việc vĩnh viễn",
-          "isCorrect": false,
-          "rationale": "Nhân viên vĩnh viễn (permanent) làm việc lâu dài, không phụ thuộc vào các thời điểm nhất định trong năm."
-        },
-        {
-          "text": "Giảm bớt lương nhân viên",
-          "isCorrect": false,
-          "rationale": "Việc tuyển dụng thêm người mới thường làm tăng quỹ lương, không phải là hành động cắt giảm."
+          "rationale": "Cả 'manual', 'guide' và 'handbook' đều chỉ sách hoặc tài liệu hướng dẫn cách vận hành một thiết bị hoặc thực hiện quy trình."
         }
       ],
-      "hint": "Từ này có gốc từ 'season', nghĩa là mùa trong năm."
+      "hint": "Vật này chứa các bước hướng dẫn chi tiết 'làm thế nào' để cài đặt hoặc sửa chữa lỗi cơ bản."
     },
     {
-      "question": "Mục đích của một 'job listing' là gì?",
+      "question": "Trong buổi đào tạo nội bộ, nhân viên được xem một bộ phim 'documentary' /ˌdɒkju'mentri/ về lịch sử hình thành công ty. Từ này nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Để sa thải nhân viên",
+          "text": "Phim hoạt hình",
           "isCorrect": false,
-          "rationale": "Việc sa thải là chấm dứt hợp đồng, trong khi listing là bắt đầu quá trình tìm kiếm người mới."
+          "rationale": "Phim hoạt hình ('animation/cartoon') mang tính giải trí và hình ảnh vẽ tay/đồ họa, không phải phim ghi lại tư liệu thực tế."
         },
         {
-          "text": "Để đặt hàng văn phòng phẩm",
+          "text": "Phim hài",
           "isCorrect": false,
-          "rationale": "Đặt hàng vật tư văn phòng là quy trình mua sắm, không liên quan đến việc tuyển dụng nhân sự."
+          "rationale": "Phim hài ('comedy') nhằm gây cười, khác hoàn toàn với tính chất nghiêm túc và thực tế của phim tài liệu."
         },
         {
-          "text": "Để thông báo tuyển dụng",
+          "text": "Phim hành động",
+          "isCorrect": false,
+          "rationale": "Phim hành động ('action movie') tập trung vào các cảnh kịch tính hư cấu, không nhằm mục đích lưu trữ tư liệu thật."
+        },
+        {
+          "text": "Phim tài liệu",
           "isCorrect": true,
-          "rationale": "Danh sách công việc (job listing) giúp ứng viên biết về các vị trí đang trống và yêu cầu công việc của công ty."
-        },
-        {
-          "text": "Để tính lương hàng tháng",
-          "isCorrect": false,
-          "rationale": "Việc tính lương được thực hiện dựa trên bảng chấm công (timesheet) và hệ thống tiền lương (payroll)."
+          "rationale": "Documentary là loại phim ghi lại các sự thật, sự kiện có thật ngoài đời thay vì dựa trên kịch bản hư cấu."
         }
       ],
-      "hint": "Bạn sẽ tìm thấy thứ này trên các trang web tuyển dụng khi muốn tìm việc làm mới."
+      "hint": "Đây là loại phim cung cấp thông tin dựa trên những con người và sự việc có thật trong lịch sử hoặc đời sống."
     },
     {
-      "question": "Một 'robotics technician' có nhiệm vụ chính là gì?",
+      "question": "Văn phòng chúng ta mở cửa đón khách vào tất cả các ngày trong tuần 'except for' /ɪk'sept fɔ:(r)/ các ngày lễ chính thức. Cụm từ này nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Viết tiểu thuyết viễn tưởng",
+          "text": "Bởi vì",
           "isCorrect": false,
-          "rationale": "Viết lách là công việc sáng tạo văn học, trong khi technician là công việc kỹ thuật thực hành."
+          "rationale": "Cụm từ 'because of' dùng để chỉ nguyên nhân, không dùng để loại trừ đối tượng khỏi một nhóm."
         },
         {
-          "text": "Bảo trì và sửa chữa robot",
+          "text": "Bao gồm cả",
+          "isCorrect": false,
+          "rationale": "Cụm từ 'including' mới mang nghĩa bao quát thêm, trái ngược với ý nghĩa loại trừ của 'except for'."
+        },
+        {
+          "text": "Ngoại trừ",
           "isCorrect": true,
-          "rationale": "Kỹ thuật viên robot chuyên về việc vận hành, kiểm tra và khắc phục sự cố cho các hệ thống tự động hóa."
+          "rationale": "Except for được dùng để giới thiệu người hoặc vật duy nhất không được bao gồm trong câu nói trước đó."
         },
         {
-          "text": "Trồng cây trong công viên",
+          "text": "Mặc dù",
           "isCorrect": false,
-          "rationale": "Công việc này thuộc về người làm vườn hoặc nhân viên cảnh quan, không liên quan đến công nghệ."
-        },
-        {
-          "text": "Quản lý tài chính công ty",
-          "isCorrect": false,
-          "rationale": "Quản lý tài chính yêu cầu kiến thức về kế toán và ngân hàng, không phải kiến thức về cơ điện tử."
+          "rationale": "Cụm từ 'despite/although' dùng để chỉ sự nhượng bộ hoặc tương phản, không mang nghĩa loại trừ số ít."
         }
       ],
-      "hint": "Hãy tập trung vào sự kết hợp giữa máy móc tự động và kỹ năng kỹ thuật."
+      "hint": "Hãy sử dụng cụm từ này khi bạn muốn nói về một ngoại lệ trong một quy tắc chung."
     },
     {
-      "question": "Khi một cuộc họp được tổ chức 'off-site', nó diễn ra ở đâu?",
+      "question": "Những chiếc ghế sofa ở phòng chờ được bọc bằng loại 'fabric' /'fæbrɪk/ chống bám bẩn. 'Fabric' có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Tại trụ sở chính của công ty",
+          "text": "Kim loại",
           "isCorrect": false,
-          "rationale": "Tại trụ sở chính được gọi là 'on-site', trái ngược với ý nghĩa của từ đang xét."
+          "rationale": "Kim loại ('metal') thường dùng làm khung ghế chứ không dùng làm bề mặt tiếp xúc trực tiếp để tạo sự thoải mái cho người ngồi."
         },
         {
-          "text": "Bên ngoài nơi làm việc thông thường",
+          "text": "Gỗ",
+          "isCorrect": false,
+          "rationale": "Gỗ ('wood') là vật liệu cứng từ thân cây, không có tính chất mềm dẻo để bọc ghế như vải."
+        },
+        {
+          "text": "Vải/Chất liệu vải",
           "isCorrect": true,
-          "rationale": "Cuộc họp 'off-site' diễn ra tại một địa điểm khác như trung tâm hội nghị, khách sạn để thay đổi không khí."
+          "rationale": "Fabric là từ chỉ các loại vật liệu dệt như vải, được dùng để may mặc hoặc bọc đồ nội thất."
         },
         {
-          "text": "Thông qua phần mềm trực tuyến",
+          "text": "Thủy tinh",
           "isCorrect": false,
-          "rationale": "Họp trực tuyến thường dùng thuật ngữ 'virtual meeting' hoặc 'online meeting'."
-        },
-        {
-          "text": "Trong giờ nghỉ trưa",
-          "isCorrect": false,
-          "rationale": "Từ này chỉ về địa điểm (nơi chốn), không phải chỉ về thời gian diễn ra sự kiện."
+          "rationale": "Thủy tinh ('glass') dễ vỡ và sắc nhọn, không bao giờ được dùng làm chất liệu bọc bề mặt ghế ngồi."
         }
       ],
-      "hint": "Tiền tố 'off-' gợi ý điều gì đó diễn ra cách xa vị trí hiện tại."
+      "hint": "Quần áo bạn đang mặc và rèm cửa trong văn phòng đều được làm từ loại vật liệu này."
     },
     {
-      "question": "Chiến lược 'advertising' giúp doanh nghiệp đạt được mục tiêu nào nhất?",
+      "question": "Vào mùa du lịch cao điểm, khách sạn thường tuyển thêm 'seasonal' /'si:zənl/ staff để hỗ trợ. Từ này có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Trả nợ ngân hàng",
+          "text": "Dài hạn/Vĩnh viễn",
           "isCorrect": false,
-          "rationale": "Trả nợ là một giao dịch tài chính cụ thể, không phải là chức năng trực tiếp của việc làm truyền thông."
+          "rationale": "Nghĩa của từ 'permanent', trái ngược với tính chất tạm thời chỉ trong một mùa của 'seasonal'."
         },
         {
-          "text": "Tiếp cận khách hàng và tăng doanh số",
+          "text": "Chuyên nghiệp",
+          "isCorrect": false,
+          "rationale": "Từ 'professional' chỉ trình độ kỹ năng, không liên quan đến thời gian làm việc hay chu kỳ của công việc."
+        },
+        {
+          "text": "Theo mùa/Thời vụ",
           "isCorrect": true,
-          "rationale": "Quảng cáo giúp giới thiệu sản phẩm đến nhiều người hơn, từ đó kích thích nhu cầu mua sắm và tạo doanh thu."
+          "rationale": "Seasonal chỉ những thứ diễn ra hoặc được thực hiện trong một khoảng thời gian nhất định của năm."
         },
         {
-          "text": "Giảm chất lượng sản phẩm",
+          "text": "Miễn phí",
           "isCorrect": false,
-          "rationale": "Giảm chất lượng là điều tiêu cực, trong khi quảng cáo luôn hướng tới mục tiêu tích cực cho kinh doanh."
-        },
-        {
-          "text": "Thay đổi tên giám đốc",
-          "isCorrect": false,
-          "rationale": "Thay đổi nhân sự cấp cao là vấn đề quản trị nội bộ, không liên quan đến việc quảng bá sản phẩm."
+          "rationale": "Từ 'free' chỉ chi phí, không mô tả tính thời điểm hay tính chu kỳ của vị trí công việc."
         }
       ],
-      "hint": "Đây là hoạt động truyền thông để làm cho mọi người biết đến sản phẩm của bạn."
+      "hint": "Hãy liên tưởng đến những công việc chỉ xuất hiện vào dịp Giáng sinh hoặc mùa thu hoạch nông sản."
     },
     {
-      "question": "Vật dụng 'frame' thường được dùng để bao quanh vật gì?",
+      "question": "Bạn có thể tìm thấy các vị trí tuyển dụng mới nhất của chúng tôi trong phần 'job listing' /dʒɒb 'lɪstɪŋ/ trên website công ty. 'Job listing' nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Nước uống",
+          "text": "Đơn xin việc",
           "isCorrect": false,
-          "rationale": "Chất lỏng cần bình chứa như chai hoặc ly, khung không thể giữ được chất lỏng."
+          "rationale": "Đơn xin việc ('application') là thứ ứng viên nộp cho công ty, không phải là bản tin do công ty đăng tải."
         },
         {
-          "text": "Lốp xe máy",
+          "text": "Bảng lương",
           "isCorrect": false,
-          "rationale": "Lốp xe là vật tròn và đặc, không cần một khung bao quanh để trưng bày như tranh ảnh."
+          "rationale": "Bảng lương ('payroll') là tài liệu nội bộ về thu nhập nhân viên, không công khai như tin tuyển dụng."
         },
         {
-          "text": "Bút viết",
-          "isCorrect": false,
-          "rationale": "Bút viết được đựng trong hộp bút hoặc ống cắm, không sử dụng khung để bao quanh."
-        },
-        {
-          "text": "Bức tranh hoặc tấm ảnh",
+          "text": "Danh sách việc làm/Tin tuyển dụng",
           "isCorrect": true,
-          "rationale": "Khung (frame) giúp bảo vệ và tăng tính thẩm mỹ cho các tác phẩm nghệ thuật hoặc hình ảnh kỷ niệm."
+          "rationale": "Job listing là một bản danh sách ghi chi tiết các vị trí công việc đang cần tìm người ứng tuyển."
+        },
+        {
+          "text": "Hợp đồng lao động",
+          "isCorrect": false,
+          "rationale": "Hợp đồng ('contract') là thỏa thuận pháp lý sau khi trúng tuyển, không phải là thông báo tìm người lúc đầu."
         }
       ],
-      "hint": "Nó thường được làm bằng gỗ hoặc kim loại và treo trên tường cùng với một tấm hình bên trong."
+      "hint": "Đây là nơi đầu tiên bạn nên xem qua khi muốn tìm kiếm một cơ hội nghề nghiệp mới."
     },
     {
-      "question": "Từ 'aspect' trong câu 'Which aspect of the project are you working on?' có nghĩa là gì?",
+      "question": "Hết mực in rồi, chúng ta cần 'replace' /rɪ'pleɪs/ hộp mực mới ngay để kịp in báo cáo. Từ đồng nghĩa của 'replace' là?",
       "answerOptions": [
         {
-          "text": "Thời hạn hoàn thành",
+          "text": "Create/Build",
           "isCorrect": false,
-          "rationale": "Thời hạn được gọi là 'deadline', chỉ là một phần cụ thể về thời gian, không bao quát như 'aspect'."
+          "rationale": "Tạo ra mới ('create') khác với việc thay thế dựa trên một khuôn mẫu hoặc vị trí đã có sẵn."
         },
         {
-          "text": "Vị trí địa lý",
-          "isCorrect": false,
-          "rationale": "Vị trí địa lý thường dùng từ 'location', không mô tả các thành phần mang tính trừu tượng của công việc."
-        },
-        {
-          "text": "Khía cạnh hoặc mặt của vấn đề",
+          "text": "Substitute/Change",
           "isCorrect": true,
-          "rationale": "Từ này dùng để chỉ một phần, một đặc điểm hoặc một hướng cụ thể trong một dự án hoặc tình huống lớn."
+          "rationale": "Cả ba từ này đều mang nghĩa thay một thứ cũ hoặc đã hỏng bằng một thứ mới hoặc khác tương đương."
         },
         {
-          "text": "Ngân sách chi tiêu",
+          "text": "Keep/Retain",
           "isCorrect": false,
-          "rationale": "Ngân sách được gọi là 'budget', liên quan đến tài chính, không phải là thuật ngữ chung chỉ các phần của dự án."
+          "rationale": "Giữ lại ('keep') là hành động ngược lại với việc thay thế một vật phẩm bằng vật phẩm khác."
+        },
+        {
+          "text": "Break/Damage",
+          "isCorrect": false,
+          "rationale": "Làm hỏng ('break') là nguyên nhân dẫn đến việc cần thay thế, chứ không phải bản thân hành động thay thế."
         }
       ],
-      "hint": "Nó dùng để chỉ một phần riêng biệt của một vấn đề tổng thể."
+      "hint": "Khi chiếc điện thoại cũ của bạn bị hỏng và bạn mua một chiếc mới để dùng thay vào đó, bạn đang thực hiện hành động này."
     },
     {
-      "question": "Kỹ năng 'leadership' là cần thiết nhất cho vị trí nào?",
+      "question": "Dây chuyền sản xuất tự động đang gặp sự cố, hãy gọi một 'robotics technician' /rəʊ'bɒtɪks tek'nɪʃn/ đến kiểm tra. Họ là ai?",
       "answerOptions": [
         {
-          "text": "Nhân viên mới tập sự",
+          "text": "Giám đốc điều hành",
           "isCorrect": false,
-          "rationale": "Nhân viên mới thường cần kỹ năng học hỏi và thực thi hơn là dẫn dắt người khác."
+          "rationale": "Giám đốc ('CEO') quản lý chiến lược kinh doanh, không trực tiếp đi sửa chữa thiết bị kỹ thuật tại nhà máy."
         },
         {
-          "text": "Máy móc tự động",
+          "text": "Lập trình viên phần mềm",
           "isCorrect": false,
-          "rationale": "Máy móc hoạt động theo lập trình, không có khả năng tư duy hay thực hiện các kỹ năng mềm của con người."
+          "rationale": "Dù có liên quan nhưng lập trình viên ('software developer') thường làm việc với mã nguồn hơn là phần cứng robot trực tiếp."
         },
         {
-          "text": "Quản lý và giám đốc",
+          "text": "Kỹ thuật viên robot",
           "isCorrect": true,
-          "rationale": "Khả năng lãnh đạo (leadership) giúp người đứng đầu định hướng, truyền cảm hứng và quản lý đội ngũ hiệu quả."
+          "rationale": "Đây là người có chuyên môn về bảo trì, sửa chữa và vận hành các hệ thống robot tự động."
         },
         {
-          "text": "Khách hàng mua lẻ",
+          "text": "Nhân viên vệ sinh",
           "isCorrect": false,
-          "rationale": "Khách hàng chỉ thực hiện giao dịch mua bán, không cần kỹ năng dẫn dắt nhân sự trong doanh nghiệp."
+          "rationale": "Nhân viên vệ sinh ('cleaner') không có chuyên môn kỹ thuật để xử lý các sự cố máy móc phức tạp."
         }
       ],
-      "hint": "Đây là khả năng dẫn dắt và điều hành một nhóm người."
+      "hint": "Đây là một chuyên gia về máy móc thông minh và các hệ thống tự động hóa trong công nghiệp."
     },
     {
-      "question": "Một tấm 'invoice' thường chứa thông tin quan trọng nào sau đây?",
+      "question": "Để thay đổi không khí, sáng nay phòng kinh doanh sẽ có một buổi họp 'off-site' /ɒf saɪt/ tại quán cà phê gần công ty. Nghĩa của 'off-site' là gì?",
       "answerOptions": [
         {
-          "text": "Hướng dẫn lắp ráp máy móc",
-          "isCorrect": false,
-          "rationale": "Hướng dẫn lắp ráp nằm trong sách hướng dẫn (manual), hóa đơn chỉ tập trung vào khía cạnh tài chính."
-        },
-        {
-          "text": "Tiểu sử của người bán",
-          "isCorrect": false,
-          "rationale": "Tiểu sử thường nằm trong hồ sơ năng lực (portfolio) hoặc CV, không phải trên chứng từ thanh toán."
-        },
-        {
-          "text": "Dự báo thời tiết tuần tới",
-          "isCorrect": false,
-          "rationale": "Thông tin này không có giá trị thương mại trong một chứng từ tài chính kế toán."
-        },
-        {
-          "text": "Số tiền cần thanh toán và danh mục hàng hóa",
+          "text": "Ngoài nơi làm việc/Bên ngoài cơ sở",
           "isCorrect": true,
-          "rationale": "Hóa đơn (invoice) là tài liệu thương mại ghi rõ các mặt hàng đã cung cấp và số tiền khách hàng nợ."
+          "rationale": "Off-site chỉ các hoạt động diễn ra ở một địa điểm khác không phải là văn phòng hay nhà máy chính của công ty."
+        },
+        {
+          "text": "Trực tuyến qua mạng",
+          "isCorrect": false,
+          "rationale": "Họp trực tuyến là 'online' hoặc 'virtual', không nhất thiết phải di chuyển đến địa điểm khác bên ngoài như off-site."
+        },
+        {
+          "text": "Ngay tại văn phòng",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của từ 'on-site', hoàn toàn trái ngược với 'off-site'."
+        },
+        {
+          "text": "Sau giờ làm việc",
+          "isCorrect": false,
+          "rationale": "Từ 'after-hours' chỉ thời gian, trong khi 'off-site' tập trung vào địa điểm tổ chức."
         }
       ],
-      "hint": "Bạn nhận được thứ này sau khi mua hàng và cần phải trả tiền dựa trên con số ghi trên đó."
+      "hint": "Hãy nghĩ đến một buổi đào tạo hoặc dã ngoại mà nhân viên phải di chuyển ra khỏi tòa nhà của công ty."
     },
     {
-      "question": "Khi bạn 'complete a survey', bạn đang làm gì?",
+      "question": "Nhiệm vụ chính của bộ phận tiếp thị năm nay là phải 'increase sales' /ɪn'kri:s seɪlz/ lên ít nhất 20%. Cụm từ đồng nghĩa là?",
       "answerOptions": [
         {
-          "text": "Tổ chức một buổi tiệc",
+          "text": "Close the branch",
           "isCorrect": false,
-          "rationale": "Tổ chức tiệc là 'host a party', liên quan đến giải trí, không phải thu thập dữ liệu nghiên cứu."
+          "rationale": "Đóng cửa chi nhánh ('close the branch') thường dẫn đến giảm doanh số, trái ngược với mục tiêu đề ra."
         },
         {
-          "text": "Xóa bỏ các dữ liệu cũ",
+          "text": "Hire more staff",
           "isCorrect": false,
-          "rationale": "Xóa bỏ là hành động hủy hoại thông tin, còn hành động này là cung cấp thêm thông tin."
+          "rationale": "Tuyển thêm người ('hire staff') có thể là cách để đạt được doanh số nhưng bản thân nó không có nghĩa là tăng doanh số."
         },
         {
-          "text": "Hoàn thành một bảng khảo sát",
+          "text": "Reduce costs",
+          "isCorrect": false,
+          "rationale": "Giảm chi phí ('reduce costs') là một mục tiêu tài chính khác, không đồng nghĩa với việc tăng lượng bán hàng."
+        },
+        {
+          "text": "Boost revenue/Grow sales",
           "isCorrect": true,
-          "rationale": "Cụm từ này mô tả việc trả lời các câu hỏi trong phiếu thăm dò ý kiến khách hàng hoặc nghiên cứu thị trường."
-        },
-        {
-          "text": "Ký hợp đồng thuê nhà",
-          "isCorrect": false,
-          "rationale": "Ký hợp đồng thuê nhà là 'sign a lease', một thủ tục pháp lý khác hoàn toàn với khảo sát ý kiến."
+          "rationale": "Cả 'increase sales', 'boost revenue' và 'grow sales' đều chỉ mục tiêu gia tăng lượng hàng bán ra và doanh thu."
         }
       ],
-      "hint": "Doanh nghiệp thường yêu cầu bạn thực hiện việc này để hiểu mức độ hài lòng của khách hàng."
+      "hint": "Khi biểu đồ doanh thu của công ty bạn đi lên theo chiều thẳng đứng, bạn đang thực hiện điều này."
     },
     {
-      "question": "Vai trò của một 'supplier' trong kinh doanh là gì?",
+      "question": "Ngân sách dành cho 'advertising' /'ædvərtaɪzɪŋ/ năm nay sẽ tập trung vào các nền tảng video ngắn. 'Advertising' nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Đối thủ cạnh tranh trực tiếp",
+          "text": "Nghiên cứu thị trường",
           "isCorrect": false,
-          "rationale": "Đối thủ được gọi là 'competitor', là người tranh giành thị phần, không phải người hỗ trợ nguồn cung."
+          "rationale": "Nghiên cứu thị trường ('market research') là bước thu thập dữ liệu trước khi thực hiện quảng cáo."
         },
         {
-          "text": "Nhà cung cấp nguyên liệu hoặc sản phẩm",
+          "text": "Quảng cáo",
           "isCorrect": true,
-          "rationale": "Nhà cung cấp (supplier) chịu trách nhiệm đưa hàng hóa hoặc dịch vụ đến cho các doanh nghiệp khác để sản xuất hoặc bán lại."
+          "rationale": "Advertising là hoạt động giới thiệu sản phẩm hoặc dịch vụ đến công chúng nhằm mục đích thúc đẩy bán hàng."
         },
         {
-          "text": "Người mua hàng cuối cùng",
+          "text": "Kiểm toán tài chính",
           "isCorrect": false,
-          "rationale": "Người mua hàng cuối cùng được gọi là 'consumer' hoặc 'end-user'."
+          "rationale": "Kiểm toán ('auditing') là việc kiểm tra sổ sách kế toán, không liên quan đến các hoạt động quảng bá ra công chúng."
         },
         {
-          "text": "Nhân viên bảo vệ tòa nhà",
+          "text": "Chăm sóc khách hàng",
           "isCorrect": false,
-          "rationale": "Bảo vệ thuộc về bộ phận an ninh (security), không tham gia vào chuỗi cung ứng hàng hóa."
+          "rationale": "Chăm sóc khách hàng ('customer service') diễn ra sau khi khách hàng đã biết và mua sản phẩm thông qua quảng cáo."
         }
       ],
-      "hint": "Đây là đối tác quan trọng giúp doanh nghiệp luôn có đủ hàng hóa trong kho."
+      "hint": "Các bảng hiệu lớn trên đường phố và các đoạn phim ngắn giới thiệu sản phẩm trước khi xem YouTube là những ví dụ điển hình."
     },
     {
-      "question": "Thuật ngữ 'downtown' dùng để chỉ khu vực nào?",
+      "question": "Bức ảnh chụp toàn thể nhân viên được lồng vào một chiếc 'frame' /freɪm/ bằng kim loại sang trọng. Từ này có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Khu vực ngoài không gian",
+          "text": "Bức tường",
           "isCorrect": false,
-          "rationale": "Ngoài không gian được gọi là 'outer space', không thuộc phạm vi của địa lý đô thị."
+          "rationale": "Tường ('wall') là nơi treo ảnh, không phải là bộ phận gắn liền để bảo vệ bức ảnh như cái khung."
         },
         {
-          "text": "Dưới tầng hầm tòa nhà",
+          "text": "Giá đỡ",
           "isCorrect": false,
-          "rationale": "Tầng hầm được gọi là 'basement', một vị trí cụ thể trong công trình kiến trúc."
+          "rationale": "Giá đỡ ('stand/easel') là vật để đặt cả bức tranh lên, khác với bộ khung bao quanh bức ảnh đó."
         },
         {
-          "text": "Trung tâm thành phố sầm uất",
+          "text": "Khung/Cấu trúc",
           "isCorrect": true,
-          "rationale": "Downtown là khu vực tập trung nhiều hoạt động kinh doanh, thương mại và giải trí chính của một thành phố."
+          "rationale": "Frame là bộ phận bao quanh và giữ cố định một vật (như tranh, ảnh, cửa) hoặc là bộ khung xương của một vật."
         },
         {
-          "text": "Khu vực nông thôn hẻo lánh",
+          "text": "Mặt kính",
           "isCorrect": false,
-          "rationale": "Nông thôn được gọi là 'rural area', thường yên tĩnh và ít các tòa nhà cao tầng hơn."
+          "rationale": "Mặt kính ('glass') thường nằm bên trong khung tranh nhưng bản thân nó không phải là cái khung bao quanh."
         }
       ],
-      "hint": "Nơi này thường có rất nhiều văn phòng, cửa hiệu và mật độ giao thông rất cao."
+      "hint": "Vật này giúp định hình bức ảnh và bảo vệ các cạnh của nó khỏi bị hư hại."
     },
     {
-      "question": "Cụm từ 'propped against' mô tả tư thế nào của vật dụng?",
+      "question": "Để giải quyết triệt để khiếu nại của khách hàng, chúng ta cần xem xét mọi 'aspect' /'æspekt/ của quy trình giao hàng. Nghĩa của 'aspect' là gì?",
       "answerOptions": [
         {
-          "text": "Đang nằm ngang trên sàn",
+          "text": "Kết thúc",
           "isCorrect": false,
-          "rationale": "Nằm ngang thường dùng từ 'lying flat', không thể hiện sự tiếp xúc với bề mặt thẳng đứng để tựa."
+          "rationale": "Phần cuối ('end/conclusion') chỉ vị trí thời gian, không mô tả các góc độ nhìn nhận của một vấn đề."
         },
         {
-          "text": "Đang bay lơ lửng trên không",
-          "isCorrect": false,
-          "rationale": "Bay lơ lửng thường dùng từ 'floating', không có điểm tựa vật lý vào vật khác."
-        },
-        {
-          "text": "Bị khóa chặt trong tủ",
-          "isCorrect": false,
-          "rationale": "Bị khóa trong tủ liên quan đến sự lưu trữ kín, không mô tả tư thế tựa vật lý bên ngoài."
-        },
-        {
-          "text": "Được dựa hoặc chống vào một vật khác",
+          "text": "Khía cạnh/Mặt",
           "isCorrect": true,
-          "rationale": "Cụm từ này thường dùng cho thang, chổi hoặc xe đạp khi chúng được đặt nghiêng và tựa vào tường."
+          "rationale": "Aspect chỉ một phần cụ thể, một đặc điểm hoặc một mặt nào đó của một vấn đề phức tạp."
+        },
+        {
+          "text": "Lỗi sai",
+          "isCorrect": false,
+          "rationale": "Lỗi sai ('error/mistake') có thể là một khía cạnh của vấn đề, nhưng 'aspect' mang nghĩa trung lập hơn."
+        },
+        {
+          "text": "Tổng thể",
+          "isCorrect": false,
+          "rationale": "Từ 'whole/total' chỉ cái nhìn toàn diện, trong khi 'aspect' tập trung vào từng thành phần hoặc góc nhìn riêng lẻ."
         }
       ],
-      "hint": "Hãy tưởng tượng một chiếc chổi không treo lên mà đặt dựa vào góc tường."
+      "hint": "Từ này dùng để chỉ một trong những bộ phận hoặc góc độ mà bạn dùng để quan sát hoặc phân tích điều gì đó."
     },
     {
-      "question": "Hành động 'tie a necktie' có nghĩa là gì?",
+      "question": "Ứng viên này có kỹ năng 'leadership' /'li:dərʃɪp/ rất tốt, rất phù hợp cho vị trí trưởng phòng. 'Leadership' nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Cắt bỏ một chiếc cà vạt",
+          "text": "Kỹ năng đánh máy",
           "isCorrect": false,
-          "rationale": "Cắt bỏ dùng động từ 'cut', hành động này làm hỏng vật dụng thay vì sử dụng nó."
+          "rationale": "Đánh máy ('typing skill') là một kỹ năng văn phòng cơ bản, không mang tính chiến lược như lãnh đạo."
         },
         {
-          "text": "Ủi phẳng cà vạt",
+          "text": "Sự trung thành",
           "isCorrect": false,
-          "rationale": "Ủi đồ dùng động từ 'iron', nhằm mục đích làm phẳng nếp nhăn chứ không phải tạo nút thắt."
+          "rationale": "Sự trung thành ('loyalty') là thái độ gắn bó, khác với khả năng dẫn dắt và đưa ra quyết định của lãnh đạo."
         },
         {
-          "text": "Mua một chiếc cà vạt mới",
+          "text": "Tính sáng tạo",
           "isCorrect": false,
-          "rationale": "Mua hàng dùng động từ 'buy' hoặc 'purchase', không chỉ đích danh hành động thắt nút."
+          "rationale": "Sáng tạo ('creativity') là khả năng tạo ra ý tưởng mới, có thể hỗ trợ lãnh đạo nhưng không phải là định nghĩa của nó."
+        },
+        {
+          "text": "Khả năng lãnh đạo/Sự lãnh đạo",
+          "isCorrect": true,
+          "rationale": "Leadership là năng lực định hướng, gây ảnh hưởng và dẫn dắt một nhóm người hoặc tổ chức."
+        }
+      ],
+      "hint": "Đây là phẩm chất quan trọng nhất mà một người quản lý cần có để điều hành đội ngũ của mình."
+    },
+    {
+      "question": "Giá của sản phẩm sẽ phụ thuộc vào loại 'material' /mə'tɪəriəl/ mà khách hàng lựa chọn cho mặt bàn. Từ này nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Kích thước",
+          "isCorrect": false,
+          "rationale": "Kích thước ('size/dimension') chỉ số đo, không chỉ tính chất cấu tạo của vật phẩm như chất liệu."
+        },
+        {
+          "text": "Hạn sử dụng",
+          "isCorrect": false,
+          "rationale": "Hạn dùng ('expiration date') thường dành cho thực phẩm, không áp dụng cho vật liệu chế tạo nội thất."
+        },
+        {
+          "text": "Vật liệu/Chất liệu",
+          "isCorrect": true,
+          "rationale": "Material chỉ các loại chất như gỗ, đá, nhựa... được dùng để chế tạo ra sản phẩm hoàn chỉnh."
+        },
+        {
+          "text": "Màu sắc",
+          "isCorrect": false,
+          "rationale": "Màu sắc ('color') là vẻ ngoài, trong khi chất liệu ('material') quyết định độ bền và giá thành cơ bản."
+        }
+      ],
+      "hint": "Cái bàn có thể được làm bằng sắt, gỗ hoặc kính; những từ đó dùng để gọi tên cho khái niệm này."
+    },
+    {
+      "question": "Để tra cứu thông tin bảo hành, quý khách vui lòng cung cấp 'product code' /'prɒdʌkt kəʊd/ được in ở dưới đáy hộp. 'Product code' là gì?",
+      "answerOptions": [
+        {
+          "text": "Giá tiền",
+          "isCorrect": false,
+          "rationale": "Giá tiền ('price') có thể thay đổi tùy cửa hàng, trong khi mã sản phẩm là cố định để quản lý kho."
+        },
+        {
+          "text": "Địa chỉ nhà máy",
+          "isCorrect": false,
+          "rationale": "Địa chỉ sản xuất ('factory address') không dùng để nhận diện nhanh các dòng sản phẩm trong bán lẻ."
+        },
+        {
+          "text": "Mã sản phẩm",
+          "isCorrect": true,
+          "rationale": "Product code là một dãy số hoặc chữ cái dùng để định danh duy nhất một loại hàng hóa trong hệ thống quản lý."
+        },
+        {
+          "text": "Tên thương hiệu",
+          "isCorrect": false,
+          "rationale": "Thương hiệu ('brand name') chỉ nhà sản xuất chung, không cụ thể bằng mã số cho từng mẫu mã sản phẩm."
+        }
+      ],
+      "hint": "Mỗi mặt hàng trên kệ siêu thị thường có một dãy ký tự đi kèm mã vạch để máy quét có thể nhận diện."
+    },
+    {
+      "question": "Phòng kế toán yêu cầu bạn gửi 'invoice' /'ɪnvɔɪs/ của bữa tiệc tiếp khách tối qua. Từ đồng nghĩa của nó là?",
+      "answerOptions": [
+        {
+          "text": "Menu",
+          "isCorrect": false,
+          "rationale": "Thực đơn ('menu') chỉ dùng để chọn món, không có giá trị thanh toán như hóa đơn."
+        },
+        {
+          "text": "Bill/Receipt",
+          "isCorrect": true,
+          "rationale": "Dù có sự khác biệt nhỏ về mặt thuật ngữ chuyên môn, nhưng trong bài thi TOEIC, 'invoice', 'bill' và 'receipt' đều liên quan đến chứng từ thanh toán."
+        },
+        {
+          "text": "Invitation",
+          "isCorrect": false,
+          "rationale": "Thư mời ('invitation') được gửi trước bữa tiệc, còn hóa đơn được xuất sau khi đã sử dụng dịch vụ."
+        },
+        {
+          "text": "Napkin",
+          "isCorrect": false,
+          "rationale": "Khăn ăn ('napkin') là vật dụng trên bàn tiệc, hoàn toàn không liên quan đến giấy tờ kế toán."
+        }
+      ],
+      "hint": "Đây là tờ giấy ghi chi tiết số tiền bạn phải trả cho hàng hóa hoặc dịch vụ đã mua."
+    },
+    {
+      "question": "Cuối buổi hội thảo, ban tổ chức yêu cầu khách tham dự 'complete a survey' /kəm'pli:t ə 'sɜ:veɪ/. Hành động này nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Thanh toán hóa đơn",
+          "isCorrect": false,
+          "rationale": "Thanh toán ('pay the bill') liên quan đến tiền bạc, trong khi khảo sát tập trung vào thu thập thông tin."
+        },
+        {
+          "text": "Giới thiệu bản thân",
+          "isCorrect": false,
+          "rationale": "Tự giới thiệu ('introduce yourself') là hành động giao tiếp ban đầu, không phải là bước thu thập dữ liệu cuối buổi."
+        },
+        {
+          "text": "Ký hợp đồng",
+          "isCorrect": false,
+          "rationale": "Ký hợp đồng ('sign a contract') là hành động cam kết pháp lý, không phải là việc đưa ra ý kiến phản hồi."
+        },
+        {
+          "text": "Hoàn thành khảo sát",
+          "isCorrect": true,
+          "rationale": "Complete a survey là việc điền đầy đủ các câu hỏi trong phiếu thăm dò ý kiến khách hàng."
+        }
+      ],
+      "hint": "Mục đích của việc này là để thu thập ý kiến đánh giá từ mọi người về chất lượng chương trình."
+    },
+    {
+      "question": "Chúng ta cần tìm một 'supplier' /sə'plaɪər/ mới vì đối tác hiện tại thường xuyên giao hàng trễ. Từ đồng nghĩa của 'supplier' là?",
+      "answerOptions": [
+        {
+          "text": "Customer",
+          "isCorrect": false,
+          "rationale": "Khách hàng ('customer') là bên mua hàng, hoàn toàn ngược lại với vai trò của bên cung cấp ('supplier')."
+        },
+        {
+          "text": "Vendor/Provider",
+          "isCorrect": true,
+          "rationale": "Supplier, vendor và provider đều chỉ cá nhân hoặc tổ chức cung cấp hàng hóa và dịch vụ cho bên khác."
+        },
+        {
+          "text": "Audience",
+          "isCorrect": false,
+          "rationale": "Khán giả ('audience') là người xem, không đóng vai trò trong chuỗi cung ứng hàng hóa cho doanh nghiệp."
+        },
+        {
+          "text": "Competitor",
+          "isCorrect": false,
+          "rationale": "Đối thủ cạnh tranh ('competitor') là bên tranh giành thị trường với bạn, không phải bên hợp tác cung ứng."
+        }
+      ],
+      "hint": "Đây là người hoặc công ty chuyên bán nguyên vật liệu cho công ty của bạn để sản xuất."
+    },
+    {
+      "question": "Văn phòng chúng ta nằm ở khu vực 'downtown' /'daʊntaʊn/ nên rất thuận tiện cho việc đi lại bằng phương tiện công cộng. 'Downtown' nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Khu công nghiệp",
+          "isCorrect": false,
+          "rationale": "Khu công nghiệp ('industrial zone') thường nằm tách biệt, không phải là khu trung tâm nhộn nhịp như downtown."
+        },
+        {
+          "text": "Trung tâm thành phố",
+          "isCorrect": true,
+          "rationale": "Downtown là khu vực trung tâm kinh tế, hành chính và thương mại chính của một thành phố."
+        },
+        {
+          "text": "Khu vực ngoại ô",
+          "isCorrect": false,
+          "rationale": "Ngoại ô ('suburb/outskirts') là khu vực nằm xa trung tâm thành phố, thường yên tĩnh và ít văn phòng hơn."
+        },
+        {
+          "text": "Dưới tầng hầm",
+          "isCorrect": false,
+          "rationale": "Tầng hầm ('basement') là vị trí của tầng nhà dưới mặt đất, không liên quan đến vị trí địa lý trong thành phố."
+        }
+      ],
+      "hint": "Nơi này thường tập trung nhiều tòa nhà chọc trời, ngân hàng và các trung tâm mua sắm sầm uất nhất."
+    },
+    {
+      "question": "Trong bức ảnh dã ngoại, cả nhóm đang cùng nhau 'row a boat' /rəʊ ə bəʊt/ trên hồ. Cụm từ này nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Xếp hàng ghế",
+          "isCorrect": false,
+          "rationale": "Mặc dù 'row' có nghĩa là hàng, nhưng trong cụm từ này nó là động từ chỉ hành động chèo."
+        },
+        {
+          "text": "Đẩy xe đẩy",
+          "isCorrect": false,
+          "rationale": "Đây là hành động 'push a cart', diễn ra trên mặt đất khô ráo thay vì trên mặt hồ."
+        },
+        {
+          "text": "Sửa chữa tàu",
+          "isCorrect": false,
+          "rationale": "Sửa tàu ('repair a boat') là hoạt động kỹ thuật, khác hẳn với hoạt động giải trí chèo thuyền."
+        },
+        {
+          "text": "Chèo thuyền",
+          "isCorrect": true,
+          "rationale": "Row a boat là hành động sử dụng mái chèo để đẩy thuyền di chuyển trên mặt nước."
+        }
+      ],
+      "hint": "Hành động này cần sự phối hợp nhịp nhàng giữa hai tay và sức đẩy từ mái chèo."
+    },
+    {
+      "question": "Người thợ sơn đang đứng trên một chiếc thang được 'propped against' /prɒpt ə'genst/ bức tường. Trạng thái 'propped against' nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Được treo lên",
+          "isCorrect": false,
+          "rationale": "Nếu được treo ('hung'), vật sẽ không có điểm tựa phía dưới hoặc dọc theo bề mặt như khi dựa vào tường."
+        },
+        {
+          "text": "Được sơn màu giống",
+          "isCorrect": false,
+          "rationale": "Cụm từ không liên quan đến màu sắc bề mặt mà chỉ liên quan đến vị trí và điểm tựa vật lý."
+        },
+        {
+          "text": "Được dựa vào/Được chống vào",
+          "isCorrect": true,
+          "rationale": "Cụm từ này mô tả một vật được đặt nghiêng sao cho nó tựa vào một vật thẳng đứng khác để giữ thăng bằng."
+        },
+        {
+          "text": "Được xây dựng bên trong",
+          "isCorrect": false,
+          "rationale": "Xây bên trong ('built-in') là cố định vĩnh viễn, không phải trạng thái dựa tạm thời của một vật dụng di động như thang."
+        }
+      ],
+      "hint": "Đây là cách an toàn nhất để sử dụng một chiếc thang đứng khi không có người giữ ở dưới."
+    },
+    {
+      "question": "Bác sĩ khuyên bạn nên tập thói quen 'climb stairs' /klaɪm sterz/ thay vì đi thang máy để cải thiện sức khỏe. Nghĩa của cụm này là gì?",
+      "answerOptions": [
+        {
+          "text": "Lau dọn cầu thang",
+          "isCorrect": false,
+          "rationale": "Lau dọn ('clean/sweep') là công việc tạp vụ, không tập trung vào việc rèn luyện thể lực cá nhân."
+        },
+        {
+          "text": "Đứng ở cầu thang",
+          "isCorrect": false,
+          "rationale": "Đứng yên ('stand') không tạo ra sự vận động cần thiết để cải thiện sức khỏe như việc leo bậc thang."
+        },
+        {
+          "text": "Sửa cầu thang",
+          "isCorrect": false,
+          "rationale": "Sửa chữa ('repair/fix') là công việc kỹ thuật, không phải là hoạt động vận động cơ thể hàng ngày như bác sĩ khuyên."
+        },
+        {
+          "text": "Leo cầu thang bộ",
+          "isCorrect": true,
+          "rationale": "Climb stairs là hành động đi bộ lên từng bậc thang của cầu thang bộ."
+        }
+      ],
+      "hint": "Hành động này giúp bạn tiết kiệm điện năng của tòa nhà và tiêu hao được nhiều calo hơn."
+    },
+    {
+      "question": "Anh ấy đang cẩn thận 'tie a necktie' /taɪ ə 'nektaɪ/ trước gương để chuẩn bị cho buổi thuyết trình. Nghĩa của cụm từ này là gì?",
+      "answerOptions": [
+        {
+          "text": "Cởi cà vạt",
+          "isCorrect": false,
+          "rationale": "Cởi ra là 'untie', trái ngược với hành động đang được thực hiện để chuẩn bị đi làm."
         },
         {
           "text": "Thắt cà vạt",
           "isCorrect": true,
-          "rationale": "Động từ 'tie' có nghĩa là buộc hoặc thắt nút, đây là hành động chuẩn bị trang phục công sở nam giới."
+          "rationale": "Tie a necktie là hành động tạo nút thắt và cố định cà vạt quanh cổ áo."
+        },
+        {
+          "text": "Giặt cà vạt",
+          "isCorrect": false,
+          "rationale": "Giặt ('wash/clean') là hành động vệ sinh trang phục, thường thực hiện sau khi đã sử dụng xong."
+        },
+        {
+          "text": "Mua cà vạt",
+          "isCorrect": false,
+          "rationale": "Mua ('buy/purchase') là hành động giao dịch tại cửa hàng, không phải hành động chuẩn bị trang phục trước gương."
         }
       ],
-      "hint": "Đây là hành động bạn làm với một dải vải dài quanh cổ áo sơ mi trước khi đi làm."
-    },
-    {
-      "question": "Trong một văn phòng, 'office supply' bao gồm những gì?",
-      "answerOptions": [
-        {
-          "text": "Đồ gỗ nội thất lớn",
-          "isCorrect": false,
-          "rationale": "Nội thất lớn được gọi là 'furniture', thường là tài sản cố định chứ không phải vật tư tiêu hao."
-        },
-        {
-          "text": "Bút, giấy, kẹp giấy và mực in",
-          "isCorrect": true,
-          "rationale": "Văn phòng phẩm (office supplies) là những vật dụng tiêu hao hàng ngày phục vụ cho công việc bàn giấy."
-        },
-        {
-          "text": "Thực phẩm tươi sống",
-          "isCorrect": false,
-          "rationale": "Thực phẩm được gọi là 'groceries' hoặc 'food', không thuộc danh mục vật tư văn phòng."
-        },
-        {
-          "text": "Các loại xe vận tải",
-          "isCorrect": false,
-          "rationale": "Xe vận tải thuộc danh mục phương tiện (vehicles) hoặc thiết bị nặng, không phải vật tư văn phòng phẩm."
-        }
-      ],
-      "hint": "Đây là những thứ nhỏ nhặt bạn thường dùng để viết lách hoặc đóng hồ sơ."
-    },
-    {
-      "question": "Nếu một vật được miêu tả là 'shading the table', từ 'shading' ở đây có nghĩa là gì?",
-      "answerOptions": [
-        {
-          "text": "Che bóng râm cho cái bàn",
-          "isCorrect": true,
-          "rationale": "Động từ này diễn tả hành động ngăn chặn ánh nắng trực tiếp chiếu vào vật, tạo ra khu vực mát mẻ."
-        },
-        {
-          "text": "Đẩy cái bàn đi chỗ khác",
-          "isCorrect": false,
-          "rationale": "Đẩy đi dùng từ 'pushing', là một tác động lực cơ học để di chuyển vật thể."
-        },
-        {
-          "text": "Sơn màu cho cái bàn",
-          "isCorrect": false,
-          "rationale": "Sơn màu dùng từ 'painting', tác động trực tiếp lên bề mặt vật thay vì chỉ là tác động của ánh sáng."
-        },
-        {
-          "text": "Làm bẩn cái bàn",
-          "isCorrect": false,
-          "rationale": "Làm bẩn thường dùng từ 'staining' hoặc 'soiling', không liên quan đến ánh sáng."
-        }
-      ],
-      "hint": "Hãy nghĩ về tác dụng của một chiếc ô lớn đặt phía trên bộ bàn ghế ngoài trời."
-    },
-    {
-      "question": "Thuật ngữ 'product code' dùng để làm gì trong quản lý kho hàng?",
-      "answerOptions": [
-        {
-          "text": "Ghi lại tên của khách hàng",
-          "isCorrect": false,
-          "rationale": "Tên khách hàng được quản lý trong cơ sở dữ liệu khách hàng, không phải thông qua mã sản phẩm."
-        },
-        {
-          "text": "Thông báo ngày nghỉ lễ của nhân viên",
-          "isCorrect": false,
-          "rationale": "Lịch nghỉ lễ được quản lý bởi bộ phận nhân sự, không liên quan đến mã số của hàng hóa."
-        },
-        {
-          "text": "Định danh duy nhất cho một loại hàng hóa",
-          "isCorrect": true,
-          "rationale": "Mã sản phẩm (product code hoặc SKU) giúp hệ thống phân biệt chính xác các mặt hàng khác nhau để kiểm kho và bán hàng."
-        },
-        {
-          "text": "Mô tả hương vị của sản phẩm",
-          "isCorrect": false,
-          "rationale": "Mô tả hương vị là phần thông tin chi tiết (description), không phải là mã số định danh."
-        }
-      ],
-      "hint": "Nó thường là một dãy chữ số hoặc ký tự được in trên bao bì hoặc hóa đơn."
+      "hint": "Đây là bước cuối cùng để hoàn thiện bộ trang phục trang trọng cho nam giới trước khi đi sự kiện."
     }
   ]
 }

@@ -2,264 +2,784 @@
   "title": "Từ vựng Trắc nghiệm Lesson 5",
   "questions": [
     {
-      "question": "Từ nào sau đây có nghĩa là đóng gói sản phẩm để chuẩn bị vận chuyển?",
+      "question": "Nhân viên kho đang 'package' /'pækɪdʒ/ các sản phẩm để chuẩn bị giao hàng. Hành động này có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Package",
+          "text": "Phân loại",
+          "isCorrect": false,
+          "rationale": "Phân loại là bước sắp xếp hàng hóa theo nhóm, thường diễn ra trước khi tiến hành bao gói sản phẩm."
+        },
+        {
+          "text": "Đóng gói",
           "isCorrect": true,
-          "rationale": "Từ này mô tả hành động bọc hoặc đóng gói hàng hóa vào bao bì trước khi gửi đi hoặc bán lẻ."
+          "rationale": "Từ này được sử dụng để chỉ quá trình bao bọc hoặc đặt hàng hóa vào thùng, hộp trước khi vận chuyển."
         },
         {
-          "text": "Owe",
+          "text": "Mở thùng",
           "isCorrect": false,
-          "rationale": "Từ này diễn tả tình trạng nợ nần về tài chính hoặc trách nhiệm đối với ai đó."
+          "rationale": "Hành động này ngược lại với việc chuẩn bị hàng để gửi đi và thường xảy ra khi nhận hàng."
         },
         {
-          "text": "Trim",
+          "text": "Kiểm kê",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là cắt tỉa hoặc lược bớt, thường dùng cho cây cối hoặc các chi tiết trang trí."
-        },
-        {
-          "text": "Renew",
-          "isCorrect": false,
-          "rationale": "Từ này dùng để chỉ việc gia hạn một hợp đồng hoặc gói dịch vụ đã hết hạn."
+          "rationale": "Đây là hoạt động đếm số lượng hàng tồn kho chứ không phải là bước chuẩn bị vật lý để giao hàng."
         }
       ],
-      "hint": "Hãy nghĩ đến hành động chuẩn bị một bưu kiện trước khi gửi qua đường bưu điện."
+      "hint": "Đây là bước cuối cùng trước khi dán nhãn địa chỉ lên hộp hàng."
     },
     {
-      "question": "Loại tài khoản nào thường được dùng để tích lũy tiền và hưởng lãi suất trong ngân hàng?",
+      "question": "Người quản lý cơ sở yêu cầu thợ làm vườn 'trim' /trɪm/ các bụi cây phía trước tòa nhà. Nghĩa của 'trim' là gì?",
       "answerOptions": [
         {
-          "text": "Research project",
-          "isCorrect": false,
-          "rationale": "Cụm từ này chỉ một đề án nghiên cứu khoa học hoặc học thuật."
-        },
-        {
-          "text": "Savings account",
+          "text": "Cắt tỉa",
           "isCorrect": true,
-          "rationale": "Đây là tài khoản chuyên dụng để lưu giữ tiền tiết kiệm và nhận lãi định kỳ từ ngân hàng."
+          "rationale": "Từ này chỉ việc cắt bớt các phần thừa để làm cho cây cối trở nên gọn gàng và đẹp mắt hơn."
         },
         {
-          "text": "Side salad",
+          "text": "Trồng mới",
           "isCorrect": false,
-          "rationale": "Đây là một món ăn phụ trong nhà hàng, không liên quan đến lĩnh vực tài chính ngân hàng."
+          "rationale": "Việc thêm cây mới vào vườn không liên quan đến việc xử lý các bụi cây đã có sẵn."
         },
         {
-          "text": "Card reader",
+          "text": "Nhổ bỏ",
           "isCorrect": false,
-          "rationale": "Đây là thiết bị dùng để đọc dữ liệu từ thẻ thanh toán chứ không phải là một loại tài khoản."
+          "rationale": "Đây là hành động loại bỏ hoàn toàn cây xanh, trong khi yêu cầu ở đây là duy trì cảnh quan hiện có."
+        },
+        {
+          "text": "Tưới nước",
+          "isCorrect": false,
+          "rationale": "Hoạt động này cung cấp độ ẩm cho cây nhưng không làm thay đổi hình dáng hay kích thước của chúng."
         }
       ],
-      "hint": "Tên của loại tài khoản này bắt nguồn từ hành động 'tiết kiệm' tiền."
+      "hint": "Hành động này giúp các bụi cây trông gọn gàng và có hình khối rõ ràng hơn."
     },
     {
-      "question": "Nếu một chiếc máy photocopy được mô tả là \"malfunctioning\", điều đó có nghĩa là gì?",
+      "question": "Anh ấy đã mở một 'savings account' /'seɪvɪŋz əˌkaʊnt/ tại ngân hàng địa phương để chuẩn bị cho tương lai. Đây là loại tài khoản nào?",
       "answerOptions": [
         {
-          "text": "Máy đã được nạp đầy mực",
+          "text": "Tài khoản doanh nghiệp",
           "isCorrect": false,
-          "rationale": "Việc nạp mực thường liên quan đến từ 'refill' hoặc thay thế 'cartridge' hơn là chức năng vận hành."
+          "rationale": "Loại tài khoản này dành cho các tổ chức kinh doanh, không phản ánh mục đích tiết kiệm cá nhân trong tình huống."
         },
         {
-          "text": "Máy đang bị trục trặc hoặc hỏng hóc",
+          "text": "Tài khoản thanh toán",
+          "isCorrect": false,
+          "rationale": "Loại tài khoản này thường dùng cho các giao dịch hàng ngày thay vì mục đích tích lũy lâu dài."
+        },
+        {
+          "text": "Tài khoản tiết kiệm",
           "isCorrect": true,
-          "rationale": "Tính từ này chỉ các thiết bị hoặc hệ thống không hoạt động đúng chức năng do lỗi kỹ thuật."
+          "rationale": "Đây là tài khoản gửi tiền vào ngân hàng với mục đích giữ tiền và hưởng lãi suất theo thời gian."
         },
         {
-          "text": "Máy đã quá hạn bảo trì",
+          "text": "Tài khoản tín dụng",
           "isCorrect": false,
-          "rationale": "Mặc dù có thể dẫn đến hỏng hóc, nhưng 'quá hạn' thường được diễn đạt bằng từ 'overdue'."
-        },
-        {
-          "text": "Máy đang hoạt động với hiệu suất tối đa",
-          "isCorrect": false,
-          "rationale": "Tính từ này mang nghĩa tiêu cực, trái ngược hoàn toàn với trạng thái hoạt động tốt."
+          "rationale": "Đây là hình thức vay tiền của ngân hàng để chi tiêu trước và trả sau, không phải để tích trữ tiền cá nhân."
         }
       ],
-      "hint": "Hãy xem xét tiền tố 'mal-' thường mang nghĩa là xấu hoặc sai lệch."
+      "hint": "Mục đích của loại tài khoản này là để dành tiền thay vì chi tiêu ngay lập tức."
     },
     {
-      "question": "Khi bạn muốn tiếp tục sử dụng một dịch vụ đăng ký dài hạn (như báo chí) sau khi nó hết hạn, bạn cần phải làm gì?",
+      "question": "Nhân viên được yêu cầu 'sign up' /saɪn ʌp/ cho buổi đào tạo về an toàn lao động vào tuần tới. Cụm từ này có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Sign up",
+          "text": "Thiết lập",
           "isCorrect": false,
-          "rationale": "Hành động này thường dùng cho lần đăng ký đầu tiên hơn là việc duy trì một dịch vụ cũ."
+          "rationale": "Đây là hành động khởi tạo một hệ thống hoặc quy trình, không phải là việc ghi danh cá nhân."
         },
         {
-          "text": "Count",
-          "isCorrect": false,
-          "rationale": "Đây là hành động tính toán số lượng, không liên quan đến việc kéo dài thời gian hiệu lực."
-        },
-        {
-          "text": "Tear down",
-          "isCorrect": false,
-          "rationale": "Cụm từ này có nghĩa là phá hủy hoặc dỡ bỏ một cấu trúc, thường là tòa nhà."
-        },
-        {
-          "text": "Renew",
+          "text": "Đăng ký",
           "isCorrect": true,
-          "rationale": "Gia hạn (renew) là hành động làm cho một thỏa thuận hoặc thẻ thành viên có hiệu lực trở lại sau khi hết thời gian."
+          "rationale": "Cụm từ này chỉ việc ghi tên vào danh sách để tham gia một sự kiện, khóa học hoặc dịch vụ nào đó."
+        },
+        {
+          "text": "Thanh toán",
+          "isCorrect": false,
+          "rationale": "Hành động trả tiền thường dùng cho các dịch vụ mua bán, không phải thủ tục ghi danh tham gia lớp học nội bộ."
+        },
+        {
+          "text": "Hủy bỏ",
+          "isCorrect": false,
+          "rationale": "Việc từ bỏ tham gia thường được diễn đạt bằng các cụm từ như 'cancel' hoặc 'withdraw'."
         }
       ],
-      "hint": "Từ này bắt nguồn từ việc làm cho một thứ gì đó trở nên 'mới' (new) trở lại."
+      "hint": "Bạn cần ghi tên mình vào danh sách để đảm bảo có chỗ trong buổi đào tạo."
     },
     {
-      "question": "Vị trí nào trong một công ty thường phụ trách việc tiếp đón khách và trả lời điện thoại tại sảnh?",
+      "question": "Bộ phận Marketing đã quyết định gia hạn 'subscription' /səb'skrɪpʃn/ cho một tạp chí chuyên ngành. 'Subscription' ở đây là gì?",
       "answerOptions": [
         {
-          "text": "Press release",
+          "text": "Sự quyên góp",
           "isCorrect": false,
-          "rationale": "Đây là một văn bản thông báo dành cho báo chí, không phải vị trí nhân sự."
+          "rationale": "Quyên góp là hành động tặng tiền hoặc vật phẩm cho từ thiện, không liên quan đến việc nhận ấn phẩm định kỳ."
         },
         {
-          "text": "Packaging machine",
+          "text": "Sự biên tập",
           "isCorrect": false,
-          "rationale": "Đây là thiết bị máy móc dùng trong sản xuất, không phải là một vị trí làm việc của con người."
+          "rationale": "Biên tập là khâu chỉnh sửa nội dung văn bản, không liên quan đến thủ tục mua hàng định kỳ."
         },
         {
-          "text": "Front desk",
+          "text": "Sự xuất bản",
+          "isCorrect": false,
+          "rationale": "Đây là quá trình tạo ra và phát hành sách báo của nhà sản xuất, không phải hành động của người mua."
+        },
+        {
+          "text": "Sự đăng ký dài hạn",
           "isCorrect": true,
-          "rationale": "Đây là khu vực lễ tân, nơi tiếp xúc đầu tiên của khách hàng với doanh nghiệp."
-        },
-        {
-          "text": "Technical school",
-          "isCorrect": false,
-          "rationale": "Đây là một tổ chức giáo dục đào tạo nghề nghiệp."
+          "rationale": "Thuật ngữ này chỉ việc trả tiền trước để nhận một dịch vụ hoặc ấn phẩm định kỳ trong một khoảng thời gian."
         }
       ],
-      "hint": "Vị trí này nằm ngay 'phía trước' (front) của tòa nhà văn phòng hoặc khách sạn."
+      "hint": "Hãy nghĩ đến việc bạn trả tiền hàng năm để nhận báo hoặc tạp chí mỗi tháng."
     },
     {
-      "question": "Trong thư viện hoặc hiệu sách, vật phẩm đã quá hạn trả sẽ được gọi là gì?",
+      "question": "Công ty vừa phát đi một 'press release' /'pres rɪli:s/ để thông báo về việc sáp nhập. Tài liệu này là gì?",
       "answerOptions": [
         {
-          "text": "Front page",
+          "text": "Đơn xin việc",
           "isCorrect": false,
-          "rationale": "Cụm từ này chỉ trang đầu tiên của một tờ báo."
+          "rationale": "Văn bản này dùng để ứng tuyển vị trí làm việc cá nhân, không mang tính chất thông báo tin tức doanh nghiệp."
         },
         {
-          "text": "Alphabetical order",
+          "text": "Hợp đồng kinh tế",
           "isCorrect": false,
-          "rationale": "Đây là cách sắp xếp tài liệu theo thứ tự bảng chữ cái, không liên quan đến thời hạn."
+          "rationale": "Hợp đồng là thỏa thuận pháp lý giữa các bên, không phải là công cụ để truyền tải thông tin ra công chúng."
         },
         {
-          "text": "Overdue materials",
+          "text": "Thông cáo báo chí",
           "isCorrect": true,
-          "rationale": "Tính từ 'overdue' chỉ các sự vật đã vượt quá mốc thời gian quy định để hoàn thành hoặc trả lại."
+          "rationale": "Đây là văn bản chính thức gửi cho giới truyền thông để cung cấp thông tin về một sự kiện hoặc tin tức quan trọng."
         },
         {
-          "text": "Free sample",
+          "text": "Báo cáo nội bộ",
           "isCorrect": false,
-          "rationale": "Đây là mẫu thử miễn phí được tặng để khách hàng trải nghiệm sản phẩm."
+          "rationale": "Tài liệu nội bộ chỉ lưu hành trong công ty và không có mục đích công bố rộng rãi cho báo chí."
         }
       ],
-      "hint": "Liên quan đến việc chậm trễ so với hạn chót (deadline)."
+      "hint": "Mục tiêu của tài liệu này là để các phóng viên biết và đưa tin về công ty."
     },
     {
-      "question": "Thiết bị nào sau đây bị hỏng sẽ khiến cửa hàng không thể xử lý các giao dịch thanh toán bằng thẻ?",
+      "question": "Kỹ thuật viên đang kiểm tra 'switch' /swɪtʃ/ điện vì đèn trong văn phòng không sáng. 'Switch' có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Lawn mower",
+          "text": "Dây dẫn",
           "isCorrect": false,
-          "rationale": "Máy cắt cỏ là công cụ làm vườn, không liên quan đến quy trình thanh toán."
+          "rationale": "Dây dẫn chỉ có nhiệm vụ truyền tải điện, không có chức năng điều khiển cơ học như thiết bị đang được nhắc tới."
         },
         {
-          "text": "Tablecloth",
-          "isCorrect": false,
-          "rationale": "Đây là khăn trải bàn, một vật dụng trang trí nội thất."
-        },
-        {
-          "text": "Card reader",
+          "text": "Công tắc",
           "isCorrect": true,
-          "rationale": "Máy đọc thẻ là thiết bị thiết yếu để kết nối và xác nhận thông tin từ thẻ ngân hàng của khách."
+          "rationale": "Đây là thiết bị dùng để đóng hoặc ngắt mạch điện, cho phép điều khiển việc bật/tắt các thiết bị điện."
         },
         {
-          "text": "Cartridge",
+          "text": "Ổ cắm",
           "isCorrect": false,
-          "rationale": "Hộp mực bị hỏng chỉ ảnh hưởng đến việc in ấn tài liệu hoặc hóa đơn giấy."
+          "rationale": "Ổ cắm là nơi kết nối phích cắm điện, trong khi thiết bị trong câu dùng để bật hoặc tắt thiết bị."
+        },
+        {
+          "text": "Bóng đèn",
+          "isCorrect": false,
+          "rationale": "Bóng đèn là thiết bị phát sáng, không phải là bộ phận điều khiển việc đóng ngắt dòng điện."
         }
       ],
-      "hint": "Thiết bị này có chức năng 'đọc' (read) các thông tin trên thẻ."
+      "hint": "Đây là vật bạn thường nhấn vào tường mỗi khi bước vào một căn phòng tối."
     },
     {
-      "question": "Cụm từ \"be in effect\" dùng để mô tả một chính sách (policy) có nghĩa là gì?",
+      "question": "Văn phòng cần một 'lawn mower' /'lɔ:n ˌməʊər/ mới để duy trì bãi cỏ xung quanh tòa nhà. Đây là thiết bị gì?",
       "answerOptions": [
         {
-          "text": "Đang có hiệu lực thi hành",
+          "text": "Máy tưới nước",
+          "isCorrect": false,
+          "rationale": "Máy tưới dùng để cung cấp nước cho cây trồng, không có chức năng làm ngắn chiều cao của cỏ."
+        },
+        {
+          "text": "Máy tỉa cành",
+          "isCorrect": false,
+          "rationale": "Máy tỉa cành thường dùng cho cây thân gỗ hoặc bụi cây cao, không phù hợp để làm phẳng thảm cỏ dưới đất."
+        },
+        {
+          "text": "Máy hút bụi",
+          "isCorrect": false,
+          "rationale": "Máy hút bụi dùng để làm sạch bụi bẩn bên trong nhà, không dùng cho việc chăm sóc cỏ ngoài trời."
+        },
+        {
+          "text": "Máy cắt cỏ",
           "isCorrect": true,
-          "rationale": "Cụm từ này khẳng định một quy định hoặc luật lệ đang được áp dụng chính thức vào thời điểm hiện tại."
-        },
-        {
-          "text": "Đang được chỉnh sửa lại",
-          "isCorrect": false,
-          "rationale": "Việc chỉnh sửa thường dùng các từ như 'revise' hoặc 'modify'."
-        },
-        {
-          "text": "Đã bị hủy bỏ hoàn toàn",
-          "isCorrect": false,
-          "rationale": "Trạng thái này thường được gọi là 'void' hoặc 'canceled'."
-        },
-        {
-          "text": "Đang chờ được phê duyệt",
-          "isCorrect": false,
-          "rationale": "Trạng thái này thường dùng cụm 'pending approval' thay vì 'in effect'."
+          "rationale": "Thiết bị này được thiết kế chuyên dụng để cắt bằng phần cỏ mọc dài trên các bãi cỏ phẳng."
         }
       ],
-      "hint": "Nó có nghĩa là chính sách đó đang thực sự 'hoạt động' và mọi người phải tuân theo."
+      "hint": "Thiết bị này có lưỡi quay bên dưới để làm cho thảm cỏ trở nên bằng phẳng."
     },
     {
-      "question": "Trong siêu thị, khu vực lối đi giữa các hàng kệ hàng hóa được gọi là gì?",
+      "question": "Ấn phẩm mới nhất của tờ báo này có một 'issue' /'ɪʃu:/ đặc biệt về công nghệ xanh. 'Issue' ở đây nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Aisle",
+          "text": "Lời thông báo",
+          "isCorrect": false,
+          "rationale": "Thông báo là hành động truyền đạt tin tức, không dùng để chỉ một tập hợp nội dung được in ấn theo định kỳ."
+        },
+        {
+          "text": "Ấn bản/số báo",
           "isCorrect": true,
-          "rationale": "Đây là từ chuyên dụng để chỉ lối đi hẹp giữa các dãy ghế hoặc kệ hàng trong không gian kín."
+          "rationale": "Trong lĩnh vực xuất bản, từ này chỉ một số cụ thể trong chuỗi các tờ báo hoặc tạp chí được phát hành định kỳ."
         },
         {
-          "text": "Sidewalk",
+          "text": "Bản thảo",
           "isCorrect": false,
-          "rationale": "Từ này chỉ vỉa hè dành cho người đi bộ ở ngoài đường phố."
+          "rationale": "Bản thảo là nội dung chưa hoàn thiện, trong khi từ trong câu chỉ sản phẩm đã được phát hành tới độc giả."
         },
         {
-          "text": "Flat tire",
+          "text": "Vấn đề tranh cãi",
           "isCorrect": false,
-          "rationale": "Đây là tình trạng lốp xe bị xẹp, hoàn toàn không liên quan đến kiến trúc cửa hàng."
-        },
-        {
-          "text": "Technical school",
-          "isCorrect": false,
-          "rationale": "Đây là một cơ sở đào tạo, không phải là một phần của siêu thị."
+          "rationale": "Mặc dù 'issue' có nghĩa là vấn đề, nhưng trong ngữ cảnh báo chí, nó mang một nghĩa chuyên ngành khác."
         }
       ],
-      "hint": "Từ này có âm câm, phát âm giống với từ 'I'll' trong tiếng Anh."
+      "hint": "Nó dùng để chỉ số thứ tự của tờ tạp chí bạn nhận được trong tháng này."
     },
     {
-      "question": "Hành động sắp xếp hồ sơ theo thứ tự từ $A$ đến $Z$ được gọi là sắp xếp theo:",
+      "question": "Mọi nhân viên đều phải tuân thủ 'policy' /'pɒləsi/ về bảo mật thông tin của công ty. 'Policy' có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Overdue schedule",
+          "text": "Kế hoạch kinh doanh",
           "isCorrect": false,
-          "rationale": "Cụm từ này không có ý nghĩa chuẩn trong việc sắp xếp hồ sơ theo tên."
+          "rationale": "Kế hoạch kinh doanh tập trung vào chiến lược phát triển, không phải là các quy định bắt buộc về hành vi."
         },
         {
-          "text": "Annual checkup",
+          "text": "Lịch làm việc",
           "isCorrect": false,
-          "rationale": "Đây là hoạt động kiểm tra sức khỏe hàng năm."
+          "rationale": "Lịch làm việc chỉ xác định thời gian, không đưa ra các nguyên tắc hướng dẫn hành động chung cho tập thể."
         },
         {
-          "text": "Alphabetical order",
+          "text": "Ngân sách dự phòng",
+          "isCorrect": false,
+          "rationale": "Ngân sách liên quan đến tài chính, không phải là văn bản quy định về các chuẩn mực thực hiện công việc."
+        },
+        {
+          "text": "Chính sách/quy định",
           "isCorrect": true,
-          "rationale": "Đây là quy tắc sắp xếp dựa trên thứ tự của các chữ cái trong bảng chữ cái."
-        },
-        {
-          "text": "Malfunctioning process",
-          "isCorrect": false,
-          "rationale": "Cụm từ này mô tả một quy trình đang gặp lỗi, không phải phương pháp sắp xếp."
+          "rationale": "Đây là tập hợp các nguyên tắc hoặc quy tắc mà một tổ chức đề ra để hướng dẫn việc đưa ra quyết định và hành động."
         }
       ],
-      "hint": "Phương pháp này dựa trên bảng chữ cái (alphabet)."
+      "hint": "Nó giống như một bộ quy tắc ứng xử mà mọi người trong công ty phải làm theo."
+    },
+    {
+      "question": "Máy in văn phòng không hoạt động vì hết 'cartridge' /'kɑ:trɪdʒ/. Bạn cần thay thế bộ phận nào?",
+      "answerOptions": [
+        {
+          "text": "Hộp mực",
+          "isCorrect": true,
+          "rationale": "Đây là hộp chứa mực (dạng lỏng hoặc bột) dùng cho các loại máy in để tạo ra hình ảnh và văn bản trên giấy."
+        },
+        {
+          "text": "Khay nạp giấy",
+          "isCorrect": false,
+          "rationale": "Khay giấy chỉ chứa vật liệu in, không chứa chất tạo màu cần thiết cho quá trình in ấn."
+        },
+        {
+          "text": "Màn hình hiển thị",
+          "isCorrect": false,
+          "rationale": "Màn hình chỉ để theo dõi trạng thái, không phải là linh kiện tiêu hao cần thay thế thường xuyên để in được bài."
+        },
+        {
+          "text": "Dây cáp nguồn",
+          "isCorrect": false,
+          "rationale": "Dây nguồn cung cấp năng lượng điện, không liên quan trực tiếp đến việc tạo ra nội dung trên trang in."
+        }
+      ],
+      "hint": "Đây là vật dụng chứa mực đen hoặc mực màu lắp bên trong máy in."
+    },
+    {
+      "question": "Chúng tôi không thể gửi email vì hệ thống đang 'malfunctioning' /ˌmæl'fʌŋkʃənɪŋ/. Hệ thống đang gặp tình trạng gì?",
+      "answerOptions": [
+        {
+          "text": "Đang khởi động lại",
+          "isCorrect": false,
+          "rationale": "Khởi động lại là một tiến trình bình thường để ổn định máy, không mang nghĩa tiêu cực về việc hỏng hóc."
+        },
+        {
+          "text": "Đang nâng cấp",
+          "isCorrect": false,
+          "rationale": "Nâng cấp là việc cải thiện tính năng, khác với việc hệ thống bị hỏng hóc đột xuất."
+        },
+        {
+          "text": "Đang bảo trì",
+          "isCorrect": false,
+          "rationale": "Bảo trì là hành động chủ động để phòng ngừa lỗi, không phải là bản thân tình trạng máy bị lỗi."
+        },
+        {
+          "text": "Đang bị trục trặc",
+          "isCorrect": true,
+          "rationale": "Từ này mô tả tình trạng thiết bị hoặc hệ thống không hoạt động đúng chức năng do có lỗi kỹ thuật."
+        }
+      ],
+      "hint": "Từ này dùng để chỉ một thiết bị máy móc đang hoạt động không bình thường hoặc bị hỏng."
+    },
+    {
+      "question": "Công ty đang tìm một 'technician' /tek'nɪʃn/ để bảo trì hệ thống điều hòa không khí. 'Technician' là ai?",
+      "answerOptions": [
+        {
+          "text": "Kỹ thuật viên",
+          "isCorrect": true,
+          "rationale": "Đây là người có trình độ chuyên môn và kỹ năng thực hành để vận hành, kiểm tra hoặc sửa chữa máy móc."
+        },
+        {
+          "text": "Chuyên gia tư vấn",
+          "isCorrect": false,
+          "rationale": "Chuyên gia tư vấn đưa ra lời khuyên chiến lược, không nhất thiết phải trực tiếp cầm dụng cụ để bảo trì thiết bị."
+        },
+        {
+          "text": "Nhà quản lý",
+          "isCorrect": false,
+          "rationale": "Nhà quản lý tập trung vào điều hành con người và chiến lược, không trực tiếp thực hiện các thao tác kỹ thuật máy móc."
+        },
+        {
+          "text": "Nhà nghiên cứu",
+          "isCorrect": false,
+          "rationale": "Nhà nghiên cứu tìm kiếm kiến thức mới hoặc lý thuyết, thường không làm công việc sửa chữa thiết bị thực tế."
+        }
+      ],
+      "hint": "Đây là người sẽ trực tiếp dùng các dụng cụ chuyên dụng để kiểm tra và sửa lỗi cho máy móc."
+    },
+    {
+      "question": "Máy móc tại phân xưởng đã được thay thế bằng một 'packaging machine' /'pækɪdʒɪŋ mə'ʃi:n/ tự động. Đây là loại máy gì?",
+      "answerOptions": [
+        {
+          "text": "Máy in nhãn",
+          "isCorrect": false,
+          "rationale": "Máy in nhãn chỉ thực hiện việc in ấn thông tin, không thực hiện thao tác bao bọc vật lý lên sản phẩm."
+        },
+        {
+          "text": "Máy sản xuất",
+          "isCorrect": false,
+          "rationale": "Máy sản xuất tạo ra bản thân sản phẩm, không tập trung vào khâu hoàn thiện bên ngoài trước khi xuất xưởng."
+        },
+        {
+          "text": "Máy đóng gói",
+          "isCorrect": true,
+          "rationale": "Thiết bị này được thiết kế để bao bọc hoặc đặt sản phẩm vào bao bì một cách tự động và đồng nhất."
+        },
+        {
+          "text": "Máy kiểm tra chất lượng",
+          "isCorrect": false,
+          "rationale": "Loại máy này dùng để phát hiện lỗi sản phẩm, không có chức năng bao gói sản phẩm hàng loạt."
+        }
+      ],
+      "hint": "Nó giúp đưa sản phẩm vào trong các hộp hoặc túi nhựa một cách nhanh chóng."
+    },
+    {
+      "question": "Cuốn sách bạn mượn từ thư viện công ty đã 'overdue' /ˌəʊvər'du:/. Bạn cần làm gì ngay lập tức?",
+      "answerOptions": [
+        {
+          "text": "Viết bản đánh giá",
+          "isCorrect": false,
+          "rationale": "Việc viết đánh giá không liên quan đến trạng thái vi phạm thời gian mượn của tài liệu."
+        },
+        {
+          "text": "Gia hạn thêm",
+          "isCorrect": false,
+          "rationale": "Gia hạn thường được thực hiện trước khi đến hạn, khi đã quá hạn thì thủ tục xử lý thường phức tạp hơn."
+        },
+        {
+          "text": "Mượn thêm sách",
+          "isCorrect": false,
+          "rationale": "Khi đã quá hạn, thường bạn sẽ bị hạn chế quyền mượn mới cho đến khi hoàn thành nghĩa vụ cũ."
+        },
+        {
+          "text": "Trả sách ngay",
+          "isCorrect": true,
+          "rationale": "Tính từ này chỉ việc một thứ gì đó đã vượt quá thời hạn quy định (như ngày trả sách hoặc hạn thanh toán)."
+        }
+      ],
+      "hint": "Hãy kiểm tra xem ngày đến hạn trả sách có phải là ngày hôm qua không."
+    },
+    {
+      "question": "Giám đốc yêu cầu bộ phận kế toán 'count' /kaʊnt/ số lượng văn phòng phẩm còn lại trong kho. Hành động này là gì?",
+      "answerOptions": [
+        {
+          "text": "Mua thêm",
+          "isCorrect": false,
+          "rationale": "Việc mua thêm chỉ xảy ra sau khi đã biết chính xác số lượng tồn kho thiếu hụt."
+        },
+        {
+          "text": "Đếm/kiểm số lượng",
+          "isCorrect": true,
+          "rationale": "Từ này có nghĩa là liệt kê các đơn vị một cách tuần tự để xác định tổng số lượng hiện có."
+        },
+        {
+          "text": "Vứt bỏ",
+          "isCorrect": false,
+          "rationale": "Việc loại bỏ đồ đạc không giúp xác định được quy mô tài sản hiện có của văn phòng."
+        },
+        {
+          "text": "Sắp xếp",
+          "isCorrect": false,
+          "rationale": "Sắp xếp là hành động tổ chức đồ đạc cho ngăn nắp, không tập trung vào việc xác định con số cụ thể."
+        }
+      ],
+      "hint": "Bạn cần đếm xem có bao nhiêu chiếc bút và tập giấy còn trong tủ."
+    },
+    {
+      "question": "Chúng ta cần thảo luận về 'research project' /rɪˈsɜːrtʃ ˈprɒdʒekt/ về hành vi người tiêu dùng vào chiều nay. 'Research project' là gì?",
+      "answerOptions": [
+        {
+          "text": "Chiến dịch bán hàng",
+          "isCorrect": false,
+          "rationale": "Bán hàng là hoạt động thương mại trực tiếp, không phải là hoạt động thu thập thông tin và dữ liệu."
+        },
+        {
+          "text": "Khóa đào tạo kỹ năng",
+          "isCorrect": false,
+          "rationale": "Đào tạo là truyền dạy kiến thức sẵn có, khác với việc chủ động đi tìm kiếm câu trả lời cho các vấn đề mới."
+        },
+        {
+          "text": "Dự án nghiên cứu",
+          "isCorrect": true,
+          "rationale": "Đây là một nỗ lực có kế hoạch nhằm điều tra, thu thập dữ liệu và phân tích để tìm ra thông tin mới."
+        },
+        {
+          "text": "Buổi tiệc kỷ niệm",
+          "isCorrect": false,
+          "rationale": "Tiệc kỷ niệm là một sự kiện xã hội, không có mục đích học thuật hay tìm kiếm dữ liệu thị trường."
+        }
+      ],
+      "hint": "Đây là một chuỗi các hoạt động thu thập và phân tích dữ liệu để hiểu sâu về một chủ đề."
+    },
+    {
+      "question": "Thư ký nói: 'Put something on my calendar' /pʊt ˈsʌmθɪŋ ɒn maɪ ˈkæləndər/ khi tôi đề cập đến cuộc họp. Nghĩa của cụm này là gì?",
+      "answerOptions": [
+        {
+          "text": "Hủy cuộc họp",
+          "isCorrect": false,
+          "rationale": "Hủy cuộc họp là loại bỏ sự kiện khỏi lịch trình, trái ngược hoàn toàn với việc thêm nó vào."
+        },
+        {
+          "text": "Lên lịch hẹn",
+          "isCorrect": true,
+          "rationale": "Cụm từ này được dùng để chỉ việc ghi lại một sự kiện hoặc cuộc hẹn vào lịch trình để không bị quên."
+        },
+        {
+          "text": "Mua cuốn lịch mới",
+          "isCorrect": false,
+          "rationale": "Cụm từ mang nghĩa bóng về việc quản lý thời gian, không phải là việc mua sắm vật dụng vật lý."
+        },
+        {
+          "text": "Thay đổi địa điểm",
+          "isCorrect": false,
+          "rationale": "Thay đổi địa điểm là điều chỉnh thông tin chi tiết, không phải là hành động khởi tạo một mục nhập trong lịch."
+        }
+      ],
+      "hint": "Hãy ghi chú cuộc hẹn vào ứng dụng Google Calendar hoặc sổ tay quản lý thời gian của bạn."
+    },
+    {
+      "question": "Tên khách mời nên được sắp xếp theo 'alphabetical order' /ˌælfəˌbetɪkl ˈɔːrdər/. Bạn sẽ làm thế nào?",
+      "answerOptions": [
+        {
+          "text": "Theo thời gian đăng ký",
+          "isCorrect": false,
+          "rationale": "Cách sắp xếp này dựa trên mốc thời gian, không liên quan đến đặc điểm tên gọi của khách mời."
+        },
+        {
+          "text": "Theo độ dài của tên",
+          "isCorrect": false,
+          "rationale": "Sắp xếp theo số lượng ký tự là một tiêu chí định lượng, khác với việc đối chiếu thứ tự chữ cái."
+        },
+        {
+          "text": "Theo thứ tự bảng chữ cái",
+          "isCorrect": true,
+          "rationale": "Đây là cách sắp xếp các từ dựa trên vị trí của các chữ cái bắt đầu trong bảng chữ cái (A, B, C...)."
+        },
+        {
+          "text": "Theo độ quan trọng",
+          "isCorrect": false,
+          "rationale": "Sắp xếp theo thứ bậc hoặc ưu tiên không tuân theo các quy tắc chữ cái khách quan."
+        }
+      ],
+      "hint": "Hãy bắt đầu với những người có tên bắt đầu bằng chữ 'A' và kết thúc với chữ 'Z'."
+    },
+    {
+      "question": "Món mỳ Ý này 'come with' /kʌm wɪð/ một phần salad nhỏ. Nghĩa của 'come with' là gì?",
+      "answerOptions": [
+        {
+          "text": "Thay thế cho",
+          "isCorrect": false,
+          "rationale": "Thay thế nghĩa là bỏ món này lấy món kia, không phải là việc có cả hai cùng lúc."
+        },
+        {
+          "text": "Đến muộn hơn",
+          "isCorrect": false,
+          "rationale": "Đây là khái niệm về thời gian giao hàng, không phản ánh cấu trúc thành phần của một đơn hàng."
+        },
+        {
+          "text": "Được bán riêng",
+          "isCorrect": false,
+          "rationale": "Nếu bán riêng, khách hàng phải trả thêm tiền và không được coi là một phần đi kèm của món chính."
+        },
+        {
+          "text": "Đi kèm với",
+          "isCorrect": true,
+          "rationale": "Cụm từ này chỉ việc một món đồ hoặc dịch vụ được bao gồm sẵn trong gói hoặc sản phẩm chính."
+        }
+      ],
+      "hint": "Bạn không cần trả thêm tiền cho phần salad vì nó đã được tính vào giá của món mỳ."
+    },
+    {
+      "question": "Tôi muốn gọi một món chính kèm theo 'side salad' /saɪd ˈsæləd/. 'Side salad' là gì?",
+      "answerOptions": [
+        {
+          "text": "Đồ uống có ga",
+          "isCorrect": false,
+          "rationale": "Salad là thực phẩm dạng rắn, hoàn toàn khác biệt với các loại đồ uống chất lỏng."
+        },
+        {
+          "text": "Món tráng miệng",
+          "isCorrect": false,
+          "rationale": "Món tráng miệng thường là đồ ngọt và ăn cuối bữa, khác với món rau ăn kèm trong bữa chính."
+        },
+        {
+          "text": "Món chính là salad",
+          "isCorrect": false,
+          "rationale": "Nếu là món chính, nó sẽ có kích thước lớn và là trọng tâm của bữa ăn, không mang tính chất 'kèm theo'."
+        },
+        {
+          "text": "Salad ăn kèm",
+          "isCorrect": true,
+          "rationale": "Đây là một phần salad nhỏ được phục vụ cùng với món chính để làm phong phú thêm bữa ăn."
+        }
+      ],
+      "hint": "Đây là một đĩa rau nhỏ được đặt bên cạnh đĩa bít tết hoặc mỳ của bạn."
+    },
+    {
+      "question": "Khi quản lý nói 'I'm afraid' /əˈfreɪd/, ông ấy thường chuẩn bị đưa ra tin tức gì?",
+      "answerOptions": [
+        {
+          "text": "Một câu hỏi hóc búa",
+          "isCorrect": false,
+          "rationale": "Dù câu hỏi có khó, cấu trúc này thiên về việc báo cáo một thực tế không thuận lợi hơn là đặt vấn đề."
+        },
+        {
+          "text": "LỜi khen ngợi",
+          "isCorrect": false,
+          "rationale": "Lời khen ngợi mang tính khích lệ, không cần sử dụng cách nói giảm nói tránh mang tính e ngại."
+        },
+        {
+          "text": "Tin tức rất vui",
+          "isCorrect": false,
+          "rationale": "Người ta thường dùng các cụm từ như 'I'm happy to' để dẫn dắt những tin tức tích cực."
+        },
+        {
+          "text": "Lời thông báo lấy làm tiếc",
+          "isCorrect": true,
+          "rationale": "Cụm từ này thường được dùng lịch sự để mở đầu một lời từ chối hoặc tin tức không như mong đợi."
+        }
+      ],
+      "hint": "Hãy nghĩ đến câu: 'Tôi e rằng chúng ta không thể giảm giá thêm cho đơn hàng này'."
+    },
+    {
+      "question": "Nếu bạn cần nhận bưu phẩm, hãy đến 'front desk' /ˈfrʌnt desk/ của tòa nhà. 'Front desk' là khu vực nào?",
+      "answerOptions": [
+        {
+          "text": "Sân thượng",
+          "isCorrect": false,
+          "rationale": "Khu vực cao nhất của tòa nhà không phải là nơi thuận tiện để đặt bàn tiếp đón khách hàng."
+        },
+        {
+          "text": "Phòng bảo vệ",
+          "isCorrect": false,
+          "rationale": "Phòng bảo vệ tập trung vào an ninh, không phải luôn là nơi xử lý các thủ tục hành chính và đón tiếp khách."
+        },
+        {
+          "text": "Cửa thoát hiểm",
+          "isCorrect": false,
+          "rationale": "Cửa thoát hiểm chỉ dùng trong trường hợp khẩn cấp, không có chức năng giao dịch hay nhận đồ."
+        },
+        {
+          "text": "Quầy lễ tân",
+          "isCorrect": true,
+          "rationale": "Đây là khu vực bàn tiếp khách nằm ngay gần cửa ra vào để thực hiện việc đón tiếp và chỉ dẫn."
+        }
+      ],
+      "hint": "Đây là nơi đầu tiên bạn nhìn thấy khi bước vào đại sảnh của một khách sạn hoặc công ty."
+    },
+    {
+      "question": "Anh ấy quyết định 'apply for' /əˈplaɪ fɔːr/ vị trí trưởng phòng. Hành động này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Từ chối đề nghị",
+          "isCorrect": false,
+          "rationale": "Cụm từ này mang tính chủ động tìm kiếm cơ hội, trái ngược với việc khước từ một cơ hội có sẵn."
+        },
+        {
+          "text": "Ứng tuyển/nộp đơn",
+          "isCorrect": true,
+          "rationale": "Cụm từ này chỉ việc chính thức đưa ra yêu cầu để được xem xét cho một công việc hoặc vị trí nào đó."
+        },
+        {
+          "text": "Đề bạt cấp dưới",
+          "isCorrect": false,
+          "rationale": "Hành động này là sự thăng chức cho người khác, không phải là việc tự mình nộp hồ sơ xin việc."
+        },
+        {
+          "text": "Phỏng vấn ứng viên",
+          "isCorrect": false,
+          "rationale": "Đây là hành động của người tuyển dụng, không phải của người đang đi tìm kiếm cơ hội việc làm."
+        }
+      ],
+      "hint": "Bạn cần chuẩn bị hồ sơ và CV để thực hiện hành động này."
+    },
+    {
+      "question": "Tòa nhà cũ sắp bị 'tear down' /ter daʊn/ để nhường chỗ cho công viên. Nghĩa của cụm này là gì?",
+      "answerOptions": [
+        {
+          "text": "Trang trí nội thất",
+          "isCorrect": false,
+          "rationale": "Trang trí là khâu làm đẹp bên trong, diễn ra sau khi tòa nhà đã được hoàn thiện hoặc đang tồn tại ổn định."
+        },
+        {
+          "text": "Sơn lại tường",
+          "isCorrect": false,
+          "rationale": "Sơn lại chỉ là cải thiện bề ngoài, không làm thay đổi cấu trúc cốt lõi của công trình."
+        },
+        {
+          "text": "Phá bỏ/dỡ bỏ",
+          "isCorrect": true,
+          "rationale": "Cụm động từ này chỉ việc phá hủy một cấu trúc (thường là tòa nhà) một cách có mục đích."
+        },
+        {
+          "text": "Mở rộng thêm",
+          "isCorrect": false,
+          "rationale": "Mở rộng là xây dựng thêm trên nền cũ, không phải là xóa sạch công trình hiện có."
+        }
+      ],
+      "hint": "Khi một công trình quá cũ và không thể sử dụng, người ta sẽ san phẳng nó."
+    },
+    {
+      "question": "Sáng nay tôi không thể lái xe đi làm vì bị 'flat tire' /flæt ˈtaɪər/. 'Flat tire' là gì?",
+      "answerOptions": [
+        {
+          "text": "Mất chìa khóa",
+          "isCorrect": false,
+          "rationale": "Vấn đề về chìa khóa liên quan đến việc khởi động và bảo mật, không phản ánh hư hại vật lý của lốp."
+        },
+        {
+          "text": "Hết xăng",
+          "isCorrect": false,
+          "rationale": "Thiếu nhiên liệu khiến xe không chạy được, nhưng không liên quan đến tình trạng vật lý của bánh xe."
+        },
+        {
+          "text": "Hỏng động cơ",
+          "isCorrect": false,
+          "rationale": "Lỗi động cơ liên quan đến hệ thống máy móc bên trong, không phải là lỗi ở phần bánh xe bên ngoài."
+        },
+        {
+          "text": "Lốp xe bị xẹp",
+          "isCorrect": true,
+          "rationale": "Đây là tình trạng lốp xe bị mất áp suất hơi do bị thủng hoặc hở van, khiến nó không còn căng tròn."
+        }
+      ],
+      "hint": "Bạn sẽ cần một cái bơm hoặc phải thay bánh xe dự phòng khi gặp tình huống này."
+    },
+    {
+      "question": "Quy định về trang phục công sở sẽ 'be in effect' /bi ɪn ɪˈfekt/ từ đầu tháng tới. Cụm từ này nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Có hiệu lực",
+          "isCorrect": true,
+          "rationale": "Cụm từ này chỉ việc một quy tắc, luật lệ hoặc chính sách bắt đầu được áp dụng chính thức."
+        },
+        {
+          "text": "Được thảo luận",
+          "isCorrect": false,
+          "rationale": "Thảo luận là quá trình lấy ý kiến trước khi đưa ra quyết định cuối cùng về việc áp dụng quy định."
+        },
+        {
+          "text": "Bị tạm dừng",
+          "isCorrect": false,
+          "rationale": "Tạm dừng là trạng thái ngưng áp dụng một quy định đang có sẵn, trái ngược với việc bắt đầu áp dụng."
+        },
+        {
+          "text": "Được sửa đổi",
+          "isCorrect": false,
+          "rationale": "Sửa đổi là thay đổi nội dung, không nhất thiết đồng nghĩa với thời điểm quy định đó bắt đầu có giá trị thi hành."
+        }
+      ],
+      "hint": "Từ thời điểm đó, mọi người bắt buộc phải mặc đồng phục theo quy định mới."
+    },
+    {
+      "question": "Đã đến lúc bạn nên đi 'annual checkup' /ˈænjuəl ˈtʃekʌp/ tại bệnh viện. Đây là hoạt động gì?",
+      "answerOptions": [
+        {
+          "text": "Khám sức khỏe hàng năm",
+          "isCorrect": true,
+          "rationale": "Từ 'annual' có nghĩa là hàng năm và 'checkup' là việc kiểm tra sức khỏe tổng quát."
+        },
+        {
+          "text": "Xét nghiệm nồng độ cồn",
+          "isCorrect": false,
+          "rationale": "Đây là loại kiểm tra đặc thù theo tình huống, không phải là quy trình kiểm tra sức khỏe toàn diện định kỳ."
+        },
+        {
+          "text": "Tiêm phòng đột xuất",
+          "isCorrect": false,
+          "rationale": "Tiêm phòng thường dựa trên nhu cầu phòng bệnh cụ thể, không mang tính chất kiểm tra định kỳ hàng năm."
+        },
+        {
+          "text": "Phẫu thuật thẩm mỹ",
+          "isCorrect": false,
+          "rationale": "Phẫu thuật là can thiệp y tế chuyên sâu, khác với mục đích tầm soát và đánh giá sức khỏe chung."
+        }
+      ],
+      "hint": "Nó giúp bạn theo dõi tình trạng cơ thể mình mỗi năm một lần."
+    },
+    {
+      "question": "Cuộc họp 'be supposed to' /bi səˈpəʊzd tu/ bắt đầu lúc 2 giờ nhưng đã bị hoãn. Nghĩa của cụm này là gì?",
+      "answerOptions": [
+        {
+          "text": "Sợ rằng phải",
+          "isCorrect": false,
+          "rationale": "Dù có thể mang sắc thái bắt buộc, nhưng trọng tâm của nó là về kỳ vọng và kế hoạch lịch trình."
+        },
+        {
+          "text": "Không bao giờ",
+          "isCorrect": false,
+          "rationale": "Cụm từ phản ánh một kế hoạch có thật, không mang ý nghĩa phủ định tuyệt đối về khả năng xảy ra."
+        },
+        {
+          "text": "Được cho là/Dự định là",
+          "isCorrect": true,
+          "rationale": "Cụm từ này dùng để nói về một điều gì đó đáng lẽ phải xảy ra theo kế hoạch hoặc quy định."
+        },
+        {
+          "text": "Chắc chắn đã",
+          "isCorrect": false,
+          "rationale": "Cấu trúc này mang hàm ý về một dự định hoặc kỳ vọng hơn là một sự thực hiển nhiên đã xảy ra."
+        }
+      ],
+      "hint": "Nó diễn tả một sự việc đáng lẽ phải diễn ra theo đúng lịch trình ban đầu."
+    },
+    {
+      "question": "Khách hàng đang tìm kiếm khoai tây chiên ở 'aisle' /aɪl/ số 4. 'Aisle' là khu vực nào?",
+      "answerOptions": [
+        {
+          "text": "Bãi đỗ xe",
+          "isCorrect": false,
+          "rationale": "Bãi đỗ xe nằm bên ngoài cửa hàng, không chứa các dãy hàng hóa để khách lựa chọn."
+        },
+        {
+          "text": "Lối đi giữa các dãy kệ",
+          "isCorrect": true,
+          "rationale": "Đây là không gian trống để mọi người di chuyển giữa các hàng kệ trưng bày hàng hóa trong siêu thị hoặc máy bay."
+        },
+        {
+          "text": "Khu vực thử đồ",
+          "isCorrect": false,
+          "rationale": "Phòng thử đồ dành cho trang phục, không liên quan đến việc tìm kiếm thực phẩm đóng gói."
+        },
+        {
+          "text": "Nhà kho phía sau",
+          "isCorrect": false,
+          "rationale": "Nhà kho là nơi lưu trữ hàng chưa bán, khách hàng thường không tự ý vào đó để tìm đồ."
+        }
+      ],
+      "hint": "Trong siêu thị, các mặt hàng cùng loại thường được xếp dọc theo hai bên của khu vực này."
     }
   ]
 }

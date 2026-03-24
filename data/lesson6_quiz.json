@@ -2,264 +2,836 @@
   "title": "Từ vựng Trắc nghiệm Lesson 6",
   "questions": [
     {
-      "question": "Trong bối cảnh kinh doanh, từ nào sau đây có nghĩa là \"chiến lược\"?",
+      "question": "Trong buổi họp sáng nay, giám đốc nói: 'We 'intend' /ɪn'tend/ to expand our business next year'. Từ 'intend' mang nghĩa dự định, vậy từ nào sau đây là từ đồng nghĩa chính xác nhất của nó?",
       "answerOptions": [
         {
-          "text": "Strength",
+          "text": "Attend",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là sức mạnh hoặc điểm mạnh, không phải là một kế hoạch hành động."
+          "rationale": "Từ này có nghĩa là 'tham dự', không liên quan đến việc thiết lập ý định hay mục tiêu."
         },
+        {
+          "text": "Plan",
+          "isCorrect": true,
+          "rationale": "Từ 'plan' phản ánh đúng bản chất của 'intend' là việc có ý định hoặc dự tính làm một điều gì đó trong tương lai."
+        },
+        {
+          "text": "Pretend",
+          "isCorrect": false,
+          "rationale": "Đây là từ mang nghĩa 'giả vờ', thường gây nhầm lẫn do cách viết gần giống với 'intend' nhưng ý nghĩa hoàn toàn khác."
+        },
+        {
+          "text": "Extend",
+          "isCorrect": false,
+          "rationale": "Dù thường xuất hiện trong ngữ cảnh kinh doanh với nghĩa 'mở rộng', nhưng nó không đồng nghĩa với việc 'dự định'."
+        }
+      ],
+      "hint": "Hãy tìm một động từ mô tả việc thiết lập các bước đi cho một mục tiêu trong tương lai."
+    },
+    {
+      "question": "Khi khách hàng gửi khiếu nại, một 'timely' /'taɪmli/ response sẽ giúp xoa dịu tình hình. Từ 'timely' đóng vai trò là tính từ, có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Muộn màng",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược hoàn toàn với 'timely', thường được dùng là 'late' hoặc 'delayed'."
+        },
+        {
+          "text": "Kịp thời, đúng lúc",
+          "isCorrect": true,
+          "rationale": "Tính từ 'timely' dùng để chỉ sự việc xảy ra vào đúng thời điểm cần thiết để đạt hiệu quả tốt nhất."
+        },
+        {
+          "text": "Tốn thời gian",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của từ 'time-consuming', trái ngược với tính hiệu quả về thời gian của 'timely'."
+        },
+        {
+          "text": "Hàng giờ",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của từ 'hourly', một trạng từ/tính từ chỉ tần suất chứ không phải sự kịp thời."
+        }
+      ],
+      "hint": "Từ này mô tả một hành động xảy ra không quá sớm cũng không quá muộn, mà là đúng lúc."
+    },
+    {
+      "question": "Quản lý nhân sự thông báo: 'Our entire 'workforce' /'wɜ:rkfɔ:rs/ will receive a bonus'. Từ 'workforce' dùng để chỉ đối tượng nào?",
+      "answerOptions": [
+        {
+          "text": "Cơ sở hạ tầng",
+          "isCorrect": false,
+          "rationale": "Đây là khái niệm về vật chất, trong khi 'workforce' dùng để chỉ con người."
+        },
+        {
+          "text": "Ban giám đốc",
+          "isCorrect": false,
+          "rationale": "Ban giám đốc thường được gọi là 'Board of Directors', chỉ là một phần nhỏ trong 'workforce'."
+        },
+        {
+          "text": "Lực lượng lao động/nhân viên",
+          "isCorrect": true,
+          "rationale": "'Workforce' tổng hợp tất cả những người đang làm việc cho một công ty hoặc trong một ngành nghề cụ thể."
+        },
+        {
+          "text": "Khách hàng thân thiết",
+          "isCorrect": false,
+          "rationale": "Khách hàng là đối tượng bên ngoài công ty, không nằm trong khái niệm lực lượng lao động."
+        }
+      ],
+      "hint": "Hãy nghĩ đến tất cả những người đang cống hiến sức lao động trong công ty."
+    },
+    {
+      "question": "Trong bản mô tả công việc có ghi: 'Candidates must have 'relevant' /'reləvənt/ experience'. Tính từ 'relevant' có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Đắt đỏ",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của từ 'costly' hoặc 'expensive', hoàn toàn không phù hợp trong ngữ cảnh này."
+        },
+        {
+          "text": "Đáng tin cậy",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của từ 'reliable', mô tả tính cách con người hơn là sự liên quan của thông tin."
+        },
+        {
+          "text": "Gần đây",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của từ 'recent', mặc dù kinh nghiệm gần đây cũng quan trọng nhưng không đồng nghĩa với 'relevant'."
+        },
+        {
+          "text": "Có liên quan, thích hợp",
+          "isCorrect": true,
+          "rationale": "Trong tuyển dụng, 'relevant' ám chỉ những kinh nghiệm trực tiếp hỗ trợ hoặc liên quan đến vị trí đang ứng tuyển."
+        }
+      ],
+      "hint": "Từ này mô tả sự kết nối mật thiết giữa hai sự vật hoặc vấn đề."
+    },
+    {
+      "question": "Để đối phó với đối thủ cạnh tranh, chúng ta cần một 'strategy' /'strætədʒi/ mới. Từ 'strategy' đồng nghĩa với từ nào?",
+      "answerOptions": [
         {
           "text": "Struggle",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là sự đấu tranh hoặc nỗ lực khó khăn, không mang nghĩa chiến lược."
+          "rationale": "Từ này nghĩa là 'sự đấu tranh', có thể gây nhầm lẫn do âm đầu tương tự nhưng nghĩa khác biệt."
         },
         {
-          "text": "Straight",
+          "text": "Facility",
           "isCorrect": false,
-          "rationale": "Đây là một tính từ có nghĩa là thẳng, không liên quan đến lập kế hoạch kinh doanh."
+          "rationale": "Từ này nghĩa là 'cơ sở vật chất', thuộc về hạ tầng chứ không phải kế hoạch hành động."
         },
         {
-          "text": "Strategy",
+          "text": "Product",
+          "isCorrect": false,
+          "rationale": "Sản phẩm là kết quả của chiến lược, không phải bản thân chiến lược đó."
+        },
+        {
+          "text": "Plan",
           "isCorrect": true,
-          "rationale": "Từ này được sử dụng để chỉ một kế hoạch hành động dài hạn nhằm đạt được một mục tiêu cụ thể."
+          "rationale": "Chiến lược là một kế hoạch hành động chi tiết nhằm đạt được mục tiêu dài hạn hoặc tổng thể."
         }
       ],
-      "hint": "Từ này thường đi kèm với cụm từ 'marketing' hoặc 'business'."
+      "hint": "Nó là một tập hợp các bước đi có tính toán để giành chiến thắng."
     },
     {
-      "question": "Tính từ nào sau đây mang nghĩa \"đúng lúc, kịp thời\"?",
+      "question": "Cụm từ 'failure' /'feɪljər/ to meet a deadline trong báo cáo mang ý nghĩa gì?",
       "answerOptions": [
         {
-          "text": "Timing",
+          "text": "Lỗi phần mềm",
           "isCorrect": false,
-          "rationale": "Từ này chỉ sự chọn thời điểm hoặc sự phối hợp thời gian."
+          "rationale": "Mặc dù 'failure' có thể dùng cho máy móc (hỏng hóc), nhưng trong ngữ cảnh deadline thì nó chỉ sự thiếu sót cá nhân/tổ chức."
         },
         {
-          "text": "Timeless",
+          "text": "Sự chậm trễ nhỏ",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là vô tận hoặc không bị ảnh hưởng bởi thời gian, không phải là kịp thời."
+          "rationale": "Mặc dù có liên quan đến deadline, nhưng 'failure' nhấn mạnh vào việc không hoàn thành hơn là chỉ nói về thời gian."
         },
         {
-          "text": "Timely",
+          "text": "Sự thành công rực rỡ",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược hoàn toàn của từ 'success'."
+        },
+        {
+          "text": "Sự thất bại/việc không làm được",
           "isCorrect": true,
-          "rationale": "Đây là một tính từ đặc biệt có đuôi -ly dùng để mô tả sự việc xảy ra đúng thời điểm cần thiết."
-        },
-        {
-          "text": "Time",
-          "isCorrect": false,
-          "rationale": "Đây là danh từ chỉ thời gian, không phải tính từ chỉ tính chất kịp thời."
+          "rationale": "'Failure' diễn tả việc không đạt được kết quả như kỳ vọng hoặc không hoàn thành một nhiệm vụ."
         }
       ],
-      "hint": "Mặc dù có đuôi -ly nhưng đây là một tính từ thường dùng trong cụm 'in a ... manner'."
+      "hint": "Hãy nghĩ đến kết quả khi bạn không thể thực hiện được điều mình đã cam kết."
     },
     {
-      "question": "Từ \"Amenity\" (số thứ tự 198) thường được dùng để chỉ điều gì trong khách sạn?",
+      "question": "Khi gặp vấn đề với dịch vụ, khách hàng thường 'file a 'complaint' /kəm'pleɪnt/'. Từ 'complaint' ở đây nghĩa là?",
       "answerOptions": [
         {
-          "text": "Các tiện nghi, dịch vụ gia tăng",
+          "text": "Đơn đặt hàng",
+          "isCorrect": false,
+          "rationale": "Đơn đặt hàng được gọi là 'order', thường diễn ra trước khi có khiếu nại."
+        },
+        {
+          "text": "Sự tuân thủ",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của từ 'compliance', liên quan đến quy định chứ không phải sự phàn nàn."
+        },
+        {
+          "text": "Lời khen ngợi",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của từ 'compliment', rất dễ nhầm lẫn về mặt phát âm với 'complaint'."
+        },
+        {
+          "text": "Sự phàn nàn, khiếu nại",
           "isCorrect": true,
-          "rationale": "Amenity dùng để chỉ các cơ sở vật chất hoặc dịch vụ làm cho nơi ở trở nên thoải mái và thuận tiện hơn."
-        },
-        {
-          "text": "Giấy phép đỗ xe",
-          "isCorrect": false,
-          "rationale": "Giấy phép được gọi là 'permit'."
-        },
-        {
-          "text": "Lực lượng lao động",
-          "isCorrect": false,
-          "rationale": "Lực lượng lao động được gọi là 'workforce'."
-        },
-        {
-          "text": "Sự phàn nàn của khách hàng",
-          "isCorrect": false,
-          "rationale": "Sự phàn nàn được gọi là 'complaint', không phải là tiện nghi."
+          "rationale": "'Complaint' là danh từ chỉ sự không hài lòng được bày tỏ chính thức về một vấn đề nào đó."
         }
       ],
-      "hint": "Hãy nghĩ về những thứ như hồ bơi, phòng gym hoặc wifi trong khách sạn."
+      "hint": "Đây là điều mà bộ phận chăm sóc khách hàng phải giải quyết khi người dùng không vui."
     },
     {
-      "question": "Khi một công ty quyết định \"thi hành\" hoặc \"thực hiện\" một chính sách mới, họ sử dụng động từ nào?",
+      "question": "Nhân viên lễ tân nói: 'The hotel offers many 'amenities' /ə'menəti/'. Từ 'amenities' có thể được thay thế bằng từ nào?",
       "answerOptions": [
         {
-          "text": "Improve",
+          "text": "Employees",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là cải thiện, mặc dù thường đi cùng chính sách nhưng không mang nghĩa là bắt đầu thi hành."
+          "rationale": "Từ này chỉ con người (nhân viên), không phải vật dụng hay dịch vụ tiện ích."
         },
         {
-          "text": "Imply",
+          "text": "Activities",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là ngụ ý hoặc ám chỉ, không liên quan đến việc thực thi chính sách."
+          "rationale": "Mặc dù tiện nghi có thể hỗ trợ hoạt động, nhưng bản thân chúng là các vật hữu hình hoặc dịch vụ sẵn có."
         },
         {
-          "text": "Implement",
+          "text": "Agencies",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ các đại lý hoặc tổ chức, không mang nghĩa tiện nghi."
+        },
+        {
+          "text": "Facilities",
           "isCorrect": true,
-          "rationale": "Động từ này có nghĩa là bắt đầu thực hiện một kế hoạch, hệ thống hoặc chính sách chính thức."
-        },
-        {
-          "text": "Impact",
-          "isCorrect": false,
-          "rationale": "Từ này có nghĩa là tác động hoặc ảnh hưởng đến cái gì đó."
+          "rationale": "Cả 'amenities' và 'facilities' đều dùng để chỉ các tiện nghi, cơ sở vật chất đem lại sự thoải mái cho người dùng."
         }
       ],
-      "hint": "Từ này thường đi với các danh từ như 'policy', 'plan' hoặc 'strategy'."
+      "hint": "Hãy nghĩ đến những thứ như hồ bơi, phòng gym hay wifi trong khách sạn."
     },
     {
-      "question": "Điền cụm từ phù hợp vào chỗ trống: \"The data must be ___ before it can be properly analyzed.\"",
+      "question": "Trong báo cáo kỹ thuật: 'The team 'attempted' /ə'temptɪd/ to improve the output rate'. Từ 'attempt' đóng vai trò là động từ đồng nghĩa với?",
       "answerOptions": [
         {
-          "text": "Complained",
+          "text": "Avoid",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là phàn nàn, không phù hợp để mô tả hành động xử lý dữ liệu."
+          "rationale": "Từ này nghĩa là 'tránh né', trái ngược hoàn toàn với việc cố gắng đối mặt để thực hiện."
         },
         {
-          "text": "Compared",
+          "text": "Attend",
           "isCorrect": false,
-          "rationale": "So sánh dữ liệu thường xảy ra sau hoặc cùng lúc với phân tích, không phải là bước thu thập ban đầu."
+          "rationale": "Một lần nữa, từ 'tham dự' này không liên quan đến sự nỗ lực hay cố gắng."
         },
         {
-          "text": "Compiled",
+          "text": "Attract",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là 'thu hút', không mang hàm ý cố gắng thực hiện mục tiêu."
+        },
+        {
+          "text": "Try",
           "isCorrect": true,
-          "rationale": "Compile có nghĩa là thu thập và biên soạn dữ liệu từ nhiều nguồn khác nhau để xử lý."
-        },
-        {
-          "text": "Purchased",
-          "isCorrect": false,
-          "rationale": "Mua dữ liệu không phải là bước bắt buộc trước khi phân tích trong mọi ngữ cảnh như việc biên soạn."
+          "rationale": "'Attempt' và 'try' đều diễn tả việc nỗ lực thực hiện một hành động nào đó, thường là những việc khó khăn."
         }
       ],
-      "hint": "Hành động này tương đương với việc 'gather' hoặc 'collect' thông tin."
+      "hint": "Đây là hành động bạn thực hiện khi muốn làm một việc gì đó dù chưa biết có thành công hay không."
     },
     {
-      "question": "Từ nào sau đây là từ đồng nghĩa của \"Refund\"?",
+      "question": "Bộ phận kế toán yêu cầu bạn nộp 'proof of 'purchase' /'pɜ:rtʃəs/'. Từ 'purchase' ở đây mang nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Refusal",
+          "text": "Sự cho phép",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là sự từ chối, trái ngược với việc chấp nhận hoàn tiền."
+          "rationale": "Đây là nghĩa của từ 'permission' hoặc 'permit', không liên quan đến giao dịch thương mại."
+        },
+        {
+          "text": "Việc mua hàng, hàng hóa được mua",
+          "isCorrect": true,
+          "rationale": "'Purchase' vừa là động từ (mua) vừa là danh từ (vật được mua/việc mua bán)."
+        },
+        {
+          "text": "Việc hoàn tiền",
+          "isCorrect": false,
+          "rationale": "Hoàn tiền là 'refund', là quá trình diễn ra sau khi mua hàng nếu có lỗi."
+        },
+        {
+          "text": "Việc giao hàng",
+          "isCorrect": false,
+          "rationale": "Giao hàng là 'delivery', chỉ là một công đoạn sau khi việc mua hàng hoàn tất."
+        }
+      ],
+      "hint": "Nó liên quan đến việc bạn bỏ tiền ra để sở hữu một món đồ."
+    },
+    {
+      "question": "Nếu sản phẩm bị lỗi, bạn sẽ nhận được 'full 'refund' /'ri:fʌnd/'. Từ 'refund' đồng nghĩa với từ nào?",
+      "answerOptions": [
+        {
+          "text": "Discount",
+          "isCorrect": false,
+          "rationale": "Giảm giá là trừ tiền trực tiếp khi mua, còn 'refund' là trả lại tiền sau khi đã thanh toán."
+        },
+        {
+          "text": "Reward",
+          "isCorrect": false,
+          "rationale": "Phần thưởng mang tính chất tặng thêm, không phải trả lại số vốn ban đầu."
         },
         {
           "text": "Reimbursement",
           "isCorrect": true,
-          "rationale": "Cả hai từ đều chỉ việc trả lại số tiền mà ai đó đã chi trả hoặc nộp dư."
+          "rationale": "Cả 'refund' và 'reimbursement' đều liên quan đến việc trả lại số tiền mà một người đã chi trả."
         },
         {
-          "text": "Requirement",
+          "text": "Investment",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là yêu cầu hoặc điều kiện bắt buộc."
-        },
-        {
-          "text": "Reservation",
-          "isCorrect": false,
-          "rationale": "Từ này có nghĩa là sự đặt chỗ trước."
+          "rationale": "Đây là việc bỏ vốn để kiếm lời, không phải nhận lại tiền do lỗi sản phẩm."
         }
       ],
-      "hint": "Hãy tìm một từ cũng bắt đầu bằng tiền tố 're-' liên quan đến tài chính."
+      "hint": "Tìm từ chỉ việc trả lại tiền cho một khoản chi phí đã tiêu tốn."
     },
     {
-      "question": "Cụm từ \"In advance\" (số thứ tự 224) có nghĩa là gì?",
+      "question": "Khi máy in văn phòng bị hỏng nặng, chúng ta nên gọi một 'mechanic' /mə'kænɪk/ hoặc chuyên gia sửa chữa. 'Mechanic' là ai?",
       "answerOptions": [
         {
-          "text": "Nâng cao",
+          "text": "Kiến trúc sư",
           "isCorrect": false,
-          "rationale": "Tính từ 'advanced' có nghĩa là nâng cao, nhưng 'in advance' là một trạng ngữ chỉ thời gian."
+          "rationale": "Kiến trúc sư (architect) thiết kế công trình, không đi sửa chữa máy in."
         },
         {
-          "text": "Một cách đúng đắn",
-          "isCorrect": false,
-          "rationale": "Nghĩa này thuộc về từ 'properly'."
-        },
-        {
-          "text": "Tiến bộ",
-          "isCorrect": false,
-          "rationale": "Danh từ 'progress' mới có nghĩa là sự tiến bộ."
-        },
-        {
-          "text": "Trước (về thời gian)",
+          "text": "Thợ máy/Người sửa chữa máy móc",
           "isCorrect": true,
-          "rationale": "Cụm từ này có nghĩa là làm việc gì đó sớm hơn một thời điểm nhất định, thường dùng trong việc đặt chỗ."
+          "rationale": "'Mechanic' là người được đào tạo để bảo trì hoặc sửa chữa các thiết bị kỹ thuật, máy móc."
+        },
+        {
+          "text": "Lập trình viên",
+          "isCorrect": false,
+          "rationale": "Lập trình viên (programmer) xử lý phần mềm, còn thợ máy xử lý phần cứng/cơ cấu máy móc."
+        },
+        {
+          "text": "Nhân viên bán hàng",
+          "isCorrect": false,
+          "rationale": "Nhân viên bán hàng (salesperson) không có nhiệm vụ sửa chữa thiết bị hỏng."
         }
       ],
-      "hint": "Nó đồng nghĩa với cụm từ 'ahead of time'."
+      "hint": "Người này chuyên làm việc với cờ-lê, tua-vít và các bộ phận chuyển động của máy."
     },
     {
-      "question": "Động từ \"Devise\" (số thứ tự 220) có nghĩa tương đương với từ nào?",
+      "question": "Đồng nghiệp hỏi: 'Have you made a 'reservation' /ˌrezər'veɪʃn/ for the meeting room?'. Từ 'reservation' nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Divide",
+          "text": "Sự bảo tồn thiên nhiên",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là phân chia, không liên quan đến việc sáng tạo kế hoạch."
+          "rationale": "Mặc dù 'preserve' có nghĩa là bảo tồn, nhưng trong ngữ cảnh văn phòng, 'reservation' luôn chỉ việc đặt chỗ."
         },
         {
-          "text": "Create",
+          "text": "Sự từ chức",
+          "isCorrect": false,
+          "rationale": "Từ chức là 'resignation', có cách viết khá giống nên dễ gây nhầm lẫn."
+        },
+        {
+          "text": "Sự chuẩn bị",
+          "isCorrect": false,
+          "rationale": "Sự chuẩn bị là 'preparation', là một khái niệm rộng hơn việc chỉ giữ chỗ."
+        },
+        {
+          "text": "Sự đặt chỗ trước",
           "isCorrect": true,
-          "rationale": "Devise có nghĩa là nghĩ ra hoặc sáng chế ra một kế hoạch, hệ thống hoặc công cụ mới."
+          "rationale": "Trong môi trường công sở hoặc dịch vụ, 'reservation' là hành động giữ chỗ trước để sử dụng sau."
+        }
+      ],
+      "hint": "Hành động này đảm bảo bạn sẽ có chỗ khi đến nơi."
+    },
+    {
+      "question": "Hạn chót ban đầu là thứ Sáu, nhưng chúng tôi đã nhận được một tuần 'extension' /ɪk'stenʃn/. Từ 'extension' nghĩa là?",
+      "answerOptions": [
+        {
+          "text": "Sự hủy bỏ",
+          "isCorrect": false,
+          "rationale": "Hủy bỏ là 'cancellation', hoàn toàn ngược lại với việc kéo dài thời gian."
         },
         {
-          "text": "Decide",
+          "text": "Sự thăng tiến",
           "isCorrect": false,
-          "rationale": "Quyết định là bước sau khi đã nghĩ ra (devise) các phương án."
+          "rationale": "Thăng tiến là 'promotion', không liên quan đến việc thay đổi thời hạn công việc."
+        },
+        {
+          "text": "Số điện thoại nội bộ",
+          "isCorrect": false,
+          "rationale": "Dù trong văn phòng 'extension' cũng có nghĩa là số máy lẻ, nhưng ngữ cảnh 'deadline' thì nó mang nghĩa gia hạn."
+        },
+        {
+          "text": "Sự gia hạn, kéo dài thêm",
+          "isCorrect": true,
+          "rationale": "'Extension' ám chỉ việc tăng thêm thời gian cho một thời hạn đã định sẵn."
+        }
+      ],
+      "hint": "Khi bạn cần thêm thời gian để hoàn thành dự án, bạn xin điều này."
+    },
+    {
+      "question": "Để ứng tuyển vào vị trí này, bạn cần nộp một bản 'application' /ˌæplɪ'keɪʃn/. Từ này đồng nghĩa với?",
+      "answerOptions": [
+        {
+          "text": "Appliance",
+          "isCorrect": false,
+          "rationale": "Đây là danh từ chỉ thiết bị gia dụng, dễ nhầm lẫn do gốc từ 'apply' nhưng nghĩa khác xa."
+        },
+        {
+          "text": "Request",
+          "isCorrect": true,
+          "rationale": "Trong nhiều ngữ cảnh, 'application' là một hình thức 'request' (yêu cầu/đơn xin) chính thức để đạt được điều gì đó."
+        },
+        {
+          "text": "Implication",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là 'sự ẩn ý' hoặc 'hệ quả', không liên quan đến đơn từ."
+        },
+        {
+          "text": "Instruction",
+          "isCorrect": false,
+          "rationale": "Đây là 'sự hướng dẫn', thường là thứ bạn đọc để điền đơn chứ không phải bản thân cái đơn đó."
+        }
+      ],
+      "hint": "Nó là một loại giấy tờ bạn dùng để thể hiện mong muốn được nhận một công việc hoặc dịch vụ."
+    },
+    {
+      "question": "Văn phòng yêu cầu bạn xuất trình 'parking 'permit' /'pɜ:rmɪt/'. Danh từ 'permit' đồng nghĩa với?",
+      "answerOptions": [
+        {
+          "text": "Purpose",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là 'mục đích', không phải là một loại giấy chứng nhận."
+        },
+        {
+          "text": "License",
+          "isCorrect": true,
+          "rationale": "Cả 'permit' và 'license' đều là những giấy tờ chính thức cho phép ai đó làm một việc cụ thể."
+        },
+        {
+          "text": "Penalty",
+          "isCorrect": false,
+          "rationale": "Đây là 'hình phạt', thường xảy ra khi bạn làm việc gì đó mà KHÔNG có 'permit'."
+        },
+        {
+          "text": "Promotion",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là quảng bá hoặc thăng chức, không mang tính chất cho phép pháp lý."
+        }
+      ],
+      "hint": "Đây là vật chứng minh bạn có quyền hợp pháp để làm điều gì đó (như đậu xe)."
+    },
+    {
+      "question": "Công ty chuẩn bị 'release' /rɪ'li:s/ một dòng sản phẩm điện tử mới. Động từ 'release' đồng nghĩa với từ nào?",
+      "answerOptions": [
+        {
+          "text": "Relax",
+          "isCorrect": false,
+          "rationale": "Đây là trạng thái 'thư giãn', không phải là một hành động kinh doanh sản phẩm."
+        },
+        {
+          "text": "Recall",
+          "isCorrect": false,
+          "rationale": "Đây là hành động 'thu hồi' sản phẩm lỗi, ngược lại với việc tung ra sản phẩm mới."
+        },
+        {
+          "text": "Relocate",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là 'di dời' văn phòng hoặc địa điểm, không liên quan đến phát hành sản phẩm."
+        },
+        {
+          "text": "Launch",
+          "isCorrect": true,
+          "rationale": "Cả 'release' và 'launch' đều diễn tả việc đưa một sản phẩm mới ra thị trường lần đầu tiên."
+        }
+      ],
+      "hint": "Tìm từ chỉ việc giới thiệu hoặc công bố một thứ gì đó ra công chúng."
+    },
+    {
+      "question": "Chúng ta nên 'invest' /ɪn'vest/ in new technologies. Động từ 'invest' thường đi với giới từ nào và có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "On / Trì hoãn",
+          "isCorrect": false,
+          "rationale": "Giới từ 'on' không đi với 'invest' để mang nghĩa đầu tư, và 'invest' không có nghĩa là trì hoãn."
+        },
+        {
+          "text": "With / Cung cấp",
+          "isCorrect": false,
+          "rationale": "Mặc dù có cụm 'invest someone with something' nhưng nó rất hiếm và không mang nghĩa kinh doanh thông thường."
+        },
+        {
+          "text": "In / Đầu tư",
+          "isCorrect": true,
+          "rationale": "Cấu trúc chuẩn là 'invest in something', nghĩa là bỏ tiền hoặc công sức vào việc gì để có lợi nhuận."
+        },
+        {
+          "text": "At / Kiểm tra",
+          "isCorrect": false,
+          "rationale": "Sự kết hợp này sai ngữ pháp và sai nghĩa hoàn toàn."
+        }
+      ],
+      "hint": "Nó đi kèm giới từ chỉ việc đặt cái gì đó 'vào bên trong' một lĩnh vực."
+    },
+    {
+      "question": "Cuối tuần này sẽ có một 'exhibition' /ˌeksɪ'bɪʃn/ nghệ thuật hiện đại. 'Exhibition' đồng nghĩa với?",
+      "answerOptions": [
+        {
+          "text": "Explanation",
+          "isCorrect": false,
+          "rationale": "Đây là 'sự giải thích', thiên về lời nói hơn là việc trưng bày hình ảnh/vật thể."
+        },
+        {
+          "text": "Expansion",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là 'sự mở rộng', dễ nhầm lẫn do có cùng tiền tố 'ex-'."
+        },
+        {
+          "text": "Display",
+          "isCorrect": true,
+          "rationale": "Triển lãm là một buổi trình bày hoặc trưng bày ('display') công khai các đồ vật, tác phẩm nghệ thuật."
+        },
+        {
+          "text": "Execution",
+          "isCorrect": false,
+          "rationale": "Đây là 'sự thực thi' hoặc 'thi hành', không mang nghĩa triển lãm."
+        }
+      ],
+      "hint": "Một sự kiện nơi mọi người đến để xem các sản phẩm hoặc tác phẩm được bày ra."
+    },
+    {
+      "question": "Mọi kế hoạch chi tiêu phải được giám đốc 'approve' /ə'pru:v/. 'Approve' có nghĩa là?",
+      "answerOptions": [
+        {
+          "text": "Từ chối thẳng thừng",
+          "isCorrect": false,
+          "rationale": "Từ chối là 'reject' hoặc 'refuse', trái ngược với 'approve'."
+        },
+        {
+          "text": "Cải thiện",
+          "isCorrect": false,
+          "rationale": "Cải thiện là 'improve', dễ nhầm lẫn về mặt phát âm nhưng khác nghĩa."
+        },
+        {
+          "text": "Phê duyệt, chấp thuận",
+          "isCorrect": true,
+          "rationale": "Khi ai đó 'approve' một yêu cầu, họ chính thức đồng ý cho phép nó được thực hiện."
+        },
+        {
+          "text": "Đề xuất",
+          "isCorrect": false,
+          "rationale": "Đề xuất là 'propose' hoặc 'suggest', là bước diễn ra trước khi được phê duyệt."
+        }
+      ],
+      "hint": "Đây là hành động của cấp trên khi đồng ý với một đề xuất của nhân viên."
+    },
+    {
+      "question": "Ban quản lý quyết định 'implement' /'ɪmplɪment/ a new policy. Động từ 'implement' đồng nghĩa với?",
+      "answerOptions": [
+        {
+          "text": "Compliment",
+          "isCorrect": false,
+          "rationale": "Đây là 'lời khen ngợi', không liên quan đến việc thi hành quy định."
+        },
+        {
+          "text": "Write down",
+          "isCorrect": false,
+          "rationale": "Viết xuống mới chỉ là bước soạn thảo, chưa phải là thực hiện thực tế."
+        },
+        {
+          "text": "Postpone",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là 'trì hoãn', trái ngược với việc bắt đầu thực thi ngay."
+        },
+        {
+          "text": "Carry out",
+          "isCorrect": true,
+          "rationale": "Cả 'implement' và 'carry out' đều có nghĩa là thực hiện hoặc thi hành một kế hoạch, chính sách."
+        }
+      ],
+      "hint": "Tìm cụm từ chỉ việc bắt đầu đưa một kế hoạch vào hoạt động thực tế."
+    },
+    {
+      "question": "Cửa hàng của anh ấy 'specializes' /'speʃəlaɪz/ in handmade furniture. Cấu trúc 'specialize in' nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Giảm giá đặc biệt",
+          "isCorrect": false,
+          "rationale": "Dù có từ 'special', nhưng 'specialize' không liên quan đến việc giảm giá."
+        },
+        {
+          "text": "Tìm kiếm chuyên gia",
+          "isCorrect": false,
+          "rationale": "Động từ này mô tả bản thân chủ thể là chuyên gia, không phải đi tìm người khác."
+        },
+        {
+          "text": "Sản xuất mọi thứ",
+          "isCorrect": false,
+          "rationale": "Ngược lại với chuyên môn hóa, đây là sản xuất đa ngành (generalize)."
+        },
+        {
+          "text": "Chuyên về một lĩnh vực cụ thể",
+          "isCorrect": true,
+          "rationale": "Khi ai đó 'specialize in' cái gì, họ tập trung phần lớn nỗ lực và kiến thức vào mảng đó."
+        }
+      ],
+      "hint": "Từ này mô tả thế mạnh hoặc trọng tâm duy nhất của một cá nhân hay doanh nghiệp."
+    },
+    {
+      "question": "Vui lòng 'confirm' /kən'fɜ:rm/ your reservation by email. Động từ 'confirm' đồng nghĩa với từ nào?",
+      "answerOptions": [
+        {
+          "text": "Cancel",
+          "isCorrect": false,
+          "rationale": "Hủy bỏ là một hành động trái ngược với việc xác nhận để thực hiện."
+        },
+        {
+          "text": "Verify",
+          "isCorrect": true,
+          "rationale": "Cả 'confirm' và 'verify' đều mang nghĩa xác minh hoặc xác nhận tính chính xác của thông tin."
+        },
+        {
+          "text": "Change",
+          "isCorrect": false,
+          "rationale": "Xác nhận thường là để giữ nguyên thông tin, không phải để thay đổi nó."
+        },
+        {
+          "text": "Confront",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là 'đối mặt' hoặc 'đối đầu', không phù hợp trong giao dịch văn phòng."
+        }
+      ],
+      "hint": "Hành động này giúp đảm bảo rằng thông tin đã cung cấp là chắc chắn và chính xác."
+    },
+    {
+      "question": "Dự án này đòi hỏi 'a great deal of' /ə ɡreɪt diːl əv/ patience. Cụm từ này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Rất nhiều",
+          "isCorrect": true,
+          "rationale": "'A great deal of' là một cụm định từ dùng cho danh từ không đếm được, tương đương với 'much' hoặc 'a lot of'."
+        },
+        {
+          "text": "Một chút ít",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của 'a little bit', trái ngược với ý nghĩa số lượng lớn của cụm từ trên."
+        },
+        {
+          "text": "Một thỏa thuận tốt",
+          "isCorrect": false,
+          "rationale": "Dù 'deal' có nghĩa là thỏa thuận, nhưng trong cụm này nó chỉ đóng vai trò là lượng từ."
+        },
+        {
+          "text": "Không có gì",
+          "isCorrect": false,
+          "rationale": "Đây là phủ định hoàn toàn, không phản ánh đúng ý nghĩa định lượng."
+        }
+      ],
+      "hint": "Nó chỉ một lượng đáng kể hoặc rất lớn của một thứ gì đó không đếm được."
+    },
+    {
+      "question": "Các thông tin chi tiết về sản phẩm 'available 'upon request' /əˈpɒn rɪˈkwest/'. Cụm 'upon request' nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Yêu cầu từ trước",
+          "isCorrect": false,
+          "rationale": "Từ 'upon' nhấn mạnh tính thời điểm khi yêu cầu phát sinh, không nhất thiết là từ rất lâu trước đó."
+        },
+        {
+          "text": "Ngay lập tức",
+          "isCorrect": false,
+          "rationale": "Dù có thể nhanh, nhưng điều kiện tiên quyết là phải có lời hỏi (request)."
+        },
+        {
+          "text": "Khi được yêu cầu",
+          "isCorrect": true,
+          "rationale": "'Upon request' chỉ ra rằng sự việc sẽ xảy ra ngay sau khi có ai đó đưa ra lời yêu cầu chính thức."
+        },
+        {
+          "text": "Không cần yêu cầu",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược hoàn toàn với cấu trúc có điều kiện này."
+        }
+      ],
+      "hint": "Nó có nghĩa là nếu bạn hỏi xin, chúng tôi sẽ cung cấp."
+    },
+    {
+      "question": "Để giải quyết vấn đề, chúng tôi phải 'devise' /dɪˈvaɪz/ relevant strategies. Động từ 'devise' đồng nghĩa với từ nào?",
+      "answerOptions": [
+        {
+          "text": "Revise",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là 'xem xét lại' hoặc 'chỉnh sửa', không phải là tạo ra cái mới từ đầu."
+        },
+        {
+          "text": "Advice",
+          "isCorrect": false,
+          "rationale": "Đây là danh từ chỉ 'lời khuyên', không phải là động từ chỉ hành động tạo lập."
         },
         {
           "text": "Device",
           "isCorrect": false,
-          "rationale": "Đây là danh từ chỉ thiết bị, dễ bị nhầm lẫn về cách viết với động từ 'devise'."
+          "rationale": "Đây là danh từ chỉ thiết bị, thường bị nhầm lẫn với động từ 'devise' do cách viết tương tự."
+        },
+        {
+          "text": "Create",
+          "isCorrect": true,
+          "rationale": "'Devise' mang nghĩa là nghĩ ra hoặc sáng tạo ra một kế hoạch, hệ thống hoặc cách làm mới."
         }
       ],
-      "hint": "Hãy liên tưởng đến việc phát minh hoặc thiết lập một chiến lược mới."
+      "hint": "Hãy nghĩ đến việc dùng trí óc để phát minh hoặc thiết kế ra một giải pháp."
     },
     {
-      "question": "Từ \"Appliance\" (số thứ tự 229) dùng để chỉ loại vật dụng nào?",
+      "question": "Nâng cao 'output rate' /ˈaʊtpʊt reɪt/ là mục tiêu chính của nhà máy. Cụm từ này có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Động cơ xe hơi",
+          "text": "Giá bán sản phẩm",
           "isCorrect": false,
-          "rationale": "Động cơ xe hơi được gọi là 'engine'."
+          "rationale": "Giá bán liên quan đến 'price' hoặc 'cost', không phải tốc độ sản xuất."
         },
         {
-          "text": "Thiết bị, dụng cụ (thường là đồ điện gia dụng)",
+          "text": "Năng suất, tỷ lệ đầu ra",
           "isCorrect": true,
-          "rationale": "Appliance thường dùng để chỉ máy giặt, tủ lạnh, lò vi sóng và các thiết bị gia đình khác."
+          "rationale": "'Output rate' chỉ tốc độ hoặc khối lượng sản phẩm được tạo ra trong một khoảng thời gian nhất định."
         },
         {
-          "text": "Đơn xin việc",
+          "text": "Tỷ lệ phế phẩm",
           "isCorrect": false,
-          "rationale": "Đơn xin việc là 'application'."
+          "rationale": "Mặc dù có liên quan đến nhà máy, nhưng 'output' nhấn mạnh vào những gì làm ra được thành phẩm."
         },
         {
-          "text": "Hàng gia dụng bằng vải",
+          "text": "Tỷ lệ thất nghiệp",
           "isCorrect": false,
-          "rationale": "Các vật dụng bằng vải thường được gọi là 'textile' hoặc 'fabric'."
+          "rationale": "Tỷ lệ thất nghiệp là 'unemployment rate', không liên quan đến sản xuất."
         }
       ],
-      "hint": "Từ này thường xuất hiện trong cụm 'household ...' hoặc 'home ...'."
+      "hint": "Nó đo lường xem nhà máy làm ra được bao nhiêu sản phẩm trong một giờ hoặc một ngày."
     },
     {
-      "question": "Cụm từ \"Peak season\" (số thứ tự 228) được dùng để mô tả thời điểm nào trong năm?",
+      "question": "Tôi viết thư này 'regarding' /rɪˈɡɑːrdɪŋ/ the job application. Giới từ 'regarding' đồng nghĩa với?",
       "answerOptions": [
         {
-          "text": "Mùa cao điểm, đông khách nhất",
+          "text": "Concerning",
           "isCorrect": true,
-          "rationale": "Peak có nghĩa là đỉnh điểm, dùng để chỉ giai đoạn nhu cầu dịch vụ cao nhất."
+          "rationale": "Cả 'regarding' và 'concerning' đều được dùng để giới thiệu chủ đề hoặc vấn đề đang được nói đến (về việc gì)."
         },
         {
-          "text": "Thời điểm giao mùa",
+          "text": "Regardless",
           "isCorrect": false,
-          "rationale": "Giao mùa không phải là nghĩa của từ này trong kinh doanh dịch vụ."
+          "rationale": "Từ này nghĩa là 'bất chấp', thường đi với 'of', mang ý nghĩa hoàn toàn khác."
         },
         {
-          "text": "Mùa thu hoạch nông sản",
+          "text": "According",
           "isCorrect": false,
-          "rationale": "Mùa thu hoạch được gọi là 'harvest season'."
+          "rationale": "Phải đi với 'to' ('according to') mới có nghĩa là 'theo như', không đồng nghĩa trực tiếp với 'regarding'."
         },
         {
-          "text": "Mùa thấp điểm, ít khách",
+          "text": "Reading",
           "isCorrect": false,
-          "rationale": "Đây là nghĩa của 'low season' hoặc 'off-peak season'."
+          "rationale": "Đây chỉ là một từ trông có vẻ giống về mặt ký tự nhưng nghĩa là 'việc đọc'."
         }
       ],
-      "hint": "Hãy nghĩ về đỉnh của một ngọn núi để suy luận nghĩa của từ 'peak'."
+      "hint": "Tìm một từ thường dùng để thay thế cho 'about' trong văn phong trang trọng."
+    },
+    {
+      "question": "Chúng tôi đề nghị bạn đặt chỗ 'in advance' /ɪn ədˈvæns/. Cụm từ này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Sau khi kết thúc",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược hoàn toàn, thường dùng là 'afterward'."
+        },
+        {
+          "text": "Tiến bộ, hiện đại",
+          "isCorrect": false,
+          "rationale": "Dù 'advanced' nghĩa là hiện đại, nhưng 'in advance' là cụm từ chỉ thời gian."
+        },
+        {
+          "text": "May mắn thay",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của 'fortunately', không liên quan đến thời điểm hành động."
+        },
+        {
+          "text": "Trước, sớm hơn",
+          "isCorrect": true,
+          "rationale": "'In advance' chỉ một hành động được thực hiện trước một thời điểm hoặc sự kiện cụ thể."
+        }
+      ],
+      "hint": "Hành động này được thực hiện trước khi sự kiện thực sự bắt đầu."
+    },
+    {
+      "question": "Chương trình giảm giá này chỉ dành cho 'those who' /ðəʊz huː/ have a membership card. Cụm 'those who' có nghĩa là?",
+      "answerOptions": [
+        {
+          "text": "Cái mà",
+          "isCorrect": false,
+          "rationale": "Đây dùng cho vật, trong khi 'who' bắt buộc phải dùng cho người."
+        },
+        {
+          "text": "Ai đó",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của 'someone', không mang tính chất xác định nhóm đối tượng như 'those who'."
+        },
+        {
+          "text": "Tại sao",
+          "isCorrect": false,
+          "rationale": "Đây là từ để hỏi lý do ('why'), không phải đại từ chỉ người."
+        },
+        {
+          "text": "Những người mà",
+          "isCorrect": true,
+          "rationale": "'Those who' là cấu trúc dùng để chỉ một nhóm người cụ thể được xác định bởi mệnh đề quan hệ theo sau."
+        }
+      ],
+      "hint": "Nó dùng để bắt đầu một mô tả về một nhóm người nhất định."
+    },
+    {
+      "question": "Công ty cũ của tôi đã 'suffered' /ˈsʌfərd/ serious financial problems. Động từ 'suffer' trong ngữ cảnh này nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Giải quyết triệt để",
+          "isCorrect": false,
+          "rationale": "Giải quyết là 'solve' hoặc 'address', không phải là chịu đựng vấn đề."
+        },
+        {
+          "text": "Trải qua, chịu đựng (điều tồi tệ)",
+          "isCorrect": true,
+          "rationale": "Trong kinh doanh, 'suffer' thường dùng để chỉ việc phải gánh chịu những tổn thất hoặc vấn đề tiêu cực."
+        },
+        {
+          "text": "Thành công rực rỡ",
+          "isCorrect": false,
+          "rationale": "Như đã nói, 'suffer' luôn gắn liền với những trải nghiệm không mong muốn hoặc khó khăn."
+        },
+        {
+          "text": "Cung cấp giải pháp",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của 'provide solutions', ngược lại với việc đang gặp rắc rối."
+        }
+      ],
+      "hint": "Hãy nghĩ đến cảm giác khi phải đối mặt với một khó khăn hoặc tổn thất lớn."
+    },
+    {
+      "question": "Quản lý nhắc nhở: 'The data must be 'compiled' /kəmˈpaɪld/ before the report'. Động từ 'compile' đồng nghĩa với?",
+      "answerOptions": [
+        {
+          "text": "Compare",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là 'so sánh', là một bước khác sau khi dữ liệu đã được thu thập xong."
+        },
+        {
+          "text": "Delete",
+          "isCorrect": false,
+          "rationale": "Xóa bỏ là hành động ngược lại với việc thu thập và lưu trữ thông tin."
+        },
+        {
+          "text": "Complain",
+          "isCorrect": false,
+          "rationale": "Từ này nghĩa là 'phàn nàn', dễ nhầm lẫn do có phần đầu phát âm giống nhau."
+        },
+        {
+          "text": "Gather",
+          "isCorrect": true,
+          "rationale": "'Compile' có nghĩa là thu thập và sắp xếp các thông tin từ nhiều nguồn khác nhau để tạo thành một tập tài liệu."
+        }
+      ],
+      "hint": "Hành động này gom các mảnh thông tin rời rạc lại thành một bộ dữ liệu hoàn chỉnh."
     }
   ]
 }

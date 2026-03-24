@@ -2,264 +2,1044 @@
   "title": "Từ vựng Trắc nghiệm Lesson 8",
   "questions": [
     {
-      "question": "Trong bối cảnh công sở, khi một nhân viên thể hiện 'a positive attitude toward the project', từ 'attitude' có nghĩa là gì?",
+      "question": "Khi bạn đến làm việc tại một tòa nhà mới, nhân viên bảo vệ yêu cầu bạn xuất trình 'identification card' /aɪˌden.tɪ.fɪˈkeɪ.ʃən kɑːd/. Trong tình huống này, bạn cần đưa ra thứ gì?",
       "answerOptions": [
         {
-          "text": "Trình độ",
+          "text": "Sổ tay hướng dẫn",
           "isCorrect": false,
-          "rationale": "Trình độ thường liên quan đến bằng cấp hoặc cấp độ chuyên môn, không phải là cách nhìn nhận vấn đề."
+          "rationale": "Sổ tay cung cấp thông tin hướng dẫn công việc, không dùng để chứng minh bạn là ai."
+        },
+        {
+          "text": "Thẻ nhận dạng (thẻ căn cước/thẻ nhân viên)",
+          "isCorrect": true,
+          "rationale": "Đây là vật dụng chứa thông tin cá nhân dùng để xác minh danh tính của một người khi ra vào các khu vực an ninh."
+        },
+        {
+          "text": "Danh thiếp cá nhân",
+          "isCorrect": false,
+          "rationale": "Danh thiếp thường dùng để trao đổi thông tin liên lạc chứ không có giá trị pháp lý để xác minh danh tính tại cổng bảo vệ."
+        },
+        {
+          "text": "Đơn xin việc",
+          "isCorrect": false,
+          "rationale": "Đây là tài liệu dùng trong quá trình tuyển dụng, không phải giấy tờ tùy thân thường trực."
+        }
+      ],
+      "hint": "Hãy nghĩ đến loại giấy tờ giúp bảo vệ xác định đúng tên và khuôn mặt của bạn."
+    },
+    {
+      "question": "Quản lý nhận xét rằng Lan có một 'habit' /ˈhæb.ɪt/ rất tốt là luôn kiểm tra email vào mỗi buổi sáng sớm. Từ này ám chỉ điều gì?",
+      "answerOptions": [
+        {
+          "text": "Kỹ năng chuyên môn",
+          "isCorrect": false,
+          "rationale": "Kỹ năng đòi hỏi đào tạo và thực hành kỹ thuật, còn đây là nếp sinh hoạt hàng ngày."
         },
         {
           "text": "Thói quen",
-          "isCorrect": false,
-          "rationale": "Thói quen (habit) là những hành động lặp đi lặp lại, trong khi 'attitude' là trạng thái tâm lý."
+          "isCorrect": true,
+          "rationale": "Từ này mô tả một hành động được lặp đi lặp lại thường xuyên và trở thành nếp sống hoặc cách làm việc tự nhiên."
         },
         {
-          "text": "Kỹ năng",
+          "text": "Nghĩa vụ bắt buộc",
           "isCorrect": false,
-          "rationale": "Kỹ năng thường dùng từ 'skill' hoặc 'proficiency', thiên về khả năng thực hiện công việc hơn là tâm thế."
+          "rationale": "Nghĩa vụ thường đến từ áp lực bên ngoài, trong khi đây là hành vi tự giác hình thành theo thời gian."
         },
+        {
+          "text": "Sở thích nhất thời",
+          "isCorrect": false,
+          "rationale": "Sở thích có thể thay đổi nhanh chóng, trong khi khái niệm này nhấn mạnh tính ổn định và lặp lại."
+        }
+      ],
+      "hint": "Hãy liên tưởng đến một hành động lặp đi lặp lại hàng ngày đến mức tự động."
+    },
+    {
+      "question": "Trong buổi phỏng vấn, nhà tuyển dụng đánh giá cao 'attitude' /ˈæt.ɪ.tjuːd/ tích cực của ứng viên đối với những thử thách mới. Bạn hiểu từ này là gì?",
+      "answerOptions": [
         {
           "text": "Thái độ",
           "isCorrect": true,
-          "rationale": "Từ này dùng để chỉ cách suy nghĩ, cảm nhận hoặc quan điểm của một người đối với một sự việc cụ thể."
-        }
-      ],
-      "hint": "Đây là danh từ chỉ tâm thế hoặc cách nhìn nhận của một người đối với công việc."
-    },
-    {
-      "question": "Từ nào sau đây là từ đồng nghĩa phổ biến nhất của 'vendor' trong bài thi TOEIC?",
-      "answerOptions": [
-        {
-          "text": "Customer",
-          "isCorrect": false,
-          "rationale": "Đây là từ trái nghĩa, chỉ người mua hàng thay vì người cung cấp hàng."
+          "rationale": "Đây là cách suy nghĩ hoặc cảm nhận của một người, biểu hiện ra ngoài qua hành vi và quan điểm sống."
         },
         {
-          "text": "Supplier",
+          "text": "Kinh nghiệm làm việc",
+          "isCorrect": false,
+          "rationale": "Kinh nghiệm là những gì đã làm trong quá khứ, còn từ này nói về cách tiếp nhận sự việc hiện tại."
+        },
+        {
+          "text": "Trình độ học vấn",
+          "isCorrect": false,
+          "rationale": "Học vấn thuộc về bằng cấp và kiến thức tích lũy, không phản ánh tâm thế ứng xử."
+        },
+        {
+          "text": "Ngoại hình",
+          "isCorrect": false,
+          "rationale": "Từ này tập trung vào thế giới nội tâm và cách biểu đạt tâm lý hơn là đặc điểm thể chất."
+        }
+      ],
+      "hint": "Hãy nghĩ về cách một người phản ứng và thể hiện sự nhiệt huyết với công việc."
+    },
+    {
+      "question": "Trước khi lắp đặt nội thất, kỹ thuật viên cần 'measure' /ˈmeʒ.ər/ diện tích của văn phòng một cách chính xác. Hành động này là gì?",
+      "answerOptions": [
+        {
+          "text": "Dọn dẹp",
+          "isCorrect": false,
+          "rationale": "Dọn dẹp là làm sạch không gian, không liên quan đến việc xác định các thông số kỹ thuật."
+        },
+        {
+          "text": "Đo lường",
           "isCorrect": true,
-          "rationale": "Cả hai từ đều dùng để chỉ cá nhân hoặc tổ chức cung cấp hàng hóa hoặc dịch vụ."
+          "rationale": "Đây là quá trình xác định kích thước, số lượng hoặc mức độ của một vật thể bằng các dụng cụ chuyên dụng."
         },
         {
-          "text": "Applicant",
+          "text": "Trang trí",
           "isCorrect": false,
-          "rationale": "Đây là người nộp đơn xin việc hoặc ứng viên, không liên quan đến việc cung cấp vật tư."
+          "rationale": "Trang trí là bước sau khi đã biết rõ kích thước, mục đích để làm đẹp không gian."
         },
         {
-          "text": "Shareholder",
+          "text": "Phân tích rủi ro",
           "isCorrect": false,
-          "rationale": "Đây là người sở hữu cổ phần của công ty, không trực tiếp đóng vai trò là bên bán hàng hóa."
+          "rationale": "Đây là hoạt động tư duy quản lý, không phải hành động vật lý xác định chiều dài hay diện tích."
         }
       ],
-      "hint": "Hãy tìm từ chỉ người hoặc công ty cung cấp hàng hóa cho doanh nghiệp khác."
+      "hint": "Hành động này thường sử dụng thước dây hoặc máy đo laser."
     },
     {
-      "question": "Khi hai công ty quyết định sáp nhập với nhau để cùng phát triển, quá trình này được gọi là gì?",
+      "question": "Ban lãnh đạo tin rằng việc tăng lương sẽ tạo 'motivation' /ˌməʊ.tɪˈveɪ.ʃən/ lớn cho nhân viên hoàn thành dự án sớm. Từ này có ý nghĩa gì?",
       "answerOptions": [
         {
-          "text": "Acquisition",
+          "text": "Sự mệt mỏi",
           "isCorrect": false,
-          "rationale": "Mặc dù liên quan, nhưng từ này cụ thể chỉ việc một công ty mua lại hoàn toàn một công ty khác."
+          "rationale": "Đây là trạng thái cạn kiệt năng lượng, không phải là sự hăng hái làm việc."
         },
         {
-          "text": "Merger",
+          "text": "Áp lực",
+          "isCorrect": false,
+          "rationale": "Áp lực thường gây căng thẳng và mệt mỏi, trái ngược với sự thúc đẩy tích cực từ bên trong."
+        },
+        {
+          "text": "Động lực",
           "isCorrect": true,
-          "rationale": "Đây là thuật ngữ kinh tế chỉ sự kết hợp giữa hai tổ chức thành một thực thể duy nhất."
+          "rationale": "Khái niệm này chỉ sự thúc đẩy, nhiệt huyết và lý do khiến một người muốn nỗ lực làm việc hơn."
         },
         {
-          "text": "Negotiation",
+          "text": "Kế hoạch",
           "isCorrect": false,
-          "rationale": "Đây là quá trình đàm phán, là bước chuẩn bị trước khi đi đến việc sáp nhập chính thức."
-        },
-        {
-          "text": "Collaboration",
-          "isCorrect": false,
-          "rationale": "Đây là sự hợp tác chung nhưng không nhất thiết dẫn đến việc hợp nhất về mặt pháp lý như 'merger'."
+          "rationale": "Kế hoạch là lộ trình thực hiện, còn từ này là 'xăng' để cỗ máy con người vận hành trên lộ trình đó."
         }
       ],
-      "hint": "Thuật ngữ này thường đi kèm với từ 'acquisition' trong cụm từ M&A."
+      "hint": "Đây là thứ giúp bạn cảm thấy hào hứng và muốn làm việc chăm chỉ hơn."
     },
     {
-      "question": "Từ 'prosperous' trong cụm từ 'a prosperous future for shareholders' có nghĩa là gì?",
+      "question": "Công ty đang có kế hoạch 'expand' /ɪkˈspænd/ thị trường sang các nước Đông Nam Á vào năm tới. Hành động này là gì?",
       "answerOptions": [
         {
-          "text": "Khó khăn",
+          "text": "Đóng cửa",
           "isCorrect": false,
-          "rationale": "Đây là trạng thái ngược lại với ý nghĩa tích cực và thành đạt của từ đang xét."
+          "rationale": "Đóng cửa là chấm dứt hoạt động, không phải là phát triển thêm các chi nhánh mới."
         },
         {
-          "text": "Tạm thời",
+          "text": "Nghiên cứu",
           "isCorrect": false,
-          "rationale": "Từ này thiên về thời gian ngắn hạn, không phản ánh sự thành công về kinh tế."
+          "rationale": "Nghiên cứu là bước chuẩn bị, còn từ này nhấn mạnh vào việc thực thi phát triển quy mô."
         },
         {
-          "text": "Thịnh vượng",
+          "text": "Mở rộng",
           "isCorrect": true,
-          "rationale": "Tính từ này mô tả trạng thái thành công, phát đạt và giàu có về mặt tài chính."
+          "rationale": "Từ này chỉ việc làm cho quy mô, phạm vi hoặc hoạt động của một tổ chức trở nên lớn hơn."
         },
         {
-          "text": "Ổn định",
+          "text": "Thu hẹp",
           "isCorrect": false,
-          "rationale": "Mặc dù ổn định là tốt, nhưng 'prosperous' mang hàm ý phát triển mạnh mẽ và giàu có hơn thế."
+          "rationale": "Đây là hành động ngược lại, làm cho quy mô nhỏ đi để cắt giảm chi phí."
         }
       ],
-      "hint": "Tính từ này đồng nghĩa với 'thriving' hoặc 'successful'."
+      "hint": "Hãy nghĩ đến việc tăng thêm số lượng cửa hàng hoặc chi nhánh của công ty."
     },
     {
-      "question": "Nếu bạn muốn đề nghị người khác 'thông báo' cho mình về bất kỳ sự thay đổi nào, bạn nên dùng động từ nào?",
+      "question": "Chúng ta cần tìm một 'vendor' /ˈven.dər/ mới để cung cấp văn phòng phẩm vì đối tác cũ đã tăng giá quá cao. Bạn hiểu 'vendor' là ai?",
       "answerOptions": [
         {
-          "text": "Notify",
+          "text": "Đối thủ cạnh tranh",
+          "isCorrect": false,
+          "rationale": "Đối thủ là bên tranh giành thị phần, không phải bên hợp tác cung cấp vật tư."
+        },
+        {
+          "text": "Khách hàng thân thiết",
+          "isCorrect": false,
+          "rationale": "Khách hàng là người mua, trong khi đối tượng này là bên cung ứng hàng hóa."
+        },
+        {
+          "text": "Nhà cung cấp / Người bán hàng",
           "isCorrect": true,
-          "rationale": "Động từ này có nghĩa là chính thức cho ai đó biết về một thông tin hoặc sự việc."
+          "rationale": "Đây là cá nhân hoặc tổ chức bán hàng hóa hoặc dịch vụ cho người tiêu dùng hoặc các doanh nghiệp khác."
         },
         {
-          "text": "Enforce",
+          "text": "Nhân viên thực tập",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là bắt thi hành luật lệ hoặc quy định, không mang nghĩa truyền đạt thông tin."
-        },
-        {
-          "text": "Certify",
-          "isCorrect": false,
-          "rationale": "Từ này có nghĩa là chứng nhận hoặc xác nhận bằng văn bản, không đơn thuần là thông báo tin tức."
-        },
-        {
-          "text": "Notify",
-          "isCorrect": false,
-          "rationale": "Đáp án này bị trùng lặp trong hệ thống xử lý (vui lòng chọn đáp án đúng duy nhất)."
+          "rationale": "Nhân viên thực tập là người học việc trong công ty, không phải đối tác thương mại bên ngoài."
         }
       ],
-      "hint": "Từ này đồng nghĩa với 'inform' hoặc 'advise'."
+      "hint": "Hãy nghĩ về một công ty chuyên giao giấy, bút hoặc máy in đến văn phòng của bạn."
     },
     {
-      "question": "Trong cụm từ 'subject to local regulations', từ 'subject to' mang ý nghĩa gì?",
+      "question": "Sự 'merger' /ˈmɜː.dʒər/ giữa hai tập đoàn lớn đã tạo ra một đơn vị mới dẫn đầu ngành công nghệ. Sự kiện này là gì?",
       "answerOptions": [
+        {
+          "text": "Sự phá sản",
+          "isCorrect": false,
+          "rationale": "Phá sản là khi công ty không còn khả năng trả nợ và phải dừng hoạt động, hoàn toàn khác với việc kết hợp sức mạnh."
+        },
+        {
+          "text": "Sự chia tách",
+          "isCorrect": false,
+          "rationale": "Chia tách là một công ty lớn tách thành các công ty nhỏ, trái ngược với khái niệm kết hợp này."
+        },
+        {
+          "text": "Cuộc đình công",
+          "isCorrect": false,
+          "rationale": "Đình công là hoạt động ngừng việc của nhân viên để phản đối, không phải là hoạt động tái cấu trúc doanh nghiệp."
+        },
+        {
+          "text": "Sự sáp nhập",
+          "isCorrect": true,
+          "rationale": "Đây là quá trình kết hợp hai hoặc nhiều công ty lại thành một thực thể duy nhất."
+        }
+      ],
+      "hint": "Hai công ty A và B 'bắt tay' để trở thành một công ty C lớn hơn."
+    },
+    {
+      "question": "Mọi người đều chúc mừng dự án đã đạt được 'success' /səkˈses/ ngoài mong đợi. Bạn hiểu từ này là gì?",
+      "answerOptions": [
+        {
+          "text": "Sự trì hoãn",
+          "isCorrect": false,
+          "rationale": "Trì hoãn là chậm trễ trong tiến độ, không phải là kết quả tốt đẹp của công việc."
+        },
+        {
+          "text": "Thất bại",
+          "isCorrect": false,
+          "rationale": "Thất bại là khi không đạt được kết quả như ý, thường gây ra sự buồn bã thay vì lời chúc mừng."
+        },
+        {
+          "text": "Sự khởi đầu",
+          "isCorrect": false,
+          "rationale": "Sự khởi đầu chỉ là bước đầu tiên, chưa nói lên kết quả cuối cùng đạt được."
+        },
+        {
+          "text": "Thành công",
+          "isCorrect": true,
+          "rationale": "Từ này chỉ việc đạt được mục tiêu đề ra hoặc có được kết quả tốt đẹp trong công việc."
+        }
+      ],
+      "hint": "Hãy liên tưởng đến việc hoàn thành xuất sắc một nhiệm vụ khó khăn."
+    },
+    {
+      "question": "Mục tiêu hàng đầu của bộ phận chăm sóc khách hàng là 'satisfy' /ˈsæt.ɪs.faɪ/ mọi khiếu nại của người dùng. Hành động này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Tranh cãi",
+          "isCorrect": false,
+          "rationale": "Tranh cãi thường gây ra sự bực bội, không phải là cách để mang lại sự an tâm cho người dùng."
+        },
+        {
+          "text": "Làm hài lòng / Đáp ứng",
+          "isCorrect": true,
+          "rationale": "Hành động này nhằm mục đích đáp ứng nhu cầu hoặc mong đợi của ai đó khiến họ cảm thấy vừa lòng."
+        },
+        {
+          "text": "Gây khó dễ",
+          "isCorrect": false,
+          "rationale": "Đây là hành động làm phức tạp thêm vấn đề, trái ngược với mục tiêu phục vụ khách hàng."
+        },
         {
           "text": "Bỏ qua",
           "isCorrect": false,
-          "rationale": "Đây là nghĩa trái ngược hoàn toàn vì 'subject to' đòi hỏi sự chú trọng và áp dụng quy định."
-        },
-        {
-          "text": "Liên quan đến",
-          "isCorrect": false,
-          "rationale": "Mặc dù có liên quan, nhưng nghĩa chính xác của cấu trúc này mạnh hơn, mang tính bắt buộc tuân thủ."
-        },
-        {
-          "text": "Phải tuân theo",
-          "isCorrect": true,
-          "rationale": "Cấu trúc này dùng để chỉ một sự việc phụ thuộc vào hoặc phải thực hiện theo một quy định nào đó."
-        },
-        {
-          "text": "Thay đổi",
-          "isCorrect": false,
-          "rationale": "Cấu trúc này không có nghĩa là biến đổi mà là sự lệ thuộc vào các điều kiện có sẵn."
+          "rationale": "Bỏ qua khiếu nại sẽ dẫn đến sự phàn nàn và mất uy tín, không giúp giải quyết vấn đề."
         }
       ],
-      "hint": "Cụm từ này cho biết một hành động bị ràng buộc bởi các quy tắc địa phương."
+      "hint": "Khi bạn giải quyết tốt vấn đề của khách hàng, họ sẽ cảm thấy thế nào?"
     },
     {
-      "question": "Khi một chính sách hoặc luật lệ mới được đưa vào áp dụng thực tế, người ta dùng động từ nào?",
+      "question": "Giám đốc nói: 'Tôi 'certain' /ˈsɜː.tən/ rằng chúng ta sẽ ký được hợp đồng này vào tuần tới'. Trạng thái tâm lý của ông ấy là gì?",
       "answerOptions": [
         {
-          "text": "Enforce",
+          "text": "Chắc chắn",
           "isCorrect": true,
-          "rationale": "Đây là động từ dùng để chỉ việc bắt buộc mọi người phải tuân thủ một luật lệ hoặc quy định cụ thể."
+          "rationale": "Từ này diễn tả sự tin tưởng tuyệt đối, không có chút nghi ngờ nào về một sự việc sẽ xảy ra."
         },
         {
-          "text": "Measure",
+          "text": "Lo lắng",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là đo lường hoặc đánh giá kích thước, số lượng của một vật."
+          "rationale": "Lo lắng là tâm trạng bất an, khác với sự tự tin khẳng định của từ này."
         },
         {
-          "text": "Motivate",
+          "text": "Nghi ngờ",
           "isCorrect": false,
-          "rationale": "Đây là hành động tạo động lực cho ai đó, không mang tính cưỡng chế của pháp luật."
+          "rationale": "Nghi ngờ là chưa tin tưởng, mang tính chất 50/50, không phải là khẳng định chắc nịch."
         },
         {
-          "text": "Master",
+          "text": "Thất vọng",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là học tập để trở nên thành thạo một kỹ năng, không phải áp dụng luật pháp."
+          "rationale": "Thất vọng chỉ xảy ra sau khi kết quả không tốt, còn đây là dự đoán đầy tin tưởng cho tương lai."
         }
       ],
-      "hint": "Động từ này đồng nghĩa với 'implement' hoặc 'apply' trong bối cảnh luật lệ."
+      "hint": "Hãy nghĩ đến việc bạn biết rõ điều gì đó là đúng 100%."
     },
     {
-      "question": "Danh từ nào dùng để chỉ bảng câu hỏi khảo sát ý kiến khách hàng?",
+      "question": "Công ty sẽ tổ chức một 'corporate' /ˈkɔː.pər.ət/ event để kỷ niệm 10 năm thành lập. Tính từ này bổ nghĩa cho 'event' như thế nào?",
       "answerOptions": [
         {
-          "text": "Grant application",
+          "text": "Mang tính cá nhân",
           "isCorrect": false,
-          "rationale": "Đây là đơn xin cấp kinh phí hoặc tài trợ, không phải là công cụ khảo sát ý kiến."
+          "rationale": "Các sự kiện cá nhân như sinh nhật riêng không sử dụng thuật ngữ chuyên môn về kinh tế này."
         },
         {
-          "text": "Operating hours",
+          "text": "Thuộc về chính phủ",
           "isCorrect": false,
-          "rationale": "Đây là cụm từ chỉ thời gian làm việc của một cơ sở kinh doanh."
+          "rationale": "Từ này chỉ áp dụng cho khối tư nhân và doanh nghiệp, không dành cho cơ quan nhà nước."
         },
         {
-          "text": "Questionnaire",
+          "text": "Thuộc về doanh nghiệp / công ty",
           "isCorrect": true,
-          "rationale": "Đây là một tập hợp các câu hỏi dùng để thu thập dữ liệu nghiên cứu hoặc ý kiến từ người tham gia."
+          "rationale": "Tính từ này liên quan đến các tổ chức kinh doanh lớn hoặc các hoạt động chính thức của công ty."
         },
         {
-          "text": "Requirement",
+          "text": "Mang tính tự phát",
           "isCorrect": false,
-          "rationale": "Từ này có nghĩa là yêu cầu hoặc điều kiện cần thiết, không phải là một dạng văn bản khảo sát."
+          "rationale": "Các sự kiện thuộc về tổ chức lớn thường có quy trình và kế hoạch bài bản, không phải tự phát."
         }
       ],
-      "hint": "Từ này bắt đầu bằng từ 'Question' (câu hỏi)."
+      "hint": "Từ này thường đi kèm với văn hóa, bản sắc hoặc sự kiện của một tổ chức kinh doanh."
     },
     {
-      "question": "Hoạt động 'mở rộng' quy mô kinh doanh vào các thị trường mới được gọi là gì?",
+      "question": "Để làm việc tại chi nhánh London, bạn cần phải nói tiếng Anh 'fluently' /ˈfluː.ənt.li/. Trạng từ này yêu cầu khả năng ngôn ngữ ra sao?",
       "answerOptions": [
         {
-          "text": "Notify",
+          "text": "Chỉ biết từ vựng cơ bản",
           "isCorrect": false,
-          "rationale": "Đây là việc thông báo, không phản ánh sự thay đổi về kích cỡ doanh nghiệp."
+          "rationale": "Biết từ cơ bản chưa đủ để đạt đến trình độ diễn đạt tự nhiên và linh hoạt trong công việc."
         },
         {
-          "text": "Measure",
+          "text": "Một cách chậm chạp",
           "isCorrect": false,
-          "rationale": "Đây là việc đo đạc, không liên quan đến sự tăng trưởng về quy mô."
+          "rationale": "Nói chậm thường đi kèm với việc ngắc ngứ, trái ngược với yêu cầu diễn đạt mạch lạc này."
         },
         {
-          "text": "Expand",
+          "text": "Phát âm không rõ lời",
+          "isCorrect": false,
+          "rationale": "Sự rõ ràng là một phần của khả năng diễn đạt tốt, nói không rõ lời sẽ cản trở giao tiếp."
+        },
+        {
+          "text": "Một cách trôi chảy",
           "isCorrect": true,
-          "rationale": "Động từ này có nghĩa là tăng trưởng về kích thước, phạm vi hoặc mức độ quan trọng."
-        },
-        {
-          "text": "Expand",
-          "isCorrect": false,
-          "rationale": "Dữ liệu bị trùng, vui lòng chọn phương án 'Expand' đầu tiên nếu có."
+          "rationale": "Đây là khả năng sử dụng ngôn ngữ một cách tự nhiên, nhanh chóng và không gặp khó khăn trong việc diễn đạt."
         }
       ],
-      "hint": "Từ này đồng nghĩa với 'grow' hoặc 'enlarge'."
+      "hint": "Hãy nghĩ đến việc nói một ngôn ngữ tự nhiên như tiếng mẹ đẻ."
     },
     {
-      "question": "Để tham gia vào một hội thảo (seminar), mỗi cá nhân tham dự được gọi bằng danh từ gì?",
+      "question": "Bạn cần phải 'master' /ˈmɑː.stər/ phần mềm quản lý kho mới này trước khi bắt đầu công việc chính thức. Hành động này là gì?",
       "answerOptions": [
         {
-          "text": "Shareholder",
+          "text": "Xóa bỏ phần mềm",
           "isCorrect": false,
-          "rationale": "Người này sở hữu cổ phần công ty, có thể không trực tiếp tham gia hội thảo."
+          "rationale": "Đây là hành động loại bỏ công cụ, hoàn toàn không liên quan đến việc rèn luyện kỹ năng."
         },
         {
-          "text": "Vendor",
+          "text": "Chỉ biết sơ qua",
           "isCorrect": false,
-          "rationale": "Đây là người bán hàng, họ có thể có mặt nhưng danh xưng chung cho mọi người tham dự là 'participant'."
+          "rationale": "Biết sơ qua chỉ là mức độ bắt đầu, chưa đủ để vận hành hệ thống một cách độc lập và hiệu quả."
         },
         {
-          "text": "Participant",
+          "text": "Làm chủ / Thành thạo",
           "isCorrect": true,
-          "rationale": "Từ này chỉ một người tham gia vào một sự kiện, hoạt động hoặc nghiên cứu cụ thể."
+          "rationale": "Đây là việc học hoặc rèn luyện để đạt đến mức độ hiểu biết sâu sắc và sử dụng kỹ năng một cách xuất sắc."
         },
         {
-          "text": "Applicant",
+          "text": "Mua bản quyền",
           "isCorrect": false,
-          "rationale": "Đây là người nộp đơn xin việc, không phải là danh xưng cho người đang dự hội thảo."
+          "rationale": "Mua bản quyền là giao dịch tài chính, còn từ này nhấn mạnh vào quá trình học tập và rèn luyện."
         }
       ],
-      "hint": "Danh từ này xuất phát từ động từ 'participate'."
+      "hint": "Hãy nghĩ đến việc trở thành một chuyên gia trong một lĩnh vực nào đó."
+    },
+    {
+      "question": "Chúng ta nên áp dụng một 'method' /ˈmeθ.əd/ làm việc mới để giảm bớt thời gian xử lý hồ sơ. Từ này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Kết quả cuối cùng",
+          "isCorrect": false,
+          "rationale": "Phương pháp là con đường dẫn đến kết quả, không phải bản thân cái đích đó."
+        },
+        {
+          "text": "Phương pháp / Cách thức",
+          "isCorrect": true,
+          "rationale": "Đây là một quy trình hoặc cách thức cụ thể được lên kế hoạch để thực hiện một công việc nào đó."
+        },
+        {
+          "text": "Thiết bị phần cứng",
+          "isCorrect": false,
+          "rationale": "Mặc dù thiết bị có thể hỗ trợ, nhưng từ này nói về trình tự các bước thực hiện hơn là máy móc."
+        },
+        {
+          "text": "Sự rủi ro",
+          "isCorrect": false,
+          "rationale": "Rủi ro là yếu tố không mong muốn, trong khi từ này thường ám chỉ một cách làm có hệ thống."
+        }
+      ],
+      "hint": "Hãy liên tưởng đến 'công thức' hoặc 'quy trình' thực hiện nhiệm vụ."
+    },
+    {
+      "question": "Trường đại học vừa nhận được một khoản 'grant' /ɡrɑːnt/ từ chính phủ để nghiên cứu về năng lượng sạch. Khoản này là gì?",
+      "answerOptions": [
+        {
+          "text": "Khoản trợ cấp / Tài trợ",
+          "isCorrect": true,
+          "rationale": "Đây là số tiền được một tổ chức hoặc chính phủ cấp cho một mục đích cụ thể (như nghiên cứu hoặc từ thiện) mà không cần hoàn trả."
+        },
+        {
+          "text": "Tiền phạt vi phạm",
+          "isCorrect": false,
+          "rationale": "Tiền phạt là hình phạt tài chính, trái ngược với sự hỗ trợ tài chính để phát triển nghiên cứu."
+        },
+        {
+          "text": "Khoản nợ ngân hàng",
+          "isCorrect": false,
+          "rationale": "Khoản nợ yêu cầu phải trả lại kèm lãi suất, khác với bản chất của khoản tài trợ này."
+        },
+        {
+          "text": "Doanh thu bán hàng",
+          "isCorrect": false,
+          "rationale": "Doanh thu đến từ việc trao đổi hàng hóa, trong khi khoản này là sự cấp vốn cho các mục tiêu phi lợi nhuận hoặc khoa học."
+        }
+      ],
+      "hint": "Đây là số tiền được cấp cho các dự án cộng đồng hoặc khoa học mà không phải trả lại."
+    },
+    {
+      "question": "Mọi 'shareholder' /ˈʃeəˌhəʊl.dər/ đều được mời tham dự cuộc họp để bỏ phiếu cho kế hoạch kinh doanh mới. Họ là ai trong công ty?",
+      "answerOptions": [
+        {
+          "text": "Cổ đông",
+          "isCorrect": true,
+          "rationale": "Họ là những người sở hữu ít nhất một cổ phần trong công ty, do đó có quyền lợi và tiếng nói trong các quyết định lớn."
+        },
+        {
+          "text": "Nhân viên bảo vệ",
+          "isCorrect": false,
+          "rationale": "Trừ khi họ có mua cổ phiếu công ty, chức danh nghề nghiệp này không mặc định có quyền bỏ phiếu quản trị."
+        },
+        {
+          "text": "Khách hàng mua lẻ",
+          "isCorrect": false,
+          "rationale": "Khách hàng mua sản phẩm không đồng nghĩa với việc sở hữu một phần tài sản và quyền quản trị công ty."
+        },
+        {
+          "text": "Đối thủ cạnh tranh",
+          "isCorrect": false,
+          "rationale": "Đối thủ không được phép tham gia vào các cuộc họp nội bộ và quyết định vận mệnh của công ty."
+        }
+      ],
+      "hint": "Họ là những người đầu tư tiền vào công ty và sở hữu các cổ phiếu."
+    },
+    {
+      "question": "Bộ phận nhân sự cần 'notify' /ˈnəʊ.tɪ.faɪ/ tất cả nhân viên về việc thay đổi giờ làm việc từ thứ Hai tới. Hành động này là gì?",
+      "answerOptions": [
+        {
+          "text": "Thông báo / Cho hay",
+          "isCorrect": true,
+          "rationale": "Đây là việc gửi thông tin chính thức đến ai đó để họ biết về một sự việc hoặc quyết định."
+        },
+        {
+          "text": "Tranh luận về kế hoạch",
+          "isCorrect": false,
+          "rationale": "Thông báo thường diễn ra sau khi kế hoạch đã được chốt, không còn ở giai đoạn tranh luận."
+        },
+        {
+          "text": "Giấu kín thông tin",
+          "isCorrect": false,
+          "rationale": "Hành động này trái ngược với mục tiêu truyền đạt thông tin rộng rãi trong nội bộ."
+        },
+        {
+          "text": "Hủy bỏ quyết định",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ hành động truyền tin, bản thân nó không có nghĩa là chấm dứt một quy định."
+        }
+      ],
+      "hint": "Khi bạn có tin mới và muốn mọi người cùng biết, bạn sẽ làm gì?"
+    },
+    {
+      "question": "Có một sự 'concern' /kənˈsɜːn/ ngày càng tăng về vấn đề bảo mật dữ liệu khách hàng. Từ này diễn tả điều gì?",
+      "answerOptions": [
+        {
+          "text": "Lợi nhuận kinh doanh",
+          "isCorrect": false,
+          "rationale": "Mặc dù quan trọng, nhưng lợi nhuận là chỉ số tài chính, không phải là trạng thái bận tâm lo lắng về rủi ro."
+        },
+        {
+          "text": "Thông tin quảng cáo",
+          "isCorrect": false,
+          "rationale": "Quảng cáo mang tính tích cực để thu hút, trong khi từ này thường đi kèm với những thách thức cần đối mặt."
+        },
+        {
+          "text": "Sự hài lòng tuyệt đối",
+          "isCorrect": false,
+          "rationale": "Sự hài lòng không tạo ra nhu cầu phải cảnh giác hay giải quyết vấn đề như từ này ám chỉ."
+        },
+        {
+          "text": "Mối quan ngại / Sự lo lắng",
+          "isCorrect": true,
+          "rationale": "Từ này chỉ một vấn đề gây ra sự lo âu, bận tâm hoặc cần sự chú ý giải quyết vì tầm quan trọng của nó."
+        }
+      ],
+      "hint": "Hãy nghĩ đến một vấn đề khiến bạn trăn trở và cảm thấy không an tâm."
+    },
+    {
+      "question": "Cảnh sát sẽ 'enforce' /ɪnˈfɔːs/ các quy định mới về giao thông để giảm thiểu tai nạn. Hành động này là gì?",
+      "answerOptions": [
+        {
+          "text": "Hủy bỏ quy tắc cũ",
+          "isCorrect": false,
+          "rationale": "Từ này tập trung vào việc duy trì và thực thi quy định hiện có chứ không phải loại bỏ chúng."
+        },
+        {
+          "text": "Thi hành / Bắt buộc tuân thủ",
+          "isCorrect": true,
+          "rationale": "Đây là việc sử dụng quyền lực hoặc sức mạnh để đảm bảo rằng các quy luật, quy định được thực hiện nghiêm chỉnh."
+        },
+        {
+          "text": "Góp ý cho nghị định",
+          "isCorrect": false,
+          "rationale": "Góp ý mang tính chất tham vấn, không có tính cưỡng chế thực hiện như từ này."
+        },
+        {
+          "text": "Soạn thảo luật mới",
+          "isCorrect": false,
+          "rationale": "Soạn thảo là bước tạo ra luật trên giấy, còn từ này nhấn mạnh vào việc đưa luật vào cuộc sống thực tế."
+        }
+      ],
+      "hint": "Đảm bảo rằng mọi người không chỉ biết luật mà còn phải làm theo luật."
+    },
+    {
+      "question": "Công ty gửi một 'questionnaire' /ˌkwes.tʃəˈneər/ cho khách hàng để lấy ý kiến về sản phẩm mới. Đây là loại tài liệu gì?",
+      "answerOptions": [
+        {
+          "text": "Chứng chỉ đào tạo",
+          "isCorrect": false,
+          "rationale": "Chứng chỉ ghi nhận kết quả học tập, hoàn toàn không liên quan đến việc thu thập câu trả lời."
+        },
+        {
+          "text": "Bảng câu hỏi khảo sát",
+          "isCorrect": true,
+          "rationale": "Đây là một danh sách các câu hỏi được dùng để thu thập dữ liệu và ý kiến từ một nhóm đối tượng."
+        },
+        {
+          "text": "Hợp đồng lao động",
+          "isCorrect": false,
+          "rationale": "Hợp đồng quy định quyền lợi và trách nhiệm pháp lý, không phải là công cụ khảo sát thông tin."
+        },
+        {
+          "text": "Hóa đơn thanh toán",
+          "isCorrect": false,
+          "rationale": "Hóa đơn liệt kê số tiền phải trả, không dùng để hỏi ý kiến hay khảo sát người dùng."
+        }
+      ],
+      "hint": "Tài liệu này thường bao gồm nhiều câu hỏi trắc nghiệm hoặc câu hỏi mở."
+    },
+    {
+      "question": "Lý do 'primary' /ˈpraɪ.mər.i/ của cuộc họp hôm nay là để chọn ra trưởng phòng mới. Tính từ này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Chính / Chủ yếu / Quan trọng nhất",
+          "isCorrect": true,
+          "rationale": "Từ này chỉ thứ có tầm quan trọng hàng đầu hoặc là nền tảng so với những thứ khác."
+        },
+        {
+          "text": "Phụ / Không đáng kể",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược, chỉ những yếu tố ít quan trọng và có thể bỏ qua."
+        },
+        {
+          "text": "Mang tính tạm thời",
+          "isCorrect": false,
+          "rationale": "Yếu tố này có tính chất then chốt và lâu dài, không phải chỉ dùng trong chốc lát."
+        },
+        {
+          "text": "Cuối cùng",
+          "isCorrect": false,
+          "rationale": "Từ này nhấn mạnh vào sự khởi đầu hoặc thứ tự ưu tiên cao nhất, không phải vị trí kết thúc."
+        }
+      ],
+      "hint": "Hãy nghĩ đến mục tiêu số một, quan trọng hơn tất cả các mục tiêu khác."
+    },
+    {
+      "question": "Chúng ta cần quản lý thời gian 'effectively' /ɪˈfek.tɪ.vli/ để hoàn thành công việc đúng hạn. Bạn nên làm như thế nào?",
+      "answerOptions": [
+        {
+          "text": "Một cách lãng phí",
+          "isCorrect": false,
+          "rationale": "Lãng phí là sử dụng quá nhiều nguồn lực cho một kết quả nhỏ, trái ngược với tinh thần của từ này."
+        },
+        {
+          "text": "Một cách hời hợt",
+          "isCorrect": false,
+          "rationale": "Hời hợt thường dẫn đến sai sót và không đạt được mục tiêu công việc."
+        },
+        {
+          "text": "Một cách bừa bãi",
+          "isCorrect": false,
+          "rationale": "Sự thiếu tổ chức sẽ khiến công việc đình trệ và lãng phí tài nguyên."
+        },
+        {
+          "text": "Một cách hiệu quả",
+          "isCorrect": true,
+          "rationale": "Làm việc theo cách mang lại kết quả như mong đợi mà không lãng phí thời gian và công sức."
+        }
+      ],
+      "hint": "Làm việc thông minh để đạt kết quả tốt nhất với ít nguồn lực nhất."
+    },
+    {
+      "question": "Các nhân viên đã ủng hộ dự án mới 'enthusiastically' /ɪnˌθjuː.ziˈæs.tɪ.li/. Họ thể hiện tinh thần như thế nào?",
+      "answerOptions": [
+        {
+          "text": "Một cách chậm chạp",
+          "isCorrect": false,
+          "rationale": "Mặc dù tốc độ có thể chậm, nhưng từ này nhấn mạnh vào thái độ tâm lý tích cực nhiều hơn là vận tốc."
+        },
+        {
+          "text": "Một cách miễn cưỡng",
+          "isCorrect": false,
+          "rationale": "Làm việc miễn cưỡng là bị ép buộc, thiếu đi sự chủ động và niềm vui."
+        },
+        {
+          "text": "Một cách nhiệt tình / hăng hái",
+          "isCorrect": true,
+          "rationale": "Trạng từ này diễn tả sự hào hứng, đam mê và ủng hộ mạnh mẽ đối với một ý tưởng hoặc hoạt động."
+        },
+        {
+          "text": "Một cách thờ ơ",
+          "isCorrect": false,
+          "rationale": "Thờ ơ là không quan tâm, không cảm xúc, trái ngược với sự cháy bỏng của tinh thần nhiệt huyết."
+        }
+      ],
+      "hint": "Hãy nghĩ đến việc ai đó làm điều gì với nụ cười và sự say mê."
+    },
+    {
+      "question": "Dự án xây dựng cầu đã bị hoãn lại vì 'inclement' /ɪnˈklem.ənt/ weather. Thời tiết lúc đó như thế nào?",
+      "answerOptions": [
+        {
+          "text": "Nắng đẹp và mát mẻ",
+          "isCorrect": false,
+          "rationale": "Thời tiết đẹp thường là điều kiện lý tưởng để thi công, không phải lý do để trì hoãn."
+        },
+        {
+          "text": "Có sương mù nhẹ",
+          "isCorrect": false,
+          "rationale": "Sương mù nhẹ thường không đủ nghiêm trọng để gọi là 'khắc nghiệt' trong hầu hết các bối cảnh xây dựng."
+        },
+        {
+          "text": "Khắc nghiệt / Xấu (bão, mưa lớn...)",
+          "isCorrect": true,
+          "rationale": "Tính từ này thường dùng để mô tả thời tiết không thuận lợi, gây khó khăn hoặc nguy hiểm cho các hoạt động ngoài trời."
+        },
+        {
+          "text": "Không có gì thay đổi",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ một trạng thái biến động tiêu cực chứ không phải sự ổn định."
+        }
+      ],
+      "hint": "Hãy nghĩ đến một cơn bão hoặc trận mưa xối xả khiến bạn không thể ra ngoài làm việc."
+    },
+    {
+      "question": "Vui lòng xem kỹ 'installation requirements' /ˌɪn.stəˈleɪ.ʃən rɪˈkwaiə.mənts/ trước khi lắp đặt máy photocopy. Bạn cần chú ý điều gì?",
+      "answerOptions": [
+        {
+          "text": "Màu sắc của vỏ máy",
+          "isCorrect": false,
+          "rationale": "Màu sắc là yếu tố thẩm mỹ, không phải là 'yêu cầu' kỹ thuật bắt buộc để máy hoạt động."
+        },
+        {
+          "text": "Lịch sử công ty sản xuất",
+          "isCorrect": false,
+          "rationale": "Thông tin về nhà sản xuất không ảnh hưởng đến các bước kỹ thuật cụ thể tại nơi sử dụng."
+        },
+        {
+          "text": "Các yêu cầu lắp đặt",
+          "isCorrect": true,
+          "rationale": "Đây là những điều kiện cần thiết (như điện áp, không gian, kết nối) để thiết bị có thể được lắp ráp và vận hành đúng cách."
+        },
+        {
+          "text": "Giá tiền của thiết bị",
+          "isCorrect": false,
+          "rationale": "Giá tiền là thông tin mua sắm, không giúp ích cho quá trình kỹ thuật lắp đặt máy."
+        }
+      ],
+      "hint": "Hãy nghĩ đến các thông số kỹ thuật cần chuẩn bị trước khi 'mở hộp' máy."
+    },
+    {
+      "question": "Trụ sở mới của chúng ta nằm ở khu vực 'surrounding' /səˈraʊ.dɪŋ/ công viên thành phố. Từ này chỉ vị trí như thế nào?",
+      "answerOptions": [
+        {
+          "text": "Bên trong lòng đất",
+          "isCorrect": false,
+          "rationale": "Vị trí dưới lòng đất được gọi bằng thuật ngữ khác, không liên quan đến bề mặt bao quanh."
+        },
+        {
+          "text": "Trên tầng cao nhất",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ không gian nằm xung quanh theo chiều ngang hơn là vị trí theo chiều dọc."
+        },
+        {
+          "text": "Cách xa hàng dặm",
+          "isCorrect": false,
+          "rationale": "Từ này nhấn mạnh tính kế cận và tiếp giáp trực tiếp chứ không phải khoảng cách xa."
+        },
+        {
+          "text": "Bao quanh / Vùng phụ cận",
+          "isCorrect": true,
+          "rationale": "Từ này mô tả những thứ ở gần hoặc bao quanh một địa điểm, một vật thể nào đó."
+        }
+      ],
+      "hint": "Hãy tưởng tượng bạn đứng ở giữa và nhìn ra các khu vực ngay sát bên cạnh mình."
+    },
+    {
+      "question": "Việc 'acquisition' /ˌæk.wɪˈzɪʃ.ən/ của Valuwest Inc. đã giúp công ty chúng ta tăng gấp đôi thị phần. Đây là hoạt động gì?",
+      "answerOptions": [
+        {
+          "text": "Sự đầu tư nhỏ lẻ",
+          "isCorrect": false,
+          "rationale": "Đầu tư nhỏ không mang tính chất thâu tóm toàn bộ để thay đổi cấu trúc sở hữu như thuật ngữ này."
+        },
+        {
+          "text": "Sự cạnh tranh gay gắt",
+          "isCorrect": false,
+          "rationale": "Cạnh tranh là đấu tranh giữa các bên độc lập, còn đây là việc bên này 'nuốt trọn' bên kia."
+        },
+        {
+          "text": "Sự mua lại / Thâu tóm",
+          "isCorrect": true,
+          "rationale": "Trong kinh doanh, đây là hành động một công ty mua lại quyền kiểm soát hoặc sở hữu một công ty khác."
+        },
+        {
+          "text": "Sự đổi mới công nghệ",
+          "isCorrect": false,
+          "rationale": "Mặc dù có thể mua lại để lấy công nghệ, nhưng nghĩa gốc của từ này là sự sở hữu về mặt tài chính và tổ chức."
+        }
+      ],
+      "hint": "Khi một 'ông lớn' mua đứt một 'ông nhỏ' để phát triển quy mô."
+    },
+    {
+      "question": "Chúng tôi chúc bạn có một tương lai 'prosperous' /ˈprɒs.pər.əs/ cùng với sự phát triển của công ty. Đây là một lời chúc như thế nào?",
+      "answerOptions": [
+        {
+          "text": "Nghèo nàn lạc hậu",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa trái ngược hoàn toàn, chỉ sự thiếu thốn và không phát triển."
+        },
+        {
+          "text": "Bình thường không thay đổi",
+          "isCorrect": false,
+          "rationale": "Lời chúc này mang hàm ý sự tiến lên vượt bậc, không phải là trạng thái dậm chân tại chỗ."
+        },
+        {
+          "text": "Khó khăn vất vả",
+          "isCorrect": false,
+          "rationale": "Không ai dùng lời chúc này để mong cầu sự gian nan cho đối tác hay nhân viên."
+        },
+        {
+          "text": "Thịnh vượng / Phát đạt",
+          "isCorrect": true,
+          "rationale": "Tính từ này mô tả trạng thái thành công về mặt tài chính, giàu có và phát triển mạnh mẽ."
+        }
+      ],
+      "hint": "Hãy nghĩ đến hình ảnh một doanh nghiệp làm ăn có lãi và ngày càng giàu có."
+    },
+    {
+      "question": "Nếu bạn có bất kỳ câu hỏi nào 'regarding' /rɪˈɡɑː.dɪŋ/ chính sách mới, hãy liên hệ với phòng nhân sự. Từ này dùng để làm gì?",
+      "answerOptions": [
+        {
+          "text": "Trái ngược với",
+          "isCorrect": false,
+          "rationale": "Từ này mang tính kết nối chủ đề chứ không phải tạo ra sự đối lập về nghĩa."
+        },
+        {
+          "text": "Bất kể cái gì",
+          "isCorrect": false,
+          "rationale": "Từ này chỉ định rõ một chủ đề cụ thể, không mang nghĩa chung chung bất định."
+        },
+        {
+          "text": "Thay thế cho",
+          "isCorrect": false,
+          "rationale": "Để thay thế, người ta dùng các cấu trúc khác, từ này chỉ có chức năng dẫn dắt nội dung liên quan."
+        },
+        {
+          "text": "Về / Liên quan đến",
+          "isCorrect": true,
+          "rationale": "Giới từ này được dùng để giới thiệu chủ đề hoặc đối tượng mà chúng ta đang nói đến hoặc viết về."
+        }
+      ],
+      "hint": "Nó có nghĩa tương đương với từ 'about' trong tiếng Anh."
+    },
+    {
+      "question": "Vui lòng kiểm tra 'operating hours' /ˈɒp.ər.eɪ.tɪŋ ˌaʊəz/ của quán cà phê trước khi đến vào ngày lễ. Bạn cần xem thông tin gì?",
+      "answerOptions": [
+        {
+          "text": "Giờ hoạt động / Giờ mở cửa",
+          "isCorrect": true,
+          "rationale": "Đây là khoảng thời gian trong ngày mà một cơ sở kinh doanh hoặc dịch vụ mở cửa phục vụ khách hàng."
+        },
+        {
+          "text": "Giá cả đồ uống",
+          "isCorrect": false,
+          "rationale": "Giá cả là thông tin tài chính, không ảnh hưởng đến việc bạn có vào được quán hay không."
+        },
+        {
+          "text": "Danh sách nhân viên",
+          "isCorrect": false,
+          "rationale": "Thông tin nhân sự thường mang tính nội bộ, không liên quan đến giờ giấc phục vụ công cộng."
+        },
+        {
+          "text": "Thực đơn món ăn",
+          "isCorrect": false,
+          "rationale": "Thực đơn cho biết các món có sẵn, không cho biết lúc nào quán bắt đầu hay kết thúc đón khách."
+        }
+      ],
+      "hint": "Thông tin này cho biết quán mở cửa lúc mấy giờ và đóng cửa lúc mấy giờ."
+    },
+    {
+      "question": "Việc hoàn tiền sẽ 'subject to' /ˈʌb.dʒekt tuː/ việc bạn có giữ lại hóa đơn gốc hay không. Điều này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Đã hoàn thành xong",
+          "isCorrect": false,
+          "rationale": "Từ này nói về một khả năng hoặc quy định trong tương lai, không phải một việc đã rồi."
+        },
+        {
+          "text": "Chắc chắn xảy ra",
+          "isCorrect": false,
+          "rationale": "Sự việc có điều kiện kèm theo, nên không thể khẳng định là chắc chắn 100% trong mọi trường hợp."
+        },
+        {
+          "text": "Không liên quan đến",
+          "isCorrect": false,
+          "rationale": "Ngược lại, nó thể hiện một mối quan hệ nhân quả hoặc điều kiện rất chặt chẽ."
+        },
+        {
+          "text": "Tùy thuộc vào / Phải chịu",
+          "isCorrect": true,
+          "rationale": "Cấu trúc này chỉ ra rằng một sự việc chỉ xảy ra nếu một điều kiện khác được đáp ứng hoặc nó bị kiểm soát bởi một quy tắc nào đó."
+        }
+      ],
+      "hint": "Nếu bạn không có hóa đơn, việc hoàn tiền có thể không được thực hiện."
+    },
+    {
+      "question": "Mọi công ty đều phải tuân thủ 'regulation' /ˌreɡ.jəˈleɪ.ʃən/ về bảo vệ môi trường của địa phương. Từ này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Lời khuyên cá nhân",
+          "isCorrect": false,
+          "rationale": "Lời khuyên không có tính bắt buộc pháp lý như các quy định chính thức của nhà nước."
+        },
+        {
+          "text": "Sự tự do tuyệt đối",
+          "isCorrect": false,
+          "rationale": "Quy định thường đặt ra các giới hạn, trái ngược với sự tự do không có khuôn khổ."
+        },
+        {
+          "text": "Quy định / Quy tắc",
+          "isCorrect": true,
+          "rationale": "Đây là một quy tắc hoặc lệnh được đưa ra bởi cơ quan có thẩm quyền để quản lý cách thức hoạt động của một tổ chức."
+        },
+        {
+          "text": "Chiến dịch quảng cáo",
+          "isCorrect": false,
+          "rationale": "Quảng cáo là hoạt động tự nguyện để thu hút khách hàng, không mang tính cưỡng chế tuân thủ."
+        }
+      ],
+      "hint": "Đây là những luật lệ mà bạn bắt buộc phải làm theo nếu không muốn bị phạt."
+    },
+    {
+      "question": "Mỗi 'participant' /pɑːˈtɪs.ɪ.pənt/ trong hội thảo sẽ nhận được một bộ tài liệu hướng dẫn miễn phí. Họ là ai?",
+      "answerOptions": [
+        {
+          "text": "Người vắng mặt",
+          "isCorrect": false,
+          "rationale": "Từ này khẳng định sự có mặt và đóng góp vào sự kiện, trái ngược với người không tới."
+        },
+        {
+          "text": "Người tham gia",
+          "isCorrect": true,
+          "rationale": "Đây là cá nhân trực tiếp có mặt và tham gia vào một hoạt động, sự kiện hoặc dự án nào đó."
+        },
+        {
+          "text": "Người phản đối",
+          "isCorrect": false,
+          "rationale": "Mặc dù có thể có ý kiến khác, nhưng từ này chỉ chung những người có mặt để tham gia hoạt động."
+        },
+        {
+          "text": "Người tổ chức",
+          "isCorrect": false,
+          "rationale": "Người tổ chức là bên điều hành, còn thuật ngữ này thường dành cho những khách mời hoặc người dự thính."
+        }
+      ],
+      "hint": "Nếu bạn đăng ký dự một cuộc thi, bạn chính là một..."
+    },
+    {
+      "question": "Giảm giá này chỉ 'apply to' /əˈplaɪ tuː/ các đơn hàng đặt trực tuyến. Quy định này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Tránh xa khỏi",
+          "isCorrect": false,
+          "rationale": "Nó thể hiện sự kết nối trực tiếp về quyền lợi, không phải sự tách rời."
+        },
+        {
+          "text": "Áp dụng cho / Có hiệu lực với",
+          "isCorrect": true,
+          "rationale": "Cụm từ này dùng để xác định phạm vi hoặc đối tượng mà một quy tắc hoặc ưu đãi có tác dụng."
+        },
+        {
+          "text": "Phàn nàn về",
+          "isCorrect": false,
+          "rationale": "Đây là một cấu trúc trung tính chỉ phạm vi ảnh hưởng, không mang sắc thái tiêu cực như phàn nàn."
+        },
+        {
+          "text": "Hủy bỏ cho",
+          "isCorrect": false,
+          "rationale": "Đây là sự xác nhận hiệu lực, hoàn toàn không phải là sự chấm dứt hay loại bỏ."
+        }
+      ],
+      "hint": "Nếu bạn mua tại cửa hàng, bạn sẽ không được giảm giá vì ưu đãi này không dành cho bạn."
+    },
+    {
+      "question": "Có hơn 100 'applicant' /ˈæp.lɪ.kənt/ đã nộp hồ sơ cho vị trí quản lý kinh doanh. Bạn hiểu họ là ai?",
+      "answerOptions": [
+        {
+          "text": "Người đã nghỉ hưu",
+          "isCorrect": false,
+          "rationale": "Người nghỉ hưu đã rời khỏi thị trường lao động, trái ngược với những người đang nỗ lực tìm việc này."
+        },
+        {
+          "text": "Người phỏng vấn",
+          "isCorrect": false,
+          "rationale": "Người phỏng vấn là đại diện công ty đi tuyển người, không phải người đi tìm việc."
+        },
+        {
+          "text": "Khách hàng mua sỉ",
+          "isCorrect": false,
+          "rationale": "Đây là thuật ngữ dành riêng cho bối cảnh tuyển dụng hoặc xin cấp phép, không phải mua bán hàng hóa."
+        },
+        {
+          "text": "Ứng viên / Người nộp đơn",
+          "isCorrect": true,
+          "rationale": "Đây là người chính thức đưa ra yêu cầu (thường là bằng văn bản) để được nhận một công việc hoặc vị trí nào đó."
+        }
+      ],
+      "hint": "Hãy nghĩ đến những người đang mong muốn có được một công việc mới."
+    },
+    {
+      "question": "Mục tiêu của chiến dịch quảng cáo là 'attract' /əˈtrækt/ thêm nhiều khách hàng trẻ tuổi. Hành động này là gì?",
+      "answerOptions": [
+        {
+          "text": "Làm phiền",
+          "isCorrect": false,
+          "rationale": "Làm phiền gây ra ấn tượng xấu, trong khi từ này nhấn mạnh vào sự lôi kéo mang tính tích cực."
+        },
+        {
+          "text": "Đuổi đi",
+          "isCorrect": false,
+          "rationale": "Đây là hành động làm người khác tránh xa, hoàn toàn trái ngược với mục tiêu của quảng cáo."
+        },
+        {
+          "text": "Thu hút / Lôi cuốn",
+          "isCorrect": true,
+          "rationale": "Làm cho ai đó quan tâm hoặc muốn đến gần một thứ gì đó bằng cách làm cho nó trở nên thú vị hoặc hấp dẫn."
+        },
+        {
+          "text": "Bỏ rơi",
+          "isCorrect": false,
+          "rationale": "Bỏ rơi là thiếu sự quan tâm, còn hành động này đòi hỏi sự đầu tư để gây chú ý."
+        }
+      ],
+      "hint": "Hãy nghĩ đến một nam châm hút các mảnh sắt về phía mình."
+    },
+    {
+      "question": "Chúng tôi sẽ tổ chức một 'seminar' /ˈsem.ɪ.nɑːr/ về kỹ năng lãnh đạo vào cuối tuần này. Đây là loại sự kiện gì?",
+      "answerOptions": [
+        {
+          "text": "Hội thảo / Buổi học chuyên đề",
+          "isCorrect": true,
+          "rationale": "Đây là một cuộc họp hoặc khóa học ngắn tập trung thảo luận và đào tạo về một chủ đề cụ thể."
+        },
+        {
+          "text": "Cuộc thi thể thao",
+          "isCorrect": false,
+          "rationale": "Đây là hoạt động tư duy và giao tiếp, không phải là hoạt động thể chất cạnh tranh."
+        },
+        {
+          "text": "Buổi biểu diễn ca nhạc",
+          "isCorrect": false,
+          "rationale": "Sự kiện này mang tính giáo dục và hàn lâm hơn là giải trí đơn thuần."
+        },
+        {
+          "text": "Bữa tiệc tối",
+          "isCorrect": false,
+          "rationale": "Mặc dù có thể có đồ ăn nhẹ, nhưng mục đích chính của sự kiện này là học hỏi và trao đổi kiến thức."
+        }
+      ],
+      "hint": "Một nơi mà mọi người đến để nghe chuyên gia chia sẻ kiến thức và cùng thảo luận."
+    },
+    {
+      "question": "Nhân viên y tế cảnh báo rằng sởi là một 'infectious disease' /ɪnˌfek.ʃəs dɪˈziːz/ rất nguy hiểm. Bạn nên hiểu cụm này như thế nào?",
+      "answerOptions": [
+        {
+          "text": "Dị ứng thực phẩm",
+          "isCorrect": false,
+          "rationale": "Dị ứng là phản ứng của cơ thể với chất lạ, không phải là tác nhân vi khuẩn hay virus lây lan."
+        },
+        {
+          "text": "Bệnh truyền nhiễm",
+          "isCorrect": true,
+          "rationale": "Đây là loại bệnh có khả năng lây lan từ người này sang người khác qua nhiều con đường khác nhau."
+        },
+        {
+          "text": "Bệnh bẩm sinh",
+          "isCorrect": false,
+          "rationale": "Bệnh bẩm sinh có từ khi sinh ra và thường không lây cho người xung quanh qua tiếp xúc thông thường."
+        },
+        {
+          "text": "Vết thương ngoài da",
+          "isCorrect": false,
+          "rationale": "Vết thương vật lý không có tính lây lan sinh học giữa các cá thể như định nghĩa của từ này."
+        }
+      ],
+      "hint": "Một loại bệnh có thể lây từ người này sang người khác nếu tiếp xúc gần."
+    },
+    {
+      "question": "Sau khi kiểm tra bản thảo, biên tập viên đã thực hiện một vài 'correction' /kəˈrek.ʃən/ nhỏ. Hành động này là gì?",
+      "answerOptions": [
+        {
+          "text": "Sự xuất bản rộng rãi",
+          "isCorrect": false,
+          "rationale": "Đây là bước chỉnh sửa kỹ thuật trước khi đưa ra công chúng, không phải bản thân việc phát hành."
+        },
+        {
+          "text": "Sự sao chép y nguyên",
+          "isCorrect": false,
+          "rationale": "Sao chép không làm thay đổi nội dung để sửa lỗi như từ này yêu cầu."
+        },
+        {
+          "text": "Sự sửa chữa / Điều chỉnh cho đúng",
+          "isCorrect": true,
+          "rationale": "Đây là thay đổi được thực hiện để loại bỏ lỗi sai hoặc làm cho một thứ gì đó trở nên chính xác hơn."
+        },
+        {
+          "text": "Sự khen ngợi",
+          "isCorrect": false,
+          "rationale": "Khen ngợi là đánh giá tích cực, còn từ này tập trung vào việc xử lý các thiếu sót hoặc lỗi."
+        }
+      ],
+      "hint": "Khi bạn viết sai chính tả và dùng bút xóa để viết lại cho đúng, đó là một..."
     }
   ]
 }

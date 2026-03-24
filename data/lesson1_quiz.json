@@ -1,265 +1,733 @@
 {
-  "title": "Từ vựng Trắc nghiệm Lesson 1(new)",
+  "title": "Từ vựng Trắc nghiệm Lesson 1",
   "questions": [
     {
-      "question": "Trong ngữ cảnh kinh doanh, từ nào sau đây mô tả việc một công ty mua lại quyền sở hữu của một công ty khác?",
+      "question": "Trong một thông báo về việc mở rộng quy mô, công ty cho biết họ vừa hoàn tất một thương vụ 'acquisition' /ˌækwɪˈzɪʃn/. Từ này có nghĩa là gì trong ngữ cảnh doanh nghiệp?",
       "answerOptions": [
         {
-          "text": "acquisition /ˌækwɪˈzɪʃn/",
+          "text": "Sự phá sản của một doanh nghiệp",
+          "isCorrect": false,
+          "rationale": "Đây là trạng thái dừng hoạt động do nợ nần, trái ngược hoàn toàn với việc mua thêm tài sản hay công ty."
+        },
+        {
+          "text": "Sự mua lại hoặc thâu tóm công ty khác",
           "isCorrect": true,
-          "rationale": "Đây là thuật ngữ chỉ việc thâu tóm hoặc mua lại một doanh nghiệp khác, thường đi kèm trong cụm từ 'merger and acquisition'."
+          "rationale": "Thuật ngữ này chỉ việc một công ty mua lại quyền sở hữu hoặc kiểm soát một thực thể kinh doanh khác."
         },
         {
-          "text": "distribution /dɪˈstrɪbjuːt/",
+          "text": "Sự thay đổi tên thương hiệu",
           "isCorrect": false,
-          "rationale": "Từ này chỉ việc phân phát hoặc phân phối hàng hóa, không liên quan đến việc chuyển giao quyền sở hữu công ty."
+          "rationale": "Việc đổi tên thương hiệu là 'rebranding', một quy trình về hình ảnh thay vì giao dịch sở hữu."
         },
         {
-          "text": "budgetary /ˈbʌdʒɪtəri/",
+          "text": "Sự cắt giảm nhân sự hàng loạt",
           "isCorrect": false,
-          "rationale": "Đây là tính từ thuộc về ngân sách, mô tả các khía cạnh tài chính thay vì hành động mua lại doanh nghiệp."
-        },
-        {
-          "text": "restock /ˌriːˈstɒk/",
-          "isCorrect": false,
-          "rationale": "Đây là hành động bổ sung thêm hàng hóa vào kho hoặc kệ hàng khi đã hết."
+          "rationale": "Việc sa thải nhân viên thường được gọi là 'layoff', không liên quan đến việc mua lại doanh nghiệp."
         }
       ],
-      "hint": "Cụm từ này thường xuất hiện trong các bản tin tài chính khi nói về việc sáp nhập và thâu tóm."
+      "hint": "Đây là hành động thường đi kèm với cụm từ 'merger and...'"
     },
     {
-      "question": "Vật dụng nào thường được làm bằng gỗ hoặc kim loại, dùng để kê hàng hóa trong kho nhằm thuận tiện cho việc di chuyển?",
+      "question": "Khi đặt phòng khách sạn cho sếp đi công tác, bạn yêu cầu một phòng có 'balcony' /ˈbælkəni/. Khu vực này là gì?",
       "answerOptions": [
         {
-          "text": "bike rack /baɪk ræk/",
-          "isCorrect": false,
-          "rationale": "Đây là giá hoặc khung dùng để đỗ xe đạp, không phải vật dụng dùng để kê hàng hóa."
-        },
-        {
-          "text": "closet /ˈklɒzɪt/",
-          "isCorrect": false,
-          "rationale": "Closet là tủ dùng để đựng quần áo hoặc đồ dùng cá nhân, không phù hợp để kê hàng trong kho."
-        },
-        {
-          "text": "pallet /ˈpælət/",
+          "text": "Ban công",
           "isCorrect": true,
-          "rationale": "Pallet là tấm kê hàng chuyên dụng trong vận chuyển và lưu kho để bảo vệ và di chuyển hàng hóa dễ dàng hơn."
+          "rationale": "Đây là phần không gian nhô ra ngoài từ tường của tòa nhà, thường có lan can bảo vệ."
         },
         {
-          "text": "stool /stuːl/",
+          "text": "Hành lang",
           "isCorrect": false,
-          "rationale": "Đây là một loại ghế đẩu, thường dùng để ngồi thay vì dùng để kê hàng hóa trong công nghiệp."
+          "rationale": "Hành lang trong tòa nhà thường được gọi là 'hallway' hoặc 'corridor'."
+        },
+        {
+          "text": "Tầng hầm",
+          "isCorrect": false,
+          "rationale": "Tầng hầm được gọi là 'basement', nằm dưới mặt đất thay vì nhô ra ở các tầng cao."
+        },
+        {
+          "text": "Phòng tắm hơi",
+          "isCorrect": false,
+          "rationale": "Phòng tắm hơi được gọi là 'sauna', một tiện ích thư giãn thay vì một cấu trúc kiến trúc bên ngoài phòng."
         }
       ],
-      "hint": "Đây là một tấm phẳng thường thấy trong các nhà kho, được sử dụng cùng với xe nâng."
+      "hint": "Một nơi lý tưởng để đứng ngắm cảnh từ trên cao."
     },
     {
-      "question": "Công việc của một 'outreach coordinator' /ˈaʊtriːtʃ kəʊˈɔːdɪneɪtə(r)/ chủ yếu tập trung vào nhiệm vụ nào?",
+      "question": "Nhân viên tạp vụ đang thực hiện 'carpet cleaning' /ˈkɑːpɪt ˈkliːnɪŋ/. Vật dụng nào đang được làm sạch?",
       "answerOptions": [
         {
-          "text": "Kiểm tra và sửa chữa các thiết bị bảo hộ như 'safety goggles' /ˈseɪfti ˈɡɒɡlz/.",
+          "text": "Bàn làm việc",
           "isCorrect": false,
-          "rationale": "Nhiệm vụ bảo trì thiết bị thuộc về bộ phận kỹ thuật hoặc quản lý an toàn lao động."
+          "rationale": "Bàn làm việc thường là 'desk', làm từ gỗ hoặc kim loại thay vì sợi dệt."
         },
         {
-          "text": "Phân phối thực phẩm và hàng tạp hóa ('grocery' /ˈɡrəʊsəri/) tại siêu thị.",
+          "text": "Trần nhà",
           "isCorrect": false,
-          "rationale": "Đây là công việc của nhân viên bán lẻ hoặc nhân viên kho bãi."
+          "rationale": "Trần nhà được gọi là 'ceiling', không liên quan đến vật liệu dệt dưới sàn."
         },
         {
-          "text": "Kết nối các tổ chức với cộng đồng để cung cấp nguồn lực và hỗ trợ.",
+          "text": "Tấm thảm trải sàn",
           "isCorrect": true,
-          "rationale": "Vị trí này chịu trách nhiệm điều phối các hoạt động cộng đồng và xây dựng mối quan hệ giữa tổ chức và công chúng."
+          "rationale": "Từ này chỉ loại vật liệu dệt dùng để phủ lên bề mặt sàn nhà trong văn phòng hoặc gia đình."
         },
         {
-          "text": "Thiết kế và lắp đặt hệ thống rèm cửa (curtain /ˈkɜːtn/) cho văn phòng.",
+          "text": "Cửa sổ kính",
           "isCorrect": false,
-          "rationale": "Đây là công việc của nhân viên nội thất hoặc kỹ thuật viên lắp đặt, không phải là điều phối cộng đồng."
+          "rationale": "Cửa sổ được gọi là 'window', việc làm sạch cửa sổ không dùng thuật ngữ này."
         }
       ],
-      "hint": "Chức danh này liên quan đến việc xây dựng cầu nối và quan hệ công chúng."
+      "hint": "Vật dụng này thường giúp giảm tiếng ồn khi bước đi trong văn phòng."
     },
     {
-      "question": "Nếu bạn thấy một vật đang nằm 'underneath' /ˌʌndəˈniːθ/ cái bàn, vị trí chính xác của nó là ở đâu?",
+      "question": "Phòng marketing cần gửi một số 'flyers' /ˈflaɪə(r)/ cho khách hàng tiềm năng. 'Flyer' có nghĩa là gì?",
       "answerOptions": [
         {
-          "text": "Ngay vạch đích ('finish line' /ˈfɪnɪʃ laɪn/).",
-          "isCorrect": false,
-          "rationale": "Vạch đích là một mốc địa lý trong cuộc thi, không liên quan đến vị trí phía dưới một vật."
-        },
-        {
-          "text": "Bên dưới cái bàn.",
+          "text": "Tờ rơi quảng cáo",
           "isCorrect": true,
-          "rationale": "Theo định nghĩa, 'underneath' là giới từ chỉ vị trí phía dưới một vật nào đó."
+          "rationale": "Đây là một tờ giấy in thông tin quảng cáo được phát miễn phí cho nhiều người."
         },
         {
-          "text": "Ở góc đường ('street corner' /ˈkɔːnə(r)/).",
+          "text": "Hóa đơn thanh toán",
           "isCorrect": false,
-          "rationale": "Góc đường là một vị trí tại ngã tư, không chỉ vị trí tương đối phía dưới."
+          "rationale": "Hóa đơn được gọi là 'invoice' hoặc 'bill', dùng trong giao dịch tài chính."
         },
         {
-          "text": "Trên ban công ('balcony' /ˈbælkəni/).",
+          "text": "Hợp đồng lao động",
           "isCorrect": false,
-          "rationale": "Ban công là một khu vực nhô ra ngoài của tòa nhà, không phải là một vị trí giới từ chỉ dưới vật khác."
+          "rationale": "Hợp đồng là 'contract', mang tính pháp lý thay vì tính quảng bá rộng rãi."
+        },
+        {
+          "text": "Danh thiếp cá nhân",
+          "isCorrect": false,
+          "rationale": "Danh thiếp được gọi là 'business card', dùng để trao đổi thông tin liên lạc cá nhân."
         }
       ],
-      "hint": "Hãy nghĩ về một từ đồng nghĩa phổ biến bắt đầu bằng chữ 'B'."
+      "hint": "Từ đồng nghĩa của nó là 'leaflet' hoặc 'brochure'."
     },
     {
-      "question": "Dịch vụ 'express delivery' /ɪkˈspres dɪˈlɪvəri/ thường được khách hàng lựa chọn khi nào?",
+      "question": "Trong một chiến dịch quảng bá, bộ phận bán hàng cần 'distribute' /dɪˈstɪbjuːt/ sản phẩm mẫu. Hành động này tương đương với từ nào sau đây?",
       "answerOptions": [
         {
-          "text": "Khi họ cần thuê nhân viên mới ('employ' /ɪmˈplɔɪ/) cho công ty.",
+          "text": "Collect",
           "isCorrect": false,
-          "rationale": "Tuyển dụng là một quy trình nhân sự, không liên quan đến dịch vụ giao hàng."
+          "rationale": "Từ này có nghĩa là thu gom, trái ngược với việc phân phát ra bên ngoài."
         },
         {
-          "text": "Khi họ muốn mua hàng tạp hóa ('grocery' /ˈɡrəʊsəri/) với số lượng lớn.",
-          "isCorrect": false,
-          "rationale": "Việc mua số lượng lớn thường liên quan đến bán buôn (wholesale) hơn là tốc độ vận chuyển."
-        },
-        {
-          "text": "Khi họ cần nhận hàng hóa một cách nhanh chóng hoặc hỏa tốc.",
+          "text": "Deliver",
           "isCorrect": true,
-          "rationale": "Express delivery là dịch vụ chuyển phát nhanh, tập trung vào tốc độ giao hàng để đáp ứng nhu cầu khẩn cấp."
+          "rationale": "Cả hai từ đều mang nghĩa phân phát hoặc chuyển giao hàng hóa đến các địa điểm hoặc đối tượng khác nhau."
         },
         {
-          "text": "Khi họ cần làm sạch thảm ('carpet' /ˈkɑːpɪt/) trong văn phòng.",
+          "text": "Purchase",
           "isCorrect": false,
-          "rationale": "Làm sạch thảm là một dịch vụ vệ sinh, không phải dịch vụ vận chuyển."
+          "rationale": "Nghĩa là mua hàng, là hành động của người tiêu dùng thay vì nhà phân phối."
+        },
+        {
+          "text": "Manufacture",
+          "isCorrect": false,
+          "rationale": "Đây là công đoạn sản xuất hàng hóa tại nhà máy trước khi đem đi phân phối."
         }
       ],
-      "hint": "Yếu tố then chốt của dịch vụ này là thời gian nhận hàng ngắn nhất có thể."
+      "hint": "Hãy nghĩ đến việc đưa các món đồ đến tay nhiều người khác nhau."
     },
     {
-      "question": "Vật dụng nào sau đây là trang bị bảo hộ mắt bắt buộc trong nhiều môi trường kỹ thuật?",
+      "question": "Quản lý nhân sự thông báo: 'We need to employ /ɪmˈplɔɪ/ more staff for the new branch'. Từ 'employ' ở đây đồng nghĩa với:",
       "answerOptions": [
         {
-          "text": "napkin /ˈnæpkɪn/",
+          "text": "Fire",
           "isCorrect": false,
-          "rationale": "Khăn ăn là vật dụng dùng để lau tay hoặc miệng khi ăn, không có chức năng bảo hộ lao động."
+          "rationale": "Đây là hành động sa thải, trái ngược hoàn toàn với việc tuyển thêm nhân viên."
         },
         {
-          "text": "safety goggles /ˈseɪfti ˈɡɒɡlz/",
+          "text": "Train",
+          "isCorrect": false,
+          "rationale": "Nghĩa là đào tạo kỹ năng cho nhân viên, thường diễn ra sau khi đã tuyển dụng."
+        },
+        {
+          "text": "Promote",
+          "isCorrect": false,
+          "rationale": "Nghĩa là thăng chức cho một nhân viên hiện có, không phải tuyển người mới từ bên ngoài."
+        },
+        {
+          "text": "Hire",
           "isCorrect": true,
-          "rationale": "Kính bảo hộ được thiết kế để bảo vệ vùng mắt khỏi các mảnh vụn, hóa chất hoặc tác động nguy hiểm khi làm việc."
-        },
-        {
-          "text": "coat /kəʊt/",
-          "isCorrect": false,
-          "rationale": "Áo khoác dùng để giữ ấm hoặc bảo vệ cơ thể nói chung, không phải là trang bị chuyên dụng cho mắt."
-        },
-        {
-          "text": "flyer /ˈflaɪə(r)/",
-          "isCorrect": false,
-          "rationale": "Tờ rơi là ấn phẩm quảng cáo dùng để truyền đạt thông tin, không phải trang bị bảo hộ."
+          "rationale": "Trong ngữ cảnh quản lý nhân sự, cả hai từ đều chỉ việc thuê hoặc tuyển dụng người lao động."
         }
       ],
-      "hint": "Từ này dùng để chỉ một loại kính bảo vệ mắt trong phòng thí nghiệm hoặc công trường."
+      "hint": "Đây là bước đầu tiên để có thêm nhân sự làm việc cho công ty."
     },
     {
-      "question": "Hành động 'mow the lawn' /lɔːn/ có nghĩa là gì?",
+      "question": "Văn phòng đang tổ chức một sự kiện kỷ niệm và cần tìm một 'local florist' /ˈlɔːkl ˈflɒrɪst/. Bạn sẽ liên hệ với ai?",
       "answerOptions": [
         {
-          "text": "Cắt cỏ trên bãi cỏ.",
+          "text": "Nhân viên bảo vệ",
+          "isCorrect": false,
+          "rationale": "Nhân viên bảo vệ được gọi là 'security guard'."
+        },
+        {
+          "text": "Người cung cấp thực phẩm",
+          "isCorrect": false,
+          "rationale": "Người cung cấp suất ăn được gọi là 'caterer'."
+        },
+        {
+          "text": "Thợ sửa điện",
+          "isCorrect": false,
+          "rationale": "Thợ điện được gọi là 'electrician'."
+        },
+        {
+          "text": "Người bán hoa tại địa phương",
           "isCorrect": true,
-          "rationale": "Mow là hành động cắt (cỏ) và lawn là bãi cỏ, thường thấy ở sân vườn hoặc công viên."
-        },
-        {
-          "text": "Đào một cái hố ('dig a hole' /dɪɡ/).",
-          "isCorrect": false,
-          "rationale": "Hành động đào đất thường dùng xẻng hoặc máy xúc, không liên quan đến việc cắt cỏ."
-        },
-        {
-          "text": "Trồng cây vào chậu hoa ('flower pot' /pɒt/).",
-          "isCorrect": false,
-          "rationale": "Đây là hành động làm vườn khác, tập trung vào việc trồng trọt thay vì duy trì độ cao của cỏ."
-        },
-        {
-          "text": "Phân phối tờ rơi quảng cáo ('distribute flyers' /ˈflaɪə(r)/).",
-          "isCorrect": false,
-          "rationale": "Đây là hành động phát tờ rơi, không liên quan đến việc chăm sóc bãi cỏ."
+          "rationale": "Florist là danh từ chỉ người làm nghề bán hoa hoặc chủ cửa hàng hoa."
         }
       ],
-      "hint": "Bạn cần một chiếc máy chuyên dụng ('lawn mower') để thực hiện công việc này."
+      "hint": "Người này sẽ giúp bạn chuẩn bị các lẵng hoa tươi trang trí."
     },
     {
-      "question": "Cụm từ 'budgetary constraints' /ˈbʌdʒɪtəri/ ám chỉ điều gì trong quản lý dự án?",
+      "question": "Trước khi đưa ra quyết định cuối cùng, giám đốc yêu cầu 'gather /ˈɡæðə(r)/ more information'. Hành động này có nghĩa là:",
       "answerOptions": [
         {
-          "text": "Sự phong phú của các loại thực phẩm tạp hóa ('grocery' /ˈɡrəʊsəri/).",
-          "isCorrect": false,
-          "rationale": "Tạp hóa là mặt hàng tiêu dùng, không liên quan đến thuật ngữ quản lý ngân sách dự án."
-        },
-        {
-          "text": "Quy trình lắp đặt giá để xe đạp ('bike rack' /baɪk ræk/).",
-          "isCorrect": false,
-          "rationale": "Lắp đặt cơ sở vật chất là một phần của chi phí, nhưng không phải là định nghĩa của hạn chế ngân sách."
-        },
-        {
-          "text": "Những hạn chế liên quan đến ngân sách hoặc tài chính.",
+          "text": "Thu thập thông tin",
           "isCorrect": true,
-          "rationale": "Budgetary là tính từ thuộc về ngân sách; cụm từ này chỉ việc thiếu hụt kinh phí hoặc giới hạn tài chính cho phép."
+          "rationale": "Gather mang nghĩa tập hợp hoặc thu lượm những thứ rải rác về một chỗ."
         },
         {
-          "text": "Sự thay đổi về các khía cạnh ('aspect' /'æspekt/) của dự án.",
+          "text": "Xóa bỏ thông tin",
           "isCorrect": false,
-          "rationale": "Các khía cạnh khác của dự án có thể bao gồm kỹ thuật hoặc nhân sự, không nhất thiết chỉ liên quan đến tài chính."
+          "rationale": "Hành động xóa bỏ thường được gọi là 'delete' hoặc 'erase'."
+        },
+        {
+          "text": "Phát tán thông tin",
+          "isCorrect": false,
+          "rationale": "Phát tán hoặc công bố rộng rãi thường dùng từ 'distribute' hoặc 'publish'."
+        },
+        {
+          "text": "Thay đổi thông tin",
+          "isCorrect": false,
+          "rationale": "Việc chỉnh sửa hoặc thay đổi thông tin được gọi là 'modify' hoặc 'edit'."
         }
       ],
-      "hint": "Từ này mô tả tình trạng khi một dự án không có đủ tiền để thực hiện tất cả các ý tưởng."
+      "hint": "Từ đồng nghĩa của nó trong trường hợp này là 'collect'."
     },
     {
-      "question": "Từ 'wooden' /ˈwʊdn/ dùng để chỉ những vật dụng được làm từ chất liệu nào?",
+      "question": "Kỹ thuật viên tại xưởng sản xuất bắt buộc phải đeo 'safety goggles' /ˈseɪfti ˈɡɒɡlz/. Đây là loại trang bị gì?",
       "answerOptions": [
         {
-          "text": "Gỗ.",
+          "text": "Kính bảo hộ",
           "isCorrect": true,
-          "rationale": "Wooden là tính từ phái sinh từ danh từ 'wood' (gỗ), dùng để chỉ các sản phẩm làm từ gỗ."
+          "rationale": "Goggles là loại kính ôm sát vùng mắt để bảo vệ khỏi bụi, hóa chất hoặc vật thể lạ."
         },
         {
-          "text": "Vải ('fabric' /'fæbrɪk/).",
+          "text": "Găng tay cao su",
           "isCorrect": false,
-          "rationale": "Vải là chất liệu mềm dùng cho rèm cửa hoặc thảm, không phải chất liệu cứng như gỗ."
+          "rationale": "Găng tay được gọi là 'gloves'."
         },
         {
-          "text": "Kim loại.",
+          "text": "Mũ bảo hiểm",
           "isCorrect": false,
-          "rationale": "Kim loại thường được mô tả bằng các tính từ như 'metallic' hoặc tên riêng của loại kim loại đó."
+          "rationale": "Mũ bảo hiểm hoặc mũ bảo hộ được gọi là 'helmet' hoặc 'hard hat'."
         },
         {
-          "text": "Đất ('soil' /sɔɪl/).",
+          "text": "Ủng cao su",
           "isCorrect": false,
-          "rationale": "Đất là vật liệu để trồng cây, không phải là chất liệu để chế tạo bàn ghế hay đồ nội thất trực tiếp."
+          "rationale": "Ủng được gọi là 'boots'."
         }
       ],
-      "hint": "Hãy nghĩ về một loại vật liệu tự nhiên lấy từ thân cây."
+      "hint": "Trang bị này dùng để bảo vệ thị giác của người lao động."
     },
     {
-      "question": "Hành động 'examine documents' /ɪɡˈzæmɪn/ yêu cầu người thực hiện phải làm gì?",
+      "question": "Trong kho hàng, nhân viên đang xếp các thùng carton lên một 'wooden pallet' /ˈwʊdn ˈpælət/. 'Pallet' là gì?",
       "answerOptions": [
         {
-          "text": "Sắp xếp tài liệu vào tủ quần áo ('closet' /ˈklɒzɪt/).",
+          "text": "Thang nhôm",
           "isCorrect": false,
-          "rationale": "Sắp xếp là hành động tổ chức (organize) hoặc cất giữ (store), khác với việc kiểm tra nội dung."
+          "rationale": "Cái thang được gọi là 'ladder'."
         },
         {
-          "text": "Nghỉ ngơi ('rest' /rest/) sau khi hoàn thành công việc.",
+          "text": "Xe đẩy hàng",
           "isCorrect": false,
-          "rationale": "Nghỉ ngơi là hành động thư giãn để hồi phục sức lực, không liên quan đến việc xử lý tài liệu."
+          "rationale": "Xe đẩy tay thường được gọi là 'cart' hoặc 'trolley'."
         },
         {
-          "text": "Kiểm tra hoặc xem xét các tài liệu một cách kỹ lưỡng.",
+          "text": "Thùng chứa lớn",
+          "isCorrect": false,
+          "rationale": "Thùng chứa thường là 'container' hoặc 'bin'."
+        },
+        {
+          "text": "Tấm kê hàng",
           "isCorrect": true,
-          "rationale": "Examine là hành động quan sát, kiểm tra hoặc nghiên cứu chi tiết một đối tượng nào đó."
-        },
-        {
-          "text": "Phát tờ rơi ('flyer' /ˈflaɪə(r)/) cho đoàn khách du lịch.",
-          "isCorrect": false,
-          "rationale": "Phát là hành động phân phối (distribute), không phải là kiểm tra nội dung tài liệu."
+          "rationale": "Pallet là một cấu trúc phẳng dùng để cố định hàng hóa khi được nâng bởi xe nâng hoặc các thiết bị vận chuyển khác."
         }
       ],
-      "hint": "Đây là hành động cần sự tập trung cao độ để tìm lỗi sai hoặc thông tin quan trọng."
+      "hint": "Nó thường làm bằng gỗ hoặc nhựa và dùng để đặt hàng hóa lên trên nhằm cách ẩm và dễ vận chuyển."
+    },
+    {
+      "question": "Văn phòng vừa thuê một 'outreach coordinator' /ˈaʊtriːtʃ kəʊˈɔːdɪneɪtə(r)/. Vai trò chính của người này là gì?",
+      "answerOptions": [
+        {
+          "text": "Điều phối các hoạt động kết nối cộng đồng",
+          "isCorrect": true,
+          "rationale": "Người này chịu trách nhiệm xây dựng mối quan hệ giữa tổ chức và các nhóm cộng đồng bên ngoài."
+        },
+        {
+          "text": "Kiểm toán sổ sách tài chính",
+          "isCorrect": false,
+          "rationale": "Đây là nhiệm vụ của một 'auditor' hoặc 'accountant'."
+        },
+        {
+          "text": "Quản lý hệ thống máy tính nội bộ",
+          "isCorrect": false,
+          "rationale": "Công việc quản trị hệ thống thuộc về 'IT administrator'."
+        },
+        {
+          "text": "Tiếp tân tại sảnh tòa nhà",
+          "isCorrect": false,
+          "rationale": "Đây là công việc của một 'receptionist'."
+        }
+      ],
+      "hint": "Từ 'outreach' ám chỉ việc chủ động vươn xa ra ngoài phạm vi nội bộ công ty."
+    },
+    {
+      "question": "Thư ký đang 'restock the shelves' /ˌriːˈstɒk ðə ʃelvz/ trong phòng văn phòng phẩm. Hành động này có nghĩa là:",
+      "answerOptions": [
+        {
+          "text": "Bổ sung thêm hàng hóa/đồ dùng vào kệ",
+          "isCorrect": true,
+          "rationale": "Tiền tố 're-' cộng với 'stock' (hàng trong kho) nghĩa là lấp đầy lại lượng hàng đã hết."
+        },
+        {
+          "text": "Tháo dỡ các kệ cũ",
+          "isCorrect": false,
+          "rationale": "Tháo dỡ thường dùng từ 'dismantle' hoặc 'remove'."
+        },
+        {
+          "text": "Kiểm kê số lượng hàng tồn",
+          "isCorrect": false,
+          "rationale": "Kiểm kê được gọi là 'take inventory' hoặc 'count the stock'."
+        },
+        {
+          "text": "Dọn dẹp bụi bẩn trên kệ",
+          "isCorrect": false,
+          "rationale": "Làm sạch bụi được gọi là 'dusting'."
+        }
+      ],
+      "hint": "Từ đồng nghĩa của nó là 'refill'."
+    },
+    {
+      "question": "Tòa nhà văn phòng nằm cạnh một 'sidewalk café' /ˈsaɪdwɔːk kæˈfeɪ/. Khách hàng có thể ngồi ở đâu?",
+      "answerOptions": [
+        {
+          "text": "Quán cà phê vỉa hè",
+          "isCorrect": true,
+          "rationale": "Sidewalk là lối đi bộ dọc theo cạnh đường phố, nơi mọi người thường đi bộ."
+        },
+        {
+          "text": "Quán cà phê trên sân thượng",
+          "isCorrect": false,
+          "rationale": "Quán cà phê trên cao thường được gọi là 'rooftop café'."
+        },
+        {
+          "text": "Quán cà phê trong tầng hầm",
+          "isCorrect": false,
+          "rationale": "Quán dưới mặt đất thường là 'underground' hoặc 'basement café'."
+        },
+        {
+          "text": "Quán cà phê bên trong sảnh",
+          "isCorrect": false,
+          "rationale": "Đây thường được gọi là 'lobby café'."
+        }
+      ],
+      "hint": "Từ này đồng nghĩa với 'pavement' trong tiếng Anh-Anh."
+    },
+    {
+      "question": "Khi lập kế hoạch tài chính, bộ phận kế toán cần xem xét các 'budgetary constraints' /ˈbʌdʒɪtəri kənˈstreɪnts/. Từ 'budgetary' có nghĩa là:",
+      "answerOptions": [
+        {
+          "text": "Thuộc về pháp lý",
+          "isCorrect": false,
+          "rationale": "Pháp lý được gọi là 'legal'."
+        },
+        {
+          "text": "Thuộc về ngân sách",
+          "isCorrect": true,
+          "rationale": "Budgetary là tính từ của 'budget', dùng để chỉ những gì liên quan đến việc lập và quản lý ngân sách."
+        },
+        {
+          "text": "Thuộc về kỹ thuật",
+          "isCorrect": false,
+          "rationale": "Kỹ thuật thường là 'technical'."
+        },
+        {
+          "text": "Thuộc về cá nhân",
+          "isCorrect": false,
+          "rationale": "Cá nhân là 'personal' hoặc 'individual'."
+        }
+      ],
+      "hint": "Nó liên quan trực tiếp đến tiền bạc và các kế hoạch chi tiêu của công ty."
+    },
+    {
+      "question": "Dưới chân một bản vẽ thiết kế có ghi 'examine carefully' /ɪɡˈzæmɪn ˈkeəfəli/. Bạn nên làm gì?",
+      "answerOptions": [
+        {
+          "text": "Sao chép thành nhiều bản",
+          "isCorrect": false,
+          "rationale": "Sao chép được gọi là 'copy' hoặc 'duplicate'."
+        },
+        {
+          "text": "Vứt bỏ bản vẽ này",
+          "isCorrect": false,
+          "rationale": "Vứt bỏ là 'discard' hoặc 'throw away'."
+        },
+        {
+          "text": "Ký tên vào bản vẽ ngay lập tức",
+          "isCorrect": false,
+          "rationale": "Ký tên là 'sign', hành động này không yêu cầu việc xem xét sâu."
+        },
+        {
+          "text": "Xem xét hoặc kiểm tra một cách cẩn thận",
+          "isCorrect": true,
+          "rationale": "Examine nghĩa là quan sát hoặc nghiên cứu kỹ lưỡng để hiểu rõ hoặc tìm lỗi."
+        }
+      ],
+      "hint": "Từ đồng nghĩa của nó là 'inspect' hoặc 'check'."
+    },
+    {
+      "question": "Công ty cần gửi một hợp đồng gấp cho đối tác và chọn dịch vụ 'express delivery' /ɪkˈspres dɪˈlɪvəri/. Đây là loại dịch vụ gì?",
+      "answerOptions": [
+        {
+          "text": "Giao hàng miễn phí",
+          "isCorrect": false,
+          "rationale": "Giao hàng không tốn phí được gọi là 'free shipping/delivery'."
+        },
+        {
+          "text": "Giao hàng nhanh/hỏa tốc",
+          "isCorrect": true,
+          "rationale": "Express ám chỉ tốc độ nhanh hơn mức thông thường cho các bưu kiện quan trọng."
+        },
+        {
+          "text": "Giao hàng bằng đường thủy",
+          "isCorrect": false,
+          "rationale": "Giao hàng bằng tàu biển thường được gọi là 'sea freight' hoặc 'shipping'."
+        },
+        {
+          "text": "Giao hàng định kỳ hàng tháng",
+          "isCorrect": false,
+          "rationale": "Đây thường là 'monthly' hoặc 'scheduled delivery'."
+        }
+      ],
+      "hint": "Dịch vụ này thường có cam kết về thời gian giao hàng rất ngắn, ví dụ như 'overnight delivery'."
+    },
+    {
+      "question": "Khách hàng đang đợi ở khu vực 'seating area' /ˈsiːtɪŋ ˈeəriə/. Bạn nên dẫn họ đi đâu?",
+      "answerOptions": [
+        {
+          "text": "Khu vực ăn uống",
+          "isCorrect": false,
+          "rationale": "Khu vực ăn uống thường là 'cafeteria' hoặc 'dining area'."
+        },
+        {
+          "text": "Phòng trưng bày sản phẩm",
+          "isCorrect": false,
+          "rationale": "Phòng trưng bày được gọi là 'showroom' hoặc 'exhibition room'."
+        },
+        {
+          "text": "Nhà xe văn phòng",
+          "isCorrect": false,
+          "rationale": "Nhà xe được gọi là 'parking lot' hoặc 'parking garage'."
+        },
+        {
+          "text": "Khu vực chỗ ngồi",
+          "isCorrect": true,
+          "rationale": "Đây là không gian được bố trí sẵn ghế ngồi cho khách hoặc nhân viên nghỉ ngơi, chờ đợi."
+        }
+      ],
+      "hint": "Đây là nơi có các 'chairs' hoặc 'sofas' dành cho khách."
+    },
+    {
+      "question": "Nhân viên vệ sinh đang 'draw the curtains' /drɔː ðə ˈkɜːtnz/ để tránh ánh nắng gắt vào buổi trưa. 'Curtain' là gì?",
+      "answerOptions": [
+        {
+          "text": "Thảm lau chân",
+          "isCorrect": false,
+          "rationale": "Thảm nhỏ được gọi là 'mat'."
+        },
+        {
+          "text": "Bàn làm việc",
+          "isCorrect": false,
+          "rationale": "Bàn làm việc là 'desk'."
+        },
+        {
+          "text": "Rèm cửa",
+          "isCorrect": true,
+          "rationale": "Curtain là tấm vải dùng để che cửa sổ nhằm kiểm soát ánh sáng hoặc tạo sự riêng tư."
+        },
+        {
+          "text": "Cái móc treo áo",
+          "isCorrect": false,
+          "rationale": "Móc treo là 'hook' hoặc 'hanger'."
+        }
+      ],
+      "hint": "Vật dụng này thường đi kèm với các động từ như 'open', 'close' hoặc 'install'."
+    },
+    {
+      "question": "Để chuẩn bị trồng thêm cây xanh quanh tòa nhà, công nhân phải 'dig a hole' /dɪɡ ə həʊl/. Nghĩa của 'dig' là:",
+      "answerOptions": [
+        {
+          "text": "Lấp",
+          "isCorrect": false,
+          "rationale": "Lấp đầy lỗ hổng thường dùng từ 'fill'."
+        },
+        {
+          "text": "Đào",
+          "isCorrect": true,
+          "rationale": "Dig là hành động dùng dụng cụ hoặc tay để bới đất lên nhằm tạo ra một khoảng trống."
+        },
+        {
+          "text": "Tưới nước",
+          "isCorrect": false,
+          "rationale": "Tưới nước cho cây được gọi là 'watering'."
+        },
+        {
+          "text": "Cắt tỉa",
+          "isCorrect": false,
+          "rationale": "Cắt tỉa cây cối được gọi là 'trimming' hoặc 'pruning'."
+        }
+      ],
+      "hint": "Hành động này thường cần đến một cái xẻng (shovel)."
+    },
+    {
+      "question": "Tại hội nghị, mỗi vị khách đều được phát một chiếc 'ID badge' /ˌaɪˈdiː bædʒ/. 'Badge' là gì?",
+      "answerOptions": [
+        {
+          "text": "Huy hiệu hoặc thẻ tên",
+          "isCorrect": true,
+          "rationale": "Badge là một vật nhỏ dùng để đeo nhằm chứng minh danh tính hoặc tư cách thành viên."
+        },
+        {
+          "text": "Tài liệu hướng dẫn",
+          "isCorrect": false,
+          "rationale": "Tài liệu được gọi là 'document' hoặc 'manual'."
+        },
+        {
+          "text": "Sơ đồ tòa nhà",
+          "isCorrect": false,
+          "rationale": "Sơ đồ được gọi là 'floor plan' hoặc 'map'."
+        },
+        {
+          "text": "Quà tặng lưu niệm",
+          "isCorrect": false,
+          "rationale": "Quà lưu niệm được gọi là 'souvenir'."
+        }
+      ],
+      "hint": "Nhân viên thường phải đeo vật này trên ngực áo khi vào công ty để bảo vệ nhận diện."
+    },
+    {
+      "question": "Công ty đang tìm cách để 'mow the lawn' /məʊ ðə lɔːn/. Khu vực nào đang được chăm sóc?",
+      "answerOptions": [
+        {
+          "text": "Sân thượng",
+          "isCorrect": false,
+          "rationale": "Sân thượng được gọi là 'rooftop'."
+        },
+        {
+          "text": "Khu vực để xe",
+          "isCorrect": false,
+          "rationale": "Đây là 'parking lot'."
+        },
+        {
+          "text": "Bãi cỏ",
+          "isCorrect": true,
+          "rationale": "Lawn là một vùng đất trồng cỏ được chăm sóc và cắt tỉa thường xuyên quanh các tòa nhà."
+        },
+        {
+          "text": "Vườn hoa hồng",
+          "isCorrect": false,
+          "rationale": "Vườn hoa thường được gọi là 'flower garden'."
+        }
+      ],
+      "hint": "Việc này thường cần đến một thiết bị gọi là 'lawn mower'."
+    },
+    {
+      "question": "Trên bàn tiệc trưa với đối tác, bạn nên chuẩn bị các chiếc 'cloth napkins' /ˈnæpkɪnz/. 'Napkin' là gì?",
+      "answerOptions": [
+        {
+          "text": "Tấm lót ly",
+          "isCorrect": false,
+          "rationale": "Vật để lót ly nước được gọi là 'coaster'."
+        },
+        {
+          "text": "Khăn ăn",
+          "isCorrect": true,
+          "rationale": "Napkin là miếng vải hoặc giấy dùng để lau miệng và tay trong bữa ăn."
+        },
+        {
+          "text": "Khăn trải bàn",
+          "isCorrect": false,
+          "rationale": "Tấm vải phủ toàn bộ mặt bàn là 'tablecloth'."
+        },
+        {
+          "text": "Khăn lau bàn",
+          "isCorrect": false,
+          "rationale": "Khăn dùng để làm sạch bàn thường gọi là 'cleaning cloth'."
+        }
+      ],
+      "hint": "Nó có thể làm bằng giấy (paper) hoặc bằng vải (cloth)."
+    },
+    {
+      "question": "Trong nhà kho, các mặt hàng được xếp 'underneath the table' /ˌʌndəˈniːθ ðə ˈteɪbl/. Vị trí này là ở đâu?",
+      "answerOptions": [
+        {
+          "text": "Bên cạnh cái bàn",
+          "isCorrect": false,
+          "rationale": "Bên cạnh là 'beside' hoặc 'next to'."
+        },
+        {
+          "text": "Phía sau cái bàn",
+          "isCorrect": false,
+          "rationale": "Phía sau là 'behind'."
+        },
+        {
+          "text": "Bên trên cái bàn",
+          "isCorrect": false,
+          "rationale": "Bên trên là 'on' hoặc 'above'."
+        },
+        {
+          "text": "Bên dưới cái bàn",
+          "isCorrect": true,
+          "rationale": "Underneath là giới từ chỉ vị trí nằm ngay phía dưới một vật nào đó."
+        }
+      ],
+      "hint": "Từ đồng nghĩa của nó là 'below' hoặc 'beneath'."
+    },
+    {
+      "question": "Công ty khuyến khích nhân viên đạp xe đi làm và vừa 'install a bike rack' /ɪnˈstɔːl ə baɪk ræk/. 'Bike rack' dùng để làm gì?",
+      "answerOptions": [
+        {
+          "text": "Làm rào chắn bảo vệ",
+          "isCorrect": false,
+          "rationale": "Rào chắn được gọi là 'fence' hoặc 'barrier'."
+        },
+        {
+          "text": "Làm biển báo giao thông",
+          "isCorrect": false,
+          "rationale": "Biển báo được gọi là 'traffic sign'."
+        },
+        {
+          "text": "Làm giá để xe đạp",
+          "isCorrect": true,
+          "rationale": "Rack là một cái khung hoặc giá dùng để treo hoặc giữ vật dụng, ở đây là xe đạp."
+        },
+        {
+          "text": "Làm đường cho người đi bộ",
+          "isCorrect": false,
+          "rationale": "Đường đi bộ thường là 'walkway' hoặc 'sidewalk'."
+        }
+      ],
+      "hint": "Đó là nơi an toàn để nhân viên đỗ xe đạp của họ."
+    },
+    {
+      "question": "Khi khách vào văn phòng vào mùa đông, bạn có thể chỉ họ treo áo khoác lên các 'coat hooks' /kəʊt hʊks/ trên tường. 'Hook' là gì?",
+      "answerOptions": [
+        {
+          "text": "Cái đinh",
+          "isCorrect": false,
+          "rationale": "Cái đinh được gọi là 'nail'."
+        },
+        {
+          "text": "Cái móc",
+          "isCorrect": true,
+          "rationale": "Hook là một vật bằng kim loại hoặc nhựa cong dùng để treo đồ vật."
+        },
+        {
+          "text": "Kệ sách",
+          "isCorrect": false,
+          "rationale": "Kệ sách là 'bookshelf'."
+        },
+        {
+          "text": "Ngăn kéo",
+          "isCorrect": false,
+          "rationale": "Ngăn kéo là 'drawer'."
+        }
+      ],
+      "hint": "Đừng nhầm nó với 'hanger' (móc treo có khung)."
+    },
+    {
+      "question": "Văn phòng mới của bạn nằm ở 'corner of the street' /ˈkɔːnə(r) əv ðə striːt/. Vị trí này có nghĩa là:",
+      "answerOptions": [
+        {
+          "text": "Giữa phố",
+          "isCorrect": false,
+          "rationale": "Giữa phố thường dùng cụm 'in the middle of the street'."
+        },
+        {
+          "text": "Cuối phố",
+          "isCorrect": false,
+          "rationale": "Cuối phố là 'at the end of the street'."
+        },
+        {
+          "text": "Góc đường",
+          "isCorrect": true,
+          "rationale": "Corner chỉ điểm giao nhau của hai con phố hoặc hai bức tường."
+        },
+        {
+          "text": "Đối diện phố",
+          "isCorrect": false,
+          "rationale": "Đối diện là 'across the street'."
+        }
+      ],
+      "hint": "Đây là nơi giao nhau giữa hai con đường."
+    },
+    {
+      "question": "Quản lý tòa nhà yêu cầu 'trash bin' /træʃ bɪn/ phải được làm rỗng mỗi tối. 'Trash' có nghĩa là:",
+      "answerOptions": [
+        {
+          "text": "Rác",
+          "isCorrect": true,
+          "rationale": "Trash là những thứ đồ vật không còn giá trị sử dụng và cần được vứt bỏ."
+        },
+        {
+          "text": "Tài liệu lưu trữ",
+          "isCorrect": false,
+          "rationale": "Tài liệu lưu trữ thường gọi là 'archives'."
+        },
+        {
+          "text": "Thiết bị cũ",
+          "isCorrect": false,
+          "rationale": "Thiết bị cũ có thể gọi là 'old equipment' hoặc 'outdated devices'."
+        },
+        {
+          "text": "Hàng tồn kho",
+          "isCorrect": false,
+          "rationale": "Hàng tồn kho là 'inventory' hoặc 'stock'."
+        }
+      ],
+      "hint": "Từ đồng nghĩa của nó là 'garbage' hoặc 'waste'."
+    },
+    {
+      "question": "Công ty đang chuẩn bị cho một 'fully funded project' /ˈfʊli ˈfʌndɪd ˈprɒdʒekt/. Dự án này có đặc điểm gì?",
+      "answerOptions": [
+        {
+          "text": "Được tài trợ toàn bộ kinh phí",
+          "isCorrect": true,
+          "rationale": "Fully funded có nghĩa là mọi chi phí cần thiết đã được cung cấp đủ, không cần huy động thêm."
+        },
+        {
+          "text": "Bị thiếu hụt ngân sách",
+          "isCorrect": false,
+          "rationale": "Thiếu hụt ngân sách gọi là 'underfunded'."
+        },
+        {
+          "text": "Đang trong quá trình kêu gọi vốn",
+          "isCorrect": false,
+          "rationale": "Quy trình này thường gọi là 'fundraising'."
+        },
+        {
+          "text": "Dự án phi lợi nhuận",
+          "isCorrect": false,
+          "rationale": "Dự án phi lợi nhuận là 'non-profit project', không nhất thiết phải được tài trợ toàn bộ."
+        }
+      ],
+      "hint": "Từ 'fully' chỉ mức độ hoàn toàn và 'funded' liên quan đến nguồn vốn."
     }
   ]
 }
