@@ -1,10 +1,11 @@
 "use client";
 
-import { useState, useLayoutEffect } from "react";
+import { useState, useEffect } from "react";
+import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { LessonCard } from "@/components/LessonCard";
 import { PracticeCard } from "@/components/PracticeCard";
 
-const TAB_STORAGE_KEY = "toeic-active-tab";
+
 
 const TABS = [
   { id: "vocab", label: "Từ Vựng", icon: (
@@ -20,6 +21,7 @@ interface Part5Test {
   label: string;
   range: string;
   isAvailable: boolean;
+  hasScenarios?: boolean;
 }
 
 interface HomeContentProps {
@@ -29,19 +31,22 @@ interface HomeContentProps {
 }
 
 export function HomeContent({ part5Tests, totalVocabLessons, availableVocabLessons }: HomeContentProps) {
-  const [activeTab, setActiveTab] = useState(() => {
-    if (typeof window !== "undefined") {
-      const saved = localStorage.getItem(TAB_STORAGE_KEY);
-      if (saved === "vocab" || saved === "part5") return saved;
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const pathname = usePathname();
+  const paramTab = searchParams.get("tab");
+  
+  const [activeTab, setActiveTab] = useState(paramTab === "part5" ? "part5" : "vocab");
+
+  useEffect(() => {
+    if (paramTab === "part5" || paramTab === "vocab") {
+      setActiveTab(paramTab);
     }
-    return "vocab";
-  });
+  }, [paramTab]);
 
   const handleTabChange = (tabId: string) => {
     setActiveTab(tabId);
-    if (typeof window !== "undefined") {
-      localStorage.setItem(TAB_STORAGE_KEY, tabId);
-    }
+    router.replace(`${pathname}?tab=${tabId}`, { scroll: false });
   };
 
   return (
@@ -110,6 +115,7 @@ export function HomeContent({ part5Tests, totalVocabLessons, availableVocabLesso
                   testLabel={test.label}
                   questionRange={test.range}
                   isAvailable={test.isAvailable}
+                  hasScenarios={test.hasScenarios}
                 />
               </div>
             ))}

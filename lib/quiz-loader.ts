@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import type { QuizData } from "./types";
+import type { QuizData, ScenarioData } from "./types";
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -38,4 +38,23 @@ export function loadQuizData(
   } catch {
     return null;
   }
+}
+
+// Scenario auto-discovery
+export function hasScenarioData(testId: string): boolean {
+  const filePath = path.join(DATA_DIR, "part5", `${testId}_scenarios.json`);
+  return fs.existsSync(filePath);
+}
+
+export function loadScenarioData(testId: string): ScenarioData | null {
+  const filePath = path.join(DATA_DIR, "part5", `${testId}_scenarios.json`);
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+export function getTestsWithScenarios(): string[] {
+  return scanQuizFiles("part5", /^(.+)_scenarios\.json$/);
 }

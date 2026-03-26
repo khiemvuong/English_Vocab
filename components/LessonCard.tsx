@@ -9,6 +9,7 @@ export function LessonCard({ lesson, isAvailable = false }: { lesson: number; is
   const progressState = useQuizStore(state => state.progress[lesson.toString()]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
   

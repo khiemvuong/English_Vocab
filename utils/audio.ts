@@ -2,6 +2,7 @@
 
 export const playSound = (type: 'correct' | 'incorrect') => {
   try {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const AudioContext = window.AudioContext || (window as any).webkitAudioContext;
     if (!AudioContext) return;
     const ctx = new AudioContext();
@@ -31,7 +32,7 @@ export const playSound = (type: 'correct' | 'incorrect') => {
       osc.start(ctx.currentTime);
       osc.stop(ctx.currentTime + 0.15);
     }
-  } catch (e) {
+  } catch {
     // Silently fail if blocked by browser policies
   }
 };
@@ -50,6 +51,6 @@ export const speakWord = (text: string) => {
     }
     utterance.rate = 0.85;
     window.speechSynthesis.speak(utterance);
-  } catch (e) {
+  } catch {
   }
 };

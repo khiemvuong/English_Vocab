@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useCallback } from "react";
 import { useQuizStore } from "@/store/quizStore";
 import { playSound, speakWord } from "@/utils/audio";
 import { useRouter } from "next/navigation";
@@ -68,6 +68,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
 
   useEffect(() => {
     initLesson(lessonId, quizData.questions.length);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, [lessonId, initLesson, quizData.questions.length]);
 
@@ -81,16 +82,17 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
   const selectedOption = answers[currentIndex] ?? null;
   const isAnswered = selectedOption !== null;
 
-  const handleSelectOption = (idx: number, isCorrect: boolean) => {
+  const handleSelectOption = useCallback((idx: number, isCorrect: boolean) => {
     if (selectedOption !== null) return;
     answerQuestion(lessonId, currentIndex, idx, isCorrect);
     
     if (!isMuted) {
       playSound(isCorrect ? 'correct' : 'incorrect');
     }
-  };
+  }, [selectedOption, answerQuestion, lessonId, currentIndex, isMuted]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setShowHint(false);
   }, [currentIndex]);
 
@@ -117,7 +119,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentIndex, selectedOption, isFinished, question, lessonId, quizData.questions.length, answerQuestion, goToNext, goToPrev, mounted, session]);
+  }, [currentIndex, selectedOption, isFinished, question, lessonId, quizData.questions.length, answerQuestion, goToNext, goToPrev, mounted, session, handleSelectOption]);
 
   if (!mounted) {
     return (
@@ -169,11 +171,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
           
           <button 
             onClick={() => {
-              if (window.history.length > 2) {
-                router.back();
-              } else {
-                router.push('/');
-              }
+              router.push(lessonId.startsWith('part5') ? '/?tab=part5' : '/?tab=vocab');
             }}
             title="Exit Quiz"
             className="flex items-center gap-1.5 px-3 py-1.5 text-slate-600 bg-slate-100 hover:text-red-700 hover:bg-red-50 active:bg-red-100 rounded-full transition-colors cursor-pointer"
@@ -263,7 +261,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
                       <div className="mt-3 text-sm text-slate-600 animate-in fade-in slide-in-from-top-2 duration-300">
                         {isCorrect && <div className="text-green-600 font-medium flex items-center gap-1.5 mb-1">
                           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                          That's right!
+                          That&apos;s right!
                         </div>}
                         {isSelected && !isCorrect && <div className="text-red-600 font-medium flex items-center gap-1.5 mb-1">
                           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
@@ -448,11 +446,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
                 </button>
                 <button 
                   onClick={() => {
-                    if (window.history.length > 2) {
-                      router.back();
-                    } else {
-                      router.push('/');
-                    }
+                    router.push(lessonId.startsWith('part5') ? '/?tab=part5' : '/?tab=vocab');
                   }}
                   className="flex-1 py-3.5 flex justify-center items-center bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors shadow-xl shadow-blue-600/20 text-sm lg:text-base cursor-pointer"
                 >

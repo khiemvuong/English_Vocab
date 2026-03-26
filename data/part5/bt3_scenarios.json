@@ -1,0 +1,613 @@
+{
+  "title": "BT3 – Từ Vựng Theo Tình Huống",
+  "scenarios": [
+    {
+      "id": 1,
+      "title": "Phi vụ đàm phán cấp cao",
+      "theme": "Hành chính & Đối tác",
+      "passages": [
+        {
+          "text": "Hôm nay, một {0} (cộng sự) vô cùng {1} (có năng lực) và {2} (siêng năng) của công ty {3} (cổ phần/tập đoàn) bước vào phòng họp cho một cuộc {4} (đàm phán) quan trọng.",
+          "blanks": [
+            {
+              "hint": "cộng sự/đồng nghiệp",
+              "answer": "associate",
+              "options": [
+                "associate",
+                "indicator",
+                "assembly",
+                "admission"
+              ]
+            },
+            {
+              "hint": "có năng lực",
+              "answer": "competent",
+              "options": [
+                "confident",
+                "confidential",
+                "casual",
+                "competent"
+              ]
+            },
+            {
+              "hint": "siêng năng",
+              "answer": "diligent",
+              "options": [
+                "sensitive",
+                "evident",
+                "diligent",
+                "dramatic"
+              ]
+            },
+            {
+              "hint": "cổ phần/tập đoàn",
+              "answer": "incorporated",
+              "options": [
+                "inspected",
+                "interfered",
+                "incorporated",
+                "indicated"
+              ]
+            },
+            {
+              "hint": "đàm phán",
+              "answer": "negotiation",
+              "options": [
+                "negotiation",
+                "navigation",
+                "notification",
+                "nomination"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Anh mang theo một bản {0} (báo cáo/lời tuyên bố) có tính chất cực kỳ {1} (bảo mật). Dù một số điều khoản hợp đồng đối tác đưa ra lúc đầu còn khá {2} (mơ hồ), anh vẫn {3} (thuyết phục) được họ.",
+          "blanks": [
+            {
+              "hint": "báo cáo/lời tuyên bố",
+              "answer": "statement",
+              "options": [
+                "stain remover",
+                "surplus",
+                "source",
+                "statement"
+              ]
+            },
+            {
+              "hint": "bảo mật",
+              "answer": "confidential",
+              "options": [
+                "competent",
+                "casual",
+                "confidential",
+                "convinced"
+              ]
+            },
+            {
+              "hint": "mơ hồ, không rõ ràng",
+              "answer": "vague",
+              "options": [
+                "sensitive",
+                "rapid",
+                "vague",
+                "evident"
+              ]
+            },
+            {
+              "hint": "thuyết phục",
+              "answer": "convinced",
+              "options": [
+                "contained",
+                "combined",
+                "complied",
+                "convinced"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sếp đã {0} (trấn an) cả đội rằng mọi người chỉ cần {1} (tuân thủ) đúng {2} (quy trình) và không một ai được phép {3} (can thiệp) vào quyết định này.",
+          "blanks": [
+            {
+              "hint": "trấn an",
+              "answer": "reassure",
+              "options": [
+                "restore",
+                "restrict",
+                "reassure",
+                "require"
+              ]
+            },
+            {
+              "hint": "tuân thủ",
+              "answer": "comply",
+              "options": [
+                "combine",
+                "contain",
+                "comply",
+                "convince"
+              ]
+            },
+            {
+              "hint": "quy trình",
+              "answer": "procedure",
+              "options": [
+                "presentation",
+                "precision",
+                "parade",
+                "procedure"
+              ]
+            },
+            {
+              "hint": "can thiệp",
+              "answer": "interfere",
+              "options": [
+                "indicate",
+                "incorporate",
+                "inspect",
+                "interfere"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kết quả thật {0} (hiển nhiên), công ty đã thu về một khoản {1} (thặng dư) ngân sách khổng lồ cuối năm. Thật {2} (may mắn) và mọi nỗ lực đã được đền đáp {3} (một cách chính đáng)!",
+          "blanks": [
+            {
+              "hint": "hiển nhiên",
+              "answer": "evident",
+              "options": [
+                "evident",
+                "effective",
+                "exterior",
+                "essential"
+              ]
+            },
+            {
+              "hint": "thặng dư/tiền dư ra",
+              "answer": "surplus",
+              "options": [
+                "surplus",
+                "status",
+                "source",
+                "statement"
+              ]
+            },
+            {
+              "hint": "may mắn",
+              "answer": "fortunate",
+              "options": [
+                "fundamental",
+                "familiar",
+                "fortunate",
+                "frequent"
+              ]
+            },
+            {
+              "hint": "một cách chính đáng",
+              "answer": "rightfully",
+              "options": [
+                "recently",
+                "remarkably",
+                "rightfully",
+                "rapidly"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Xưởng sản xuất & Sự cố vận chuyển",
+      "theme": "Hàng hóa & Bảo trì",
+      "passages": [
+        {
+          "text": "Lô hàng {0} (sơn ngoại thất) và {1} (chất tẩy vết bẩn) đã được {2} (lên lịch giao hàng) vào sáng nay.",
+          "blanks": [
+            {
+              "hint": "sơn ngoại thất",
+              "answer": "exterior paint",
+              "options": [
+                "extra part",
+                "essential product",
+                "exterior paint",
+                "executive plan"
+              ]
+            },
+            {
+              "hint": "chất tẩy vết bẩn",
+              "answer": "stain remover",
+              "options": [
+                "stain remover",
+                "stock manager",
+                "store reviewer",
+                "staff member"
+              ]
+            },
+            {
+              "hint": "lên lịch giao hàng",
+              "answer": "scheduled for delivery",
+              "options": [
+                "sent for review",
+                "set for discussion",
+                "submitted for approval",
+                "scheduled for delivery"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tuy nhiên, sự cố nâng hạ là {0} (nguyên nhân) khiến vài chiếc thùng {1} (chứa đựng) hóa chất bị vỡ, dẫn đến hư hỏng nặng {2} (vượt quá) khả năng sửa chữa.",
+          "blanks": [
+            {
+              "hint": "nguyên nhân",
+              "answer": "cause",
+              "options": [
+                "cause",
+                "course",
+                "clause",
+                "case"
+              ]
+            },
+            {
+              "hint": "chứa đựng",
+              "answer": "contain",
+              "options": [
+                "contain",
+                "confirm",
+                "combine",
+                "complain"
+              ]
+            },
+            {
+              "hint": "vượt quá (beyond repair)",
+              "answer": "beyond",
+              "options": [
+                "beyond",
+                "below",
+                "between",
+                "beside"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Khi đang làm việc trên dây chuyền {0} (lắp ráp), một công nhân bỗng {1} (liếc nhìn) qua cửa sổ và {2} (nhận thấy) sự việc này.",
+          "blanks": [
+            {
+              "hint": "lắp ráp",
+              "answer": "assembly",
+              "options": [
+                "assessment",
+                "admission",
+                "assistance",
+                "assembly"
+              ]
+            },
+            {
+              "hint": "liếc nhìn",
+              "answer": "glanced",
+              "options": [
+                "granted",
+                "grabbed",
+                "glanced",
+                "guessed"
+              ]
+            },
+            {
+              "hint": "nhận thấy",
+              "answer": "noticed",
+              "options": [
+                "navigated",
+                "noticed",
+                "neglected",
+                "nominated"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Quản lý lập tức {0} (thanh tra/kiểm tra) hiện trường và yêu cầu lau dọn ngay lập tức để giữ cho mặt sàn {1} (sáng bóng) và sạch sẽ {2} (một cách lâu dài).",
+          "blanks": [
+            {
+              "hint": "thanh tra/kiểm tra kỹ lưỡng",
+              "answer": "inspected",
+              "options": [
+                "interfered",
+                "inspected",
+                "impressed",
+                "indicated"
+              ]
+            },
+            {
+              "hint": "sáng bóng",
+              "answer": "brightly",
+              "options": [
+                "bravely",
+                "briefly",
+                "broadly",
+                "brightly"
+              ]
+            },
+            {
+              "hint": "một cách lâu dài",
+              "answer": "lastingly",
+              "options": [
+                "lively",
+                "lately",
+                "largely",
+                "lastingly"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Ngày hội tư vấn Đại học",
+      "theme": "Sự kiện & Giáo dục",
+      "passages": [
+        {
+          "text": "Tại một {0} (hội nghị) giới thiệu về {1} (tuyển sinh đại học), toàn bộ {2} (đội ngũ giảng viên/khoa) đứng đón khách dọc theo {3} (hành lang).",
+          "blanks": [
+            {
+              "hint": "hội nghị",
+              "answer": "conference",
+              "options": [
+                "conference",
+                "competent",
+                "corridor",
+                "compliance"
+              ]
+            },
+            {
+              "hint": "tuyển sinh đại học",
+              "answer": "college admission",
+              "options": [
+                "company association",
+                "college admission",
+                "customer acquisition",
+                "career advancement"
+              ]
+            },
+            {
+              "hint": "đội ngũ giảng viên/khoa",
+              "answer": "faculty",
+              "options": [
+                "familiar",
+                "facility",
+                "fortunate",
+                "faculty"
+              ]
+            },
+            {
+              "hint": "hành lang",
+              "answer": "corridor",
+              "options": [
+                "contract",
+                "calendar",
+                "conference",
+                "corridor"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tòa nhà được trang bị {0} (cơ sở vật chất) cực kỳ hiện đại, mở những bản nhạc {1} (êm dịu) để giúp phụ huynh và học sinh thư giãn. Mọi người trò chuyện trong trang phục {2} (bình thường, thoải mái).",
+          "blanks": [
+            {
+              "hint": "cơ sở vật chất",
+              "answer": "facilities",
+              "options": [
+                "features",
+                "facilities",
+                "faculty",
+                "formulas"
+              ]
+            },
+            {
+              "hint": "êm dịu",
+              "answer": "soothing",
+              "options": [
+                "soothing",
+                "sharply",
+                "sensitive",
+                "surplus"
+              ]
+            },
+            {
+              "hint": "bình thường, thoải mái, không trang trọng",
+              "answer": "casual",
+              "options": [
+                "casual",
+                "capable",
+                "crucial",
+                "causal"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Cùng lúc đó, ở ngoài đường, một cuộc {0} (diễu hành) rộn ràng đang đi ngang {1} (băng qua) con phố, náo nhiệt {2} (cứ như thể là) cả thành phố đang mở hội.",
+          "blanks": [
+            {
+              "hint": "diễu hành",
+              "answer": "parade",
+              "options": [
+                "procedure",
+                "parade",
+                "promotion",
+                "precision"
+              ]
+            },
+            {
+              "hint": "băng qua",
+              "answer": "across",
+              "options": [
+                "around",
+                "across",
+                "along",
+                "above"
+              ]
+            },
+            {
+              "hint": "cứ như thể là",
+              "answer": "as if",
+              "options": [
+                "even though",
+                "so that",
+                "in case",
+                "as if"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Báo cáo kinh doanh cuối quý",
+      "theme": "Phân tích & Xu hướng",
+      "passages": [
+        {
+          "text": "{0} (Gần đây), các {1} (chỉ số) kinh tế của công ty tăng trưởng rất {2} (nhanh chóng) và {3} (đột ngột, mạnh mẽ).",
+          "blanks": [
+            {
+              "hint": "Gần đây/Mới đây",
+              "answer": "Lately",
+              "options": [
+                "Lately",
+                "Lively",
+                "Largely",
+                "Lastingly"
+              ]
+            },
+            {
+              "hint": "chỉ số",
+              "answer": "indicator",
+              "options": [
+                "inspector",
+                "investor",
+                "indicator",
+                "instructor"
+              ]
+            },
+            {
+              "hint": "nhanh chóng",
+              "answer": "rapid",
+              "options": [
+                "remarkable",
+                "rightful",
+                "routine",
+                "rapid"
+              ]
+            },
+            {
+              "hint": "đột ngột, mạnh mẽ (biểu đồ)",
+              "answer": "sharply",
+              "options": [
+                "shortly",
+                "smoothly",
+                "simply",
+                "sharply"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "{0} (Trong khi đó), công ty đối thủ lại đang chật vật giải quyết sự {1} (chậm trễ) trong chuỗi cung ứng vì nhân viên hay đi làm {2} (muộn). Vấn đề này làm các nhà đầu tư rất {3} (nhạy cảm).",
+          "blanks": [
+            {
+              "hint": "Trong khi đó/Ngược lại",
+              "answer": "Whereas",
+              "options": [
+                "Whereas",
+                "Whenever",
+                "Whatever",
+                "Wherever"
+              ]
+            },
+            {
+              "hint": "sự chậm trễ",
+              "answer": "lateness",
+              "options": [
+                "lateness",
+                "laziness",
+                "loneliness",
+                "largeness"
+              ]
+            },
+            {
+              "hint": "muộn",
+              "answer": "late",
+              "options": [
+                "lately",
+                "later",
+                "late",
+                "latest"
+              ]
+            },
+            {
+              "hint": "nhạy cảm",
+              "answer": "sensitive",
+              "options": [
+                "soothing",
+                "sensitive",
+                "surplus",
+                "suitable"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Giám đốc của chúng ta {0} (sở hữu) tầm nhìn xuất sắc khiến đối thủ {1} (gần như) không thể đuổi kịp. Giờ đây, nhân viên mới và cũ {2} (đều như nhau) đều được thưởng nóng vì những đóng góp {3} (một cách đáng kinh ngạc) của họ!",
+          "blanks": [
+            {
+              "hint": "sở hữu",
+              "answer": "possess",
+              "options": [
+                "propose",
+                "proceed",
+                "possess",
+                "promote"
+              ]
+            },
+            {
+              "hint": "gần như",
+              "answer": "nearly",
+              "options": [
+                "newly",
+                "neatly",
+                "namely",
+                "nearly"
+              ]
+            },
+            {
+              "hint": "đều như nhau",
+              "answer": "alike",
+              "options": [
+                "alike",
+                "apart",
+                "along",
+                "alive"
+              ]
+            },
+            {
+              "hint": "một cách đáng kinh ngạc",
+              "answer": "remarkably",
+              "options": [
+                "rapidly",
+                "remarkably",
+                "rightfully",
+                "recently"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -9,6 +9,15 @@ export interface LessonProgress {
   totalQuestions: number;
 }
 
+export interface ScenarioProgress {
+  scenarioIdx: number;
+  passageIdx: number;
+  blankIdx: number;
+  answers: Record<string, string>;
+  isFinished: boolean;
+  score: number;
+}
+
 interface QuizStore {
   progress: Record<string, LessonProgress>;
   isMuted: boolean;
@@ -18,12 +27,17 @@ interface QuizStore {
   goToNext: (lessonId: string, totalQuestions: number) => void;
   goToPrev: (lessonId: string) => void;
   restartLesson: (lessonId: string) => void;
+  scenarioProgress: Record<string, ScenarioProgress>;
+  updateScenarioState: (testId: string, updates: Partial<ScenarioProgress>) => void;
+  answerScenarioBlank: (testId: string, blankKey: string, answer: string, isCorrect: boolean) => void;
+  restartScenario: (testId: string) => void;
 }
 
 export const useQuizStore = create<QuizStore>()(
   persist(
     (set) => ({
       progress: {},
+      scenarioProgress: {},
       isMuted: false,
       toggleMute: () => set((state) => ({ isMuted: !state.isMuted })),
       initLesson: (lessonId, totalQuestions) => set((state) => {
@@ -93,6 +107,58 @@ export const useQuizStore = create<QuizStore>()(
             isFinished: false, 
             score: 0, 
             totalQuestions: state.progress[lessonId]?.totalQuestions || 0 
+          }
+        }
+      })),
+      updateScenarioState: (testId, updates) => set((state) => {
+        const current = state.scenarioProgress[testId] || {
+          scenarioIdx: 0,
+          passageIdx: 0,
+          blankIdx: 0,
+          answers: {},
+          isFinished: false,
+          score: 0
+        };
+        return {
+          scenarioProgress: {
+            ...state.scenarioProgress,
+            [testId]: { ...current, ...updates }
+          }
+        };
+      }),
+      answerScenarioBlank: (testId, blankKey, answer, isCorrect) => set((state) => {
+        const current = state.scenarioProgress[testId] || {
+          scenarioIdx: 0,
+          passageIdx: 0,
+          blankIdx: 0,
+          answers: {},
+          isFinished: false,
+          score: 0
+        };
+        // If already answered, ignore
+        if (current.answers[blankKey] !== undefined) return state;
+        
+        return {
+          scenarioProgress: {
+            ...state.scenarioProgress,
+            [testId]: {
+              ...current,
+              answers: { ...current.answers, [blankKey]: answer },
+              score: isCorrect ? current.score + 1 : current.score
+            }
+          }
+        };
+      }),
+      restartScenario: (testId) => set((state) => ({
+        scenarioProgress: {
+          ...state.scenarioProgress,
+          [testId]: {
+            scenarioIdx: 0,
+            passageIdx: 0,
+            blankIdx: 0,
+            answers: {},
+            isFinished: false,
+            score: 0
           }
         }
       }))
