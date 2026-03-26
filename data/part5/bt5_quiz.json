@@ -1,0 +1,395 @@
+{
+  "title": "TOEIC Part 5 - BT5 (Questions 101-130)",
+  "questions": [
+    {
+      "id": 101,
+      "question": "We will begin boarding procedures now for anyone who ------- additional time getting on the plane.",
+      "answerOptions": [
+        { "text": "(A) need", "isCorrect": false, "rationale": "'need' không chia — chủ ngữ 'anyone' là ngôi 3 số ít, cần 'needs'." },
+        { "text": "(B) to need", "isCorrect": false, "rationale": "'to need' là nguyên thể, cần động từ chia." },
+        { "text": "(C) needs", "isCorrect": true, "rationale": "'needs' chia ngôi 3 số ít cho 'anyone who'. Câu nghĩa: Bất cứ ai cần thêm thời gian lên máy bay." },
+        { "text": "(D) needing", "isCorrect": false, "rationale": "'needing' là phân từ, thiếu trợ động từ." }
+      ],
+      "hint": "'anyone' đi với động từ số ít.",
+      "translation": "Chúng tôi sẽ bắt đầu thủ tục lên máy bay cho bất cứ ai cần thêm thời gian.",
+      "category": "grammar"
+    },
+    {
+      "id": 102,
+      "question": "Each pair of Banyan sunglasses comes ------- a protective carrying case.",
+      "answerOptions": [
+        { "text": "(A) before", "isCorrect": false, "rationale": "'before' (trước) — không tạo thành cụm có nghĩa." },
+        { "text": "(B) along", "isCorrect": false, "rationale": "'along' thiếu 'with' để tạo thành 'along with'." },
+        { "text": "(C) upon", "isCorrect": false, "rationale": "'upon' (trên) — không phù hợp ngữ cảnh." },
+        { "text": "(D) with", "isCorrect": true, "rationale": "'comes with' = đi kèm với. Câu nghĩa: Mỗi cặp kính đi kèm hộp đựng bảo vệ." }
+      ],
+      "hint": "Collocation: 'comes _____ something' = đi kèm với.",
+      "translation": "Mỗi cặp kính Banyan đi kèm với hộp đựng bảo vệ.",
+      "category": "preposition"
+    },
+    {
+      "id": 103,
+      "question": "The northbound lanes of Highway 13 will be closed tomorrow for ------- maintenance.",
+      "answerOptions": [
+        { "text": "(A) delinquent", "isCorrect": false, "rationale": "'delinquent' (phạm lỗi) — không hợp ngữ cảnh bảo trì đường." },
+        { "text": "(B) routine", "isCorrect": true, "rationale": "'routine' (thường kỳ) — 'routine maintenance' = bảo trì thường kỳ. Cụm từ phổ biến." },
+        { "text": "(C) constant", "isCorrect": false, "rationale": "'constant' (liên tục) — không tự nhiên với việc đóng đường 1 ngày." },
+        { "text": "(D) legal", "isCorrect": false, "rationale": "'legal' (pháp lý) — không phù hợp ngữ cảnh." }
+      ],
+      "hint": "Tính từ nào mô tả loại bảo trì được thực hiện định kỳ?",
+      "translation": "Các làn xe hướng bắc của Quốc lộ 13 sẽ bị đóng vào ngày mai để bảo trì thường kỳ.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 104,
+      "question": "To get assistance with any technical issues, you can call ------- support team at 1-800-555-9733.",
+      "answerOptions": [
+        { "text": "(A) they", "isCorrect": false, "rationale": "'they' là đại từ chủ ngữ, không đứng trước danh từ." },
+        { "text": "(B) their", "isCorrect": true, "rationale": "'their' là tính từ sở hữu. 'their support team' = đội hỗ trợ của họ." },
+        { "text": "(C) them", "isCorrect": false, "rationale": "'them' là tân ngữ, không đứng trước danh từ." },
+        { "text": "(D) themselves", "isCorrect": false, "rationale": "'themselves' là đại từ phản thân." }
+      ],
+      "hint": "Cần tính từ sở hữu trước 'support team'.",
+      "translation": "Để được hỗ trợ về bất kỳ vấn đề kỹ thuật nào, bạn có thể gọi đội hỗ trợ của họ theo số 1-800-555-9733.",
+      "category": "pronoun"
+    },
+    {
+      "id": 105,
+      "question": "The dance studio became successful through ------- advertising the center on local media channels.",
+      "answerOptions": [
+        { "text": "(A) aggressiveness", "isCorrect": false, "rationale": "'aggressiveness' là danh từ, không bổ nghĩa cho V-ing." },
+        { "text": "(B) aggressive", "isCorrect": false, "rationale": "'aggressive' là tính từ, không bổ nghĩa cho V-ing." },
+        { "text": "(C) aggression", "isCorrect": false, "rationale": "'aggression' là danh từ, không phù hợp." },
+        { "text": "(D) aggressively", "isCorrect": true, "rationale": "'aggressively' (mạnh mẽ) là trạng từ bổ nghĩa cho 'advertising'. Câu nghĩa: Thành công nhờ quảng cáo mạnh mẽ." }
+      ],
+      "hint": "Cần trạng từ bổ nghĩa cho V-ing 'advertising'.",
+      "translation": "Studio khiêu vũ đã thành công nhờ việc quảng cáo trung tâm một cách mạnh mẽ trên các kênh truyền thông địa phương.",
+      "category": "word-form"
+    },
+    {
+      "id": 106,
+      "question": "The hardware store's 35th anniversary ------- last month with a party for customers.",
+      "answerOptions": [
+        { "text": "(A) celebrated", "isCorrect": false, "rationale": "'celebrated' chủ động — 'anniversary' không tự kỷ niệm." },
+        { "text": "(B) to celebrate", "isCorrect": false, "rationale": "Nguyên thể, không tạo câu hoàn chỉnh." },
+        { "text": "(C) was celebrated", "isCorrect": true, "rationale": "'was celebrated' bị động — kỷ niệm 35 năm ĐƯỢC tổ chức. Hợp logic." },
+        { "text": "(D) was celebrating", "isCorrect": false, "rationale": "'was celebrating' chủ động tiếp diễn — 'anniversary' không tự hành động." }
+      ],
+      "hint": "Chủ ngữ 'anniversary' nhận hành động → cần thể bị động.",
+      "translation": "Kỷ niệm 35 năm của cửa hàng phần cứng đã được tổ chức vào tháng trước với bữa tiệc cho khách hàng.",
+      "category": "grammar"
+    },
+    {
+      "id": 107,
+      "question": "The main ------- for the bookkeeping role is the ability to work with accounting software.",
+      "answerOptions": [
+        { "text": "(A) beneficiary", "isCorrect": false, "rationale": "'beneficiary' (người thụ hưởng) — không hợp ngữ cảnh yêu cầu công việc." },
+        { "text": "(B) advice", "isCorrect": false, "rationale": "'advice' (lời khuyên) — không phù hợp." },
+        { "text": "(C) assistant", "isCorrect": false, "rationale": "'assistant' (trợ lý) — không phải yêu cầu." },
+        { "text": "(D) requirement", "isCorrect": true, "rationale": "'requirement' (yêu cầu) — 'main requirement for the role' = yêu cầu chính cho vị trí." }
+      ],
+      "hint": "Danh từ nào diễn tả điều kiện cần thiết cho một vị trí công việc?",
+      "translation": "Yêu cầu chính cho vị trí kế toán là khả năng làm việc với phần mềm kế toán.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 108,
+      "question": "------- will participate in the building's safety drill at 4 P.M. on Saturday to learn the evacuation procedure.",
+      "answerOptions": [
+        { "text": "(A) Occupants", "isCorrect": true, "rationale": "'Occupants' (cư dân) — danh từ chỉ người, phù hợp làm chủ ngữ + 'will participate'." },
+        { "text": "(B) Occupying", "isCorrect": false, "rationale": "'Occupying' là phân từ, không đứng đầu câu làm chủ ngữ." },
+        { "text": "(C) Occupancy", "isCorrect": false, "rationale": "'Occupancy' (sự chiếm dụng) — danh từ trừu tượng, không 'participate'." },
+        { "text": "(D) Occupational", "isCorrect": false, "rationale": "'Occupational' là tính từ, không làm chủ ngữ." }
+      ],
+      "hint": "Cần danh từ chỉ người làm chủ ngữ.",
+      "translation": "Cư dân sẽ tham gia diễn tập an toàn của tòa nhà lúc 4 giờ chiều thứ Bảy để học quy trình sơ tán.",
+      "category": "word-form"
+    },
+    {
+      "id": 109,
+      "question": "Because the restaurant is ------- new management, changes will be made to the interior.",
+      "answerOptions": [
+        { "text": "(A) regarding", "isCorrect": false, "rationale": "'regarding' (về) — không hợp cấu trúc 'is ___ management'." },
+        { "text": "(B) toward", "isCorrect": false, "rationale": "'toward' (hướng tới) — không phù hợp." },
+        { "text": "(C) under", "isCorrect": true, "rationale": "'under new management' = dưới sự quản lý mới. Cụm từ cố định trong kinh doanh." },
+        { "text": "(D) across", "isCorrect": false, "rationale": "'across' (ngang qua) — không hợp nghĩa." }
+      ],
+      "hint": "Cụm cố định: '_____ new management' = dưới sự quản lý mới.",
+      "translation": "Vì nhà hàng đang dưới sự quản lý mới, các thay đổi sẽ được thực hiện cho nội thất.",
+      "category": "preposition"
+    },
+    {
+      "id": 110,
+      "question": "------- participants in the Avery Bay Tour must wear a life vest while on board the boat.",
+      "answerOptions": [
+        { "text": "(A) Another", "isCorrect": false, "rationale": "'Another' + N số ít, nhưng 'participants' là số nhiều." },
+        { "text": "(B) Entire", "isCorrect": false, "rationale": "'Entire' (toàn bộ) — không đi với danh từ đếm được số nhiều." },
+        { "text": "(C) All", "isCorrect": true, "rationale": "'All' + N đếm được số nhiều. 'All participants' = tất cả người tham gia." },
+        { "text": "(D) Each", "isCorrect": false, "rationale": "'Each' + N số ít, nhưng 'participants' là số nhiều." }
+      ],
+      "hint": "Lượng từ nào đi với danh từ số nhiều 'participants'?",
+      "translation": "Tất cả người tham gia Tour Avery Bay phải mặc áo phao khi ở trên tàu.",
+      "category": "grammar"
+    },
+    {
+      "id": 111,
+      "question": "Regularly collecting feedback helps Wesley Shoes to improve customer -------.",
+      "answerOptions": [
+        { "text": "(A) platform", "isCorrect": false, "rationale": "'platform' (nền tảng) — không tạo cụm có nghĩa với 'customer'." },
+        { "text": "(B) satisfaction", "isCorrect": true, "rationale": "'satisfaction' (sự hài lòng) — 'customer satisfaction' = sự hài lòng khách hàng. Cụm từ rất phổ biến." },
+        { "text": "(C) production", "isCorrect": false, "rationale": "'production' (sản xuất) — không liên quan đến thu thập phản hồi." },
+        { "text": "(D) outcome", "isCorrect": false, "rationale": "'outcome' (kết quả) — không tạo collocation mạnh với 'customer'." }
+      ],
+      "hint": "Thu thập phản hồi giúp cải thiện ___ khách hàng?",
+      "translation": "Việc thu thập phản hồi thường xuyên giúp Wesley Shoes cải thiện sự hài lòng của khách hàng.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 112,
+      "question": "The bus drivers ------- are scheduled to work on the national holiday will receive a higher hourly wage.",
+      "answerOptions": [
+        { "text": "(A) who", "isCorrect": true, "rationale": "'who' là đại từ quan hệ chỉ người. 'drivers who are scheduled' = tài xế được lên lịch." },
+        { "text": "(B) what", "isCorrect": false, "rationale": "'what' không dùng trong mệnh đề quan hệ bổ nghĩa cho danh từ." },
+        { "text": "(C) these", "isCorrect": false, "rationale": "'these' là chỉ thị từ, không dẫn mệnh đề quan hệ." },
+        { "text": "(D) whose", "isCorrect": false, "rationale": "'whose' chỉ sở hữu, không phù hợp làm chủ ngữ mệnh đề." }
+      ],
+      "hint": "Đại từ quan hệ nào dùng cho người làm chủ ngữ?",
+      "translation": "Các tài xế xe buýt được lên lịch làm việc vào ngày lễ quốc gia sẽ nhận mức lương giờ cao hơn.",
+      "category": "grammar"
+    },
+    {
+      "id": 113,
+      "question": "A room service option is ------- from the hotel's restaurant 24 hours a day.",
+      "answerOptions": [
+        { "text": "(A) subsequent", "isCorrect": false, "rationale": "'subsequent' (tiếp theo) — không phù hợp ngữ cảnh." },
+        { "text": "(B) available", "isCorrect": true, "rationale": "'available' (có sẵn) — 'is available' = có sẵn. Câu nghĩa: Dịch vụ phòng có sẵn 24/7." },
+        { "text": "(C) urgent", "isCorrect": false, "rationale": "'urgent' (khẩn cấp) — không hợp logic." },
+        { "text": "(D) practical", "isCorrect": false, "rationale": "'practical' (thực tế) — không hợp ngữ cảnh cung cấp dịch vụ." }
+      ],
+      "hint": "Dịch vụ phòng 24/7 → dịch vụ luôn có sẵn.",
+      "translation": "Tùy chọn dịch vụ phòng có sẵn từ nhà hàng của khách sạn 24 giờ một ngày.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 114,
+      "question": "Among other -------, the property's neighborhood can greatly affect its market value.",
+      "answerOptions": [
+        { "text": "(A) factor", "isCorrect": false, "rationale": "'factor' số ít — nhưng 'other' + danh từ số nhiều." },
+        { "text": "(B) factors", "isCorrect": true, "rationale": "'factors' (yếu tố) số nhiều — 'Among other factors' = trong số các yếu tố khác." },
+        { "text": "(C) factored", "isCorrect": false, "rationale": "'factored' là quá khứ phân từ." },
+        { "text": "(D) factoring", "isCorrect": false, "rationale": "'factoring' là phân từ hiện tại." }
+      ],
+      "hint": "'Among other _____' — cần danh từ số nhiều.",
+      "translation": "Trong số các yếu tố khác, khu vực lân cận của bất động sản có thể ảnh hưởng lớn đến giá trị thị trường.",
+      "category": "word-form"
+    },
+    {
+      "id": 115,
+      "question": "To hire a new manager, the first step is ------- a job description online.",
+      "answerOptions": [
+        { "text": "(A) post", "isCorrect": false, "rationale": "'post' nguyên thể — thiếu 'to' hoặc V-ing." },
+        { "text": "(B) posts", "isCorrect": false, "rationale": "'posts' — động từ chia, tạo 2 động từ." },
+        { "text": "(C) posting", "isCorrect": true, "rationale": "'posting' V-ing — 'the first step is posting' = bước đầu tiên là đăng. V-ing làm bổ ngữ cho 'is'." },
+        { "text": "(D) posted", "isCorrect": false, "rationale": "'posted' quá khứ — không phù hợp." }
+      ],
+      "hint": "Cấu trúc: 'The step is + V-ing' (danh động từ làm bổ ngữ).",
+      "translation": "Để tuyển quản lý mới, bước đầu tiên là đăng mô tả công việc trực tuyến.",
+      "category": "grammar"
+    },
+    {
+      "id": 116,
+      "question": "The Reyna electric car ------- its first appearance on the market after the Vehicle Trade Show last spring.",
+      "answerOptions": [
+        { "text": "(A) seemed", "isCorrect": false, "rationale": "'seemed' không tạo collocation với 'appearance'." },
+        { "text": "(B) drew", "isCorrect": false, "rationale": "'drew' (vẽ/kéo) — không hợp 'appearance'." },
+        { "text": "(C) felt", "isCorrect": false, "rationale": "'felt' (cảm thấy) — không hợp." },
+        { "text": "(D) made", "isCorrect": true, "rationale": "'made its first appearance' = xuất hiện lần đầu. Collocation cố định." }
+      ],
+      "hint": "Collocation: '_____ its first appearance' = ra mắt lần đầu.",
+      "translation": "Xe điện Reyna đã xuất hiện lần đầu trên thị trường sau Triển lãm Ô tô mùa xuân năm ngoái.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 117,
+      "question": "Business owners can get a 30-day free trial of Office-Tech's latest payroll ------- tax software.",
+      "answerOptions": [
+        { "text": "(A) for", "isCorrect": false, "rationale": "'for' không nối hai danh từ song song." },
+        { "text": "(B) that", "isCorrect": false, "rationale": "'that' dẫn mệnh đề quan hệ, không nối 2 N." },
+        { "text": "(C) yet", "isCorrect": false, "rationale": "'yet' dùng trong phủ định/câu hỏi." },
+        { "text": "(D) and", "isCorrect": true, "rationale": "'and' nối 'payroll' và 'tax' — phần mềm lương VÀ thuế." }
+      ],
+      "hint": "Cần liên từ nối 2 danh từ song song.",
+      "translation": "Chủ doanh nghiệp có thể dùng thử miễn phí 30 ngày phần mềm lương và thuế mới nhất của Office-Tech.",
+      "category": "conjunction"
+    },
+    {
+      "id": 118,
+      "question": "The final design of the product brochure was ------- different from what was requested by the client.",
+      "answerOptions": [
+        { "text": "(A) noticeably", "isCorrect": true, "rationale": "'noticeably' (đáng chú ý) là trạng từ bổ nghĩa cho tính từ 'different'. 'noticeably different' = khác biệt đáng chú ý." },
+        { "text": "(B) noticeable", "isCorrect": false, "rationale": "'noticeable' là tính từ, không bổ nghĩa cho tính từ." },
+        { "text": "(C) notice", "isCorrect": false, "rationale": "'notice' là danh từ/động từ." },
+        { "text": "(D) noticing", "isCorrect": false, "rationale": "'noticing' phân từ, không phù hợp." }
+      ],
+      "hint": "Cần trạng từ bổ nghĩa cho tính từ 'different'.",
+      "translation": "Thiết kế cuối cùng của brochure sản phẩm khác biệt đáng kể so với yêu cầu của khách hàng.",
+      "category": "word-form"
+    },
+    {
+      "id": 119,
+      "question": "The motors on the golf carts at Rigsby Resort are strong ------- to carry up to six people and their equipment.",
+      "answerOptions": [
+        { "text": "(A) quite", "isCorrect": false, "rationale": "'quite' không hợp cấu trúc 'strong ___ to carry'." },
+        { "text": "(B) enough", "isCorrect": true, "rationale": "'enough' — 'strong enough to carry' = đủ mạnh để chở. Cấu trúc adj + enough + to V." },
+        { "text": "(C) still", "isCorrect": false, "rationale": "'still' (vẫn) — không hợp cấu trúc." },
+        { "text": "(D) much", "isCorrect": false, "rationale": "'much' — không hợp cấu trúc." }
+      ],
+      "hint": "Cấu trúc: adj + _____ + to V = đủ... để...",
+      "translation": "Động cơ trên xe golf tại Rigsby Resort đủ mạnh để chở tối đa sáu người và thiết bị của họ.",
+      "category": "grammar"
+    },
+    {
+      "id": 120,
+      "question": "Poor communication among airline check-in staff can cause ------- experiences for travelers.",
+      "answerOptions": [
+        { "text": "(A) frustrated", "isCorrect": false, "rationale": "'frustrated' (cảm thấy bực) — mô tả cảm xúc của người, không cho 'experiences'." },
+        { "text": "(B) frustrate", "isCorrect": false, "rationale": "'frustrate' là động từ." },
+        { "text": "(C) frustration", "isCorrect": false, "rationale": "'frustration' là danh từ không bổ nghĩa cho 'experiences'." },
+        { "text": "(D) frustrating", "isCorrect": true, "rationale": "'frustrating' (gây khó chịu) — tính từ mô tả trải nghiệm GÂY RA cảm giác. 'frustrating experiences'." }
+      ],
+      "hint": "-ing mô tả vật gây ra cảm xúc, -ed mô tả người cảm nhận.",
+      "translation": "Giao tiếp kém giữa nhân viên check-in hãng bay có thể gây ra trải nghiệm khó chịu cho du khách.",
+      "category": "word-form"
+    },
+    {
+      "id": 121,
+      "question": "Shoppers can find out more about ------- body lotions by speaking with a sales representative.",
+      "answerOptions": [
+        { "text": "(A) each", "isCorrect": false, "rationale": "'each' + N số ít, 'lotions' số nhiều." },
+        { "text": "(B) our", "isCorrect": true, "rationale": "'our' (của chúng tôi) — tính từ sở hữu. 'our body lotions' = các sản phẩm của chúng tôi." },
+        { "text": "(C) whose", "isCorrect": false, "rationale": "'whose' — đại từ quan hệ sở hữu, không phù hợp." },
+        { "text": "(D) while", "isCorrect": false, "rationale": "'while' — liên từ, không đứng trước danh từ." }
+      ],
+      "hint": "Công ty giới thiệu sản phẩm → sở hữu từ 'chúng tôi'.",
+      "translation": "Khách hàng có thể tìm hiểu thêm về các loại kem dưỡng thể của chúng tôi bằng cách nói chuyện với nhân viên bán hàng.",
+      "category": "pronoun"
+    },
+    {
+      "id": 122,
+      "question": "The Sea Shanty singing group gives ------- performances throughout the summer at various sites.",
+      "answerOptions": [
+        { "text": "(A) publicize", "isCorrect": false, "rationale": "'publicize' là động từ, không đứng trước danh từ." },
+        { "text": "(B) will publicize", "isCorrect": false, "rationale": "Tạo 2 động từ." },
+        { "text": "(C) publicly", "isCorrect": false, "rationale": "'publicly' là trạng từ, không đứng trước danh từ." },
+        { "text": "(D) public", "isCorrect": true, "rationale": "'public' (công khai) là tính từ. 'public performances' = biểu diễn công khai." }
+      ],
+      "hint": "Cần tính từ trước danh từ 'performances'.",
+      "translation": "Nhóm hát Sea Shanty biểu diễn công khai suốt mùa hè tại nhiều địa điểm.",
+      "category": "word-form"
+    },
+    {
+      "id": 123,
+      "question": "BC Transportation offers a shuttle from the Arbor Hotel to the airport, which is priced ------- at $18.",
+      "answerOptions": [
+        { "text": "(A) eagerly", "isCorrect": false, "rationale": "'eagerly' (háo hức) — không bổ nghĩa cho 'priced'." },
+        { "text": "(B) partially", "isCorrect": false, "rationale": "'partially' (một phần) — không hợp." },
+        { "text": "(C) reasonably", "isCorrect": true, "rationale": "'reasonably' (hợp lý) — 'reasonably priced' = giá hợp lý. Collocation phổ biến." },
+        { "text": "(D) instantly", "isCorrect": false, "rationale": "'instantly' (ngay lập tức) — không hợp ngữ cảnh giá." }
+      ],
+      "hint": "Collocation: '_____ priced' = giá cả hợp lý.",
+      "translation": "BC Transportation cung cấp xe đưa đón từ khách sạn Arbor đến sân bay, với mức giá hợp lý là $18.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 124,
+      "question": "Because ------- renters are looking for housing at the moment, prices on monthly rates have gone up significantly.",
+      "answerOptions": [
+        { "text": "(A) due to", "isCorrect": false, "rationale": "'due to' + N, không + S + V." },
+        { "text": "(B) so many", "isCorrect": true, "rationale": "'so many' + N đếm được — 'so many renters' = quá nhiều người thuê. Giải thích lý do tăng giá." },
+        { "text": "(C) for which", "isCorrect": false, "rationale": "Đại từ quan hệ, không phù hợp." },
+        { "text": "(D) that much", "isCorrect": false, "rationale": "'that much' không đi với N đếm được số nhiều." }
+      ],
+      "hint": "Cần cụm từ chỉ số lượng lớn + danh từ đếm được số nhiều.",
+      "translation": "Vì quá nhiều người thuê đang tìm nhà ở thời điểm này, giá thuê hàng tháng đã tăng đáng kể.",
+      "category": "grammar"
+    },
+    {
+      "id": 125,
+      "question": "Blaze Marketing has experts that can create the ------- campaign to promote your business.",
+      "answerOptions": [
+        { "text": "(A) success", "isCorrect": false, "rationale": "'success' là danh từ, không đứng trước danh từ 'campaign'." },
+        { "text": "(B) successfully", "isCorrect": false, "rationale": "'successfully' là trạng từ." },
+        { "text": "(C) more successfully", "isCorrect": false, "rationale": "Trạng từ so sánh hơn, không phù hợp sau 'the'." },
+        { "text": "(D) most successful", "isCorrect": true, "rationale": "'the most successful' = thành công nhất. Tính từ so sánh nhất + N. Hợp sau 'the'." }
+      ],
+      "hint": "Sau 'the' + adj so sánh nhất + N.",
+      "translation": "Blaze Marketing có chuyên gia có thể tạo chiến dịch thành công nhất để quảng bá doanh nghiệp của bạn.",
+      "category": "word-form"
+    },
+    {
+      "id": 126,
+      "question": "Vincent Art Museum's board of directors is looking for activities that will ------- to younger visitors.",
+      "answerOptions": [
+        { "text": "(A) vary", "isCorrect": false, "rationale": "'vary' (thay đổi) — không hợp 'vary to visitors'." },
+        { "text": "(B) appeal", "isCorrect": true, "rationale": "'appeal to' (hấp dẫn) — 'appeal to younger visitors' = hấp dẫn du khách trẻ." },
+        { "text": "(C) result", "isCorrect": false, "rationale": "'result' cần 'in/from', không + 'to' cho nghĩa này." },
+        { "text": "(D) oversee", "isCorrect": false, "rationale": "'oversee' (giám sát) — không hợp." }
+      ],
+      "hint": "Collocation: '_____ to someone' = thu hút/hấp dẫn ai đó.",
+      "translation": "Ban giám đốc Bảo tàng Nghệ thuật Vincent đang tìm kiếm các hoạt động sẽ hấp dẫn du khách trẻ tuổi.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 127,
+      "question": "The Health Department ------- that the restaurant needed to upgrade its refrigeration facilities was considered fair.",
+      "answerOptions": [
+        { "text": "(A) assessing", "isCorrect": false, "rationale": "Phân từ hiện tại, không đứng sau danh từ riêng làm chủ ngữ." },
+        { "text": "(B) assessed", "isCorrect": false, "rationale": "Quá khứ phân từ, không tạo danh từ." },
+        { "text": "(C) assessment", "isCorrect": true, "rationale": "'assessment' (đánh giá) — danh từ. 'The Health Department assessment that...' = Đánh giá của Sở Y tế rằng..." },
+        { "text": "(D) assessor", "isCorrect": false, "rationale": "'assessor' (người đánh giá) — không hợp ngữ cảnh." }
+      ],
+      "hint": "'The Health Department _____' cần danh từ làm chủ ngữ cho 'was considered'.",
+      "translation": "Đánh giá của Sở Y tế rằng nhà hàng cần nâng cấp cơ sở làm lạnh được coi là công bằng.",
+      "category": "word-form"
+    },
+    {
+      "id": 128,
+      "question": "------- damage from last week's severe storm, Rainbow Coffee Shop will be closed for the next two weeks.",
+      "answerOptions": [
+        { "text": "(A) Those", "isCorrect": false, "rationale": "'Those' — đại từ chỉ thị, không hợp." },
+        { "text": "(B) Due to", "isCorrect": true, "rationale": "'Due to' + N — 'Due to damage' = Do thiệt hại. Chỉ nguyên nhân." },
+        { "text": "(C) If only", "isCorrect": false, "rationale": "'If only' (giá mà) — điều ước, không phù hợp." },
+        { "text": "(D) While", "isCorrect": false, "rationale": "'While' + S + V (mệnh đề)." }
+      ],
+      "hint": "Cần cụm giới từ chỉ nguyên nhân + danh từ 'damage'.",
+      "translation": "Do thiệt hại từ cơn bão dữ dội tuần trước, Rainbow Coffee Shop sẽ đóng cửa trong hai tuần tới.",
+      "category": "conjunction"
+    },
+    {
+      "id": 129,
+      "question": "Fullerton Insurance rewards its hard-working employees with ------- and annual bonuses.",
+      "answerOptions": [
+        { "text": "(A) promotions", "isCorrect": true, "rationale": "'promotions' (thăng chức) — danh từ số nhiều. 'with promotions and bonuses' = bằng thăng chức và tiền thưởng." },
+        { "text": "(B) promotional", "isCorrect": false, "rationale": "'promotional' là tính từ." },
+        { "text": "(C) promotionally", "isCorrect": false, "rationale": "'promotionally' là trạng từ." },
+        { "text": "(D) promotes", "isCorrect": false, "rationale": "'promotes' là động từ." }
+      ],
+      "hint": "Cần danh từ song song với 'bonuses' — phần thưởng cho nhân viên.",
+      "translation": "Fullerton Insurance thưởng cho nhân viên chăm chỉ bằng thăng chức và tiền thưởng hàng năm.",
+      "category": "word-form"
+    },
+    {
+      "id": 130,
+      "question": "The ------- who recruit athletes for professional sports teams look for talented individuals across the country.",
+      "answerOptions": [
+        { "text": "(A) agents", "isCorrect": true, "rationale": "'agents' (người đại diện) — 'agents who recruit athletes' = người tuyển vận động viên." },
+        { "text": "(B) artists", "isCorrect": false, "rationale": "'artists' (nghệ sĩ) — không hợp ngữ cảnh thể thao." },
+        { "text": "(C) vendors", "isCorrect": false, "rationale": "'vendors' (người bán) — không hợp." },
+        { "text": "(D) announcers", "isCorrect": false, "rationale": "'announcers' (người dẫn chương trình) — không tuyển vận động viên." }
+      ],
+      "hint": "Ai là người tuyển vận động viên cho đội thể thao chuyên nghiệp?",
+      "translation": "Các đại lý tuyển vận động viên cho đội thể thao chuyên nghiệp tìm kiếm cá nhân tài năng trên khắp cả nước.",
+      "category": "vocabulary"
+    }
+  ]
+}

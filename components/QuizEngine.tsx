@@ -1,26 +1,19 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Link from "next/link";
 import { useQuizStore } from "@/store/quizStore";
 import { playSound, speakWord } from "@/utils/audio";
+import { useRouter } from "next/navigation";
+import type { QuizData } from "@/lib/types";
 
-interface AnswerOption {
-  text: string;
-  isCorrect: boolean;
-  rationale: string;
-}
-
-interface Question {
-  question: string;
-  answerOptions: AnswerOption[];
-  hint?: string;
-}
-
-interface QuizData {
-  title: string;
-  questions: Question[];
-}
+const CATEGORY_MAP: Record<string, { label: string; color: string }> = {
+  'word-form': { label: 'Dạng từ', color: 'bg-purple-50 text-purple-700 border-purple-200' },
+  'vocabulary': { label: 'Từ vựng', color: 'bg-sky-50 text-sky-700 border-sky-200' },
+  'grammar': { label: 'Ngữ pháp', color: 'bg-rose-50 text-rose-700 border-rose-200' },
+  'preposition': { label: 'Giới từ', color: 'bg-teal-50 text-teal-700 border-teal-200' },
+  'conjunction': { label: 'Liên từ', color: 'bg-orange-50 text-orange-700 border-orange-200' },
+  'pronoun': { label: 'Đại từ', color: 'bg-indigo-50 text-indigo-700 border-indigo-200' },
+};
 
 const renderFormattedText = (text: string) => {
   if (!text) return null;
@@ -71,6 +64,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
   const [mounted, setMounted] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const [previewQuestionIndex, setPreviewQuestionIndex] = useState<number | null>(null);
+  const router = useRouter();
 
   useEffect(() => {
     initLesson(lessonId, quizData.questions.length);
@@ -144,7 +138,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
       <header className="flex flex-wrap items-center justify-between mb-4 md:mb-8 shrink-0 gap-y-4">
         {/* Left: Lesson Info */}
         <div className="text-xs font-bold text-slate-500 uppercase tracking-widest shrink-0">
-          Lesson {(lessonId.match(/-(\d+)$/)?.[1] || lessonId).padStart(2, '0')} 
+          {lessonId.startsWith('part5-') ? `Part 5 – ${lessonId.replace('part5-', '').toUpperCase()}` : `Lesson ${lessonId.padStart(2, '0')}`}
           <span className="mx-1.5 text-slate-300">•</span> 
           {currentIndex + 1} / {quizData.questions.length}
         </div>
@@ -173,23 +167,44 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
             )}
           </button>
           
-          <Link 
-            href="/" 
+          <button 
+            onClick={() => {
+              if (window.history.length > 2) {
+                router.back();
+              } else {
+                router.push('/');
+              }
+            }}
             title="Exit Quiz"
-            className="flex items-center gap-1.5 px-3 py-1.5 text-slate-600 bg-slate-100 hover:text-red-700 hover:bg-red-50 active:bg-red-100 rounded-full transition-colors"
+            className="flex items-center gap-1.5 px-3 py-1.5 text-slate-600 bg-slate-100 hover:text-red-700 hover:bg-red-50 active:bg-red-100 rounded-full transition-colors cursor-pointer"
           >
             <span className="text-sm font-bold">Exit</span>
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
-          </Link>
+          </button>
         </div>
       </header>
 
       {/* Main Content Area - Scrollable */}
       <div className="flex-1 overflow-y-auto no-scrollbar pb-8">
         <div className="flex flex-col gap-4 mb-6">
+          {/* Category badge - always visible */}
+          {question.category && CATEGORY_MAP[question.category] && (
+            <span className={`self-start text-[11px] font-bold uppercase tracking-widest px-3 py-1 rounded-full border ${CATEGORY_MAP[question.category].color}`}>
+              {CATEGORY_MAP[question.category].label}
+            </span>
+          )}
+
           <h1 className="text-lg md:text-xl font-semibold text-slate-800 leading-relaxed">
             {renderFormattedText(question.question)}
           </h1>
+
+          {/* Translation - revealed after answering */}
+          {isAnswered && question.translation && (
+            <div className="text-sm text-slate-500 bg-slate-50 border border-slate-200/80 rounded-xl px-4 py-3 flex items-start gap-2.5 animate-in fade-in slide-in-from-top-2 duration-300">
+              <svg className="w-4 h-4 shrink-0 mt-0.5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" /></svg>
+              <span className="leading-relaxed italic">{question.translation}</span>
+            </div>
+          )}
           
           {question.hint && (
             <div className="self-start">
@@ -197,7 +212,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
                 <button 
                   onClick={() => setShowHint(true)}
                   disabled={isAnswered}
-                  className={`text-xs font-semibold flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors ${isAnswered ? 'text-slate-400 bg-slate-100 cursor-not-allowed hidden' : 'text-amber-600 hover:text-amber-700 bg-amber-50 hover:bg-amber-100'}`}
+                  className={`text-xs font-semibold flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors cursor-pointer ${isAnswered ? 'text-slate-400 bg-slate-100 cursor-not-allowed hidden' : 'text-amber-600 hover:text-amber-700 bg-amber-50 hover:bg-amber-100'}`}
                 >
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
                   Gợi ý
@@ -431,12 +446,18 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
                 >
                   Làm lại
                 </button>
-                <Link 
-                  href="/" 
+                <button 
+                  onClick={() => {
+                    if (window.history.length > 2) {
+                      router.back();
+                    } else {
+                      router.push('/');
+                    }
+                  }}
                   className="flex-1 py-3.5 flex justify-center items-center bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors shadow-xl shadow-blue-600/20 text-sm lg:text-base cursor-pointer"
                 >
                   Về Dashboard
-                </Link>
+                </button>
               </div>
 
             </div>

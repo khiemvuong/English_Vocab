@@ -1,0 +1,395 @@
+{
+  "title": "TOEIC Part 5 - BT3 (Questions 101-130)",
+  "questions": [
+    {
+      "id": 101,
+      "question": "If the parade goes ------- as planned, the planning committee members will be pleased.",
+      "answerOptions": [
+        { "text": "(A) preciseness", "isCorrect": false, "rationale": "'preciseness' là danh từ (sự chính xác), không thể bổ nghĩa cho động từ 'goes'." },
+        { "text": "(B) precisely", "isCorrect": true, "rationale": "'precisely' là trạng từ bổ nghĩa cho động từ 'goes'. Câu nghĩa: Nếu cuộc diễu hành diễn ra chính xác như kế hoạch..." },
+        { "text": "(C) precise", "isCorrect": false, "rationale": "'precise' là tính từ, không dùng để bổ nghĩa cho động từ." },
+        { "text": "(D) precision", "isCorrect": false, "rationale": "'precision' là danh từ (độ chính xác), không phù hợp ngữ pháp." }
+      ],
+      "hint": "Cần trạng từ (adverb) để bổ nghĩa cho động từ 'goes'.",
+      "translation": "Nếu cuộc diễu hành diễn ra chính xác như kế hoạch, các thành viên ban tổ chức sẽ rất hài lòng.",
+      "category": "word-form"
+    },
+    {
+      "id": 102,
+      "question": "The gallery's VIP guests are invited to take a tour with the artists ------- 7 P.M.",
+      "answerOptions": [
+        { "text": "(A) of", "isCorrect": false, "rationale": "'of' dùng để chỉ sở hữu hoặc thuộc về, không dùng trước giờ cụ thể." },
+        { "text": "(B) at", "isCorrect": true, "rationale": "'at' dùng trước giờ cụ thể (at 7 P.M.). Câu nghĩa: Khách VIP được mời tham quan cùng nghệ sĩ lúc 7 giờ tối." },
+        { "text": "(C) for", "isCorrect": false, "rationale": "'for' dùng để chỉ mục đích hoặc khoảng thời gian, không dùng trước giờ." },
+        { "text": "(D) in", "isCorrect": false, "rationale": "'in' dùng trước tháng, năm, buổi (in the morning) nhưng không dùng trước giờ cụ thể." }
+      ],
+      "hint": "Giới từ nào đứng trước giờ cụ thể trong tiếng Anh?",
+      "translation": "Khách VIP của phòng tranh được mời tham quan cùng các nghệ sĩ lúc 7 giờ tối.",
+      "category": "preposition"
+    },
+    {
+      "id": 103,
+      "question": "Mr. Latham was recognized at the annual meeting for ------- efforts in securing the merger deal.",
+      "answerOptions": [
+        { "text": "(A) he", "isCorrect": false, "rationale": "'he' là đại từ chủ ngữ, không dùng trước danh từ 'efforts'." },
+        { "text": "(B) him", "isCorrect": false, "rationale": "'him' là đại từ tân ngữ, không đứng trước danh từ để bổ nghĩa." },
+        { "text": "(C) himself", "isCorrect": false, "rationale": "'himself' là đại từ phản thân, không có chức năng sở hữu." },
+        { "text": "(D) his", "isCorrect": true, "rationale": "'his' là tính từ sở hữu, đứng trước danh từ 'efforts'. Câu nghĩa: Ông Latham được ghi nhận vì những nỗ lực của ông trong việc đảm bảo thương vụ sáp nhập." }
+      ],
+      "hint": "Cần đại từ sở hữu (possessive adjective) trước danh từ 'efforts'.",
+      "translation": "Ông Latham được ghi nhận tại cuộc họp thường niên vì những nỗ lực của ông trong việc đảm bảo thương vụ sáp nhập.",
+      "category": "pronoun"
+    },
+    {
+      "id": 104,
+      "question": "Felosa Media announced that it will raise the monthly fee ------- its video streaming service.",
+      "answerOptions": [
+        { "text": "(A) for", "isCorrect": true, "rationale": "'for' chỉ mục đích/đối tượng — 'fee for something' (phí cho cái gì). Câu nghĩa: Felosa Media thông báo sẽ tăng phí hàng tháng cho dịch vụ phát video trực tuyến." },
+        { "text": "(B) along", "isCorrect": false, "rationale": "'along' nghĩa là dọc theo, không phù hợp ngữ cảnh." },
+        { "text": "(C) nearby", "isCorrect": false, "rationale": "'nearby' nghĩa là gần đây, không phải giới từ phù hợp." },
+        { "text": "(D) as", "isCorrect": false, "rationale": "'as' nghĩa là với tư cách, không hợp cấu trúc 'fee ___ service'." }
+      ],
+      "hint": "Collocation: fee _____ (a service/product).",
+      "translation": "Felosa Media thông báo sẽ tăng phí hàng tháng cho dịch vụ phát video trực tuyến của mình.",
+      "category": "preposition"
+    },
+    {
+      "id": 105,
+      "question": "------- the tourist season begins, repairs will be made to the pier at Bremond Bay.",
+      "answerOptions": [
+        { "text": "(A) Before", "isCorrect": true, "rationale": "'Before' (trước khi) — logic: sửa chữa cầu cảng TRƯỚC KHI mùa du lịch bắt đầu. Hợp nghĩa nhất." },
+        { "text": "(B) Whereas", "isCorrect": false, "rationale": "'Whereas' (trong khi đó) dùng để so sánh đối lập, không phù hợp ngữ cảnh." },
+        { "text": "(C) As if", "isCorrect": false, "rationale": "'As if' (như thể) dùng cho giả định, không hợp lý." },
+        { "text": "(D) So that", "isCorrect": false, "rationale": "'So that' (để mà) chỉ mục đích, ngữ pháp không khớp." }
+      ],
+      "hint": "Hành động sửa chữa xảy ra ở thời điểm nào so với mùa du lịch?",
+      "translation": "Trước khi mùa du lịch bắt đầu, cầu cảng tại Vịnh Bremond sẽ được sửa chữa.",
+      "category": "conjunction"
+    },
+    {
+      "id": 106,
+      "question": "Ms. Revilla's order of printer paper from Office World is scheduled for ------- Friday afternoon.",
+      "answerOptions": [
+        { "text": "(A) status", "isCorrect": false, "rationale": "'status' (trạng thái) không hợp ngữ cảnh 'scheduled for _____ Friday'." },
+        { "text": "(B) delivery", "isCorrect": true, "rationale": "'delivery' (giao hàng) — 'scheduled for delivery' là cụm cố định. Câu nghĩa: Đơn hàng được lên lịch giao vào chiều thứ Sáu." },
+        { "text": "(C) warranty", "isCorrect": false, "rationale": "'warranty' (bảo hành) không phù hợp ngữ cảnh đặt hàng." },
+        { "text": "(D) account", "isCorrect": false, "rationale": "'account' (tài khoản) không hợp nghĩa." }
+      ],
+      "hint": "Cụm từ 'scheduled for _____' — điều gì được lên lịch cho đơn hàng?",
+      "translation": "Đơn hàng giấy in của bà Revilla từ Office World được lên lịch giao vào chiều thứ Sáu.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 107,
+      "question": "Most consumers rated ------- models as being more efficient than the company's first product lines.",
+      "answerOptions": [
+        { "text": "(A) late", "isCorrect": false, "rationale": "'late' (muộn) là tính từ/trạng từ, không diễn tả ý so sánh 'model mới hơn'." },
+        { "text": "(B) lateness", "isCorrect": false, "rationale": "'lateness' (sự trễ) là danh từ, không bổ nghĩa cho danh từ 'models'." },
+        { "text": "(C) lately", "isCorrect": false, "rationale": "'lately' (gần đây) là trạng từ, không đứng trước danh từ." },
+        { "text": "(D) later", "isCorrect": true, "rationale": "'later' (sau này) là tính từ so sánh, bổ nghĩa cho 'models'. 'later models' = các mẫu đời sau." }
+      ],
+      "hint": "Cần tính từ bổ nghĩa cho danh từ 'models' để diễn tả ý 'đời sau/mới hơn'.",
+      "translation": "Hầu hết người tiêu dùng đánh giá các mẫu đời sau hiệu quả hơn các dòng sản phẩm đầu tiên của công ty.",
+      "category": "word-form"
+    },
+    {
+      "id": 108,
+      "question": "Simpson Incorporated is the nation's leading ------- of high-quality exterior paint.",
+      "answerOptions": [
+        { "text": "(A) cause", "isCorrect": false, "rationale": "'cause' (nguyên nhân) không phù hợp ngữ cảnh cung cấp sơn." },
+        { "text": "(B) indicator", "isCorrect": false, "rationale": "'indicator' (chỉ số) không hợp nghĩa." },
+        { "text": "(C) source", "isCorrect": true, "rationale": "'source' (nguồn cung) — 'leading source of' = nguồn cung hàng đầu. Câu nghĩa: Simpson Inc. là nguồn cung hàng đầu quốc gia về sơn ngoại thất chất lượng cao." },
+        { "text": "(D) role", "isCorrect": false, "rationale": "'role' (vai trò) không phù hợp cấu trúc 'leading ___ of paint'." }
+      ],
+      "hint": "Cụm từ 'leading _____ of (product)' — đơn vị cung cấp hàng đầu.",
+      "translation": "Simpson Incorporated là nguồn cung hàng đầu quốc gia về sơn ngoại thất chất lượng cao.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 109,
+      "question": "Corporate lawyer Jillian Smith can suggest improvements to contract drafts ------- contain vague or confusing language.",
+      "answerOptions": [
+        { "text": "(A) than", "isCorrect": false, "rationale": "'than' dùng trong so sánh, không dẫn mệnh đề quan hệ." },
+        { "text": "(B) yet", "isCorrect": false, "rationale": "'yet' (nhưng/vẫn) là liên từ/trạng từ, không thay thế chủ ngữ." },
+        { "text": "(C) that", "isCorrect": true, "rationale": "'that' là đại từ quan hệ thay thế cho 'contract drafts' làm chủ ngữ mệnh đề quan hệ. Câu nghĩa: Luật sư có thể đề xuất cải thiện cho các bản nháp hợp đồng MÀ chứa ngôn ngữ mơ hồ." },
+        { "text": "(D) so", "isCorrect": false, "rationale": "'so' (vì vậy) là liên từ chỉ kết quả, không phù hợp." }
+      ],
+      "hint": "Cần đại từ quan hệ (relative pronoun) để nối mệnh đề phụ bổ nghĩa cho 'contract drafts'.",
+      "translation": "Luật sư doanh nghiệp Jillian Smith có thể đề xuất cải thiện cho các bản nháp hợp đồng chứa ngôn ngữ mơ hồ hoặc khó hiểu.",
+      "category": "grammar"
+    },
+    {
+      "id": 110,
+      "question": "From June 8, the hotel's sauna room on the ground floor will be ------- open.",
+      "answerOptions": [
+        { "text": "(A) immediately", "isCorrect": false, "rationale": "'immediately' (ngay lập tức) không hợp ngữ cảnh 'will be ___ open' từ một ngày cụ thể." },
+        { "text": "(B) officially", "isCorrect": true, "rationale": "'officially' (chính thức) — 'officially open' = mở cửa chính thức. Câu nghĩa: Từ ngày 8/6, phòng xông hơi sẽ chính thức mở cửa." },
+        { "text": "(C) remarkably", "isCorrect": false, "rationale": "'remarkably' (đáng chú ý) không phù hợp ngữ cảnh khai trương." },
+        { "text": "(D) sharply", "isCorrect": false, "rationale": "'sharply' (sắc nét/mạnh mẽ) không phù hợp với 'open'." }
+      ],
+      "hint": "Trạng từ nào diễn tả việc mở cửa từ một ngày cụ thể?",
+      "translation": "Từ ngày 8 tháng 6, phòng xông hơi của khách sạn tại tầng trệt sẽ chính thức mở cửa.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 111,
+      "question": "While the Jackson Foundation is a major ------- of art education programs, it also makes donations to sports facilities.",
+      "answerOptions": [
+        { "text": "(A) supported", "isCorrect": false, "rationale": "'supported' là quá khứ phân từ/tính từ, không phải danh từ." },
+        { "text": "(B) supporter", "isCorrect": true, "rationale": "'supporter' (người ủng hộ) là danh từ chỉ người, phù hợp sau mạo từ 'a major'. Câu nghĩa: Quỹ Jackson là nhà tài trợ lớn cho các chương trình giáo dục nghệ thuật." },
+        { "text": "(C) support", "isCorrect": false, "rationale": "'support' (sự hỗ trợ) là danh từ/động từ nhưng 'a major support of' ít phổ biến bằng 'a major supporter of'." },
+        { "text": "(D) supportive", "isCorrect": false, "rationale": "'supportive' là tính từ, không đứng sau mạo từ 'a'." }
+      ],
+      "hint": "Sau 'a major' cần danh từ chỉ người (suffix: -er).",
+      "translation": "Trong khi Quỹ Jackson là nhà tài trợ lớn cho các chương trình giáo dục nghệ thuật, quỹ cũng quyên góp cho các cơ sở thể thao.",
+      "category": "word-form"
+    },
+    {
+      "id": 112,
+      "question": "The medical center plays music that is soothing and ------- to patients in order to put them at ease.",
+      "answerOptions": [
+        { "text": "(A) confidential", "isCorrect": false, "rationale": "'confidential' (bảo mật) không phù hợp ngữ cảnh âm nhạc thư giãn." },
+        { "text": "(B) familiar", "isCorrect": true, "rationale": "'familiar' (quen thuộc) — nhạc dễ chịu và quen thuộc giúp bệnh nhân thư giãn. Hợp logic nhất." },
+        { "text": "(C) competent", "isCorrect": false, "rationale": "'competent' (có năng lực) dùng cho con người, không cho âm nhạc." },
+        { "text": "(D) talented", "isCorrect": false, "rationale": "'talented' (tài năng) dùng cho con người, không cho âm nhạc." }
+      ],
+      "hint": "Tính từ nào mô tả âm nhạc khiến bệnh nhân cảm thấy thoải mái?",
+      "translation": "Trung tâm y tế phát nhạc dễ chịu và quen thuộc với bệnh nhân để giúp họ thư giãn.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 113,
+      "question": "The documentary *Circular Path* includes ------- scenes from the exciting world of car racing.",
+      "answerOptions": [
+        { "text": "(A) drama", "isCorrect": false, "rationale": "'drama' là danh từ (kịch), không bổ nghĩa cho danh từ 'scenes'." },
+        { "text": "(B) dramatic", "isCorrect": true, "rationale": "'dramatic' là tính từ (kịch tính) bổ nghĩa cho danh từ 'scenes'. Câu nghĩa: Phim tài liệu bao gồm các cảnh kịch tính." },
+        { "text": "(C) dramatically", "isCorrect": false, "rationale": "'dramatically' là trạng từ, không đứng trước danh từ." },
+        { "text": "(D) dramatize", "isCorrect": false, "rationale": "'dramatize' là động từ (kịch hóa), không phù hợp vị trí." }
+      ],
+      "hint": "Cần tính từ (adjective) đứng trước danh từ 'scenes'.",
+      "translation": "Bộ phim tài liệu *Circular Path* bao gồm các cảnh kịch tính từ thế giới đua xe hơi hấp dẫn.",
+      "category": "word-form"
+    },
+    {
+      "id": 114,
+      "question": "When Ms. Broussard arrived at the office in the morning, she ------- the window at the end of the corridor had been left open.",
+      "answerOptions": [
+        { "text": "(A) inspected", "isCorrect": false, "rationale": "'inspected' (kiểm tra) cần tân ngữ trực tiếp, không dùng với mệnh đề 'that'." },
+        { "text": "(B) convinced", "isCorrect": false, "rationale": "'convinced' (thuyết phục) không hợp ngữ pháp khi theo sau là mệnh đề trực tiếp." },
+        { "text": "(C) noticed", "isCorrect": true, "rationale": "'noticed' (nhận thấy) + mệnh đề that. Câu nghĩa: Cô nhận thấy rằng cửa sổ cuối hành lang đã bị để mở." },
+        { "text": "(D) glanced", "isCorrect": false, "rationale": "'glanced' (liếc nhìn) thường dùng với 'at', không theo sau bằng mệnh đề." }
+      ],
+      "hint": "Động từ nào có thể theo sau bằng mệnh đề 'that' để diễn tả sự nhận biết?",
+      "translation": "Khi bà Broussard đến văn phòng vào buổi sáng, bà nhận thấy cửa sổ cuối hành lang đã bị để mở.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 115,
+      "question": "The ad campaign for the new soda from Harness Beverages ------- failed to catch consumer interest.",
+      "answerOptions": [
+        { "text": "(A) largest", "isCorrect": false, "rationale": "'largest' là tính từ so sánh nhất, không bổ nghĩa cho động từ." },
+        { "text": "(B) largely", "isCorrect": true, "rationale": "'largely' (phần lớn) là trạng từ bổ nghĩa cho động từ 'failed'. Câu nghĩa: Chiến dịch quảng cáo phần lớn đã không thu hút được sự quan tâm." },
+        { "text": "(C) larger", "isCorrect": false, "rationale": "'larger' là tính từ so sánh hơn, không phù hợp vị trí." },
+        { "text": "(D) largeness", "isCorrect": false, "rationale": "'largeness' là danh từ (sự to lớn), không bổ nghĩa cho động từ." }
+      ],
+      "hint": "Cần trạng từ (adverb) bổ nghĩa cho động từ 'failed'.",
+      "translation": "Chiến dịch quảng cáo cho loại soda mới của Harness Beverages phần lớn đã không thu hút được sự quan tâm của người tiêu dùng.",
+      "category": "word-form"
+    },
+    {
+      "id": 116,
+      "question": "If the contents of your order are damaged ------- repair when they arrive, you can receive a refund.",
+      "answerOptions": [
+        { "text": "(A) across", "isCorrect": false, "rationale": "'across' (ngang qua) không phù hợp ngữ cảnh thiệt hại." },
+        { "text": "(B) besides", "isCorrect": false, "rationale": "'besides' (ngoài ra) không hợp ngữ cảnh." },
+        { "text": "(C) beyond", "isCorrect": true, "rationale": "'beyond repair' = hư hỏng không thể sửa chữa được. Đây là cụm từ cố định (collocation)." },
+        { "text": "(D) except", "isCorrect": false, "rationale": "'except' (ngoại trừ) không tạo thành cụm có nghĩa với 'repair'." }
+      ],
+      "hint": "Cụm từ cố định: '_____ repair' = không thể sửa chữa.",
+      "translation": "Nếu nội dung đơn hàng của bạn bị hư hỏng không thể sửa chữa khi đến nơi, bạn có thể nhận hoàn tiền.",
+      "category": "preposition"
+    },
+    {
+      "id": 117,
+      "question": "The Manchester Dance Troupe ------- its famous show, *Waltzing Wonderland*, at the Verona Theater on May 29.",
+      "answerOptions": [
+        { "text": "(A) will perform", "isCorrect": true, "rationale": "'will perform' (sẽ trình diễn) — thời tương lai với mốc thời gian 'on May 29'. Chủ ngữ 'The Troupe' cần thể chủ động." },
+        { "text": "(B) is performed", "isCorrect": false, "rationale": "'is performed' là bị động — đoàn múa trình diễn (chủ động), không phải được trình diễn." },
+        { "text": "(C) performing", "isCorrect": false, "rationale": "'performing' là phân từ hiện tại, thiếu trợ động từ." },
+        { "text": "(D) has been performed", "isCorrect": false, "rationale": "'has been performed' là bị động hoàn thành, không hợp thời tương lai." }
+      ],
+      "hint": "Chủ ngữ là đoàn múa (chủ động), có mốc thời gian tương lai 'on May 29'.",
+      "translation": "Đoàn Múa Manchester sẽ trình diễn vở nổi tiếng *Waltzing Wonderland* tại Nhà hát Verona vào ngày 29 tháng 5.",
+      "category": "grammar"
+    },
+    {
+      "id": 118,
+      "question": "Webmax's experts ------- all data from the traffic to your site to help determine the best way to target potential customers.",
+      "answerOptions": [
+        { "text": "(A) reassure", "isCorrect": false, "rationale": "'reassure' (trấn an) không phù hợp ngữ cảnh xử lý dữ liệu." },
+        { "text": "(B) attract", "isCorrect": false, "rationale": "'attract' (thu hút) không hợp với 'data from the traffic'." },
+        { "text": "(C) possess", "isCorrect": false, "rationale": "'possess' (sở hữu) không diễn tả hành động xử lý dữ liệu." },
+        { "text": "(D) analyze", "isCorrect": true, "rationale": "'analyze' (phân tích) — phân tích dữ liệu lưu lượng truy cập. Hợp logic và ngữ cảnh nhất." }
+      ],
+      "hint": "Chuyên gia làm gì với dữ liệu lưu lượng truy cập để xác định cách tiếp cận khách hàng?",
+      "translation": "Các chuyên gia của Webmax phân tích tất cả dữ liệu từ lưu lượng truy cập trang web của bạn để giúp xác định cách tốt nhất nhắm đến khách hàng tiềm năng.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 119,
+      "question": "The study confirmed that providing more government grants has led directly to higher college -------.",
+      "answerOptions": [
+        { "text": "(A) admission", "isCorrect": true, "rationale": "'admission' (tuyển sinh) là danh từ phù hợp. 'college admission' = tuyển sinh đại học. Hợp ngữ cảnh: trợ cấp dẫn đến tỷ lệ tuyển sinh cao hơn." },
+        { "text": "(B) admit", "isCorrect": false, "rationale": "'admit' là động từ (thừa nhận/nhận vào), không đứng sau tính từ 'higher'." },
+        { "text": "(C) admits", "isCorrect": false, "rationale": "'admits' là động từ chia ở ngôi 3 số ít, không phù hợp vị trí." },
+        { "text": "(D) admittedly", "isCorrect": false, "rationale": "'admittedly' là trạng từ, không phù hợp vị trí danh từ." }
+      ],
+      "hint": "Sau tính từ 'higher' cần danh từ. 'college _____' — liên quan đến tuyển sinh.",
+      "translation": "Nghiên cứu xác nhận rằng việc cung cấp thêm trợ cấp chính phủ đã trực tiếp dẫn đến tỷ lệ tuyển sinh đại học cao hơn.",
+      "category": "word-form"
+    },
+    {
+      "id": 120,
+      "question": "The handbags were the same brand, but due to being produced at different factories, their quality differed -------.",
+      "answerOptions": [
+        { "text": "(A) significantly", "isCorrect": true, "rationale": "'significantly' (đáng kể) là trạng từ bổ nghĩa cho động từ 'differed'. Hợp logic: chất lượng khác biệt đáng kể." },
+        { "text": "(B) lastingly", "isCorrect": false, "rationale": "'lastingly' (lâu dài) không phù hợp ngữ cảnh so sánh chất lượng." },
+        { "text": "(C) properly", "isCorrect": false, "rationale": "'properly' (đúng cách) không hợp nghĩa với 'differed'." },
+        { "text": "(D) brightly", "isCorrect": false, "rationale": "'brightly' (sáng sủa) không phù hợp ngữ cảnh." }
+      ],
+      "hint": "Trạng từ nào diễn tả mức độ khác biệt lớn?",
+      "translation": "Các túi xách cùng thương hiệu, nhưng do được sản xuất tại các nhà máy khác nhau, chất lượng của chúng khác biệt đáng kể.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 121,
+      "question": "The manager scheduled a last-minute meeting to announce ------- will be promoted to the assistant director position.",
+      "answerOptions": [
+        { "text": "(A) who", "isCorrect": true, "rationale": "'who' dẫn mệnh đề danh từ làm tân ngữ cho 'announce'. 'Who will be promoted' = ai sẽ được thăng chức." },
+        { "text": "(B) those", "isCorrect": false, "rationale": "'those' cần theo sau bởi mệnh đề quan hệ hoặc danh từ, không dẫn mệnh đề danh từ trực tiếp." },
+        { "text": "(C) whose", "isCorrect": false, "rationale": "'whose' chỉ sở hữu, không phù hợp làm chủ ngữ của 'will be promoted'." },
+        { "text": "(D) which", "isCorrect": false, "rationale": "'which' dùng cho vật, không cho người." }
+      ],
+      "hint": "Cần đại từ quan hệ chỉ người làm chủ ngữ của mệnh đề danh từ.",
+      "translation": "Quản lý đã lên lịch một cuộc họp phút chót để thông báo ai sẽ được thăng chức lên vị trí phó giám đốc.",
+      "category": "grammar"
+    },
+    {
+      "id": 122,
+      "question": "One of the ------- reasons for voter support of Ms. Grady is her promise to improve public facilities.",
+      "answerOptions": [
+        { "text": "(A) rapid", "isCorrect": false, "rationale": "'rapid' (nhanh chóng) không phù hợp bổ nghĩa cho 'reasons'." },
+        { "text": "(B) primary", "isCorrect": true, "rationale": "'primary' (chính/chủ yếu) — 'primary reasons' = lý do chính. Hợp logic nhất." },
+        { "text": "(C) diligent", "isCorrect": false, "rationale": "'diligent' (siêng năng) dùng cho người, không cho 'reasons'." },
+        { "text": "(D) sensitive", "isCorrect": false, "rationale": "'sensitive' (nhạy cảm) không phù hợp ngữ cảnh." }
+      ],
+      "hint": "Tính từ nào mô tả 'reasons' quan trọng nhất?",
+      "translation": "Một trong những lý do chính cho sự ủng hộ của cử tri đối với bà Grady là cam kết cải thiện cơ sở vật chất công cộng.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 123,
+      "question": "If the current sales trends continue, Gilana Autos will have a budget ------- of two million dollars at the end of December.",
+      "answerOptions": [
+        { "text": "(A) procedure", "isCorrect": false, "rationale": "'procedure' (quy trình) không phù hợp ngữ cảnh ngân sách." },
+        { "text": "(B) surplus", "isCorrect": true, "rationale": "'surplus' (thặng dư) — 'budget surplus' = thặng dư ngân sách. Hợp logic: xu hướng bán hàng tốt → thặng dư." },
+        { "text": "(C) negotiation", "isCorrect": false, "rationale": "'negotiation' (đàm phán) không phù hợp với 'budget _____ of two million'." },
+        { "text": "(D) assembly", "isCorrect": false, "rationale": "'assembly' (lắp ráp/hội đồng) không phù hợp." }
+      ],
+      "hint": "Xu hướng bán hàng tốt dẫn đến ngân sách dư ra → '_____ of two million dollars'.",
+      "translation": "Nếu xu hướng bán hàng hiện tại tiếp tục, Gilana Autos sẽ có thặng dư ngân sách hai triệu đô la vào cuối tháng 12.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 124,
+      "question": "How ------- the stain remover works depends on the amount of time it is left on the fabric.",
+      "answerOptions": [
+        { "text": "(A) effectiveness", "isCorrect": false, "rationale": "'effectiveness' là danh từ, không đứng sau 'How' để bổ nghĩa cho động từ." },
+        { "text": "(B) effect", "isCorrect": false, "rationale": "'effect' là danh từ/động từ, không phù hợp vị trí." },
+        { "text": "(C) more effective", "isCorrect": false, "rationale": "'more effective' là tính từ so sánh, không bổ nghĩa cho động từ 'works'." },
+        { "text": "(D) effectively", "isCorrect": true, "rationale": "'effectively' là trạng từ bổ nghĩa cho động từ 'works'. 'How effectively' = hiệu quả như thế nào." }
+      ],
+      "hint": "Cấu trúc 'How + _____ + S + V' cần trạng từ.",
+      "translation": "Chất tẩy vết bẩn hoạt động hiệu quả đến mức nào phụ thuộc vào thời gian nó được để trên vải.",
+      "category": "word-form"
+    },
+    {
+      "id": 125,
+      "question": "Faculty members as well as students ------- in classes for the spring term are encouraged to attend the reception.",
+      "answerOptions": [
+        { "text": "(A) have enrolled", "isCorrect": false, "rationale": "'have enrolled' là thì hiện tại hoàn thành, tạo thành 2 động từ cho 1 mệnh đề." },
+        { "text": "(B) enrolled", "isCorrect": true, "rationale": "'enrolled' là quá khứ phân từ dùng như rút gọn mệnh đề quan hệ (who are enrolled). Câu nghĩa: Sinh viên đã đăng ký lớp học kỳ xuân." },
+        { "text": "(C) will enroll", "isCorrect": false, "rationale": "'will enroll' tạo 2 động từ cho cùng 1 mệnh đề." },
+        { "text": "(D) enroll", "isCorrect": false, "rationale": "'enroll' là nguyên thể, cũng tạo 2 động từ." }
+      ],
+      "hint": "Đây là mệnh đề quan hệ rút gọn (reduced relative clause). Động từ chính là 'are encouraged'.",
+      "translation": "Giảng viên cũng như sinh viên đã đăng ký các lớp học kỳ xuân được khuyến khích tham dự buổi tiếp tân.",
+      "category": "grammar"
+    },
+    {
+      "id": 126,
+      "question": "The durable power tools created by Nix Industrial are suitable for amateurs and professionals -------.",
+      "answerOptions": [
+        { "text": "(A) alike", "isCorrect": true, "rationale": "'alike' (như nhau) — 'amateurs and professionals alike' = cả người nghiệp dư lẫn chuyên gia. Cụm cố định phổ biến trong TOEIC." },
+        { "text": "(B) nearly", "isCorrect": false, "rationale": "'nearly' (gần như) không phù hợp vị trí cuối câu sau danh từ." },
+        { "text": "(C) very", "isCorrect": false, "rationale": "'very' (rất) không đứng cuối câu sau danh từ." },
+        { "text": "(D) rightfully", "isCorrect": false, "rationale": "'rightfully' (một cách chính đáng) không hợp ngữ cảnh." }
+      ],
+      "hint": "Cụm cố định: 'A and B _____' = cả A lẫn B đều...",
+      "translation": "Các dụng cụ điện bền bỉ do Nix Industrial tạo ra phù hợp cho cả người nghiệp dư lẫn chuyên gia.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 127,
+      "question": "Most of the conference's ------- live in the central region of the country.",
+      "answerOptions": [
+        { "text": "(A) presenting", "isCorrect": false, "rationale": "'presenting' là hiện tại phân từ/tính từ, không phù hợp sau sở hữu cách." },
+        { "text": "(B) presentations", "isCorrect": false, "rationale": "'presentations' (bài thuyết trình) — bài thuyết trình không 'live' (sống)." },
+        { "text": "(C) presenters", "isCorrect": true, "rationale": "'presenters' (người thuyết trình) — danh từ chỉ người, có thể 'live' (sống). Câu nghĩa: Hầu hết diễn giả sống ở miền trung." },
+        { "text": "(D) presented", "isCorrect": false, "rationale": "'presented' là quá khứ phân từ, không phù hợp vị trí." }
+      ],
+      "hint": "Cần danh từ chỉ NGƯỜI (vì 'live' = sống thuộc về hành động của con người).",
+      "translation": "Hầu hết các diễn giả của hội nghị sống ở khu vực miền trung đất nước.",
+      "category": "word-form"
+    },
+    {
+      "id": 128,
+      "question": "------- implementation of the new safety policy may take a few weeks or longer.",
+      "answerOptions": [
+        { "text": "(A) Evident", "isCorrect": false, "rationale": "'Evident' (hiển nhiên) — 'evident implementation' không hợp logic." },
+        { "text": "(B) Successful", "isCorrect": true, "rationale": "'Successful' (thành công) — 'Successful implementation' = việc triển khai thành công. Hợp nghĩa: việc triển khai chính sách thành công có thể mất vài tuần." },
+        { "text": "(C) Fortunate", "isCorrect": false, "rationale": "'Fortunate' (may mắn) không phù hợp bổ nghĩa cho 'implementation'." },
+        { "text": "(D) Casual", "isCorrect": false, "rationale": "'Casual' (thoải mái/thường ngày) không phù hợp ngữ cảnh chính sách an toàn." }
+      ],
+      "hint": "Tính từ nào mô tả việc triển khai chính sách một cách trọn vẹn, đạt kết quả?",
+      "translation": "Việc triển khai thành công chính sách an toàn mới có thể mất vài tuần hoặc lâu hơn.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 129,
+      "question": "Managers at Sigmund Insurance are more likely to promote employees ------- on the company's mission statement.",
+      "answerOptions": [
+        { "text": "(A) focusing", "isCorrect": true, "rationale": "'focusing' là hiện tại phân từ dùng trong mệnh đề quan hệ rút gọn (who are focusing). Câu nghĩa: Nhân viên tập trung vào sứ mệnh công ty." },
+        { "text": "(B) focus", "isCorrect": false, "rationale": "'focus' là nguyên thể, tạo 2 động từ cho cùng 1 mệnh đề." },
+        { "text": "(C) focuses", "isCorrect": false, "rationale": "'focuses' cũng tạo 2 động từ liên tiếp." },
+        { "text": "(D) have focused", "isCorrect": false, "rationale": "'have focused' cũng tạo 2 động từ liên tiếp." }
+      ],
+      "hint": "Giảm mệnh đề quan hệ (employees who are focusing) → employees _____.",
+      "translation": "Quản lý tại Sigmund Insurance có khả năng thăng chức cho nhân viên tập trung vào tuyên bố sứ mệnh của công ty.",
+      "category": "grammar"
+    },
+    {
+      "id": 130,
+      "question": "All businesses operating in the country must ------- with these data protection measures.",
+      "answerOptions": [
+        { "text": "(A) combine", "isCorrect": false, "rationale": "'combine with' (kết hợp với) không phù hợp ngữ cảnh tuân thủ quy định." },
+        { "text": "(B) interfere", "isCorrect": false, "rationale": "'interfere with' (can thiệp) ngược nghĩa với tuân thủ." },
+        { "text": "(C) comply", "isCorrect": true, "rationale": "'comply with' (tuân thủ) — cụm cố định dùng cho luật/quy định. Câu nghĩa: Tất cả doanh nghiệp phải tuân thủ các biện pháp bảo vệ dữ liệu." },
+        { "text": "(D) associate", "isCorrect": false, "rationale": "'associate with' (liên kết với) không phù hợp ngữ cảnh quy định." }
+      ],
+      "hint": "Collocation: '_____ with regulations/measures' = tuân theo quy định.",
+      "translation": "Tất cả doanh nghiệp hoạt động trong nước phải tuân thủ các biện pháp bảo vệ dữ liệu này.",
+      "category": "vocabulary"
+    }
+  ]
+}
