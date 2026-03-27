@@ -7,6 +7,7 @@ export interface LessonProgress {
   score: number;
   isFinished: boolean;
   totalQuestions: number;
+  restartCount?: number;
 }
 
 export interface ScenarioProgress {
@@ -16,6 +17,7 @@ export interface ScenarioProgress {
   answers: Record<string, string>;
   isFinished: boolean;
   score: number;
+  restartCount?: number;
 }
 
 interface QuizStore {
@@ -102,11 +104,13 @@ export const useQuizStore = create<QuizStore>()(
         progress: {
           ...state.progress,
           [lessonId]: { 
+            ...(state.progress[lessonId] || {}),
             currentIndex: 0, 
             answers: {}, 
             isFinished: false, 
             score: 0, 
-            totalQuestions: state.progress[lessonId]?.totalQuestions || 0 
+            totalQuestions: state.progress[lessonId]?.totalQuestions || 0,
+            restartCount: (state.progress[lessonId]?.restartCount || 0) + 1
           }
         }
       })),
@@ -149,19 +153,24 @@ export const useQuizStore = create<QuizStore>()(
           }
         };
       }),
-      restartScenario: (testId) => set((state) => ({
-        scenarioProgress: {
-          ...state.scenarioProgress,
-          [testId]: {
-            scenarioIdx: 0,
-            passageIdx: 0,
-            blankIdx: 0,
-            answers: {},
-            isFinished: false,
-            score: 0
+      restartScenario: (testId) => set((state) => {
+        const current = state.scenarioProgress[testId];
+        return {
+          scenarioProgress: {
+            ...state.scenarioProgress,
+            [testId]: {
+              ...(current || { scenarioIdx: 0, passageIdx: 0, blankIdx: 0, answers: {}, isFinished: false, score: 0 }),
+              answers: {},
+              scenarioIdx: 0,
+              passageIdx: 0,
+              blankIdx: 0,
+              isFinished: false,
+              score: 0,
+              restartCount: (current?.restartCount || 0) + 1
+            }
           }
-        }
-      }))
+        };
+      })
     }),
     {
       name: 'toeic-quiz-storage',

@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
-import { LessonCard } from "@/components/LessonCard";
-import { PracticeCard } from "@/components/PracticeCard";
+import { LessonCard } from "@/components/home/LessonCard";
+import { PracticeCard } from "@/components/home/PracticeCard";
 
 
 

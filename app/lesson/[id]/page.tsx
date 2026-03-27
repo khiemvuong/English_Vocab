@@ -1,4 +1,4 @@
-import { QuizEngine } from "@/components/QuizEngine";
+import { QuizEngine } from "@/components/quiz/QuizEngine";
 import { loadQuizData, getAvailableVocabLessons } from "@/lib/quiz-loader";
 import Link from "next/link";
 
