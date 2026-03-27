@@ -1,4 +1,4 @@
-import { ScenarioEngine } from "@/components/ScenarioEngine";
+import { ScenarioEngine } from "@/components/scenario/ScenarioEngine";
 import { loadScenarioData, getTestsWithScenarios } from "@/lib/quiz-loader";
 import Link from "next/link";
 

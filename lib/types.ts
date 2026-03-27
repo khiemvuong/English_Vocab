@@ -19,10 +19,16 @@ export interface QuizData {
 }
 
 // Scenario-based vocabulary types
+export interface ScenarioOption {
+  text: string;
+  phonetic: string;
+  meaning: string;
+}
+
 export interface ScenarioBlank {
   hint: string;
   answer: string;
-  options: string[];
+  options: ScenarioOption[];
 }
 
 export interface ScenarioPassage {

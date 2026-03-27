@@ -1,9 +1,13 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import type { ScenarioData } from "@/lib/types";
 import { useQuizStore } from "@/store/quizStore";
+import { playSound } from "@/utils/audio";
+import { ScenarioOptionGrid } from "@/components/scenario/ScenarioOptionGrid";
+import { ResultSummary } from "@/components/common/ResultSummary";
+import { QuizHeader } from "@/components/common/QuizHeader";
 
 interface ScenarioEngineProps {
   data: ScenarioData;
@@ -12,7 +16,7 @@ interface ScenarioEngineProps {
 
 export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
   const router = useRouter();
-  const { scenarioProgress, updateScenarioState, answerScenarioBlank, restartScenario } = useQuizStore();
+  const { scenarioProgress, updateScenarioState, answerScenarioBlank, restartScenario, isMuted, toggleMute } = useQuizStore();
   const [mounted, setMounted] = useState(false);
   const [previewBlankKey, setPreviewBlankKey] = useState<string | null>(null);
 
@@ -46,10 +50,40 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
   const selectedOption = answers[blankKey] ?? null;
   const isAnswered = selectedOption !== null;
 
+  const restartCount = progress?.restartCount ?? 0;
+  
+  // Stable pseudo-random shuffle per blankKey & restartCount
+  const displayOptions = useMemo(() => {
+    if (restartCount === 0 || !blank || !blank.options) return blank?.options || [];
+    
+    let hash = 0;
+    const str = blankKey + restartCount;
+    for (let i = 0; i < str.length; i++) {
+        hash = Math.imul(31, hash) + str.charCodeAt(i) | 0;
+    }
+    const pseudoRandom = () => {
+        hash = Math.imul(741103597, hash) + 1 | 0;
+        let t = Math.imul(hash ^ (hash >>> 15), 1597334677);
+        t = (t ^ (t >>> 15)) * (1.0 / 4294967296);
+        return t + 0.5;
+    };
+
+    const shuffled = [...blank.options];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(pseudoRandom() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }, [blank, restartCount, blankKey]);
+
   const handleSelect = (option: string) => {
     if (selectedOption !== null) return;
     const isCorrect = option === blank?.answer;
     answerScenarioBlank(testId, blankKey, option, isCorrect);
+    
+    if (!isMuted) {
+      playSound(isCorrect ? 'correct' : 'incorrect');
+    }
   };
 
   const goNext = () => {
@@ -109,7 +143,8 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
       if (!isAnswered) {
         const key = parseInt(e.key);
         if (key >= 1 && key <= currentOptions.length) {
-          handleSelect(currentOptions[key - 1]);
+          const opt = currentOptions[key - 1];
+          handleSelect(typeof opt === 'string' ? opt : opt.text);
         }
       } else {
         if (e.code === "Space") {
@@ -201,96 +236,35 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
   if (showSummary && previewBlankKey === null) {
     return (
       <div className="min-h-dvh flex items-center justify-center p-4">
-        <div className="bg-white rounded-3xl shadow-2xl w-full max-w-md flex flex-col overflow-hidden max-h-[85vh] animate-in fade-in zoom-in-95 duration-300">
-          
-          {/* Modal Header */}
-          <div className="px-6 py-6 lg:py-8 border-b border-slate-100 text-center shrink-0 bg-white relative">
-            <div className="w-16 h-16 lg:w-20 lg:h-20 bg-blue-50/80 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-500 ring-4 ring-blue-50/50">
-              <svg className="w-8 h-8 lg:w-10 lg:h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-            </div>
-            <h2 className="text-xl lg:text-2xl font-bold text-slate-800 mb-1 lg:mb-2">Hoàn thành bài tập!</h2>
-            <p className="text-slate-500 font-medium">
-              Kết quả: <strong className="text-blue-600 text-xl mx-0.5">
-                {correctCount}
-              </strong> / {totalBlanks}
-            </p>
-          </div>
-
-          {/* Modal Body - Scrollable Modal approx 50vh */}
-          <div className="p-4 lg:p-6 overflow-y-auto bg-slate-50/50 flex-1 max-h-[50vh]">
-            <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4 px-1">Kết quả chi tiết</h3>
-            
-            <div className="flex flex-col gap-2.5">
-              {allBlanks.map((item, i) => {
-                const hasAnswered = item.bKey in answers;
-                const isCorrect = hasAnswered ? item.blank.answer === answers[item.bKey] : false;
-                
-                return (
-                  <button
-                    key={item.bKey}
-                    onClick={() => setPreviewBlankKey(item.bKey)}
-                    className={`flex items-center justify-between p-3.5 lg:p-4 cursor-pointer rounded-2xl border transition-transform hover:-translate-y-0.5 active:scale-95 ${isCorrect ? 'bg-green-50/60 border-green-200 text-green-700 hover:bg-green-50' : 'bg-red-50/60 border-red-200 text-red-700 hover:bg-red-50'}`}
-                  >
-                    <div className="flex items-center gap-3">
-                      <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${isCorrect ? 'bg-green-100' : 'bg-red-100/80'}`}>
-                         {isCorrect ? (
-                           <svg className="w-4 h-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
-                         ) : (
-                           <svg className="w-4 h-4 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" /></svg>
-                         )}
-                      </div>
-                      <div className="flex flex-col text-left">
-                        <span className="font-bold text-sm lg:text-base">Vị trí {i + 1} ({item.blank.hint})</span>
-                        <span className="text-xs opacity-70 line-clamp-1">{item.scenario.title}</span>
-                      </div>
-                    </div>
-                    
-                    <div className="text-xs lg:text-sm font-semibold flex items-center gap-1 opacity-80 shrink-0">
-                      Xem lại
-                      <svg className="w-4 h-4 mt-px" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
-                    </div>
-                  </button>
-                )
-              })}
-            </div>
-          </div>
-
-          {/* Modal Footer */}
-          <div className="p-4 lg:p-6 bg-white border-t border-slate-100 flex gap-3 shrink-0">
-            <button
-              onClick={() => {
-                restartScenario(testId);
-              }}
-              className="flex-[0.4] py-3.5 bg-slate-100 hover:bg-slate-200 text-slate-600 font-bold rounded-xl transition-colors text-sm lg:text-base cursor-pointer"
-            >
-              Làm lại
-            </button>
-            <button
-            
-              onClick={() => router.push(`/part5/${testId}`)}
-              className="flex-1 py-3.5 flex justify-center items-center bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors shadow-xl shadow-blue-600/20 text-sm lg:text-base cursor-pointer"
-            >
-              Về Luyện Đề
-            </button>
-          </div>
-        </div>
+        <ResultSummary
+          score={correctCount}
+          total={totalBlanks}
+          items={allBlanks.map((item, i) => {
+            const hasAnswered = item.bKey in answers;
+            const isCorrect = hasAnswered ? item.blank.answer === answers[item.bKey] : false;
+            return {
+              id: item.bKey,
+              isCorrect,
+              title: `Vị trí ${i + 1} (${item.blank.hint})`,
+              subtitle: item.scenario.title,
+              onClickReview: () => setPreviewBlankKey(item.bKey)
+            };
+          })}
+          onRestart={() => restartScenario(testId)}
+          onExit={() => router.push(`/part5/${testId}`)}
+          exitLabel="Về Luyện Đề"
+        />
       </div>
     );
   }
 
   if (!blank) return null;
 
-  // Static options directly from data
-  const options = blank.options;
-
   return (
     <div className="flex flex-col h-dvh w-full overflow-hidden">
       <div className="flex flex-col flex-1 w-full max-w-3xl mx-auto px-4 md:px-6 pt-4 md:pt-6 overflow-hidden">
-        {/* Header */}
-        <header className="flex flex-wrap items-center justify-between mb-4 md:mb-6 shrink-0 gap-y-3">
-          {previewBlankKey !== null ? (
+        {previewBlankKey !== null ? (
+          <header className="flex flex-wrap items-center justify-between mb-4 md:mb-6 shrink-0 gap-y-3">
             <button
               onClick={() => setPreviewBlankKey(null)}
               className="group flex items-center gap-2 text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
@@ -300,37 +274,19 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
               </div>
               <span className="font-bold text-sm">Quay về Kết quả</span>
             </button>
-          ) : (
-            <>
-              <div className="text-xs font-bold text-slate-500 uppercase tracking-widest shrink-0">
-                Tình huống {activeScenarioIdx + 1}/{data.scenarios.length}
-                <span className="mx-1.5 text-slate-300">•</span>
-                {answeredCount}/{totalBlanks} từ
-              </div>
-
-              {/* Progress */}
-              <div className="flex-1 flex justify-center w-full min-w-[150px] order-3 md:order-2 md:w-auto px-2 md:px-0">
-                <div className="w-full max-w-[200px] h-1.5 bg-slate-200 rounded-full overflow-hidden">
-                  <div
-                    className="bg-emerald-500 h-full transition-all duration-300"
-                    style={{ width: `${(answeredCount / totalBlanks) * 100}%` }}
-                  />
-                </div>
-              </div>
-
-              <button
-                onClick={() => router.push(`/?tab=part5`)}
-                title="Exit"
-                className="flex items-center gap-1.5 px-3 py-1.5 text-slate-600 bg-slate-100 hover:text-red-700 hover:bg-red-50 rounded-full transition-colors cursor-pointer order-2 md:order-3"
-              >
-                <span className="text-sm font-bold">Exit</span>
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            </>
-          )}
-        </header>
+          </header>
+        ) : (
+          <QuizHeader
+            titleText={`Part 5 – ${testId.toUpperCase()} • Tình Huống`}
+            subtitleText={`${answeredCount} / ${totalBlanks} từ`}
+            progressPercent={(answeredCount / totalBlanks) * 100}
+            progressColorClass="bg-emerald-500"
+            isMuted={isMuted}
+            onToggleMute={toggleMute}
+            onRestart={() => restartScenario(testId)}
+            onExit={() => router.push(`/part5/${testId}`)}
+          />
+        )}
 
         {/* Scenario Title */}
         <div className="mb-4 shrink-0">
@@ -362,60 +318,13 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
               </h3>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {options.map((option, i) => {
-                const letter = ["A", "B", "C", "D"][i];
-                const isSelected = selectedOption === option;
-                const isCorrectOption = option === blank.answer;
-                const showResult = isAnswered;
-
-                let className =
-                  "flex items-center gap-3 p-4 rounded-xl border-2 transition-all duration-200 cursor-pointer text-left";
-
-                if (!showResult) {
-                  className += " border-slate-200 bg-white hover:border-blue-300 hover:bg-blue-50/50 active:scale-[0.98]";
-                } else if (isCorrectOption) {
-                  className += " border-emerald-300 bg-emerald-50 text-emerald-800";
-                } else if (isSelected && !isCorrectOption) {
-                  className += " border-red-300 bg-red-50 text-red-700";
-                } else {
-                  className += " border-slate-100 bg-white/50 opacity-50";
-                }
-
-                return (
-                  <button
-                    key={option}
-                    onClick={() => handleSelect(option)}
-                    disabled={isAnswered}
-                    className={className}
-                  >
-                    <span
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold shrink-0 ${
-                        showResult && isCorrectOption
-                          ? "bg-emerald-200 text-emerald-800"
-                          : showResult && isSelected
-                          ? "bg-red-200 text-red-700"
-                          : "bg-slate-100 text-slate-500"
-                      }`}
-                    >
-                      {letter}
-                    </span>
-                    <span className="font-semibold text-sm">{option}</span>
-
-                    {showResult && isCorrectOption && (
-                      <svg className="w-5 h-5 ml-auto text-emerald-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
-                      </svg>
-                    )}
-                    {showResult && isSelected && !isCorrectOption && (
-                      <svg className="w-5 h-5 ml-auto text-red-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                    )}
-                  </button>
-                );
-              })}
-            </div>
+            <ScenarioOptionGrid
+              options={displayOptions}
+              selectedOption={selectedOption}
+              correctAnswer={blank.answer}
+              isAnswered={isAnswered}
+              onSelect={handleSelect}
+            />
 
             {/* Next/Prev buttons */}
             {previewBlankKey === null && (

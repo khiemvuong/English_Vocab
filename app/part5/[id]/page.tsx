@@ -1,6 +1,6 @@
-import { QuizEngine } from "@/components/QuizEngine";
-import { ScenarioBanner } from "@/components/ScenarioBanner";
-import { loadQuizData, getAvailablePart5Tests, hasScenarioData } from "@/lib/quiz-loader";
+import { QuizEngine } from "@/components/quiz/QuizEngine";
+import { ScenarioBanner } from "@/components/scenario/ScenarioBanner";
+import { loadQuizData, getAvailablePart5Tests, hasScenarioData, loadScenarioData } from "@/lib/quiz-loader";
 import Link from "next/link";
 
 export async function generateStaticParams() {
@@ -15,6 +15,12 @@ export default async function Part5Page({
   const { id } = await params;
   const quizData = loadQuizData("part5", id);
   const hasScenarios = hasScenarioData(id);
+  const scenarioData = hasScenarios ? loadScenarioData(id) : null;
+  const totalBlanks = scenarioData
+    ? scenarioData.scenarios.reduce((acc, curr) =>
+        acc + curr.passages.reduce((pAcc, pCurr) => pAcc + pCurr.blanks.length, 0),
+      0)
+    : 0;
 
   if (!quizData) {
     return (
@@ -35,7 +41,11 @@ export default async function Part5Page({
 
   return (
     <>
-      {hasScenarios && <ScenarioBanner testId={id} />}
+      {hasScenarios && (
+        <div className="w-full max-w-3xl mx-auto px-4 md:px-6 pt-4 md:pt-6">
+          <ScenarioBanner testId={id} totalBlanks={totalBlanks} />
+        </div>
+      )}
       <QuizEngine quizData={quizData} lessonId={`part5-${id}`} />
     </>
   );

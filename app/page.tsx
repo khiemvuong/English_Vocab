@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { HomeContent } from "@/components/HomeContent";
+import { HomeContent } from "@/components/home/HomeContent";
 import { getAvailablePart5Tests, getAvailableVocabLessons, getTestsWithScenarios } from "@/lib/quiz-loader";
 import { TOTAL_VOCAB_LESSONS, TOTAL_PART5_TESTS } from "@/lib/constants";
 

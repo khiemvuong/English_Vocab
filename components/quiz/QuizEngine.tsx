@@ -2,9 +2,14 @@
 
 import { useEffect, useState, useCallback } from "react";
 import { useQuizStore } from "@/store/quizStore";
-import { playSound, speakWord } from "@/utils/audio";
+import { playSound } from "@/utils/audio";
 import { useRouter } from "next/navigation";
 import type { QuizData } from "@/lib/types";
+import { renderFormattedText } from "@/utils/textFormatting";
+import { QuizOptionGrid } from "@/components/quiz/QuizOptionGrid";
+import { ResultSummary } from "@/components/common/ResultSummary";
+import { QuizHeader } from "@/components/common/QuizHeader";
+import { QuestionTimer } from "@/components/quiz/QuestionTimer";
 
 const CATEGORY_MAP: Record<string, { label: string; color: string }> = {
   'word-form': { label: 'Dạng từ', color: 'bg-purple-50 text-purple-700 border-purple-200' },
@@ -13,50 +18,6 @@ const CATEGORY_MAP: Record<string, { label: string; color: string }> = {
   'preposition': { label: 'Giới từ', color: 'bg-teal-50 text-teal-700 border-teal-200' },
   'conjunction': { label: 'Liên từ', color: 'bg-orange-50 text-orange-700 border-orange-200' },
   'pronoun': { label: 'Đại từ', color: 'bg-indigo-50 text-indigo-700 border-indigo-200' },
-};
-
-const renderFormattedText = (text: string) => {
-  if (!text) return null;
-  const parts = text.split(/(\/[^\/]+\/)/g);
-  return (
-    <span className="leading-relaxed">
-      {parts.map((part, i) => {
-         if (part.startsWith('/') && part.endsWith('/')) {
-           const textBefore = i > 0 ? parts[i-1] : '';
-           let wordToSpeak = '';
-           const strictQuoteMatch = textBefore.match(/['"]([^'"]+)['"]\s*$/);
-           if (strictQuoteMatch) {
-             wordToSpeak = strictQuoteMatch[1];
-           } else {
-             const words = textBefore.trim().split(/\s+/);
-             if (words.length <= 3) {
-               wordToSpeak = textBefore.replace(/['":;,.()]/g, '').trim();
-             } else {
-               wordToSpeak = words[words.length - 1].replace(/['":;,.()]/g, '');
-             }
-           }
-           
-           return (
-             <span key={i} className="inline-flex items-center whitespace-nowrap px-2 py-0.5 mx-0.5 bg-indigo-50/80 text-indigo-700 font-medium rounded-lg text-[0.9em] tracking-wide align-baseline border border-indigo-100/50">
-               {part}
-               <button
-                 onClick={(e) => {
-                   e.preventDefault();
-                   e.stopPropagation();
-                   speakWord(wordToSpeak);
-                 }}
-                 className="ml-1.5 p-1 text-indigo-400 hover:text-indigo-600 hover:bg-white rounded-full transition-colors active:scale-95"
-                 title={`Listen to ${wordToSpeak}`}
-               >
-                 <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M13.5 4.06c0-1.336-1.616-2.005-2.56-1.06l-4.5 4.5H4.508c-1.141 0-2.318.664-2.66 1.905A9.76 9.76 0 001.5 12c0 .898.121 1.768.35 2.595.341 1.24 1.518 1.905 2.659 1.905h1.93l4.5 4.5c.945.945 2.56.276 2.56-1.06V4.06zM18.584 5.106a.75.75 0 011.06 0c3.808 3.807 3.808 9.98 0 13.788a.75.75 0 11-1.06-1.06 8.25 8.25 0 000-11.668.75.75 0 010-1.06z" /><path d="M15.932 7.757a.75.75 0 011.061 0 6 6 0 010 8.486.75.75 0 01-1.06-1.061 4.5 4.5 0 000-6.364.75.75 0 010-1.06z" /></svg>
-               </button>
-             </span>
-           );
-         }
-         return <span key={i}>{part}</span>;
-      })}
-    </span>
-  );
 };
 
 export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonId: string }) {
@@ -136,51 +97,16 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
   return (
     <div className="flex flex-col h-dvh w-full overflow-hidden">
       <div className="flex flex-col flex-1 w-full max-w-3xl mx-auto px-4 md:px-6 pt-4 md:pt-6 overflow-hidden">
-      {/* Header */}
-      <header className="flex flex-wrap items-center justify-between mb-4 md:mb-8 shrink-0 gap-y-4">
-        {/* Left: Lesson Info */}
-        <div className="text-xs font-bold text-slate-500 uppercase tracking-widest shrink-0">
-          {lessonId.startsWith('part5-') ? `Part 5 – ${lessonId.replace('part5-', '').toUpperCase()}` : `Lesson ${lessonId.padStart(2, '0')}`}
-          <span className="mx-1.5 text-slate-300">•</span> 
-          {currentIndex + 1} / {quizData.questions.length}
-        </div>
-
-        {/* Center: Progress Bar */}
-        <div className="flex-1 flex justify-center w-full min-w-[150px] order-3 md:order-2 md:w-auto px-2 md:px-0">
-          <div className="w-full max-w-[200px] h-1.5 bg-slate-200 rounded-full overflow-hidden">
-            <div 
-              className="bg-blue-500 h-full transition-all duration-300 ease-out"
-              style={{ width: `${((currentIndex) / quizData.questions.length) * 100}%` }}
-            />
-          </div>
-        </div>
-
-        {/* Right: Controls */}
-        <div className="flex justify-end items-center shrink-0 order-2 md:order-3 gap-2.5">
-          <button 
-            onClick={toggleMute}
-            className="p-1.5 text-slate-500 bg-slate-100 hover:bg-slate-200 active:bg-slate-300 rounded-full transition-colors flex items-center justify-center h-8 w-8"
-            title={isMuted ? "Unmute sounds" : "Mute sounds"}
-          >
-            {isMuted ? (
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" clipRule="evenodd" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" /></svg>
-            ) : (
-              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" /></svg>
-            )}
-          </button>
-          
-          <button 
-            onClick={() => {
-              router.push(lessonId.startsWith('part5') ? '/?tab=part5' : '/?tab=vocab');
-            }}
-            title="Exit Quiz"
-            className="flex items-center gap-1.5 px-3 py-1.5 text-slate-600 bg-slate-100 hover:text-red-700 hover:bg-red-50 active:bg-red-100 rounded-full transition-colors cursor-pointer"
-          >
-            <span className="text-sm font-bold">Exit</span>
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
-          </button>
-        </div>
-      </header>
+      <QuizHeader
+        titleText={lessonId.startsWith('part5-') ? `Part 5 – ${lessonId.replace('part5-', '').toUpperCase()}` : `Lesson ${lessonId.padStart(2, '0')}`}
+        subtitleText={`${currentIndex + 1} / ${quizData.questions.length}`}
+        progressPercent={(currentIndex / quizData.questions.length) * 100}
+        progressColorClass="bg-blue-500"
+        isMuted={isMuted}
+        onToggleMute={toggleMute}
+        onRestart={() => restartLesson(lessonId)}
+        onExit={() => router.push(lessonId.startsWith('part5') ? '/?tab=part5' : '/?tab=vocab')}
+      />
 
       {/* Main Content Area - Scrollable */}
       <div className="flex-1 overflow-y-auto no-scrollbar pb-8">
@@ -225,56 +151,20 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
           )}
         </div>
 
-        <div className="flex flex-col gap-3">
-          {question.answerOptions.map((opt, idx) => {
-            const isSelected = selectedOption === idx;
-            const isCorrect = opt.isCorrect;
-
-            let boxClass = "border border-slate-200 bg-white hover:border-slate-300 hover:shadow-sm";
-            if (isAnswered) {
-              if (isCorrect) {
-                 boxClass = "border-green-300 bg-green-50 shadow-sm";
-              } else if (isSelected) {
-                 boxClass = "border-red-200 bg-red-50";
-              } else {
-                 boxClass = "border-slate-100 bg-white opacity-60";
-              }
-            }
-
-            return (
-              <div
-                key={idx}
-                onClick={() => { if (!isAnswered) handleSelectOption(idx, isCorrect); }}
-                className={`w-full text-left p-3.5 md:p-4 rounded-xl transition-all duration-300 ${boxClass} ${!isAnswered ? 'cursor-pointer hover:-translate-y-0.5' : 'cursor-default'}`}
-              >
-                <div className="flex items-start gap-4">
-                  <span className={`w-7 h-7 rounded-full flex items-center justify-center font-bold text-[13px] shrink-0 mt-0.5 transition-colors ${!isAnswered ? 'bg-slate-100 text-slate-500' : (isCorrect ? 'bg-green-500 text-white' : (isSelected ? 'bg-red-500 text-white' : 'bg-slate-100/50 text-slate-400'))}`}>
-                    {String.fromCharCode(65 + idx)}
-                  </span>
-                  
-                  <div className="flex flex-col w-full">
-                    <span className={`text-[15px] md:text-base leading-snug mt-0.5 ${isAnswered && isCorrect ? 'text-green-900 font-medium' : (isAnswered && isSelected ? 'text-red-900 font-medium' : 'text-slate-700')}`}>
-                      {renderFormattedText(opt.text)}
-                    </span>
-                    
-                    {isAnswered && (
-                      <div className="mt-3 text-sm text-slate-600 animate-in fade-in slide-in-from-top-2 duration-300">
-                        {isCorrect && <div className="text-green-600 font-medium flex items-center gap-1.5 mb-1">
-                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" /></svg>
-                          That&apos;s right!
-                        </div>}
-                        {isSelected && !isCorrect && <div className="text-red-600 font-medium flex items-center gap-1.5 mb-1">
-                          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
-                          Incorrect
-                        </div>}
-                        <p className={`leading-relaxed ${isSelected || isCorrect ? 'text-slate-700' : 'text-slate-500'}`}>{opt.rationale}</p>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </div>
-            )
-          })}
+        <div className="mb-6">
+          <QuizOptionGrid
+            options={question.answerOptions}
+            selectedOptionText={isAnswered && selectedOption !== null ? question.answerOptions[selectedOption]?.text : null}
+            correctOptionText={question.answerOptions.find(o => o.isCorrect)?.text || ''}
+            isAnswered={isAnswered}
+            onSelect={(text) => {
+              const idx = question.answerOptions.findIndex(o => o.text === text);
+              if (idx !== -1) handleSelectOption(idx, question.answerOptions[idx].isCorrect);
+            }}
+            isMuted={isMuted}
+            restartCount={session.restartCount || 0}
+            stableKey={(question.id?.toString()) || `q-${currentIndex}`}
+          />
         </div>
 
         {/* Keyboard shortcut note for PCs */}
@@ -287,6 +177,14 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
         </div>
       </div>
       </div>
+
+      {lessonId.startsWith('part5-') && !isFinished && (
+        <QuestionTimer 
+          currentIndex={currentIndex} 
+          isAnswered={isAnswered} 
+          duration={30} 
+        />
+      )}
 
       {/* Footer Action */}
       <div className="shrink-0 w-full bg-white/90 backdrop-blur-md border-t border-slate-200 shadow-[0_-4px_20px_-10px_rgba(0,0,0,0.05)] z-50">
@@ -385,76 +283,24 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
                </div>
             </div>
           ) : (
-            <div className="bg-white rounded-3xl shadow-2xl w-full max-w-md flex flex-col overflow-hidden max-h-[85vh] animate-in fade-in zoom-in-95 duration-300">
-              
-              {/* Modal Header */}
-              <div className="px-6 py-6 lg:py-8 border-b border-slate-100 text-center shrink-0 bg-white relative">
-                <div className="w-16 h-16 lg:w-20 lg:h-20 bg-blue-50/80 rounded-full flex items-center justify-center mx-auto mb-4 text-blue-500 ring-4 ring-blue-50/50">
-                  <svg className="w-8 h-8 lg:w-10 lg:h-10" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                </div>
-                <h2 className="text-xl lg:text-2xl font-bold text-slate-800 mb-1 lg:mb-2">Hoàn thành bài tập!</h2>
-                <p className="text-slate-500 font-medium">
-                  Kết quả: <strong className="text-blue-600 text-xl mx-0.5">
-                    {score}
-                  </strong> / {quizData.questions.length}
-                </p>
-              </div>
-              
-              {/* Modal Body - Scrollable Modal approx 50vh */}
-              <div className="p-4 lg:p-6 overflow-y-auto bg-slate-50/50 flex-1 max-h-[50vh]">
-                <h3 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4 px-1">Kết quả chi tiết</h3>
-                
-                <div className="flex flex-col gap-2.5">
-                  {quizData.questions.map((q, i) => {
-                    const optionIndex = answers[i];
-                    const hasAnswered = optionIndex !== undefined;
-                    const isCorrect = hasAnswered ? q.answerOptions[optionIndex].isCorrect : false;
-                    return (
-                      <button
-                        key={i}
-                        onClick={() => setPreviewQuestionIndex(i)}
-                        className={`flex items-center justify-between p-3.5 lg:p-4 cursor-pointer rounded-2xl border transition-transform hover:-translate-y-0.5 active:scale-95 ${isCorrect ? 'bg-green-50/60 border-green-200 text-green-700 hover:bg-green-50' : 'bg-red-50/60 border-red-200 text-red-700 hover:bg-red-50'}`}
-                      >
-                        <div className="flex items-center gap-3">
-                          <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${isCorrect ? 'bg-green-100' : 'bg-red-100/80'}`}>
-                             {isCorrect ? (
-                               <svg className="w-4 h-4 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" /></svg>
-                             ) : (
-                               <svg className="w-4 h-4 text-red-600" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" /></svg>
-                             )}
-                          </div>
-                          <span className="font-bold text-sm lg:text-base">Câu {i + 1}</span>
-                        </div>
-                        
-                        <div className="text-xs lg:text-sm font-semibold flex items-center gap-1 opacity-80">
-                          Xem lại
-                          <svg className="w-4 h-4 mt-px" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>
-                        </div>
-                      </button>
-                    )
-                  })}
-                </div>
-              </div>
-
-              {/* Modal Footer */}
-              <div className="p-4 lg:p-6 bg-white border-t border-slate-100 flex gap-3 shrink-0">
-                <button 
-                  onClick={() => restartLesson(lessonId)} 
-                  className="flex-[0.4] py-3.5 bg-slate-100 hover:bg-slate-200 text-slate-600 font-bold rounded-xl transition-colors text-sm lg:text-base cursor-pointer"
-                >
-                  Làm lại
-                </button>
-                <button 
-                  onClick={() => {
-                    router.push(lessonId.startsWith('part5') ? '/?tab=part5' : '/?tab=vocab');
-                  }}
-                  className="flex-1 py-3.5 flex justify-center items-center bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-xl transition-colors shadow-xl shadow-blue-600/20 text-sm lg:text-base cursor-pointer"
-                >
-                  Về Dashboard
-                </button>
-              </div>
-
-            </div>
+            <ResultSummary
+              score={score}
+              total={quizData.questions.length}
+              items={quizData.questions.map((q, i) => {
+                const optionIndex = answers[i];
+                const hasAnswered = optionIndex !== undefined;
+                const isCorrect = hasAnswered ? q.answerOptions[optionIndex].isCorrect : false;
+                return {
+                  id: i,
+                  isCorrect,
+                  title: `Câu ${i + 1}`,
+                  onClickReview: () => setPreviewQuestionIndex(i)
+                };
+              })}
+              onRestart={() => restartLesson(lessonId)}
+              onExit={() => router.push(lessonId.startsWith('part5') ? '/?tab=part5' : '/?tab=vocab')}
+              exitLabel="Về Dashboard"
+            />
           )}
         </div>
       )}

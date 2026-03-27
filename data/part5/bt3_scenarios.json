@@ -13,50 +13,130 @@
               "hint": "cộng sự/đồng nghiệp",
               "answer": "associate",
               "options": [
-                "associate",
-                "indicator",
-                "assembly",
-                "admission"
+                {
+                  "text": "associate",
+                  "phonetic": "/əˈsoʊ.ʃi.eɪt/",
+                  "meaning": "cộng sự / liên kết"
+                },
+                {
+                  "text": "indicator",
+                  "phonetic": "/ˈɪn.dɪ.keɪ.tər/",
+                  "meaning": "chỉ số / vật chỉ thị"
+                },
+                {
+                  "text": "assembly",
+                  "phonetic": "/əˈsem.bli/",
+                  "meaning": "sự lắp ráp / hội đồng"
+                },
+                {
+                  "text": "admission",
+                  "phonetic": "/ədˈmɪʃ.ən/",
+                  "meaning": "sự nhận vào / tiền vào cửa"
+                }
               ]
             },
             {
               "hint": "có năng lực",
               "answer": "competent",
               "options": [
-                "confident",
-                "confidential",
-                "casual",
-                "competent"
+                {
+                  "text": "confident",
+                  "phonetic": "/ˈkɑːn.fə.dənt/",
+                  "meaning": "tự tin"
+                },
+                {
+                  "text": "confidential",
+                  "phonetic": "/ˌkɑːn.fəˈden.ʃəl/",
+                  "meaning": "bảo mật / kín"
+                },
+                {
+                  "text": "casual",
+                  "phonetic": "/ˈkæʒ.u.əl/",
+                  "meaning": "thông thường / bình thường"
+                },
+                {
+                  "text": "competent",
+                  "phonetic": "/ˈkɑːm.pə.t̬ənt/",
+                  "meaning": "có năng lực / thạo giỏi"
+                }
               ]
             },
             {
               "hint": "siêng năng",
               "answer": "diligent",
               "options": [
-                "sensitive",
-                "evident",
-                "diligent",
-                "dramatic"
+                {
+                  "text": "sensitive",
+                  "phonetic": "/ˈsen.sə.t̬ɪv/",
+                  "meaning": "nhạy cảm"
+                },
+                {
+                  "text": "evident",
+                  "phonetic": "/ˈev.ə.dənt/",
+                  "meaning": "hiển nhiên / rõ rệt"
+                },
+                {
+                  "text": "diligent",
+                  "phonetic": "/ˈdɪl.ə.dʒənt/",
+                  "meaning": "siêng năng / cần mẫn"
+                },
+                {
+                  "text": "dramatic",
+                  "phonetic": "/drəˈmæt̬.ɪk/",
+                  "meaning": "gây ấn tượng mạnh / kịch tính"
+                }
               ]
             },
             {
               "hint": "cổ phần/tập đoàn",
               "answer": "incorporated",
               "options": [
-                "inspected",
-                "interfered",
-                "incorporated",
-                "indicated"
+                {
+                  "text": "inspected",
+                  "phonetic": "/ɪnˈspek.tɪd/",
+                  "meaning": "đã kiểm tra / thanh tra"
+                },
+                {
+                  "text": "interfered",
+                  "phonetic": "/ˌɪn.t̬ɚˈfɪrd/",
+                  "meaning": "đã can thiệp"
+                },
+                {
+                  "text": "incorporated",
+                  "phonetic": "/ɪnˈkɔːr.pɚ.eɪ.t̬ɪd/",
+                  "meaning": "được sát nhập / hợp nhất"
+                },
+                {
+                  "text": "indicated",
+                  "phonetic": "/ˈɪn.də.keɪ.t̬ɪd/",
+                  "meaning": "đã chỉ ra / biểu thị"
+                }
               ]
             },
             {
               "hint": "đàm phán",
               "answer": "negotiation",
               "options": [
-                "negotiation",
-                "navigation",
-                "notification",
-                "nomination"
+                {
+                  "text": "negotiation",
+                  "phonetic": "/nəˌɡoʊ.ʃiˈeɪ.ʃən/",
+                  "meaning": "sự đàm phán / thương lượng"
+                },
+                {
+                  "text": "navigation",
+                  "phonetic": "/ˌnæv.əˈɡeɪ.ʃən/",
+                  "meaning": "sự điều hướng / hàng hải"
+                },
+                {
+                  "text": "notification",
+                  "phonetic": "/ˌnoʊ.t̬ə.fəˈkeɪ.ʃən/",
+                  "meaning": "sự thông báo"
+                },
+                {
+                  "text": "nomination",
+                  "phonetic": "/ˌnɑː.məˈneɪ.ʃən/",
+                  "meaning": "sự đề cử / bổ nhiệm"
+                }
               ]
             }
           ]
@@ -68,40 +148,104 @@
               "hint": "báo cáo/lời tuyên bố",
               "answer": "statement",
               "options": [
-                "stain remover",
-                "surplus",
-                "source",
-                "statement"
+                {
+                  "text": "stain remover",
+                  "phonetic": "/steɪn rɪˈmuː.vɚ/",
+                  "meaning": "chất tẩy vết bẩn"
+                },
+                {
+                  "text": "surplus",
+                  "phonetic": "/ˈsɝː.pləs/",
+                  "meaning": "số dư / thặng dư"
+                },
+                {
+                  "text": "source",
+                  "phonetic": "/sɔːrs/",
+                  "meaning": "nguồn / nguồn gốc"
+                },
+                {
+                  "text": "statement",
+                  "phonetic": "/ˈsteɪt.mənt/",
+                  "meaning": "lời tuyên bố / bản sao kê"
+                }
               ]
             },
             {
               "hint": "bảo mật",
               "answer": "confidential",
               "options": [
-                "competent",
-                "casual",
-                "confidential",
-                "convinced"
+                {
+                  "text": "competent",
+                  "phonetic": "/ˈkɑːm.pə.t̬ənt/",
+                  "meaning": "có năng lực / thạo giỏi"
+                },
+                {
+                  "text": "casual",
+                  "phonetic": "/ˈkæʒ.u.əl/",
+                  "meaning": "thông thường / bình thường"
+                },
+                {
+                  "text": "confidential",
+                  "phonetic": "/ˌkɑːn.fəˈden.ʃəl/",
+                  "meaning": "bảo mật / kín"
+                },
+                {
+                  "text": "convinced",
+                  "phonetic": "/kənˈvɪnst/",
+                  "meaning": "tin chắc / bị thuyết phục"
+                }
               ]
             },
             {
               "hint": "mơ hồ, không rõ ràng",
               "answer": "vague",
               "options": [
-                "sensitive",
-                "rapid",
-                "vague",
-                "evident"
+                {
+                  "text": "sensitive",
+                  "phonetic": "/ˈsen.sə.t̬ɪv/",
+                  "meaning": "nhạy cảm"
+                },
+                {
+                  "text": "rapid",
+                  "phonetic": "/ˈræp.ɪd/",
+                  "meaning": "nhanh chóng"
+                },
+                {
+                  "text": "vague",
+                  "phonetic": "/veɪɡ/",
+                  "meaning": "mơ hồ / mập mờ"
+                },
+                {
+                  "text": "evident",
+                  "phonetic": "/ˈev.ə.dənt/",
+                  "meaning": "hiển nhiên / rõ rệt"
+                }
               ]
             },
             {
               "hint": "thuyết phục",
               "answer": "convinced",
               "options": [
-                "contained",
-                "combined",
-                "complied",
-                "convinced"
+                {
+                  "text": "contained",
+                  "phonetic": "/kənˈteɪnd/",
+                  "meaning": "được chứa đựng / kìm nén"
+                },
+                {
+                  "text": "combined",
+                  "phonetic": "/kəmˈbaɪnd/",
+                  "meaning": "được kết hợp"
+                },
+                {
+                  "text": "complied",
+                  "phonetic": "/kəmˈplaɪd/",
+                  "meaning": "đã tuân thủ"
+                },
+                {
+                  "text": "convinced",
+                  "phonetic": "/kənˈvɪnst/",
+                  "meaning": "tin chắc / bị thuyết phục"
+                }
               ]
             }
           ]
@@ -113,40 +257,104 @@
               "hint": "trấn an",
               "answer": "reassure",
               "options": [
-                "restore",
-                "restrict",
-                "reassure",
-                "require"
+                {
+                  "text": "restore",
+                  "phonetic": "/rɪˈstɔːr/",
+                  "meaning": "khôi phục / hoàn lại"
+                },
+                {
+                  "text": "restrict",
+                  "phonetic": "/rɪˈstrɪkt/",
+                  "meaning": "hạn chế / giới hạn"
+                },
+                {
+                  "text": "reassure",
+                  "phonetic": "/ˌriː.əˈʃʊr/",
+                  "meaning": "trấn an / làm yên tâm"
+                },
+                {
+                  "text": "require",
+                  "phonetic": "/rɪˈkwaɪr/",
+                  "meaning": "yêu cầu / đòi hỏi"
+                }
               ]
             },
             {
               "hint": "tuân thủ",
               "answer": "comply",
               "options": [
-                "combine",
-                "contain",
-                "comply",
-                "convince"
+                {
+                  "text": "combine",
+                  "phonetic": "/kəmˈbaɪn/",
+                  "meaning": "kết hợp / phối hợp"
+                },
+                {
+                  "text": "contain",
+                  "phonetic": "/kənˈteɪn/",
+                  "meaning": "chứa đựng / bao gồm"
+                },
+                {
+                  "text": "comply",
+                  "phonetic": "/kəmˈplaɪ/",
+                  "meaning": "tuân thủ / đồng ý làm theo"
+                },
+                {
+                  "text": "convince",
+                  "phonetic": "/kənˈvɪns/",
+                  "meaning": "thuyết phục"
+                }
               ]
             },
             {
               "hint": "quy trình",
               "answer": "procedure",
               "options": [
-                "presentation",
-                "precision",
-                "parade",
-                "procedure"
+                {
+                  "text": "presentation",
+                  "phonetic": "/ˌprez.ənˈteɪ.ʃən/",
+                  "meaning": "bài thuyết trình / sự trình bày"
+                },
+                {
+                  "text": "precision",
+                  "phonetic": "/prɪˈsɪʒ.ən/",
+                  "meaning": "sự chính xác"
+                },
+                {
+                  "text": "parade",
+                  "phonetic": "/pəˈreɪd/",
+                  "meaning": "cuộc diễu hành"
+                },
+                {
+                  "text": "procedure",
+                  "phonetic": "/prəˈsiː.dʒɚ/",
+                  "meaning": "thủ tục / quy trình"
+                }
               ]
             },
             {
               "hint": "can thiệp",
               "answer": "interfere",
               "options": [
-                "indicate",
-                "incorporate",
-                "inspect",
-                "interfere"
+                {
+                  "text": "indicate",
+                  "phonetic": "/ˈɪn.də.keɪt/",
+                  "meaning": "chỉ ra / cho biết"
+                },
+                {
+                  "text": "incorporate",
+                  "phonetic": "/ɪnˈkɔːr.pɚ.eɪt/",
+                  "meaning": "sát nhập / kết hợp"
+                },
+                {
+                  "text": "inspect",
+                  "phonetic": "/ɪnˈspekt/",
+                  "meaning": "kiểm tra / thanh tra"
+                },
+                {
+                  "text": "interfere",
+                  "phonetic": "/ˌɪn.t̬ɚˈfɪr/",
+                  "meaning": "can thiệp / cản trở"
+                }
               ]
             }
           ]
@@ -158,40 +366,104 @@
               "hint": "hiển nhiên",
               "answer": "evident",
               "options": [
-                "evident",
-                "effective",
-                "exterior",
-                "essential"
+                {
+                  "text": "evident",
+                  "phonetic": "/ˈev.ə.dənt/",
+                  "meaning": "hiển nhiên / rõ rệt"
+                },
+                {
+                  "text": "effective",
+                  "phonetic": "/əˈfek.tɪv/",
+                  "meaning": "có hiệu quả"
+                },
+                {
+                  "text": "exterior",
+                  "phonetic": "/ɪkˈstɪr.i.ɚ/",
+                  "meaning": "bên ngoài / ngoại thất"
+                },
+                {
+                  "text": "essential",
+                  "phonetic": "/ɪˈsen.ʃəl/",
+                  "meaning": "thiết yếu / cốt yếu"
+                }
               ]
             },
             {
               "hint": "thặng dư/tiền dư ra",
               "answer": "surplus",
               "options": [
-                "surplus",
-                "status",
-                "source",
-                "statement"
+                {
+                  "text": "surplus",
+                  "phonetic": "/ˈsɝː.pləs/",
+                  "meaning": "số dư / thặng dư"
+                },
+                {
+                  "text": "status",
+                  "phonetic": "/ˈsteɪ.t̬əs/",
+                  "meaning": "trạng thái / tình trạng"
+                },
+                {
+                  "text": "source",
+                  "phonetic": "/sɔːrs/",
+                  "meaning": "nguồn / nguồn gốc"
+                },
+                {
+                  "text": "statement",
+                  "phonetic": "/ˈsteɪt.mənt/",
+                  "meaning": "lời tuyên bố / bản sao kê"
+                }
               ]
             },
             {
               "hint": "may mắn",
               "answer": "fortunate",
               "options": [
-                "fundamental",
-                "familiar",
-                "fortunate",
-                "frequent"
+                {
+                  "text": "fundamental",
+                  "phonetic": "/ˌfʌn.dəˈmen.t̬əl/",
+                  "meaning": "cơ bản / nền tảng"
+                },
+                {
+                  "text": "familiar",
+                  "phonetic": "/fəˈmɪl.i.jɚ/",
+                  "meaning": "quen thuộc"
+                },
+                {
+                  "text": "fortunate",
+                  "phonetic": "/ˈfɔːr.tʃən.ət/",
+                  "meaning": "may mắn"
+                },
+                {
+                  "text": "frequent",
+                  "phonetic": "/ˈfriː.kwənt/",
+                  "meaning": "thường xuyên"
+                }
               ]
             },
             {
               "hint": "một cách chính đáng",
               "answer": "rightfully",
               "options": [
-                "recently",
-                "remarkably",
-                "rightfully",
-                "rapidly"
+                {
+                  "text": "recently",
+                  "phonetic": "/ˈriː.sənt.li/",
+                  "meaning": "gần đây"
+                },
+                {
+                  "text": "remarkably",
+                  "phonetic": "/rɪˈmɑːr.kə.bli/",
+                  "meaning": "đáng chú ý / xuất sắc"
+                },
+                {
+                  "text": "rightfully",
+                  "phonetic": "/ˈraɪt.fəl.i/",
+                  "meaning": "đúng đắn / hợp pháp"
+                },
+                {
+                  "text": "rapidly",
+                  "phonetic": "/ˈræp.ɪd.li/",
+                  "meaning": "một cách nhanh chóng"
+                }
               ]
             }
           ]
@@ -210,30 +482,78 @@
               "hint": "sơn ngoại thất",
               "answer": "exterior paint",
               "options": [
-                "extra part",
-                "essential product",
-                "exterior paint",
-                "executive plan"
+                {
+                  "text": "extra part",
+                  "phonetic": "/ˈek.strə pɑːrt/",
+                  "meaning": "bộ phận phụ / phần thêm"
+                },
+                {
+                  "text": "essential product",
+                  "phonetic": "/ɪˈsen.ʃəl ˈprɑː.dʌkt/",
+                  "meaning": "sản phẩm thiết yếu"
+                },
+                {
+                  "text": "exterior paint",
+                  "phonetic": "/ɪkˈstɪr.i.ɚ peɪnt/",
+                  "meaning": "sơn ngoại thất"
+                },
+                {
+                  "text": "executive plan",
+                  "phonetic": "/ɪɡˈzek.jə.t̬ɪv plæn/",
+                  "meaning": "kế hoạch thực thi"
+                }
               ]
             },
             {
               "hint": "chất tẩy vết bẩn",
               "answer": "stain remover",
               "options": [
-                "stain remover",
-                "stock manager",
-                "store reviewer",
-                "staff member"
+                {
+                  "text": "stain remover",
+                  "phonetic": "/steɪn rɪˈmuː.vɚ/",
+                  "meaning": "chất tẩy vết bẩn"
+                },
+                {
+                  "text": "stock manager",
+                  "phonetic": "/stɑːk ˈmæn.ə.dʒɚ/",
+                  "meaning": "người quản lý kho"
+                },
+                {
+                  "text": "store reviewer",
+                  "phonetic": "/stɔːr rɪˈvjuː.ɚ/",
+                  "meaning": "người đánh giá cửa hàng"
+                },
+                {
+                  "text": "staff member",
+                  "phonetic": "/stæf ˈmem.bɚ/",
+                  "meaning": "nhân viên"
+                }
               ]
             },
             {
               "hint": "lên lịch giao hàng",
               "answer": "scheduled for delivery",
               "options": [
-                "sent for review",
-                "set for discussion",
-                "submitted for approval",
-                "scheduled for delivery"
+                {
+                  "text": "sent for review",
+                  "phonetic": "/sent fɔːr rɪˈvjuː/",
+                  "meaning": "được gửi để xem xét"
+                },
+                {
+                  "text": "set for discussion",
+                  "phonetic": "/set fɔːr dɪˈskʌʃ.ən/",
+                  "meaning": "được lên lịch để thảo luận"
+                },
+                {
+                  "text": "submitted for approval",
+                  "phonetic": "/səbˈmɪt.ɪd fɔːr əˈpruː.vəl/",
+                  "meaning": "được trình để phê duyệt"
+                },
+                {
+                  "text": "scheduled for delivery",
+                  "phonetic": "/ˈskedʒ.uːld fɔːr dɪˈlɪv.ɚ.i/",
+                  "meaning": "được lên lịch giao hàng"
+                }
               ]
             }
           ]
@@ -245,30 +565,78 @@
               "hint": "nguyên nhân",
               "answer": "cause",
               "options": [
-                "cause",
-                "course",
-                "clause",
-                "case"
+                {
+                  "text": "cause",
+                  "phonetic": "/kɑːz/",
+                  "meaning": "nguyên nhân / gây ra"
+                },
+                {
+                  "text": "course",
+                  "phonetic": "/kɔːrs/",
+                  "meaning": "khóa học / quá trình"
+                },
+                {
+                  "text": "clause",
+                  "phonetic": "/klɑːz/",
+                  "meaning": "điều khoản / mệnh đề"
+                },
+                {
+                  "text": "case",
+                  "phonetic": "/keɪs/",
+                  "meaning": "trường hợp / vụ án"
+                }
               ]
             },
             {
               "hint": "chứa đựng",
               "answer": "contain",
               "options": [
-                "contain",
-                "confirm",
-                "combine",
-                "complain"
+                {
+                  "text": "contain",
+                  "phonetic": "/kənˈteɪn/",
+                  "meaning": "chứa đựng / bao gồm"
+                },
+                {
+                  "text": "confirm",
+                  "phonetic": "/kənˈfɝːm/",
+                  "meaning": "xác nhận"
+                },
+                {
+                  "text": "combine",
+                  "phonetic": "/kəmˈbaɪn/",
+                  "meaning": "kết hợp / phối hợp"
+                },
+                {
+                  "text": "complain",
+                  "phonetic": "/kəmˈpleɪn/",
+                  "meaning": "phàn nàn / than phiền"
+                }
               ]
             },
             {
               "hint": "vượt quá (beyond repair)",
               "answer": "beyond",
               "options": [
-                "beyond",
-                "below",
-                "between",
-                "beside"
+                {
+                  "text": "beyond",
+                  "phonetic": "/biˈjɑːnd/",
+                  "meaning": "vượt ra ngoài / xa hơn"
+                },
+                {
+                  "text": "below",
+                  "phonetic": "/bɪˈloʊ/",
+                  "meaning": "ở dưới / phía dưới"
+                },
+                {
+                  "text": "between",
+                  "phonetic": "/bɪˈtwiːn/",
+                  "meaning": "ở giữa"
+                },
+                {
+                  "text": "beside",
+                  "phonetic": "/bɪˈsaɪd/",
+                  "meaning": "bên cạnh"
+                }
               ]
             }
           ]
@@ -280,30 +648,78 @@
               "hint": "lắp ráp",
               "answer": "assembly",
               "options": [
-                "assessment",
-                "admission",
-                "assistance",
-                "assembly"
+                {
+                  "text": "assessment",
+                  "phonetic": "/əˈses.mənt/",
+                  "meaning": "sự đánh giá"
+                },
+                {
+                  "text": "admission",
+                  "phonetic": "/ədˈmɪʃ.ən/",
+                  "meaning": "sự nhận vào / tiền vào cửa"
+                },
+                {
+                  "text": "assistance",
+                  "phonetic": "/əˈsɪs.təns/",
+                  "meaning": "sự giúp đỡ / hỗ trợ"
+                },
+                {
+                  "text": "assembly",
+                  "phonetic": "/əˈsem.bli/",
+                  "meaning": "sự lắp ráp / hội đồng"
+                }
               ]
             },
             {
               "hint": "liếc nhìn",
               "answer": "glanced",
               "options": [
-                "granted",
-                "grabbed",
-                "glanced",
-                "guessed"
+                {
+                  "text": "granted",
+                  "phonetic": "/ˈɡræn.t̬ɪd/",
+                  "meaning": "được cấp / được ban cho"
+                },
+                {
+                  "text": "grabbed",
+                  "phonetic": "/ɡræbd/",
+                  "meaning": "đã vồ lấy / chộp lấy"
+                },
+                {
+                  "text": "glanced",
+                  "phonetic": "/ɡlænst/",
+                  "meaning": "đã liếc nhìn"
+                },
+                {
+                  "text": "guessed",
+                  "phonetic": "/ɡest/",
+                  "meaning": "đã đoán"
+                }
               ]
             },
             {
               "hint": "nhận thấy",
               "answer": "noticed",
               "options": [
-                "navigated",
-                "noticed",
-                "neglected",
-                "nominated"
+                {
+                  "text": "navigated",
+                  "phonetic": "/ˈnæv.ə.ɡeɪ.t̬ɪd/",
+                  "meaning": "đã điều hướng"
+                },
+                {
+                  "text": "noticed",
+                  "phonetic": "/ˈnoʊ.t̬ɪst/",
+                  "meaning": "đã chú ý / nhận thấy"
+                },
+                {
+                  "text": "neglected",
+                  "phonetic": "/nɪˈɡlek.tɪd/",
+                  "meaning": "bị bỏ bê / sao nhãng"
+                },
+                {
+                  "text": "nominated",
+                  "phonetic": "/ˈnɑː.mə.neɪ.t̬ɪd/",
+                  "meaning": "đã đề cử"
+                }
               ]
             }
           ]
@@ -315,30 +731,78 @@
               "hint": "thanh tra/kiểm tra kỹ lưỡng",
               "answer": "inspected",
               "options": [
-                "interfered",
-                "inspected",
-                "impressed",
-                "indicated"
+                {
+                  "text": "interfered",
+                  "phonetic": "/ˌɪn.t̬ɚˈfɪrd/",
+                  "meaning": "đã can thiệp"
+                },
+                {
+                  "text": "inspected",
+                  "phonetic": "/ɪnˈspek.tɪd/",
+                  "meaning": "đã kiểm tra / thanh tra"
+                },
+                {
+                  "text": "impressed",
+                  "phonetic": "/ɪmˈprest/",
+                  "meaning": "bị ấn tượng"
+                },
+                {
+                  "text": "indicated",
+                  "phonetic": "/ˈɪn.də.keɪ.t̬ɪd/",
+                  "meaning": "đã chỉ ra / biểu thị"
+                }
               ]
             },
             {
               "hint": "sáng bóng",
               "answer": "brightly",
               "options": [
-                "bravely",
-                "briefly",
-                "broadly",
-                "brightly"
+                {
+                  "text": "bravely",
+                  "phonetic": "/ˈbreɪv.li/",
+                  "meaning": "một cách dũng cảm"
+                },
+                {
+                  "text": "briefly",
+                  "phonetic": "/ˈbriːf.li/",
+                  "meaning": "một cách ngắn gọn"
+                },
+                {
+                  "text": "broadly",
+                  "phonetic": "/ˈbrɑːd.li/",
+                  "meaning": "một cách rộng rãi"
+                },
+                {
+                  "text": "brightly",
+                  "phonetic": "/ˈbraɪt.li/",
+                  "meaning": "một cách sáng chói"
+                }
               ]
             },
             {
               "hint": "một cách lâu dài",
               "answer": "lastingly",
               "options": [
-                "lively",
-                "lately",
-                "largely",
-                "lastingly"
+                {
+                  "text": "lively",
+                  "phonetic": "/ˈlaɪv.li/",
+                  "meaning": "sống động / hoạt bát"
+                },
+                {
+                  "text": "lately",
+                  "phonetic": "/ˈleɪt.li/",
+                  "meaning": "gần đây"
+                },
+                {
+                  "text": "largely",
+                  "phonetic": "/ˈlɑːrdʒ.li/",
+                  "meaning": "phần lớn / chủ yếu"
+                },
+                {
+                  "text": "lastingly",
+                  "phonetic": "/ˈlæs.tɪŋ.li/",
+                  "meaning": "một cách bền vững / lâu dài"
+                }
               ]
             }
           ]
@@ -357,40 +821,104 @@
               "hint": "hội nghị",
               "answer": "conference",
               "options": [
-                "conference",
-                "competent",
-                "corridor",
-                "compliance"
+                {
+                  "text": "conference",
+                  "phonetic": "/ˈkɑːn.fɚ.əns/",
+                  "meaning": "hội nghị"
+                },
+                {
+                  "text": "competent",
+                  "phonetic": "/ˈkɑːm.pə.t̬ənt/",
+                  "meaning": "có năng lực / thạo giỏi"
+                },
+                {
+                  "text": "corridor",
+                  "phonetic": "/ˈkɔːr.ə.dɚ/",
+                  "meaning": "hành lang"
+                },
+                {
+                  "text": "compliance",
+                  "phonetic": "/kəmˈplaɪ.əns/",
+                  "meaning": "sự tuân thủ"
+                }
               ]
             },
             {
               "hint": "tuyển sinh đại học",
               "answer": "college admission",
               "options": [
-                "company association",
-                "college admission",
-                "customer acquisition",
-                "career advancement"
+                {
+                  "text": "company association",
+                  "phonetic": "/ˈkʌm.pə.ni əˌsoʊ.siˈeɪ.ʃən/",
+                  "meaning": "hiệp hội công ty"
+                },
+                {
+                  "text": "college admission",
+                  "phonetic": "/ˈkɑː.lɪdʒ ədˈmɪʃ.ən/",
+                  "meaning": "sự nhập học đại học"
+                },
+                {
+                  "text": "customer acquisition",
+                  "phonetic": "/ˈkʌs.tə.mɚ ˌæk.wəˈzɪʃ.ən/",
+                  "meaning": "sự thu hút khách hàng mới"
+                },
+                {
+                  "text": "career advancement",
+                  "phonetic": "/kəˈrɪr ədˈvæns.mənt/",
+                  "meaning": "sự thăng tiến nghề nghiệp"
+                }
               ]
             },
             {
               "hint": "đội ngũ giảng viên/khoa",
               "answer": "faculty",
               "options": [
-                "familiar",
-                "facility",
-                "fortunate",
-                "faculty"
+                {
+                  "text": "familiar",
+                  "phonetic": "/fəˈmɪl.i.jɚ/",
+                  "meaning": "quen thuộc"
+                },
+                {
+                  "text": "facility",
+                  "phonetic": "/fəˈsɪl.ə.t̬i/",
+                  "meaning": "cơ sở vật chất / tiện nghi"
+                },
+                {
+                  "text": "fortunate",
+                  "phonetic": "/ˈfɔːr.tʃən.ət/",
+                  "meaning": "may mắn"
+                },
+                {
+                  "text": "faculty",
+                  "phonetic": "/ˈfæk.əl.t̬i/",
+                  "meaning": "khoa (trường ĐH) / giảng viên"
+                }
               ]
             },
             {
               "hint": "hành lang",
               "answer": "corridor",
               "options": [
-                "contract",
-                "calendar",
-                "conference",
-                "corridor"
+                {
+                  "text": "contract",
+                  "phonetic": "/ˈkɑːn.trækt/",
+                  "meaning": "hợp đồng"
+                },
+                {
+                  "text": "calendar",
+                  "phonetic": "/ˈkæl.ən.dɚ/",
+                  "meaning": "lịch / lịch trình"
+                },
+                {
+                  "text": "conference",
+                  "phonetic": "/ˈkɑːn.fɚ.əns/",
+                  "meaning": "hội nghị"
+                },
+                {
+                  "text": "corridor",
+                  "phonetic": "/ˈkɔːr.ə.dɚ/",
+                  "meaning": "hành lang"
+                }
               ]
             }
           ]
@@ -402,30 +930,78 @@
               "hint": "cơ sở vật chất",
               "answer": "facilities",
               "options": [
-                "features",
-                "facilities",
-                "faculty",
-                "formulas"
+                {
+                  "text": "features",
+                  "phonetic": "/ˈfiː.tʃɚz/",
+                  "meaning": "các tính năng / đặc điểm"
+                },
+                {
+                  "text": "facilities",
+                  "phonetic": "/fəˈsɪl.ə.t̬iz/",
+                  "meaning": "cơ sở vật chất"
+                },
+                {
+                  "text": "faculty",
+                  "phonetic": "/ˈfæk.əl.t̬i/",
+                  "meaning": "khoa (trường ĐH) / giảng viên"
+                },
+                {
+                  "text": "formulas",
+                  "phonetic": "/ˈfɔːr.mjə.ləz/",
+                  "meaning": "công thức"
+                }
               ]
             },
             {
               "hint": "êm dịu",
               "answer": "soothing",
               "options": [
-                "soothing",
-                "sharply",
-                "sensitive",
-                "surplus"
+                {
+                  "text": "soothing",
+                  "phonetic": "/ˈsuː.ðɪŋ/",
+                  "meaning": "dịu dàng / êm ái"
+                },
+                {
+                  "text": "sharply",
+                  "phonetic": "/ˈʃɑːrp.li/",
+                  "meaning": "sắc bén / đột ngột"
+                },
+                {
+                  "text": "sensitive",
+                  "phonetic": "/ˈsen.sə.t̬ɪv/",
+                  "meaning": "nhạy cảm"
+                },
+                {
+                  "text": "surplus",
+                  "phonetic": "/ˈsɝː.pləs/",
+                  "meaning": "số dư / thặng dư"
+                }
               ]
             },
             {
               "hint": "bình thường, thoải mái, không trang trọng",
               "answer": "casual",
               "options": [
-                "casual",
-                "capable",
-                "crucial",
-                "causal"
+                {
+                  "text": "casual",
+                  "phonetic": "/ˈkæʒ.u.əl/",
+                  "meaning": "thông thường / bình thường"
+                },
+                {
+                  "text": "capable",
+                  "phonetic": "/ˈkeɪ.pə.bəl/",
+                  "meaning": "có khả năng / giỏi"
+                },
+                {
+                  "text": "crucial",
+                  "phonetic": "/ˈkruː.ʃəl/",
+                  "meaning": "quan trọng / cốt yếu"
+                },
+                {
+                  "text": "causal",
+                  "phonetic": "/ˈkɑː.zəl/",
+                  "meaning": "thuộc nguyên nhân"
+                }
               ]
             }
           ]
@@ -437,30 +1013,78 @@
               "hint": "diễu hành",
               "answer": "parade",
               "options": [
-                "procedure",
-                "parade",
-                "promotion",
-                "precision"
+                {
+                  "text": "procedure",
+                  "phonetic": "/prəˈsiː.dʒɚ/",
+                  "meaning": "thủ tục / quy trình"
+                },
+                {
+                  "text": "parade",
+                  "phonetic": "/pəˈreɪd/",
+                  "meaning": "cuộc diễu hành"
+                },
+                {
+                  "text": "promotion",
+                  "phonetic": "/prəˈmoʊ.ʃən/",
+                  "meaning": "sự thăng chức / khuyến mãi"
+                },
+                {
+                  "text": "precision",
+                  "phonetic": "/prɪˈsɪʒ.ən/",
+                  "meaning": "sự chính xác"
+                }
               ]
             },
             {
               "hint": "băng qua",
               "answer": "across",
               "options": [
-                "around",
-                "across",
-                "along",
-                "above"
+                {
+                  "text": "around",
+                  "phonetic": "/əˈraʊnd/",
+                  "meaning": "xung quanh / khoảng"
+                },
+                {
+                  "text": "across",
+                  "phonetic": "/əˈkrɑːs/",
+                  "meaning": "ngang qua / bên kia"
+                },
+                {
+                  "text": "along",
+                  "phonetic": "/əˈlɑːŋ/",
+                  "meaning": "dọc theo"
+                },
+                {
+                  "text": "above",
+                  "phonetic": "/əˈbʌv/",
+                  "meaning": "ở trên / phía trên"
+                }
               ]
             },
             {
               "hint": "cứ như thể là",
               "answer": "as if",
               "options": [
-                "even though",
-                "so that",
-                "in case",
-                "as if"
+                {
+                  "text": "even though",
+                  "phonetic": "/ˈiː.vən ðoʊ/",
+                  "meaning": "mặc dù"
+                },
+                {
+                  "text": "so that",
+                  "phonetic": "/soʊ ðæt/",
+                  "meaning": "để mà"
+                },
+                {
+                  "text": "in case",
+                  "phonetic": "/ɪn keɪs/",
+                  "meaning": "phòng khi / trong trường hợp"
+                },
+                {
+                  "text": "as if",
+                  "phonetic": "/æz ɪf/",
+                  "meaning": "như thể / cứ như là"
+                }
               ]
             }
           ]
@@ -479,40 +1103,104 @@
               "hint": "Gần đây/Mới đây",
               "answer": "Lately",
               "options": [
-                "Lately",
-                "Lively",
-                "Largely",
-                "Lastingly"
+                {
+                  "text": "Lately",
+                  "phonetic": "/ˈleɪt.li/",
+                  "meaning": "gần đây"
+                },
+                {
+                  "text": "Lively",
+                  "phonetic": "/ˈlaɪv.li/",
+                  "meaning": "sống động / hoạt bát"
+                },
+                {
+                  "text": "Largely",
+                  "phonetic": "/ˈlɑːrdʒ.li/",
+                  "meaning": "phần lớn / chủ yếu"
+                },
+                {
+                  "text": "Lastingly",
+                  "phonetic": "/ˈlæs.tɪŋ.li/",
+                  "meaning": "một cách bền vững"
+                }
               ]
             },
             {
               "hint": "chỉ số",
               "answer": "indicator",
               "options": [
-                "inspector",
-                "investor",
-                "indicator",
-                "instructor"
+                {
+                  "text": "inspector",
+                  "phonetic": "/ɪnˈspek.tɚ/",
+                  "meaning": "thanh tra viên"
+                },
+                {
+                  "text": "investor",
+                  "phonetic": "/ɪnˈves.tɚ/",
+                  "meaning": "nhà đầu tư"
+                },
+                {
+                  "text": "indicator",
+                  "phonetic": "/ˈɪn.dɪ.keɪ.tər/",
+                  "meaning": "chỉ số / vật chỉ thị"
+                },
+                {
+                  "text": "instructor",
+                  "phonetic": "/ɪnˈstrʌk.tɚ/",
+                  "meaning": "người hướng dẫn / giảng viên"
+                }
               ]
             },
             {
               "hint": "nhanh chóng",
               "answer": "rapid",
               "options": [
-                "remarkable",
-                "rightful",
-                "routine",
-                "rapid"
+                {
+                  "text": "remarkable",
+                  "phonetic": "/rɪˈmɑːr.kə.bəl/",
+                  "meaning": "đáng chú ý / xuất sắc"
+                },
+                {
+                  "text": "rightful",
+                  "phonetic": "/ˈraɪt.fəl/",
+                  "meaning": "chính đáng / hợp pháp"
+                },
+                {
+                  "text": "routine",
+                  "phonetic": "/ruːˈtiːn/",
+                  "meaning": "thói quen / lệ thường"
+                },
+                {
+                  "text": "rapid",
+                  "phonetic": "/ˈræp.ɪd/",
+                  "meaning": "nhanh chóng"
+                }
               ]
             },
             {
               "hint": "đột ngột, mạnh mẽ (biểu đồ)",
               "answer": "sharply",
               "options": [
-                "shortly",
-                "smoothly",
-                "simply",
-                "sharply"
+                {
+                  "text": "shortly",
+                  "phonetic": "/ˈʃɔːrt.li/",
+                  "meaning": "sớm / trong thời gian ngắn"
+                },
+                {
+                  "text": "smoothly",
+                  "phonetic": "/ˈsmuːð.li/",
+                  "meaning": "trôi chảy / suôn sẻ"
+                },
+                {
+                  "text": "simply",
+                  "phonetic": "/ˈsɪm.pli/",
+                  "meaning": "đơn giản là / chỉ là"
+                },
+                {
+                  "text": "sharply",
+                  "phonetic": "/ˈʃɑːrp.li/",
+                  "meaning": "sắc bén / đột ngột"
+                }
               ]
             }
           ]
@@ -524,40 +1212,104 @@
               "hint": "Trong khi đó/Ngược lại",
               "answer": "Whereas",
               "options": [
-                "Whereas",
-                "Whenever",
-                "Whatever",
-                "Wherever"
+                {
+                  "text": "Whereas",
+                  "phonetic": "/werˈæz/",
+                  "meaning": "trong khi đó"
+                },
+                {
+                  "text": "Whenever",
+                  "phonetic": "/wenˈev.ɚ/",
+                  "meaning": "bất cứ khi nào"
+                },
+                {
+                  "text": "Whatever",
+                  "phonetic": "/wɑːt̬ˈev.ɚ/",
+                  "meaning": "bất cứ điều gì"
+                },
+                {
+                  "text": "Wherever",
+                  "phonetic": "/werˈev.ɚ/",
+                  "meaning": "bất cứ nơi đâu"
+                }
               ]
             },
             {
               "hint": "sự chậm trễ",
               "answer": "lateness",
               "options": [
-                "lateness",
-                "laziness",
-                "loneliness",
-                "largeness"
+                {
+                  "text": "lateness",
+                  "phonetic": "/ˈleɪt.nəs/",
+                  "meaning": "sự muộn màng / sự trễ"
+                },
+                {
+                  "text": "laziness",
+                  "phonetic": "/ˈleɪ.zi.nəs/",
+                  "meaning": "sự lười biếng"
+                },
+                {
+                  "text": "loneliness",
+                  "phonetic": "/ˈloʊn.li.nəs/",
+                  "meaning": "sự cô đơn"
+                },
+                {
+                  "text": "largeness",
+                  "phonetic": "/ˈlɑːrdʒ.nəs/",
+                  "meaning": "sự to lớn"
+                }
               ]
             },
             {
               "hint": "muộn",
               "answer": "late",
               "options": [
-                "lately",
-                "later",
-                "late",
-                "latest"
+                {
+                  "text": "lately",
+                  "phonetic": "/ˈleɪt.li/",
+                  "meaning": "gần đây"
+                },
+                {
+                  "text": "later",
+                  "phonetic": "/ˈleɪ.t̬ɚ/",
+                  "meaning": "sau này / trễ hơn"
+                },
+                {
+                  "text": "late",
+                  "phonetic": "/leɪt/",
+                  "meaning": "muộn / trễ"
+                },
+                {
+                  "text": "latest",
+                  "phonetic": "/ˈleɪ.t̬ɪst/",
+                  "meaning": "mới nhất / gần đây nhất"
+                }
               ]
             },
             {
               "hint": "nhạy cảm",
               "answer": "sensitive",
               "options": [
-                "soothing",
-                "sensitive",
-                "surplus",
-                "suitable"
+                {
+                  "text": "soothing",
+                  "phonetic": "/ˈsuː.ðɪŋ/",
+                  "meaning": "dịu dàng / êm ái"
+                },
+                {
+                  "text": "sensitive",
+                  "phonetic": "/ˈsen.sə.t̬ɪv/",
+                  "meaning": "nhạy cảm"
+                },
+                {
+                  "text": "surplus",
+                  "phonetic": "/ˈsɝː.pləs/",
+                  "meaning": "số dư / thặng dư"
+                },
+                {
+                  "text": "suitable",
+                  "phonetic": "/ˈsuː.t̬ə.bəl/",
+                  "meaning": "phù hợp / thích hợp"
+                }
               ]
             }
           ]
@@ -569,40 +1321,104 @@
               "hint": "sở hữu",
               "answer": "possess",
               "options": [
-                "propose",
-                "proceed",
-                "possess",
-                "promote"
+                {
+                  "text": "propose",
+                  "phonetic": "/prəˈpoʊz/",
+                  "meaning": "đề xuất / cầu hôn"
+                },
+                {
+                  "text": "proceed",
+                  "phonetic": "/proʊˈsiːd/",
+                  "meaning": "tiến hành / tiếp tục"
+                },
+                {
+                  "text": "possess",
+                  "phonetic": "/pəˈzes/",
+                  "meaning": "sở hữu / có"
+                },
+                {
+                  "text": "promote",
+                  "phonetic": "/prəˈmoʊt/",
+                  "meaning": "thăng chức / thúc đẩy"
+                }
               ]
             },
             {
               "hint": "gần như",
               "answer": "nearly",
               "options": [
-                "newly",
-                "neatly",
-                "namely",
-                "nearly"
+                {
+                  "text": "newly",
+                  "phonetic": "/ˈnuː.li/",
+                  "meaning": "mới / gần đây"
+                },
+                {
+                  "text": "neatly",
+                  "phonetic": "/ˈniːt.li/",
+                  "meaning": "một cách gọn gàng"
+                },
+                {
+                  "text": "namely",
+                  "phonetic": "/ˈneɪm.li/",
+                  "meaning": "cụ thể là / ấy là"
+                },
+                {
+                  "text": "nearly",
+                  "phonetic": "/ˈnɪr.li/",
+                  "meaning": "gần như / suýt"
+                }
               ]
             },
             {
               "hint": "đều như nhau",
               "answer": "alike",
               "options": [
-                "alike",
-                "apart",
-                "along",
-                "alive"
+                {
+                  "text": "alike",
+                  "phonetic": "/əˈlaɪk/",
+                  "meaning": "giống nhau / tương tự"
+                },
+                {
+                  "text": "apart",
+                  "phonetic": "/əˈpɑːrt/",
+                  "meaning": "tách rời / riêng biệt"
+                },
+                {
+                  "text": "along",
+                  "phonetic": "/əˈlɑːŋ/",
+                  "meaning": "dọc theo"
+                },
+                {
+                  "text": "alive",
+                  "phonetic": "/əˈlaɪv/",
+                  "meaning": "còn sống / có sức sống"
+                }
               ]
             },
             {
               "hint": "một cách đáng kinh ngạc",
               "answer": "remarkably",
               "options": [
-                "rapidly",
-                "remarkably",
-                "rightfully",
-                "recently"
+                {
+                  "text": "rapidly",
+                  "phonetic": "/ˈræp.ɪd.li/",
+                  "meaning": "một cách nhanh chóng"
+                },
+                {
+                  "text": "remarkably",
+                  "phonetic": "/rɪˈmɑːr.kə.bli/",
+                  "meaning": "đáng chú ý / xuất sắc"
+                },
+                {
+                  "text": "rightfully",
+                  "phonetic": "/ˈraɪt.fəl.i/",
+                  "meaning": "đúng đắn / hợp pháp"
+                },
+                {
+                  "text": "recently",
+                  "phonetic": "/ˈriː.sənt.li/",
+                  "meaning": "gần đây"
+                }
               ]
             }
           ]
