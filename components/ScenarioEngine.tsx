@@ -4,6 +4,8 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import type { ScenarioData } from "@/lib/types";
 import { useQuizStore } from "@/store/quizStore";
+import { playSound } from "@/utils/audio";
+import { AudioButton } from "@/components/AudioButton";
 
 interface ScenarioEngineProps {
   data: ScenarioData;
@@ -12,7 +14,7 @@ interface ScenarioEngineProps {
 
 export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
   const router = useRouter();
-  const { scenarioProgress, updateScenarioState, answerScenarioBlank, restartScenario } = useQuizStore();
+  const { scenarioProgress, updateScenarioState, answerScenarioBlank, restartScenario, isMuted, toggleMute } = useQuizStore();
   const [mounted, setMounted] = useState(false);
   const [previewBlankKey, setPreviewBlankKey] = useState<string | null>(null);
 
@@ -50,6 +52,10 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
     if (selectedOption !== null) return;
     const isCorrect = option === blank?.answer;
     answerScenarioBlank(testId, blankKey, option, isCorrect);
+    
+    if (!isMuted) {
+      playSound(isCorrect ? 'correct' : 'incorrect');
+    }
   };
 
   const goNext = () => {
@@ -109,7 +115,8 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
       if (!isAnswered) {
         const key = parseInt(e.key);
         if (key >= 1 && key <= currentOptions.length) {
-          handleSelect(currentOptions[key - 1]);
+          const opt = currentOptions[key - 1];
+          handleSelect(typeof opt === 'string' ? opt : opt.text);
         }
       } else {
         if (e.code === "Space") {
@@ -318,16 +325,29 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
                 </div>
               </div>
 
-              <button
-                onClick={() => router.push(`/?tab=part5`)}
-                title="Exit"
-                className="flex items-center gap-1.5 px-3 py-1.5 text-slate-600 bg-slate-100 hover:text-red-700 hover:bg-red-50 rounded-full transition-colors cursor-pointer order-2 md:order-3"
-              >
-                <span className="text-sm font-bold">Exit</span>
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
+              <div className="flex items-center gap-2.5 order-2 md:order-3 shrink-0">
+                <button 
+                  onClick={toggleMute}
+                  className="p-1.5 text-slate-500 bg-slate-100 hover:bg-slate-200 active:bg-slate-300 rounded-full transition-colors flex items-center justify-center h-8 w-8"
+                  title={isMuted ? "Unmute sounds" : "Mute sounds"}
+                >
+                  {isMuted ? (
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" clipRule="evenodd" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M17 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2" /></svg>
+                  ) : (
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z" /></svg>
+                  )}
+                </button>
+                <button
+                  onClick={() => router.push(`/part5/${testId}`)}
+                  title="Exit"
+                  className="flex items-center gap-1.5 px-3 py-1.5 text-slate-600 bg-slate-100 hover:text-red-700 hover:bg-red-50 rounded-full transition-colors cursor-pointer"
+                >
+                  <span className="text-sm font-bold">Exit</span>
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              </div>
             </>
           )}
         </header>
@@ -363,7 +383,8 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              {options.map((option, i) => {
+              {options.map((optObj, i) => {
+                const option = typeof optObj === 'string' ? optObj : optObj.text;
                 const letter = ["A", "B", "C", "D"][i];
                 const isSelected = selectedOption === option;
                 const isCorrectOption = option === blank.answer;
@@ -383,14 +404,15 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
                 }
 
                 return (
-                  <button
+                  <div
                     key={option}
                     onClick={() => handleSelect(option)}
-                    disabled={isAnswered}
                     className={className}
+                    role="button"
+                    tabIndex={0}
                   >
                     <span
-                      className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold shrink-0 ${
+                      className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold shrink-0 mt-0.5 ${
                         showResult && isCorrectOption
                           ? "bg-emerald-200 text-emerald-800"
                           : showResult && isSelected
@@ -400,19 +422,42 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
                     >
                       {letter}
                     </span>
-                    <span className="font-semibold text-sm">{option}</span>
+                    
+                    <div className="flex flex-col flex-1 text-left">
+                      <div className="flex items-center gap-2">
+                        <span className="font-semibold text-sm text-slate-800">{option}</span>
+                        {showResult && (
+                          <AudioButton 
+                            text={option}
+                            className={`p-1 rounded-full transition-colors hover:text-indigo-600 bg-slate-100/80 hover:bg-slate-200 ${showResult && isCorrectOption ? "text-emerald-700" : showResult && isSelected ? "text-red-700" : "text-slate-500"}`}
+                            iconClassName="w-3.5 h-3.5"
+                          />
+                        )}
+                      </div>
+                      
+                      {showResult && typeof optObj !== 'string' && optObj.phonetic && optObj.meaning && (
+                        <div className="flex flex-col animate-in fade-in duration-300">
+                          <span className={`text-[13px] font-mono tracking-tight ${isCorrectOption ? "text-emerald-700/80" : isSelected ? "text-red-700/80" : "text-slate-500"}`}>
+                            {optObj.phonetic}
+                          </span>
+                          <span className={`text-[13.5px] font-medium leading-snug ${isCorrectOption ? "text-emerald-800/90" : isSelected ? "text-red-800/90" : "text-slate-600"}`}>
+                            {optObj.meaning}
+                          </span>
+                        </div>
+                      )}
+                    </div>
 
                     {showResult && isCorrectOption && (
-                      <svg className="w-5 h-5 ml-auto text-emerald-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg className="w-5 h-5 mt-1.5 ml-auto text-emerald-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
                     )}
                     {showResult && isSelected && !isCorrectOption && (
-                      <svg className="w-5 h-5 ml-auto text-red-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <svg className="w-5 h-5 mt-1.5 ml-auto text-red-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" />
                       </svg>
                     )}
-                  </button>
+                  </div>
                 );
               })}
             </div>
