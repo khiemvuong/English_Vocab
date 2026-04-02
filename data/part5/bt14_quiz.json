@@ -1,0 +1,395 @@
+{
+  "title": "TOEIC Part 5 - BT14 (Questions 101-130)",
+  "questions": [
+    {
+      "id": 101,
+      "question": "The manager suggested ------- team members take turns explaining their roles to new hires.",
+      "answerOptions": [
+        { "text": "(A) having", "isCorrect": true, "rationale": "Cấu trúc: 'suggest + having + somebody + V' hoặc 'suggest that + somebody + V'. 'suggested having team members take turns' = đề xuất để các thành viên luân phiên giải thích. 'have somebody do' = nhờ ai đó làm." },
+        { "text": "(B) that", "isCorrect": false, "rationale": "'suggest that' cần 'team members (should) take turns' — không có 'having'. Không hợp cấu trúc với phần còn lại của câu." },
+        { "text": "(C) to have", "isCorrect": false, "rationale": "'suggest to have' sai — 'suggest' không đi với to-Infinitive." },
+        { "text": "(D) had", "isCorrect": false, "rationale": "'suggested had' sai ngữ pháp — tạo 2 động từ quá khứ liên tiếp." }
+      ],
+      "hint": "Cấu trúc: 'suggest _____ somebody do something' — 'suggest' đòi hỏi V-ing hoặc 'that + mệnh đề'.",
+      "translation": "Người quản lý đề xuất để các thành viên nhóm luân phiên giải thích vai trò của họ cho nhân viên mới.",
+      "category": "grammar"
+    },
+    {
+      "id": 102,
+      "question": "------- the financial report has been reviewed, it will be sent to the board of directors.",
+      "answerOptions": [
+        { "text": "(A) Once", "isCorrect": true, "rationale": "'Once' (một khi/ngay sau khi) nối mệnh đề điều kiện/thời gian: Một khi báo cáo được xem xét xong → sẽ được gửi. Hợp logic và cấu trúc." },
+        { "text": "(B) However", "isCorrect": false, "rationale": "'However' (tuy nhiên) tạo nghĩa tương phản, không phù hợp." },
+        { "text": "(C) Also", "isCorrect": false, "rationale": "'Also' (ngoài ra) không nối mối quan hệ thời gian." },
+        { "text": "(D) Unless", "isCorrect": false, "rationale": "'Unless' (trừ khi) tạo điều kiện phủ định — không hợp ngữ cảnh." }
+      ],
+      "hint": "Liên từ nào diễn tả 'ngay sau khi việc A xảy ra, việc B sẽ xảy ra'?",
+      "translation": "Một khi báo cáo tài chính được xem xét, nó sẽ được gửi đến hội đồng quản trị.",
+      "category": "conjunction"
+    },
+    {
+      "id": 103,
+      "question": "The sales ------- for this quarter have exceeded all projections.",
+      "answerOptions": [
+        { "text": "(A) figures", "isCorrect": true, "rationale": "Cụm danh từ ghép: 'sales figures' (các con số/ số liệu doanh số) là cụm thông dụng trong TOEIC. 'sales figures have exceeded' = số liệu doanh số vượt mức dự báo." },
+        { "text": "(B) figure", "isCorrect": false, "rationale": "'figure' (số ít) — chủ ngữ kết hợp với 'have exceeded' (số nhiều) → sai số." },
+        { "text": "(C) figuring", "isCorrect": false, "rationale": "'sales figuring' không phải cụm danh từ phổ biến; 'figuring' là V-ing." },
+        { "text": "(D) figured", "isCorrect": false, "rationale": "'sales figured' tạo nghĩa thụ động, không thể làm chủ ngữ phù hợp." }
+      ],
+      "hint": "Cụm danh từ ghép: 'sales _____ ' = số liệu bán hàng. Chủ ngữ phải là số nhiều (khớp với 'have exceeded').",
+      "translation": "Số liệu doanh số trong quý này đã vượt mọi dự báo.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 104,
+      "question": "The workshop will last ------- three hours, so participants should plan accordingly.",
+      "answerOptions": [
+        { "text": "(A) above", "isCorrect": false, "rationale": "'above' (trên/hơn) không đi với khoảng thời gian theo nghĩa 'khoảng'." },
+        { "text": "(B) approximately", "isCorrect": true, "rationale": "'approximately' (khoảng, xấp xỉ) là trạng từ bổ nghĩa cho 'three hours'. 'last approximately three hours' = kéo dài khoảng 3 giờ." },
+        { "text": "(C) except", "isCorrect": false, "rationale": "'except' (ngoại trừ) không phù hợp ngữ cảnh." },
+        { "text": "(D) along", "isCorrect": false, "rationale": "'along' không phù hợp ngữ cảnh chỉ thời gian." }
+      ],
+      "hint": "Trạng từ nào có nghĩa 'khoảng, xấp xỉ' đi trước con số chỉ thời gian?",
+      "translation": "Hội thảo sẽ kéo dài khoảng ba giờ, vì vậy người tham gia nên lên kế hoạch phù hợp.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 105,
+      "question": "The company's decision to merge with Westfield Inc. was ------- by all key stakeholders.",
+      "answerOptions": [
+        { "text": "(A) support", "isCorrect": false, "rationale": "'support' là V-bare, không phù hợp sau 'was' trong thể bị động." },
+        { "text": "(B) supporting", "isCorrect": false, "rationale": "'supporting' là V-ing chủ động, không phù hợp — quyết định không tự 'ủng hộ'." },
+        { "text": "(C) supported", "isCorrect": true, "rationale": "'was supported' là thì Quá khứ đơn bị động. Quyết định 'được ủng hộ bởi' các bên liên quan — thể bị động phù hợp." },
+        { "text": "(D) supports", "isCorrect": false, "rationale": "'supports' là V-s hiện tại chủ động, không phù hợp." }
+      ],
+      "hint": "Cấu trúc bị động: 'was _____ (V3) by + tác nhân'. Quyết định được ủng hộ bởi ai?",
+      "translation": "Quyết định của công ty về việc sáp nhập với Westfield Inc. đã được tất cả các bên liên quan chính ủng hộ.",
+      "category": "grammar"
+    },
+    {
+      "id": 106,
+      "question": "The lab results were delayed -------- an equipment malfunction.",
+      "answerOptions": [
+        { "text": "(A) in spite of", "isCorrect": false, "rationale": "'in spite of' (mặc dù) tạo nghĩa nhượng bộ, không phải nguyên nhân." },
+        { "text": "(B) due to", "isCorrect": true, "rationale": "'due to' (do/vì) + danh từ — chỉ nguyên nhân. 'delayed due to an equipment malfunction' = bị trì hoãn do sự cố thiết bị. Hợp nghĩa và cấu trúc." },
+        { "text": "(C) unless", "isCorrect": false, "rationale": "'unless' (trừ khi) tạo điều kiện, cần mệnh đề." },
+        { "text": "(D) so that", "isCorrect": false, "rationale": "'so that' (để mà) chỉ mục đích, cần mệnh đề." }
+      ],
+      "hint": "Phía sau là danh từ 'an equipment malfunction' — cần giới từ chỉ nguyên nhân.",
+      "translation": "Kết quả xét nghiệm bị chậm trễ do sự cố thiết bị.",
+      "category": "preposition"
+    },
+    {
+      "id": 107,
+      "question": "To qualify for the discount, customers must show ------- membership card at the time of purchase.",
+      "answerOptions": [
+        { "text": "(A) they", "isCorrect": false, "rationale": "'they' là đại từ chủ ngữ, không đứng trước danh từ 'membership card'." },
+        { "text": "(B) them", "isCorrect": false, "rationale": "'them' là đại từ tân ngữ, không đứng trước danh từ." },
+        { "text": "(C) themselves", "isCorrect": false, "rationale": "'themselves' là đại từ phản thân, không có chức năng sở hữu." },
+        { "text": "(D) their", "isCorrect": true, "rationale": "'their' (của họ) là tính từ sở hữu đứng trước danh từ 'membership card'. Thay thế cho 'customers' (số nhiều)." }
+      ],
+      "hint": "Cần tính từ sở hữu đứng trước 'membership card'. Thay thế cho 'customers' (số nhiều).",
+      "translation": "Để đủ điều kiện nhận chiết khấu, khách hàng phải xuất trình thẻ thành viên của họ tại thời điểm thanh toán.",
+      "category": "pronoun"
+    },
+    {
+      "id": 108,
+      "question": "The committee has decided ------- the project deadline by two weeks.",
+      "answerOptions": [
+        { "text": "(A) extends", "isCorrect": false, "rationale": "'extends' là V-s hiện tại, không hợp cấu trúc 'has decided + ___'." },
+        { "text": "(B) to extend", "isCorrect": true, "rationale": "Cấu trúc cố định: 'decide + to V' (quyết định làm gì). 'has decided to extend' = đã quyết định gia hạn." },
+        { "text": "(C) extended", "isCorrect": false, "rationale": "'extended' là V-ed, không phù hợp sau 'has decided'." },
+        { "text": "(D) extending", "isCorrect": false, "rationale": "'extending' là V-ing, 'decide' không đi với V-ing." }
+      ],
+      "hint": "Cấu trúc cố định: 'decide + _____ (to V)' = quyết định làm gì.",
+      "translation": "Ủy ban đã quyết định gia hạn thêm hai tuần cho thời hạn dự án.",
+      "category": "grammar"
+    },
+    {
+      "id": 109,
+      "question": "Employees are encouraged to submit suggestions for improving workplace -------.",
+      "answerOptions": [
+        { "text": "(A) efficient", "isCorrect": false, "rationale": "'efficient' là tính từ (hiệu quả), không phù hợp sau 'workplace' vì cần danh từ." },
+        { "text": "(B) efficiently", "isCorrect": false, "rationale": "'efficiently' là trạng từ, không thể đứng sau danh từ 'workplace' như danh từ." },
+        { "text": "(C) efficiency", "isCorrect": true, "rationale": "'efficiency' (hiệu quả) là danh từ. 'workplace efficiency' (hiệu quả nơi làm việc) là cụm danh từ ghép thông dụng, đứng sau 'improving'." },
+        { "text": "(D) efficiencies", "isCorrect": false, "rationale": "'efficiencies' ít phổ biến hơn 'efficiency' trong cụm 'workplace efficiency'." }
+      ],
+      "hint": "Cần danh từ (noun) sau 'improving'. Cụm danh từ ghép: 'workplace _____'.",
+      "translation": "Nhân viên được khuyến khích nộp đề xuất để cải thiện hiệu quả nơi làm việc.",
+      "category": "word-form"
+    },
+    {
+      "id": 110,
+      "question": "All employees must adhere ------- the company's code of conduct at all times.",
+      "answerOptions": [
+        { "text": "(A) for", "isCorrect": false, "rationale": "'adhere for' không phải cụm động từ cố định." },
+        { "text": "(B) in", "isCorrect": false, "rationale": "'adhere in' không phải cụm động từ cố định." },
+        { "text": "(C) at", "isCorrect": false, "rationale": "'adhere at' không phải cụm động từ cố định." },
+        { "text": "(D) to", "isCorrect": true, "rationale": "Cụm động từ cố định: 'adhere to' (tuân thủ, bám sát theo). 'adhere to the company's code of conduct' = tuân thủ quy tắc ứng xử của công ty." }
+      ],
+      "hint": "Cụm động từ cố định: 'adhere _____ + quy định' = tuân thủ theo.",
+      "translation": "Tất cả nhân viên phải tuân thủ quy tắc ứng xử của công ty mọi lúc.",
+      "category": "preposition"
+    },
+    {
+      "id": 111,
+      "question": "The renovation project is expected to be completed ------- schedule.",
+      "answerOptions": [
+        { "text": "(A) ahead of", "isCorrect": true, "rationale": "Cụm giới từ: 'ahead of schedule' (trước thời hạn dự kiến). Đây là cụm từ cố định cực kỳ thông dụng trong TOEIC." },
+        { "text": "(B) instead of", "isCorrect": false, "rationale": "'instead of schedule' không phải cụm từ cố định, không hợp nghĩa." },
+        { "text": "(C) regardless of", "isCorrect": false, "rationale": "'regardless of schedule' (bất kể lịch trình) không phù hợp ngữ cảnh." },
+        { "text": "(D) because of", "isCorrect": false, "rationale": "'because of schedule' không phù hợp cấu trúc ở đây." }
+      ],
+      "hint": "Cụm từ cố định: '_____ schedule' = trước/sau thời hạn dự kiến.",
+      "translation": "Dự án cải tạo dự kiến sẽ được hoàn thành trước thời hạn dự kiến.",
+      "category": "preposition"
+    },
+    {
+      "id": 112,
+      "question": "The seminar will be held ------- the first Tuesday of each month.",
+      "answerOptions": [
+        { "text": "(A) at", "isCorrect": false, "rationale": "'at' dùng trước giờ cụ thể, không dùng trước ngày/thứ." },
+        { "text": "(B) in", "isCorrect": false, "rationale": "'in' dùng trước tháng, năm, không dùng trước ngày cụ thể." },
+        { "text": "(C) on", "isCorrect": true, "rationale": "'on' dùng trước ngày, thứ cụ thể. 'on the first Tuesday of each month' = vào thứ Ba đầu tiên của mỗi tháng. Quy tắc cố định." },
+        { "text": "(D) by", "isCorrect": false, "rationale": "'by' (trước/bằng cách) không phù hợp ngữ cảnh chỉ ngày diễn ra sự kiện." }
+      ],
+      "hint": "Quy tắc giới từ thời gian: tháng/năm dùng 'in'; ngày/thứ dùng '___'; giờ dùng 'at'.",
+      "translation": "Hội thảo sẽ được tổ chức vào thứ Ba đầu tiên của mỗi tháng.",
+      "category": "preposition"
+    },
+    {
+      "id": 113,
+      "question": "The director praised the team for its ------- to the project.",
+      "answerOptions": [
+        { "text": "(A) dedicate", "isCorrect": false, "rationale": "'dedicate' là động từ, không đứng sau mạo từ 'its'." },
+        { "text": "(B) dedicating", "isCorrect": false, "rationale": "'dedicating' là V-ing, không phù hợp vị trí sau sở hữu cách 'its'." },
+        { "text": "(C) dedicated", "isCorrect": false, "rationale": "'dedicated' là tính từ, không đứng sau 'its' như danh từ." },
+        { "text": "(D) dedication", "isCorrect": true, "rationale": "'dedication' (sự cống hiến/tận tâm) là danh từ đứng sau đại từ sở hữu 'its'. 'its dedication to the project' = sự tận tâm của nhóm đối với dự án." }
+      ],
+      "hint": "Sau đại từ sở hữu 'its' cần danh từ. 'dedicate to a project' → danh từ tương ứng là gì?",
+      "translation": "Giám đốc đã khen ngợi nhóm vì sự tận tâm của họ đối với dự án.",
+      "category": "word-form"
+    },
+    {
+      "id": 114,
+      "question": "The report must be submitted ------- next Friday to be considered for the award.",
+      "answerOptions": [
+        { "text": "(A) since", "isCorrect": false, "rationale": "'since' (từ khi/kể từ khi) diễn tả điểm bắt đầu, không dùng để chỉ hạn chót." },
+        { "text": "(B) until", "isCorrect": false, "rationale": "'until' (cho đến khi) diễn tả hành động kéo dài đến thời điểm nào, không phải hạn chót nộp." },
+        { "text": "(C) by", "isCorrect": true, "rationale": "'by' (trước/không muộn hơn) chỉ hạn chót. 'submitted by next Friday' = nộp trước thứ Sáu tới. Cực kỳ thông dụng trong TOEIC." },
+        { "text": "(D) upon", "isCorrect": false, "rationale": "'upon' (ngay khi) thường đi với V-ing, không phù hợp ngữ cảnh hạn chót." }
+      ],
+      "hint": "Giới từ nào chỉ hạn chót (deadline): 'phải nộp TRƯỚC thứ Sáu'?",
+      "translation": "Báo cáo phải được nộp trước thứ Sáu tới để được xem xét cho giải thưởng.",
+      "category": "preposition"
+    },
+    {
+      "id": 115,
+      "question": "The company is looking for candidates who are ------- motivated and have strong communication skills.",
+      "answerOptions": [
+        { "text": "(A) highly", "isCorrect": true, "rationale": "'highly motivated' (có động lực cao) là cụm tính từ thông dụng trong hồ sơ tuyển dụng TOEIC. 'highly' là trạng từ bổ nghĩa cho phân từ 'motivated'." },
+        { "text": "(B) high", "isCorrect": false, "rationale": "'high' là tính từ, không bổ nghĩa được cho phân từ 'motivated'." },
+        { "text": "(C) higher", "isCorrect": false, "rationale": "'higher' là tính từ so sánh hơn, không phù hợp ngữ cảnh." },
+        { "text": "(D) highest", "isCorrect": false, "rationale": "'highest' là tính từ so sánh nhất, không phù hợp ngữ cảnh mô tả đặc điểm ứng viên." }
+      ],
+      "hint": "Cụm từ thông dụng trong TOEIC: '_____ motivated' = có động lực cao. Cần trạng từ.",
+      "translation": "Công ty đang tìm kiếm những ứng viên có động lực cao và kỹ năng giao tiếp mạnh mẽ.",
+      "category": "word-form"
+    },
+    {
+      "id": 116,
+      "question": "Employees should keep ------- of all receipts for travel expenses submitted for reimbursement.",
+      "answerOptions": [
+        { "text": "(A) records", "isCorrect": true, "rationale": "Cụm từ cố định: 'keep records of' (lưu giữ hồ sơ/ghi chép về). 'keep records of all receipts' = lưu giữ tất cả hóa đơn. Đây là collocation cực phổ biến trong TOEIC." },
+        { "text": "(B) record", "isCorrect": false, "rationale": "'keep record of' ít phổ biến hơn 'keep records of'; thường dùng số nhiều." },
+        { "text": "(C) recording", "isCorrect": false, "rationale": "'keep recording of' không phải cụm từ cố định." },
+        { "text": "(D) recorded", "isCorrect": false, "rationale": "'keep recorded of' không phải cụm từ cố định." }
+      ],
+      "hint": "Cụm từ cố định: 'keep _____ of' = lưu giữ hồ sơ/ghi chép về.",
+      "translation": "Nhân viên nên lưu giữ hồ sơ tất cả các hóa đơn về chi phí đi lại được nộp để thanh toán.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 117,
+      "question": "------- applicants will be scheduled for an interview within two weeks of their submission.",
+      "answerOptions": [
+        { "text": "(A) Qualify", "isCorrect": false, "rationale": "'Qualify' là động từ, không thể đứng trước danh từ 'applicants' như tính từ." },
+        { "text": "(B) Qualified", "isCorrect": true, "rationale": "'Qualified' (đủ tiêu chuẩn) là tính từ đứng trước danh từ 'applicants'. 'Qualified applicants' = những ứng viên đủ tiêu chuẩn." },
+        { "text": "(C) Qualifies", "isCorrect": false, "rationale": "'Qualifies' là V-s, không phù hợp vị trí tính từ." },
+        { "text": "(D) Qualification", "isCorrect": false, "rationale": "'Qualification' là danh từ (số ít), không thể đứng trước danh từ khác như tính từ." }
+      ],
+      "hint": "Cần tính từ (adjective) đứng trước danh từ 'applicants'. Ứng viên như thế nào thì được phỏng vấn?",
+      "translation": "Những ứng viên đủ tiêu chuẩn sẽ được lên lịch phỏng vấn trong vòng hai tuần kể từ khi nộp hồ sơ.",
+      "category": "word-form"
+    },
+    {
+      "id": 118,
+      "question": "The manual provides ------- instructions for assembling the equipment.",
+      "answerOptions": [
+        { "text": "(A) step-by-step", "isCorrect": true, "rationale": "'step-by-step' (từng bước một) là tính từ ghép bổ nghĩa cho 'instructions'. 'step-by-step instructions' = hướng dẫn từng bước. Hợp ngữ cảnh lắp ráp thiết bị." },
+        { "text": "(B) step-by-stepping", "isCorrect": false, "rationale": "Không phải từ hợp lệ trong tiếng Anh." },
+        { "text": "(C) steps-by-steps", "isCorrect": false, "rationale": "Không phải hình thức đúng của tính từ ghép này." },
+        { "text": "(D) stepping-by-step", "isCorrect": false, "rationale": "Không phải từ hợp lệ." }
+      ],
+      "hint": "Cụm tính từ ghép: '_____ instructions' = hướng dẫn từng bước một.",
+      "translation": "Sổ tay hướng dẫn cung cấp các chỉ dẫn từng bước để lắp ráp thiết bị.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 119,
+      "question": "The new policy requires that all staff ------- safety training before starting work.",
+      "answerOptions": [
+        { "text": "(A) completing", "isCorrect": false, "rationale": "'completing' là V-ing, không phù hợp trong mệnh đề 'that + S + V (nguyên thể không to)'." },
+        { "text": "(B) completes", "isCorrect": false, "rationale": "'completes' là V-s hiện tại đơn, nhưng sau 'require that' phải dùng động từ nguyên thể (subjunctive mood)." },
+        { "text": "(C) complete", "isCorrect": true, "rationale": "Sau các động từ yêu cầu, đề xuất như 'require, suggest, recommend' + 'that', mệnh đề tiếp theo dùng động từ nguyên thể (bare infinitive) — còn gọi là Subjunctive Mood. 'require that all staff complete' = yêu cầu tất cả nhân viên hoàn thành." },
+        { "text": "(D) completed", "isCorrect": false, "rationale": "'completed' là V-ed, không phù hợp Subjunctive Mood." }
+      ],
+      "hint": "Sau 'require that + subject' cần dùng động từ nguyên thể không 'to' (Subjunctive Mood).",
+      "translation": "Chính sách mới yêu cầu tất cả nhân viên phải hoàn thành khóa đào tạo an toàn trước khi bắt đầu làm việc.",
+      "category": "grammar"
+    },
+    {
+      "id": 120,
+      "question": "The marketing team is working ------- to meet the campaign deadline.",
+      "answerOptions": [
+        { "text": "(A) tireless", "isCorrect": false, "rationale": "'tireless' là tính từ (không biết mệt mỏi), không bổ nghĩa cho động từ 'working'." },
+        { "text": "(B) tirelessly", "isCorrect": true, "rationale": "'tirelessly' (không biết mệt mỏi) là trạng từ bổ nghĩa cho 'working'. 'working tirelessly' = làm việc không biết mệt mỏi." },
+        { "text": "(C) tire", "isCorrect": false, "rationale": "'tire' là động từ (gây mệt mỏi), không phù hợp vị trí trạng từ." },
+        { "text": "(D) tiredness", "isCorrect": false, "rationale": "'tiredness' là danh từ (sự mệt mỏi), không phù hợp vị trí." }
+      ],
+      "hint": "Cần trạng từ (adverb) bổ nghĩa cho động từ 'working'.",
+      "translation": "Nhóm marketing đang làm việc không biết mệt mỏi để đáp ứng thời hạn của chiến dịch.",
+      "category": "word-form"
+    },
+    {
+      "id": 121,
+      "question": "------- their limited budget, the team managed to deliver excellent results.",
+      "answerOptions": [
+        { "text": "(A) As a result of", "isCorrect": false, "rationale": "'As a result of' (do kết quả của) tạo nghĩa nguyên nhân — ngân sách hạn chế không tạo ra kết quả xuất sắc." },
+        { "text": "(B) In spite of", "isCorrect": true, "rationale": "'In spite of' (mặc dù) + danh từ/V-ing. Mặc dù ngân sách hạn chế, nhóm vẫn đạt kết quả xuất sắc — nghĩa tương phản phù hợp." },
+        { "text": "(C) According to", "isCorrect": false, "rationale": "'According to' (theo) chỉ nguồn thông tin, không tạo nghĩa tương phản." },
+        { "text": "(D) In addition to", "isCorrect": false, "rationale": "'In addition to' (ngoài ra) thêm thông tin, không tạo nghĩa tương phản." }
+      ],
+      "hint": "Cụm giới từ nào mang nghĩa 'mặc dù' và đi với danh từ?",
+      "translation": "Mặc dù ngân sách hạn chế, nhóm vẫn quản lý để đạt được kết quả xuất sắc.",
+      "category": "preposition"
+    },
+    {
+      "id": 122,
+      "question": "The customer service team handling complaints should always remain -------.",
+      "answerOptions": [
+        { "text": "(A) professional", "isCorrect": true, "rationale": "Cấu trúc: 'remain + tính từ' = vẫn giữ đặc điểm gì. 'remain professional' (vẫn giữ thái độ chuyên nghiệp) là yêu cầu trong dịch vụ khách hàng." },
+        { "text": "(B) professionally", "isCorrect": false, "rationale": "'professionally' là trạng từ, không đứng sau 'remain' như tính từ." },
+        { "text": "(C) professionalism", "isCorrect": false, "rationale": "'professionalism' là danh từ (tính chuyên nghiệp), không phù hợp cấu trúc 'remain + adj'." },
+        { "text": "(D) profession", "isCorrect": false, "rationale": "'profession' (nghề nghiệp) không phù hợp cấu trúc 'remain + adj'." }
+      ],
+      "hint": "Cấu trúc: 'remain + _____ (tính từ)' = vẫn giữ đặc điểm gì. Nhân viên cần giữ thái độ như thế nào?",
+      "translation": "Nhóm dịch vụ khách hàng xử lý khiếu nại luôn luôn phải giữ thái độ chuyên nghiệp.",
+      "category": "word-form"
+    },
+    {
+      "id": 123,
+      "question": "The new system was designed to handle tasks ------- and accurately.",
+      "answerOptions": [
+        { "text": "(A) efficiency", "isCorrect": false, "rationale": "'efficiency' là danh từ, không song hành với trạng từ 'accurately'." },
+        { "text": "(B) efficient", "isCorrect": false, "rationale": "'efficient' là tính từ, không song hành với trạng từ 'accurately'." },
+        { "text": "(C) efficiently", "isCorrect": true, "rationale": "Nguyên tắc song hành (Parallelism): '_____ and accurately' — 'accurately' là trạng từ → cần trạng từ song hành. 'efficiently and accurately' = một cách hiệu quả và chính xác." },
+        { "text": "(D) efficiencies", "isCorrect": false, "rationale": "'efficiencies' là danh từ số nhiều, không phù hợp." }
+      ],
+      "hint": "Nguyên tắc song hành: '_____ and accurately'. 'accurately' là trạng từ → cần dạng gì?",
+      "translation": "Hệ thống mới được thiết kế để xử lý các nhiệm vụ một cách hiệu quả và chính xác.",
+      "category": "word-form"
+    },
+    {
+      "id": 124,
+      "question": "The staff members were asked to ------- their availability for the upcoming project.",
+      "answerOptions": [
+        { "text": "(A) confirm", "isCorrect": true, "rationale": "'confirm' (xác nhận) — 'confirm their availability' = xác nhận sự sẵn sàng của họ cho dự án. Collocation phổ biến trong TOEIC." },
+        { "text": "(B) confine", "isCorrect": false, "rationale": "'confine' (giới hạn/giam cầm) không phù hợp ngữ cảnh." },
+        { "text": "(C) confer", "isCorrect": false, "rationale": "'confer' (hội ý/trao đổi) không phù hợp với tân ngữ 'availability'." },
+        { "text": "(D) confide", "isCorrect": false, "rationale": "'confide' (tâm sự/tin tưởng giao) không phù hợp ngữ cảnh." }
+      ],
+      "hint": "Động từ nào phù hợp với tân ngữ 'their availability' (sự sẵn sàng) cho dự án?",
+      "translation": "Các nhân viên được yêu cầu xác nhận sự sẵn sàng của họ cho dự án sắp tới.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 125,
+      "question": "Participants are asked to register ------- for the conference to secure their spots.",
+      "answerOptions": [
+        { "text": "(A) in advance", "isCorrect": true, "rationale": "Cụm từ cố định: 'register/book in advance' (đăng ký/đặt trước). 'in advance' (trước/trước thời hạn) — đăng ký trước để đảm bảo chỗ." },
+        { "text": "(B) by then", "isCorrect": false, "rationale": "'by then' (trước thời điểm đó) cần ngữ cảnh thời điểm cụ thể đã được đề cập." },
+        { "text": "(C) at once", "isCorrect": false, "rationale": "'at once' (ngay lập tức) không phù hợp ngữ cảnh — không nhất thiết phải đăng ký ngay lập tức." },
+        { "text": "(D) so far", "isCorrect": false, "rationale": "'so far' (cho đến nay) chỉ khoảng thời gian đã qua, không phù hợp." }
+      ],
+      "hint": "Cụm từ cố định: 'register _____ ' = đăng ký trước để đảm bảo chỗ.",
+      "translation": "Người tham gia được yêu cầu đăng ký trước cho hội nghị để đảm bảo chỗ của họ.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 126,
+      "question": "The new CEO is ------- to make significant changes to the company's structure.",
+      "answerOptions": [
+        { "text": "(A) determining", "isCorrect": false, "rationale": "'determining' là V-ing, không phù hợp sau 'is' trong vai trò tính từ + to V." },
+        { "text": "(B) determined", "isCorrect": true, "rationale": "Cấu trúc: 'be determined to V' (quyết tâm làm gì). 'is determined to make changes' = quyết tâm thực hiện thay đổi." },
+        { "text": "(C) determinedly", "isCorrect": false, "rationale": "'determinedly' là trạng từ, không phù hợp sau to-be." },
+        { "text": "(D) determination", "isCorrect": false, "rationale": "'determination' là danh từ, không phù hợp cấu trúc 'be ___ to V'." }
+      ],
+      "hint": "Cấu trúc: 'be _____ to V' = quyết tâm làm gì. Cần tính từ đi với 'to V'.",
+      "translation": "CEO mới quyết tâm thực hiện những thay đổi đáng kể đối với cơ cấu của công ty.",
+      "category": "grammar"
+    },
+    {
+      "id": 127,
+      "question": "The financial projections were ------- based on last year's performance data.",
+      "answerOptions": [
+        { "text": "(A) largely", "isCorrect": true, "rationale": "'largely' (chủ yếu, phần lớn) là trạng từ bổ nghĩa cho 'based'. 'largely based on' = chủ yếu dựa trên. Hợp ngữ cảnh dự báo tài chính." },
+        { "text": "(B) large", "isCorrect": false, "rationale": "'large' là tính từ, không bổ nghĩa cho phân từ 'based'." },
+        { "text": "(C) larges", "isCorrect": false, "rationale": "Tính từ không có dạng số nhiều — không hợp lệ." },
+        { "text": "(D) enlarges", "isCorrect": false, "rationale": "'enlarges' là V-s, không phù hợp vị trí trạng từ." }
+      ],
+      "hint": "Cần trạng từ bổ nghĩa cho phân từ 'based'. Các dự báo chủ yếu dựa trên dữ liệu năm ngoái.",
+      "translation": "Các dự báo tài chính chủ yếu được dựa trên dữ liệu hiệu suất của năm ngoái.",
+      "category": "word-form"
+    },
+    {
+      "id": 128,
+      "question": "The survey results indicated that most employees were ------- with the new flexible work arrangement.",
+      "answerOptions": [
+        { "text": "(A) content", "isCorrect": true, "rationale": "Cấu trúc: 'be content with' (hài lòng với). 'were content with the new arrangement' = hài lòng với sắp xếp mới. Đây là cụm từ cố định phổ biến." },
+        { "text": "(B) contents", "isCorrect": false, "rationale": "'contents' là danh từ số nhiều (nội dung), không đứng sau 'were' theo nghĩa này." },
+        { "text": "(C) contently", "isCorrect": false, "rationale": "'contently' không phải từ tiếng Anh chuẩn phổ biến." },
+        { "text": "(D) contented", "isCorrect": false, "rationale": "'contented' có thể dùng nhưng 'content with' là cụm từ chuẩn hơn trong TOEIC." }
+      ],
+      "hint": "Cụm từ cố định: 'be _____ with' = hài lòng với. Cần tính từ.",
+      "translation": "Kết quả khảo sát cho thấy phần lớn nhân viên hài lòng với cách sắp xếp làm việc linh hoạt mới.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 129,
+      "question": "The new software update will ------- improve the system's performance and reduce processing time.",
+      "answerOptions": [
+        { "text": "(A) significant", "isCorrect": false, "rationale": "'significant' là tính từ, không bổ nghĩa cho động từ 'improve'." },
+        { "text": "(B) significance", "isCorrect": false, "rationale": "'significance' là danh từ, không phù hợp vị trí trạng từ." },
+        { "text": "(C) significantly", "isCorrect": true, "rationale": "'significantly' (một cách đáng kể) là trạng từ bổ nghĩa cho 'improve'. 'significantly improve' = cải thiện đáng kể." },
+        { "text": "(D) signifies", "isCorrect": false, "rationale": "'signifies' là V-s, không phù hợp vị trí trạng từ." }
+      ],
+      "hint": "Cần trạng từ (adverb) bổ nghĩa cho động từ 'improve'. Bản cập nhật cải thiện 'như thế nào'?",
+      "translation": "Bản cập nhật phần mềm mới sẽ cải thiện đáng kể hiệu suất của hệ thống và giảm thời gian xử lý.",
+      "category": "word-form"
+    },
+    {
+      "id": 130,
+      "question": "All meeting notes should be distributed to ------- who attended the session.",
+      "answerOptions": [
+        { "text": "(A) they", "isCorrect": false, "rationale": "'they' là đại từ chủ ngữ, không đứng sau giới từ 'to'." },
+        { "text": "(B) those", "isCorrect": true, "rationale": "Cấu trúc: 'those who + V' = những người (mà). 'distributed to those who attended' = được phân phát đến những người đã tham dự. Cực phổ biến trong TOEIC." },
+        { "text": "(C) that", "isCorrect": false, "rationale": "'that' thường dùng cho vật hoặc trong mệnh đề quan hệ khác, không phù hợp làm đại từ thay thế cho người số nhiều ở đây." },
+        { "text": "(D) this", "isCorrect": false, "rationale": "'this' là đại từ chỉ định số ít, không phù hợp." }
+      ],
+      "hint": "Cấu trúc: '_____ who attended' = những người đã tham dự. Cần đại từ số nhiều đi trước 'who'.",
+      "translation": "Tất cả ghi chú cuộc họp nên được phân phát đến những người đã tham dự buổi họp.",
+      "category": "pronoun"
+    }
+  ]
+}

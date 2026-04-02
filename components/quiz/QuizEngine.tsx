@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useMemo } from "react";
 import { useQuizStore } from "@/store/quizStore";
 import { playSound } from "@/utils/audio";
 import { useRouter } from "next/navigation";
@@ -10,6 +10,7 @@ import { QuizOptionGrid } from "@/components/quiz/QuizOptionGrid";
 import { ResultSummary } from "@/components/common/ResultSummary";
 import { QuizHeader } from "@/components/common/QuizHeader";
 import { QuestionTimer } from "@/components/quiz/QuestionTimer";
+import { getDeterministicShuffle } from "@/utils/shuffle";
 
 const CATEGORY_MAP: Record<string, { label: string; color: string }> = {
   'word-form': { label: 'Dạng từ', color: 'bg-purple-50 text-purple-700 border-purple-200' },
@@ -57,6 +58,12 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
     setShowHint(false);
   }, [currentIndex]);
 
+  const displayOptions = useMemo(() => {
+    if (!question?.answerOptions) return [];
+    const stableKey = question.id?.toString() || `q-${currentIndex}`;
+    return getDeterministicShuffle(question.answerOptions, session?.restartCount || 0, stableKey);
+  }, [question, currentIndex, session?.restartCount]);
+
   useEffect(() => {
     if (!mounted || !session) return;
 
@@ -64,8 +71,12 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
       if (isFinished) return;
       if (selectedOption === null) {
         const key = parseInt(e.key);
-        if (key >= 1 && key <= question.answerOptions.length) {
-          handleSelectOption(key - 1, question.answerOptions[key - 1].isCorrect);
+        if (key >= 1 && key <= displayOptions.length) {
+          const selectedText = displayOptions[key - 1].text;
+          const originalIdx = question.answerOptions.findIndex(o => o.text === selectedText);
+          if (originalIdx !== -1) {
+            handleSelectOption(originalIdx, question.answerOptions[originalIdx].isCorrect);
+          }
         }
       } else {
         if (e.code === "Space") {
@@ -80,7 +91,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [currentIndex, selectedOption, isFinished, question, lessonId, quizData.questions.length, answerQuestion, goToNext, goToPrev, mounted, session, handleSelectOption]);
+  }, [currentIndex, selectedOption, isFinished, question, displayOptions, lessonId, quizData.questions.length, answerQuestion, goToNext, goToPrev, mounted, session, handleSelectOption]);
 
   if (!mounted) {
     return (
