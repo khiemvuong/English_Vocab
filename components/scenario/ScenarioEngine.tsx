@@ -8,6 +8,7 @@ import { playSound } from "@/utils/audio";
 import { ScenarioOptionGrid } from "@/components/scenario/ScenarioOptionGrid";
 import { ResultSummary } from "@/components/common/ResultSummary";
 import { QuizHeader } from "@/components/common/QuizHeader";
+import { getDeterministicShuffle } from "@/utils/shuffle";
 
 interface ScenarioEngineProps {
   data: ScenarioData;
@@ -54,27 +55,8 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
   
   // Stable pseudo-random shuffle per blankKey & restartCount
   const displayOptions = useMemo(() => {
-    if (restartCount === 0 || !blank || !blank.options) return blank?.options || [];
-    
-    let hash = 0;
-    const str = blankKey + restartCount;
-    for (let i = 0; i < str.length; i++) {
-        hash = Math.imul(31, hash) + str.charCodeAt(i) | 0;
-    }
-    const pseudoRandom = () => {
-        hash = Math.imul(741103597, hash) + 1 | 0;
-        let t = Math.imul(hash ^ (hash >>> 15), 1597334677);
-        t = (t ^ (t >>> 15)) * (1.0 / 4294967296);
-        return t + 0.5;
-    };
-
-    const shuffled = [...blank.options];
-    for (let i = shuffled.length - 1; i > 0; i--) {
-      const j = Math.floor(pseudoRandom() * (i + 1));
-      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-    }
-    return shuffled;
-  }, [blank, restartCount, blankKey]);
+    return getDeterministicShuffle(blank?.options || [], restartCount, blankKey);
+  }, [blank?.options, restartCount, blankKey]);
 
   const handleSelect = (option: string) => {
     if (selectedOption !== null) return;
@@ -137,13 +119,11 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
   useEffect(() => {
     if (!mounted || !progress || showSummary || previewBlankKey !== null) return;
 
-    const currentOptions = blank?.options || [];
-
     const handleKeyDown = (e: KeyboardEvent) => {
       if (!isAnswered) {
         const key = parseInt(e.key);
-        if (key >= 1 && key <= currentOptions.length) {
-          const opt = currentOptions[key - 1];
+        if (key >= 1 && key <= displayOptions.length) {
+          const opt = displayOptions[key - 1];
           handleSelect(typeof opt === 'string' ? opt : opt.text);
         }
       } else {
@@ -160,7 +140,7 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [mounted, progress, showSummary, isAnswered, blankKey, blank, previewBlankKey, handleSelect, goNext, goPrev]);
+  }, [mounted, progress, showSummary, isAnswered, blankKey, displayOptions, previewBlankKey, handleSelect, goNext, goPrev]);
 
   // Render passage text with blanks highlighted
   const renderPassageText = () => {

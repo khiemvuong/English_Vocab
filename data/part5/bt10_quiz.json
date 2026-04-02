@@ -1,0 +1,395 @@
+{
+  "title": "TOEIC Part 5 - BT10 (Questions 101-130)",
+  "questions": [
+    {
+      "id": 101,
+      "question": "A ------- examination of the contract terms is needed before signing it.",
+      "answerOptions": [
+        { "text": "(A) care", "isCorrect": false, "rationale": "'care' là danh từ/động từ (sự quan tâm/quan tâm), không thể đứng trước danh từ 'examination' như tính từ." },
+        { "text": "(B) cared", "isCorrect": false, "rationale": "'cared' là V-ed, không phù hợp vị trí tính từ." },
+        { "text": "(C) carefully", "isCorrect": false, "rationale": "'carefully' là trạng từ, không thể bổ nghĩa cho danh từ." },
+        { "text": "(D) careful", "isCorrect": true, "rationale": "'careful' (cẩn thận) là tính từ đứng trong cụm danh từ: 'a careful examination'. Cần tính từ giữa mạo từ 'A' và danh từ 'examination'." }
+      ],
+      "hint": "Cần tính từ (adjective) đứng giữa mạo từ 'A' và danh từ 'examination'.",
+      "translation": "Cần có một sự kiểm tra cẩn thận các điều khoản hợp đồng trước khi ký kết.",
+      "category": "word-form"
+    },
+    {
+      "id": 102,
+      "question": "Artist Wayne Frazer ------- teaches free painting classes at the community center.",
+      "answerOptions": [
+        { "text": "(A) together", "isCorrect": false, "rationale": "'together' (cùng nhau) không phù hợp ngữ cảnh và không bổ nghĩa cho 'teaches'." },
+        { "text": "(B) regularly", "isCorrect": true, "rationale": "'regularly' (thường xuyên, đều đặn) là trạng từ chỉ tần suất bổ nghĩa cho 'teaches'. Hợp ngữ cảnh dạy lớp miễn phí đều đặn." },
+        { "text": "(C) sooner", "isCorrect": false, "rationale": "'sooner' (sớm hơn) là trạng từ so sánh, không phù hợp ngữ cảnh." },
+        { "text": "(D) extremely", "isCorrect": false, "rationale": "'extremely' (cực kỳ) không phù hợp bổ nghĩa cho động từ 'teaches'." }
+      ],
+      "hint": "Trạng từ chỉ tần suất nào phù hợp mô tả thói quen dạy lớp?",
+      "translation": "Họa sĩ Wayne Frazer thường xuyên dạy các lớp học vẽ miễn phí tại trung tâm cộng đồng.",
+      "category": "word-form"
+    },
+    {
+      "id": 103,
+      "question": "Event planners have been tracking the rate of ------- each year to see if the event is becoming more popular.",
+      "answerOptions": [
+        { "text": "(A) attendee", "isCorrect": false, "rationale": "'attendee' (người tham dự) là danh từ đếm được, nếu dùng sau 'rate of' cần có 's'." },
+        { "text": "(B) attendance", "isCorrect": true, "rationale": "'attendance' (sự tham dự, lượng người tham dự) là danh từ không đếm được — 'rate of attendance' = tỷ lệ tham dự. Phù hợp sau 'rate of'." },
+        { "text": "(C) attendant", "isCorrect": false, "rationale": "'attendant' (người phục vụ/tùy tùng) không phù hợp ngữ cảnh theo dõi sự kiện." },
+        { "text": "(D) attending", "isCorrect": false, "rationale": "'attending' là V-ing, không phù hợp sau giới từ 'of' trong cụm 'rate of ___'." }
+      ],
+      "hint": "Cụm từ: 'rate of _____' — cần danh từ. Ngữ cảnh theo dõi số người tham dự sự kiện.",
+      "translation": "Các nhà tổ chức sự kiện đã và đang theo dõi tỷ lệ người tham dự mỗi năm để xem liệu sự kiện có trở nên phổ biến hơn hay không.",
+      "category": "word-form"
+    },
+    {
+      "id": 104,
+      "question": "To cancel an -------, patients of Watson Dental Clinic should call the front desk as early as possible.",
+      "answerOptions": [
+        { "text": "(A) appointment", "isCorrect": true, "rationale": "'appointment' (cuộc hẹn) là danh từ đếm được số ít bắt đầu bằng nguyên âm, sau mạo từ 'an'. 'cancel an appointment' = hủy cuộc hẹn — hợp ngữ cảnh phòng khám." },
+        { "text": "(B) example", "isCorrect": false, "rationale": "'example' (ví dụ) không phù hợp ngữ cảnh phòng khám và hủy." },
+        { "text": "(C) origin", "isCorrect": false, "rationale": "'origin' (nguồn gốc) không liên quan." },
+        { "text": "(D) issue", "isCorrect": false, "rationale": "'issue' (vấn đề) không phù hợp — bệnh nhân không 'hủy một vấn đề'." }
+      ],
+      "hint": "Sau 'an' cần danh từ bắt đầu bằng nguyên âm. 'cancel an _____' ở phòng khám — hủy cái gì?",
+      "translation": "Để hủy một cuộc hẹn, bệnh nhân của Phòng khám Nha khoa Watson nên gọi cho quầy lễ tân càng sớm càng tốt.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 105,
+      "question": "Benson Automotive provides a bonus to the top salesperson at the end of ------- month.",
+      "answerOptions": [
+        { "text": "(A) but", "isCorrect": false, "rationale": "'but' là liên từ, không thể đứng trước danh từ như từ hạn định." },
+        { "text": "(B) whom", "isCorrect": false, "rationale": "'whom' là đại từ quan hệ, không phù hợp trước 'month'." },
+        { "text": "(C) each", "isCorrect": true, "rationale": "'each' (mỗi) đi với danh từ đếm được số ít. 'each month' = mỗi tháng. Hợp ngữ pháp và nghĩa." },
+        { "text": "(D) now", "isCorrect": false, "rationale": "'now' là trạng từ (bây giờ), không phải từ hạn định." }
+      ],
+      "hint": "Danh từ 'month' là đếm được số ít. Từ hạn định nào đi với N số ít?",
+      "translation": "Benson Automotive cung cấp tiền thưởng cho nhân viên bán hàng xuất sắc nhất vào cuối mỗi tháng.",
+      "category": "grammar"
+    },
+    {
+      "id": 106,
+      "question": "A highly experienced translator is needed for this document ------- it is a business contract.",
+      "answerOptions": [
+        { "text": "(A) otherwise", "isCorrect": false, "rationale": "'otherwise' (nếu không thì) không phù hợp — không có nghĩa đây là lý do." },
+        { "text": "(B) whereas", "isCorrect": false, "rationale": "'whereas' (trong khi đó) tạo nghĩa tương phản, không phù hợp." },
+        { "text": "(C) unless", "isCorrect": false, "rationale": "'unless' (trừ khi) tạo nghĩa điều kiện phủ định, không phù hợp." },
+        { "text": "(D) because", "isCorrect": true, "rationale": "'because' (bởi vì) nối mối quan hệ nguyên nhân-kết quả: cần người dịch kinh nghiệm VÌ đây là hợp đồng thương mại." }
+      ],
+      "hint": "Vế sau giải thích nguyên nhân cho vế trước. Cần liên từ chỉ nguyên nhân.",
+      "translation": "Cần một dịch giả giàu kinh nghiệm cho tài liệu này vì nó là một hợp đồng thương mại.",
+      "category": "conjunction"
+    },
+    {
+      "id": 107,
+      "question": "In NC Enterprises' offices, wearing casual clothing to work is perfectly -------.",
+      "answerOptions": [
+        { "text": "(A) acceptable", "isCorrect": true, "rationale": "Cấu trúc: 'is + adv (perfectly) + adj'. 'acceptable' (có thể chấp nhận được) là tính từ đứng sau 'is' và 'perfectly'." },
+        { "text": "(B) accepting", "isCorrect": false, "rationale": "'accepting' là V-ing, không phù hợp vị trí tính từ sau to-be." },
+        { "text": "(C) accepts", "isCorrect": false, "rationale": "'accepts' là động từ chia số ít, tạo 2 động từ chính trong câu." },
+        { "text": "(D) accept", "isCorrect": false, "rationale": "'accept' là V-bare, không phù hợp sau to-be." }
+      ],
+      "hint": "Cấu trúc: to-be 'is' + trạng từ 'perfectly' + _____ (tính từ).",
+      "translation": "Tại văn phòng của NC Enterprises, việc mặc trang phục thoải mái đi làm là hoàn toàn có thể chấp nhận được.",
+      "category": "word-form"
+    },
+    {
+      "id": 108,
+      "question": "Customer service representatives are reminded that merchandise can only be returned if ------- its original packaging.",
+      "answerOptions": [
+        { "text": "(A) onto", "isCorrect": false, "rationale": "'onto' (lên trên) không phù hợp ngữ cảnh hàng còn trong hộp." },
+        { "text": "(B) except", "isCorrect": false, "rationale": "'except' (ngoại trừ) không phù hợp." },
+        { "text": "(C) when", "isCorrect": false, "rationale": "'when' đứng trước mệnh đề, không phải cụm danh từ 'its original packaging'." },
+        { "text": "(D) in", "isCorrect": true, "rationale": "Cụm từ cố định: 'in its original packaging' (còn trong bao bì/hộp gốc). 'in' chỉ tình trạng/điền kiện của hàng hóa." }
+      ],
+      "hint": "Cụm từ cố định: '_____ its original packaging' = còn trong bao bì gốc.",
+      "translation": "Các đại diện dịch vụ khách hàng được nhắc nhở rằng hàng hóa chỉ có thể được trả lại nếu còn trong bao bì gốc.",
+      "category": "preposition"
+    },
+    {
+      "id": 109,
+      "question": "------- the peak season, the number of staff members at Herron Golf Resort will be significantly reduced.",
+      "answerOptions": [
+        { "text": "(A) Now that", "isCorrect": false, "rationale": "'Now that' (Bởi vì bây giờ) cần mệnh đề S+V, không phải cụm danh từ." },
+        { "text": "(B) Such as", "isCorrect": false, "rationale": "'Such as' (Như là) dùng để liệt kê ví dụ, không phù hợp." },
+        { "text": "(C) After", "isCorrect": true, "rationale": "'After' (sau khi) đi với danh từ/mệnh đề. 'After the peak season' = Sau mùa cao điểm — lượng nhân viên giảm sau mùa cao điểm, hợp logic." },
+        { "text": "(D) Furthermore", "isCorrect": false, "rationale": "'Furthermore' (hơn nữa) là trạng từ nối, không đứng trước cụm danh từ." }
+      ],
+      "hint": "Ngữ cảnh: nhân viên bị cắt giảm SAU mùa cao điểm. Cần giới từ phù hợp.",
+      "translation": "Sau mùa cao điểm, số lượng nhân viên tại Herron Golf Resort sẽ giảm đi đáng kể.",
+      "category": "preposition"
+    },
+    {
+      "id": 110,
+      "question": "Participants in the nature hike ------- before a difficult part of the trail.",
+      "answerOptions": [
+        { "text": "(A) resting", "isCorrect": false, "rationale": "'resting' là V-ing, đứng một mình không thể làm động từ chính của câu." },
+        { "text": "(B) rest", "isCorrect": true, "rationale": "'rest' là động từ nguyên thể chia số nhiều phù hợp với chủ ngữ 'Participants' (số nhiều). Đây là động từ chính của câu." },
+        { "text": "(C) rests", "isCorrect": false, "rationale": "'rests' là V-s chia số ít, không phù hợp với chủ ngữ số nhiều 'Participants'." },
+        { "text": "(D) restful", "isCorrect": false, "rationale": "'restful' là tính từ (thoải mái/dễ chịu), không thể làm động từ chính." }
+      ],
+      "hint": "Câu thiếu động từ chính. Chủ ngữ 'Participants' là số nhiều.",
+      "translation": "Những người tham gia chuyến đi bộ đường dài khám phá thiên nhiên nghỉ ngơi trước một đoạn đường khó khăn.",
+      "category": "grammar"
+    },
+    {
+      "id": 111,
+      "question": "When leaving the restaurant, customers should be ------- of their noise levels, as residential apartments are nearby.",
+      "answerOptions": [
+        { "text": "(A) mindful", "isCorrect": true, "rationale": "Cấu trúc cố định: 'be mindful of something' (lưu tâm/chú ý đến cái gì). 'mindful of their noise levels' = lưu ý đến mức độ tiếng ồn." },
+        { "text": "(B) exclusive", "isCorrect": false, "rationale": "'be exclusive of' không phải cụm từ phù hợp ngữ cảnh." },
+        { "text": "(C) particular", "isCorrect": false, "rationale": "'be particular of' không phải cụm từ cố định trong ngữ cảnh này." },
+        { "text": "(D) responsible", "isCorrect": false, "rationale": "'be responsible for' (chịu trách nhiệm về) thường đi với 'for', không phải 'of'." }
+      ],
+      "hint": "Cấu trúc cố định: 'be _____ of something' = lưu tâm, chú ý đến.",
+      "translation": "Khi rời khỏi nhà hàng, khách hàng nên lưu ý đến mức độ tiếng ồn của họ, vì các căn hộ dân cư ở ngay gần đó.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 112,
+      "question": "Bakers should allow the bread to cool ------- prior to putting it into plastic bags.",
+      "answerOptions": [
+        { "text": "(A) complete", "isCorrect": false, "rationale": "'complete' là tính từ/động từ, không bổ nghĩa cho động từ 'cool'." },
+        { "text": "(B) most complete", "isCorrect": false, "rationale": "'most complete' là tính từ so sánh nhất, không phù hợp vị trí." },
+        { "text": "(C) more complete", "isCorrect": false, "rationale": "'more complete' là tính từ so sánh hơn, không phù hợp vị trí." },
+        { "text": "(D) completely", "isCorrect": true, "rationale": "'completely' (một cách hoàn toàn) là trạng từ bổ nghĩa cho động từ 'cool'. 'cool completely' = nguội hoàn toàn trước khi cho vào túi." }
+      ],
+      "hint": "Cần trạng từ (adverb) bổ nghĩa cho động từ 'cool'. Bánh mì cần nguội 'như thế nào' trước khi đóng gói?",
+      "translation": "Thợ làm bánh nên để bánh mì nguội hoàn toàn trước khi cho vào túi nhựa.",
+      "category": "word-form"
+    },
+    {
+      "id": 113,
+      "question": "Please ------- Laurel Bank the next time you are thinking about getting a loan.",
+      "answerOptions": [
+        { "text": "(A) perceive", "isCorrect": false, "rationale": "'perceive' (nhận thức) không phù hợp ngữ cảnh chọn ngân hàng vay tiền." },
+        { "text": "(B) balance", "isCorrect": false, "rationale": "'balance' (cân bằng) không phù hợp ngữ cảnh." },
+        { "text": "(C) consider", "isCorrect": true, "rationale": "'consider' (cân nhắc, xem xét) — 'Please consider Laurel Bank' = Hãy cân nhắc/xem xét ngân hàng Laurel. Phù hợp ngữ cảnh quảng cáo ngân hàng." },
+        { "text": "(D) insure", "isCorrect": false, "rationale": "'insure' (bảo hiểm) không liên quan đến ngữ cảnh vay tiền." }
+      ],
+      "hint": "Sau 'Please' cần động từ nguyên thể phù hợp với lời kêu gọi chọn ngân hàng.",
+      "translation": "Vui lòng cân nhắc Laurel Bank vào lần tới khi bạn đang nghĩ đến việc vay vốn.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 114,
+      "question": "September will be a good month for ------- to carry out some renovations at the hotel.",
+      "answerOptions": [
+        { "text": "(A) us", "isCorrect": true, "rationale": "Cấu trúc: 'for + Tân ngữ (Object) + to V'. Sau giới từ 'for' phải dùng đại từ tân ngữ. 'for us to carry out' = để chúng ta thực hiện." },
+        { "text": "(B) we", "isCorrect": false, "rationale": "'we' là đại từ chủ ngữ, không dùng sau giới từ 'for'." },
+        { "text": "(C) ours", "isCorrect": false, "rationale": "'ours' là đại từ sở hữu, không phù hợp cấu trúc 'for + Object + to V'." },
+        { "text": "(D) our", "isCorrect": false, "rationale": "'our' là tính từ sở hữu, cần đứng trước danh từ, không phù hợp cấu trúc này." }
+      ],
+      "hint": "Cấu trúc: 'for + _____ (đại từ tân ngữ) + to V'. Sau giới từ 'for' dùng dạng tân ngữ.",
+      "translation": "Tháng 9 sẽ là một tháng tốt để chúng ta tiến hành một số công việc cải tạo tại khách sạn.",
+      "category": "pronoun"
+    },
+    {
+      "id": 115,
+      "question": "Photographers, ------- to capture the beauty of the waterfall at sunrise, always arrive at the site early in the morning.",
+      "answerOptions": [
+        { "text": "(A) eager", "isCorrect": true, "rationale": "Rút gọn mệnh đề: 'Photographers (who are) eager to capture'. 'eager' (háo hức) là tính từ đi với 'to V'. Đây là cấu trúc rất phổ biến trong TOEIC." },
+        { "text": "(B) tender", "isCorrect": false, "rationale": "'tender' (mềm mại/dịu dàng) không hợp ngữ cảnh nhiếp ảnh gia." },
+        { "text": "(C) voluntary", "isCorrect": false, "rationale": "'voluntary' (tự nguyện) không phù hợp cấu trúc '+ to V'." },
+        { "text": "(D) secure", "isCorrect": false, "rationale": "'secure' (an toàn) không phù hợp ngữ cảnh." }
+      ],
+      "hint": "Rút gọn mệnh đề: 'Photographers (who are) _____ to capture'. Cần tính từ đi với 'to V' diễn tả mong muốn mạnh mẽ.",
+      "translation": "Các nhiếp ảnh gia, háo hức ghi lại vẻ đẹp của thác nước lúc bình minh, luôn đến địa điểm này từ sáng sớm.",
+      "category": "grammar"
+    },
+    {
+      "id": 116,
+      "question": "Ainsley Construction ------- the contract terms when the initial 12-month period is over.",
+      "answerOptions": [
+        { "text": "(A) modification", "isCorrect": false, "rationale": "'modification' là danh từ, không thể làm động từ chính của câu." },
+        { "text": "(B) to modify", "isCorrect": false, "rationale": "'to modify' là to-Infinitive, không thể đứng một mình làm động từ chính." },
+        { "text": "(C) will modify", "isCorrect": true, "rationale": "Quy tắc: Mệnh đề chỉ thời gian với 'when' dùng thì HTĐ → mệnh đề chính dùng thì TL. 'will modify' = sẽ sửa đổi (tương lai đơn, chủ động)." },
+        { "text": "(D) modifying", "isCorrect": false, "rationale": "'modifying' là V-ing, đứng một mình không thể làm động từ chính." }
+      ],
+      "hint": "Quy tắc: Mệnh đề thời gian 'when... is over' dùng HTĐ → mệnh đề chính dùng thì gì?",
+      "translation": "Ainsley Construction sẽ sửa đổi các điều khoản hợp đồng khi khoảng thời gian 12 tháng ban đầu kết thúc.",
+      "category": "grammar"
+    },
+    {
+      "id": 117,
+      "question": "Diners ------- complained about the long wait time for getting their main course.",
+      "answerOptions": [
+        { "text": "(A) primarily", "isCorrect": true, "rationale": "'primarily' (chủ yếu) là trạng từ bổ nghĩa cho 'complained'. Thực khách CHỦ YẾU phàn nàn về thời gian chờ — hợp logic." },
+        { "text": "(B) flexibly", "isCorrect": false, "rationale": "'flexibly' (linh hoạt) không mô tả hành động phàn nàn." },
+        { "text": "(C) ideally", "isCorrect": false, "rationale": "'ideally' (lý tưởng nhất là) không phù hợp ngữ cảnh phàn nàn." },
+        { "text": "(D) incredibly", "isCorrect": false, "rationale": "'incredibly' (đáng kinh ngạc) không hợp logic — không phàn nàn 'một cách đáng kinh ngạc'." }
+      ],
+      "hint": "Trạng từ nào diễn tả nội dung chính/phổ biến nhất của lời phàn nàn?",
+      "translation": "Thực khách chủ yếu phàn nàn về thời gian chờ đợi lâu để có được món chính của họ.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 118,
+      "question": "------- the bank transfer request is made before 3 P.M., the funds will be sent that day.",
+      "answerOptions": [
+        { "text": "(A) In spite of", "isCorrect": false, "rationale": "'In spite of' (mặc dù) cần theo sau là danh từ/V-ing, tạo nghĩa nhượng bộ không phù hợp." },
+        { "text": "(B) As long as", "isCorrect": true, "rationale": "'As long as' (miễn là) tạo câu điều kiện: MIỄN LÀ yêu cầu trước 3h chiều → tiền được gửi ngay trong ngày. Hợp logic." },
+        { "text": "(C) Rather than", "isCorrect": false, "rationale": "'Rather than' (thay vì) cần danh từ/V-ing, tạo nghĩa lựa chọn không phù hợp." },
+        { "text": "(D) Ever since", "isCorrect": false, "rationale": "'Ever since' (kể từ khi) chỉ thời gian từ quá khứ đến nay, không tạo câu điều kiện." }
+      ],
+      "hint": "Vế sau 'the funds will be sent that day' là kết quả của điều kiện gì?",
+      "translation": "Miễn là yêu cầu chuyển khoản ngân hàng được thực hiện trước 3 giờ chiều, tiền sẽ được gửi đi trong ngày hôm đó.",
+      "category": "conjunction"
+    },
+    {
+      "id": 119,
+      "question": "The HR team plans to ------- a team-building session on Friday afternoon.",
+      "answerOptions": [
+        { "text": "(A) meet", "isCorrect": false, "rationale": "'meet' (gặp gỡ) không phù hợp với tân ngữ 'a team-building session'." },
+        { "text": "(B) hold", "isCorrect": true, "rationale": "'hold' (tổ chức) — 'hold a session' = tổ chức một buổi. Cụm từ cố định thông dụng trong TOEIC." },
+        { "text": "(C) motivate", "isCorrect": false, "rationale": "'motivate' (tạo động lực) thường đi với tân ngữ chỉ người, không phải sự kiện." },
+        { "text": "(D) depart", "isCorrect": false, "rationale": "'depart' (khởi hành) không phù hợp ngữ cảnh tổ chức buổi hoạt động." }
+      ],
+      "hint": "Collocation: '_____ a session/meeting/event' = tổ chức một buổi/cuộc họp/sự kiện.",
+      "translation": "Đội ngũ nhân sự dự kiến tổ chức một buổi team-building vào chiều thứ Sáu.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 120,
+      "question": "------- working environments result in employees with a higher job satisfaction rating.",
+      "answerOptions": [
+        { "text": "(A) Cooperatively", "isCorrect": false, "rationale": "'Cooperatively' là trạng từ, không thể đứng trước danh từ 'working environments'." },
+        { "text": "(B) Cooperative", "isCorrect": true, "rationale": "'Cooperative' (có tính hợp tác) là tính từ đứng trước danh từ 'working environments'. 'Cooperative working environments' = môi trường làm việc mang tính hợp tác." },
+        { "text": "(C) Cooperate", "isCorrect": false, "rationale": "'Cooperate' là động từ, không phù hợp vị trí tính từ." },
+        { "text": "(D) Cooperates", "isCorrect": false, "rationale": "'Cooperates' là động từ chia số ít, không phù hợp." }
+      ],
+      "hint": "Cần tính từ (adjective) đứng trước danh từ 'working environments'.",
+      "translation": "Môi trường làm việc mang tính hợp tác dẫn đến việc nhân viên có mức đánh giá sự hài lòng trong công việc cao hơn.",
+      "category": "word-form"
+    },
+    {
+      "id": 121,
+      "question": "Thanks to the teleconferencing software used by the company, team members can easily collaborate ------- leaving their homes.",
+      "answerOptions": [
+        { "text": "(A) although", "isCorrect": false, "rationale": "'although' (mặc dù) là liên từ cần theo sau là mệnh đề S+V." },
+        { "text": "(B) until", "isCorrect": false, "rationale": "'until' (cho đến khi) không phù hợp ngữ cảnh làm việc từ xa." },
+        { "text": "(C) among", "isCorrect": false, "rationale": "'among' (giữa nhiều người) không đi với V-ing theo nghĩa phương thức." },
+        { "text": "(D) without", "isCorrect": true, "rationale": "'without' (mà không) + V-ing. 'without leaving their homes' = mà không cần rời khỏi nhà. Hợp ngữ cảnh làm việc từ xa." }
+      ],
+      "hint": "Cần từ + V-ing để tạo nghĩa 'mà không cần rời khỏi nhà'.",
+      "translation": "Nhờ có phần mềm họp trực tuyến được sử dụng bởi công ty, các thành viên trong nhóm có thể dễ dàng hợp tác mà không cần rời khỏi nhà.",
+      "category": "preposition"
+    },
+    {
+      "id": 122,
+      "question": "People ------- materials that are under copyright could face a fine if they do not have permission to do so.",
+      "answerOptions": [
+        { "text": "(A) duplicate", "isCorrect": false, "rationale": "'duplicate' là V-bare, tạo 2 động từ chính trong câu." },
+        { "text": "(B) duplication", "isCorrect": false, "rationale": "'duplication' là danh từ, không thể theo sau chủ ngữ 'People' như V-ing." },
+        { "text": "(C) duplicable", "isCorrect": false, "rationale": "'duplicable' là tính từ, không phù hợp vị trí rút gọn mệnh đề." },
+        { "text": "(D) duplicating", "isCorrect": true, "rationale": "Rút gọn mệnh đề quan hệ chủ động: 'People (who) duplicating materials' = những người sao chép tài liệu. V-ing theo sau danh từ là cấu trúc rút gọn." }
+      ],
+      "hint": "Rút gọn mệnh đề quan hệ chủ động: 'People who duplicate...' → 'People _____ materials'.",
+      "translation": "Những người sao chép tài liệu có bản quyền có thể phải đối mặt với một khoản tiền phạt nếu họ không có sự cho phép làm điều đó.",
+      "category": "grammar"
+    },
+    {
+      "id": 123,
+      "question": "Midland Communications has a manager handle customer complaints ------- possible.",
+      "answerOptions": [
+        { "text": "(A) despite", "isCorrect": false, "rationale": "'despite' (mặc dù) cần theo sau là danh từ, không phù hợp cấu trúc này." },
+        { "text": "(B) anyhow", "isCorrect": false, "rationale": "'anyhow' (bằng cách nào đó) không tạo thành cụm từ cố định với 'possible'." },
+        { "text": "(C) whenever", "isCorrect": true, "rationale": "Cụm từ cố định: 'whenever possible' (bất cứ khi nào có thể). Cực kỳ thông dụng trong TOEIC." },
+        { "text": "(D) always", "isCorrect": false, "rationale": "'always possible' không phải cụm từ cố định thích hợp trong ngữ cảnh này." }
+      ],
+      "hint": "Cụm từ cố định: '_____ possible' = bất cứ khi nào có thể.",
+      "translation": "Midland Communications có một người quản lý xử lý các khiếu nại của khách hàng bất cứ khi nào có thể.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 124,
+      "question": "As the parking lot at the Rockford Building is small, the building owner has decided to place a ------- of three hours for guest parking.",
+      "answerOptions": [
+        { "text": "(A) remark", "isCorrect": false, "rationale": "'remark' (nhận xét) không phù hợp cụm 'place a ___ of three hours'." },
+        { "text": "(B) limit", "isCorrect": true, "rationale": "Cụm từ: 'place a limit of + thời gian' = đặt ra giới hạn là bao nhiêu thời gian. 'a limit of three hours' = giới hạn 3 giờ." },
+        { "text": "(C) procedure", "isCorrect": false, "rationale": "'procedure' (thủ tục) không phù hợp cụm 'place a ___'." },
+        { "text": "(D) concept", "isCorrect": false, "rationale": "'concept' (khái niệm) không phù hợp ngữ cảnh." }
+      ],
+      "hint": "Cụm từ: 'place a _____ of three hours' = đặt ra ___ là 3 giờ. Bãi đỗ xe nhỏ → đặt ra cái gì?",
+      "translation": "Do bãi đỗ xe tại Tòa nhà Rockford khá nhỏ, chủ tòa nhà đã quyết định đặt ra giới hạn là 3 giờ đối với khách đỗ xe.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 125,
+      "question": "In the case of temporary employees, ID badges will be disabled when ------- contract ends.",
+      "answerOptions": [
+        { "text": "(A) theirs", "isCorrect": false, "rationale": "'theirs' là đại từ sở hữu, không đứng trước danh từ 'contract'." },
+        { "text": "(B) them", "isCorrect": false, "rationale": "'them' là đại từ tân ngữ, không đứng trước danh từ." },
+        { "text": "(C) themselves", "isCorrect": false, "rationale": "'themselves' là đại từ phản thân, không có chức năng sở hữu." },
+        { "text": "(D) their", "isCorrect": true, "rationale": "'their' (của họ) là tính từ sở hữu đứng trước danh từ 'contract'. Thay thế cho 'temporary employees' (số nhiều). 'their contract ends' = hợp đồng của họ kết thúc." }
+      ],
+      "hint": "Cần tính từ sở hữu đứng trước 'contract'. Thay thế cho 'temporary employees' (số nhiều).",
+      "translation": "Trong trường hợp nhân viên tạm thời, thẻ ID sẽ bị vô hiệu hóa khi hợp đồng của họ kết thúc.",
+      "category": "pronoun"
+    },
+    {
+      "id": 126,
+      "question": "Robert Holley, the CEO of technology firm Vidalia, is ------- to announce his resignation at the press conference.",
+      "answerOptions": [
+        { "text": "(A) inquired", "isCorrect": false, "rationale": "'be inquired to V' không phải cấu trúc cố định thích hợp." },
+        { "text": "(B) analyzed", "isCorrect": false, "rationale": "'be analyzed to V' không phải cấu trúc phù hợp." },
+        { "text": "(C) strategized", "isCorrect": false, "rationale": "'be strategized to V' không phải cấu trúc phù hợp." },
+        { "text": "(D) expected", "isCorrect": true, "rationale": "Cấu trúc cố định: 'be expected to V' (được dự kiến là sẽ làm gì). 'is expected to announce' = dự kiến sẽ tuyên bố." }
+      ],
+      "hint": "Cấu trúc bị động: 'be _____ to V' = được dự kiến sẽ làm gì.",
+      "translation": "Robert Holley, Giám đốc điều hành của công ty công nghệ Vidalia, dự kiến sẽ tuyên bố từ chức tại cuộc họp báo.",
+      "category": "grammar"
+    },
+    {
+      "id": 127,
+      "question": "Although the new laptop from Phoenix Electronics has a large screen, it is ------- lightweight.",
+      "answerOptions": [
+        { "text": "(A) surprise", "isCorrect": false, "rationale": "'surprise' là danh từ/động từ, không đứng trước tính từ 'lightweight'." },
+        { "text": "(B) surprisingly", "isCorrect": true, "rationale": "'surprisingly' (một cách đáng ngạc nhiên) là trạng từ bổ nghĩa cho tính từ 'lightweight'. Phù hợp vì 'Although' tạo sự tương phản bất ngờ." },
+        { "text": "(C) surprises", "isCorrect": false, "rationale": "'surprises' là V-s, không phù hợp vị trí trạng từ." },
+        { "text": "(D) to surprise", "isCorrect": false, "rationale": "'to surprise' là to-Infinitive, không phù hợp." }
+      ],
+      "hint": "'Although' tạo sự tương phản: màn hình lớn nhưng nhẹ một cách '___'. Cần trạng từ bổ nghĩa tính từ.",
+      "translation": "Mặc dù máy tính xách tay mới từ Phoenix Electronics có màn hình lớn, nhưng nó lại nhẹ một cách đáng ngạc nhiên.",
+      "category": "word-form"
+    },
+    {
+      "id": 128,
+      "question": "The new sports arena in Murphyville was designed to be used by ------- athletes.",
+      "answerOptions": [
+        { "text": "(A) spare", "isCorrect": false, "rationale": "'spare' (thừa/dự phòng) không mô tả loại vận động viên sử dụng sân thể thao." },
+        { "text": "(B) tangible", "isCorrect": false, "rationale": "'tangible' (hữu hình) không phù hợp bổ nghĩa cho 'athletes'." },
+        { "text": "(C) visible", "isCorrect": false, "rationale": "'visible' (có thể nhìn thấy) không phù hợp mô tả vận động viên." },
+        { "text": "(D) amateur", "isCorrect": true, "rationale": "'amateur' (nghiệp dư) — sân thể thao được thiết kế cho 'vận động viên nghiệp dư'. Trái nghĩa với 'professional' (chuyên nghiệp)." }
+      ],
+      "hint": "Tính từ nào mô tả loại vận động viên không chuyên nghiệp sử dụng sân thể thao mới?",
+      "translation": "Sân thi đấu thể thao mới ở Murphyville được thiết kế để sử dụng bởi các vận động viên nghiệp dư.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 129,
+      "question": "The new measures passed by the government are intended to contribute to the ------- of the economy.",
+      "answerOptions": [
+        { "text": "(A) stabilize", "isCorrect": false, "rationale": "'stabilize' là động từ, không đứng giữa mạo từ 'the' và giới từ 'of'." },
+        { "text": "(B) stability", "isCorrect": true, "rationale": "'stability' (sự ổn định) là danh từ đứng giữa 'the' và 'of the economy'. 'the stability of the economy' = sự ổn định của nền kinh tế." },
+        { "text": "(C) stable", "isCorrect": false, "rationale": "'stable' là tính từ, không đứng sau mạo từ 'the' trong vai trò danh từ." },
+        { "text": "(D) stabilizes", "isCorrect": false, "rationale": "'stabilizes' là V-s, không phù hợp vị trí." }
+      ],
+      "hint": "Đứng giữa mạo từ 'the' và giới từ 'of' → cần danh từ.",
+      "translation": "Các biện pháp mới do chính phủ thông qua nhằm mục đích đóng góp vào sự ổn định của nền kinh tế.",
+      "category": "word-form"
+    },
+    {
+      "id": 130,
+      "question": "Stand up and stretch your legs ------- throughout your work shift to improve blood flow.",
+      "answerOptions": [
+        { "text": "(A) periodically", "isCorrect": true, "rationale": "'periodically' (một cách định kỳ) là trạng từ phù hợp nhất — đứng dậy định kỳ trong suốt ca làm việc. Hợp ngữ cảnh lời khuyên sức khỏe." },
+        { "text": "(B) evidently", "isCorrect": false, "rationale": "'evidently' (một cách hiển nhiên) không phù hợp lời khuyên về hành động cụ thể." },
+        { "text": "(C) mutually", "isCorrect": false, "rationale": "'mutually' (lẫn nhau/qua lại) không phù hợp hành động cá nhân." },
+        { "text": "(D) reluctantly", "isCorrect": false, "rationale": "'reluctantly' (một cách miễn cưỡng) mâu thuẫn với tông điệu khuyến khích." }
+      ],
+      "hint": "Lời khuyên: đứng dậy và duỗi chân '___' trong ca làm việc. Trạng từ nào diễn tả tần suất đều đặn?",
+      "translation": "Hãy đứng dậy và duỗi chân định kỳ trong suốt ca làm việc của bạn để cải thiện lưu thông máu.",
+      "category": "vocabulary"
+    }
+  ]
+}
