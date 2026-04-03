@@ -1,0 +1,167 @@
+{
+  "title": "TOEIC Part 6 - BT5 (Questions 176-185)",
+  "passages": [
+    {
+      "id": "bt5-p1",
+      "passageNumber": 1,
+      "questionRange": "176-180",
+      "passageType": "Double Passage (E-mail + Policy)",
+      "passageTitle": "Parleganis Publishing — Book Return Request",
+      "passageA": "From: efeehan@rossfieldhotels.ie\nTo: customerservice@parleganispublishing.com\nDate: 15 December\nSubject: Course books\n\nDear Customer Service Representative:\n\nIn October my company ordered 60 paperback copies of the Food Safety Course Book for our employees so they could study for their mandatory food safety certification. I just learned from one of our managers that you offer this course book in languages other than English. May I send back twenty of the English language versions and get ten Polish and ten Portuguese books instead? Some of our new employees said they would really appreciate being able to read the crucial information in their first language.\n\nThe books I wish to return are still in their original packaging. I can have them boxed and shipped quickly, but I will wait for your acknowledgement and instructions regarding paperwork.\n\nSincerely,\nElla Feehan\nFood Services Director\nRossfield Hotels Ltd.",
+      "passageB": "Parleganis Publishing\nReturns and Exchanges Policy\n\nWe accept products under the following conditions.\n• Unmarked, unused materials may be returned or exchanged within 90 days of purchase.\n• Items returned or exchanged more than 30 days after purchase are subject to a restocking fee equal to 20% of the cover price.\n• Paperback books come in plastic-wrapped bundles of ten. Unopened bundles may be returned for full credit. Individual paperback books will receive partial credit.\n• Software products and subscription fees are not refundable.\n• No credit will be issued for damaged or out-of-print books.",
+      "questions": [
+        {
+          "id": 176,
+          "blankLabel": null,
+          "questionType": "reading-comprehension",
+          "question": "Why did Ms. Feehan write to Parleganis Publishing?",
+          "answerOptions": [
+            { "text": "(A) She offered feedback on a publication.", "isCorrect": false, "rationale": "Phản hồi về ấn phẩm — bà không đề cập đến việc đánh giá nội dung sách." },
+            { "text": "(B) She would like to exchange some training materials.", "isCorrect": true, "rationale": "Bà Feehan muốn đổi 20 cuốn sách tiếng Anh lấy 10 cuốn tiếng Ba Lan và 10 cuốn tiếng Bồ Đào Nha — đây là yêu cầu đổi hàng (exchange). 'Training materials' = sách học Food Safety." },
+            { "text": "(C) She received an incorrect shipment.", "isCorrect": false, "rationale": "Lô hàng sai — bà nhận đúng sách đã đặt (tiếng Anh), chỉ muốn đổi một phần sang ngôn ngữ khác." },
+            { "text": "(D) She needs to return some damaged books.", "isCorrect": false, "rationale": "Sách hỏng — bà nói sách 'still in their original packaging', không bị hỏng." }
+          ],
+          "hint": "Đọc đoạn 1 email: 'May I send back twenty... and get... books instead?' — hành động này là gì?",
+          "translation": "Câu 176: Tại sao bà Feehan viết thư cho Parleganis Publishing?"
+        },
+        {
+          "id": 177,
+          "blankLabel": null,
+          "questionType": "reading-comprehension",
+          "question": "What is indicated about Rossfield Hotels Ltd.?",
+          "answerOptions": [
+            { "text": "(A) Some of its workers must earn certificates.", "isCorrect": true, "rationale": "Email đề cập 'mandatory food safety certification' — chứng chỉ an toàn thực phẩm BẮT BUỘC. Một số nhân viên phải đạt được chứng chỉ này." },
+            { "text": "(B) It recently hired a food services manager.", "isCorrect": false, "rationale": "Bà Feehan là Food Services Director (Giám đốc), không phải vừa được tuyển. Email không đề cập tuyển dụng mới." },
+            { "text": "(C) It advertises in several European countries.", "isCorrect": false, "rationale": "Quảng cáo ở châu Âu — không được đề cập trong email hay chính sách." },
+            { "text": "(D) Some of its guests come from Poland and Portugal.", "isCorrect": false, "rationale": "Khách từ Ba Lan và Bồ Đào Nha — email đề cập đến NHÂN VIÊN (employees) nói tiếng Ba Lan và Bồ Đào Nha, không phải khách hàng." }
+          ],
+          "hint": "Tìm thông tin về Rossfield Hotels từ email. 'Mandatory food safety certification' nghĩa là gì đối với nhân viên?",
+          "translation": "Câu 177: Điều gì được chỉ ra về Rossfield Hotels Ltd.?"
+        },
+        {
+          "id": 178,
+          "blankLabel": null,
+          "questionType": "reading-comprehension",
+          "question": "In the e-mail, the word \"original\" in paragraph 2, line 1, is closest in meaning to:",
+          "answerOptions": [
+            { "text": "(A) odd", "isCorrect": false, "rationale": "'Odd' = kỳ lạ — không phù hợp ngữ cảnh mô tả bao bì sách." },
+            { "text": "(B) initial", "isCorrect": true, "rationale": "'still in their original packaging' = vẫn trong bao bì ban đầu — 'original' ở đây = initial (ban đầu, gốc). Sách chưa được mở ra khỏi bao bì lúc mua." },
+            { "text": "(C) ancient", "isCorrect": false, "rationale": "'Ancient' = cổ đại — không liên quan đến bao bì sách mới mua tháng 10." },
+            { "text": "(D) creative", "isCorrect": false, "rationale": "'Creative' = sáng tạo — không phù hợp ngữ cảnh." }
+          ],
+          "hint": "Sách mua tháng 10, bây giờ tháng 12, vẫn trong bao bì 'original'. 'Original packaging' = bao bì như thế nào so với thời điểm mua?",
+          "translation": "Câu 178: Từ 'original' trong đoạn 2 dòng 1 của email gần nghĩa nhất với từ nào?"
+        },
+        {
+          "id": 179,
+          "blankLabel": null,
+          "questionType": "reading-comprehension",
+          "question": "What will Rossfield Hotels Ltd. most likely pay in December?",
+          "answerOptions": [
+            { "text": "(A) A restocking fee", "isCorrect": true, "rationale": "Sách mua tháng 10, đổi tháng 12 = hơn 30 ngày sau khi mua. Theo chính sách: 'Items returned or exchanged more than 30 days after purchase are subject to a restocking fee equal to 20% of the cover price'. Vậy Rossfield sẽ phải trả phí restocking." },
+            { "text": "(B) A subscription fee", "isCorrect": false, "rationale": "Phí đăng ký — không có đăng ký nào được đề cập." },
+            { "text": "(C) A past-due invoice", "isCorrect": false, "rationale": "Hóa đơn quá hạn — không có thông tin về thanh toán trễ hạn." },
+            { "text": "(D) A refund for unused services", "isCorrect": false, "rationale": "Hoàn tiền dịch vụ — đây là đổi sách, không phải dịch vụ." }
+          ],
+          "hint": "Sách mua tháng 10, đổi tháng 12. Đối chiếu với chính sách: điều khoản nào áp dụng cho việc đổi sau hơn 30 ngày?",
+          "translation": "Câu 179: Rossfield Hotels Ltd. khả năng cao sẽ phải thanh toán gì vào tháng 12?"
+        },
+        {
+          "id": 180,
+          "blankLabel": null,
+          "questionType": "reading-comprehension",
+          "question": "What is stated about the Food Safety Course Book?",
+          "answerOptions": [
+            { "text": "(A) It is available in electronic format.", "isCorrect": false, "rationale": "Định dạng điện tử — không được đề cập trong email hay chính sách." },
+            { "text": "(B) It was published in October.", "isCorrect": false, "rationale": "Xuất bản tháng 10 — email chỉ nói Rossfield đặt mua tháng 10, không nói sách xuất bản tháng 10." },
+            { "text": "(C) It will soon be out of print.", "isCorrect": false, "rationale": "Sắp hết bản in — không được đề cập." },
+            { "text": "(D) It is sold in packs of ten.", "isCorrect": true, "rationale": "Chính sách ghi rõ: 'Paperback books come in plastic-wrapped bundles of ten'. Food Safety Course Book là sách bìa mềm (paperback) → bán theo bộ 10 cuốn. Phù hợp với việc bà Feehan muốn đổi 10 cuốn Ba Lan + 10 cuốn Bồ Đào Nha." }
+          ],
+          "hint": "Tìm thông tin về 'paperback books' trong chính sách của Parleganis Publishing.",
+          "translation": "Câu 180: Điều gì được nêu về cuốn Food Safety Course Book?"
+        }
+      ]
+    },
+    {
+      "id": "bt5-p2",
+      "passageNumber": 2,
+      "questionRange": "181-185",
+      "passageType": "Double Passage (Review + Menu)",
+      "passageTitle": "Maple Pizza House Review and Menu",
+      "passageA": "Review: Pizza in Bobbingworth\nSubmitted by: Gerard Landis\n★★★★☆\n\nThere is a new pizza restaurant in town called Maple Pizza House. Not to my surprise, it offers a number of signature pizzas with maple flavoring, including dessert pizzas. While I personally did not like the maple-flavored pizza at all, the rest of my party enjoyed a large maple-ham pizza as a main course. The others in my group also devoured the maple-walnut dessert pizza, which, to me, tasted like an overly sweet, sticky pie.\n\nFortunately for me, the menu includes some pizzas that do not have maple flavoring. I ordered a traditional cheese pizza. It was served piping hot and was delicious. Because there were tasty menu options that pleased everyone, I rate the Maple Pizza House 4 stars out of 5, and I would recommend visiting.",
+      "passageB": "Maple Pizza House\n83 Fox Lane, Bobbingworth, CM2 9B\n077 5014 0314\nWe now accept credit cards.\n\nSignature Maple Pizzas (with red sauce) | Personal | Large\nChicken maple | £4.5 | £15\nMaple ham | £5 | £17\nPineapple | £4 | £14\n\nTraditional Pizzas (select red or white sauce)\nCheese | £4 | £13\nVegetable | £4 | £13\nMeatball | £4 | £13\n\nDessert Pizzas (with brown butter sauce)\nCinnamon maple | Large £11\nMaple walnut | Large £11\n\nALL BEVERAGES: £2",
+      "questions": [
+        {
+          "id": 181,
+          "blankLabel": null,
+          "questionType": "reading-comprehension",
+          "question": "What does Mr. Landis think about the restaurant's menu?",
+          "answerOptions": [
+            { "text": "(A) There are too few vegetarian options.", "isCorrect": false, "rationale": "Ít lựa chọn chay — ông không đề cập đến thiếu món chay, chỉ nói về sở thích cá nhân." },
+            { "text": "(B) He preferred the restaurant's previous menu.", "isCorrect": false, "rationale": "Menu cũ — đây là nhà hàng MỚI ('new pizza restaurant'), không có menu cũ để so sánh." },
+            { "text": "(C) The dessert pizzas are too expensive.", "isCorrect": false, "rationale": "Pizza tráng miệng đắt — ông không đề cập đến giá." },
+            { "text": "(D) He does not care for the taste of the signature pizzas.", "isCorrect": true, "rationale": "Bài đánh giá rõ ràng: 'I personally did not like the maple-flavored pizza at all'. Signature pizzas đều có maple — ông không thích vị maple. Tuy nhiên ông vẫn cho 4/5 vì nhóm của mình vẫn hài lòng." }
+          ],
+          "hint": "Đọc phần ông Landis mô tả phản ứng CÁ NHÂN của ông với pizza tại đây.",
+          "translation": "Câu 181: Ông Landis nghĩ gì về menu của nhà hàng?"
+        },
+        {
+          "id": 182,
+          "blankLabel": null,
+          "questionType": "reading-comprehension",
+          "question": "In the review, the word \"sweet\" in paragraph 1, line 5, is closest in meaning to:",
+          "answerOptions": [
+            { "text": "(A) moderate", "isCorrect": false, "rationale": "'Moderate' = vừa phải — ông mô tả vị 'OVERLY sweet' (quá ngọt), trái với moderate." },
+            { "text": "(B) pleasing", "isCorrect": false, "rationale": "'Pleasing' = dễ chịu — nhưng ông dùng 'sweet' theo nghĩa tiêu cực ('overly sweet, sticky pie')." },
+            { "text": "(C) sugary", "isCorrect": true, "rationale": "'Overly sweet' = quá ngọt như đường. 'Sugary' = có nhiều đường, ngọt lịm — đồng nghĩa với 'sweet' trong ngữ cảnh mô tả vị thức ăn. Ông Landis không thích vị ngọt quá của pizza tráng miệng." },
+            { "text": "(D) dear", "isCorrect": false, "rationale": "'Dear' = đắt/thắm thiết — không phải nghĩa được dùng ở đây." }
+          ],
+          "hint": "Ông Landis mô tả pizza tráng miệng là 'overly sweet, sticky pie'. 'Sweet' trong ngữ cảnh này liên quan đến vị gì?",
+          "translation": "Câu 182: Từ 'sweet' trong đoạn 1 dòng 5 của bài đánh giá gần nghĩa nhất với từ nào?"
+        },
+        {
+          "id": 183,
+          "blankLabel": null,
+          "questionType": "reading-comprehension",
+          "question": "How much was the pizza that Mr. Landis' group ordered for their main course?",
+          "answerOptions": [
+            { "text": "(A) £5", "isCorrect": false, "rationale": "£5 là giá pizza maple ham size PERSONAL, không phải size large." },
+            { "text": "(B) £11", "isCorrect": false, "rationale": "£11 là giá pizza tráng miệng (dessert), không phải món chính." },
+            { "text": "(C) £13", "isCorrect": false, "rationale": "£13 là giá pizza truyền thống (traditional) size large — ông Landis gọi cheese pizza này, không phải nhóm." },
+            { "text": "(D) £17", "isCorrect": true, "rationale": "Nhóm của ông gọi 'a large maple-ham pizza as a main course'. Theo menu: Maple ham | Large = £17. Đối chiếu bài đánh giá với menu cho đáp án chính xác." }
+          ],
+          "hint": "Nhóm gọi 'large maple-ham pizza'. Tìm trong menu: Maple ham | size Large = bao nhiêu?",
+          "translation": "Câu 183: Pizza nhóm của ông Landis gọi cho món chính có giá bao nhiêu?"
+        },
+        {
+          "id": 184,
+          "blankLabel": null,
+          "questionType": "reading-comprehension",
+          "question": "Which pizza is available with a white sauce?",
+          "answerOptions": [
+            { "text": "(A) Maple ham", "isCorrect": false, "rationale": "Maple ham là Signature Maple Pizza — chỉ có red sauce." },
+            { "text": "(B) Pineapple", "isCorrect": false, "rationale": "Pineapple là Signature Maple Pizza — chỉ có red sauce." },
+            { "text": "(C) Meatball", "isCorrect": true, "rationale": "Menu ghi: 'Traditional Pizzas (select red or white sauce)' — Cheese, Vegetable, Meatball đều có thể chọn red hoặc white sauce. Đáp án C (Meatball) là loại Traditional Pizza." },
+            { "text": "(D) Cinnamon maple", "isCorrect": false, "rationale": "Cinnamon maple là Dessert Pizza — dùng brown butter sauce, không phải white sauce." }
+          ],
+          "hint": "Đọc kỹ phần nào trong menu có đề cập 'white sauce'. Loại pizza nào được phép chọn white sauce?",
+          "translation": "Câu 184: Pizza nào có thể dùng với white sauce?"
+        },
+        {
+          "id": 185,
+          "blankLabel": null,
+          "questionType": "reading-comprehension",
+          "question": "What is suggested about the restaurant?",
+          "answerOptions": [
+            { "text": "(A) It prepares dessert pizza in only one size.", "isCorrect": true, "rationale": "Menu liệt kê Dessert Pizzas chỉ có 'Large £11' — không có size Personal/Small cho dessert pizza. Nghĩa là chỉ phục vụ một size duy nhất (large) cho pizza tráng miệng." },
+            { "text": "(B) It accepts payments in cash only.", "isCorrect": false, "rationale": "Chỉ nhận tiền mặt — menu ghi 'We now accept credit cards', nghĩa là CŨNG nhận thẻ tín dụng." },
+            { "text": "(C) It makes home deliveries.", "isCorrect": false, "rationale": "Giao hàng tận nhà — không được đề cập trong menu hay bài đánh giá." },
+            { "text": "(D) It has moved to a larger location.", "isCorrect": false, "rationale": "Chuyển đến địa điểm lớn hơn — đây là nhà hàng 'new' (mới), không đề cập chuyển địa điểm." }
+          ],
+          "hint": "Xem phần Dessert Pizzas trong menu. Chú ý cột giá — có cột 'Personal' không? Điều đó nói lên điều gì?",
+          "translation": "Câu 185: Điều gì được gợi ý về nhà hàng?"
+        }
+      ]
+    }
+  ]
+}

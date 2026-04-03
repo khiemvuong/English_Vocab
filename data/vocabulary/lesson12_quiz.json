@@ -1,0 +1,245 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 12",
+  "questions": [
+    {
+      "question": "Tất cả nhà thầu phải 'comply with /kəmˈplaɪ wɪð/ the new safety regulations'. Cụm này nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Phản đối các quy định mới", "isCorrect": false, "rationale": "Phản đối là 'object to' hoặc 'oppose'." },
+        { "text": "Tuân thủ / chấp hành đúng quy định", "isCorrect": true, "rationale": "Comply with = làm theo hoặc chấp hành một quy tắc, quy định đã được đặt ra." },
+        { "text": "Đề xuất thay đổi quy định", "isCorrect": false, "rationale": "Đề xuất thay đổi là 'propose changes to the regulations'." },
+        { "text": "Xem xét và đánh giá quy định", "isCorrect": false, "rationale": "Xem xét là 'review' hoặc 'evaluate'." }
+      ],
+      "hint": "Từ đồng nghĩa: adhere to, follow, obey."
+    },
+    {
+      "question": "Email nội bộ yêu cầu nhân viên 'please follow the guidelines /ˈɡaɪdlaɪnz/'. 'Guideline' là gì?",
+      "answerOptions": [
+        { "text": "Hướng dẫn / chỉ dẫn cụ thể", "isCorrect": true, "rationale": "Guideline = hướng dẫn hoặc nguyên tắc để thực hiện đúng cách." },
+        { "text": "Hình phạt khi vi phạm quy định", "isCorrect": false, "rationale": "Hình phạt là 'penalty' hoặc 'fine'." },
+        { "text": "Mục tiêu kinh doanh quý tới", "isCorrect": false, "rationale": "Mục tiêu kinh doanh là 'business target' hoặc 'quarterly goal'." },
+        { "text": "Hợp đồng lao động cá nhân", "isCorrect": false, "rationale": "Hợp đồng lao động là 'employment contract'." }
+      ],
+      "hint": "Từ đồng nghĩa: instruction, rule, direction."
+    },
+    {
+      "question": "'Your membership /ˈmembəʃɪp/ will expire at the end of the month.' 'Membership' là gì?",
+      "answerOptions": [
+        { "text": "Tư cách thành viên / quyền là thành viên", "isCorrect": true, "rationale": "Membership = trạng thái là thành viên của một tổ chức, câu lạc bộ hoặc dịch vụ." },
+        { "text": "Bảo hiểm y tế công ty", "isCorrect": false, "rationale": "Bảo hiểm y tế là 'health insurance'." },
+        { "text": "Gói dịch vụ internet hàng tháng", "isCorrect": false, "rationale": "Gói internet là 'internet subscription plan'." },
+        { "text": "Hợp đồng làm việc dài hạn", "isCorrect": false, "rationale": "Hợp đồng dài hạn là 'long-term contract'." }
+      ],
+      "hint": "Cụm quen: 'renew membership', 'membership expires', 'membership fee'."
+    },
+    {
+      "question": "Nhà máy chuyên sản xuất 'textiles /ˈtekstaɪlz/' xuất khẩu sang châu Âu. 'Textile' là gì?",
+      "answerOptions": [
+        { "text": "Hàng điện tử tiêu dùng", "isCorrect": false, "rationale": "Hàng điện tử là 'electronics' hoặc 'consumer electronics'." },
+        { "text": "Hàng dệt may / vải vóc", "isCorrect": true, "rationale": "Textile = ngành hoặc sản phẩm liên quan đến vải, sợi và hàng may mặc." },
+        { "text": "Đồ nội thất văn phòng", "isCorrect": false, "rationale": "Đồ nội thất là 'furniture'." },
+        { "text": "Thiết bị nông nghiệp", "isCorrect": false, "rationale": "Thiết bị nông nghiệp là 'agricultural equipment'." }
+      ],
+      "hint": "Từ đồng nghĩa: fabric, cloth, material."
+    },
+    {
+      "question": "Tạp chí khoa học 'publish /ˈpʌblɪʃ/ research papers quarterly'. 'Publish' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Xuất bản / phát hành ra công chúng", "isCorrect": true, "rationale": "Publish = đưa nội dung ra xuất bản, phát hành để mọi người đọc." },
+        { "text": "Lưu trữ bí mật trong hệ thống nội bộ", "isCorrect": false, "rationale": "Lưu trữ bí mật là 'archive internally', trái với việc công khai." },
+        { "text": "Gửi bản thảo cho ban biên tập xét duyệt", "isCorrect": false, "rationale": "Gửi bản thảo là 'submit a manuscript', bước trước khi publish." },
+        { "text": "Thu thập ý kiến phản hồi từ độc giả", "isCorrect": false, "rationale": "Thu thập phản hồi là 'collect reader feedback'." }
+      ],
+      "hint": "Từ đồng nghĩa: issue, release, print."
+    },
+    {
+      "question": "Hành khách ngồi chờ trong 'the departure lounge /laʊndʒ/' trước khi boarding. 'Lounge' là gì?",
+      "answerOptions": [
+        { "text": "Phòng chờ / khu vực ngồi chờ", "isCorrect": true, "rationale": "Lounge = khu vực tiện nghi dành để ngồi chờ, thường ở sân bay hoặc khách sạn." },
+        { "text": "Quầy làm thủ tục check-in", "isCorrect": false, "rationale": "Quầy check-in là 'check-in counter'." },
+        { "text": "Cổng lên máy bay (boarding gate)", "isCorrect": false, "rationale": "Cổng boarding là 'boarding gate'." },
+        { "text": "Khu vực lấy hành lý", "isCorrect": false, "rationale": "Khu lấy hành lý là 'baggage claim area'." }
+      ],
+      "hint": "Cụm quen: 'airport lounge', 'departure lounge', 'hotel lounge'."
+    },
+    {
+      "question": "Cỗ máy mới 'operate /ˈɒpəreɪt/ more efficiently than the old one'. 'Operate' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Vận hành / hoạt động", "isCorrect": true, "rationale": "Operate = chạy, hoạt động, hoặc thực hiện chức năng của một hệ thống hay máy móc." },
+        { "text": "Được sản xuất tại nhà máy địa phương", "isCorrect": false, "rationale": "Sản xuất là 'manufacture' hoặc 'produce'." },
+        { "text": "Được bảo trì định kỳ bởi kỹ thuật viên", "isCorrect": false, "rationale": "Bảo trì là 'maintain' hoặc 'service'." },
+        { "text": "Được thay thế bằng phiên bản mới hơn", "isCorrect": false, "rationale": "Thay thế là 'replace'." }
+      ],
+      "hint": "Từ đồng nghĩa: run, work, function."
+    },
+    {
+      "question": "Vui lòng liên hệ 'my secretary /ˈsekrətəri/ to arrange a meeting'. 'Secretary' là ai?",
+      "answerOptions": [
+        { "text": "Giám đốc điều hành (CEO)", "isCorrect": false, "rationale": "CEO là 'Chief Executive Officer', người đứng đầu tổ chức." },
+        { "text": "Thư ký / trợ lý hành chính", "isCorrect": true, "rationale": "Secretary = người làm các công việc hành chính, lên lịch, và hỗ trợ cho cấp trên." },
+        { "text": "Trưởng phòng nhân sự", "isCorrect": false, "rationale": "Trưởng phòng nhân sự là 'HR manager'." },
+        { "text": "Nhân viên lễ tân khách sạn", "isCorrect": false, "rationale": "Lễ tân là 'receptionist' hoặc 'front desk staff'." }
+      ],
+      "hint": "Từ đồng nghĩa: assistant, administrator."
+    },
+    {
+      "question": "Khách hàng kỳ vọng công ty 'respond /rɪˈspɒnd/ to emails quickly'. 'Respond' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Phản hồi / trả lời", "isCorrect": true, "rationale": "Respond = đưa ra phản hồi hoặc câu trả lời cho một liên lạc hoặc tình huống." },
+        { "text": "Xóa email không cần thiết", "isCorrect": false, "rationale": "Xóa email là 'delete emails'." },
+        { "text": "Chuyển tiếp email đến bộ phận liên quan", "isCorrect": false, "rationale": "Chuyển tiếp là 'forward'." },
+        { "text": "Lưu trữ email trong thư mục riêng", "isCorrect": false, "rationale": "Lưu trữ là 'archive' hoặc 'save'." }
+      ],
+      "hint": "Từ đồng nghĩa: reply, answer, react."
+    },
+    {
+      "question": "Dự án thành công nhờ sự 'coordination /kəʊˌɔːdɪˈneɪʃən/' hiệu quả giữa các phòng ban. 'Coordination' là gì?",
+      "answerOptions": [
+        { "text": "Sự phối hợp / phối kết hợp nhịp nhàng", "isCorrect": true, "rationale": "Coordination = tổ chức sao cho các bộ phận, hoạt động làm việc cùng nhau hiệu quả." },
+        { "text": "Sự cạnh tranh nội bộ giữa các nhóm", "isCorrect": false, "rationale": "Cạnh tranh nội bộ là 'internal competition', trái với phối hợp." },
+        { "text": "Quyết định từ ban lãnh đạo cấp cao", "isCorrect": false, "rationale": "Quyết định từ ban lãnh đạo là 'top management decision'." },
+        { "text": "Ngân sách phân bổ cho từng phòng ban", "isCorrect": false, "rationale": "Ngân sách phân bổ là 'budget allocation'." }
+      ],
+      "hint": "Từ đồng nghĩa: collaboration, teamwork, cooperation."
+    },
+    {
+      "question": "Khách sạn cung cấp 'comfortable accommodation /əˌkɒməˈdeɪʃən/ for guests'. 'Accommodation' là gì?",
+      "answerOptions": [
+        { "text": "Chỗ ở / nơi nghỉ ngơi", "isCorrect": true, "rationale": "Accommodation = nơi ở, phòng nghỉ được cung cấp cho khách." },
+        { "text": "Dịch vụ đưa đón tại sân bay", "isCorrect": false, "rationale": "Đưa đón sân bay là 'airport shuttle service'." },
+        { "text": "Gói tour du lịch trọn gói", "isCorrect": false, "rationale": "Tour du lịch là 'travel package' hoặc 'tour package'." },
+        { "text": "Phòng hội nghị cho sự kiện", "isCorrect": false, "rationale": "Phòng hội nghị là 'conference room' hoặc 'meeting room'." }
+      ],
+      "hint": "Từ đồng nghĩa: lodging, housing, room."
+    },
+    {
+      "question": "Công ty đánh giá hiệu suất tài chính 'on a quarterly /ˈkwɔːtəli/ basis'. 'Quarterly' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Hàng tháng", "isCorrect": false, "rationale": "Hàng tháng là 'monthly'." },
+        { "text": "Hàng quý (mỗi 3 tháng)", "isCorrect": true, "rationale": "Quarterly = xảy ra mỗi 3 tháng, tức 4 lần một năm." },
+        { "text": "Hàng năm", "isCorrect": false, "rationale": "Hàng năm là 'annually'." },
+        { "text": "Hàng tuần", "isCorrect": false, "rationale": "Hàng tuần là 'weekly'." }
+      ],
+      "hint": "Quarter = một phần tư. Quarterly = every quarter = every 3 months."
+    },
+    {
+      "question": "Văn phòng mới 'is located /ləʊˈkeɪtɪd/ downtown'. 'Located' chỉ điều gì?",
+      "answerOptions": [
+        { "text": "Được xây mới hoàn toàn", "isCorrect": false, "rationale": "Xây mới là 'newly built' hoặc 'brand new'." },
+        { "text": "Được đặt / tọa lạc ở một địa điểm", "isCorrect": true, "rationale": "Located = nằm ở, đặt tại một vị trí địa lý cụ thể." },
+        { "text": "Được thuê với giá ưu đãi", "isCorrect": false, "rationale": "Thuê với giá ưu đãi là 'rented at a discounted rate'." },
+        { "text": "Được thiết kế theo phong cách hiện đại", "isCorrect": false, "rationale": "Thiết kế hiện đại là 'designed in a modern style'." }
+      ],
+      "hint": "Từ đồng nghĩa: situated, placed, positioned."
+    },
+    {
+      "question": "Kho hàng đang 'out of stock /aʊt əv stɒk/'. Cụm này có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Hàng vừa được nhập thêm", "isCorrect": false, "rationale": "Nhập hàng thêm là 'restock' hoặc 'replenish'." },
+        { "text": "Hết hàng / không còn hàng trong kho", "isCorrect": true, "rationale": "Out of stock = sản phẩm hiện không có sẵn để mua hoặc giao hàng." },
+        { "text": "Hàng đang được vận chuyển đến kho", "isCorrect": false, "rationale": "Đang vận chuyển là 'in transit' hoặc 'on its way'." },
+        { "text": "Hàng bị lỗi cần trả lại nhà sản xuất", "isCorrect": false, "rationale": "Hàng lỗi là 'defective items'." }
+      ],
+      "hint": "Từ đồng nghĩa: sold out, unavailable."
+    },
+    {
+      "question": "Máy photocopy 'is out of order /aʊt əv ˈɔːdər/'. Cụm này có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Đang được nâng cấp phần mềm", "isCorrect": false, "rationale": "Nâng cấp phần mềm là 'software update'." },
+        { "text": "Đang hoạt động bình thường", "isCorrect": false, "rationale": "Hoạt động bình thường là 'working properly' hoặc 'in good working order'." },
+        { "text": "Đang chờ đặt hàng linh kiện thay thế", "isCorrect": false, "rationale": "Đợi linh kiện là 'waiting for replacement parts'." },
+        { "text": "Bị hỏng / không hoạt động", "isCorrect": true, "rationale": "Out of order = máy móc hoặc thiết bị bị hỏng, không sử dụng được." }
+      ],
+      "hint": "Từ đồng nghĩa: broken, not working, malfunctioning."
+    },
+    {
+      "question": "Ứng viên được yêu cầu 'apply for /əˈplaɪ fɔːr/ the position online'. 'Apply for' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Ứng tuyển / nộp đơn cho vị trí đó", "isCorrect": true, "rationale": "Apply for = chính thức nộp đơn hoặc yêu cầu để được xem xét cho một vị trí." },
+        { "text": "Đàm phán mức lương với nhà tuyển dụng", "isCorrect": false, "rationale": "Đàm phán lương là 'negotiate salary'." },
+        { "text": "Từ chối lời mời phỏng vấn", "isCorrect": false, "rationale": "Từ chối phỏng vấn là 'decline the interview'." },
+        { "text": "Yêu cầu phản hồi sau phỏng vấn", "isCorrect": false, "rationale": "Yêu cầu phản hồi là 'request feedback'." }
+      ],
+      "hint": "Cụm quen: 'apply for a job', 'apply for a visa', 'apply for a loan'."
+    },
+    {
+      "question": "'Please submit the report prior to /ˈpraɪər tuː/ the meeting.' 'Prior to' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Sau khi cuộc họp kết thúc", "isCorrect": false, "rationale": "Sau khi là 'after'." },
+        { "text": "Trong suốt quá trình họp", "isCorrect": false, "rationale": "Trong suốt là 'during' hoặc 'throughout'." },
+        { "text": "Trước khi (một sự kiện xảy ra)", "isCorrect": true, "rationale": "Prior to = before. Trước khi điều gì đó xảy ra." },
+        { "text": "Ngay sau khi nhận được thông báo", "isCorrect": false, "rationale": "Ngay sau khi là 'immediately after'." }
+      ],
+      "hint": "Prior to = before. Dùng trong văn phong trang trọng."
+    },
+    {
+      "question": "Dự án 'is on schedule /ɒn ˈʃedjuːl/'. Cụm này cho biết điều gì về tiến độ?",
+      "answerOptions": [
+        { "text": "Đang bị chậm tiến độ", "isCorrect": false, "rationale": "Chậm tiến độ là 'behind schedule'." },
+        { "text": "Đang đúng theo kế hoạch thời gian", "isCorrect": true, "rationale": "On schedule = tiến độ đang đúng như kế hoạch đã định, không sớm cũng không trễ." },
+        { "text": "Đã hoàn thành trước thời hạn", "isCorrect": false, "rationale": "Hoàn thành trước hạn là 'ahead of schedule'." },
+        { "text": "Vừa được phê duyệt để bắt đầu", "isCorrect": false, "rationale": "Vừa được phê duyệt là 'just approved'." }
+      ],
+      "hint": "Ba trạng thái: ahead of schedule / on schedule / behind schedule."
+    },
+    {
+      "question": "'Who is in charge of /ɪn tʃɑːdʒ əv/ the marketing department?' 'In charge of' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Chịu trách nhiệm / phụ trách", "isCorrect": true, "rationale": "In charge of = có trách nhiệm quản lý hoặc giám sát một bộ phận hoặc nhiệm vụ." },
+        { "text": "Làm việc cùng với", "isCorrect": false, "rationale": "Làm việc cùng là 'work with' hoặc 'collaborate with'." },
+        { "text": "Báo cáo trực tiếp cho", "isCorrect": false, "rationale": "Báo cáo trực tiếp là 'report directly to'." },
+        { "text": "Được tuyển vào với vai trò mới", "isCorrect": false, "rationale": "Được tuyển vào là 'hired for a new role'." }
+      ],
+      "hint": "Từ đồng nghĩa: responsible for, overseeing."
+    },
+    {
+      "question": "Xe tải rời kho 'promptly /ˈprɒmptli/ at 6:00 A.M.' mỗi ngày. 'Promptly' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Một cách chậm chạp / thư thả", "isCorrect": false, "rationale": "Chậm chạp là 'slowly' hoặc 'leisurely'." },
+        { "text": "Đúng giờ / ngay lập tức, không chậm trễ", "isCorrect": true, "rationale": "Promptly = nhanh chóng và đúng thời điểm, không để chờ đợi." },
+        { "text": "Thỉnh thoảng / không đều đặn", "isCorrect": false, "rationale": "Thỉnh thoảng là 'occasionally' hoặc 'from time to time'." },
+        { "text": "Sau một khoảng chờ ngắn", "isCorrect": false, "rationale": "Sau khi chờ là 'after a short wait', ngược với promptly." }
+      ],
+      "hint": "Từ đồng nghĩa: on time, punctually, immediately."
+    },
+    {
+      "question": "'We will proceed with /prəˈsiːd wɪð/ the original plan.' 'Proceed with' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Từ bỏ kế hoạch ban đầu", "isCorrect": false, "rationale": "Từ bỏ là 'abandon' hoặc 'scrap the plan'." },
+        { "text": "Tiến hành / tiếp tục thực hiện", "isCorrect": true, "rationale": "Proceed with = bắt đầu hoặc tiếp tục thực hiện một kế hoạch hay hành động." },
+        { "text": "Xem xét lại toàn bộ kế hoạch", "isCorrect": false, "rationale": "Xem xét lại là 'review' hoặc 'reconsider'." },
+        { "text": "Trình bày kế hoạch cho ban giám đốc", "isCorrect": false, "rationale": "Trình bày là 'present to management'." }
+      ],
+      "hint": "Từ đồng nghĩa: continue with, go ahead with."
+    },
+    {
+      "question": "Cuộc họp được tổ chức 'by teleconference /baɪ ˈtelɪˌkɒnfərəns/'. Cuộc họp này được thực hiện như thế nào?",
+      "answerOptions": [
+        { "text": "Tại phòng họp của trụ sở chính", "isCorrect": false, "rationale": "Họp tại trụ sở là 'at the headquarters'." },
+        { "text": "Qua hội nghị từ xa / trực tuyến", "isCorrect": true, "rationale": "By teleconference = thông qua kết nối điện thoại hoặc video từ xa, không gặp mặt trực tiếp." },
+        { "text": "Tại địa điểm trung lập do hai bên chọn", "isCorrect": false, "rationale": "Địa điểm trung lập là 'neutral venue'." },
+        { "text": "Thông qua trao đổi email và tài liệu", "isCorrect": false, "rationale": "Trao đổi email là 'via email exchange'." }
+      ],
+      "hint": "Từ đồng nghĩa: via conference call, remotely."
+    },
+    {
+      "question": "Nhà kho 'warehouse /ˈweəhaʊs/' nằm cách cảng 5 km. 'Warehouse' là gì?",
+      "answerOptions": [
+        { "text": "Văn phòng chi nhánh khu vực", "isCorrect": false, "rationale": "Văn phòng chi nhánh là 'regional office' hoặc 'branch office'." },
+        { "text": "Nhà kho / kho chứa hàng", "isCorrect": true, "rationale": "Warehouse = kho lớn dùng để lưu trữ hàng hóa trước khi phân phối." },
+        { "text": "Nhà máy sản xuất và đóng gói", "isCorrect": false, "rationale": "Nhà máy là 'factory' hoặc 'manufacturing plant'." },
+        { "text": "Trung tâm phân phối hàng bán lẻ", "isCorrect": false, "rationale": "Trung tâm phân phối là 'distribution center'." }
+      ],
+      "hint": "Từ đồng nghĩa: storeroom, depot, storage facility."
+    },
+    {
+      "question": "Giá sản phẩm 'vary /ˈveəri/ from location to location'. 'Vary' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Giữ nguyên không đổi ở mọi nơi", "isCorrect": false, "rationale": "Không đổi là 'remain constant' hoặc 'stay the same'." },
+        { "text": "Thay đổi / khác nhau tùy trường hợp", "isCorrect": true, "rationale": "Vary = có sự khác biệt hoặc thay đổi theo từng điều kiện, vị trí, hay thời điểm." },
+        { "text": "Tăng dần theo từng khu vực", "isCorrect": false, "rationale": "Tăng dần là 'increase progressively', chỉ một chiều, không bao quát như vary." },
+        { "text": "Được quy định thống nhất toàn quốc", "isCorrect": false, "rationale": "Quy định thống nhất là 'standardized nationally'." }
+      ],
+      "hint": "Từ đồng nghĩa: differ, change, fluctuate."
+    }
+  ]
+}

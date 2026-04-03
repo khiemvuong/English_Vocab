@@ -16,9 +16,11 @@ export interface AnswerButtonListProps<T> {
   
   // Render Prop so we can custom render the inside of the button container
   renderContent: (option: T, isSelected: boolean, isCorrect: boolean, showResult: boolean) => React.ReactNode;
-  
   // Extract an ID to compare selected/correct
   getOptionId: (option: T) => string;
+
+  // Layout size
+  size?: "default" | "sm";
 }
 
 export function AnswerButtonList<T>({
@@ -31,7 +33,8 @@ export function AnswerButtonList<T>({
   restartCount = 0,
   stableKey = "default",
   renderContent,
-  getOptionId
+  getOptionId,
+  size = "default"
 }: AnswerButtonListProps<T>) {
 
   const displayOptions = useMemo(() => {
@@ -44,8 +47,8 @@ export function AnswerButtonList<T>({
     onSelect(optionId);
   };
 
-  return (
-    <div className={`grid grid-cols-1 sm:grid-cols-2 gap-3`}>
+    return (
+    <div className={`grid grid-cols-1 sm:grid-cols-2 ${size === "sm" ? "gap-2 sm:gap-3" : "gap-3"}`}>
       {displayOptions.map((optObj, i) => {
         const optionId = getOptionId(optObj);
         const letter = ["A", "B", "C", "D", "E", "F"][i]; // matches up to 6 options flexibly
@@ -54,7 +57,7 @@ export function AnswerButtonList<T>({
         const showResult = isAnswered;
 
         let className =
-          "flex items-start gap-4 p-4 rounded-xl border-2 transition-all duration-200 cursor-pointer text-left w-full";
+          `flex items-start ${size === "sm" ? "gap-3 p-3 rounded-xl" : "gap-4 p-4 rounded-xl"} border-2 transition-all duration-200 cursor-pointer text-left w-full`;
 
         if (!showResult) {
           className += " border-slate-200 bg-white hover:border-blue-300 hover:bg-blue-50/50 active:scale-[0.98]";
@@ -76,7 +79,7 @@ export function AnswerButtonList<T>({
             tabIndex={0}
           >
             <span
-              className={`w-8 h-8 rounded-lg flex items-center justify-center text-sm font-bold shrink-0 mt-0.5 ${
+              className={`${size === "sm" ? "w-6 h-6 md:w-7 md:h-7 text-xs" : "w-8 h-8 text-sm"} rounded-lg flex items-center justify-center font-bold shrink-0 mt-0.5 ${
                 showResult && isCorrectOption
                   ? "bg-emerald-500 text-white"
                   : showResult && isSelected

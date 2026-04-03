@@ -1,0 +1,245 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 10",
+  "questions": [
+    {
+      "question": "Quản lý 'instruct /ɪnˈstrʌkt/' nhân viên thực hiện quy trình đóng cửa mới. Từ 'instruct' đồng nghĩa với từ nào?",
+      "answerOptions": [
+        { "text": "Permit (cho phép)", "isCorrect": false, "rationale": "Permit là trao quyền, không phải hướng dẫn cụ thể cần làm gì." },
+        { "text": "Direct (hướng dẫn / chỉ đạo)", "isCorrect": true, "rationale": "Instruct và direct đều có nghĩa là hướng dẫn hoặc chỉ đạo người khác thực hiện công việc." },
+        { "text": "Evaluate (đánh giá)", "isCorrect": false, "rationale": "Evaluate là xem xét kết quả, không phải ra chỉ thị." },
+        { "text": "Negotiate (đàm phán)", "isCorrect": false, "rationale": "Negotiate là thương lượng hai chiều, không phải chỉ đạo một chiều." }
+      ],
+      "hint": "Từ đồng nghĩa: direct, teach, command."
+    },
+    {
+      "question": "Máy giặt mới đi kèm 'a one-year warranty /ˈwɒrənti/'. Bảo đảm này có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Miễn phí vận chuyển trong một năm", "isCorrect": false, "rationale": "Miễn phí vận chuyển là 'free delivery/shipping'." },
+        { "text": "Được sửa chữa / thay thế miễn phí nếu lỗi trong một năm", "isCorrect": true, "rationale": "Warranty là cam kết của nhà sản xuất bảo đảm sửa hoặc đổi sản phẩm lỗi trong thời gian quy định." },
+        { "text": "Được hoàn lại toàn bộ tiền nếu không hài lòng", "isCorrect": false, "rationale": "Hoàn tiền là 'refund policy', không nhất thiết đi kèm warranty." },
+        { "text": "Được hỗ trợ kỹ thuật 24/7 trong một năm", "isCorrect": false, "rationale": "Hỗ trợ 24/7 là 'round-the-clock support', một dịch vụ riêng." }
+      ],
+      "hint": "Warranty = guarantee. Cam kết về chất lượng trong khoảng thời gian nhất định."
+    },
+    {
+      "question": "Khách hàng gửi 'inquiry /ɪnˈkwaɪəri/' về chính sách hoàn tiền. 'Inquiry' có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Đơn khiếu nại chính thức", "isCorrect": false, "rationale": "Đơn khiếu nại là 'formal complaint', có tính phản đối mạnh hơn." },
+        { "text": "Câu hỏi / yêu cầu thông tin", "isCorrect": true, "rationale": "Inquiry là hành động hỏi thông tin hoặc yêu cầu làm rõ một vấn đề." },
+        { "text": "Biên nhận xác nhận giao dịch", "isCorrect": false, "rationale": "Biên nhận là 'receipt' hoặc 'confirmation'." },
+        { "text": "Hợp đồng dịch vụ với khách hàng", "isCorrect": false, "rationale": "Hợp đồng dịch vụ là 'service contract'." }
+      ],
+      "hint": "Từ đồng nghĩa: question, query."
+    },
+    {
+      "question": "Trưởng nhóm yêu cầu 'address /əˈdres/ the bottleneck in the supply chain'. 'Address' trong ngữ cảnh này nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Ghi địa chỉ lên kiện hàng", "isCorrect": false, "rationale": "Đây là nghĩa đen của address (danh từ), không phù hợp ngữ cảnh này." },
+        { "text": "Trình bày vấn đề trước hội đồng", "isCorrect": false, "rationale": "Trình bày vấn đề là 'present an issue'." },
+        { "text": "Giải quyết / xử lý vấn đề", "isCorrect": true, "rationale": "Address (động từ) trong công việc = xử lý, giải quyết một vấn đề cụ thể." },
+        { "text": "Đặt hàng bổ sung từ nhà cung cấp", "isCorrect": false, "rationale": "Đặt hàng là 'place a new order'." }
+      ],
+      "hint": "Từ đồng nghĩa: deal with, tackle, handle."
+    },
+    {
+      "question": "Công ty cần 'a new approach /əˈprəʊtʃ/' để tăng tỷ lệ giữ chân khách hàng. 'Approach' (danh từ) có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Cách tiếp cận / phương pháp thực hiện", "isCorrect": true, "rationale": "Approach (danh từ) chỉ cách hoặc phương pháp dùng để giải quyết vấn đề hay đạt mục tiêu." },
+        { "text": "Địa điểm tổ chức cuộc họp", "isCorrect": false, "rationale": "Địa điểm họp là 'meeting venue' hoặc 'location'." },
+        { "text": "Ngân sách marketing", "isCorrect": false, "rationale": "Ngân sách là 'budget' hoặc 'allocated funds'." },
+        { "text": "Phần mềm CRM quản lý khách hàng", "isCorrect": false, "rationale": "CRM là công cụ kỹ thuật, còn approach là khái niệm về cách làm." }
+      ],
+      "hint": "Từ đồng nghĩa: method, strategy, procedure."
+    },
+    {
+      "question": "Phần mềm mới 'enable /ɪˈneɪbl/ users to collaborate in real time'. 'Enable' có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Yêu cầu người dùng thực hiện bắt buộc", "isCorrect": false, "rationale": "Yêu cầu bắt buộc là 'require' hoặc 'mandate'." },
+        { "text": "Cho phép / tạo điều kiện để làm gì đó", "isCorrect": true, "rationale": "Enable = tạo ra khả năng hoặc điều kiện để ai đó có thể thực hiện một hành động." },
+        { "text": "Ngăn chặn truy cập tính năng giới hạn", "isCorrect": false, "rationale": "Ngăn chặn là 'restrict' hoặc 'block', trái nghĩa với enable." },
+        { "text": "Hướng dẫn cách sử dụng phần mềm", "isCorrect": false, "rationale": "Hướng dẫn sử dụng là 'instruct' hoặc 'guide users'." }
+      ],
+      "hint": "Từ đồng nghĩa: allow, permit, facilitate."
+    },
+    {
+      "question": "HR sẽ 'counsel /ˈkaʊnsəl/ employees on benefits enrollment'. Họ đang làm gì?",
+      "answerOptions": [
+        { "text": "Giám sát để đảm bảo nhân viên đăng ký đúng hạn", "isCorrect": false, "rationale": "Giám sát là 'monitor' hoặc 'oversee'." },
+        { "text": "Tư vấn / hỗ trợ nhân viên đưa ra quyết định", "isCorrect": true, "rationale": "Counsel = đưa ra lời khuyên chuyên nghiệp để giúp ai đó quyết định." },
+        { "text": "Phê duyệt đơn đăng ký phúc lợi", "isCorrect": false, "rationale": "Phê duyệt là 'approve'." },
+        { "text": "Gửi email nhắc nhở về hạn chót đăng ký", "isCorrect": false, "rationale": "Gửi nhắc nhở là 'send reminders'." }
+      ],
+      "hint": "Từ đồng nghĩa: advise, guide."
+    },
+    {
+      "question": "Nhà thầu được yêu cầu 'discard /dɪˈskɑːd/ all outdated blueprints'. 'Discard' có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Lưu trữ cẩn thận để tham khảo sau", "isCorrect": false, "rationale": "Lưu trữ là 'archive' hoặc 'store', trái ngược với discard." },
+        { "text": "Vứt bỏ / loại bỏ thứ không còn cần", "isCorrect": true, "rationale": "Discard = ném đi hoặc loại bỏ những thứ không còn hữu ích hoặc đã lỗi thời." },
+        { "text": "Cập nhật và chỉnh sửa nội dung", "isCorrect": false, "rationale": "Cập nhật là 'update' hoặc 'revise', vẫn giữ lại nhưng sửa đổi." },
+        { "text": "Scan và lưu bản số hóa", "isCorrect": false, "rationale": "Số hóa là 'digitize', vẫn giữ lại thông tin, không phải loại bỏ." }
+      ],
+      "hint": "Từ đồng nghĩa: throw away, dispose of, get rid of."
+    },
+    {
+      "question": "Hợp đồng ghi: 'We guarantee /ˌɡærənˈtiː/ full satisfaction or your money back.' 'Guarantee' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Cam kết / đảm bảo chắc chắn", "isCorrect": true, "rationale": "Guarantee là cam kết mạnh rằng điều gì đó chắc chắn xảy ra, thường kèm theo trách nhiệm." },
+        { "text": "Đề xuất tặng phần quà cho khách hàng", "isCorrect": false, "rationale": "Tặng quà là 'offer a gift', không có tính cam kết bắt buộc." },
+        { "text": "Khuyến nghị đọc kỹ điều khoản sử dụng", "isCorrect": false, "rationale": "Khuyến nghị là 'recommend', không mang nghĩa đảm bảo." },
+        { "text": "Thông báo điều kiện thanh toán trả góp", "isCorrect": false, "rationale": "Điều kiện trả góp là 'installment terms'." }
+      ],
+      "hint": "Từ đồng nghĩa: promise, ensure, assure."
+    },
+    {
+      "question": "Ban quản lý đầu tư để 'enhance /ɪnˈhɑːns/ customer service quality'. 'Enhance' có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Hạn chế và kiểm soát chi phí", "isCorrect": false, "rationale": "Kiểm soát chi phí là 'reduce costs', trái nghĩa với nâng cao." },
+        { "text": "Cải thiện / nâng cao / tăng cường", "isCorrect": true, "rationale": "Enhance = làm cho điều gì đó trở nên tốt hơn, mạnh hơn hoặc hiệu quả hơn." },
+        { "text": "Thay thế hoàn toàn hệ thống hiện tại", "isCorrect": false, "rationale": "Thay thế hoàn toàn là 'replace entirely', khác với cải thiện cái đang có." },
+        { "text": "Đánh giá mức độ hài lòng của khách hàng", "isCorrect": false, "rationale": "Đánh giá hài lòng là 'assess customer satisfaction'." }
+      ],
+      "hint": "Từ đồng nghĩa: improve, boost, augment."
+    },
+    {
+      "question": "Trong cuộc họp, CEO 'stress /stres/ the importance of customer retention'. 'Stress' (động từ) nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Chịu áp lực lớn trước quyết định quan trọng", "isCorrect": false, "rationale": "Đây là nghĩa khi stress dùng như nội động từ (cảm thấy căng thẳng)." },
+        { "text": "Nhấn mạnh / làm nổi bật tầm quan trọng", "isCorrect": true, "rationale": "Stress (ngoại động từ) trong giao tiếp chuyên nghiệp = nhấn mạnh, làm người nghe chú ý đến điều gì." },
+        { "text": "Phân tích chi tiết số liệu tỷ lệ giữ chân khách hàng", "isCorrect": false, "rationale": "Phân tích số liệu là 'analyze data'." },
+        { "text": "Lên kế hoạch cụ thể cải thiện dịch vụ", "isCorrect": false, "rationale": "Lên kế hoạch là 'plan' hoặc 'devise a strategy'." }
+      ],
+      "hint": "Từ đồng nghĩa trong ngữ cảnh này: emphasize, highlight, underline."
+    },
+    {
+      "question": "Giám đốc kinh doanh 'represent /ˌreprɪˈzent/ the company at the trade fair'. 'Represent' có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Đại diện / thay mặt công ty tại sự kiện", "isCorrect": true, "rationale": "Represent = hành động thay mặt hoặc đại diện cho tổ chức trong bối cảnh chính thức." },
+        { "text": "Trình bày báo cáo tài chính tại hội chợ", "isCorrect": false, "rationale": "Trình bày báo cáo là 'present a report', còn represent là toàn bộ vai trò đại diện." },
+        { "text": "Thu thập thông tin từ đối thủ cạnh tranh", "isCorrect": false, "rationale": "Thu thập thông tin cạnh tranh là 'gather competitive intelligence'." },
+        { "text": "Ký kết hợp đồng với đối tác tại hội chợ", "isCorrect": false, "rationale": "Ký hợp đồng là 'sign a contract', có thể là kết quả nhưng không phải nghĩa của represent." }
+      ],
+      "hint": "Từ đồng nghĩa: act for, speak for, stand for."
+    },
+    {
+      "question": "Kỹ thuật viên 'identify /aɪˈdentɪfaɪ/ the source of the network failure'. 'Identify' có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Xác định / nhận ra một cách chính xác", "isCorrect": true, "rationale": "Identify = nhận ra và xác định chính xác bản chất hoặc nguồn gốc của điều gì đó." },
+        { "text": "Sửa chữa sự cố mạng ngay lập tức", "isCorrect": false, "rationale": "Sửa chữa là 'fix' hoặc 'repair', xảy ra sau khi identify vấn đề." },
+        { "text": "Báo cáo tình trạng lên bộ phận IT", "isCorrect": false, "rationale": "Báo cáo là 'report', thông báo cho người khác biết." },
+        { "text": "Nâng cấp toàn bộ hệ thống mạng", "isCorrect": false, "rationale": "Nâng cấp là 'upgrade', giải pháp dài hạn." }
+      ],
+      "hint": "Từ đồng nghĩa: recognize, determine, pinpoint."
+    },
+    {
+      "question": "Báo cáo dự báo: 'Sales are projected /prəˈdʒektɪd/ to increase by 15% next quarter.' 'Projected' đồng nghĩa với từ nào?",
+      "answerOptions": [
+        { "text": "Guaranteed (đảm bảo chắc chắn)", "isCorrect": false, "rationale": "Projected chỉ là ước tính, không có tính chắc chắn tuyệt đối như guaranteed." },
+        { "text": "Forecasted (dự báo / ước tính)", "isCorrect": true, "rationale": "Project (động từ) trong tài chính = forecast, ước tính kết quả tương lai dựa trên dữ liệu hiện có." },
+        { "text": "Confirmed (đã xác nhận)", "isCorrect": false, "rationale": "Confirmed là sự thật đã được chứng minh, khác với projected là dự đoán." },
+        { "text": "Declined (đã giảm)", "isCorrect": false, "rationale": "Declined = đã giảm, trái nghĩa với dự báo tăng." }
+      ],
+      "hint": "Projected = estimated or predicted for the future."
+    },
+    {
+      "question": "'The company's earnings /ˈɜːnɪŋz/ increased by 20% year-over-year.' Từ 'earnings' trong kinh doanh có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Chi phí sản xuất trong năm", "isCorrect": false, "rationale": "Chi phí sản xuất là 'production costs' hoặc 'operating expenses'." },
+        { "text": "Thu nhập / lợi nhuận của công ty", "isCorrect": true, "rationale": "Earnings = tổng thu nhập hoặc lợi nhuận công ty tạo ra trong một kỳ kinh doanh." },
+        { "text": "Số lượng nhân viên tuyển mới", "isCorrect": false, "rationale": "Nhân viên mới là 'new hires' hoặc 'headcount added'." },
+        { "text": "Ngân sách marketing được cấp", "isCorrect": false, "rationale": "Ngân sách marketing là 'marketing budget', là phần chi ra." }
+      ],
+      "hint": "Từ đồng nghĩa: profit, income, revenue."
+    },
+    {
+      "question": "Cửa hàng nhỏ đã trở thành 'very profitable /ˈprɒfɪtəbl/' sau khi tung sản phẩm mới. 'Profitable' mô tả điều gì?",
+      "answerOptions": [
+        { "text": "Nổi tiếng và có danh tiếng tốt", "isCorrect": false, "rationale": "Danh tiếng tốt là 'reputable' hoặc 'well-known'." },
+        { "text": "Có khả năng sinh lời / tạo ra lợi nhuận", "isCorrect": true, "rationale": "Profitable = tạo ra nhiều doanh thu hơn chi phí, tức là có lợi nhuận dương." },
+        { "text": "Tuân thủ đúng quy định pháp luật", "isCorrect": false, "rationale": "Tuân thủ pháp luật là 'compliant' hoặc 'law-abiding'." },
+        { "text": "Tăng trưởng nhanh nhất trong ngành", "isCorrect": false, "rationale": "Tăng trưởng nhanh nhất là 'fastest-growing', không nhất thiết đồng nghĩa với profitable." }
+      ],
+      "hint": "Gốc từ: profit (lợi nhuận). Từ đồng nghĩa: lucrative, money-making."
+    },
+    {
+      "question": "Cuộc khảo sát 'reveal /rɪˈviːl/' rằng 78% khách hàng không hài lòng với thời gian giao hàng. 'Reveal' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Tiết lộ / công bố thông tin trước đó chưa biết", "isCorrect": true, "rationale": "Reveal = làm lộ ra hoặc chia sẻ thông tin mới mà trước đó chưa được biết đến." },
+        { "text": "Thu thập dữ liệu từ nhiều nguồn", "isCorrect": false, "rationale": "Thu thập dữ liệu là 'collect data', bước trước khi reveal kết quả." },
+        { "text": "Xóa bỏ phản hồi tiêu cực từ khảo sát", "isCorrect": false, "rationale": "Xóa phản hồi là 'remove responses'." },
+        { "text": "Lên kế hoạch cải thiện dịch vụ giao hàng", "isCorrect": false, "rationale": "Lên kế hoạch là 'plan to improve', bước đi sau khi reveal kết quả." }
+      ],
+      "hint": "Từ đồng nghĩa: disclose, show, uncover."
+    },
+    {
+      "question": "Hợp đồng yêu cầu: 'Please specify /ˈspesɪfaɪ/ the delivery address and preferred time slot.' 'Specify' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Đề xuất và thảo luận các lựa chọn", "isCorrect": false, "rationale": "Đề xuất và thảo luận là 'propose and discuss'." },
+        { "text": "Chỉ rõ / nêu cụ thể một chi tiết nhất định", "isCorrect": true, "rationale": "Specify = đưa ra thông tin chi tiết và rõ ràng về một yêu cầu hoặc điều kiện cụ thể." },
+        { "text": "Xác nhận đơn hàng đã xử lý thành công", "isCorrect": false, "rationale": "Xác nhận đơn là 'confirm the order'." },
+        { "text": "Hủy đơn và yêu cầu hoàn tiền", "isCorrect": false, "rationale": "Hủy đơn là 'cancel the order'." }
+      ],
+      "hint": "Từ đồng nghĩa: state, stipulate, detail."
+    },
+    {
+      "question": "Tài liệu nội bộ được đóng dấu 'CONFIDENTIAL /ˌkɒnfɪˈdenʃəl/'. Điều này có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Tài liệu đã được ban giám đốc phê duyệt", "isCorrect": false, "rationale": "Đã phê duyệt thường đóng dấu 'APPROVED'." },
+        { "text": "Thông tin bảo mật, chỉ dành cho người được ủy quyền", "isCorrect": true, "rationale": "Confidential = thông tin bí mật, chỉ được tiếp cận bởi những người có thẩm quyền nhất định." },
+        { "text": "Tài liệu sẽ hết hạn sau một thời gian", "isCorrect": false, "rationale": "Tài liệu hết hạn thường đánh dấu 'EXPIRED' hoặc 'VALID UNTIL...'." },
+        { "text": "Tài liệu cần dịch sang ngôn ngữ khác", "isCorrect": false, "rationale": "Yêu cầu dịch thuật không liên quan đến tính bảo mật." }
+      ],
+      "hint": "Từ đồng nghĩa: secret, private, classified."
+    },
+    {
+      "question": "Khách hàng mua xe được hỗ trợ 'extended warranty /ɪkˌstendɪd ˈwɒrənti/ of three years'. Điều này khác với bảo hành tiêu chuẩn thế nào?",
+      "answerOptions": [
+        { "text": "Bảo hành được kéo dài thêm vượt ngoài thời hạn tiêu chuẩn", "isCorrect": true, "rationale": "Extended warranty = gói bảo hành cộng thêm, thường mua riêng để kéo dài thời gian bảo vệ sản phẩm." },
+        { "text": "Bảo hành chỉ áp dụng cho linh kiện bên trong", "isCorrect": false, "rationale": "Đây là điều khoản riêng về phạm vi, không phải nghĩa của 'extended'." },
+        { "text": "Bảo hành do bên thứ ba cung cấp", "isCorrect": false, "rationale": "Extended chỉ về thời gian, không phải về bên cung cấp." },
+        { "text": "Bảo hành tặng kèm miễn phí khi mua mới", "isCorrect": false, "rationale": "Bảo hành tiêu chuẩn thường miễn phí; extended warranty thường phải mua thêm." }
+      ],
+      "hint": "Extended = mở rộng / kéo dài hơn cái tiêu chuẩn."
+    },
+    {
+      "question": "Tin tức lớn nhất năm: 'the acquisition /ˌækwɪˈzɪʃən/ of a leading rival firm'. Sự kiện này là gì?",
+      "answerOptions": [
+        { "text": "Hai công ty sáp nhập thành một tổ chức mới", "isCorrect": false, "rationale": "Sáp nhập đối đẳng là 'merger', còn acquisition là một bên mua lại bên kia." },
+        { "text": "Một công ty mua lại và kiểm soát công ty đối thủ", "isCorrect": true, "rationale": "Acquisition = một công ty thâu tóm quyền sở hữu/kiểm soát một công ty khác qua mua cổ phần." },
+        { "text": "Công ty đối thủ phá sản và đóng cửa", "isCorrect": false, "rationale": "Phá sản là 'bankruptcy', khác với acquisition khi công ty vẫn được tiếp quản và hoạt động." },
+        { "text": "Hai công ty ký thỏa thuận hợp tác chiến lược", "isCorrect": false, "rationale": "Hợp tác chiến lược là 'strategic partnership', không có chuyển giao quyền sở hữu." }
+      ],
+      "hint": "Cụm quen thuộc: 'merger and acquisition (M&A)' trong ngữ cảnh mua bán doanh nghiệp."
+    },
+    {
+      "question": "Chính phủ 'implement /ˈɪmplɪment/ a new waste segregation policy' từ đầu năm tới. 'Implement' có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Bãi bỏ chính sách cũ", "isCorrect": false, "rationale": "Bãi bỏ là 'repeal' hoặc 'abolish'." },
+        { "text": "Đề xuất ý tưởng mới lên cơ quan có thẩm quyền", "isCorrect": false, "rationale": "Đề xuất là 'propose' hoặc 'suggest', bước đến trước implement." },
+        { "text": "Thi hành / áp dụng vào thực tiễn", "isCorrect": true, "rationale": "Implement = triển khai hoặc đưa kế hoạch/chính sách vào hoạt động thực tế." },
+        { "text": "Đánh giá hiệu quả chính sách sau khi có kết quả", "isCorrect": false, "rationale": "Đánh giá hiệu quả là 'evaluate effectiveness', bước sau khi implement." }
+      ],
+      "hint": "Từ đồng nghĩa: carry out, apply, put into practice."
+    },
+    {
+      "question": "Theo hợp đồng thuê nhà, 'the tenant /ˈtenənt/ may not make any physical changes'. 'Tenant' chỉ ai?",
+      "answerOptions": [
+        { "text": "Chủ sở hữu tòa nhà", "isCorrect": false, "rationale": "Chủ sở hữu là 'owner' hoặc 'landlord', người cho thuê." },
+        { "text": "Người thuê nhà / mặt bằng", "isCorrect": true, "rationale": "Tenant = người thuê và đang ở trong bất động sản mà họ không sở hữu." },
+        { "text": "Người quản lý vận hành tòa nhà", "isCorrect": false, "rationale": "Người quản lý tòa nhà là 'property manager' hoặc 'building manager'." },
+        { "text": "Đại lý bất động sản môi giới hợp đồng", "isCorrect": false, "rationale": "Đại lý bất động sản là 'real estate agent' hoặc 'broker'." }
+      ],
+      "hint": "Mối quan hệ: landlord (chủ cho thuê) ↔ tenant (người thuê)."
+    },
+    {
+      "question": "Thành phố ban hành 'an ordinance /ˈɔːdɪnəns/ requiring waste segregation'. 'Ordinance' là gì?",
+      "answerOptions": [
+        { "text": "Pháp lệnh / sắc lệnh của chính quyền địa phương", "isCorrect": true, "rationale": "Ordinance = quy định hoặc luật được ban hành bởi chính quyền cấp địa phương (thành phố, quận)." },
+        { "text": "Hướng dẫn tự nguyện dành cho cư dân", "isCorrect": false, "rationale": "Hướng dẫn tự nguyện là 'voluntary guideline', không có tính ràng buộc pháp lý." },
+        { "text": "Báo cáo môi trường do NGO công bố", "isCorrect": false, "rationale": "Báo cáo môi trường là 'environmental report', tài liệu thông tin không phải văn bản pháp lệnh." },
+        { "text": "Sáng kiến cộng đồng do cư dân tự tổ chức", "isCorrect": false, "rationale": "Sáng kiến cộng đồng là 'community initiative', xuất phát từ người dân, không phải từ chính quyền." }
+      ],
+      "hint": "Từ đồng nghĩa: local regulation, local law, decree."
+    }
+  ]
+}

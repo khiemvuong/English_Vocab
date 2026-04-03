@@ -1,0 +1,245 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 13",
+  "questions": [
+    {
+      "question": "HR đang 'look for /lʊk fɔːr/ a candidate with five years of experience'. 'Look for' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Tìm kiếm / đang cần tìm", "isCorrect": true, "rationale": "Look for = tìm kiếm, đang trong quá trình tìm điều gì đó hoặc ai đó." },
+        { "text": "Liên hệ và phỏng vấn ngay", "isCorrect": false, "rationale": "Liên hệ và phỏng vấn là 'contact and interview'." },
+        { "text": "Từ chối ứng viên không phù hợp", "isCorrect": false, "rationale": "Từ chối ứng viên là 'reject applicants'." },
+        { "text": "Đánh giá hồ sơ đã nộp", "isCorrect": false, "rationale": "Đánh giá hồ sơ là 'review applications'." }
+      ],
+      "hint": "Từ đồng nghĩa: search for, seek."
+    },
+    {
+      "question": "Giám đốc sẽ 'accompany /əˈkʌmpəni/ the client to the factory'. 'Accompany' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Đặt lịch hẹn cho khách hàng", "isCorrect": false, "rationale": "Đặt lịch hẹn là 'schedule an appointment'." },
+        { "text": "Đi cùng / đi kèm với ai đó", "isCorrect": true, "rationale": "Accompany = đi cùng hoặc đồng hành với ai đó đến một nơi." },
+        { "text": "Gửi tài liệu cho khách hàng", "isCorrect": false, "rationale": "Gửi tài liệu là 'send documents'." },
+        { "text": "Trình bày sản phẩm cho khách hàng xem", "isCorrect": false, "rationale": "Trình bày sản phẩm là 'present/demonstrate the product'." }
+      ],
+      "hint": "Từ đồng nghĩa: go with, escort."
+    },
+    {
+      "question": "Doanh nghiệp phải theo dõi hoạt động của 'competitors /kəmˈpetɪtərz/'. 'Competitor' là gì?",
+      "answerOptions": [
+        { "text": "Đối thủ cạnh tranh", "isCorrect": true, "rationale": "Competitor = công ty hoặc cá nhân cùng ngành đang tranh giành khách hàng hoặc thị phần." },
+        { "text": "Nhà cung cấp nguyên liệu đầu vào", "isCorrect": false, "rationale": "Nhà cung cấp là 'supplier' hoặc 'vendor'." },
+        { "text": "Đối tác phân phối sản phẩm", "isCorrect": false, "rationale": "Đối tác phân phối là 'distribution partner'." },
+        { "text": "Khách hàng doanh nghiệp lớn", "isCorrect": false, "rationale": "Khách hàng doanh nghiệp là 'corporate client' hoặc 'B2B customer'." }
+      ],
+      "hint": "Từ đồng nghĩa: rival, opponent."
+    },
+    {
+      "question": "'The company's revenue /ˈrevənjuː/ increased by 15%.' 'Revenue' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Chi phí hoạt động của công ty", "isCorrect": false, "rationale": "Chi phí hoạt động là 'operating expenses' hoặc 'operating costs'." },
+        { "text": "Doanh thu / tổng tiền thu được từ kinh doanh", "isCorrect": true, "rationale": "Revenue = tổng số tiền công ty kiếm được từ bán hàng hoặc cung cấp dịch vụ." },
+        { "text": "Số lượng sản phẩm bán ra trong kỳ", "isCorrect": false, "rationale": "Số lượng bán ra là 'units sold' hoặc 'sales volume'." },
+        { "text": "Lợi nhuận ròng sau khi trừ thuế", "isCorrect": false, "rationale": "Lợi nhuận ròng là 'net profit' — sau khi trừ mọi chi phí và thuế." }
+      ],
+      "hint": "Từ đồng nghĩa: income, earnings, sales."
+    },
+    {
+      "question": "'Innovation /ˌɪnəˈveɪʃən/ is crucial for long-term success.' 'Innovation' là gì?",
+      "answerOptions": [
+        { "text": "Sự đổi mới / tạo ra điều mới mẻ", "isCorrect": true, "rationale": "Innovation = quá trình giới thiệu ý tưởng, phương pháp, hoặc sản phẩm mới sáng tạo." },
+        { "text": "Sự mở rộng sang thị trường nước ngoài", "isCorrect": false, "rationale": "Mở rộng quốc tế là 'international expansion'." },
+        { "text": "Sự hợp nhất giữa hai công ty", "isCorrect": false, "rationale": "Hợp nhất là 'merger' hoặc 'acquisition'." },
+        { "text": "Sự cắt giảm chi phí sản xuất", "isCorrect": false, "rationale": "Cắt giảm chi phí là 'cost reduction'." }
+      ],
+      "hint": "Từ đồng nghĩa: modernization, novelty, breakthrough."
+    },
+    {
+      "question": "Sự kiện bị hoãn 'due to inclement /ɪnˈklemənt/ weather'. 'Inclement' mô tả thời tiết như thế nào?",
+      "answerOptions": [
+        { "text": "Thuận lợi và dễ chịu", "isCorrect": false, "rationale": "Thuận lợi là 'favorable' hoặc 'pleasant'." },
+        { "text": "Khắc nghiệt / xấu (gió mạnh, mưa to...)", "isCorrect": true, "rationale": "Inclement = thời tiết xấu, khắc nghiệt như bão, mưa lớn, lạnh giá." },
+        { "text": "Nắng ráo và không mây", "isCorrect": false, "rationale": "Nắng ráo là 'sunny' hoặc 'clear'." },
+        { "text": "Mát mẻ nhưng khô ráo", "isCorrect": false, "rationale": "Mát mẻ khô ráo là 'cool and dry'." }
+      ],
+      "hint": "Cụm quen: 'inclement weather conditions', 'due to inclement weather'."
+    },
+    {
+      "question": "Nhân viên làm 'the night shift /ʃɪft/'. 'Shift' trong ngữ cảnh này nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Ca làm việc / khung giờ làm việc", "isCorrect": true, "rationale": "Shift = khoảng thời gian làm việc được phân công (ca sáng, ca chiều, ca đêm)." },
+        { "text": "Sự thuyên chuyển sang bộ phận khác", "isCorrect": false, "rationale": "Thuyên chuyển là 'transfer'." },
+        { "text": "Một loại đồng phục đặc biệt", "isCorrect": false, "rationale": "Đồng phục là 'uniform', không liên quan." },
+        { "text": "Buổi họp giao ban đầu ngày", "isCorrect": false, "rationale": "Họp giao ban là 'morning briefing' hoặc 'morning meeting'." }
+      ],
+      "hint": "Cụm quen: 'work shift', 'night shift', 'morning shift'."
+    },
+    {
+      "question": "'The delivery /dɪˈlɪvəri/ will arrive tomorrow morning.' 'Delivery' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Bài trình bày trong cuộc họp", "isCorrect": false, "rationale": "Bài trình bày là 'presentation' hoặc 'talk'." },
+        { "text": "Sự giao hàng / hàng được giao", "isCorrect": true, "rationale": "Delivery = hành động giao hàng hoặc lô hàng được vận chuyển đến địa điểm." },
+        { "text": "Đơn đặt hàng từ khách hàng", "isCorrect": false, "rationale": "Đơn đặt hàng là 'purchase order' hoặc 'order'." },
+        { "text": "Bao bì đóng gói sản phẩm", "isCorrect": false, "rationale": "Bao bì đóng gói là 'packaging' hoặc 'packaging material'." }
+      ],
+      "hint": "Từ đồng nghĩa: shipment, dispatch."
+    },
+    {
+      "question": "Nhân viên được khuyến khích 'participate /pɑːˈtɪsɪpeɪt/ in the training session'. 'Participate' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Tổ chức khóa đào tạo cho đồng nghiệp", "isCorrect": false, "rationale": "Tổ chức đào tạo là 'organize/conduct training'." },
+        { "text": "Tham gia / có mặt và tham dự", "isCorrect": true, "rationale": "Participate = tích cực tham gia vào một hoạt động hoặc sự kiện." },
+        { "text": "Từ chối tham dự vì lý do cá nhân", "isCorrect": false, "rationale": "Từ chối là 'decline' hoặc 'opt out'." },
+        { "text": "Hoàn thành bài kiểm tra sau đào tạo", "isCorrect": false, "rationale": "Hoàn thành bài kiểm tra là 'complete the assessment'." }
+      ],
+      "hint": "Từ đồng nghĩa: take part, join in."
+    },
+    {
+      "question": "Chuỗi cửa hàng mở rộng mảng 'retail /ˈriːteɪl/' tại 5 thành phố mới. 'Retail' là gì?",
+      "answerOptions": [
+        { "text": "Bán buôn cho doanh nghiệp", "isCorrect": false, "rationale": "Bán buôn là 'wholesale', bán số lượng lớn cho doanh nghiệp trung gian." },
+        { "text": "Bán lẻ trực tiếp đến người tiêu dùng", "isCorrect": true, "rationale": "Retail = bán hàng trực tiếp đến người dùng cuối với số lượng nhỏ." },
+        { "text": "Xuất khẩu hàng hóa ra nước ngoài", "isCorrect": false, "rationale": "Xuất khẩu là 'export'." },
+        { "text": "Phân phối hàng qua đại lý trung gian", "isCorrect": false, "rationale": "Phân phối qua đại lý là 'distribute through agents'." }
+      ],
+      "hint": "Từ đồng nghĩa: selling to the public, direct sales."
+    },
+    {
+      "question": "Tòa nhà lắp đặt 'new light fixtures /ˈfɪkstʃərz/' để tiết kiệm điện. 'Fixture' là gì?",
+      "answerOptions": [
+        { "text": "Thiết bị / đồ dùng được gắn cố định", "isCorrect": true, "rationale": "Fixture = thiết bị được lắp đặt cố định vào tòa nhà, như đèn, vòi nước, giá đỡ." },
+        { "text": "Đồ nội thất có thể di chuyển", "isCorrect": false, "rationale": "Đồ nội thất di chuyển được là 'movable furniture'." },
+        { "text": "Thiết bị điện tử đi kèm khi mua nhà", "isCorrect": false, "rationale": "Thiết bị đi kèm là 'appliances included', không nhất thiết là fixture." },
+        { "text": "Hệ thống điện và nước của tòa nhà", "isCorrect": false, "rationale": "Hệ thống điện nước là 'electrical and plumbing system', fixture là thiết bị trong đó." }
+      ],
+      "hint": "Cụm quen: 'light fixture', 'bathroom fixture'. Gắn cố định vào công trình."
+    },
+    {
+      "question": "Nhà máy đầu tư vào thiết bị 'efficient /ɪˈfɪʃənt/' hơn để giảm chi phí. 'Efficient' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Đắt tiền hơn nhưng bền hơn", "isCorrect": false, "rationale": "Đắt và bền hơn là 'more expensive but durable'." },
+        { "text": "Hiệu quả / đạt kết quả tốt với ít lãng phí", "isCorrect": true, "rationale": "Efficient = đạt được nhiều kết quả với ít nguồn lực, thời gian hoặc năng lượng hơn." },
+        { "text": "Mới hoàn toàn và chưa qua sử dụng", "isCorrect": false, "rationale": "Mới hoàn toàn là 'brand-new'." },
+        { "text": "Được nhập khẩu từ nước ngoài", "isCorrect": false, "rationale": "Nhập khẩu là 'imported'." }
+      ],
+      "hint": "Từ đồng nghĩa: effective, productive, economical."
+    },
+    {
+      "question": "Cơ sở vật chất cần nhiều 'storage /ˈstɔːrɪdʒ/ space' hơn. 'Storage' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Kho lưu trữ / không gian để chứa đồ", "isCorrect": true, "rationale": "Storage = không gian hoặc cơ sở dùng để giữ và bảo quản hàng hóa, tài liệu." },
+        { "text": "Phòng làm việc mở (open office)", "isCorrect": false, "rationale": "Văn phòng mở là 'open-plan office'." },
+        { "text": "Khu vực ăn uống cho nhân viên", "isCorrect": false, "rationale": "Khu ăn uống là 'canteen' hoặc 'break room'." },
+        { "text": "Không gian tiếp khách và thuyết trình", "isCorrect": false, "rationale": "Không gian tiếp khách là 'reception area' hoặc 'presentation room'." }
+      ],
+      "hint": "Từ đồng nghĩa: warehouse, repository, storing space."
+    },
+    {
+      "question": "Đội 'crew /kruː/' sửa chữa mái nhà làm việc suốt ngày. 'Crew' là gì?",
+      "answerOptions": [
+        { "text": "Nhóm / đội người cùng thực hiện nhiệm vụ", "isCorrect": true, "rationale": "Crew = một nhóm người cùng làm việc hoặc phối hợp thực hiện một công việc cụ thể." },
+        { "text": "Thiết bị chuyên dụng cho công trình", "isCorrect": false, "rationale": "Thiết bị chuyên dụng là 'specialized equipment'." },
+        { "text": "Kế hoạch thi công chi tiết", "isCorrect": false, "rationale": "Kế hoạch thi công là 'construction plan'." },
+        { "text": "Hợp đồng bảo trì dài hạn", "isCorrect": false, "rationale": "Hợp đồng bảo trì là 'maintenance contract'." }
+      ],
+      "hint": "Từ đồng nghĩa: team, group, gang."
+    },
+    {
+      "question": "Tổ chức từ thiện kêu gọi mọi người 'donate /dəʊˈneɪt/ supplies'. 'Donate' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Mua hàng với giá ưu đãi", "isCorrect": false, "rationale": "Mua giá ưu đãi là 'buy at a discounted price'." },
+        { "text": "Quyên góp / tặng cho tổ chức hoặc người khác", "isCorrect": true, "rationale": "Donate = tự nguyện cho hoặc đóng góp tiền bạc, hàng hóa cho người khác." },
+        { "text": "Bán đấu giá để gây quỹ", "isCorrect": false, "rationale": "Đấu giá là 'auction'." },
+        { "text": "Vay mượn tạm thời từ kho dự trữ", "isCorrect": false, "rationale": "Vay mượn là 'borrow'." }
+      ],
+      "hint": "Từ đồng nghĩa: give, contribute, offer."
+    },
+    {
+      "question": "Công ty tổ chức 'a catered meal /ˌkeɪtəd miːl/' cho toàn bộ nhân viên. 'Catered meal' là gì?",
+      "answerOptions": [
+        { "text": "Bữa ăn tự chuẩn bị tại căng-tin", "isCorrect": false, "rationale": "Căng-tin tự phục vụ là 'self-service cafeteria'." },
+        { "text": "Bữa ăn được cung cấp và phục vụ bởi bên ngoài", "isCorrect": true, "rationale": "Catered meal = bữa ăn được chuẩn bị và phục vụ bởi dịch vụ ăn uống thuê ngoài (caterer)." },
+        { "text": "Bữa ăn mang đi từ nhà hàng gần đó", "isCorrect": false, "rationale": "Đặt đồ ăn mang đến là 'order delivery'." },
+        { "text": "Buổi tiệc buffet tự chọn ngoài trời", "isCorrect": false, "rationale": "Tiệc buffet ngoài trời là 'outdoor buffet', không phải dịch vụ catering chuyên nghiệp." }
+      ],
+      "hint": "Cater = cung cấp dịch vụ ăn uống. Catered = được phục vụ bởi caterer."
+    },
+    {
+      "question": "Cô ấy phải 'sign a contract /saɪn ə ˈkɒntrækt/' trước ngày mai. Cụm này nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Đàm phán điều khoản hợp đồng", "isCorrect": false, "rationale": "Đàm phán điều khoản là 'negotiate contract terms'." },
+        { "text": "Ký kết hợp đồng chính thức", "isCorrect": true, "rationale": "Sign a contract = đặt chữ ký lên hợp đồng để xác nhận và có hiệu lực pháp lý." },
+        { "text": "Soạn thảo bản hợp đồng mới", "isCorrect": false, "rationale": "Soạn thảo hợp đồng là 'draft a contract'." },
+        { "text": "Hủy bỏ hợp đồng đang hiện hành", "isCorrect": false, "rationale": "Hủy hợp đồng là 'terminate' hoặc 'cancel the contract'." }
+      ],
+      "hint": "Sign = ký tên. Bước cuối cùng để hợp đồng có hiệu lực."
+    },
+    {
+      "question": "Nhà kho đóng cửa 'following the closure /ˈkləʊʒər/ of Verdigold Transport'. 'Closure' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Sự đóng cửa / ngừng hoạt động", "isCorrect": true, "rationale": "Closure = trạng thái hoặc hành động đóng cửa, chấm dứt hoạt động của một cơ sở hay tổ chức." },
+        { "text": "Sự tái cơ cấu và đổi tên công ty", "isCorrect": false, "rationale": "Tái cơ cấu đổi tên là 'restructuring and rebranding'." },
+        { "text": "Sự sáp nhập với công ty lớn hơn", "isCorrect": false, "rationale": "Sáp nhập là 'merger' hoặc 'acquisition'." },
+        { "text": "Sự chuyển địa điểm sang khu mới", "isCorrect": false, "rationale": "Chuyển địa điểm là 'relocation'." }
+      ],
+      "hint": "Từ đồng nghĩa: shutdown, closing, termination."
+    },
+    {
+      "question": "'In spite of /ɪn spaɪt əv/ the bad weather, the event continued.' 'In spite of' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Vì lý do / bởi vì", "isCorrect": false, "rationale": "Vì là 'because of' hoặc 'due to', ngược nghĩa với in spite of." },
+        { "text": "Mặc dù / bất chấp", "isCorrect": true, "rationale": "In spite of = despite. Diễn đạt sự tương phản, điều gì xảy ra bất chấp trở ngại." },
+        { "text": "Kể từ khi / từ lúc", "isCorrect": false, "rationale": "Kể từ khi là 'since' hoặc 'ever since'." },
+        { "text": "Ngoài ra / bên cạnh đó", "isCorrect": false, "rationale": "Ngoài ra là 'in addition to' hoặc 'besides'." }
+      ],
+      "hint": "Từ đồng nghĩa: despite, regardless of."
+    },
+    {
+      "question": "Dự án đang chịu áp lực vì 'tight deadline /taɪt ˈdedlaɪn/'. 'Tight deadline' mô tả điều gì?",
+      "answerOptions": [
+        { "text": "Hạn chót rất gấp rút / ít thời gian", "isCorrect": true, "rationale": "Tight deadline = hạn chót rất gần và ít thời gian để hoàn thành." },
+        { "text": "Hạn chót được gia hạn thêm", "isCorrect": false, "rationale": "Gia hạn là 'extended deadline' hoặc 'deadline extension'." },
+        { "text": "Không có hạn chót cụ thể", "isCorrect": false, "rationale": "Không có hạn chót là 'open deadline' hoặc 'no fixed deadline'." },
+        { "text": "Hạn chót đã qua nhưng chưa hoàn thành", "isCorrect": false, "rationale": "Đã qua hạn chót là 'missed deadline' hoặc 'overdue'." }
+      ],
+      "hint": "Tight = chật chội, ít. Tight deadline = very little time left."
+    },
+    {
+      "question": "'Instead of /ɪnˈsted əv/ driving, employees can take the bus.' 'Instead of' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Cùng với / bên cạnh", "isCorrect": false, "rationale": "Cùng với là 'along with' hoặc 'together with'." },
+        { "text": "Thay vì / thay thế cho", "isCorrect": true, "rationale": "Instead of = in place of. Dùng để chỉ sự lựa chọn thay thế." },
+        { "text": "Sau khi / kể từ lúc", "isCorrect": false, "rationale": "Sau khi là 'after' hoặc 'following'." },
+        { "text": "Mặc dù / bất chấp", "isCorrect": false, "rationale": "Mặc dù là 'despite' hoặc 'in spite of'." }
+      ],
+      "hint": "Từ đồng nghĩa: in place of, rather than."
+    },
+    {
+      "question": "Nhà xuất bản 'publisher /ˈpʌblɪʃər/' vừa công bố đầu sách mới. 'Publisher' là gì?",
+      "answerOptions": [
+        { "text": "Nhà xuất bản / công ty phát hành sách", "isCorrect": true, "rationale": "Publisher = công ty hoặc cá nhân chuyên xuất bản và phát hành sách, tạp chí." },
+        { "text": "Tác giả viết nội dung cuốn sách", "isCorrect": false, "rationale": "Tác giả là 'author' hoặc 'writer'." },
+        { "text": "Biên tập viên chỉnh sửa bản thảo", "isCorrect": false, "rationale": "Biên tập viên là 'editor'." },
+        { "text": "Nhà phân phối sách đến các hiệu sách", "isCorrect": false, "rationale": "Nhà phân phối là 'distributor'." }
+      ],
+      "hint": "Từ đồng nghĩa: publishing house."
+    },
+    {
+      "question": "Tòa nhà văn phòng cho thuê 'several retail spaces /ˈriːteɪl speɪs/'. 'Retail space' là gì?",
+      "answerOptions": [
+        { "text": "Phòng họp cho thuê theo giờ", "isCorrect": false, "rationale": "Phòng họp theo giờ là 'hourly meeting room rental'." },
+        { "text": "Không gian dành cho hoạt động bán lẻ", "isCorrect": true, "rationale": "Retail space = diện tích mặt bằng được dùng để kinh doanh bán lẻ trực tiếp đến khách hàng." },
+        { "text": "Khu vực lưu trữ hàng hóa trong kho", "isCorrect": false, "rationale": "Khu lưu trữ là 'storage area' hoặc 'warehouse space'." },
+        { "text": "Văn phòng làm việc chia sẻ (co-working)", "isCorrect": false, "rationale": "Văn phòng chia sẻ là 'co-working space'." }
+      ],
+      "hint": "Retail = bán lẻ. Retail space = mặt bằng kinh doanh bán lẻ."
+    },
+    {
+      "question": "'In addition to /ɪn əˈdɪʃən tuː/ offices, the building offers a gym.' 'In addition to' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Thay vì / thay thế cho", "isCorrect": false, "rationale": "Thay vì là 'instead of'." },
+        { "text": "Ngoài ra / bên cạnh cái đã có", "isCorrect": true, "rationale": "In addition to = besides, as well as. Thêm vào thứ đã được đề cập." },
+        { "text": "Trừ trường hợp / ngoại trừ", "isCorrect": false, "rationale": "Ngoại trừ là 'except for' hoặc 'apart from'." },
+        { "text": "Mặc dù / bất chấp", "isCorrect": false, "rationale": "Mặc dù là 'despite' hoặc 'although'." }
+      ],
+      "hint": "Từ đồng nghĩa: as well as, besides, along with."
+    }
+  ]
+}

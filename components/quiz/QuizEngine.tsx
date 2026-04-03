@@ -1,19 +1,20 @@
 "use client";
 
-import { useEffect, useState, useCallback, useMemo } from "react";
+import { useEffect, useLayoutEffect, useState, useCallback, useMemo } from "react";
 import { useQuizStore } from "@/store/quizStore";
 import { playSound } from "@/utils/audio";
 import { useRouter } from "next/navigation";
 import type { QuizData } from "@/lib/types";
 import { renderFormattedText } from "@/utils/textFormatting";
 import { QuizOptionGrid } from "@/components/quiz/QuizOptionGrid";
+import { QuizEngineSkeleton } from "@/components/common/QuizEngineSkeleton";
 import { ResultSummary } from "@/components/common/ResultSummary";
 import { QuizHeader } from "@/components/common/QuizHeader";
 import { QuestionTimer } from "@/components/quiz/QuestionTimer";
 import { getDeterministicShuffle } from "@/utils/shuffle";
 
 const CATEGORY_MAP: Record<string, { label: string; color: string }> = {
-  'word-form': { label: 'Dạng từ', color: 'bg-purple-50 text-purple-700 border-purple-200' },
+  'word-form': { label: 'Từ Loại', color: 'bg-purple-50 text-purple-700 border-purple-200' },
   'vocabulary': { label: 'Từ vựng', color: 'bg-sky-50 text-sky-700 border-sky-200' },
   'grammar': { label: 'Ngữ pháp', color: 'bg-rose-50 text-rose-700 border-rose-200' },
   'preposition': { label: 'Giới từ', color: 'bg-teal-50 text-teal-700 border-teal-200' },
@@ -53,8 +54,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
     }
   }, [selectedOption, answerQuestion, lessonId, currentIndex, isMuted]);
 
-  useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
+  useLayoutEffect(() => {
     setShowHint(false);
   }, [currentIndex]);
 
@@ -93,13 +93,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [currentIndex, selectedOption, isFinished, question, displayOptions, lessonId, quizData.questions.length, answerQuestion, goToNext, goToPrev, mounted, session, handleSelectOption]);
 
-  if (!mounted) {
-    return (
-      <div className="min-h-dvh flex items-center justify-center text-slate-400 font-medium">
-        Loading module data...
-      </div>
-    );
-  }
+  if (!mounted) return <QuizEngineSkeleton variant="quiz" />;
 
   if (!session) return null;
 

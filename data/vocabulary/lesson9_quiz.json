@@ -1,0 +1,255 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 9",
+  "questions": [
+    {
+      "question": "Giám đốc vừa 'announce /əˈnaʊns/' một chính sách mới tại cuộc họp. Từ này có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Thông báo chính thức", "isCorrect": true, "rationale": "Announce là hành động công bố thông tin quan trọng cho mọi người." },
+        { "text": "Hủy bỏ kế hoạch", "isCorrect": false, "rationale": "Hủy bỏ là 'cancel' hoặc 'call off'." },
+        { "text": "Ký kết hợp đồng", "isCorrect": false, "rationale": "Ký hợp đồng là 'sign a contract'." },
+        { "text": "Phê duyệt ngân sách", "isCorrect": false, "rationale": "Phê duyệt ngân sách là 'approve a budget'." }
+      ],
+      "hint": "Từ đồng nghĩa: declare, proclaim, state."
+    },
+    {
+      "question": "Công ty dự kiến 'launch /lɔːntʃ/' một dòng sản phẩm mới cuối năm nay. Từ 'launch' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Ngừng sản xuất", "isCorrect": false, "rationale": "Ngừng sản xuất là 'discontinue' hoặc 'phase out'." },
+        { "text": "Ra mắt / giới thiệu lần đầu", "isCorrect": true, "rationale": "Launch là hành động chính thức đưa sản phẩm mới ra thị trường." },
+        { "text": "Kiểm tra chất lượng", "isCorrect": false, "rationale": "Kiểm tra chất lượng là 'quality check' hoặc 'inspect'." },
+        { "text": "Giảm giá sản phẩm", "isCorrect": false, "rationale": "Giảm giá là 'discount' hoặc 'slash prices'." }
+      ],
+      "hint": "Từ đồng nghĩa: release, introduce, start."
+    },
+    {
+      "question": "Bộ phận 'public relations /ˌpʌblɪk rɪˈleɪʃənz/' vừa phát thông cáo báo chí. Bộ phận này phụ trách lĩnh vực nào?",
+      "answerOptions": [
+        { "text": "Kế toán và tài chính", "isCorrect": false, "rationale": "Tài chính là nhiệm vụ của bộ phận Finance." },
+        { "text": "Công nghệ thông tin", "isCorrect": false, "rationale": "Công nghệ thông tin là IT department." },
+        { "text": "Quan hệ công chúng", "isCorrect": true, "rationale": "PR quản lý hình ảnh và quan hệ của tổ chức với công chúng." },
+        { "text": "Tuyển dụng nhân sự", "isCorrect": false, "rationale": "Tuyển dụng là nhiệm vụ của HR department." }
+      ],
+      "hint": "Viết tắt phổ biến là 'PR'."
+    },
+    {
+      "question": "Thương hiệu cao cấp nổi tiếng với sản phẩm làm từ 'genuine leather /ˈleðər/'. Chất liệu này là gì?",
+      "answerOptions": [
+        { "text": "Lụa tự nhiên", "isCorrect": false, "rationale": "Lụa là 'silk'." },
+        { "text": "Vải lanh", "isCorrect": false, "rationale": "Vải lanh là 'linen'." },
+        { "text": "Nhựa tổng hợp", "isCorrect": false, "rationale": "Nhựa tổng hợp là 'synthetic rubber' hoặc 'latex'." },
+        { "text": "Da (từ động vật)", "isCorrect": true, "rationale": "Leather là chất liệu da thuộc từ động vật, dùng làm túi xách, giày cao cấp." }
+      ],
+      "hint": "Thường thấy trên nhãn túi xách và giày dép hạng sang."
+    },
+    {
+      "question": "Thiết bị bị bám đầy 'dirt /dɜːt/' sau ngày thi công. 'Dirt' là gì?",
+      "answerOptions": [
+        { "text": "Dầu máy công nghiệp", "isCorrect": false, "rationale": "Dầu máy là 'machine oil' hoặc 'lubricant'." },
+        { "text": "Bụi bẩn / đất cát", "isCorrect": true, "rationale": "Dirt là bụi, đất hoặc vết bẩn bám vào bề mặt." },
+        { "text": "Mảnh kim loại vụn", "isCorrect": false, "rationale": "Mảnh kim loại là 'metal shavings' hoặc 'scrap metal'." },
+        { "text": "Hoá chất tẩy rửa", "isCorrect": false, "rationale": "Hóa chất tẩy rửa là 'cleaning agent'." }
+      ],
+      "hint": "Từ đồng nghĩa: dust, mud, grime."
+    },
+    {
+      "question": "Trưởng phòng yêu cầu nhân viên 'summarize /ˈsʌməraɪz/' báo cáo quý trước cuộc họp. Họ cần làm gì?",
+      "answerOptions": [
+        { "text": "Tóm tắt nội dung chính", "isCorrect": true, "rationale": "Summarize là rút gọn thông tin dài thành những điểm quan trọng nhất." },
+        { "text": "In thêm bản sao", "isCorrect": false, "rationale": "In bản sao là 'print copies'." },
+        { "text": "Phân tích chi tiết từng mục", "isCorrect": false, "rationale": "Phân tích chi tiết là 'analyze in detail'." },
+        { "text": "Đính kèm báo cáo vào email", "isCorrect": false, "rationale": "Đính kèm file là 'attach'." }
+      ],
+      "hint": "Từ đồng nghĩa: recap, condense, outline."
+    },
+    {
+      "question": "Email ghi: 'Please find the enclosed /ɪnˈkləʊzd/ contract for your review.' Từ 'enclosed' ám chỉ điều gì?",
+      "answerOptions": [
+        { "text": "Hợp đồng đã được ký và có hiệu lực", "isCorrect": false, "rationale": "Hợp đồng có hiệu lực thường ghi 'the contract is in effect'." },
+        { "text": "Hợp đồng đính kèm trong email/thư này", "isCorrect": true, "rationale": "Enclosed (= attached) là tài liệu kèm theo trong cùng email hoặc bì thư." },
+        { "text": "Hợp đồng đã bị từ chối", "isCorrect": false, "rationale": "Từ chối là 'rejected' hoặc 'returned'." },
+        { "text": "Hợp đồng cần được dịch thuật", "isCorrect": false, "rationale": "Yêu cầu dịch thuật thường ghi 'please translate'." }
+      ],
+      "hint": "Enclosed = attached. Thường dùng trong thư/email kèm tài liệu."
+    },
+    {
+      "question": "Công ty xuất khẩu phải tuân thủ các 'trade regulations /ˌreɡjʊˈleɪʃənz/'. 'Regulation' là gì?",
+      "answerOptions": [
+        { "text": "Chiến lược marketing", "isCorrect": false, "rationale": "Chiến lược marketing là 'marketing strategy'." },
+        { "text": "Quy định / quy tắc có tính ràng buộc", "isCorrect": true, "rationale": "Regulation là các quy định do cơ quan có thẩm quyền ban hành, mang tính bắt buộc." },
+        { "text": "Thỏa thuận phi chính thức", "isCorrect": false, "rationale": "Thỏa thuận phi chính thức là 'informal agreement'." },
+        { "text": "Kế hoạch dự phòng rủi ro", "isCorrect": false, "rationale": "Kế hoạch dự phòng là 'contingency plan'." }
+      ],
+      "hint": "Từ đồng nghĩa: rule, law, guideline."
+    },
+    {
+      "question": "Khách hàng cảm thấy 'frustrated /frʌsˈtreɪtɪd/' sau khi đơn hàng bị hoãn nhiều lần. Trạng thái này là gì?",
+      "answerOptions": [
+        { "text": "Hài lòng", "isCorrect": false, "rationale": "Hài lòng là 'satisfied' hoặc 'pleased'." },
+        { "text": "Bực bội / thất vọng", "isCorrect": true, "rationale": "Frustrated mô tả cảm giác tức giận khi gặp trở ngại liên tục không giải quyết được." },
+        { "text": "Ngạc nhiên / phấn khởi", "isCorrect": false, "rationale": "Ngạc nhiên và phấn khởi là 'surprised' hoặc 'excited'." },
+        { "text": "Lo lắng / hồi hộp", "isCorrect": false, "rationale": "Lo lắng là 'anxious' hoặc 'nervous'." }
+      ],
+      "hint": "Từ đồng nghĩa: annoyed, disappointed."
+    },
+    {
+      "question": "Ứng viên cần 'possess /pəˈzes/' strong communication skills. Từ 'possess' đồng nghĩa với từ nào?",
+      "answerOptions": [
+        { "text": "Develop (phát triển)", "isCorrect": false, "rationale": "Develop là quá trình hình thành kỹ năng theo thời gian, không phải đang sở hữu." },
+        { "text": "Demonstrate (thể hiện)", "isCorrect": false, "rationale": "Demonstrate là bộc lộ kỹ năng, không phải sở hữu." },
+        { "text": "Have (có / sở hữu)", "isCorrect": true, "rationale": "Possess = have. Dùng để nói về việc đang có một năng lực hoặc phẩm chất." },
+        { "text": "Acquire (đạt được)", "isCorrect": false, "rationale": "Acquire là có được qua nỗ lực, khác với possess là đang sở hữu tại thời điểm hiện tại." }
+      ],
+      "hint": "Từ đồng nghĩa gần nhất: have, own."
+    },
+    {
+      "question": "Ban nhân sự sẽ 'assess /əˈses/' từng ứng viên trong vòng phỏng vấn cuối. 'Assess' có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Tuyển dụng ứng viên", "isCorrect": false, "rationale": "Tuyển dụng là 'hire' hoặc 'recruit'." },
+        { "text": "Đánh giá / nhận xét năng lực", "isCorrect": true, "rationale": "Assess là xem xét và đưa ra nhận định về khả năng của ai đó." },
+        { "text": "Hủy bỏ vòng phỏng vấn", "isCorrect": false, "rationale": "Hủy bỏ là 'cancel' hoặc 'call off'." },
+        { "text": "Thông báo kết quả tuyển dụng", "isCorrect": false, "rationale": "Thông báo kết quả là 'notify candidates', xảy ra sau khi assess." }
+      ],
+      "hint": "Từ đồng nghĩa: evaluate, judge, measure."
+    },
+    {
+      "question": "Công ty bất động sản chuyên mua bán 'commercial property /ˈprɒpəti/'. Từ 'property' ở đây chỉ gì?",
+      "answerOptions": [
+        { "text": "Tài sản / bất động sản", "isCorrect": true, "rationale": "Property trong bất động sản chỉ đất đai, nhà ở, hoặc tòa nhà thương mại." },
+        { "text": "Quyền sở hữu trí tuệ", "isCorrect": false, "rationale": "Quyền sở hữu trí tuệ là 'intellectual property' (tài sản vô hình)." },
+        { "text": "Thiết bị văn phòng", "isCorrect": false, "rationale": "Thiết bị văn phòng là 'office equipment' hoặc 'assets'." },
+        { "text": "Kho hàng dự trữ", "isCorrect": false, "rationale": "Kho hàng là 'inventory' hoặc 'stock'." }
+      ],
+      "hint": "Từ đồng nghĩa: real estate, asset, belongings."
+    },
+    {
+      "question": "Ứng dụng học tiếng Anh nhanh chóng 'gain popularity /ˌpɒpjʊˈlærəti/'. Cụm này có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Trở nên phổ biến / được nhiều người biết đến", "isCorrect": true, "rationale": "Gain popularity = ngày càng được nhiều người biết đến và ưa chuộng." },
+        { "text": "Nhận nhiều đánh giá tiêu cực", "isCorrect": false, "rationale": "Điều này trái ngược với popularity." },
+        { "text": "Đạt doanh thu cao nhất quý", "isCorrect": false, "rationale": "Doanh thu cao là 'achieve high revenue'." },
+        { "text": "Ra mắt phiên bản cập nhật mới", "isCorrect": false, "rationale": "Ra mắt bản cập nhật là 'release an update'." }
+      ],
+      "hint": "Popularity = mức độ được nhiều người biết đến và yêu thích."
+    },
+    {
+      "question": "Hội đồng tuyển dụng ('hiring committee /kəˈmɪti/') phỏng vấn ứng viên cấp cao. 'Committee' là gì?",
+      "answerOptions": [
+        { "text": "Phần mềm quản lý hồ sơ ứng viên", "isCorrect": false, "rationale": "Phần mềm quản lý ứng viên là 'ATS (Applicant Tracking System)'." },
+        { "text": "Danh sách vị trí đang tuyển dụng", "isCorrect": false, "rationale": "Danh sách vị trí là 'job listings' hoặc 'open positions'." },
+        { "text": "Nhóm người được lập ra để thực hiện nhiệm vụ cụ thể", "isCorrect": true, "rationale": "Committee là nhóm được thành lập để ra quyết định hoặc thực hiện nhiệm vụ." },
+        { "text": "Chính sách tuyển dụng nội bộ", "isCorrect": false, "rationale": "Chính sách tuyển dụng là 'hiring policy'." }
+      ],
+      "hint": "Ví dụ: safety committee, budget committee, search committee."
+    },
+    {
+      "question": "Nhân viên mới cần 'determine /dɪˈtɜːmɪn/' nguyên nhân gốc rễ của sự cố trước khi đưa ra giải pháp. 'Determine' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Xác định / tìm ra một cách chắc chắn", "isCorrect": true, "rationale": "Determine = tìm ra hoặc thiết lập một sự thật thông qua phân tích." },
+        { "text": "Tạm dừng quy trình xử lý", "isCorrect": false, "rationale": "Tạm dừng là 'halt' hoặc 'pause'." },
+        { "text": "Thông báo quyết định cho nhóm", "isCorrect": false, "rationale": "Thông báo quyết định là 'communicate the decision'." },
+        { "text": "Ước tính chi phí phát sinh", "isCorrect": false, "rationale": "Ước tính chi phí là 'estimate the costs'." }
+      ],
+      "hint": "Từ đồng nghĩa: find out, establish, ascertain."
+    },
+    {
+      "question": "Giá cổ phiếu bị ảnh hưởng bởi 'market fluctuations /ˌflʌktʃuˈeɪʃənz/' liên tục. 'Fluctuation' là gì?",
+      "answerOptions": [
+        { "text": "Xu hướng tăng trưởng ổn định", "isCorrect": false, "rationale": "Tăng trưởng ổn định là 'steady growth'." },
+        { "text": "Sự biến động lên xuống không ổn định", "isCorrect": true, "rationale": "Fluctuation là hiện tượng thay đổi liên tục và không đều, thường dùng trong tài chính." },
+        { "text": "Sự sụp đổ hoàn toàn của thị trường", "isCorrect": false, "rationale": "Sụp đổ thị trường là 'market crash' hoặc 'collapse'." },
+        { "text": "Chính sách điều tiết của chính phủ", "isCorrect": false, "rationale": "Chính sách điều tiết là 'market regulation'." }
+      ],
+      "hint": "Động từ tương ứng: fluctuate. Nghĩ đến đồ thị giá cổ phiếu lên xuống liên tục."
+    },
+    {
+      "question": "Investor thuê 'financial adviser /faɪˌnænʃəl ədˈvaɪzər/' để quản lý danh mục đầu tư. Vai trò của người này là gì?",
+      "answerOptions": [
+        { "text": "Kiểm toán sổ sách kế toán", "isCorrect": false, "rationale": "Kiểm toán là nhiệm vụ của 'auditor'." },
+        { "text": "Tư vấn về các quyết định tài chính / đầu tư", "isCorrect": true, "rationale": "Financial adviser giúp khách hàng đưa ra quyết định tài chính như đầu tư, tiết kiệm, hưu trí." },
+        { "text": "Xử lý giao dịch thuế hàng quý", "isCorrect": false, "rationale": "Xử lý thuế là nhiệm vụ của 'tax accountant'." },
+        { "text": "Quản lý quy trình tuyển dụng", "isCorrect": false, "rationale": "Tuyển dụng là nhiệm vụ của HR, không phải financial adviser." }
+      ],
+      "hint": "Adviser = người đưa ra lời khuyên. Financial adviser = tư vấn về tài chính."
+    },
+    {
+      "question": "Ứng viên được miêu tả là 'accurate /ˈækjərət/' trong phân tích dữ liệu. Từ này có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Nhanh chóng và hiệu quả", "isCorrect": false, "rationale": "Nhanh chóng là 'fast' hoặc 'efficient'." },
+        { "text": "Sáng tạo và độc đáo", "isCorrect": false, "rationale": "Sáng tạo là 'creative' hoặc 'innovative'." },
+        { "text": "Chính xác / không có sai sót", "isCorrect": true, "rationale": "Accurate = đúng, phản ánh thực tế mà không có sai lệch." },
+        { "text": "Chi tiết và toàn diện", "isCorrect": false, "rationale": "Chi tiết và toàn diện là 'detailed' hoặc 'comprehensive'." }
+      ],
+      "hint": "Từ đồng nghĩa: correct, precise, right. Trái nghĩa: inaccurate."
+    },
+    {
+      "question": "Sau 'discussion /dɪˈskʌʃən/' kéo dài, ban lãnh đạo đưa ra quyết định cuối cùng. 'Discussion' là gì?",
+      "answerOptions": [
+        { "text": "Báo cáo tài chính chi tiết", "isCorrect": false, "rationale": "Báo cáo tài chính là 'financial report'." },
+        { "text": "Cuộc trao đổi / thảo luận giữa các bên", "isCorrect": true, "rationale": "Discussion là cuộc nói chuyện tập thể nhằm xem xét ý kiến và đưa ra quyết định." },
+        { "text": "Hợp đồng ký sau đàm phán", "isCorrect": false, "rationale": "Hợp đồng là 'contract', là kết quả sau discussion." },
+        { "text": "Thông báo nội bộ gửi toàn nhân viên", "isCorrect": false, "rationale": "Thông báo nội bộ là 'internal memo' hoặc 'announcement'." }
+      ],
+      "hint": "Từ đồng nghĩa: conversation, talk. Đây là trao đổi hai chiều."
+    },
+    {
+      "question": "Dưới bất kỳ 'circumstances /ˈsɜːkəmstɑːnsɪz/' nào, nhân viên không được tiết lộ thông tin bảo mật. 'Circumstances' là gì?",
+      "answerOptions": [
+        { "text": "Hoàn cảnh / tình huống cụ thể", "isCorrect": true, "rationale": "Circumstances chỉ các điều kiện và tình huống xung quanh một sự việc." },
+        { "text": "Quy định pháp luật nhà nước", "isCorrect": false, "rationale": "Quy định pháp luật là 'laws' hoặc 'regulations'." },
+        { "text": "Kết quả điều tra cuối cùng", "isCorrect": false, "rationale": "Kết quả điều tra là 'findings' hoặc 'conclusions'." },
+        { "text": "Rủi ro tiềm ẩn trong kinh doanh", "isCorrect": false, "rationale": "Rủi ro là 'risks' hoặc 'potential threats'." }
+      ],
+      "hint": "Cụm 'under no circumstances' = không được phép trong bất kỳ trường hợp nào."
+    },
+    {
+      "question": "Nhân sự được khuyến khích tham gia 'professional development /ˌprəfeʃənl dɪˈveləpmənt/' courses. Mục tiêu chương trình này là gì?",
+      "answerOptions": [
+        { "text": "Tổ chức team building ngoài trời", "isCorrect": false, "rationale": "Team building là hoạt động xây dựng tinh thần đội nhóm." },
+        { "text": "Nâng cao năng lực chuyên môn của nhân viên", "isCorrect": true, "rationale": "Professional development là đào tạo để nhân viên phát triển kỹ năng và kiến thức nghề nghiệp." },
+        { "text": "Đánh giá hiệu suất định kỳ", "isCorrect": false, "rationale": "Đánh giá hiệu suất là 'performance review'." },
+        { "text": "Cung cấp phúc lợi sức khỏe", "isCorrect": false, "rationale": "Phúc lợi sức khỏe là 'health benefits'." }
+      ],
+      "hint": "Professional = nghề nghiệp. Development = phát triển, cải thiện."
+    },
+    {
+      "question": "Nhà tuyển dụng yêu cầu ứng viên có 'a degree /dɪˈɡriː/ in Marketing'. Điều kiện này ám chỉ gì?",
+      "answerOptions": [
+        { "text": "Ít nhất 5 năm kinh nghiệm làm việc", "isCorrect": false, "rationale": "Kinh nghiệm thường ghi là 'years of experience'." },
+        { "text": "Bằng tốt nghiệp đại học / sau đại học", "isCorrect": true, "rationale": "Degree là bằng cấp học thuật được trường đại học cấp sau khi hoàn thành chương trình học." },
+        { "text": "Chứng chỉ nghề từ tổ chức chuyên nghiệp", "isCorrect": false, "rationale": "Chứng chỉ nghề là 'professional certificate' hoặc 'certification'." },
+        { "text": "Thư giới thiệu từ nhà tuyển dụng cũ", "isCorrect": false, "rationale": "Thư giới thiệu là 'reference letter'." }
+      ],
+      "hint": "Degree thường ở các cấp: Bachelor's, Master's, Ph.D."
+    },
+    {
+      "question": "Công ty đang 'pursue /pəˈsjuː/ a new talent acquisition strategy'. Từ 'pursue' có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Từ bỏ và tìm hướng khác", "isCorrect": false, "rationale": "Từ bỏ là 'abandon' hoặc 'give up'." },
+        { "text": "Theo đuổi / tiếp tục thực hiện một cách kiên định", "isCorrect": true, "rationale": "Pursue = theo đuổi mục tiêu hoặc tiếp tục kế hoạch một cách quyết tâm." },
+        { "text": "Đánh giá và so sánh các chiến lược", "isCorrect": false, "rationale": "Đánh giá và so sánh là 'evaluate and compare'." },
+        { "text": "Thông báo chiến lược cho toàn nhân viên", "isCorrect": false, "rationale": "Thông báo là 'announce' hoặc 'communicate'." }
+      ],
+      "hint": "Cụm quen thuộc: 'pursue a career' = theo đuổi sự nghiệp."
+    },
+    {
+      "question": "Mỗi nhân viên phải lưu tài liệu vào 'individual folder /ˌɪndɪˈvɪdʒuəl ˈfəʊldər/' riêng. Mục đích chính là gì?",
+      "answerOptions": [
+        { "text": "Để mọi nhân viên truy cập tài liệu của nhau dễ dàng", "isCorrect": false, "rationale": "Individual = riêng lẻ từng người, không phải dùng chung." },
+        { "text": "Phân loại và bảo mật tài liệu theo từng cá nhân", "isCorrect": true, "rationale": "Individual folder là thư mục riêng của mỗi người, giúp tổ chức và bảo vệ tài liệu cá nhân." },
+        { "text": "Tự động sao lưu dữ liệu lên đám mây", "isCorrect": false, "rationale": "Sao lưu tự động là tính năng của hệ thống, không phải mục đích của individual folder." },
+        { "text": "Cho phép quản lý theo dõi tiến độ công việc", "isCorrect": false, "rationale": "Theo dõi tiến độ là mục đích của project management tools." }
+      ],
+      "hint": "Individual = thuộc về từng cá nhân riêng lẻ, không dùng chung."
+    },
+    {
+      "question": "Kết quả khảo sát cho thấy thông tin 'surprisingly /səˈpraɪzɪŋli/' tích cực. Từ 'surprising /səˈpraɪzɪŋ/' mô tả điều gì?",
+      "answerOptions": [
+        { "text": "Đáng ngạc nhiên / bất ngờ", "isCorrect": true, "rationale": "Surprising = gây ngạc nhiên, không như kỳ vọng ban đầu." },
+        { "text": "Đáng lo ngại / rủi ro cao", "isCorrect": false, "rationale": "Đáng lo ngại là 'concerning' hoặc 'alarming'." },
+        { "text": "Đáng thất vọng / tiêu cực", "isCorrect": false, "rationale": "Đáng thất vọng là 'disappointing'." },
+        { "text": "Đáng tin cậy / chắc chắn", "isCorrect": false, "rationale": "Đáng tin cậy là 'reliable' hoặc 'trustworthy'." }
+      ],
+      "hint": "Gốc từ: surprise (sự ngạc nhiên). Surprising = gây ra sự ngạc nhiên."
+    }
+  ]
+}

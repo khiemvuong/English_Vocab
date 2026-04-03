@@ -1,0 +1,253 @@
+{
+  "title": "TOEIC Part 6 - BT4 (Questions 131-146)",
+  "passages": [
+    {
+      "id": "bt4-p1",
+      "passageNumber": 1,
+      "questionRange": "131-134",
+      "passageType": "Notice",
+      "passageTitle": "Kennewick Parade Planning Committee",
+      "passage": "Notice of Committee Meeting\n\nThe Kennewick Parade Planning Committee will hold a meeting on April 3 at 7:30 P.M. at the Kennewick Community Center. All members are expected to [131]. Accompanying the floats from local businesses, we will design our own float based on this year's theme, [132] \"By the Seaside.\" At the meeting, Rhonda Delgado will show some pictures from last year's event. [133], she will talk about the most common materials used for making floats. After the meeting, members should share their ideas with Rhonda via e-mail before the next meeting on April 17. [134].",
+      "questions": [
+        {
+          "id": 131,
+          "blankLabel": "[131]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) secure", "isCorrect": false, "rationale": "'expected to secure' = kỳ vọng bảo đảm điều gì — không phù hợp với mục đích thông báo triệu tập họp." },
+            { "text": "(B) retain", "isCorrect": false, "rationale": "'expected to retain' = kỳ vọng giữ lại — không hợp nghĩa trong ngữ cảnh triệu tập họp." },
+            { "text": "(C) attend", "isCorrect": true, "rationale": "'All members are expected to attend' = tất cả thành viên được mong đợi tham dự. Collocation chuẩn: 'attend a meeting' = tham dự họp." },
+            { "text": "(D) donate", "isCorrect": false, "rationale": "'expected to donate' = quyên góp — không liên quan đến thông báo họp." }
+          ],
+          "hint": "Thông báo họp — các thành viên được mong đợi làm gì với cuộc họp?",
+          "translation": "Câu 131: Tất cả thành viên được kỳ vọng [?]."
+        },
+        {
+          "id": 132,
+          "blankLabel": "[132]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) been", "isCorrect": false, "rationale": "'theme, been By the Seaside' — sai cú pháp hoàn toàn." },
+            { "text": "(B) be", "isCorrect": false, "rationale": "'theme, be By the Seaside' — sai cú pháp." },
+            { "text": "(C) what must be", "isCorrect": false, "rationale": "'theme, what must be By the Seaside' — tạo mệnh đề phụ dư thừa, phá vỡ kết cấu câu." },
+            { "text": "(D) which is", "isCorrect": true, "rationale": "Mệnh đề quan hệ giải thích: 'this year's theme, which is By the Seaside' = chủ đề năm nay, vốn là 'By the Seaside'. Cú pháp mệnh đề quan hệ không hạn định chuẩn." }
+          ],
+          "hint": "Cần mệnh đề quan hệ không hạn định (non-restrictive) giải thích 'this year's theme'. Cấu trúc: 'theme, ___ By the Seaside'.",
+          "translation": "Câu 132: Chúng tôi sẽ thiết kế xe hoa dựa trên chủ đề năm nay, [?] 'By the Seaside'."
+        },
+        {
+          "id": 133,
+          "blankLabel": "[133]",
+          "questionType": "conjunction",
+          "answerOptions": [
+            { "text": "(A) Nevertheless", "isCorrect": false, "rationale": "'Nevertheless' = tuy nhiên/mặc dù vậy — tạo tương phản. Không phù hợp khi thêm một hoạt động nối tiếp." },
+            { "text": "(B) Alternatively", "isCorrect": false, "rationale": "'Alternatively' = thay cho đó — ngụ ý thay thế, không phải bổ sung." },
+            { "text": "(C) In addition", "isCorrect": true, "rationale": "'In addition, she will talk about materials' = Ngoài ra, bà ấy cũng sẽ nói về... Thêm hoạt động thứ hai trong buổi họp sau chia sẻ hình ảnh." },
+            { "text": "(D) Provided that", "isCorrect": false, "rationale": "'Provided that' = với điều kiện — tạo mệnh đề điều kiện, không phù hợp thêm thông tin." }
+          ],
+          "hint": "Câu trước: Rhonda sẽ chia sẻ hình ảnh. Câu này thêm một hoạt động nữa. Cần từ nối nghĩa 'ngoài ra/thêm vào đó'.",
+          "translation": "Câu 133: [?], bà ấy sẽ nói về các vật liệu phổ biến nhất để làm xe hoa."
+        },
+        {
+          "id": 134,
+          "blankLabel": "[134]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) Participants' questions will be answered promptly.", "isCorrect": false, "rationale": "Câu về trả lời câu hỏi — không kết nối tốt với thông tin chia sẻ ý tưởng qua email." },
+            { "text": "(B) New members should complete this paperwork.", "isCorrect": false, "rationale": "Thủ tục giấy tờ — không liên quan đến việc chia sẻ ý tưởng xe hoa." },
+            { "text": "(C) On that day, we will vote on the best one.", "isCorrect": true, "rationale": "Câu trước: chia sẻ ý tưởng trước ngày 17/4. Câu này: ngày 17/4 ('that day') sẽ bỏ phiếu chọn ý tưởng tốt nhất. Tạo mục đích logic cho việc chia sẻ ý tưởng qua email." },
+            { "text": "(D) The event is popular with locals and tourists alike.", "isCorrect": false, "rationale": "Thông tin về sự phổ biến của sự kiện — không liên quan đến hành động tiếp theo." }
+          ],
+          "hint": "Câu trước: chia sẻ ý tưởng với Rhonda trước ngày 17/4. Câu [134] giải thích TẠI SAO phải chia sẻ trước ngày đó.",
+          "translation": "Câu 134: Điền câu giải thích mục đích chia sẻ ý tưởng trước cuộc họp ngày 17/4."
+        }
+      ]
+    },
+    {
+      "id": "bt4-p2",
+      "passageNumber": 2,
+      "questionRange": "135-138",
+      "passageType": "E-mail",
+      "passageTitle": "Nature Health Foods — Product Knowledge Quiz Night",
+      "passage": "To: All Sales Clerks\nFrom: Elaine Spangler\nDate: March 10\nSubject: Products\n\nIn order to best serve our customers, it is essential that all employees have sufficient product knowledge. [135], we have created a fun way to help employees review the details about our merchandise. Later this week, each of you [136] with a catalog that contains all of the information that you need to memorize. Then, on March 22, we will reserve a venue [137] we can have a quiz night. Employees can compete in teams of up to four people. You will earn points for correctly answering questions about our products. We have prepared prizes for the top-scoring teams. We hope that everyone will have a great time. [138].\n\nElaine Spangler\nNature Health Foods",
+      "questions": [
+        {
+          "id": 135,
+          "blankLabel": "[135]",
+          "questionType": "conjunction",
+          "answerOptions": [
+            { "text": "(A) Unfortunately", "isCorrect": false, "rationale": "Không may — nhưng tạo quiz night là điều tích cực, không phải tiêu cực." },
+            { "text": "(B) For that reason", "isCorrect": true, "rationale": "'For that reason' = vì lý do đó. Câu trước: nhân viên cần kiến thức sản phẩm. Vì lý do đó → tạo cách thú vị để ôn tập. Nối nhân quả logic." },
+            { "text": "(C) Even so", "isCorrect": false, "rationale": "'Even so' = mặc dù vậy — tạo tương phản, không phù hợp vì đây là giải pháp cho vấn đề đặt ra." },
+            { "text": "(D) For example", "isCorrect": false, "rationale": "'For example' = ví dụ — câu này không phải ví dụ mà là kết quả/hành động." }
+          ],
+          "hint": "Câu trước: nhân viên cần kiến thức sản phẩm. Câu này: tạo quiz night. Mối quan hệ là nhân quả — cần từ nối nghĩa 'vì lý do đó'.",
+          "translation": "Câu 135: [?], chúng tôi đã tạo một cách thú vị để nhân viên ôn tập."
+        },
+        {
+          "id": 136,
+          "blankLabel": "[136]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) has to provide", "isCorrect": false, "rationale": "Dùng cho ngôi thứ 3 số ít; ở đây chủ ngữ là 'each of you' (số nhiều về nghĩa)." },
+            { "text": "(B) was provided", "isCorrect": false, "rationale": "Thì quá khứ — sự kiện xảy ra 'later this week', tương lai, không phải quá khứ." },
+            { "text": "(C) will be provided", "isCorrect": true, "rationale": "Bị động tương lai: 'each of you will be provided with a catalog' = mỗi người sẽ được cung cấp catalog. Nhân viên NHẬN catalog (bị động), sự kiện xảy ra trong tương lai gần." },
+            { "text": "(D) is providing", "isCorrect": false, "rationale": "Chủ động tiến hành — 'each of you is providing a catalog' = mỗi người đang CẤP catalog. Sai logic." }
+          ],
+          "hint": "Nhân viên được NHẬN catalog, không phải tự cung cấp. Sự kiện xảy ra trong tương lai. Cần thì bị động tương lai.",
+          "translation": "Câu 136: Mỗi người trong các bạn [?] một catalog chứa tất cả thông tin cần ghi nhớ."
+        },
+        {
+          "id": 137,
+          "blankLabel": "[137]",
+          "questionType": "preposition",
+          "answerOptions": [
+            { "text": "(A) following", "isCorrect": false, "rationale": "'venue following we can have' — sai cú pháp." },
+            { "text": "(B) when", "isCorrect": false, "rationale": "'venue when we can have a quiz night' — 'when' chỉ thời gian, venue là địa điểm." },
+            { "text": "(C) where", "isCorrect": true, "rationale": "Mệnh đề quan hệ chỉ nơi chốn: 'reserve a venue where we can have a quiz night' = đặt địa điểm nơi chúng ta có thể tổ chức quiz night. 'Where' = tại đó." },
+            { "text": "(D) from", "isCorrect": false, "rationale": "'venue from we can have' — sai cú pháp." }
+          ],
+          "hint": "Mệnh đề quan hệ bổ nghĩa cho 'venue' (địa điểm). Đại từ quan hệ nào thay thế cho địa điểm?",
+          "translation": "Câu 137: Chúng tôi sẽ đặt địa điểm [?] chúng ta có thể tổ chức quiz night."
+        },
+        {
+          "id": 138,
+          "blankLabel": "[138]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) The catalogs can be taken home with you.", "isCorrect": false, "rationale": "Catalog mang về nhà — thông tin về catalog, không phải về tương lai của sự kiện quiz night." },
+            { "text": "(B) We plan to announce the winners tomorrow.", "isCorrect": false, "rationale": "Thông báo người thắng — sự kiện chưa xảy ra, không thể thông báo người thắng ngay." },
+            { "text": "(C) Customers noticed the improvements right away.", "isCorrect": false, "rationale": "Phản ứng khách hàng — lạc đề với email nội bộ." },
+            { "text": "(D) If successful, we plan to do similar events in the future.", "isCorrect": true, "rationale": "Kết thúc email bằng kế hoạch tương lai nếu thành công — tự nhiên, phù hợp với tông điệu tích cực của email. Khuyến khích nhân viên tham gia." }
+          ],
+          "hint": "Câu kết thúc email sau 'everyone will have a great time'. Cần câu tạo động lực/nhìn về tương lai phù hợp.",
+          "translation": "Câu 138: Điền câu kết thúc phù hợp sau 'we hope everyone will have a great time'."
+        }
+      ]
+    },
+    {
+      "id": "bt4-p3",
+      "passageNumber": 3,
+      "questionRange": "139-142",
+      "passageType": "E-mail",
+      "passageTitle": "Ward Communications — Internet Installation",
+      "passage": "To: Stephen Gilden\nFrom: Cory Dixon\nDate: November 3\nSubject: Internet service\n\nDear Mr. Gilden,\n\nI would like to confirm that one of our technicians can [139] a high-speed Internet line at your office on November 12 as you requested. The technician [140] the best place for the router, depending on your needs and office setup. The visit is scheduled to take place at 9:30 A.M. and is expected to be completed no later than 11:30 A.M. [141]. If you need to cancel or postpone the [142] for any reason, please let us know.\n\nWarmest regards,\nCory Dixon\nWard Communications",
+      "questions": [
+        {
+          "id": 139,
+          "blankLabel": "[139]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) highlight", "isCorrect": false, "rationale": "'highlight an Internet line' = làm nổi bật một đường dây Internet — không có nghĩa kỹ thuật." },
+            { "text": "(B) inspect", "isCorrect": false, "rationale": "'inspect an Internet line' = kiểm tra — có thể gần đúng nhưng ông Gilden yêu cầu lắp mới, không phải kiểm tra." },
+            { "text": "(C) enforce", "isCorrect": false, "rationale": "'enforce an Internet line' = áp đặt một đường dây — không phù hợp." },
+            { "text": "(D) install", "isCorrect": true, "rationale": "'install a high-speed Internet line' = lắp đặt đường dây Internet tốc độ cao. Chuẩn xác kỹ thuật và phù hợp ngữ cảnh." }
+          ],
+          "hint": "Kỹ thuật viên đến văn phòng để làm gì với đường dây Internet mới?",
+          "translation": "Câu 139: Kỹ thuật viên có thể [?] đường dây Internet tốc độ cao tại văn phòng của bạn."
+        },
+        {
+          "id": 140,
+          "blankLabel": "[140]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) identified", "isCorrect": false, "rationale": "Thì quá khứ đơn — kỹ thuật viên chưa đến, chưa thể xác định vị trí router." },
+            { "text": "(B) was identifying", "isCorrect": false, "rationale": "Thì quá khứ tiến hành — không phù hợp với sự kiện xảy ra trong tương lai (ngày 12/11)." },
+            { "text": "(C) will identify", "isCorrect": true, "rationale": "Tương lai đơn: 'The technician will identify the best place for the router' = kỹ thuật viên sẽ xác định vị trí tốt nhất. Phù hợp vì chuyến thăm vào ngày 12/11, chưa xảy ra." },
+            { "text": "(D) would have identified", "isCorrect": false, "rationale": "Điều kiện hoàn thành — chỉ dùng trong câu điều kiện loại 3 (giả định quá khứ), không phù hợp." }
+          ],
+          "hint": "Chuyến thăm diễn ra ngày 12/11, chưa xảy ra. Cần thì tương lai để mô tả việc kỹ thuật viên sẽ làm.",
+          "translation": "Câu 140: Kỹ thuật viên [?] vị trí tốt nhất cho router."
+        },
+        {
+          "id": 141,
+          "blankLabel": "[141]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) This service is becoming more popular.", "isCorrect": false, "rationale": "Dịch vụ ngày càng phổ biến — thông tin marketing, không thực tế cho email xác nhận lịch hẹn." },
+            { "text": "(B) You can go online anytime after that.", "isCorrect": true, "rationale": "Câu trước: lắp đặt xong trước 11:30 AM. Câu này là kết quả tự nhiên: 'Sau đó bạn có thể lên mạng bất cứ lúc nào'. Logic và hữu ích cho khách hàng." },
+            { "text": "(C) Our staff works in a variety of neighborhoods.", "isCorrect": false, "rationale": "Thông tin về phạm vi phục vụ — không liên quan đến lịch hẹn cụ thể." },
+            { "text": "(D) Please let us know your preferred date.", "isCorrect": false, "rationale": "Ngày đã được xác nhận (11/12), không cần hỏi lại." }
+          ],
+          "hint": "Câu trước: hoàn thành lắp đặt trước 11:30 AM. Câu [141] là kết quả tiếp theo cho khách hàng sau khi lắp xong là gì?",
+          "translation": "Câu 141: Điền câu mô tả kết quả sau khi lắp đặt hoàn thành."
+        },
+        {
+          "id": 142,
+          "blankLabel": "[142]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) appointment", "isCorrect": true, "rationale": "'cancel or postpone the appointment' = hủy hoặc dời lịch hẹn. 'Appointment' = cuộc hẹn kỹ thuật đã lên lịch vào ngày 12/11. Collocation chuẩn." },
+            { "text": "(B) instruction", "isCorrect": false, "rationale": "'cancel the instruction' = hủy hướng dẫn — không phù hợp." },
+            { "text": "(C) membership", "isCorrect": false, "rationale": "'cancel the membership' = hủy thành viên — không liên quan đến lịch hẹn kỹ thuật." },
+            { "text": "(D) solution", "isCorrect": false, "rationale": "'cancel the solution' = hủy giải pháp — không phù hợp ngữ cảnh." }
+          ],
+          "hint": "Ông Gilden muốn 'cancel or postpone' cái gì? Đây là cuộc thăm kỹ thuật đã được lên lịch.",
+          "translation": "Câu 142: Nếu bạn cần hủy hoặc dời lịch [?] vì bất kỳ lý do gì, hãy cho chúng tôi biết."
+        }
+      ]
+    },
+    {
+      "id": "bt4-p4",
+      "passageNumber": 4,
+      "questionRange": "143-146",
+      "passageType": "E-mail",
+      "passageTitle": "Vega Supermarket — Environmental Policy",
+      "passage": "To: Vega Supermarket Employees\nFrom: Charles Siems\nDate: 6 August\nSubject: Environment\n\nDear Staff Members,\n\nAs one of Canada's largest grocery store chains, we [143] to minimize our negative effect on the environment. We recently changed to a different design for the packaging of products with the Vega Supermarket brand. [144]. From next month, we will no longer offer plastic bags for produce. Customers can purchase items without a bag or bring one from home. This will help them to make a [145] effort to change their habits. [146], we are encouraging our suppliers to only use eco-friendly packaging for their products.\n\nSincerely,\nCharles Siems\nSupply Manager, Vega Supermarket",
+      "questions": [
+        {
+          "id": 143,
+          "blankLabel": "[143]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) consult", "isCorrect": false, "rationale": "'we consult to minimize' — 'consult' thường dùng với 'with sb' hoặc 'sb about sth', không hợp cú pháp này." },
+            { "text": "(B) remember", "isCorrect": false, "rationale": "'we remember to minimize' = chúng tôi nhớ phải giảm thiểu — không phù hợp ngữ cảnh tuyên bố cam kết mạnh mẽ của công ty." },
+            { "text": "(C) strive", "isCorrect": true, "rationale": "'we strive to minimize our negative effect' = chúng tôi nỗ lực hết sức để giảm thiểu tác động tiêu cực. 'Strive to do sth' = cố gắng mạnh mẽ để đạt điều gì. Diễn đạt cam kết doanh nghiệp chuẩn." },
+            { "text": "(D) accomplish", "isCorrect": false, "rationale": "'we accomplish to minimize' — 'accomplish' không dùng với 'to + infinitive' trong tiếng Anh." }
+          ],
+          "hint": "Công ty cam kết mạnh mẽ với môi trường. Động từ nào thể hiện 'nỗ lực hết sức, cố gắng đạt mục tiêu'?",
+          "translation": "Câu 143: Chúng tôi [?] giảm thiểu tác động tiêu cực đến môi trường."
+        },
+        {
+          "id": 144,
+          "blankLabel": "[144]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) The store's own products are usually cheaper than national brands.", "isCorrect": false, "rationale": "So sánh giá — lạc đề với chủ đề về thiết kế bao bì thân thiện môi trường." },
+            { "text": "(B) The city collects a wide range of recyclable items.", "isCorrect": false, "rationale": "Thu gom tái chế của thành phố — không liên kết với thay đổi bao bì sản phẩm Vega." },
+            { "text": "(C) Customers are returning items that do not meet their standards.", "isCorrect": false, "rationale": "Khách hàng trả hàng — lạc đề." },
+            { "text": "(D) Thus we reduced plastic waste for those items by 15 percent.", "isCorrect": true, "rationale": "Câu trước: thay đổi thiết kế bao bì. Câu này cung cấp kết quả cụ thể: 'do đó giảm 15% rác thải nhựa'. 'Thus' = do đó, tạo mối quan hệ nhân quả tự nhiên và cung cấp con số cụ thể tăng độ tin cậy." }
+          ],
+          "hint": "Câu trước: thay đổi thiết kế bao bì Vega. Câu [144] phải nêu kết quả cụ thể của sự thay đổi đó.",
+          "translation": "Câu 144: Điền câu nêu kết quả cụ thể của việc thay đổi thiết kế bao bì."
+        },
+        {
+          "id": 145,
+          "blankLabel": "[145]",
+          "questionType": "word-form",
+          "answerOptions": [
+            { "text": "(A) determine", "isCorrect": false, "rationale": "Động từ nguyên mẫu — cần tính từ hoặc tính từ + danh từ 'effort'." },
+            { "text": "(B) determines", "isCorrect": false, "rationale": "Động từ ngôi 3 — không thể đứng trước danh từ 'effort'." },
+            { "text": "(C) determining", "isCorrect": false, "rationale": "Gerund/participle — không phù hợp cấu trúc tính từ + danh từ." },
+            { "text": "(D) determined", "isCorrect": true, "rationale": "'make a determined effort' = thực hiện nỗ lực quyết tâm/kiên quyết. 'Determined' = tính từ phái sinh từ V-ed, nghĩa là 'kiên định, quyết tâm'. Collocation chuẩn: 'a determined effort'." }
+          ],
+          "hint": "Cấu trúc 'make a ___ effort'. Cần tính từ nghĩa 'kiên định, quyết tâm'. Dạng tính từ nào của 'determine'?",
+          "translation": "Câu 145: Điều này sẽ giúp họ thực hiện nỗ lực [?] để thay đổi thói quen."
+        },
+        {
+          "id": 146,
+          "blankLabel": "[146]",
+          "questionType": "conjunction",
+          "answerOptions": [
+            { "text": "(A) For instance", "isCorrect": false, "rationale": "Ví dụ — câu về khuyến khích nhà cung cấp không phải ví dụ của câu trước." },
+            { "text": "(B) Instead", "isCorrect": false, "rationale": "Thay thế — không phù hợp; đây là bổ sung thêm biện pháp, không phải thay thế." },
+            { "text": "(C) Additionally", "isCorrect": true, "rationale": "'Additionally, we are encouraging our suppliers...' = Ngoài ra, chúng tôi cũng đang khuyến khích nhà cung cấp... Thêm biện pháp bảo vệ môi trường thứ hai bên cạnh biện pháp về túi nhựa." },
+            { "text": "(D) Therefore", "isCorrect": false, "rationale": "'Therefore' = do đó — tạo quan hệ nhân quả. Không có lý do nhân quả rõ ràng ở đây, chỉ đơn giản là bổ sung thêm biện pháp." }
+          ],
+          "hint": "Câu trước: bỏ túi nhựa cho rau củ. Câu sau: khuyến khích nhà cung cấp dùng bao bì thân thiện môi trường. Hai biện pháp song song — cần từ nối nghĩa 'ngoài ra/bổ sung thêm'.",
+          "translation": "Câu 146: [?], chúng tôi đang khuyến khích nhà cung cấp chỉ sử dụng bao bì thân thiện môi trường."
+        }
+      ]
+    }
+  ]
+}
