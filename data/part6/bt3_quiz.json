@@ -1,0 +1,253 @@
+{
+  "title": "TOEIC Part 6 - BT3 (Questions 131-146)",
+  "passages": [
+    {
+      "id": "bt3-p1",
+      "passageNumber": 1,
+      "questionRange": "131-134",
+      "passageType": "Information",
+      "passageTitle": "Gift-Max Online Store",
+      "passage": "Thank you for shopping at Gift-Max online store, where you can have unique gifts sent right to your [131]. Please note that members can get discounted gift-wrapping and free delivery. To start [132] from the membership program, simply visit our Web site, click the \"Membership\" button, and complete the form. [133]. We hope you will continue to use Gift-Max and have the [134] of giving special gifts to your friends and family.",
+      "questions": [
+        {
+          "id": 131,
+          "blankLabel": "[131]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) inquiry", "isCorrect": false, "rationale": "Sản phẩm không thể được 'gửi đến câu hỏi' của bạn." },
+            { "text": "(B) market", "isCorrect": false, "rationale": "'sent to your market' không hợp lý trong bối cảnh giao hàng online." },
+            { "text": "(C) doorstep", "isCorrect": true, "rationale": "Idiom chuẩn: 'sent right to your doorstep' = giao thẳng đến tận cửa nhà. Phổ biến trong thương mại điện tử." },
+            { "text": "(D) credit", "isCorrect": false, "rationale": "Chỉ tiền mới được 'credit', không phải quà tặng vật lý." }
+          ],
+          "hint": "Tìm idiom phổ biến trong thương mại điện tử về giao hàng tận nơi.",
+          "translation": "Câu 131: Nơi bạn có thể nhận những món quà được gửi ngay đến [?] của bạn."
+        },
+        {
+          "id": 132,
+          "blankLabel": "[132]",
+          "questionType": "word-form",
+          "answerOptions": [
+            { "text": "(A) benefited", "isCorrect": false, "rationale": "Sau 'start' cần V-ing (gerund), không phải dạng quá khứ." },
+            { "text": "(B) beneficent", "isCorrect": false, "rationale": "Tính từ, không đúng sau 'start'." },
+            { "text": "(C) beneficial", "isCorrect": false, "rationale": "Tính từ, không đúng sau 'start'." },
+            { "text": "(D) benefiting", "isCorrect": true, "rationale": "Cấu trúc 'start + V-ing'. 'Start benefiting from the program' = bắt đầu hưởng lợi từ chương trình." }
+          ],
+          "hint": "Cấu trúc 'start + ___'. Sau 'start', dùng dạng V-ing.",
+          "translation": "Câu 132: Để bắt đầu [?] từ chương trình thành viên..."
+        },
+        {
+          "id": 133,
+          "blankLabel": "[133]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) Please settle the overdue bill.", "isCorrect": false, "rationale": "Yêu cầu thanh toán — lạc đề với đăng ký thành viên." },
+            { "text": "(B) It only takes a few minutes.", "isCorrect": true, "rationale": "Câu trước mô tả quy trình đăng ký. Câu này trấn an: 'Chỉ mất vài phút' — khuyến khích đăng ký ngay." },
+            { "text": "(C) Our employees are highly knowledgeable.", "isCorrect": false, "rationale": "Nói về nhân viên — không liên quan đến đăng ký online." },
+            { "text": "(D) The new product is very popular.", "isCorrect": false, "rationale": "Nói về sản phẩm — không liên quan đến chương trình thành viên." }
+          ],
+          "hint": "Sau mô tả các bước đăng ký, câu nào khuyến khích người dùng làm ngay?",
+          "translation": "Câu 133: Điền câu khuyến khích đăng ký thành viên."
+        },
+        {
+          "id": 134,
+          "blankLabel": "[134]",
+          "questionType": "word-form",
+          "answerOptions": [
+            { "text": "(A) enjoy", "isCorrect": false, "rationale": "Động từ, không đứng sau 'the' như danh từ." },
+            { "text": "(B) enjoyment", "isCorrect": true, "rationale": "Cấu trúc 'have the enjoyment of doing sth'. 'Enjoyment' là danh từ, đúng sau 'the'." },
+            { "text": "(C) enjoying", "isCorrect": false, "rationale": "Gerund, không đứng sau 'the' trong cấu trúc này." },
+            { "text": "(D) enjoyed", "isCorrect": false, "rationale": "Dạng quá khứ, sai cấu trúc." }
+          ],
+          "hint": "Cấu trúc 'have the ___ of doing sth'. Dạng danh từ của 'enjoy' là gì?",
+          "translation": "Câu 134: ... và có [?] khi tặng những món quà đặc biệt."
+        }
+      ]
+    },
+    {
+      "id": "bt3-p2",
+      "passageNumber": 2,
+      "questionRange": "135-138",
+      "passageType": "E-mail",
+      "passageTitle": "Varner Communications — Automated Billing",
+      "passage": "To: Shawn Ayala\nFrom: Varner Communications\nDate: October 19\nSubject: Phone bill\n\nDear Mr. Ayala,\n\nThank you for signing up for the automated billing [135] for your Varner Communications phone bill. [136] on November 1, a payment of $79.99 will be deducted from your bank account on the 1st of every month. Please note that if you do not have enough funds in the account at the time of withdrawal, you may [137] a late fee. [138]. In that case, we would resume sending paper bills to your address every month.\n\nSincerely,\nVarner Communications",
+      "questions": [
+        {
+          "id": 135,
+          "blankLabel": "[135]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) occasion", "isCorrect": false, "rationale": "'billing occasion' không phải thuật ngữ đúng cho dịch vụ trừ tiền tự động." },
+            { "text": "(B) value", "isCorrect": false, "rationale": "'billing value' chỉ là số tiền, không phải dịch vụ." },
+            { "text": "(C) option", "isCorrect": true, "rationale": "'automated billing option' = tùy chọn thanh toán tự động — thuật ngữ chuẩn trong ngân hàng/thanh toán." },
+            { "text": "(D) attempt", "isCorrect": false, "rationale": "'billing attempt' dùng khi giao dịch thất bại, không phù hợp đây." }
+          ],
+          "hint": "Khách hàng 'sign up for' một dịch vụ thanh toán tự động. Gọi đây là gì trong ngân hàng?",
+          "translation": "Câu 135: Cảm ơn bạn đã đăng ký [?] thanh toán tự động."
+        },
+        {
+          "id": 136,
+          "blankLabel": "[136]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) Beginning", "isCorrect": true, "rationale": "'Beginning on November 1' = bắt đầu từ ngày 1/11. Cụm participial phrase chuẩn để chỉ thời điểm bắt đầu." },
+            { "text": "(B) Only", "isCorrect": false, "rationale": "'Only on November 1' ngụ ý chỉ diễn ra một lần, mâu thuẫn với 'every month'." },
+            { "text": "(C) Along", "isCorrect": false, "rationale": "'Along on November 1' không phải cụm hợp lệ chỉ thời gian bắt đầu." },
+            { "text": "(D) Through", "isCorrect": false, "rationale": "'Through' chỉ xuyên suốt một giai đoạn, không chỉ điểm bắt đầu." }
+          ],
+          "hint": "Cần từ/cụm từ chỉ thời điểm BẮT ĐẦU của hành động định kỳ.",
+          "translation": "Câu 136: [?] vào ngày 1 tháng 11, $79.99 sẽ được khấu trừ vào ngày 1 hàng tháng."
+        },
+        {
+          "id": 137,
+          "blankLabel": "[137]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) to incur", "isCorrect": false, "rationale": "'may to incur' — sau modal verb không dùng 'to'." },
+            { "text": "(B) incur", "isCorrect": true, "rationale": "Modal + bare infinitive: 'you may incur a late fee' = có thể bị tính phí trễ. Chuẩn ngữ pháp." },
+            { "text": "(C) incurring", "isCorrect": false, "rationale": "Sau modal verb cần V nguyên mẫu, không phải V-ing." },
+            { "text": "(D) incurred", "isCorrect": false, "rationale": "Past participle không dùng trực tiếp sau modal verb." }
+          ],
+          "hint": "Sau modal verb (may), dùng dạng nào của động từ?",
+          "translation": "Câu 137: Bạn có thể [?] phí trễ hạn nếu tài khoản không đủ tiền."
+        },
+        {
+          "id": 138,
+          "blankLabel": "[138]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) We will send you a copy of the contract.", "isCorrect": false, "rationale": "Không liên quan đến tình huống hủy ghi nợ tự động." },
+            { "text": "(B) You can cancel the direct debit at any time.", "isCorrect": true, "rationale": "Câu sau: 'In that case, we would resume sending paper bills'. 'That case' = trường hợp hủy ghi nợ tự động. Câu B thiết lập đúng 'that case' đó." },
+            { "text": "(C) The package includes unlimited texts and data.", "isCorrect": false, "rationale": "Thông tin gói cước — không liên quan." },
+            { "text": "(D) It would be helpful to restart your phone.", "isCorrect": false, "rationale": "Khởi động lại điện thoại — lạc đề." }
+          ],
+          "hint": "Câu sau: 'In that case, we would resume sending paper bills'. Câu [138] phải định nghĩa 'that case' là gì.",
+          "translation": "Câu 138: Điền câu mô tả trường hợp dẫn đến nhận lại hóa đơn giấy."
+        }
+      ]
+    },
+    {
+      "id": "bt3-p3",
+      "passageNumber": 3,
+      "questionRange": "139-142",
+      "passageType": "Memo",
+      "passageTitle": "Longoria — Safety Record",
+      "passage": "To: All Longoria Staff\nFrom: Althea Panadio\nSubject: Safety record\nDate: July 3\n\nCongratulations on our new safety record! No injuries have been reported this quarter. [139], we need to continue to follow all safety rules carefully. For this reason, we are launching a monthly [140] program. It has been designed by Carmen Riley, who has closely [141] our operations. Through learning about the industry's best practices, you can help ensure a positive working environment. [142]. Keep up the good work!",
+      "questions": [
+        {
+          "id": 139,
+          "blankLabel": "[139]",
+          "questionType": "conjunction",
+          "answerOptions": [
+            { "text": "(A) Rather", "isCorrect": false, "rationale": "'Rather' ngụ ý thay thế, không phù hợp với lời nhắc nhở bổ sung sau lời khen." },
+            { "text": "(B) Otherwise", "isCorrect": false, "rationale": "'Otherwise' tạo điều kiện phủ định, không phù hợp." },
+            { "text": "(C) Even if", "isCorrect": false, "rationale": "Cú pháp sai khi đứng đầu câu độc lập như vậy." },
+            { "text": "(D) Nevertheless", "isCorrect": true, "rationale": "'Nevertheless' = tuy nhiên — tạo tương phản: thành tích tốt → vẫn cần cẩn thận tiếp tục." }
+          ],
+          "hint": "Sau lời khen thành tích, câu này thêm lời nhắc nhở. Cần từ nối thể hiện 'mặc dù vậy, vẫn cần...'?",
+          "translation": "Câu 139: [?], chúng ta cần tiếp tục tuân thủ tất cả các quy tắc an toàn."
+        },
+        {
+          "id": 140,
+          "blankLabel": "[140]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) training", "isCorrect": true, "rationale": "'monthly training program' = chương trình đào tạo hàng tháng. Phù hợp với ngữ cảnh học 'best practices' về an toàn." },
+            { "text": "(B) voucher", "isCorrect": false, "rationale": "Phiếu giảm giá — không liên quan đến an toàn lao động." },
+            { "text": "(C) exercise", "isCorrect": false, "rationale": "'Exercise' thường chỉ bài tập thể chất, kém chuẩn hơn 'training' trong đào tạo nghề." },
+            { "text": "(D) treatment", "isCorrect": false, "rationale": "Điều trị y tế — không phù hợp." }
+          ],
+          "hint": "Chương trình để học 'best practices' về an toàn tại nơi làm việc. Gọi là gì?",
+          "translation": "Câu 140: Chúng tôi đang triển khai chương trình [?] hàng tháng."
+        },
+        {
+          "id": 141,
+          "blankLabel": "[141]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) observing", "isCorrect": false, "rationale": "Sau 'has', cần V3 (past participle) cho thì hiện tại hoàn thành, không dùng V-ing trực tiếp." },
+            { "text": "(B) to observe", "isCorrect": false, "rationale": "'has closely to observe' — sai cấu trúc." },
+            { "text": "(C) been observed", "isCorrect": false, "rationale": "Câu bị động — Carmen Riley là người THỰC HIỆN quan sát, không phải được quan sát." },
+            { "text": "(D) observed", "isCorrect": true, "rationale": "Thì hiện tại hoàn thành chủ động: 'who has closely observed our operations' — Carmen Riley đã quan sát hoạt động." }
+          ],
+          "hint": "Cấu trúc: 'who has closely ___'. Thì hiện tại hoàn thành = have/has + V3 (past participle).",
+          "translation": "Câu 141: Carmen Riley, người đã quan sát chặt chẽ [?] hoạt động của chúng tôi."
+        },
+        {
+          "id": 142,
+          "blankLabel": "[142]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) Demand for our products is growing.", "isCorrect": false, "rationale": "Nhu cầu sản phẩm — lạc đề với memo an toàn." },
+            { "text": "(B) We have decided to extend the registration deadline.", "isCorrect": false, "rationale": "Gia hạn đăng ký — không có ngữ cảnh đăng ký trước đó." },
+            { "text": "(C) The session dates will be announced next week.", "isCorrect": true, "rationale": "Sau khi giới thiệu chương trình đào tạo mới, câu này cung cấp thông tin hành động: lịch sẽ công bố tuần tới." },
+            { "text": "(D) Basic first aid kits are available in the main office.", "isCorrect": false, "rationale": "Thông tin về túi sơ cứu — không kết nối trực tiếp với chương trình đào tạo mới." }
+          ],
+          "hint": "Vừa giới thiệu chương trình đào tạo mới. Nhân viên cần biết thêm thông tin gì cụ thể về chương trình này?",
+          "translation": "Câu 142: Điền câu thông tin hành động về chương trình đào tạo."
+        }
+      ]
+    },
+    {
+      "id": "bt3-p4",
+      "passageNumber": 4,
+      "questionRange": "143-146",
+      "passageType": "E-mail",
+      "passageTitle": "Natasha Brannon's Retirement Party",
+      "passage": "To: Thornton Sales Management Team\nFrom: Farah Bakir\nDate: September 22\nSubject: Natasha Brannon's retirement\n\nDear Sales Management Team,\n\nThe planning committee is looking for a few people from our team to make brief speeches at the [143] retirement party for Natasha Brannon. [144]. The speeches will take place at the beginning of the party, which starts at 4 P.M. on October 6. [145] willing to share some memories of her time at our company is asked to contact a committee member. We also want to leave enough time for Ms. Brannon to say a few words herself. [146], we will only have a few speeches from other people.\n\nSincerely,\nFarah Bakir",
+      "questions": [
+        {
+          "id": 143,
+          "blankLabel": "[143]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) upcoming", "isCorrect": true, "rationale": "'upcoming retirement party' = bữa tiệc nghỉ hưu sắp diễn ra. Email 22/9, tiệc 6/10 — phù hợp." },
+            { "text": "(B) assorted", "isCorrect": false, "rationale": "'assorted' = đa dạng/tổng hợp — không có nghĩa khi mô tả buổi tiệc." },
+            { "text": "(C) prosperous", "isCorrect": false, "rationale": "Thịnh vượng — không phù hợp ngữ nghĩa." },
+            { "text": "(D) enthusiastic", "isCorrect": false, "rationale": "Mô tả người, không mô tả loại buổi tiệc." }
+          ],
+          "hint": "Tiệc diễn ra ngày 6/10, email gửi ngày 22/9. Tính từ nào mô tả sự kiện 'sắp tới'?",
+          "translation": "Câu 143: ... tại bữa tiệc nghỉ hưu [?] cho Natasha Brannon."
+        },
+        {
+          "id": 144,
+          "blankLabel": "[144]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) Therefore, I need someone to train her replacement.", "isCorrect": false, "rationale": "Đào tạo người thay thế — lạc đề." },
+            { "text": "(B) We think this would help to make the event special.", "isCorrect": true, "rationale": "Giải thích lý do tìm người phát biểu: 'điều này giúp sự kiện trở nên đặc biệt'." },
+            { "text": "(C) Alternatively, she may become a part-time consultant.", "isCorrect": false, "rationale": "Bà Brannon làm bán thời gian — không liên quan." },
+            { "text": "(D) Committee members are discussing a theme for next year.", "isCorrect": false, "rationale": "Chủ đề năm sau — lạc đề." }
+          ],
+          "hint": "Câu [144] phải giải thích TẠI SAO tìm người phát biểu.",
+          "translation": "Câu 144: Điền câu giải thích lý do tổ chức phần phát biểu."
+        },
+        {
+          "id": 145,
+          "blankLabel": "[145]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) Whoever", "isCorrect": false, "rationale": "'Whoever willing' — 'whoever' cần theo sau bởi mệnh đề đầy đủ, không phải tính từ đứng trơn." },
+            { "text": "(B) One another", "isCorrect": false, "rationale": "Đại từ hỗ tương, không đứng trước tính từ như vậy." },
+            { "text": "(C) Anyone", "isCorrect": true, "rationale": "Cấu trúc rút gọn: 'Anyone willing to share' = 'Anyone who is willing to share'. Ngữ pháp chuẩn." },
+            { "text": "(D) Ours", "isCorrect": false, "rationale": "Đại từ sở hữu, không phù hợp cú pháp." }
+          ],
+          "hint": "Cần đại từ nghĩa 'bất kỳ ai' phù hợp cấu trúc rút gọn: '___ willing to share... is asked to contact'.",
+          "translation": "Câu 145: [?] sẵn sàng chia sẻ kỷ niệm được yêu cầu liên hệ ban tổ chức."
+        },
+        {
+          "id": 146,
+          "blankLabel": "[146]",
+          "questionType": "conjunction",
+          "answerOptions": [
+            { "text": "(A) For instance", "isCorrect": false, "rationale": "Ví dụ — câu sau không phải ví dụ của câu trước." },
+            { "text": "(B) Since then", "isCorrect": false, "rationale": "Chỉ thời gian sau mốc cụ thể — không phù hợp." },
+            { "text": "(C) On the contrary", "isCorrect": false, "rationale": "Tương phản hoàn toàn — không có sự đối lập mạnh." },
+            { "text": "(D) For this reason", "isCorrect": true, "rationale": "'For this reason, we will only have a few speeches' — vì muốn dành thời gian cho Ms. Brannon, nên giới hạn số bài phát biểu khác." }
+          ],
+          "hint": "Câu trước: muốn dành thời gian cho Ms. Brannon phát biểu → câu sau kết luận từ đó. Cần từ nối nghĩa 'vì lý do đó'.",
+          "translation": "Câu 146: [?], chúng tôi chỉ có vài bài phát biểu từ người khác."
+        }
+      ]
+    }
+  ]
+}

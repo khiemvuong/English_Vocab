@@ -1,0 +1,269 @@
+{
+  "title": "TOEIC Part 6 - BT2 (Questions 131-146)",
+  "passages": [
+    {
+      "id": "bt2-p1",
+      "passageNumber": 1,
+      "questionRange": "131-134",
+      "passageType": "Article",
+      "passageTitle": "Power Gym Announces Membership Changes",
+      "passage": "BALTIMORE (April 9)—The fitness club chain Power Gym [131] changes to its membership options. A spokesperson from the company's head office, Frank Jacobs, said they are adjusting their policies based on customer feedback. [132]. The new policy will allow people to purchase one-day, one-week, or one-month passes, depending on their needs. This will support the company's commitment to making the gym convenient and [133]. A parking garage will also be added to the gym's main site downtown. [134] will begin on that project sometime in June.",
+      "questions": [
+        {
+          "id": 131,
+          "blankPosition": 131,
+          "blankLabel": "[131]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) opposed", "isCorrect": false, "rationale": "'opposed changes' = phản đối những thay đổi — nghĩa trái ngược, vì bài viết tiếp theo mô tả Power Gym đang thực hiện thay đổi tích cực." },
+            { "text": "(B) collaborated", "isCorrect": false, "rationale": "'collaborated changes' — 'collaborate' thường dùng với 'with' (collaborate with someone), không dùng với tân ngữ trực tiếp." },
+            { "text": "(C) received", "isCorrect": false, "rationale": "'received changes' = nhận được những thay đổi — không có nghĩa trong ngữ cảnh này; một công ty không 'nhận' thay đổi." },
+            { "text": "(D) announced", "isCorrect": true, "rationale": "'announced changes to its membership options' = thông báo những thay đổi về gói thành viên. Phù hợp hoàn toàn với văn phong báo chí và nội dung bài: một công ty công bố thay đổi chính sách." }
+          ],
+          "hint": "Đây là câu đầu bài báo — thường dùng động từ gì khi thông báo một sự thay đổi, đặc biệt trong văn phong tin tức?",
+          "translation": "Câu 131: Chuỗi phòng gym Power Gym [?] những thay đổi về các tùy chọn thành viên."
+        },
+        {
+          "id": 132,
+          "blankPosition": 132,
+          "blankLabel": "[132]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) Gym users will no longer have to purchase an annual membership.", "isCorrect": true, "rationale": "Câu này giải thích cụ thể việc 'điều chỉnh chính sách dựa trên phản hồi khách hàng' — xóa bỏ yêu cầu mua thành viên hàng năm. Dẫn tự nhiên vào 'The new policy will allow one-day, one-week, or one-month passes'." },
+            { "text": "(B) Power Gym is seeking new employees to keep up with demand.", "isCorrect": false, "rationale": "Nói về tuyển dụng nhân viên — lạc đề, không liên quan đến thay đổi chính sách thành viên." },
+            { "text": "(C) The chain is well-known on the East Coast for its engaging classes.", "isCorrect": false, "rationale": "Nói về danh tiếng — là thông tin nền nhưng không giải thích sự thay đổi chính sách được đề cập." },
+            { "text": "(D) Power Gym sells workout gear recommended by its instructors.", "isCorrect": false, "rationale": "Nói về bán dụng cụ tập — hoàn toàn lạc đề so với chủ đề thay đổi chính sách thành viên." }
+          ],
+          "hint": "Câu trước: 'điều chỉnh chính sách dựa trên phản hồi'. Câu sau: 'chính sách mới cho phép mua vé theo ngày/tuần/tháng'. Câu [132] phải nối hai thông tin này.",
+          "translation": "Câu 132: Điền câu làm rõ sự thay đổi chính sách trước khi mô tả chi tiết gói mua vé mới."
+        },
+        {
+          "id": 133,
+          "blankPosition": 133,
+          "blankLabel": "[133]",
+          "questionType": "word-form",
+          "answerOptions": [
+            { "text": "(A) accessing", "isCorrect": false, "rationale": "'accessing' là gerund/present participle — không đúng vai trò tính từ sau 'convenient and'." },
+            { "text": "(B) access", "isCorrect": false, "rationale": "'access' là danh từ hoặc động từ — không đúng chức năng tính từ sau liên từ 'and'." },
+            { "text": "(C) accessible", "isCorrect": true, "rationale": "Cấu trúc: 'convenient and accessible' — hai tính từ song song bổ nghĩa cho chủ ngữ. 'Accessible' = dễ tiếp cận. Câu: 'making the gym convenient and accessible' = làm cho phòng gym thuận tiện và dễ tiếp cận hơn." },
+            { "text": "(D) accesses", "isCorrect": false, "rationale": "'accesses' là động từ ngôi thứ 3 số ít — không đúng chức năng sau liên từ 'and' trong cấu trúc tính từ song song." }
+          ],
+          "hint": "Cấu trúc: 'convenient and ___'. Đây là hai từ song song — cần từ cùng loại với 'convenient'. 'Convenient' là tính từ, vậy từ cần điền phải là...?",
+          "translation": "Câu 133: Điều này sẽ hỗ trợ cam kết của công ty trong việc làm cho phòng gym trở nên thuận tiện và [?]."
+        },
+        {
+          "id": 134,
+          "blankPosition": 134,
+          "blankLabel": "[134]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) Assistance", "isCorrect": false, "rationale": "'Assistance will begin' = sự hỗ trợ sẽ bắt đầu — không hợp nghĩa trong việc mô tả một dự án xây dựng garage đỗ xe." },
+            { "text": "(B) Construction", "isCorrect": true, "rationale": "'Construction will begin' = việc xây dựng sẽ bắt đầu — phù hợp hoàn toàn. Câu trước đề cập đến 'a parking garage will be added'. Construction = quá trình xây dựng công trình đó." },
+            { "text": "(C) Entrance", "isCorrect": false, "rationale": "'Entrance will begin' — lối vào không thể 'bắt đầu'; đây không phải hành động." },
+            { "text": "(D) Specifications", "isCorrect": false, "rationale": "'Specifications will begin' — không có nghĩa; thông số kỹ thuật không thể 'bắt đầu'." }
+          ],
+          "hint": "Câu trước: 'A parking garage will also be added'. Câu [134] = '[?] will begin on that project sometime in June'. Điều gì bắt đầu khi làm một công trình xây dựng?",
+          "translation": "Câu 134: [?] sẽ bắt đầu cho dự án đó vào khoảng tháng 6."
+        }
+      ]
+    },
+    {
+      "id": "bt2-p2",
+      "passageNumber": 2,
+      "questionRange": "135-138",
+      "passageType": "Article",
+      "passageTitle": "To the Seas — Edenton Maritime Museum",
+      "passage": "Model Boats at the Edenton Maritime Museum\n\nFrom August 1 to August 31, the Edenton Maritime Museum will host To the Seas. This [135] features model boats crafted to a high degree of accuracy to their real-life counterparts. It also educates visitors about the fragility of sailors and how their safety relies [136] their understanding of and respect for the sea. Those who visit the museum [137] the new self-guided audio tour equipment. [138]. To the Seas is included in the regular price of museum admission.",
+      "questions": [
+        {
+          "id": 135,
+          "blankPosition": 135,
+          "blankLabel": "[135]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) exhibit", "isCorrect": true, "rationale": "'exhibit' (triển lãm) — phù hợp hoàn toàn. 'This exhibit features model boats' = Triển lãm này trưng bày các mô hình tàu. Phù hợp với ngữ cảnh bảo tàng." },
+            { "text": "(B) essay", "isCorrect": false, "rationale": "'essay' (bài luận) — không phù hợp vì bài luận không 'trưng bày mô hình tàu'." },
+            { "text": "(C) award", "isCorrect": false, "rationale": "'award' (giải thưởng) — không thể 'feature model boats' theo nghĩa trưng bày." },
+            { "text": "(D) tournament", "isCorrect": false, "rationale": "'tournament' (giải đấu) — không phù hợp ngữ cảnh triển lãm bảo tàng." }
+          ],
+          "hint": "Bảo tàng đang 'host' một sự kiện có các mô hình tàu. Loại sự kiện nào trong bảo tàng 'trưng bày' (feature) các vật phẩm?",
+          "translation": "Câu 135: [?] này trưng bày các mô hình tàu được chế tác với độ chính xác cao so với các đối tác thực tế."
+        },
+        {
+          "id": 136,
+          "blankPosition": 136,
+          "blankLabel": "[136]",
+          "questionType": "preposition",
+          "answerOptions": [
+            { "text": "(A) on", "isCorrect": true, "rationale": "Collocation chuẩn: 'rely on something/someone' = dựa vào/phụ thuộc vào. 'Safety relies on their understanding' = sự an toàn phụ thuộc vào sự hiểu biết của họ. Đây là giới từ bắt buộc sau 'rely'." },
+            { "text": "(B) with", "isCorrect": false, "rationale": "'rely with' — không phải collocation đúng. 'Rely' chỉ đi với 'on'." },
+            { "text": "(C) into", "isCorrect": false, "rationale": "'rely into' — không tồn tại trong tiếng Anh." },
+            { "text": "(D) as", "isCorrect": false, "rationale": "'rely as' — sai, không phải collocation đúng với 'rely'." }
+          ],
+          "hint": "Verb + preposition collocation: 'rely ___ something'. Chỉ có một giới từ duy nhất đi cùng với 'rely'.",
+          "translation": "Câu 136: Sự an toàn của họ phụ thuộc [?] sự hiểu biết và tôn trọng biển cả."
+        },
+        {
+          "id": 137,
+          "blankPosition": 137,
+          "blankLabel": "[137]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) are also trying", "isCorrect": false, "rationale": "Thì tiến hành — dùng cho hành động đang diễn ra TẠI thời điểm nói. Bài viết mô tả chương trình chưa diễn ra (August 1-31), không phải đang xảy ra." },
+            { "text": "(B) also tried", "isCorrect": false, "rationale": "Thì quá khứ đơn — chương trình này sẽ diễn ra trong tương lai (từ 1/8 đến 31/8), không phải đã xảy ra." },
+            { "text": "(C) have also tried", "isCorrect": false, "rationale": "Thì hiện tại hoàn thành — không phù hợp vì sự kiện chưa diễn ra (sẽ diễn ra từ tháng 8)." },
+            { "text": "(D) can also try", "isCorrect": true, "rationale": "'can also try' = cũng có thể thử/sử dụng — phù hợp vì đây là gợi ý/khả năng dành cho khách tham quan trong tương lai. Phù hợp với thì tương lai của chương trình." }
+          ],
+          "hint": "Triển lãm diễn ra từ tháng 8, nghĩa là chưa xảy ra. Khách tham quan 'sẽ có thể' làm gì khi đến bảo tàng?",
+          "translation": "Câu 137: Những người đến thăm bảo tàng [?] thiết bị tour âm thanh tự hướng dẫn mới."
+        },
+        {
+          "id": 138,
+          "blankPosition": 138,
+          "blankLabel": "[138]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) Experienced and friendly guides are welcome to apply.", "isCorrect": false, "rationale": "Thông tin tuyển dụng hướng dẫn viên — lạc đề hoàn toàn với nội dung trải nghiệm khách tham quan." },
+            { "text": "(B) The closure is expected to be temporary.", "isCorrect": false, "rationale": "Đề cập đến việc đóng cửa — không có bối cảnh nào trong đoạn văn đề cập đến việc đóng cửa." },
+            { "text": "(C) Fortunately, the volunteers are very dedicated.", "isCorrect": false, "rationale": "Đề cập đến tình nguyện viên — không liên quan đến trải nghiệm audio tour của khách." },
+            { "text": "(D) Explore each display at your own pace.", "isCorrect": true, "rationale": "Câu trước: khách có thể dùng thiết bị audio tour tự hướng dẫn. Câu này khuyến khích: 'khám phá mỗi gian trưng bày theo tốc độ của mình' — nhất quán hoàn toàn với ý tưởng 'self-guided tour'." }
+          ],
+          "hint": "Câu [138] đứng sau 'self-guided audio tour equipment'. 'Self-guided' có nghĩa là gì? Câu tiếp theo phải khuyến khích điều gì phù hợp với trải nghiệm tự hướng dẫn đó?",
+          "translation": "Câu 138: Điền câu phù hợp sau thông tin về thiết bị audio tour tự hướng dẫn."
+        }
+      ]
+    },
+    {
+      "id": "bt2-p3",
+      "passageNumber": 3,
+      "questionRange": "139-142",
+      "passageType": "E-mail",
+      "passageTitle": "Pitch Meeting Reschedule",
+      "passage": "To: Miyo Kudo <kudom@sebssoaps.com>\nFrom: Sebastian Beneventi <sebastian@applinghealth.com>\nDate: July 2\nSubject: Pitch meeting\n\nDear Ms. Kudo,\n\nI have disappointing news about the sales pitch meeting planned for July 12 to discuss your handmade soaps. We must reschedule this [139] because of other work obligations. Our team has decided to attend the Westbury Trade Fair, so all of our time and effort must be devoted to this [140] event. [141]. We believe your soaps would complement our current inventory well. The trade fair will take place on July 25, so I plan to [142] with you after that. I apologize for any inconvenience this may cause.\n\nSincerely,\nSebastian Beneventi\nPurchasing Director, Appling Health",
+      "questions": [
+        {
+          "id": 139,
+          "blankPosition": 139,
+          "blankLabel": "[139]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) appointment", "isCorrect": true, "rationale": "'reschedule this appointment' = dời lịch hẹn này — phù hợp hoàn toàn. 'Sales pitch meeting' là một loại 'appointment' (cuộc hẹn/lịch hẹn về kinh doanh). Collocation chuẩn: 'reschedule an appointment'." },
+            { "text": "(B) performance", "isCorrect": false, "rationale": "'reschedule a performance' = dời buổi biểu diễn — không phù hợp ngữ cảnh buổi thuyết trình bán hàng." },
+            { "text": "(C) reservation", "isCorrect": false, "rationale": "'reschedule a reservation' = dời đặt chỗ/đặt phòng — thường dùng cho nhà hàng/khách sạn, không phù hợp với cuộc họp kinh doanh." },
+            { "text": "(D) rehearsal", "isCorrect": false, "rationale": "'reschedule a rehearsal' = dời buổi tập dượt — dùng cho biểu diễn nghệ thuật, không liên quan đến sales meeting." }
+          ],
+          "hint": "Một 'sales pitch meeting' được hoạch định trước — dời nó lại có nghĩa là dời... gì? Tìm từ đồng nghĩa tổng quát nhất với 'cuộc hẹn kinh doanh đã lên lịch'.",
+          "translation": "Câu 139: Chúng tôi phải dời lại [?] này vì các nghĩa vụ công việc khác."
+        },
+        {
+          "id": 140,
+          "blankPosition": 140,
+          "blankLabel": "[140]",
+          "questionType": "word-form",
+          "answerOptions": [
+            { "text": "(A) critically", "isCorrect": false, "rationale": "'critically' là trạng từ — không phù hợp trước danh từ 'event'. Cần tính từ." },
+            { "text": "(B) critical", "isCorrect": true, "rationale": "'this critical event' = sự kiện quan trọng này — tính từ bổ nghĩa cho danh từ 'event'. 'Critical' = cực kỳ quan trọng, quyết định. Phù hợp với việc cả nhóm phải dốc toàn lực cho hội chợ này." },
+            { "text": "(C) critic", "isCorrect": false, "rationale": "'critic' là danh từ (nhà phê bình) — không đứng trước danh từ 'event' như một tính từ." },
+            { "text": "(D) criticize", "isCorrect": false, "rationale": "'criticize' là động từ — không đứng trước danh từ." }
+          ],
+          "hint": "Cần từ bổ nghĩa cho danh từ 'event'. Loại từ nào đứng trước danh từ trong tiếng Anh? Kiểm tra các dạng biến thể của từ gốc 'critic'.",
+          "translation": "Câu 140: Tất cả thời gian và công sức của chúng tôi phải được dành cho sự kiện [?] này."
+        },
+        {
+          "id": 141,
+          "blankPosition": 141,
+          "blankLabel": "[141]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) Everyone thought you made a lot of excellent points.", "isCorrect": false, "rationale": "Đề cập đến một cuộc họp trước — nhưng cuộc họp với Ms. Kudo (July 12) bị hủy, chưa diễn ra, nên câu này mâu thuẫn với ngữ cảnh." },
+            { "text": "(B) It takes a long time to prepare some sample goods.", "isCorrect": false, "rationale": "Nói về chuẩn bị mẫu hàng — không liên quan đến việc giải thích tại sao vẫn quan tâm đến sản phẩm của Ms. Kudo." },
+            { "text": "(C) As we discussed, previous experience is required.", "isCorrect": false, "rationale": "Nói về kinh nghiệm yêu cầu — lạc đề, không liên quan đến xà phòng handmade của Ms. Kudo." },
+            { "text": "(D) However, we are still very interested in your product line.", "isCorrect": true, "rationale": "'However' tạo sự chuyển tiếp tương phản sau tin xấu (phải dời lịch). Câu này thể hiện sự quan tâm vẫn còn — dẫn vào 'We believe your soaps would complement our inventory'. Logic hoàn hảo." }
+          ],
+          "hint": "Email mang 'tin xấu' (hủy lịch). Câu [141] phải giảm nhẹ tin xấu đó và giữ quan hệ tích cực với Ms. Kudo. Từ nào ở đầu câu thể hiện sự tương phản (nhưng vẫn...)?",
+          "translation": "Câu 141: Điền câu thể hiện sự quan tâm tích cực để giảm nhẹ thông báo hủy lịch."
+        },
+        {
+          "id": 142,
+          "blankPosition": 142,
+          "blankLabel": "[142]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) agree", "isCorrect": false, "rationale": "'plan to agree with you' = có kế hoạch đồng ý với bạn — không có nghĩa trong ngữ cảnh lên lịch gặp lại sau hội chợ." },
+            { "text": "(B) reconnect", "isCorrect": true, "rationale": "'plan to reconnect with you after that' = có kế hoạch liên lạc lại/gặp lại bạn sau đó — phù hợp hoàn toàn. 'Reconnect' = kết nối lại sau gián đoạn. Nhất quán với việc phải hoãn cuộc họp ban đầu." },
+            { "text": "(C) compete", "isCorrect": false, "rationale": "'plan to compete with you' = cạnh tranh với bạn — nghĩa trái ngược với mục tiêu của email (muốn hợp tác kinh doanh)." },
+            { "text": "(D) sympathize", "isCorrect": false, "rationale": "'plan to sympathize with you' = có kế hoạch cảm thông với bạn — không phù hợp ngữ cảnh kinh doanh." }
+          ],
+          "hint": "Sebastian phải hủy cuộc họp nhưng muốn xếp lịch lại. 'plan to ___ with you after the trade fair' — động từ nào thể hiện ý muốn liên lạc/gặp lại sau một gián đoạn?",
+          "translation": "Câu 142: Hội chợ thương mại sẽ diễn ra vào ngày 25 tháng 7, vì vậy tôi có kế hoạch [?] với bạn sau đó."
+        }
+      ]
+    },
+    {
+      "id": "bt2-p4",
+      "passageNumber": 4,
+      "questionRange": "143-146",
+      "passageType": "Press release",
+      "passageTitle": "Kerwyn Mart Goes 24-Hour",
+      "passage": "WELLINGTON (12 September)—Kerwyn Mart is planning to abandon its 10 P.M. closing time and adopt a 24-hour opening schedule. The [143] hours are set to begin from 1 October. Many customers [144] the change very convenient, especially those who work irregular hours or who need essential items unexpectedly. \"We are excited about having more chances to serve our customers,\" said Kerwyn Mart spokesperson Paul Yates. \"[145], this will create employment opportunities, as we need to hire several new workers for the checkout area. The store's lighting and heating are already kept on around the clock for security reasons and for the comfort of our shelf-stocking team. [146].\"",
+      "questions": [
+        {
+          "id": 143,
+          "blankPosition": 143,
+          "blankLabel": "[143]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) insignificant", "isCorrect": false, "rationale": "'insignificant hours' = giờ không đáng kể — nghĩa tiêu cực, không phù hợp khi mô tả giờ mở cửa 24/7 là sự thay đổi tích cực." },
+            { "text": "(B) historic", "isCorrect": false, "rationale": "'historic hours' = giờ lịch sử — có thể gần đúng nhưng quá mạnh, và quan trọng hơn, không tự nhiên khi đặt trước 'hours' để mô tả lịch trình mới." },
+            { "text": "(C) cleaner", "isCorrect": false, "rationale": "'cleaner hours' = giờ sạch hơn — không có nghĩa trong ngữ cảnh này." },
+            { "text": "(D) longer", "isCorrect": true, "rationale": "'the longer hours' = giờ dài hơn — phù hợp chính xác. Siêu thị đang mở rộng giờ từ đóng cửa 10 PM thành mở 24/7, tức là giờ mở cửa DÀI HƠN đáng kể." }
+          ],
+          "hint": "Siêu thị chuyển từ đóng cửa lúc 10 PM sang mở cửa 24 giờ. Giờ mới này như thế nào so với giờ cũ?",
+          "translation": "Câu 143: Giờ [?] dự kiến bắt đầu từ ngày 1 tháng 10."
+        },
+        {
+          "id": 144,
+          "blankPosition": 144,
+          "blankLabel": "[144]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) had found", "isCorrect": false, "rationale": "Thì quá khứ hoàn thành — dùng cho hành động xảy ra TRƯỚC một thời điểm quá khứ khác. Không phù hợp vì sự thay đổi chưa xảy ra." },
+            { "text": "(B) found", "isCorrect": false, "rationale": "Thì quá khứ đơn — sự thay đổi chưa diễn ra (bắt đầu từ 1/10), khách hàng chưa thể 'đã thấy' tiện lợi được." },
+            { "text": "(C) has been finding", "isCorrect": false, "rationale": "Thì hiện tại hoàn thành tiến hành — không tự nhiên; thường dùng cho hành động đang diễn ra nhưng ngữ cảnh mang tính dự đoán tương lai." },
+            { "text": "(D) will find", "isCorrect": true, "rationale": "'Many customers will find the change very convenient' = nhiều khách hàng sẽ thấy sự thay đổi này rất tiện lợi. Phù hợp vì đây là dự đoán về tương lai — giờ mở cửa mới bắt đầu từ 1/10, chưa xảy ra." }
+          ],
+          "hint": "Sự thay đổi giờ mở cửa sẽ bắt đầu từ ngày 1/10 — đây là sự kiện trong TƯƠNG LAI. Thì nào phù hợp để nói về phản ứng của khách hàng đối với sự thay đổi chưa xảy ra?",
+          "translation": "Câu 144: Nhiều khách hàng [?] sự thay đổi này rất thuận tiện."
+        },
+        {
+          "id": 145,
+          "blankPosition": 145,
+          "blankLabel": "[145]",
+          "questionType": "conjunction",
+          "answerOptions": [
+            { "text": "(A) Nonetheless", "isCorrect": false, "rationale": "'Nonetheless' = tuy nhiên/mặc dù vậy — dùng khi câu sau đưa ra ý tương phản, nhưng đây là thêm lợi ích tích cực, không có sự tương phản." },
+            { "text": "(B) For example", "isCorrect": false, "rationale": "'For example' = ví dụ — câu về cơ hội việc làm là thêm lợi ích bổ sung, không phải ví dụ cụ thể của câu trước." },
+            { "text": "(C) At the same time", "isCorrect": true, "rationale": "'At the same time' = đồng thời — thêm thông tin bổ sung song song (cả hai đều là tích cực): vừa phục vụ khách hàng tốt hơn, vừa tạo việc làm. Cách nối tự nhiên nhất ở đây." },
+            { "text": "(D) If not", "isCorrect": false, "rationale": "'If not' = nếu không — tạo ra điều kiện phủ định, không phù hợp với ý muốn thêm lợi ích tích cực." }
+          ],
+          "hint": "Câu trước: phục vụ khách hàng tốt hơn. Câu sau: tạo thêm việc làm. Hai ý này có mối quan hệ gì? Cần từ nối thể hiện 'thêm vào đó' hay 'đồng thời'?",
+          "translation": "Câu 145: '[?], điều này sẽ tạo ra cơ hội việc làm, vì chúng tôi cần tuyển thêm một số nhân viên mới cho khu vực thanh toán.'"
+        },
+        {
+          "id": 146,
+          "blankPosition": 146,
+          "blankLabel": "[146]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) We hope to prevent this from happening again.", "isCorrect": false, "rationale": "Đề cập đến 'this' (điều này) — không rõ chỉ đến điều gì trong ngữ cảnh, và không liên quan đến thông tin về điện/sưởi ấm trước đó." },
+            { "text": "(B) Several people are being considered for promotion.", "isCorrect": false, "rationale": "Nói về thăng chức — không liên quan đến chi phí tiện ích hay mở cửa 24/7." },
+            { "text": "(C) So, this is not expected to greatly increase our utility expenses.", "isCorrect": true, "rationale": "Câu trước đề cập đến đèn và sưởi ấm đã được bật 24/24 rồi. Câu này rút ra kết luận tự nhiên: vì thế, mở cửa 24/7 sẽ KHÔNG tăng thêm nhiều chi phí điện/gas. 'So' tạo kết luận logic hoàn hảo." },
+            { "text": "(D) Otherwise, the store layout would have to be changed.", "isCorrect": false, "rationale": "'Otherwise' = nếu không thì — không có điều kiện nào được nêu trước để tạo ra sự tương phản này." }
+          ],
+          "hint": "Câu trước: 'đèn và sưởi đã bật 24/24'. Câu [146] phải rút ra kết luận từ thông tin đó liên quan đến việc mở cửa 24 giờ. Chi phí điện/sưởi có thay đổi không?",
+          "translation": "Câu 146: Điền câu kết luận logic từ thông tin về đèn và sưởi đã được bật sẵn 24/24."
+        }
+      ]
+    }
+  ]
+}

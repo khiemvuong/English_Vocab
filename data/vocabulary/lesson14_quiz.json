@@ -1,0 +1,235 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 14",
+  "questions": [
+    {
+      "question": "Nhà quản lý cần 'maintain /meɪnˈteɪn/ high-quality standards'. 'Maintain' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Nâng cao lên mức tốt hơn", "isCorrect": false, "rationale": "Nâng cao là 'improve' hoặc 'enhance'." },
+        { "text": "Duy trì / giữ ở mức hiện tại", "isCorrect": true, "rationale": "Maintain = giữ cho điều gì đó tiếp tục ở mức hoặc trạng thái hiện tại." },
+        { "text": "Xem xét và điều chỉnh lại", "isCorrect": false, "rationale": "Xem xét điều chỉnh là 'review and adjust'." },
+        { "text": "Loại bỏ những tiêu chuẩn không phù hợp", "isCorrect": false, "rationale": "Loại bỏ là 'eliminate' hoặc 'remove'." }
+      ],
+      "hint": "Từ đồng nghĩa: preserve, keep up, sustain."
+    },
+    {
+      "question": "Dự án gặp phải 'complications /ˌkɒmplɪˈkeɪʃənz/'. 'Complication' là gì?",
+      "answerOptions": [
+        { "text": "Sự phức tạp / rắc rối phát sinh", "isCorrect": true, "rationale": "Complication = vấn đề hoặc khó khăn bất ngờ khiến mọi thứ trở nên khó xử lý hơn." },
+        { "text": "Yêu cầu bổ sung từ khách hàng", "isCorrect": false, "rationale": "Yêu cầu bổ sung là 'additional requirements'." },
+        { "text": "Ngân sách tăng thêm cho dự án", "isCorrect": false, "rationale": "Ngân sách tăng thêm là 'additional budget' hoặc 'budget increase'." },
+        { "text": "Kế hoạch dự phòng trong tình huống xấu", "isCorrect": false, "rationale": "Kế hoạch dự phòng là 'contingency plan'." }
+      ],
+      "hint": "Từ đồng nghĩa: difficulty, obstacle, problem."
+    },
+    {
+      "question": "'Please bring this matter /ˈmætər/ to my attention.' 'Matter' trong câu này nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Vấn đề / sự việc cần xử lý", "isCorrect": true, "rationale": "Matter (danh từ) = một vấn đề hoặc sự việc đang được đề cập hoặc cần chú ý." },
+        { "text": "Chất liệu / vật liệu cụ thể", "isCorrect": false, "rationale": "Chất liệu là 'material'. Đây là nghĩa vật lý, không phù hợp ngữ cảnh này." },
+        { "text": "Tài liệu quan trọng cần ký duyệt", "isCorrect": false, "rationale": "Tài liệu cần ký duyệt là 'documents for approval'." },
+        { "text": "Sự kiện sắp diễn ra trong tuần", "isCorrect": false, "rationale": "Sự kiện sắp diễn ra là 'upcoming event'." }
+      ],
+      "hint": "Từ đồng nghĩa: issue, subject, concern."
+    },
+    {
+      "question": "Nhân viên cần 'pay close attention /əˈtenʃən/ to the safety guidelines'. 'Attention' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Sự chú ý / tập trung vào điều gì đó", "isCorrect": true, "rationale": "Attention = hành động hoặc trạng thái tập trung tư duy và nhận thức vào một điều gì đó." },
+        { "text": "Sự phê duyệt chính thức từ cấp trên", "isCorrect": false, "rationale": "Phê duyệt là 'approval' hoặc 'sign-off'." },
+        { "text": "Sự vắng mặt không báo trước", "isCorrect": false, "rationale": "Vắng mặt là 'absence' hoặc 'no-show'." },
+        { "text": "Sự khen thưởng vì thành tích xuất sắc", "isCorrect": false, "rationale": "Khen thưởng là 'recognition' hoặc 'reward'." }
+      ],
+      "hint": "Cụm quen: 'pay attention', 'bring to someone's attention'."
+    },
+    {
+      "question": "Lễ trao giải sẽ được tổ chức tại 'the annual banquet /ˈbæŋkwɪt/'. 'Banquet' là gì?",
+      "answerOptions": [
+        { "text": "Tiệc lớn / yến tiệc trang trọng", "isCorrect": true, "rationale": "Banquet = bữa tiệc trang trọng, thường có nhiều người tham dự và được tổ chức quy mô." },
+        { "text": "Cuộc họp báo thường niên", "isCorrect": false, "rationale": "Họp báo là 'press conference'." },
+        { "text": "Hội thảo chuyên đề nội bộ", "isCorrect": false, "rationale": "Hội thảo nội bộ là 'internal seminar' hoặc 'workshop'." },
+        { "text": "Buổi đào tạo kỹ năng cho nhân viên", "isCorrect": false, "rationale": "Đào tạo kỹ năng là 'skills training session'." }
+      ],
+      "hint": "Cụm quen: 'awards banquet', 'banquet room', 'banquet hall'."
+    },
+    {
+      "question": "Nhà hàng 'cater /ˈkeɪtər/ business lunches for local companies'. 'Cater' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Cung cấp dịch vụ ăn uống / phục vụ tiệc", "isCorrect": true, "rationale": "Cater = chuẩn bị và phục vụ thức ăn cho sự kiện hoặc tổ chức theo đơn đặt hàng." },
+        { "text": "Đặt phòng hội nghị trước cho khách", "isCorrect": false, "rationale": "Đặt phòng hội nghị là 'book a conference room'." },
+        { "text": "Tổ chức sự kiện khai trương cho khách hàng", "isCorrect": false, "rationale": "Tổ chức sự kiện là 'organize/host an event'." },
+        { "text": "Tư vấn thực đơn cho nhà bếp nội bộ", "isCorrect": false, "rationale": "Tư vấn thực đơn là 'advise on the menu'." }
+      ],
+      "hint": "Cater = provide food service. Người làm là 'caterer'."
+    },
+    {
+      "question": "CEO được thuê để 'oversee /ˌəʊvəˈsiː/ the marketing team'. 'Oversee' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Giám sát / quản lý tổng thể", "isCorrect": true, "rationale": "Oversee = có trách nhiệm theo dõi và quản lý để đảm bảo công việc diễn ra đúng hướng." },
+        { "text": "Tham gia trực tiếp thực hiện công việc", "isCorrect": false, "rationale": "Tham gia thực hiện là 'directly participate in doing the work'." },
+        { "text": "Tự mình viết toàn bộ nội dung marketing", "isCorrect": false, "rationale": "Tự viết nội dung là 'personally create all marketing content'." },
+        { "text": "Tuyển dụng thêm nhân viên cho nhóm", "isCorrect": false, "rationale": "Tuyển thêm nhân viên là 'recruit additional team members'." }
+      ],
+      "hint": "Từ đồng nghĩa: supervise, manage, direct."
+    },
+    {
+      "question": "Khách sạn cung cấp 'a free shuttle bus /ˈʃʌtl bʌs/ between the airport and the hotel'. 'Shuttle bus' là gì?",
+      "answerOptions": [
+        { "text": "Dịch vụ taxi riêng theo yêu cầu", "isCorrect": false, "rationale": "Taxi riêng là 'private taxi' hoặc 'on-demand car service'." },
+        { "text": "Xe buýt trung chuyển chạy tuyến cố định", "isCorrect": true, "rationale": "Shuttle bus = xe buýt chạy đi lại giữa hai điểm cố định, thường miễn phí hoặc giá thấp." },
+        { "text": "Xe limousine thuê cho khách VIP", "isCorrect": false, "rationale": "Xe limousine là 'limousine service' dành cho khách cao cấp." },
+        { "text": "Tàu điện ngầm nối sân bay với trung tâm", "isCorrect": false, "rationale": "Tàu điện ngầm sân bay là 'airport metro/subway link'." }
+      ],
+      "hint": "Shuttle = đi lại giữa hai điểm. Bus = xe buýt. Shuttle bus chạy tuyến cố định."
+    },
+    {
+      "question": "'Please proceed to Terminal /ˈtɜːmɪnəl/ 2 for your flight.' 'Terminal' trong sân bay là gì?",
+      "answerOptions": [
+        { "text": "Nhà ga / khu vực khởi hành của sân bay", "isCorrect": true, "rationale": "Terminal = khu nhà ga trong sân bay, nơi hành khách làm thủ tục và lên máy bay." },
+        { "text": "Máy tính bảng kiểm tra vé tự động", "isCorrect": false, "rationale": "Máy kiểm tra vé là 'check-in kiosk' hoặc 'self-service terminal'." },
+        { "text": "Cổng an ninh của sân bay", "isCorrect": false, "rationale": "Cổng an ninh là 'security checkpoint' hoặc 'security gate'." },
+        { "text": "Bãi đỗ xe dành cho hành khách", "isCorrect": false, "rationale": "Bãi đỗ xe là 'parking lot' hoặc 'car park'." }
+      ],
+      "hint": "Cụm quen: 'Terminal 1', 'departure terminal', 'arrival terminal'."
+    },
+    {
+      "question": "'Travel expenses /ɪkˈspens/ must be submitted with receipts.' 'Expense' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Chi phí / khoản tiền phải bỏ ra", "isCorrect": true, "rationale": "Expense = khoản tiền được chi ra để thực hiện công việc hoặc hoạt động nào đó." },
+        { "text": "Doanh thu từ hoạt động kinh doanh", "isCorrect": false, "rationale": "Doanh thu là 'revenue' hoặc 'income', tiền thu vào." },
+        { "text": "Khoản lợi nhuận sau thuế", "isCorrect": false, "rationale": "Lợi nhuận sau thuế là 'net profit after tax'." },
+        { "text": "Khoản đầu tư dài hạn của công ty", "isCorrect": false, "rationale": "Đầu tư dài hạn là 'long-term investment'." }
+      ],
+      "hint": "Từ đồng nghĩa: cost, expenditure. Cụm quen: 'travel expenses', 'out-of-pocket expenses'."
+    },
+    {
+      "question": "'You can borrow /ˈbɒrəʊ/ office supplies from the storage room.' 'Borrow' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Mượn / dùng tạm và phải trả lại", "isCorrect": true, "rationale": "Borrow = dùng tạm thứ gì đó với ý định sẽ trả lại sau." },
+        { "text": "Mua sẵn để dùng lâu dài", "isCorrect": false, "rationale": "Mua để dùng lâu dài là 'purchase for long-term use'." },
+        { "text": "Cho người khác mượn", "isCorrect": false, "rationale": "Cho mượn là 'lend', trái chiều với borrow." },
+        { "text": "Đặt mua thêm từ nhà cung cấp", "isCorrect": false, "rationale": "Đặt mua thêm là 'order more from the supplier'." }
+      ],
+      "hint": "Borrow (mượn) ↔ Lend (cho mượn). Borrow = take temporarily."
+    },
+    {
+      "question": "Ứng viên nhớ gửi kèm 'a cover letter /ˈkʌvər ˌletər/' cùng hồ sơ. 'Cover letter' là gì?",
+      "answerOptions": [
+        { "text": "Thư xin việc / thư giới thiệu bản thân", "isCorrect": true, "rationale": "Cover letter = bức thư gửi kèm CV, trong đó ứng viên tự giới thiệu và giải thích lý do ứng tuyển." },
+        { "text": "Bằng chứng kinh nghiệm làm việc", "isCorrect": false, "rationale": "Bằng chứng kinh nghiệm là 'proof of experience' hoặc 'work certificate'." },
+        { "text": "Thư tham khảo từ nhà tuyển dụng cũ", "isCorrect": false, "rationale": "Thư tham khảo là 'reference letter'." },
+        { "text": "Bảng tóm tắt năng lực cá nhân", "isCorrect": false, "rationale": "Bảng tóm tắt năng lực là gần với CV hoặc 'resume'." }
+      ],
+      "hint": "Gửi kèm CV khi 'apply for a job'. Là bức thư tự giới thiệu."
+    },
+    {
+      "question": "Cô ấy được 'recognize /ˈrekəɡnaɪz/ for her outstanding performance'. 'Recognize' ở đây nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Công nhận / ghi nhận đóng góp hoặc thành tích", "isCorrect": true, "rationale": "Recognize = chính thức thừa nhận và ghi nhận thành tích, năng lực của ai đó." },
+        { "text": "Nhận ra ai đó từ lần gặp trước", "isCorrect": false, "rationale": "Đây là nghĩa nhận dạng khuôn mặt, không phù hợp ngữ cảnh thành tích." },
+        { "text": "Từ chối ghi nhận do thiếu bằng chứng", "isCorrect": false, "rationale": "Từ chối là 'refuse to acknowledge'." },
+        { "text": "Thăng chức và tăng lương", "isCorrect": false, "rationale": "Thăng chức là 'promote', tăng lương là 'give a raise'. Recognize có thể dẫn đến điều đó nhưng không đồng nghĩa." }
+      ],
+      "hint": "Từ đồng nghĩa: acknowledge, honor, commend."
+    },
+    {
+      "question": "Công ty 'advertise /ˈædvətaɪz/ a new job opening'. 'Advertise' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Quảng cáo / công bố rộng rãi", "isCorrect": true, "rationale": "Advertise = truyền thông hoặc thông báo để nhiều người biết về sản phẩm, dịch vụ, hay thông tin." },
+        { "text": "Tuyển dụng trực tiếp qua giới thiệu nội bộ", "isCorrect": false, "rationale": "Tuyển nội bộ là 'internal referral hiring'." },
+        { "text": "Đóng vị trí tuyển dụng vì không có ứng viên", "isCorrect": false, "rationale": "Đóng tuyển dụng là 'close the job opening'." },
+        { "text": "Phỏng vấn tất cả hồ sơ đã nhận", "isCorrect": false, "rationale": "Phỏng vấn tất cả là 'interview all applicants'." }
+      ],
+      "hint": "Từ đồng nghĩa: promote, publicize, market."
+    },
+    {
+      "question": "Trường 'community college /kəˌmjuːnəti ˈkɒlɪdʒ/' cung cấp nhiều khóa học kinh doanh. Đây là gì?",
+      "answerOptions": [
+        { "text": "Đại học nghiên cứu hàng đầu", "isCorrect": false, "rationale": "Đại học nghiên cứu là 'research university'." },
+        { "text": "Cao đẳng cộng đồng / trường học địa phương giá phải chăng", "isCorrect": true, "rationale": "Community college = trường cao đẳng phục vụ cộng đồng địa phương, học phí thấp, thường cấp bằng 2 năm." },
+        { "text": "Trung tâm đào tạo doanh nghiệp tư nhân", "isCorrect": false, "rationale": "Trung tâm đào tạo tư nhân là 'private training center'." },
+        { "text": "Trường nội trú quốc tế cho sinh viên", "isCorrect": false, "rationale": "Trường nội trú quốc tế là 'international boarding school'." }
+      ],
+      "hint": "Còn gọi là 'junior college'. Phục vụ học sinh địa phương với chi phí thấp."
+    },
+    {
+      "question": "Trường đại học vừa mở 'a new campus /ˈkæmpəs/'. 'Campus' là gì?",
+      "answerOptions": [
+        { "text": "Khuôn viên / cơ sở của trường học", "isCorrect": true, "rationale": "Campus = khu đất và các công trình của một trường học hoặc đại học." },
+        { "text": "Chương trình học bổng quốc tế", "isCorrect": false, "rationale": "Học bổng quốc tế là 'international scholarship program'." },
+        { "text": "Hệ thống quản lý học tập trực tuyến", "isCorrect": false, "rationale": "Hệ thống học trực tuyến là 'LMS (Learning Management System)'." },
+        { "text": "Ban giám hiệu và hội đồng trường", "isCorrect": false, "rationale": "Ban giám hiệu là 'school board' hoặc 'academic council'." }
+      ],
+      "hint": "Cụm quen: 'on campus', 'off campus', 'new campus opening'."
+    },
+    {
+      "question": "Khóa học được thiết kế để 'equip /ɪˈkwɪp/ students with business skills'. 'Equip' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Trang bị / cung cấp công cụ hoặc kỹ năng cần thiết", "isCorrect": true, "rationale": "Equip = cung cấp cho ai đó những gì cần thiết để làm điều gì đó hiệu quả." },
+        { "text": "Kiểm tra kiến thức đầu vào của sinh viên", "isCorrect": false, "rationale": "Kiểm tra đầu vào là 'assess/test prior knowledge'." },
+        { "text": "Cấp bằng chứng nhận hoàn thành khóa học", "isCorrect": false, "rationale": "Cấp bằng là 'award a certificate' hoặc 'issue a degree'." },
+        { "text": "Giới thiệu sinh viên với nhà tuyển dụng", "isCorrect": false, "rationale": "Giới thiệu việc làm là 'connect students with employers'." }
+      ],
+      "hint": "Từ đồng nghĩa: provide, furnish, supply (with skills/tools)."
+    },
+    {
+      "question": "Ứng viên được mô tả là 'aspiring /əˈspaɪərɪŋ/ entrepreneurs'. 'Aspiring' mô tả ai?",
+      "answerOptions": [
+        { "text": "Nhà khởi nghiệp thành đạt đã có tiếng", "isCorrect": false, "rationale": "Thành đạt đã có tiếng là 'established' hoặc 'successful'." },
+        { "text": "Người đang kỳ vọng và nỗ lực để trở thành", "isCorrect": true, "rationale": "Aspiring = đang có tham vọng và nỗ lực hướng đến một mục tiêu trong tương lai." },
+        { "text": "Người mới tốt nghiệp chưa có kinh nghiệm", "isCorrect": false, "rationale": "Mới tốt nghiệp là 'fresh graduate' hoặc 'new graduate'." },
+        { "text": "Người đang nghỉ hưu muốn quay lại làm việc", "isCorrect": false, "rationale": "Người nghỉ hưu quay lại là 'returning retiree'." }
+      ],
+      "hint": "Aspiring = hopeful, ambitious. Mong muốn đạt được điều gì trong tương lai."
+    },
+    {
+      "question": "'An entrepreneur /ˌɒntrəprəˈnɜːr/ needs to be resilient.' 'Entrepreneur' là gì?",
+      "answerOptions": [
+        { "text": "Nhân viên văn phòng cấp trung", "isCorrect": false, "rationale": "Nhân viên văn phòng là 'office worker' hoặc 'mid-level employee'." },
+        { "text": "Doanh nhân / người khởi nghiệp kinh doanh", "isCorrect": true, "rationale": "Entrepreneur = người tự khởi nghiệp, chấp nhận rủi ro để tạo ra doanh nghiệp hoặc kinh doanh mới." },
+        { "text": "Nhà đầu tư tài chính chuyên nghiệp", "isCorrect": false, "rationale": "Nhà đầu tư là 'investor', người đặt vốn nhưng không nhất thiết vận hành doanh nghiệp." },
+        { "text": "Chuyên gia tư vấn quản trị doanh nghiệp", "isCorrect": false, "rationale": "Chuyên gia tư vấn là 'management consultant'." }
+      ],
+      "hint": "Cụm quen: 'aspiring entrepreneur', 'serial entrepreneur'. Người khởi nghiệp chấp nhận rủi ro."
+    },
+    {
+      "question": "Chương trình giúp sinh viên 'launch a career /lɔːntʃ ə kəˈrɪər/' trong marketing. Cụm này nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Từ bỏ sự nghiệp hiện tại để chuyển ngành", "isCorrect": false, "rationale": "Chuyển ngành là 'change careers' hoặc 'pivot'." },
+        { "text": "Bắt đầu / khởi đầu sự nghiệp", "isCorrect": true, "rationale": "Launch a career = bắt đầu hành trình sự nghiệp chuyên nghiệp lần đầu tiên." },
+        { "text": "Quay lại làm việc sau thời gian nghỉ ngơi", "isCorrect": false, "rationale": "Quay lại làm việc là 'return to work' hoặc 're-enter the workforce'." },
+        { "text": "Thăng tiến lên vị trí quản lý cấp cao", "isCorrect": false, "rationale": "Thăng tiến là 'advance to a senior management position'." }
+      ],
+      "hint": "Launch = bắt đầu, ra mắt. Launch a career = bắt đầu sự nghiệp."
+    },
+    {
+      "question": "Công ty cung cấp 'a flexible schedule /ˈfleksɪbl ˈʃedjuːl/' cho nhân viên. 'Flexible schedule' là gì?",
+      "answerOptions": [
+        { "text": "Giờ làm cố định từ 9h đến 17h", "isCorrect": false, "rationale": "Giờ làm cố định là 'fixed working hours'." },
+        { "text": "Lịch trình linh hoạt / điều chỉnh được theo nhu cầu", "isCorrect": true, "rationale": "Flexible schedule = lịch làm việc có thể thay đổi hoặc điều chỉnh theo nhu cầu cá nhân." },
+        { "text": "Lịch làm thêm giờ ngoài giờ hành chính", "isCorrect": false, "rationale": "Làm thêm giờ là 'overtime schedule'." },
+        { "text": "Lịch đào tạo hàng tháng bắt buộc tham dự", "isCorrect": false, "rationale": "Đào tạo bắt buộc là 'mandatory training schedule'." }
+      ],
+      "hint": "Flexible = có thể co giãn, thay đổi. Trái nghĩa: rigid/fixed schedule."
+    },
+    {
+      "question": "Người lao động được khuyến khích 'submit a résumé /ˌrezəˈmeɪ/ and cover letter'. 'Résumé' là gì?",
+      "answerOptions": [
+        { "text": "Thư từ chối lời mời phỏng vấn", "isCorrect": false, "rationale": "Từ chối phỏng vấn là 'declining the interview'." },
+        { "text": "Sơ yếu lý lịch / hồ sơ năng lực cá nhân", "isCorrect": true, "rationale": "Résumé (hoặc CV) = tài liệu tóm tắt quá trình học vấn, kinh nghiệm và kỹ năng của ứng viên." },
+        { "text": "Biên bản cuộc họp tuyển dụng", "isCorrect": false, "rationale": "Biên bản họp là 'meeting minutes'." },
+        { "text": "Hợp đồng lao động dự thảo", "isCorrect": false, "rationale": "Hợp đồng lao động là 'employment contract'." }
+      ],
+      "hint": "Cũng gọi là 'CV' (Curriculum Vitae). Gửi kèm cover letter khi xin việc."
+    },
+    {
+      "question": "'Upper management /ˌʌpər ˈmænɪdʒmənt/ will review the proposal.' 'Upper management' là ai?",
+      "answerOptions": [
+        { "text": "Nhân viên mới vào làm việc", "isCorrect": false, "rationale": "Nhân viên mới là 'new employees' hoặc 'new hires'." },
+        { "text": "Ban quản lý cấp cao nhất của tổ chức", "isCorrect": true, "rationale": "Upper management = cấp lãnh đạo cao nhất, bao gồm CEO, CFO, Directors..." },
+        { "text": "Bộ phận nhân sự và tuyển dụng", "isCorrect": false, "rationale": "Bộ phận nhân sự là 'Human Resources department'." },
+        { "text": "Nhóm chuyên gia tư vấn bên ngoài", "isCorrect": false, "rationale": "Chuyên gia tư vấn bên ngoài là 'external consultants'." }
+      ],
+      "hint": "Từ đồng nghĩa: senior executives, top management."
+    }
+  ]
+}

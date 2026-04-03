@@ -9,6 +9,7 @@ import { ScenarioOptionGrid } from "@/components/scenario/ScenarioOptionGrid";
 import { ResultSummary } from "@/components/common/ResultSummary";
 import { QuizHeader } from "@/components/common/QuizHeader";
 import { getDeterministicShuffle } from "@/utils/shuffle";
+import { QuizEngineSkeleton } from "@/components/common/QuizEngineSkeleton";
 
 interface ScenarioEngineProps {
   data: ScenarioData;
@@ -186,7 +187,14 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
                     : "bg-slate-50 text-slate-400 border-slate-200"
                 }`}
               >
-                {isCurrent ? `❓ ${blankData?.hint}` : "______"}
+                {isCurrent ? (
+                  <span className="flex items-center gap-1">
+                    <svg className="w-3.5 h-3.5 text-blue-400 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                    {blankData?.hint}
+                  </span>
+                ) : "______"}
               </span>
             );
           }
@@ -211,7 +219,7 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
     )
   );
 
-  if (!mounted) return null;
+  if (!mounted) return <QuizEngineSkeleton variant="scenario" />;
 
   if (showSummary && previewBlankKey === null) {
     return (

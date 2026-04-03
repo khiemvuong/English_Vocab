@@ -1,0 +1,235 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 11",
+  "questions": [
+    {
+      "question": "Quy định mới 'allow /əˈlaʊ/ employees to work from home on Fridays'. 'Allow' đồng nghĩa với từ nào?",
+      "answerOptions": [
+        { "text": "Forbid (cấm)", "isCorrect": false, "rationale": "Forbid là cấm đoán, trái nghĩa với allow." },
+        { "text": "Permit (cho phép)", "isCorrect": true, "rationale": "Allow = permit. Cả hai đều có nghĩa là cho phép ai đó làm điều gì." },
+        { "text": "Require (yêu cầu bắt buộc)", "isCorrect": false, "rationale": "Require mang nghĩa bắt buộc, khác với allow là trao quyền tự do." },
+        { "text": "Refuse (từ chối)", "isCorrect": false, "rationale": "Refuse là từ chối, trái nghĩa với allow." }
+      ],
+      "hint": "Từ đồng nghĩa: permit, authorize, let."
+    },
+    {
+      "question": "Nhân viên lễ tân cần 'handle /ˈhændl/ customer complaints' một cách chuyên nghiệp. 'Handle' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Bỏ qua / không để ý", "isCorrect": false, "rationale": "Bỏ qua là 'ignore'." },
+        { "text": "Xử lý / giải quyết", "isCorrect": true, "rationale": "Handle = xử lý, giải quyết một vấn đề hoặc tình huống." },
+        { "text": "Ghi chép lại đầy đủ", "isCorrect": false, "rationale": "Ghi chép là 'document' hoặc 'record'." },
+        { "text": "Chuyển tiếp cho bộ phận khác", "isCorrect": false, "rationale": "Chuyển tiếp là 'forward' hoặc 'escalate'." }
+      ],
+      "hint": "Từ đồng nghĩa: manage, deal with, address."
+    },
+    {
+      "question": "Công ty 'claim /kleɪm/' sản phẩm tiết kiệm 30% điện năng. 'Claim' nghĩa là gì trong ngữ cảnh này?",
+      "answerOptions": [
+        { "text": "Thừa nhận sai lầm", "isCorrect": false, "rationale": "Thừa nhận sai lầm là 'admit a mistake'." },
+        { "text": "Khẳng định / tuyên bố", "isCorrect": true, "rationale": "Claim = khẳng định điều gì đó là sự thật, dù chưa chắc đã được chứng minh." },
+        { "text": "Từ chối trách nhiệm", "isCorrect": false, "rationale": "Từ chối trách nhiệm là 'disclaim'." },
+        { "text": "Yêu cầu bồi thường bảo hiểm", "isCorrect": false, "rationale": "Đây là nghĩa khác của claim dùng như danh từ." }
+      ],
+      "hint": "Từ đồng nghĩa: assert, declare, state."
+    },
+    {
+      "question": "'Don't hesitate /ˈhezɪteɪt/ to contact us if you have any questions.' 'Hesitate' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Ngập ngừng / do dự", "isCorrect": true, "rationale": "Hesitate = dừng lại hoặc tỏ ra không chắc chắn trước khi làm điều gì." },
+        { "text": "Vội vàng / hấp tấp", "isCorrect": false, "rationale": "Vội vàng là 'rush', trái nghĩa với hesitate." },
+        { "text": "Từ chối dứt khoát", "isCorrect": false, "rationale": "Từ chối dứt khoát là 'firmly refuse'." },
+        { "text": "Đồng ý ngay lập tức", "isCorrect": false, "rationale": "Đồng ý ngay là 'agree immediately'." }
+      ],
+      "hint": "Từ đồng nghĩa: pause, waver, be reluctant."
+    },
+    {
+      "question": "'The upcoming /ˈʌpˌkʌmɪŋ/ annual conference' yêu cầu toàn bộ nhân viên tham dự. 'Upcoming' mô tả điều gì?",
+      "answerOptions": [
+        { "text": "Đã diễn ra tuần trước", "isCorrect": false, "rationale": "Đã diễn ra là 'past' hoặc 'previous'." },
+        { "text": "Sắp tới / sắp diễn ra", "isCorrect": true, "rationale": "Upcoming = sắp xảy ra trong tương lai gần." },
+        { "text": "Đang diễn ra tại thời điểm này", "isCorrect": false, "rationale": "Đang diễn ra là 'ongoing' hoặc 'current'." },
+        { "text": "Được tổ chức hàng năm", "isCorrect": false, "rationale": "Hàng năm là 'annual'; upcoming chỉ về thời điểm sắp tới." }
+      ],
+      "hint": "Từ đồng nghĩa: forthcoming, approaching."
+    },
+    {
+      "question": "Văn phòng đang 'renovate /ˈrenəveɪt/' toàn bộ tầng 5. 'Renovate' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Phá bỏ hoàn toàn để xây mới", "isCorrect": false, "rationale": "Phá bỏ để xây mới là 'demolish and rebuild'." },
+        { "text": "Cải tạo / nâng cấp không gian cũ", "isCorrect": true, "rationale": "Renovate = sửa chữa và nâng cấp một công trình hiện có cho mới hơn." },
+        { "text": "Dọn dẹp vệ sinh định kỳ", "isCorrect": false, "rationale": "Dọn dẹp là 'clean' hoặc 'tidy up'." },
+        { "text": "Trang trí nội thất bằng đồ mới", "isCorrect": false, "rationale": "Trang trí là 'decorate', nhỏ hơn mức renovate." }
+      ],
+      "hint": "Từ đồng nghĩa: refurbish, remodel, modernize."
+    },
+    {
+      "question": "Nhân viên phải giữ 'personal /ˈpɜːsənl/ items' trong tủ khóa. 'Personal' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Thuộc về công ty", "isCorrect": false, "rationale": "Thuộc về công ty là 'corporate' hoặc 'company property'." },
+        { "text": "Cá nhân / của riêng từng người", "isCorrect": true, "rationale": "Personal = liên quan hoặc thuộc về một cá nhân, không dùng chung." },
+        { "text": "Có giá trị cao / đắt tiền", "isCorrect": false, "rationale": "Đắt tiền là 'expensive' hoặc 'valuable'." },
+        { "text": "Bắt buộc phải mang theo", "isCorrect": false, "rationale": "Bắt buộc là 'mandatory'." }
+      ],
+      "hint": "Từ đồng nghĩa: private, individual."
+    },
+    {
+      "question": "Nhân viên được phép nghỉ 'a short break /breɪk/' giữa giờ làm. 'Break' (danh từ) nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Giờ nghỉ / khoảng dừng ngắn", "isCorrect": true, "rationale": "Break (danh từ) = khoảng thời gian nghỉ ngơi trong quá trình làm việc." },
+        { "text": "Sự cố hỏng hóc thiết bị", "isCorrect": false, "rationale": "Sự cố thiết bị là 'breakdown' hoặc 'malfunction'." },
+        { "text": "Hợp đồng bị chấm dứt sớm", "isCorrect": false, "rationale": "Chấm dứt hợp đồng là 'contract termination'." },
+        { "text": "Ca làm việc buổi sáng", "isCorrect": false, "rationale": "Ca làm việc là 'shift'." }
+      ],
+      "hint": "Cụm quen: 'take a break', 'coffee break', 'lunch break'."
+    },
+    {
+      "question": "Hành khách cần xuất trình 'boarding pass /ˈbɔːdɪŋ pɑːs/' trước khi lên máy bay. Đây là gì?",
+      "answerOptions": [
+        { "text": "Hộ chiếu quốc tế", "isCorrect": false, "rationale": "Hộ chiếu là 'passport'." },
+        { "text": "Thẻ lên máy bay", "isCorrect": true, "rationale": "Boarding pass = vé/thẻ ghi số ghế và cổng boarding, cho phép lên máy bay." },
+        { "text": "Thị thực nhập cảnh", "isCorrect": false, "rationale": "Thị thực là 'visa'." },
+        { "text": "Thẻ thành viên hãng hàng không", "isCorrect": false, "rationale": "Thẻ thành viên là 'frequent flyer card'." }
+      ],
+      "hint": "Bắt buộc khi check-in và boarding tại sân bay."
+    },
+    {
+      "question": "Sản phẩm đến nơi 'in perfect condition /kənˈdɪʃən/'. 'Condition' nghĩa là gì ở đây?",
+      "answerOptions": [
+        { "text": "Điều kiện hợp đồng", "isCorrect": false, "rationale": "Điều kiện hợp đồng là 'contract terms'." },
+        { "text": "Tình trạng / trạng thái", "isCorrect": true, "rationale": "Condition = tình trạng hiện tại của sự vật, xem nó tốt hay xấu." },
+        { "text": "Yêu cầu bắt buộc phải đáp ứng", "isCorrect": false, "rationale": "Đây là nghĩa khác của condition dùng như điều kiện tiên quyết." },
+        { "text": "Môi trường làm việc nói chung", "isCorrect": false, "rationale": "Môi trường làm việc là 'work environment'." }
+      ],
+      "hint": "Cụm quen: 'in good condition', 'in bad condition'."
+    },
+    {
+      "question": "Kỹ sư kiểm tra các 'components /kəmˈpəʊnənt/' của máy trước khi lắp ráp. 'Component' là gì?",
+      "answerOptions": [
+        { "text": "Linh kiện / thành phần", "isCorrect": true, "rationale": "Component = bộ phận cấu thành nên một hệ thống hoặc sản phẩm lớn hơn." },
+        { "text": "Bản vẽ kỹ thuật", "isCorrect": false, "rationale": "Bản vẽ kỹ thuật là 'technical drawing' hoặc 'blueprint'." },
+        { "text": "Hướng dẫn lắp ráp", "isCorrect": false, "rationale": "Hướng dẫn lắp ráp là 'assembly instructions'." },
+        { "text": "Sản phẩm hoàn chỉnh", "isCorrect": false, "rationale": "Sản phẩm hoàn chỉnh là 'finished product'; component là từng phần của nó." }
+      ],
+      "hint": "Từ đồng nghĩa: part, element, piece."
+    },
+    {
+      "question": "Tiệc được tổ chức để chúc mừng 'her retirement /rɪˈtaɪərmənt/'. 'Retirement' có nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Sự thăng chức", "isCorrect": false, "rationale": "Thăng chức là 'promotion'." },
+        { "text": "Sự chuyển công tác", "isCorrect": false, "rationale": "Chuyển công tác là 'transfer'." },
+        { "text": "Sự nghỉ hưu", "isCorrect": true, "rationale": "Retirement = thời điểm một người chính thức ngừng làm việc sau nhiều năm công tác." },
+        { "text": "Sự sa thải không tự nguyện", "isCorrect": false, "rationale": "Sa thải là 'layoff' hoặc 'termination'." }
+      ],
+      "hint": "Cụm quen: 'retirement party', 'early retirement'."
+    },
+    {
+      "question": "Nhân viên 'admit /ədˈmɪt/' đã mắc lỗi trong báo cáo. 'Admit' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Phủ nhận / chối bỏ", "isCorrect": false, "rationale": "Phủ nhận là 'deny', trái nghĩa với admit." },
+        { "text": "Thừa nhận / công nhận sự thật", "isCorrect": true, "rationale": "Admit = thừa nhận điều mình đã làm hoặc một sự thật không dễ chịu." },
+        { "text": "Báo cáo lên cấp trên", "isCorrect": false, "rationale": "Báo cáo là 'report to superiors'." },
+        { "text": "Sửa chữa lỗi ngay lập tức", "isCorrect": false, "rationale": "Sửa lỗi là 'correct the mistake', bước sau khi đã admit." }
+      ],
+      "hint": "Từ đồng nghĩa: confess, acknowledge, concede."
+    },
+    {
+      "question": "Nhân viên vệ sinh thu dọn 'trash /træʃ/' mỗi tối trong văn phòng. 'Trash' là gì?",
+      "answerOptions": [
+        { "text": "Đồ trang trí văn phòng", "isCorrect": false, "rationale": "Đồ trang trí là 'decorations'." },
+        { "text": "Rác / đồ bỏ đi", "isCorrect": true, "rationale": "Trash = rác, những thứ bị vứt bỏ vì không còn dùng nữa." },
+        { "text": "Tài liệu mật cần tiêu hủy", "isCorrect": false, "rationale": "Tài liệu mật là 'confidential documents'." },
+        { "text": "Vật tư văn phòng hỏng", "isCorrect": false, "rationale": "Vật tư hỏng là 'damaged supplies'." }
+      ],
+      "hint": "Từ đồng nghĩa: garbage, rubbish, waste."
+    },
+    {
+      "question": "Hệ thống tự động 'process /ˈprəʊses/ the payment' trong 24 giờ. 'Process' (động từ) nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Hủy bỏ giao dịch", "isCorrect": false, "rationale": "Hủy giao dịch là 'cancel the transaction'." },
+        { "text": "Xử lý / thực hiện các bước cần thiết", "isCorrect": true, "rationale": "Process (động từ) = thực hiện các bước để hoàn thành một việc." },
+        { "text": "Hoàn tiền cho khách hàng", "isCorrect": false, "rationale": "Hoàn tiền là 'refund'." },
+        { "text": "Xác nhận giao dịch bằng văn bản", "isCorrect": false, "rationale": "Xác nhận bằng văn bản là 'confirm in writing'." }
+      ],
+      "hint": "Từ đồng nghĩa: handle, deal with, manage."
+    },
+    {
+      "question": "Nhà hàng cung cấp dịch vụ 'takeout /ˈteɪkaʊt/'. Đây là dịch vụ gì?",
+      "answerOptions": [
+        { "text": "Đặt tiệc lớn cho đoàn khách", "isCorrect": false, "rationale": "Đặt tiệc là 'banquet catering'." },
+        { "text": "Đồ ăn mang đi (không ăn tại chỗ)", "isCorrect": true, "rationale": "Takeout = đồ ăn mua để mang về, không ngồi lại nhà hàng." },
+        { "text": "Giao đồ ăn tận nhà", "isCorrect": false, "rationale": "Giao tận nhà là 'delivery'." },
+        { "text": "Buffet tự phục vụ tại nhà hàng", "isCorrect": false, "rationale": "Buffet tự phục vụ là 'self-service buffet', ăn tại chỗ." }
+      ],
+      "hint": "Cũng gọi là 'carry-out'. Ngược với 'dine-in'."
+    },
+    {
+      "question": "Quản lý yêu cầu nhân viên 'demonstrate /ˈdemənstreɪt/ how to use the software'. 'Demonstrate' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Trình bày / minh họa cụ thể", "isCorrect": true, "rationale": "Demonstrate = cho thấy cách làm điều gì bằng cách thực hành trực tiếp." },
+        { "text": "Đọc thuộc lòng hướng dẫn", "isCorrect": false, "rationale": "Đọc hướng dẫn là 'read the manual'." },
+        { "text": "Viết báo cáo về tính năng", "isCorrect": false, "rationale": "Viết báo cáo là 'write a report'." },
+        { "text": "Từ chối sử dụng phần mềm mới", "isCorrect": false, "rationale": "Từ chối là 'refuse' hoặc 'decline'." }
+      ],
+      "hint": "Từ đồng nghĩa: show, present, illustrate."
+    },
+    {
+      "question": "HR sẽ 'conduct an interview /kənˈdʌkt ən ˈɪntəvjuː/' với ứng viên vào thứ Tư. Cụm này nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Tiến hành / thực hiện buổi phỏng vấn", "isCorrect": true, "rationale": "Conduct an interview = chủ động tổ chức và thực hiện buổi phỏng vấn." },
+        { "text": "Hủy buổi phỏng vấn", "isCorrect": false, "rationale": "Hủy phỏng vấn là 'cancel the interview'." },
+        { "text": "Đăng thông báo tuyển dụng trực tuyến", "isCorrect": false, "rationale": "Đăng tuyển dụng là 'post a job listing'." },
+        { "text": "Đánh giá hồ sơ trước vòng phỏng vấn", "isCorrect": false, "rationale": "Đánh giá hồ sơ là 'screen applications'." }
+      ],
+      "hint": "Conduct = tổ chức và thực hiện. Cụm khác: 'conduct a meeting', 'conduct a survey'."
+    },
+    {
+      "question": "Công ty tuyển 'intern /ˈɪntɜːn/' để hỗ trợ phòng marketing mùa hè. 'Intern' là gì?",
+      "answerOptions": [
+        { "text": "Nhân viên hợp đồng ngắn hạn", "isCorrect": false, "rationale": "Nhân viên hợp đồng là 'contract employee'." },
+        { "text": "Thực tập sinh", "isCorrect": true, "rationale": "Intern = người đang thực tập, thường là sinh viên học việc tại công ty." },
+        { "text": "Nhân viên thử việc chính thức", "isCorrect": false, "rationale": "Nhân viên thử việc là 'probationary employee'." },
+        { "text": "Chuyên gia tư vấn bên ngoài", "isCorrect": false, "rationale": "Chuyên gia tư vấn là 'consultant'." }
+      ],
+      "hint": "Từ đồng nghĩa: trainee, apprentice."
+    },
+    {
+      "question": "Nhân viên 'coworker /ˈkəʊˌwɜːkər/' của Ms. Webster tổ chức tiệc chia tay cho bà. 'Coworker' là gì?",
+      "answerOptions": [
+        { "text": "Đồng nghiệp", "isCorrect": true, "rationale": "Coworker = người cùng làm việc ở cùng công ty hoặc bộ phận." },
+        { "text": "Cấp trên trực tiếp", "isCorrect": false, "rationale": "Cấp trên là 'supervisor' hoặc 'manager'." },
+        { "text": "Khách hàng lâu năm", "isCorrect": false, "rationale": "Khách hàng lâu năm là 'long-term client'." },
+        { "text": "Nhà cung cấp dịch vụ đối tác", "isCorrect": false, "rationale": "Nhà cung cấp là 'vendor' hoặc 'service provider'." }
+      ],
+      "hint": "Từ đồng nghĩa: colleague, fellow worker."
+    },
+    {
+      "question": "Ban quản lý yêu cầu nhân viên 'limit /ˈlɪmɪt/ breaks to 15 minutes'. 'Limit' (động từ) nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Bãi bỏ hoàn toàn giờ nghỉ", "isCorrect": false, "rationale": "Bãi bỏ là 'eliminate'." },
+        { "text": "Tăng thời gian nghỉ theo yêu cầu", "isCorrect": false, "rationale": "Tăng thêm là 'extend' hoặc 'increase'." },
+        { "text": "Giới hạn / hạn chế trong phạm vi nhất định", "isCorrect": true, "rationale": "Limit = đặt ra mức tối đa, không cho vượt quá giới hạn đó." },
+        { "text": "Theo dõi và ghi lại thời gian nghỉ", "isCorrect": false, "rationale": "Theo dõi là 'monitor' hoặc 'track'." }
+      ],
+      "hint": "Từ đồng nghĩa: restrict, cap, control."
+    },
+    {
+      "question": "Nhân viên mới được 'train /treɪn/' 2 tuần trước khi làm độc lập. 'Train' (động từ) nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Đào tạo / huấn luyện", "isCorrect": true, "rationale": "Train = dạy kỹ năng cần thiết để thực hiện công việc." },
+        { "text": "Kiểm tra năng lực trước tuyển dụng", "isCorrect": false, "rationale": "Kiểm tra là 'assess' hoặc 'test'." },
+        { "text": "Theo dõi hiệu suất hằng ngày", "isCorrect": false, "rationale": "Theo dõi là 'monitor performance'." },
+        { "text": "Phân công công việc cho nhóm", "isCorrect": false, "rationale": "Phân công là 'assign tasks'." }
+      ],
+      "hint": "Từ đồng nghĩa: teach, instruct, coach."
+    },
+    {
+      "question": "Nhân viên cũ sẵn sàng 'assist /əˈsɪst/ new colleagues' trong tuần đầu. 'Assist' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Giám sát và kiểm tra công việc", "isCorrect": false, "rationale": "Giám sát là 'supervise' hoặc 'monitor'." },
+        { "text": "Hỗ trợ / giúp đỡ", "isCorrect": true, "rationale": "Assist = giúp đỡ ai đó thực hiện công việc dễ dàng hơn." },
+        { "text": "Đánh giá năng lực nhân viên mới", "isCorrect": false, "rationale": "Đánh giá năng lực là 'assess'." },
+        { "text": "Phân công nhiệm vụ cho nhóm", "isCorrect": false, "rationale": "Phân công là 'assign tasks'." }
+      ],
+      "hint": "Từ đồng nghĩa: help, aid, support."
+    }
+  ]
+}

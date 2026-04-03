@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
-import type { QuizData, ScenarioData } from "./types";
+import type { QuizData, ScenarioData, Part6Data } from "./types";
+
 
 const DATA_DIR = path.join(process.cwd(), "data");
 
@@ -57,4 +58,17 @@ export function loadScenarioData(testId: string): ScenarioData | null {
 
 export function getTestsWithScenarios(): string[] {
   return scanQuizFiles("part5", /^(.+)_scenarios\.json$/);
+}
+
+export function getAvailablePart6Tests(): string[] {
+  return scanQuizFiles("part6", /^(.+)_quiz\.json$/);
+}
+
+export function loadPart6Data(id: string): Part6Data | null {
+  const filePath = path.join(DATA_DIR, "part6", `${id}_quiz.json`);
+  try {
+    return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return null;
+  }
 }

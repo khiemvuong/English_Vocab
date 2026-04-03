@@ -1,0 +1,269 @@
+{
+  "title": "TOEIC Part 6 - BT1 (Questions 131-146)",
+  "passages": [
+    {
+      "id": "bt1-p1",
+      "passageNumber": 1,
+      "questionRange": "131-134",
+      "passageType": "Web page",
+      "passageTitle": "Sherman Business Development Center",
+      "passage": "Situated next to the beautiful Twin Pines National Park, the Sherman Business Development Center is equipped with the facilities required to run highly successful corporate team-building exercises.[131]\nOur programs require groups to participate in a number of [132]. Your employees will work together to build shelters in the forest, create a bridge over a river using limited resources, and compete against other teams in various races and problem-solving tasks. [133] focus on strengthening the communication and teamwork skills of the participants involved, and these skills are directly transferable to the workplace. For details about our programs, and to sign up for a teambuilding session, call: 555-8278. And, don't forget to check out our brand-new Web site at www.sbdc.org/home. You can also find out more [134] our experienced staff and modern facilities there!",
+      "questions": [
+        {
+          "id": 131,
+          "blankPosition": 131,
+          "blankLabel": "[131]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) Our operators are ready to take your call from 9 to 5 every day.", "isCorrect": false, "rationale": "Đề cập đến tổng đài điện thoại — không liên quan đến ngữ cảnh giới thiệu chương trình team-building của trung tâm." },
+            { "text": "(B) Your business will benefit from the exposure provided by the event.", "isCorrect": false, "rationale": "Nói về 'exposure' (tiếp thị thương hiệu) — không phù hợp với đoạn văn đang mô tả chương trình đào tạo ngoài trời." },
+            { "text": "(C) You can choose from a wide range of catering packages.", "isCorrect": false, "rationale": "Đề cập đến dịch vụ ăn uống — hoàn toàn lạc đề so với nội dung team-building." },
+            { "text": "(D) Our instructors know how to get the best out of your staff.", "isCorrect": true, "rationale": "Câu này giới thiệu vai trò của đội ngũ giảng viên — phù hợp để dẫn vào mô tả các hoạt động mà nhân viên sẽ tham gia. Tạo cầu nối logic tốt nhất giữa phần giới thiệu và các hoạt động cụ thể." }
+          ],
+          "hint": "Câu cần điền vào phải tạo cầu nối tự nhiên giữa giới thiệu trung tâm và các hoạt động cụ thể. Tìm câu liên quan đến nhân sự hoặc cách chương trình hoạt động.",
+          "translation": "Câu 131: Điền câu phù hợp để nối đoạn giới thiệu trung tâm với phần mô tả chương trình."
+        },
+        {
+          "id": 132,
+          "blankPosition": 132,
+          "blankLabel": "[132]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) causes", "isCorrect": false, "rationale": "'causes' (nguyên nhân/mục tiêu) — không phù hợp; 'participate in causes' không tự nhiên trong ngữ cảnh team-building." },
+            { "text": "(B) professions", "isCorrect": false, "rationale": "'professions' (nghề nghiệp) — nhân viên không 'tham gia vào các nghề nghiệp', đây là ngữ nghĩa sai." },
+            { "text": "(C) members", "isCorrect": false, "rationale": "'members' (thành viên) — 'participate in members' không có nghĩa về mặt ngữ pháp và từ vựng." },
+            { "text": "(D) activities", "isCorrect": true, "rationale": "'activities' (các hoạt động) — phù hợp hoàn toàn. Các ví dụ sau đó (xây lều, làm cầu, thi đấu) đều là các 'activities'. Collocation chuẩn: 'participate in activities'." }
+          ],
+          "hint": "Nhìn vào các ví dụ về những gì nhân viên làm sau chỗ trống (xây lều, làm cầu, thi đấu). Cần chọn danh từ mang nghĩa khái quát nhất bao hàm tất cả những công việc đó.",
+          "translation": "Câu 132: Các chương trình của chúng tôi yêu cầu các nhóm tham gia vào một số [?]."
+        },
+        {
+          "id": 133,
+          "blankPosition": 133,
+          "blankLabel": "[133]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) You", "isCorrect": false, "rationale": "'You' (bạn) — đề cập đến 'bạn' nhưng chủ ngữ đang nói về trung tâm và chương trình của họ, không phải khách hàng." },
+            { "text": "(B) We", "isCorrect": true, "rationale": "'We' (chúng tôi) — phù hợp vì đây là quảng cáo của trung tâm, dùng ngôi thứ nhất số nhiều để tự giới thiệu. Nhất quán với 'Our programs' và 'our brand-new Web site' ở các câu khác." },
+            { "text": "(C) Theirs", "isCorrect": false, "rationale": "'Theirs' (của họ) — đại từ sở hữu độc lập, không phù hợp vì không có danh từ đứng trước làm tiền đề rõ ràng." },
+            { "text": "(D) I", "isCorrect": false, "rationale": "'I' (tôi) — ngôi thứ nhất số ít không phù hợp với văn phong quảng cáo của một tổ chức (dùng 'We' hoặc 'Our')." }
+          ],
+          "hint": "Xem đại từ nào được dùng xuyên suốt đoạn văn này ('Our programs', 'our brand-new Web site'). Chủ ngữ câu này cũng phải nhất quán với các đại từ đó.",
+          "translation": "Câu 133: [?] tập trung vào việc tăng cường kỹ năng giao tiếp và làm việc nhóm của những người tham gia."
+        },
+        {
+          "id": 134,
+          "blankPosition": 134,
+          "blankLabel": "[134]",
+          "questionType": "preposition",
+          "answerOptions": [
+            { "text": "(A) into", "isCorrect": false, "rationale": "'find out into' không phải cụm từ chuẩn trong tiếng Anh." },
+            { "text": "(B) over", "isCorrect": false, "rationale": "'find out over' không có nghĩa trong ngữ cảnh này." },
+            { "text": "(C) about", "isCorrect": true, "rationale": "Cụm cố định: 'find out about something/someone' = tìm hiểu về điều gì đó. Ví dụ: 'find out more about our staff'. Đây là collocation chuẩn và phổ biến nhất." },
+            { "text": "(D) before", "isCorrect": false, "rationale": "'find out before our staff' không có nghĩa — 'before' chỉ thời gian, không dùng sau 'find out more'." }
+          ],
+          "hint": "Cụm 'find out ___ something' — giới từ nào thường đi kèm với 'find out' để có nghĩa 'tìm hiểu về'?",
+          "translation": "Câu 134: Bạn cũng có thể tìm hiểu thêm [?] đội ngũ nhân viên giàu kinh nghiệm và cơ sở vật chất hiện đại của chúng tôi tại đó!"
+        }
+      ]
+    },
+    {
+      "id": "bt1-p2",
+      "passageNumber": 2,
+      "questionRange": "135-138",
+      "passageType": "E-mail",
+      "passageTitle": "Java Press 500 Return Request",
+      "passage": "To: inquiries@aceappliances.com\nFrom: mfowler@truemail.net\nSubject: Java Press 500\nDate: September 14\n\nDear Sir/Madam,\n\nI would like to [135] an espresso machine called the Java Press 500. My new kitchen counter is not as large as I first thought, and I simply don't have enough space for it. I'm hoping that it will be [136] for me to choose a different item of equal value from your catalog. [137]. Could you recommend a suitable product before September 18? According to your policy, I will be unable to obtain a refund or a new product after [138].\n\nI look forward to hearing from you.\n\nMeredith Fowler",
+      "questions": [
+        {
+          "id": 135,
+          "blankPosition": 135,
+          "blankLabel": "[135]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) suggest", "isCorrect": false, "rationale": "'suggest an espresso machine' = đề xuất một máy pha cà phê — không hợp lý vì bà đang liên hệ với công ty bán hàng, không phải đề xuất sản phẩm cho người khác." },
+            { "text": "(B) return", "isCorrect": true, "rationale": "'return an item' = trả lại sản phẩm — hoàn toàn phù hợp. Bà nói 'quầy bếp không đủ chỗ' → muốn trả lại máy đã mua. Các câu sau xác nhận bà muốn đổi sang sản phẩm khác." },
+            { "text": "(C) repair", "isCorrect": false, "rationale": "'repair' = sửa chữa — không phù hợp vì bà không đề cập đến sự cố kỹ thuật, vấn đề là thiếu không gian." },
+            { "text": "(D) purchase", "isCorrect": false, "rationale": "'purchase' = mua — nếu muốn mua, bà đã có máy rồi và đang tìm cách đổi, không phải mua thêm." }
+          ],
+          "hint": "Đọc câu giải thích lý do: 'My kitchen counter is not large enough'. Bà ấy muốn làm gì với chiếc máy đã có?",
+          "translation": "Câu 135: Tôi muốn [?] một máy pha espresso có tên Java Press 500."
+        },
+        {
+          "id": 136,
+          "blankPosition": 136,
+          "blankLabel": "[136]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) available", "isCorrect": false, "rationale": "'it will be available for me to choose' — 'available' thường dùng với 'for someone' để nói ai có thể làm gì, nhưng cấu trúc 'it is available for sb to do' kém tự nhiên hơn 'it is possible'." },
+            { "text": "(B) probable", "isCorrect": false, "rationale": "'probable' = có khả năng xảy ra (thường dùng trong dự báo), không phù hợp cấu trúc 'it is probable for me to'." },
+            { "text": "(C) typical", "isCorrect": false, "rationale": "'typical' = điển hình — 'it will be typical for me to choose' hoàn toàn sai về nghĩa." },
+            { "text": "(D) possible", "isCorrect": true, "rationale": "Cấu trúc chuẩn: 'it is possible for sb to do sth' = liệu có thể/được phép làm gì đó không. Bà đang hỏi liệu công ty có cho phép đổi hàng không." }
+          ],
+          "hint": "Cấu trúc 'it will be ___ for me to choose' — tìm tính từ phù hợp với cấu trúc 'it is ___ for someone to do something'.",
+          "translation": "Câu 136: Tôi hy vọng rằng sẽ [?] để tôi chọn một sản phẩm khác có giá trị tương đương từ danh mục của bạn."
+        },
+        {
+          "id": 137,
+          "blankPosition": 137,
+          "blankLabel": "[137]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) No such catalog has been delivered to me this month.", "isCorrect": false, "rationale": "Mâu thuẫn với nội dung — bà vừa đề cập đến 'your catalog' ở câu trước, tức là bà có biết về catalog." },
+            { "text": "(B) I really appreciate your inquiry and will respond promptly.", "isCorrect": false, "rationale": "Đây là lời của người nhận email trả lời, không phải của người viết email (Meredith Fowler)." },
+            { "text": "(C) I have seen it advertised on your Web site.", "isCorrect": false, "rationale": "Nói về việc thấy quảng cáo — không liên quan đến yêu cầu đổi hàng đang được trình bày." },
+            { "text": "(D) My preference is to exchange the device for a smaller one.", "isCorrect": true, "rationale": "Câu này làm rõ ý định của bà (muốn đổi sang thiết bị nhỏ hơn) và tạo cầu nối tự nhiên dẫn đến yêu cầu 'Could you recommend a suitable product?' ở câu tiếp theo." }
+          ],
+          "hint": "Câu cần điền vào phải nối tự nhiên giữa 'chọn sản phẩm khác từ catalog' và 'hãy gợi ý sản phẩm phù hợp'. Tìm câu làm rõ loại sản phẩm bà muốn.",
+          "translation": "Câu 137: Điền câu phù hợp làm rõ sở thích của người viết và dẫn vào yêu cầu gợi ý sản phẩm."
+        },
+        {
+          "id": 138,
+          "blankPosition": 138,
+          "blankLabel": "[138]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) one", "isCorrect": false, "rationale": "'after one' = sau một (cái gì đó không rõ) — không tham chiếu rõ ràng đến ngày September 18 đã đề cập." },
+            { "text": "(B) then", "isCorrect": false, "rationale": "'after then' = sau đó — mơ hồ về mốc thời gian, không rõ ràng bằng đại từ 'that' chỉ đích danh." },
+            { "text": "(C) that", "isCorrect": true, "rationale": "'after that' chỉ về mốc thời gian 'September 18' vừa được đề cập ở câu trước. Cấu trúc 'after that date' (rút gọn thành 'after that') là cách diễn đạt tự nhiên và chính xác nhất." },
+            { "text": "(D) what", "isCorrect": false, "rationale": "'after what' tạo mệnh đề quan hệ — cần thêm động từ theo sau, không phù hợp ngữ pháp ở đây." }
+          ],
+          "hint": "Câu trước đề cập đến 'September 18'. Cần đại từ/từ chỉ thị nào để tham chiếu lại mốc thời gian đã nêu?",
+          "translation": "Câu 138: Theo chính sách của bạn, tôi sẽ không thể nhận hoàn tiền hoặc sản phẩm mới sau [?]."
+        }
+      ]
+    },
+    {
+      "id": "bt1-p3",
+      "passageNumber": 3,
+      "questionRange": "139-142",
+      "passageType": "Article",
+      "passageTitle": "ComFlex Unveils New Marketing Executive",
+      "passage": "COMFLEX UNVEILS NEW MARKETING EXECUTIVE\n\nEdmonton (14 November) – At a press conference yesterday, ComFlex introduced Clive Jenkins as its new Internet Marketing Director. Mr. Jenkins will supervise a division that [139] social media marketing campaigns to attract new customers.\n\nDimitri Augustus, founder of the telecommunications company, stated, \"We are excited to have Mr. Jenkins join us. His skills and experience will [140] us to reach out further and more effectively in our efforts to reach potential customers.\" [141]. At his previous company, TeleNova, he spent 12 years developing and executing a highly effective online marketing strategy.\n\nComFlex provides a full [142] of telephone, television, and broadband Internet services, and has recently become the leading provider in Canada.",
+      "questions": [
+        {
+          "id": 139,
+          "blankPosition": 139,
+          "blankLabel": "[139]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) has created", "isCorrect": false, "rationale": "Thì hiện tại hoàn thành — dùng cho hành động đã xảy ra và còn ảnh hưởng, không dùng để mô tả chức năng thường xuyên của một bộ phận." },
+            { "text": "(B) is created", "isCorrect": false, "rationale": "Câu bị động (thụ động) — 'a division that is created by someone', nhưng ở đây bộ phận đang thực hiện hành động (tạo ra chiến dịch), cần câu chủ động." },
+            { "text": "(C) created", "isCorrect": false, "rationale": "Thì quá khứ đơn — dùng cho hành động diễn ra tại thời điểm xác định trong quá khứ. Bộ phận hiện vẫn đang hoạt động, không phải đã dừng." },
+            { "text": "(D) creates", "isCorrect": true, "rationale": "Thì hiện tại đơn — dùng để mô tả sự thật thường xuyên/chức năng hiện tại của bộ phận: 'a division that creates campaigns' = bộ phận phụ trách tạo chiến dịch marketing. Đây là diễn đạt chuẩn." }
+          ],
+          "hint": "Câu này mô tả chức năng thường xuyên, liên tục của bộ phận. Thì nào dùng để diễn tả sự thật/thói quen/chức năng trong hiện tại?",
+          "translation": "Câu 139: Ông Jenkins sẽ giám sát một bộ phận [?] các chiến dịch marketing mạng xã hội để thu hút khách hàng mới."
+        },
+        {
+          "id": 140,
+          "blankPosition": 140,
+          "blankLabel": "[140]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) enable", "isCorrect": true, "rationale": "Cấu trúc: 'enable sb to do sth' = tạo điều kiện/giúp ai có thể làm gì. 'His skills will enable us to reach out' = Kỹ năng của ông ấy sẽ giúp chúng tôi tiếp cận... Đây là collocation chuẩn và phù hợp nghĩa nhất." },
+            { "text": "(B) supply", "isCorrect": false, "rationale": "'supply us to reach' — cấu trúc 'supply sb to do sth' không tồn tại trong tiếng Anh. 'Supply' thường dùng với 'supply sb with sth'." },
+            { "text": "(C) succeed", "isCorrect": false, "rationale": "'succeed us to reach' — cấu trúc sai. 'Succeed' dùng trong 'succeed in doing sth' hoặc 'succeed someone' (kế nhiệm)." },
+            { "text": "(D) increase", "isCorrect": false, "rationale": "'increase us to reach' — cấu trúc sai hoàn toàn. 'Increase' là ngoại động từ không dùng với cấu trúc này." }
+          ],
+          "hint": "Cấu trúc '___ us to reach out further' — động từ nào có cấu trúc 'verb + sb + to do sth' mang nghĩa 'tạo điều kiện/khiến ai có thể làm gì'?",
+          "translation": "Câu 140: Kỹ năng và kinh nghiệm của ông ấy sẽ [?] chúng tôi tiếp cận xa hơn và hiệu quả hơn."
+        },
+        {
+          "id": 141,
+          "blankPosition": 141,
+          "blankLabel": "[141]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) Mr. Jenkins comes to ComFlex with a strong background in the field.", "isCorrect": true, "rationale": "Câu này giới thiệu nền tảng chuyên môn của ông Jenkins — tạo cầu nối hoàn hảo dẫn vào câu tiếp theo nói về '12 years at TeleNova'. Logic: giới thiệu background → minh chứng cụ thể." },
+            { "text": "(B) Mr. Jenkins will be honored for his achievements at the Edmonton office.", "isCorrect": false, "rationale": "Nói về việc được vinh danh — không dẫn vào nội dung kinh nghiệm 12 năm tại TeleNova ở câu sau." },
+            { "text": "(C) Mr. Jenkins has been offered a promotion within his department.", "isCorrect": false, "rationale": "Nói về thăng chức nội bộ — không phù hợp vì ông Jenkins vừa được bổ nhiệm vào vị trí mới tại ComFlex." },
+            { "text": "(D) Mr. Jenkins is expected to remain at ComFlex if the project is a success.", "isCorrect": false, "rationale": "Nói về điều kiện ở lại — không liên quan và mâu thuẫn với tông điệu tích cực của bài báo." }
+          ],
+          "hint": "Câu sau đây đề cập đến '12 years developing an effective strategy at TeleNova'. Câu điền vào [141] cần chuẩn bị nền cho thông tin đó. Tìm câu giới thiệu khái quát về background của ông Jenkins.",
+          "translation": "Câu 141: Điền câu phù hợp giới thiệu nền tảng chuyên môn của ông Jenkins trước khi đề cập chi tiết về kinh nghiệm."
+        },
+        {
+          "id": 142,
+          "blankPosition": 142,
+          "blankLabel": "[142]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) limit", "isCorrect": false, "rationale": "'a full limit of services' không phải cụm từ chuẩn. 'Limit' dùng để chỉ giới hạn, không dùng để mô tả sự đa dạng của dịch vụ." },
+            { "text": "(B) capacity", "isCorrect": false, "rationale": "'a full capacity of services' — 'capacity' chỉ năng lực/sức chứa, không phù hợp để mô tả danh mục dịch vụ đa dạng." },
+            { "text": "(C) benefit", "isCorrect": false, "rationale": "'a full benefit of services' không phải collocation chuẩn trong tiếng Anh." },
+            { "text": "(D) range", "isCorrect": true, "rationale": "Collocation chuẩn: 'a full range of services/products' = đầy đủ các loại dịch vụ. Đây là cụm từ phổ biến trong văn phong kinh doanh, chỉ sự đa dạng và đầy đủ." }
+          ],
+          "hint": "Cụm 'a full ___ of telephone, television, and broadband services' — collocation nào trong tiếng Anh diễn tả 'đầy đủ các loại' dịch vụ?",
+          "translation": "Câu 142: ComFlex cung cấp đầy đủ [?] dịch vụ điện thoại, truyền hình và Internet băng thông rộng."
+        }
+      ]
+    },
+    {
+      "id": "bt1-p4",
+      "passageNumber": 4,
+      "questionRange": "143-146",
+      "passageType": "Notice",
+      "passageTitle": "Laney's Supermarket - Plastic Bag Policy",
+      "passage": "Attention Laney's Supermarket Shoppers:\n\nWhen paying for your items at the checkout, please be aware that you will be charged 50 cents for each plastic bag provided for your groceries. You will see this indicated on your receipt as \"Plastic Bag Charge\". [143] you inform the checkout operator in advance that you do not require any plastic bags, he or she will provide them as necessary and charge you the appropriate fee.\n\nPlastic waste can pose a significant threat to our ecosystem, so it is important that plastic bags be disposed of in an environmentally-friendly manner. We have a bin at the main entrance of the store where you can drop off old plastic bags. We will make sure that they are properly [144]. The resulting products will be used for other purposes and not discarded as waste.\n\nUsing plastic bags is [145]; we would encourage you to instead purchase a $3 durable canvas shopping bag that can be used repeatedly. [146].",
+      "questions": [
+        {
+          "id": 143,
+          "blankPosition": 143,
+          "blankLabel": "[143]",
+          "questionType": "conjunction",
+          "answerOptions": [
+            { "text": "(A) So that", "isCorrect": false, "rationale": "'So that you inform... he will provide them' — nghĩa: 'để bạn thông báo thì nhân viên mới đưa túi'. Logic này ngược: nhân viên đưa túi khi KHÔNG có thông báo, không phải khi CÓ thông báo." },
+            { "text": "(B) Despite", "isCorrect": false, "rationale": "'Despite you inform' — về mặt ngữ pháp sai ('despite' theo sau bởi danh từ/gerund, không phải mệnh đề chủ ngữ)." },
+            { "text": "(C) Unless", "isCorrect": true, "rationale": "'Unless you inform...' = 'Trừ khi bạn thông báo...' — thiết lập điều kiện phủ định chính xác: nếu KHÔNG thông báo trước, nhân viên sẽ đưa túi và tính phí. Logic hoàn toàn đúng với thông báo." },
+            { "text": "(D) After", "isCorrect": false, "rationale": "'After you inform the checkout operator, he will provide bags' — nghĩa: sau khi thông báo thì nhân viên vẫn đưa túi = lộn ngược hoàn toàn với ý nghĩa thực tế." }
+          ],
+          "hint": "Đọc toàn câu: '_____ you inform the operator... he will provide them'. Điều gì xảy ra NẾU KHÔNG thông báo? Từ liên kết nào tạo ra điều kiện phủ định?",
+          "translation": "Câu 143: [?] bạn thông báo trước với nhân viên thanh toán rằng bạn không cần túi nhựa, họ sẽ cung cấp túi và tính phí cho bạn."
+        },
+        {
+          "id": 144,
+          "blankPosition": 144,
+          "blankLabel": "[144]",
+          "questionType": "grammar",
+          "answerOptions": [
+            { "text": "(A) recycle", "isCorrect": false, "rationale": "Động từ nguyên mẫu — không phù hợp ngữ pháp sau 'are properly'. Cần dạng bị động hoàn chỉnh." },
+            { "text": "(B) recycles", "isCorrect": false, "rationale": "Động từ ngôi thứ 3 số ít — 'bags are properly recycles' sai ngữ pháp hoàn toàn." },
+            { "text": "(C) recycled", "isCorrect": true, "rationale": "Cấu trúc bị động: 'are properly recycled' = được tái chế đúng cách. Chủ ngữ là 'they' (túi nhựa) — túi nhựa được tái chế (bị động). Chuẩn về cả ngữ pháp lẫn nghĩa." },
+            { "text": "(D) recycling", "isCorrect": false, "rationale": "'are properly recycling' = thể tiến hành bị động — cần thêm 'being' trước 'recycling' để thành 'are being recycled'. 'Are recycling' là chủ động, không phù hợp." }
+          ],
+          "hint": "Cấu trúc 'We will make sure that they are properly ___'. 'They' là túi nhựa. Túi nhựa có TỰ tái chế không, hay ĐƯỢC tái chế? Dùng thể bị động hay chủ động?",
+          "translation": "Câu 144: Chúng tôi sẽ đảm bảo rằng chúng được [?] đúng cách."
+        },
+        {
+          "id": 145,
+          "blankPosition": 145,
+          "blankLabel": "[145]",
+          "questionType": "vocabulary",
+          "answerOptions": [
+            { "text": "(A) recommended", "isCorrect": false, "rationale": "Nếu 'recommended' (được khuyến nghị) thì siêu thị đang khuyến khích dùng túi nhựa — mâu thuẫn với toàn bộ thông báo đang vận động hạn chế túi nhựa." },
+            { "text": "(B) optional", "isCorrect": true, "rationale": "'optional' (tùy chọn/không bắt buộc) — phù hợp hoàn toàn. Dùng túi nhựa là tùy chọn, như thông báo cho thấy: bạn có thể dùng túi (mất phí) hoặc mua túi vải. Giải thích cụm 'we would encourage you to instead purchase a canvas bag'." },
+            { "text": "(C) prohibited", "isCorrect": false, "rationale": "Nếu 'prohibited' (bị cấm) thì siêu thị không thể tính phí cho tungs nhựa vì đã cấm rồi — mâu thuẫn logic." },
+            { "text": "(D) simple", "isCorrect": false, "rationale": "'Using plastic bags is simple' (đơn giản) — không tạo ra lý do hợp lý để khuyến khích mua túi vải thay thế." }
+          ],
+          "hint": "Siêu thị vẫn cung cấp túi nhựa (có tính phí) nhưng muốn khuyến khích dùng túi vải. Điều đó có nghĩa là dùng túi nhựa không bị cấm, chỉ là... gì?",
+          "translation": "Câu 145: Việc sử dụng túi nhựa là [?]; chúng tôi khuyến khích bạn thay vào đó hãy mua túi mua sắm vải bền với giá $3 có thể sử dụng nhiều lần."
+        },
+        {
+          "id": 146,
+          "blankPosition": 146,
+          "blankLabel": "[146]",
+          "questionType": "sentence-insertion",
+          "answerOptions": [
+            { "text": "(A) Just ask one of our checkout operators for one.", "isCorrect": true, "rationale": "Câu trước gợi ý mua túi canvas $3. Câu này hướng dẫn cách mua ('ask the checkout operator for one'). Logic hoàn hảo: gợi ý → hướng dẫn hành động cụ thể. 'One' = one canvas bag." },
+            { "text": "(B) We have a wide selection of products available.", "isCorrect": false, "rationale": "Nói về sự đa dạng sản phẩm — không liên quan đến túi canvas hay cách mua hàng ở câu trước." },
+            { "text": "(C) Donations are appreciated, but volunteering is even better.", "isCorrect": false, "rationale": "Hoàn toàn lạc đề — không liên quan đến thông báo về túi nhựa và chính sách mua sắm." },
+            { "text": "(D) This is why you should check the plastic bags for holes.", "isCorrect": false, "rationale": "Kiểm tra túi nhựa có lỗ — không liên quan đến gợi ý mua túi vải canvas ở câu trước." }
+          ],
+          "hint": "Câu trước gợi ý mua túi canvas $3. Câu [146] phải là câu liên quan hướng dẫn tiếp theo. 'For one' trong đáp án A đề cập đến cái gì?",
+          "translation": "Câu 146: Điền câu tiếp theo phù hợp sau gợi ý mua túi vải canvas."
+        }
+      ]
+    }
+  ]
+}

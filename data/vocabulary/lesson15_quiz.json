@@ -1,0 +1,235 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 15",
+  "questions": [
+    {
+      "question": "Mục tiêu cuối năm của công ty là tăng 'profit /ˈprɒfɪt/' lên 20%. 'Profit' là gì?",
+      "answerOptions": [
+        { "text": "Chi phí vận hành hàng tháng", "isCorrect": false, "rationale": "Chi phí vận hành là 'operating costs'." },
+        { "text": "Lợi nhuận / tiền còn lại sau khi trừ chi phí", "isCorrect": true, "rationale": "Profit = phần doanh thu còn lại sau khi đã trừ toàn bộ chi phí." },
+        { "text": "Tổng doanh thu từ bán hàng", "isCorrect": false, "rationale": "Tổng doanh thu là 'revenue' hoặc 'gross sales'." },
+        { "text": "Khoản đầu tư ban đầu của công ty", "isCorrect": false, "rationale": "Đầu tư ban đầu là 'initial investment'." }
+      ],
+      "hint": "Công thức: Profit = Revenue – Expenses. Từ đồng nghĩa: gain, earnings."
+    },
+    {
+      "question": "Hội nghị quốc tế thảo luận về 'international trade /treɪd/'. 'Trade' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Buôn bán / thương mại (mua bán hàng hóa, dịch vụ)", "isCorrect": true, "rationale": "Trade = hoạt động trao đổi, mua bán hàng hóa và dịch vụ giữa các cá nhân, công ty hoặc quốc gia." },
+        { "text": "Thỏa thuận hợp tác đầu tư dài hạn", "isCorrect": false, "rationale": "Thỏa thuận đầu tư là 'investment agreement'." },
+        { "text": "Quy định hải quan về xuất nhập khẩu", "isCorrect": false, "rationale": "Quy định hải quan là 'customs regulations'." },
+        { "text": "Sự hợp nhất giữa các tập đoàn đa quốc gia", "isCorrect": false, "rationale": "Hợp nhất là 'merger'." }
+      ],
+      "hint": "Từ đồng nghĩa: commerce, business, exchange."
+    },
+    {
+      "question": "Ứng viên được mô tả là 'ambitious /æmˈbɪʃəs/' trong sự nghiệp. 'Ambitious' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Nhút nhát / thiếu tự tin", "isCorrect": false, "rationale": "Nhút nhát là 'timid' hoặc 'lacking confidence'." },
+        { "text": "Đầy tham vọng / quyết tâm đạt mục tiêu lớn", "isCorrect": true, "rationale": "Ambitious = có mong muốn mạnh mẽ để đạt được thành công hoặc địa vị cao." },
+        { "text": "Bảo thủ / không thích thay đổi", "isCorrect": false, "rationale": "Bảo thủ là 'conservative' hoặc 'resistant to change'." },
+        { "text": "Cẩn thận quá mức trong mọi quyết định", "isCorrect": false, "rationale": "Cẩn thận quá mức là 'overly cautious'." }
+      ],
+      "hint": "Từ đồng nghĩa: driven, motivated, goal-oriented."
+    },
+    {
+      "question": "'Concerning /kənˈsɜːnɪŋ/ the budget, we need to discuss further.' 'Concerning' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Đang lo lắng về vấn đề tài chính", "isCorrect": false, "rationale": "Đây nhầm với nghĩa tính từ 'concerning' (đáng lo ngại), không phải giới từ." },
+        { "text": "Về / liên quan đến", "isCorrect": true, "rationale": "Concerning (giới từ) = regarding, about. Dùng để giới thiệu chủ đề đang được bàn." },
+        { "text": "Mặc dù / bất chấp", "isCorrect": false, "rationale": "Mặc dù là 'despite' hoặc 'in spite of'." },
+        { "text": "Sau khi / kể từ lúc", "isCorrect": false, "rationale": "Sau khi là 'after' hoặc 'following'." }
+      ],
+      "hint": "Từ đồng nghĩa: regarding, with respect to, about."
+    },
+    {
+      "question": "Chương trình đào tạo 'beneficial /ˌbenɪˈfɪʃəl/' cho toàn bộ nhân viên. 'Beneficial' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Tốn kém và mất nhiều thời gian", "isCorrect": false, "rationale": "Tốn kém là 'costly' hoặc 'time-consuming'." },
+        { "text": "Có lợi / mang lại lợi ích tích cực", "isCorrect": true, "rationale": "Beneficial = có ích, mang lại kết quả hoặc lợi ích tốt cho ai đó." },
+        { "text": "Khó thực hiện nhưng cần thiết", "isCorrect": false, "rationale": "Khó nhưng cần thiết là 'challenging but necessary'." },
+        { "text": "Không bắt buộc và tùy ý tham gia", "isCorrect": false, "rationale": "Không bắt buộc là 'optional' hoặc 'voluntary'." }
+      ],
+      "hint": "Từ đồng nghĩa: advantageous, helpful, useful."
+    },
+    {
+      "question": "Suy thoái ảnh hưởng đến toàn bộ 'economy /ɪˈkɒnəmi/'. 'Economy' là gì?",
+      "answerOptions": [
+        { "text": "Nền kinh tế / hệ thống sản xuất và trao đổi hàng hóa", "isCorrect": true, "rationale": "Economy = hệ thống kinh tế của một quốc gia hoặc khu vực, bao gồm sản xuất, tiêu dùng và thương mại." },
+        { "text": "Chính sách thuế của chính phủ", "isCorrect": false, "rationale": "Chính sách thuế là 'tax policy'." },
+        { "text": "Ngân sách quốc phòng hàng năm", "isCorrect": false, "rationale": "Ngân sách quốc phòng là 'defense budget'." },
+        { "text": "Thị trường chứng khoán trong nước", "isCorrect": false, "rationale": "Thị trường chứng khoán là 'stock market'. Economy là khái niệm rộng hơn." }
+      ],
+      "hint": "Cụm quen: 'global economy', 'local economy', 'economic growth'."
+    },
+    {
+      "question": "Quản lý 'assign /əˈsaɪn/ tasks to each team member'. 'Assign' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Thảo luận và đề xuất ý kiến", "isCorrect": false, "rationale": "Thảo luận là 'discuss and suggest'." },
+        { "text": "Phân công / giao nhiệm vụ cụ thể", "isCorrect": true, "rationale": "Assign = chỉ định ai đó chịu trách nhiệm thực hiện một nhiệm vụ cụ thể." },
+        { "text": "Đánh giá kết quả sau khi hoàn thành", "isCorrect": false, "rationale": "Đánh giá kết quả là 'evaluate results'." },
+        { "text": "Từ chối nhận thêm công việc", "isCorrect": false, "rationale": "Từ chối nhận việc là 'decline additional tasks'." }
+      ],
+      "hint": "Từ đồng nghĩa: allocate, delegate, designate."
+    },
+    {
+      "question": "Thông báo dán tại sảnh: 'For residents /ˈrezɪdənts/ only.' 'Resident' là ai?",
+      "answerOptions": [
+        { "text": "Khách ghé thăm trong thời gian ngắn", "isCorrect": false, "rationale": "Khách thăm ngắn là 'visitor' hoặc 'guest'." },
+        { "text": "Cư dân / người đang sống và định cư tại nơi đó", "isCorrect": true, "rationale": "Resident = người đang sinh sống, định cư dài hạn tại một địa điểm hoặc tòa nhà." },
+        { "text": "Nhân viên bảo vệ tòa nhà", "isCorrect": false, "rationale": "Nhân viên bảo vệ là 'security guard'." },
+        { "text": "Nhà đầu tư bất động sản", "isCorrect": false, "rationale": "Nhà đầu tư bất động sản là 'real estate investor'." }
+      ],
+      "hint": "Từ đồng nghĩa: inhabitant, occupant, tenant."
+    },
+    {
+      "question": "Dự án vẫn đang là 'an ongoing /ˈɒnɡəʊɪŋ/ project'. 'Ongoing' mô tả điều gì?",
+      "answerOptions": [
+        { "text": "Đã hoàn thành và được nghiệm thu", "isCorrect": false, "rationale": "Đã hoàn thành là 'completed' hoặc 'finished'." },
+        { "text": "Đang diễn ra / chưa kết thúc", "isCorrect": true, "rationale": "Ongoing = đang tiếp tục diễn ra, chưa hoàn tất hoặc chưa kết thúc." },
+        { "text": "Tạm dừng do thiếu ngân sách", "isCorrect": false, "rationale": "Tạm dừng là 'on hold' hoặc 'suspended'." },
+        { "text": "Mới được phê duyệt để bắt đầu", "isCorrect": false, "rationale": "Mới phê duyệt là 'newly approved'." }
+      ],
+      "hint": "Từ đồng nghĩa: continuing, in progress, active."
+    },
+    {
+      "question": "'She will succeed /səkˈsiːd/ Mr. Kim as head of the department.' 'Succeed' ở đây nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Thành công trong vai trò mới", "isCorrect": false, "rationale": "Thành công là một nghĩa khác của succeed, không phù hợp ở đây." },
+        { "text": "Kế nhiệm / thay thế ai đó trong chức vụ", "isCorrect": true, "rationale": "Succeed (ai đó) = trở thành người tiếp theo nắm giữ một vị trí sau người trước đó." },
+        { "text": "Từ chối giữ chức vụ mới", "isCorrect": false, "rationale": "Từ chối giữ chức là 'decline the position'." },
+        { "text": "Hỗ trợ người quản lý hiện tại", "isCorrect": false, "rationale": "Hỗ trợ người quản lý là 'assist the current manager'." }
+      ],
+      "hint": "Succeed someone = take over from someone. Ví dụ: 'She succeeded the CEO.'"
+    },
+    {
+      "question": "Sinh viên cần 'sign up /saɪn ʌp/ for the seminar before Friday'. 'Sign up' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Ký biên bản xác nhận tham dự", "isCorrect": false, "rationale": "Ký biên bản là 'sign the attendance sheet'." },
+        { "text": "Đăng ký tham gia", "isCorrect": true, "rationale": "Sign up = register, chính thức đăng ký để tham gia một sự kiện hoặc dịch vụ." },
+        { "text": "Trình bày ý kiến tại hội thảo", "isCorrect": false, "rationale": "Trình bày tại hội thảo là 'present at the seminar'." },
+        { "text": "Rút lui khỏi chương trình đã đăng ký", "isCorrect": false, "rationale": "Rút lui là 'withdraw' hoặc 'cancel registration'." }
+      ],
+      "hint": "Từ đồng nghĩa: register, enrol(l)."
+    },
+    {
+      "question": "Công ty gửi 'a monthly newsletter /ˈnjuːzˌletər/' đến khách hàng. 'Newsletter' là gì?",
+      "answerOptions": [
+        { "text": "Hóa đơn thanh toán hàng tháng", "isCorrect": false, "rationale": "Hóa đơn là 'invoice' hoặc 'monthly bill'." },
+        { "text": "Bản tin / ấn phẩm thông tin định kỳ", "isCorrect": true, "rationale": "Newsletter = bản tin được gửi đều đặn cho người đăng ký, cung cấp tin tức hoặc cập nhật mới nhất." },
+        { "text": "Hợp đồng dịch vụ hàng năm", "isCorrect": false, "rationale": "Hợp đồng dịch vụ là 'service contract'." },
+        { "text": "Thông báo thay đổi chính sách nội bộ", "isCorrect": false, "rationale": "Thông báo chính sách là 'policy update notice'." }
+      ],
+      "hint": "Cụm quen: 'subscribe to a newsletter', 'unsubscribe from newsletter'."
+    },
+    {
+      "question": "Hệ thống 'automatically /ɔːˈtɒmətɪkli/ sends a confirmation email.' 'Automatically' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Một cách tự động / không cần can thiệp thủ công", "isCorrect": true, "rationale": "Automatically = xảy ra mà không cần người dùng thực hiện thủ công, được điều khiển bởi hệ thống." },
+        { "text": "Thỉnh thoảng / theo định kỳ", "isCorrect": false, "rationale": "Theo định kỳ là 'periodically' hoặc 'from time to time'." },
+        { "text": "Chỉ khi có yêu cầu của người dùng", "isCorrect": false, "rationale": "Chỉ khi có yêu cầu là 'only upon request', trái với automatically." },
+        { "text": "Sau khi được phê duyệt bởi bộ phận IT", "isCorrect": false, "rationale": "Sau phê duyệt IT là 'after IT approval', vẫn cần can thiệp thủ công." }
+      ],
+      "hint": "Từ đồng nghĩa: spontaneously, by itself. Gốc từ: automatic."
+    },
+    {
+      "question": "Công ty được biết đến là 'innovative /ˈɪnəveɪtɪv/' trong ngành công nghệ. 'Innovative' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Sáng tạo / đột phá và tiên phong", "isCorrect": true, "rationale": "Innovative = thể hiện khả năng tạo ra hoặc áp dụng những ý tưởng, phương pháp mới mẻ và độc đáo." },
+        { "text": "Đáng tin cậy và ổn định lâu năm", "isCorrect": false, "rationale": "Đáng tin cậy là 'reliable' hoặc 'established'." },
+        { "text": "Tiết kiệm chi phí và tối ưu nguồn lực", "isCorrect": false, "rationale": "Tiết kiệm chi phí là 'cost-effective' hoặc 'efficient'." },
+        { "text": "Tuân thủ chặt chẽ các tiêu chuẩn cũ", "isCorrect": false, "rationale": "Tuân thủ tiêu chuẩn cũ là 'strictly adhere to old standards'." }
+      ],
+      "hint": "Từ đồng nghĩa: creative, groundbreaking, inventive."
+    },
+    {
+      "question": "Dịch vụ áp dụng chính sách 'first-come, first-served /fɜːst kʌm fɜːst sɜːrvd/'. Nghĩa của cụm này là gì?",
+      "answerOptions": [
+        { "text": "Phục vụ theo thứ tự ưu tiên VIP trước", "isCorrect": false, "rationale": "Ưu tiên VIP là 'VIP priority service'." },
+        { "text": "Đến trước được phục vụ trước", "isCorrect": true, "rationale": "First-come, first-served = người đến hoặc đăng ký trước sẽ được ưu tiên phục vụ trước." },
+        { "text": "Phân bổ ngẫu nhiên không theo thứ tự", "isCorrect": false, "rationale": "Ngẫu nhiên là 'randomly allocated'." },
+        { "text": "Giữ chỗ trước mới được phục vụ", "isCorrect": false, "rationale": "Giữ chỗ trước là 'reservation required'." }
+      ],
+      "hint": "Hình ảnh: xếp hàng chờ. Ai đến trước → được phục vụ trước."
+    },
+    {
+      "question": "Ông ấy là 'a critic /ˈkrɪtɪk/ of the new government policy'. 'Critic' là gì?",
+      "answerOptions": [
+        { "text": "Nhà phê bình / người phân tích và phê phán", "isCorrect": true, "rationale": "Critic = người thường xuyên đưa ra đánh giá phê bình về sản phẩm, chính sách hoặc sự kiện." },
+        { "text": "Người ủng hộ nhiệt tình chính sách mới", "isCorrect": false, "rationale": "Người ủng hộ là 'supporter' hoặc 'advocate', trái nghĩa với critic." },
+        { "text": "Nhà lập pháp soạn thảo chính sách", "isCorrect": false, "rationale": "Nhà lập pháp là 'legislator' hoặc 'policymaker'." },
+        { "text": "Chuyên gia tư vấn độc lập", "isCorrect": false, "rationale": "Tư vấn độc lập là 'independent consultant'." }
+      ],
+      "hint": "Từ đồng nghĩa: reviewer, commentator. Cụm quen: 'film critic', 'political critic'."
+    },
+    {
+      "question": "'Do you prefer /prɪˈfɜːr/ coffee or tea?' 'Prefer' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Thích hơn / ưa thích hơn cái kia", "isCorrect": true, "rationale": "Prefer = thích hơn giữa hai hoặc nhiều lựa chọn." },
+        { "text": "Cần / phải có để hoạt động", "isCorrect": false, "rationale": "Cần là 'need' hoặc 'require'." },
+        { "text": "Đề nghị / khuyến nghị cho người khác", "isCorrect": false, "rationale": "Đề nghị là 'recommend' hoặc 'suggest'." },
+        { "text": "Chọn ngẫu nhiên trong nhiều phương án", "isCorrect": false, "rationale": "Chọn ngẫu nhiên là 'choose randomly'." }
+      ],
+      "hint": "Cụm quen: 'prefer A to B', 'prefer to do something'."
+    },
+    {
+      "question": "Cửa hàng bán đồ 'inexpensive /ˌɪnɪkˈspensɪv/ but high-quality'. 'Inexpensive' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Đắt tiền nhưng cao cấp", "isCorrect": false, "rationale": "Đắt tiền là 'expensive' hoặc 'premium-priced'." },
+        { "text": "Không đắt / giá cả phải chăng", "isCorrect": true, "rationale": "Inexpensive = không tốn nhiều tiền, giá thấp nhưng không mang nghĩa xấu." },
+        { "text": "Không còn được bán nữa", "isCorrect": false, "rationale": "Không còn bán là 'discontinued' hoặc 'no longer available'." },
+        { "text": "Được giảm giá trong chương trình khuyến mãi", "isCorrect": false, "rationale": "Giảm giá là 'discounted'. Inexpensive chỉ mức giá nói chung, không phải do giảm giá." }
+      ],
+      "hint": "Tiền tố 'in' = không. Expensive = đắt. Inexpensive = không đắt."
+    },
+    {
+      "question": "Bộ phận IT 'is in charge of /ɪn tʃɑːdʒ əv/ system maintenance'. 'In charge of' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Chịu trách nhiệm / phụ trách", "isCorrect": true, "rationale": "In charge of = có quyền hạn và trách nhiệm quản lý một việc gì đó." },
+        { "text": "Đang xem xét phương án thay thế", "isCorrect": false, "rationale": "Xem xét thay thế là 'considering alternatives'." },
+        { "text": "Được hỗ trợ bởi bộ phận bên ngoài", "isCorrect": false, "rationale": "Được hỗ trợ bên ngoài là 'supported by external department/vendor'." },
+        { "text": "Báo cáo trực tiếp lên ban giám đốc", "isCorrect": false, "rationale": "Báo cáo lên ban giám đốc là 'report directly to the board'." }
+      ],
+      "hint": "Từ đồng nghĩa: responsible for, overseeing."
+    },
+    {
+      "question": "Công ty thông báo: 'Mr. Lee will take charge of /teɪk tʃɑːdʒ əv/ the new branch.' 'Take charge of' khác gì với 'in charge of'?",
+      "answerOptions": [
+        { "text": "Không có sự khác biệt, hai cụm hoàn toàn đồng nghĩa", "isCorrect": false, "rationale": "Hai cụm gần same nghĩa nhưng take charge of nhấn mạnh sự bắt đầu trách nhiệm." },
+        { "text": "'Take charge of' nhấn mạnh hành động bắt đầu nắm quyền", "isCorrect": true, "rationale": "Take charge of = bắt đầu chịu trách nhiệm (hành động). In charge of = đang chịu trách nhiệm (trạng thái)." },
+        { "text": "'Take charge of' chỉ dùng khi được thăng chức", "isCorrect": false, "rationale": "Take charge of không bị giới hạn chỉ dùng khi thăng chức." },
+        { "text": "'Take charge of' mang nghĩa tiêu cực hơn", "isCorrect": false, "rationale": "Cả hai cụm đều trung tính về nghĩa, không mang sắc thái tiêu cực." }
+      ],
+      "hint": "In charge of = đang phụ trách. Take charge of = bắt đầu phụ trách."
+    },
+    {
+      "question": "'We apologize for any difficulties /dɪˈfɪkəltɪz/ you may experience.' 'Difficulty' là gì?",
+      "answerOptions": [
+        { "text": "Khó khăn / trở ngại", "isCorrect": true, "rationale": "Difficulty = tình trạng gặp trở ngại, không dễ thực hiện hoặc khó giải quyết." },
+        { "text": "Sự thuận tiện và dễ dàng", "isCorrect": false, "rationale": "Thuận tiện là 'convenience' hoặc 'ease', trái nghĩa." },
+        { "text": "Sự chậm trễ trong giao dịch", "isCorrect": false, "rationale": "Chậm trễ là 'delay', chỉ là một loại difficulty cụ thể." },
+        { "text": "Sự hiểu lầm giữa các bộ phận", "isCorrect": false, "rationale": "Hiểu lầm là 'misunderstanding', cũng chỉ là một loại difficulty." }
+      ],
+      "hint": "Từ đồng nghĩa: challenge, obstacle, problem."
+    },
+    {
+      "question": "'Please don't hesitate to contact /ˈkɒntækt/ us.' 'Hesitate to contact' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Ngần ngại khi liên hệ", "isCorrect": true, "rationale": "Hesitate to contact = cảm thấy do dự hoặc không tự tin trước khi liên hệ với ai đó." },
+        { "text": "Quên mất thông tin liên lạc", "isCorrect": false, "rationale": "Quên thông tin liên lạc là 'forget the contact information'." },
+        { "text": "Không thể liên hệ vì sự cố kỹ thuật", "isCorrect": false, "rationale": "Không thể liên lạc vì sự cố là 'unable to contact due to technical issues'." },
+        { "text": "Chủ động liên lạc trước với đối tác", "isCorrect": false, "rationale": "Chủ động liên lạc là 'proactively contact'." }
+      ],
+      "hint": "'Don't hesitate to contact us' = cứ tự nhiên liên lạc, đừng ngần ngại."
+    },
+    {
+      "question": "'Via email /viːə ˈiːmeɪl/' xác nhận sẽ được gửi ngay sau khi đặt hàng. 'Via' nghĩa là gì?",
+      "answerOptions": [
+        { "text": "Qua (phương tiện hoặc kênh nào đó)", "isCorrect": true, "rationale": "Via = through, by means of. Chỉ phương tiện hoặc kênh được sử dụng để thực hiện điều gì." },
+        { "text": "Trong vòng / trước thời hạn", "isCorrect": false, "rationale": "Trong vòng là 'within', dùng chỉ khoảng thời gian." },
+        { "text": "Đối với / liên quan đến", "isCorrect": false, "rationale": "Đối với là 'regarding' hoặc 'concerning'." },
+        { "text": "Mặc dù / bất chấp", "isCorrect": false, "rationale": "Mặc dù là 'despite' hoặc 'although'." }
+      ],
+      "hint": "Từ đồng nghĩa: through, by, by means of."
+    }
+  ]
+}
