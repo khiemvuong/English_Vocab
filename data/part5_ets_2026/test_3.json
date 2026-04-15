@@ -1,0 +1,875 @@
+{
+  "questions": [
+    {
+      "id": 101,
+      "question": "Despite ------ youth, Ms. Cho is already quite popular on social media.",
+      "answerOptions": [
+        {
+          "text": "(A) she",
+          "isCorrect": false,
+          "rationale": "ĐTNX làm chủ ngữ: cô ấy [cite: 359]"
+        },
+        {
+          "text": "(B) her",
+          "isCorrect": true,
+          "rationale": "ĐTNX làm tân ngữ/TTSH: của cô ấy [cite: 359]"
+        },
+        {
+          "text": "(C) hers",
+          "isCorrect": false,
+          "rationale": "Đại từ sở hữu = her + N: của cô ấy [cite: 360]"
+        },
+        {
+          "text": "(D) herself",
+          "isCorrect": false,
+          "rationale": "đại từ phản thân: chính cô ấy [cite: 361]"
+        }
+      ],
+      "hint": "Giải thích: Sau “Despite” cần danh từ / cụm danh từ sở hữu. Sau chỗ trống đã có danh từ “youth” nên cần điền tính từ sở hữu để bổ sung ý nghĩa cho Danh từ. Cấu trúc: despite + possessive adjective + noun. [cite: 358, 361]",
+      "translation": "Dịch: Mặc dù còn trẻ, bà Cho đã khá nổi tiếng trên mạng xã hội. [cite: 361]",
+      "category": "pronoun"
+    },
+    {
+      "id": 102,
+      "question": "Most of the materials distributed at last month's accounting conference are now ------ online.",
+      "answerOptions": [
+        {
+          "text": "(A) available",
+          "isCorrect": true,
+          "rationale": "có sẵn [cite: 363]"
+        },
+        {
+          "text": "(B) intended",
+          "isCorrect": false,
+          "rationale": "dự định [cite: 363]"
+        },
+        {
+          "text": "(C) comparable",
+          "isCorrect": false,
+          "rationale": "có thể so sánh [cite: 363]"
+        },
+        {
+          "text": "(D) decisive",
+          "isCorrect": false,
+          "rationale": "mang tính quyết định [cite: 364]"
+        }
+      ],
+      "hint": "Giải thích: Câu nói về tài liệu trực tuyến → cần điền đáp án có nghĩa phù hợp. [cite: 362]",
+      "translation": "Dịch: Hầu hết các tài liệu được phân phát tại hội nghị kế toán tháng trước hiện đã CÓ SẴN trực tuyến. [cite: 364]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 103,
+      "question": "A full-scale ------ will be conducted by the accounting department.",
+      "answerOptions": [
+        {
+          "text": "(A) reviewer",
+          "isCorrect": false,
+          "rationale": "người đánh giá (N số ít) [cite: 366]"
+        },
+        {
+          "text": "(B) review",
+          "isCorrect": true,
+          "rationale": "cuộc đánh giá (N số ít) [cite: 366]"
+        },
+        {
+          "text": "(C) reviewed",
+          "isCorrect": false,
+          "rationale": "đã được đánh giá (Ved) [cite: 367]"
+        },
+        {
+          "text": "(D) reviews",
+          "isCorrect": false,
+          "rationale": "các cuộc đánh giá (N số nhiều) [cite: 367]"
+        }
+      ],
+      "hint": "Giải thích: Sau “A full-scale” cần danh từ số ít. “Review” là danh từ phù hợp. Cấu trúc: a + adjective + noun. [cite: 365, 367]",
+      "translation": "Dịch: Một CUỘC ĐÁNH GIÁ toàn diện sẽ được tiến hành bởi phòng kế toán. [cite: 367]",
+      "category": "word-form"
+    },
+    {
+      "id": 104,
+      "question": "Poshy Shoes vice president Lucille Jeris has been ------ to president of the company.",
+      "answerOptions": [
+        {
+          "text": "(A) provided",
+          "isCorrect": false,
+          "rationale": "cung cấp [cite: 369]"
+        },
+        {
+          "text": "(B) decorated",
+          "isCorrect": false,
+          "rationale": "trang trí / trao huân chương [cite: 369]"
+        },
+        {
+          "text": "(C) promoted",
+          "isCorrect": true,
+          "rationale": "được thăng chức [cite: 369]"
+        },
+        {
+          "text": "(D) responded",
+          "isCorrect": false,
+          "rationale": "phản hồi [cite: 370]"
+        }
+      ],
+      "hint": "Giải thích: Sau khoảng trống là chức vụ “president” nên cần điền đáp án có nghĩa phù hợp. Cấu trúc: be promoted to + position (được thăng chức lên vị trí...). [cite: 368, 370]",
+      "translation": "Dịch: Phó chủ tịch của Poshy Shoes, bà Lucille Jeris, đã được THĂNG CHỨC lên làm chủ tịch công ty. [cite: 370]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 105,
+      "question": "The report found that employees who take regular breaks are more ------ than those who take no breaks.",
+      "answerOptions": [
+        {
+          "text": "(A) production",
+          "isCorrect": false,
+          "rationale": "sự sản xuất (N) [cite: 372]"
+        },
+        {
+          "text": "(B) productively",
+          "isCorrect": false,
+          "rationale": "một cách hiệu quả (Adv) [cite: 372]"
+        },
+        {
+          "text": "(C) productivity",
+          "isCorrect": false,
+          "rationale": "năng suất (N) [cite: 373]"
+        },
+        {
+          "text": "(D) productive",
+          "isCorrect": true,
+          "rationale": "hiệu quả, năng suất cao (Adj) [cite: 373]"
+        }
+      ],
+      "hint": "Giải thích: Sau “are more” cần tính từ. “Productive” là tính từ phù hợp. Cấu trúc: be more + adjective + than. [cite: 371, 373]",
+      "translation": "Dịch: Báo cáo cho thấy những nhân viên thường xuyên nghỉ giải lao có năng suất cao hơn những người không nghỉ. [cite: 373]",
+      "category": "word-form"
+    },
+    {
+      "id": 106,
+      "question": "Customers of Twins Photocopiers are encouraged to contact a ------ if their machines need repairs.",
+      "answerOptions": [
+        {
+          "text": "(A) replacement",
+          "isCorrect": false,
+          "rationale": "sự thay thế [cite: 375]"
+        },
+        {
+          "text": "(B) technician",
+          "isCorrect": true,
+          "rationale": "kỹ thuật viên [cite: 375]"
+        },
+        {
+          "text": "(C) renewal",
+          "isCorrect": false,
+          "rationale": "sự gia hạn [cite: 375]"
+        },
+        {
+          "text": "(D) structure",
+          "isCorrect": false,
+          "rationale": "cấu trúc [cite: 376]"
+        }
+      ],
+      "hint": "Giải thích: Khoảng trống cần điền danh từ có nghĩa phù hợp. Khi máy móc cần sửa chữa → liên hệ kỹ thuật viên. Cấu trúc: contact a + job title. [cite: 374, 376]",
+      "translation": "Dịch: Khách hàng của Twins Photocopiers được khuyến khích liên hệ với một KỸ THUẬT VIÊN nếu máy móc của họ cần sửa chữa. [cite: 376]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 107,
+      "question": "The heavy traffic on the way to the airport ------ caused Ms. Ikeda to miss her flight.",
+      "answerOptions": [
+        {
+          "text": "(A) nearly",
+          "isCorrect": true,
+          "rationale": "gần như (Adv) [cite: 378]"
+        },
+        {
+          "text": "(B) near",
+          "isCorrect": false,
+          "rationale": "gần khoảng cách, thời gian (Vo/prep/Adj/Adv) [cite: 378]"
+        },
+        {
+          "text": "(C) nears",
+          "isCorrect": false,
+          "rationale": "đến gần (Vs) [cite: 378]"
+        },
+        {
+          "text": "(D) nearness",
+          "isCorrect": false,
+          "rationale": "sự gần gũi (N) [cite: 379]"
+        }
+      ],
+      "hint": "Giải thích: Câu cần trạng từ bổ nghĩa cho động từ “caused”. [cite: 377]",
+      "translation": "Dịch: Lưu lượng giao thông đông đúc trên đường ra sân bay GẦN NHƯ đã khiến bà Ikeda lỡ chuyến bay. [cite: 379]",
+      "category": "word-form"
+    },
+    {
+      "id": 108,
+      "question": "A news source suggested that the merger will ------ take place next year.",
+      "answerOptions": [
+        {
+          "text": "(A) originally",
+          "isCorrect": false,
+          "rationale": "ban đầu [cite: 381]"
+        },
+        {
+          "text": "(B) probably",
+          "isCorrect": true,
+          "rationale": "có lẽ [cite: 381]"
+        },
+        {
+          "text": "(C) regularly",
+          "isCorrect": false,
+          "rationale": "thường xuyên [cite: 381]"
+        },
+        {
+          "text": "(D) thoughtfully",
+          "isCorrect": false,
+          "rationale": "một cách chu đáo [cite: 382]"
+        }
+      ],
+      "hint": "Giải thích: Cần trạng từ có nghĩa phù hợp, chỉ khả năng xảy ra trong tương lai. “Probably” là phù hợp. [cite: 380, 381]",
+      "translation": "Dịch: Một nguồn tin tức cho rằng vụ sáp nhập CÓ LẼ sẽ diễn ra vào năm tới. [cite: 382]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 109,
+      "question": "The Seaborne Inn has ------ beautiful guest rooms that can be booked on a monthly basis.",
+      "answerOptions": [
+        {
+          "text": "(A) various",
+          "isCorrect": true,
+          "rationale": "nhiều, đa dạng [cite: 384]"
+        },
+        {
+          "text": "(B) among",
+          "isCorrect": false,
+          "rationale": "giữa [cite: 384]"
+        },
+        {
+          "text": "(C) throughout",
+          "isCorrect": false,
+          "rationale": "khắp [cite: 384]"
+        },
+        {
+          "text": "(D) itself",
+          "isCorrect": false,
+          "rationale": "chính nó [cite: 385]"
+        }
+      ],
+      "hint": "Giải thích: Trước danh từ “beautiful guest rooms” cần tính từ chỉ số lượng/đa dạng. “Various” phù hợp nhất. Cấu trúc: various + plural noun. [cite: 383, 385]",
+      "translation": "Dịch: Khách sạn Seaborne Inn có NHIỀU phòng nghỉ đẹp có thể được đặt theo hình thức thuê theo tháng. [cite: 385]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 110,
+      "question": "Ahearn Accessories' retail shop is located ------ Gordon Avenue and Hutch Street.",
+      "answerOptions": [
+        {
+          "text": "(A) until",
+          "isCorrect": false,
+          "rationale": "cho đến [cite: 387]"
+        },
+        {
+          "text": "(B) against",
+          "isCorrect": false,
+          "rationale": "chống lại [cite: 387]"
+        },
+        {
+          "text": "(C) at",
+          "isCorrect": true,
+          "rationale": "tại [cite: 387]"
+        },
+        {
+          "text": "(D) aside from",
+          "isCorrect": false,
+          "rationale": "ngoài ra [cite: 387]"
+        }
+      ],
+      "hint": "Giải thích: Sau khoảng trống là vị trí cụ thể trên đường phố nên dùng giới từ “at”. Cấu trúc: be located at + address. [cite: 386, 387]",
+      "translation": "Dịch: Cửa hàng bán lẻ của Ahearn Accessories tọa lạc tại góc đường Gordon Avenue và Hutch Street. [cite: 388]",
+      "category": "preposition"
+    },
+    {
+      "id": 111,
+      "question": "A majority of the city's residents rated its transportation app as ------.",
+      "answerOptions": [
+        {
+          "text": "(A) acceptability",
+          "isCorrect": false,
+          "rationale": "tính chấp nhận được (N) [cite: 390]"
+        },
+        {
+          "text": "(B) acceptable",
+          "isCorrect": true,
+          "rationale": "chấp nhận được (Adj) [cite: 390]"
+        },
+        {
+          "text": "(C) acceptance",
+          "isCorrect": false,
+          "rationale": "sự chấp nhận (N) [cite: 390]"
+        },
+        {
+          "text": "(D) accepting",
+          "isCorrect": false,
+          "rationale": "đang chấp nhận (Ving) [cite: 390]"
+        }
+      ],
+      "hint": "Giải thích: Sau “rated … as” cần tính từ. “Acceptable” là tính từ đúng. Cấu trúc: rate + noun + as + adjective. [cite: 389, 391]",
+      "translation": "Dịch: Đa số cư dân trong thành phố đánh giá ứng dụng giao thông của thành phố là CÓ THỂ CHẤP NHẬN ĐƯỢC. [cite: 391]",
+      "category": "word-form"
+    },
+    {
+      "id": 112,
+      "question": "Dr. Cheung ------ Silk Valley Hospital at next weekend's medical fair.",
+      "answerOptions": [
+        {
+          "text": "(A) represent",
+          "isCorrect": false,
+          "rationale": "đại diện (Vo) [cite: 393]"
+        },
+        {
+          "text": "(B) did represent",
+          "isCorrect": false,
+          "rationale": "đã đại diện (Vpast) [cite: 393]"
+        },
+        {
+          "text": "(C) is representing",
+          "isCorrect": true,
+          "rationale": "sẽ đại diện (HTTD - kế hoạch đã định) [cite: 393]"
+        },
+        {
+          "text": "(D) had represented",
+          "isCorrect": false,
+          "rationale": "đã từng đại diện (QKHT) [cite: 394]"
+        }
+      ],
+      "hint": "Giải thích: Câu nói về kế hoạch trong tương lai gần (next weekend) → dùng hiện tại tiếp diễn. [cite: 392, 393]",
+      "translation": "Dịch: Bác sĩ Cheung SẼ ĐẠI DIỆN cho Bệnh viện Silk Valley tại hội chợ y tế vào cuối tuần tới. [cite: 394]",
+      "category": "grammar"
+    },
+    {
+      "id": 113,
+      "question": "Frankie's Boutique had a financially ------ quarter after taking measures to reduce costs.",
+      "answerOptions": [
+        {
+          "text": "(A) plain",
+          "isCorrect": false,
+          "rationale": "đơn giản [cite: 397]"
+        },
+        {
+          "text": "(B) profitable",
+          "isCorrect": true,
+          "rationale": "có lợi nhuận, có lãi [cite: 397]"
+        },
+        {
+          "text": "(C) full",
+          "isCorrect": false,
+          "rationale": "đầy [cite: 397]"
+        },
+        {
+          "text": "(D) additional",
+          "isCorrect": false,
+          "rationale": "thêm [cite: 397]"
+        }
+      ],
+      "hint": "Giải thích: Sau khoảng trống là danh từ “quarter” (quý), trước khoảng trống trạng từ “financially” (về tài chính) nên cần tính từ phù hợp về nghĩa. “Profitable” là phù hợp để nói về tiền tệ, chi phí. [cite: 395, 396]",
+      "translation": "Dịch: Cửa hàng Frankie's Boutique đã có một quý kinh doanh CÓ LÃI về mặt tài chính sau khi thực hiện các biện pháp giảm chi phí. [cite: 397, 398]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 114,
+      "question": "Because it submitted the lowest bid, Deb's Gifting has been chosen as the ------ of this year's holiday cards.",
+      "answerOptions": [
+        {
+          "text": "(A) supply",
+          "isCorrect": false,
+          "rationale": "cung cấp/sự cung cấp (Vo/N) [cite: 399]"
+        },
+        {
+          "text": "(B) supplier",
+          "isCorrect": true,
+          "rationale": "nhà cung cấp (N) [cite: 399]"
+        },
+        {
+          "text": "(C) supplies",
+          "isCorrect": false,
+          "rationale": "cung cấp/vật tư (Vs/Ns) [cite: 400]"
+        },
+        {
+          "text": "(D) supplying",
+          "isCorrect": false,
+          "rationale": "đang cung cấp (Ving)"
+        }
+      ],
+      "hint": "Giải thích: Trước khoảng trống là hạn định từ “the”, đằng sau là giới từ “of” thì chỉ có thể chọn Danh từ, và cần phù hợp về nghĩa. [cite: 398, 399]",
+      "translation": "Dịch: Vì đã nộp giá thầu thấp nhất, Deb's Gifting đã được chọn làm NHÀ CUNG CẤP thiệp lễ năm nay. [cite: 400]",
+      "category": "word-form"
+    },
+    {
+      "id": 115,
+      "question": "The Whitetail Institute is the only ------ that tracks deer populations in rapidly expanding suburban areas.",
+      "answerOptions": [
+        {
+          "text": "(A) leadership",
+          "isCorrect": false,
+          "rationale": "ban lãnh đạo [cite: 402]"
+        },
+        {
+          "text": "(B) neighborhood",
+          "isCorrect": false,
+          "rationale": "khu dân cư [cite: 402]"
+        },
+        {
+          "text": "(C) official",
+          "isCorrect": false,
+          "rationale": "quan chức / chính thức [cite: 402]"
+        },
+        {
+          "text": "(D) organization",
+          "isCorrect": true,
+          "rationale": "tổ chức [cite: 403]"
+        }
+      ],
+      "hint": "Giải thích: Cần danh từ có nghĩa phù hợp, chỉ tổ chức để làm những hoạt động theo dõi hươu. “Organization” phù hợp nhất. Cấu trúc: the only + noun + that + verb. [cite: 401, 402, 403]",
+      "translation": "Dịch: Viện Whitetail là TỔ CHỨC duy nhất theo dõi quần thể hươu ở các khu vực ngoại ô đang phát triển nhanh. [cite: 403]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 116,
+      "question": "The committee members ------ attended the meeting are listed in the appendix.",
+      "answerOptions": [
+        {
+          "text": "(A) who",
+          "isCorrect": true,
+          "rationale": "người mà (ĐTQH làm chủ ngữ) [cite: 405]"
+        },
+        {
+          "text": "(B) they",
+          "isCorrect": false,
+          "rationale": "họ (ĐTNX làm chủ ngữ) [cite: 405]"
+        },
+        {
+          "text": "(C) when",
+          "isCorrect": false,
+          "rationale": "khi [cite: 405]"
+        },
+        {
+          "text": "(D) some",
+          "isCorrect": false,
+          "rationale": "một số [cite: 406]"
+        }
+      ],
+      "hint": "Giải thích: Đằng trước chỗ trống là danh từ “members”, nên cần điền Đại từ quan hệ chỉ người, làm chủ ngữ trong mệnh đề phụ. [cite: 404]",
+      "translation": "Dịch: Những thành viên ủy ban NGƯỜI MÀ đã tham dự cuộc họp được liệt kê trong phần phụ lục. [cite: 406]",
+      "category": "pronoun"
+    },
+    {
+      "id": 117,
+      "question": "Our new app is ------ designed to provide data-driven insights to investment professionals.",
+      "answerOptions": [
+        {
+          "text": "(A) specify",
+          "isCorrect": false,
+          "rationale": "chỉ định (Vo) [cite: 408]"
+        },
+        {
+          "text": "(B) specific",
+          "isCorrect": false,
+          "rationale": "cụ thể (Adj) [cite: 409]"
+        },
+        {
+          "text": "(C) specificity",
+          "isCorrect": false,
+          "rationale": "tính cụ thể (N) [cite: 409]"
+        },
+        {
+          "text": "(D) specifically",
+          "isCorrect": true,
+          "rationale": "một cách cụ thể, đặc biệt (Adv) [cite: 409]"
+        }
+      ],
+      "hint": "Giải thích: Sau “is” cần trạng từ bổ nghĩa cho “designed”. “Specifically” là đúng. [cite: 407, 408]",
+      "translation": "Dịch: Ứng dụng mới của chúng tôi được thiết kế ĐẶC BIỆT để cung cấp các phân tích dựa trên dữ liệu cho các chuyên gia đầu tư. [cite: 409]",
+      "category": "word-form"
+    },
+    {
+      "id": 118,
+      "question": "The results of the study suggest that more people ------ with night driving than previously believed.",
+      "answerOptions": [
+        {
+          "text": "(A) struggles",
+          "isCorrect": false,
+          "rationale": "gặp khó khăn (Vs) [cite: 412]"
+        },
+        {
+          "text": "(B) struggling",
+          "isCorrect": false,
+          "rationale": "đang gặp khó khăn (Ving) [cite: 412]"
+        },
+        {
+          "text": "(C) to struggle",
+          "isCorrect": false,
+          "rationale": "để gặp khó khăn (to V) [cite: 412]"
+        },
+        {
+          "text": "(D) struggle",
+          "isCorrect": true,
+          "rationale": "gặp khó khăn (Vo) [cite: 413]"
+        }
+      ],
+      "hint": "Giải thích: Sau “that” cần một mệnh đề. Đã có chủ ngữ là “more people” => thiếu động từ chính, chia theo chủ ngữ số nhiều. Cấu trúc: suggest that + subject + Vo. [cite: 410, 411, 413]",
+      "translation": "Dịch: Kết quả nghiên cứu cho thấy nhiều người GẶP KHÓ KHĂN với việc lái xe ban đêm hơn so với trước đây. [cite: 413]",
+      "category": "word-form"
+    },
+    {
+      "id": 119,
+      "question": "Each department has been asked to develop an action plan in ------ to the budget cuts announced last week.",
+      "answerOptions": [
+        {
+          "text": "(A) response",
+          "isCorrect": true,
+          "rationale": "sự phản hồi [cite: 415]"
+        },
+        {
+          "text": "(B) effect",
+          "isCorrect": false,
+          "rationale": "tác động [cite: 415]"
+        },
+        {
+          "text": "(C) apology",
+          "isCorrect": false,
+          "rationale": "lời xin lỗi [cite: 415]"
+        },
+        {
+          "text": "(D) confirmation",
+          "isCorrect": false,
+          "rationale": "sự xác nhận [cite: 416]"
+        }
+      ],
+      "hint": "Giải thích: Cần điền danh từ phù hợp về nghĩa. Cụm đúng là “in response to” mang nghĩa để đáp lại hoặc phản hồi. [cite: 414, 416]",
+      "translation": "Dịch: Mỗi phòng ban đã được yêu cầu xây dựng kế hoạch hành động để PHẢN HỒI lại các đợt cắt giảm ngân sách được công bố vào tuần trước. [cite: 416]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 120,
+      "question": "Our popular online training materials have ------ been shown to improve job seekers' skills.",
+      "answerOptions": [
+        {
+          "text": "(A) consistently",
+          "isCorrect": true,
+          "rationale": "một cách nhất quán [cite: 419]"
+        },
+        {
+          "text": "(B) emotionally",
+          "isCorrect": false,
+          "rationale": "về mặt cảm xúc [cite: 419]"
+        },
+        {
+          "text": "(C) spaciously",
+          "isCorrect": false,
+          "rationale": "rộng rãi [cite: 419]"
+        },
+        {
+          "text": "(D) randomly",
+          "isCorrect": false,
+          "rationale": "ngẫu nhiên [cite: 419]"
+        }
+      ],
+      "hint": "Giải thích: Cần trạng từ có nghĩa phù hợp để bổ sung ý nghĩa cho cụm V “have been shown”. “Consistently” phù hợp nhất. Cấu trúc: have been shown to + V. [cite: 417, 418, 419]",
+      "translation": "Dịch: Các tài liệu đào tạo trực tuyến phổ biến của chúng tôi đã được chứng minh là cải thiện kỹ năng của người tìm việc MỘT CÁCH NHẤT QUÁN. [cite: 420]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 121,
+      "question": "Ms. Yamada, ------ director of the Midlands Chamber of Commerce, was recently appointed to the state trade commission.",
+      "answerOptions": [
+        {
+          "text": "(A) formed",
+          "isCorrect": false,
+          "rationale": "đã thành lập (Ved) [cite: 422]"
+        },
+        {
+          "text": "(B) former",
+          "isCorrect": true,
+          "rationale": "cựu / trước đây (Adj) [cite: 422]"
+        },
+        {
+          "text": "(C) formalize",
+          "isCorrect": false,
+          "rationale": "chính thức hóa (Vo) [cite: 423]"
+        },
+        {
+          "text": "(D) formality",
+          "isCorrect": false,
+          "rationale": "tính hình thức (N) [cite: 423]"
+        }
+      ],
+      "hint": "Giải thích: Cụm cần tính từ đứng trước danh từ “director” để bổ sung ý nghĩa. “Former” mang nghĩa “cựu / trước đây”, phù hợp ngữ cảnh. Cấu trúc: former + job title. [cite: 421, 422, 423]",
+      "translation": "Dịch: Bà Yamada, CỰU giám đốc Phòng Thương mại Midlands, gần đây đã được bổ nhiệm vào ủy ban thương mại bang. [cite: 423]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 122,
+      "question": "The software uses computer memory efficiently, allowing users to open ------ five files simultaneously.",
+      "answerOptions": [
+        {
+          "text": "(A) far from",
+          "isCorrect": false,
+          "rationale": "xa [cite: 425]"
+        },
+        {
+          "text": "(B) as for",
+          "isCorrect": false,
+          "rationale": "về phần [cite: 425]"
+        },
+        {
+          "text": "(C) up to",
+          "isCorrect": true,
+          "rationale": "lên đến / tối đa [cite: 425]"
+        },
+        {
+          "text": "(D) out of",
+          "isCorrect": false,
+          "rationale": "ngoài / hết [cite: 426]"
+        }
+      ],
+      "hint": "Giải thích: Cần điền đáp án có nghĩa phù hợp. Cụm số lượng đúng là “up to + number” (tối đa). [cite: 424]",
+      "translation": "Dịch: Phần mềm sử dụng bộ nhớ máy tính hiệu quả, cho phép người dùng mở TỐI ĐA năm tệp cùng lúc. [cite: 426]",
+      "category": "preposition"
+    },
+    {
+      "id": 123,
+      "question": "A monthly newsletter is an excellent way to ------ your group's activities and events.",
+      "answerOptions": [
+        {
+          "text": "(A) realize",
+          "isCorrect": false,
+          "rationale": "nhận ra [cite: 428]"
+        },
+        {
+          "text": "(B) propose",
+          "isCorrect": false,
+          "rationale": "đề xuất [cite: 428]"
+        },
+        {
+          "text": "(C) observe",
+          "isCorrect": false,
+          "rationale": "quan sát [cite: 428]"
+        },
+        {
+          "text": "(D) promote",
+          "isCorrect": true,
+          "rationale": "quảng bá [cite: 428]"
+        }
+      ],
+      "hint": "Giải thích: Cần điền đáp án có nghĩa phù hợp. [cite: 427]",
+      "translation": "Dịch: Một bản tin hàng tháng là cách tuyệt vời để QUẢNG BÁ các hoạt động và sự kiện của nhóm bạn. [cite: 428, 429]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 124,
+      "question": "------ the hotel does not have a restaurant on site, there are many dining options nearby.",
+      "answerOptions": [
+        {
+          "text": "(A) While",
+          "isCorrect": true,
+          "rationale": "mặc dù [cite: 430]"
+        },
+        {
+          "text": "(B) Such as",
+          "isCorrect": false,
+          "rationale": "chẳng hạn như [cite: 430]"
+        },
+        {
+          "text": "(C) Unless",
+          "isCorrect": false,
+          "rationale": "trừ khi [cite: 430]"
+        },
+        {
+          "text": "(D) Without",
+          "isCorrect": false,
+          "rationale": "không có [cite: 431]"
+        }
+      ],
+      "hint": "Giải thích: Câu thể hiện sự nhượng bộ → “While” (mặc dù). Cấu trúc: mặc dù … nhưng … [cite: 429, 431]",
+      "translation": "Dịch: MẶC DÙ khách sạn không có nhà hàng trong khuôn viên, vẫn có nhiều lựa chọn ăn uống ở gần đó. [cite: 431]",
+      "category": "conjunction"
+    },
+    {
+      "id": 125,
+      "question": "------ a slight decline in revenue from the previous quarter, Blakely Components is moving forward with its expansion plan.",
+      "answerOptions": [
+        {
+          "text": "(A) Aside",
+          "isCorrect": false,
+          "rationale": "sang một bên [cite: 433]"
+        },
+        {
+          "text": "(B) Despite",
+          "isCorrect": true,
+          "rationale": "mặc dù [cite: 433]"
+        },
+        {
+          "text": "(C) Becoming",
+          "isCorrect": false,
+          "rationale": "đang trở thành [cite: 433]"
+        },
+        {
+          "text": "(D) Often",
+          "isCorrect": false,
+          "rationale": "thường xuyên [cite: 434]"
+        }
+      ],
+      "hint": "Giải thích: Cần điền đáp án có nghĩa phù hợp. “Despite” đi với danh từ / cụm danh từ và diễn tả sự trái ngược. [cite: 432]",
+      "translation": "Dịch: MẶC DÙ doanh thu giảm nhẹ so với quý trước, Blakely Components vẫn đang tiếp tục kế hoạch mở rộng. [cite: 434]",
+      "category": "preposition"
+    },
+    {
+      "id": 126,
+      "question": "Abelia Dairy Company has undergone several changes in leadership ------ the past ten years.",
+      "answerOptions": [
+        {
+          "text": "(A) over",
+          "isCorrect": true,
+          "rationale": "trong suốt [cite: 436]"
+        },
+        {
+          "text": "(B) into",
+          "isCorrect": false,
+          "rationale": "vào [cite: 436]"
+        },
+        {
+          "text": "(C) since",
+          "isCorrect": false,
+          "rationale": "kể từ [cite: 436]"
+        },
+        {
+          "text": "(D) beside",
+          "isCorrect": false,
+          "rationale": "bên cạnh [cite: 436]"
+        }
+      ],
+      "hint": "Giải thích: Khoảng trống cần điền một giới từ đi được với khoảng thời gian và có nghĩa phù hợp. Cấu trúc: over + period of time. [cite: 435, 436]",
+      "translation": "Dịch: Công ty sữa Abelia đã trải qua nhiều thay đổi trong ban lãnh đạo TRONG SUỐT mười năm qua. [cite: 436]",
+      "category": "preposition"
+    },
+    {
+      "id": 127,
+      "question": "Opal City's Community Theater is holding ------ for its spring production during the first week of December.",
+      "answerOptions": [
+        {
+          "text": "(A) to audition",
+          "isCorrect": false,
+          "rationale": "thử vai (to V) [cite: 438]"
+        },
+        {
+          "text": "(B) auditioned",
+          "isCorrect": false,
+          "rationale": "đã thử vai (Ved) [cite: 439]"
+        },
+        {
+          "text": "(C) auditions",
+          "isCorrect": true,
+          "rationale": "các buổi thử vai (Ns) [cite: 439]"
+        },
+        {
+          "text": "(D) audition",
+          "isCorrect": false,
+          "rationale": "buổi thử vai (N số ít) [cite: 440]"
+        }
+      ],
+      "hint": "Giải thích: Cần danh từ số nhiều để chỉ hoạt động tuyển chọn, vị trí làm tân ngữ của câu. “Auditions” là đáp án đúng. [cite: 437, 438]",
+      "translation": "Dịch: Nhà hát cộng đồng Opal City đang tổ chức CÁC BUỔI THỬ VAI cho vở diễn mùa xuân trong tuần đầu tiên của tháng Mười Hai. [cite: 440]",
+      "category": "word-form"
+    },
+    {
+      "id": 128,
+      "question": "Mr. Kane said he packed so ------ this morning that he forgot to bring a suit and tie for tomorrow's dinner.",
+      "answerOptions": [
+        {
+          "text": "(A) enormously",
+          "isCorrect": false,
+          "rationale": "rất nhiều [cite: 442]"
+        },
+        {
+          "text": "(B) briefly",
+          "isCorrect": false,
+          "rationale": "trong thời gian ngắn [cite: 442]"
+        },
+        {
+          "text": "(C) hastily",
+          "isCorrect": true,
+          "rationale": "vội vàng [cite: 442]"
+        },
+        {
+          "text": "(D) mysteriously",
+          "isCorrect": false,
+          "rationale": "một cách bí ẩn [cite: 443]"
+        }
+      ],
+      "hint": "Giải thích: Chỗ trống cần điền trạng từ phù hợp về nghĩa. Cấu trúc: so + adverb + that + SV (… đến mức mà …). [cite: 441, 443]",
+      "translation": "Dịch: Ông Kano nói rằng ông đã đóng gói hành lý quá VỘI VÀNG vào sáng nay đến nỗi quên mang theo bộ vest và cà vạt cho bữa tối ngày mai. [cite: 443]",
+      "category": "vocabulary"
+    },
+    {
+      "id": 129,
+      "question": "Long before the training program began, Ms. Morris ------ the schedule to allow her team to attend.",
+      "answerOptions": [
+        {
+          "text": "(A) was revised",
+          "isCorrect": false,
+          "rationale": "đã được sửa (QKĐ) [cite: 445]"
+        },
+        {
+          "text": "(B) is revising",
+          "isCorrect": false,
+          "rationale": "đang sửa (HTTD) [cite: 445]"
+        },
+        {
+          "text": "(C) had revised",
+          "isCorrect": true,
+          "rationale": "đã sửa trước đó (QKHT) [cite: 445]"
+        },
+        {
+          "text": "(D) has to revise",
+          "isCorrect": false,
+          "rationale": "phải sửa (HTĐ) [cite: 446]"
+        }
+      ],
+      "hint": "Giải thích: Hành động sửa lịch xảy ra trước một mốc quá khứ ở mệnh đề còn lại → dùng quá khứ hoàn thành. [cite: 444]",
+      "translation": "Dịch: Từ lâu trước khi chương trình đào tạo bắt đầu, bà Morris ĐÃ SỬA lịch trình để cho phép nhóm của bà tham dự. [cite: 446]",
+      "category": "grammar"
+    },
+    {
+      "id": 130,
+      "question": "Mr. Swan will return to the planning meeting ------ the interns have arrived.",
+      "answerOptions": [
+        {
+          "text": "(A) once",
+          "isCorrect": true,
+          "rationale": "khi / sau khi [cite: 448]"
+        },
+        {
+          "text": "(B) unlike",
+          "isCorrect": false,
+          "rationale": "không giống [cite: 448]"
+        },
+        {
+          "text": "(C) whereas",
+          "isCorrect": false,
+          "rationale": "trong khi [cite: 448]"
+        },
+        {
+          "text": "(D) regarding",
+          "isCorrect": false,
+          "rationale": "liên quan đến [cite: 449]"
+        }
+      ],
+      "hint": "Giải thích: Khoảng trống cần điền liên từ có nghĩa phù hợp, chỉ thời điểm. [cite: 447]",
+      "translation": "Dịch: Ông Swan sẽ quay lại cuộc họp lập kế hoạch SAU KHI các thực tập sinh đã đến. [cite: 449]",
+      "category": "conjunction"
+    }
+  ],
+  "title": "TOEIC Part 5 - ETS 2026 Test 3 (Questions 101-130)"
+}

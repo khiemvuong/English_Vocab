@@ -1,0 +1,875 @@
+{
+  "questions": [
+    {
+      "id": 101,
+      "question": "Mr. Choi, who recently joined the advisory board, is an experienced accountant ______ investor.",
+      "answerOptions": [
+        {
+          "text": "(A) but",
+          "isCorrect": false,
+          "rationale": "Dùng để nối hai mệnh đề tương phản."
+        },
+        {
+          "text": "(B) that",
+          "isCorrect": false,
+          "rationale": "Đại từ quan hệ hoặc liên từ, không phù hợp để nối hai danh từ chỉ nghề nghiệp."
+        },
+        {
+          "text": "(C) and",
+          "isCorrect": true,
+          "rationale": "Liên từ nối hai danh từ bổ trợ ý nghĩa cho nhau: 'accountant' và 'investor'."
+        },
+        {
+          "text": "(D) yet",
+          "isCorrect": false,
+          "rationale": "Dùng chỉ sự đối lập."
+        }
+      ],
+      "hint": "Cần liên từ nối hai danh từ chỉ chức danh của cùng một người[cite: 388].",
+      "translation": "Ông Choi, người vừa gia nhập ban cố vấn, là một kế toán giàu kinh nghiệm và là nhà đầu tư[cite: 389].",
+      "category": "conjunction"
+    },
+    {
+      "id": 102,
+      "question": "The first 150 visitors to the new fitness park will each receive a complimentary water ______.",
+      "answerOptions": [
+        {
+          "text": "(A) bottle",
+          "isCorrect": true,
+          "rationale": "Tạo thành danh từ ghép 'water bottle' (chai nước)."
+        },
+        {
+          "text": "(B) bottled",
+          "isCorrect": false,
+          "rationale": "Tính từ, thường dùng là 'bottled water' chứ không đứng sau."
+        },
+        {
+          "text": "(C) bottling",
+          "isCorrect": false,
+          "rationale": "Danh động từ, không hợp nghĩa."
+        },
+        {
+          "text": "(D) to bottle",
+          "isCorrect": false,
+          "rationale": "Dạng động từ có 'to', không phù hợp vị trí danh từ."
+        }
+      ],
+      "hint": "Sau danh từ 'water' cần một danh từ khác để tạo cụm danh từ[cite: 391].",
+      "translation": "150 khách đầu tiên đến trung tâm thể hình mới sẽ nhận được bình nước miễn phí[cite: 392].",
+      "category": "word-form"
+    },
+    {
+      "id": 103,
+      "question": "Operating instructions for the printer will be e-mailed to employees ______.",
+      "answerOptions": [
+        {
+          "text": "(A) short",
+          "isCorrect": false,
+          "rationale": "Tính từ, không bổ nghĩa cho động từ."
+        },
+        {
+          "text": "(B) shortly",
+          "isCorrect": true,
+          "rationale": "Trạng từ chỉ thời gian (sớm thôi), bổ nghĩa cho cụm 'will be e-mailed'."
+        },
+        {
+          "text": "(C) shorter",
+          "isCorrect": false,
+          "rationale": "Dạng so sánh hơn của tính từ."
+        },
+        {
+          "text": "(D) shortening",
+          "isCorrect": false,
+          "rationale": "Danh từ/V-ing, không hợp ngữ pháp."
+        }
+      ],
+      "hint": "Cần trạng từ chỉ thời gian để bổ nghĩa cho động từ trong câu[cite: 394].",
+      "translation": "Hướng dẫn vận hành máy in sẽ sớm được gửi email cho nhân viên[cite: 395].",
+      "category": "word-form"
+    },
+    {
+      "id": 104,
+      "question": "Dozens of ______ customers have posted positive reviews of Stellenbosch Cycle Works.",
+      "answerOptions": [
+        {
+          "text": "(A) satisfy",
+          "isCorrect": false,
+          "rationale": "Động từ nguyên mẫu."
+        },
+        {
+          "text": "(B) satisfied",
+          "isCorrect": true,
+          "rationale": "Tính từ (V-ed) mô tả trạng thái cảm xúc của con người (khách hàng)."
+        },
+        {
+          "text": "(C) satisfaction",
+          "isCorrect": false,
+          "rationale": "Danh từ."
+        },
+        {
+          "text": "(D) satisfies",
+          "isCorrect": false,
+          "rationale": "Động từ chia ngôi thứ 3 số ít."
+        }
+      ],
+      "hint": "Cần tính từ mô tả trạng thái của danh từ 'customers' đứng sau[cite: 397].",
+      "translation": "Hàng chục khách hàng hài lòng đã đăng các đánh giá tích cực về Stellenbosch Cycle Works[cite: 398].",
+      "category": "word-form"
+    },
+    {
+      "id": 105,
+      "question": "Ms. Lim's best-selling novel has been ______ praised.",
+      "answerOptions": [
+        {
+          "text": "(A) respectively",
+          "isCorrect": false,
+          "rationale": "Lần lượt (không hợp nghĩa)."
+        },
+        {
+          "text": "(B) tightly",
+          "isCorrect": false,
+          "rationale": "Chặt chẽ (không đi với khen ngợi)."
+        },
+        {
+          "text": "(C) unhappily",
+          "isCorrect": false,
+          "rationale": "Một cách không vui."
+        },
+        {
+          "text": "(D) widely",
+          "isCorrect": true,
+          "rationale": "Rộng rãi. Cụm 'widely praised' là collocation phổ biến."
+        }
+      ],
+      "hint": "Cần trạng từ bổ nghĩa cho động từ 'praised' (được khen ngợi)[cite: 399].",
+      "translation": "Cuốn tiểu thuyết bán chạy nhất của bà Lim đã được khen ngợi rộng rãi[cite: 400].",
+      "category": "word-form"
+    },
+    {
+      "id": 106,
+      "question": "The marketing manager, Ms. Abyola, plans to meet with the press following ______ meeting with the vice president.",
+      "answerOptions": [
+        {
+          "text": "(A) her",
+          "isCorrect": true,
+          "rationale": "Tính từ sở hữu bổ nghĩa cho danh từ 'meeting'."
+        },
+        {
+          "text": "(B) she",
+          "isCorrect": false,
+          "rationale": "Đại từ chủ ngữ."
+        },
+        {
+          "text": "(C) hers",
+          "isCorrect": false,
+          "rationale": "Đại từ sở hữu (không đứng trước danh từ)."
+        },
+        {
+          "text": "(D) herself",
+          "isCorrect": false,
+          "rationale": "Đại từ phản thân."
+        }
+      ],
+      "hint": "Cần tính từ sở hữu đứng trước danh từ 'meeting'[cite: 402].",
+      "translation": "Giám đốc marketing, bà Ayobla, dự định gặp báo chí sau cuộc họp của bà ấy với phó chủ tịch[cite: 404].",
+      "category": "pronoun"
+    },
+    {
+      "id": 107,
+      "question": "Last weekend, Terriville Community Center held a ______ game night for neighborhood children.",
+      "answerOptions": [
+        {
+          "text": "(A) removable",
+          "isCorrect": false,
+          "rationale": "Có thể tháo rời."
+        },
+        {
+          "text": "(B) plentiful",
+          "isCorrect": false,
+          "rationale": "Dồi dào."
+        },
+        {
+          "text": "(C) lively",
+          "isCorrect": true,
+          "rationale": "Sôi động, đầy sức sống."
+        },
+        {
+          "text": "(D) current",
+          "isCorrect": false,
+          "rationale": "Hiện tại."
+        }
+      ],
+      "hint": "Cần tính từ mô tả không khí của 'game night'[cite: 406].",
+      "translation": "Cuối tuần trước, Trung tâm Cộng đồng Terriville đã tổ chức một đêm trò chơi sôi động cho trẻ em trong khu phố[cite: 407].",
+      "category": "word-form"
+    },
+    {
+      "id": 108,
+      "question": "Mr. Lenthe will distribute ______ of the workshop agenda to all managers by Tuesday morning.",
+      "answerOptions": [
+        {
+          "text": "(A) copies",
+          "isCorrect": true,
+          "rationale": "Danh từ số nhiều chỉ các bản sao tài liệu."
+        },
+        {
+          "text": "(B) copier",
+          "isCorrect": false,
+          "rationale": "Máy photocopy (không hợp nghĩa)."
+        },
+        {
+          "text": "(C) copy",
+          "isCorrect": false,
+          "rationale": "Danh từ số ít (thường cần mạo từ)."
+        },
+        {
+          "text": "(D) copying",
+          "isCorrect": false,
+          "rationale": "Việc sao chép."
+        }
+      ],
+      "hint": "Vị trí này cần một danh từ đóng vai trò tân ngữ cho động từ 'distribute'[cite: 409].",
+      "translation": "Ông Lenthe sẽ phát các bản sao chương trình hội thảo cho tất cả các quản lý trước sáng thứ Ba[cite: 411].",
+      "category": "word-form"
+    },
+    {
+      "id": 109,
+      "question": "Employees are eligible for more vacation time ______ they have been employed for five years.",
+      "answerOptions": [
+        {
+          "text": "(A) after",
+          "isCorrect": true,
+          "rationale": "Liên từ chỉ thời gian (sau khi)."
+        },
+        {
+          "text": "(B) neither",
+          "isCorrect": false,
+          "rationale": "Cũng không (thường đi với nor)."
+        },
+        {
+          "text": "(C) so",
+          "isCorrect": false,
+          "rationale": "Vì vậy."
+        },
+        {
+          "text": "(D) thus",
+          "isCorrect": false,
+          "rationale": "Do đó."
+        }
+      ],
+      "hint": "Cần liên từ nối hai mệnh đề chỉ điều kiện thời gian[cite: 413].",
+      "translation": "Nhân viên đủ điều kiện được thêm ngày nghỉ phép sau khi họ đã làm việc đủ năm năm[cite: 413].",
+      "category": "conjunction"
+    },
+    {
+      "id": 110,
+      "question": "Managers at Afton Accounting are urged to provide ______ feedback to employees on a regular basis.",
+      "answerOptions": [
+        {
+          "text": "(A) construct",
+          "isCorrect": false,
+          "rationale": "Động từ xây dựng."
+        },
+        {
+          "text": "(B) constructor",
+          "isCorrect": false,
+          "rationale": "Người xây dựng."
+        },
+        {
+          "text": "(C) constructive",
+          "isCorrect": true,
+          "rationale": "Tính từ mang nghĩa 'mang tính xây dựng' (thường đi với feedback)."
+        },
+        {
+          "text": "(D) construction",
+          "isCorrect": false,
+          "rationale": "Sự xây dựng."
+        }
+      ],
+      "hint": "Cần tính từ bổ nghĩa cho danh từ 'feedback'[cite: 416].",
+      "translation": "Các quản lý tại Afton Accounting được khuyến khích đưa ra phản hồi mang tính xây dựng cho nhân viên thường xuyên[cite: 417].",
+      "category": "word-form"
+    },
+    {
+      "id": 111,
+      "question": "Many farmers markets operate on a seasonal ______, opening in spring and closing in late autumn.",
+      "answerOptions": [
+        {
+          "text": "(A) topic",
+          "isCorrect": false,
+          "rationale": "Chủ đề."
+        },
+        {
+          "text": "(B) basis",
+          "isCorrect": true,
+          "rationale": "Cấu trúc 'on a ... basis' dùng để chỉ cách thức hoạt động định kỳ."
+        },
+        {
+          "text": "(C) root",
+          "isCorrect": false,
+          "rationale": "Gốc rễ."
+        },
+        {
+          "text": "(D) sum",
+          "isCorrect": false,
+          "rationale": "Tổng số."
+        }
+      ],
+      "hint": "Collocation: 'on a seasonal basis' nghĩa là hoạt động theo mùa[cite: 420].",
+      "translation": "Nhiều chợ nông sản hoạt động theo mùa, mở cửa vào mùa xuân và đóng cửa vào cuối mùa thu[cite: 420].",
+      "category": "vocabulary"
+    },
+    {
+      "id": 112,
+      "question": "______ in the housing market has continued to drag down real estate profits.",
+      "answerOptions": [
+        {
+          "text": "(A) Weak",
+          "isCorrect": false,
+          "rationale": "Tính từ."
+        },
+        {
+          "text": "(B) Weakly",
+          "isCorrect": false,
+          "rationale": "Trạng từ."
+        },
+        {
+          "text": "(C) Weakness",
+          "isCorrect": true,
+          "rationale": "Danh từ đóng vai trò chủ ngữ chính của câu."
+        },
+        {
+          "text": "(D) Weakened",
+          "isCorrect": false,
+          "rationale": "Động từ phân từ."
+        }
+      ],
+      "hint": "Cần một danh từ làm chủ ngữ đứng trước giới từ 'in'[cite: 422].",
+      "translation": "Sự yếu kém trong thị trường nhà ở đã tiếp tục làm giảm lợi nhuận bất động sản[cite: 424].",
+      "category": "word-form"
+    },
+    {
+      "id": 113,
+      "question": "The sudden merger of Alvy Brothers and Crawford Enterprises ______ most financial analysts.",
+      "answerOptions": [
+        {
+          "text": "(A) enabled",
+          "isCorrect": false,
+          "rationale": "Cho phép."
+        },
+        {
+          "text": "(B) arranged",
+          "isCorrect": false,
+          "rationale": "Sắp xếp."
+        },
+        {
+          "text": "(C) surprised",
+          "isCorrect": true,
+          "rationale": "Làm ngạc nhiên (phù hợp với tính chất 'sudden merger')."
+        },
+        {
+          "text": "(D) suspected",
+          "isCorrect": false,
+          "rationale": "Nghi ngờ."
+        }
+      ],
+      "hint": "Dịch nghĩa để tìm động từ phù hợp với ngữ cảnh sự kiện gây kinh ngạc[cite: 426].",
+      "translation": "Việc sáp nhập bất ngờ giữa Alvy Brothers và Crawford Enterprises đã khiến hầu hết các nhà phân tích tài chính ngạc nhiên[cite: 427].",
+      "category": "word-form"
+    },
+    {
+      "id": 114,
+      "question": "Of all the mistakes people make in the office, not proofreading their e-mails is one of the ______. ",
+      "answerOptions": [
+        {
+          "text": "(A) commoners",
+          "isCorrect": false,
+          "rationale": "Người dân thường."
+        },
+        {
+          "text": "(B) most common",
+          "isCorrect": true,
+          "rationale": "Dạng so sánh nhất của tính từ common."
+        },
+        {
+          "text": "(C) in common",
+          "isCorrect": false,
+          "rationale": "Có điểm chung (thường đứng sau động từ have)."
+        },
+        {
+          "text": "(D) more commonly",
+          "isCorrect": false,
+          "rationale": "Trạng từ so sánh hơn."
+        }
+      ],
+      "hint": "Cấu trúc 'one of the + so sánh nhất'[cite: 430].",
+      "translation": "Trong tất cả các lỗi mọi người mắc phải ở văn phòng, việc không đọc lại email là một trong những lỗi phổ biến nhất[cite: 430].",
+      "category": "grammar"
+    },
+    {
+      "id": 115,
+      "question": "Cayfair Global's ______ mission is to transport and deliver client goods in a timely manner.",
+      "answerOptions": [
+        {
+          "text": "(A) prompt",
+          "isCorrect": false,
+          "rationale": "Nhanh chóng."
+        },
+        {
+          "text": "(B) primary",
+          "isCorrect": true,
+          "rationale": "Chính, chủ yếu (đi với mission)."
+        },
+        {
+          "text": "(C) bright",
+          "isCorrect": false,
+          "rationale": "Tươi sáng."
+        },
+        {
+          "text": "(D) nearest",
+          "isCorrect": false,
+          "rationale": "Gần nhất."
+        }
+      ],
+      "hint": "Cần tính từ bổ nghĩa cho danh từ 'mission' để chỉ mục đích chính của công ty[cite: 432].",
+      "translation": "Sứ mệnh chính của Cayfair Global là vận chuyển và giao hàng cho khách một cách kịp thời[cite: 432].",
+      "category": "word-form"
+    },
+    {
+      "id": 116,
+      "question": "The department supervisor is ______ for ensuring that all safety gear is stowed properly at the end of the shift.",
+      "answerOptions": [
+        {
+          "text": "(A) responsibilities",
+          "isCorrect": false,
+          "rationale": "Danh từ số nhiều."
+        },
+        {
+          "text": "(B) responsibility",
+          "isCorrect": false,
+          "rationale": "Danh từ số ít."
+        },
+        {
+          "text": "(C) responsibly",
+          "isCorrect": false,
+          "rationale": "Trạng từ."
+        },
+        {
+          "text": "(D) responsible",
+          "isCorrect": true,
+          "rationale": "Tính từ trong cấu trúc 'to be responsible for'."
+        }
+      ],
+      "hint": "Cụm từ cố định: 'to be responsible for something'[cite: 435].",
+      "translation": "Giám sát viên bộ phận chịu trách nhiệm đảm bảo toàn bộ đồ bảo hộ được cất giữ đúng cách vào cuối ca làm[cite: 437].",
+      "category": "word-form"
+    },
+    {
+      "id": 117,
+      "question": "A three-year project deepened the ______, allowing it to accommodate the largest cargo ships.",
+      "answerOptions": [
+        {
+          "text": "(A) tide",
+          "isCorrect": false,
+          "rationale": "Thủy triều."
+        },
+        {
+          "text": "(B) boat",
+          "isCorrect": false,
+          "rationale": "Con thuyền."
+        },
+        {
+          "text": "(C) harbor",
+          "isCorrect": true,
+          "rationale": "Bến cảng (nơi có thể 'deepen' để tàu lớn vào)."
+        },
+        {
+          "text": "(D) island",
+          "isCorrect": false,
+          "rationale": "Hòn đảo."
+        }
+      ],
+      "hint": "Dựa vào động từ 'deepen' (đào sâu) và 'cargo ships' để chọn địa danh phù hợp[cite: 440].",
+      "translation": "Dự án kéo dài ba năm đã đào sâu bến cảng, cho phép tiếp nhận những tàu lớn nhất[cite: 440].",
+      "category": "vocabulary"
+    },
+    {
+      "id": 118,
+      "question": "The experiment's initial results were ______ different from what was expected.",
+      "answerOptions": [
+        {
+          "text": "(A) wild",
+          "isCorrect": false,
+          "rationale": "Tính từ."
+        },
+        {
+          "text": "(B) wildest",
+          "isCorrect": false,
+          "rationale": "So sánh nhất của tính từ."
+        },
+        {
+          "text": "(C) wildly",
+          "isCorrect": true,
+          "rationale": "Trạng từ bổ nghĩa cho tính từ 'different'. 'Wildly different' là cụm từ nhấn mạnh sự khác biệt lớn."
+        },
+        {
+          "text": "(D) wildness",
+          "isCorrect": false,
+          "rationale": "Danh từ."
+        }
+      ],
+      "hint": "Cần trạng từ đứng trước tính từ để bổ nghĩa mức độ[cite: 443].",
+      "translation": "Kết quả ban đầu của thí nghiệm khác biệt rất nhiều so với dự đoán[cite: 443].",
+      "category": "word-form"
+    },
+    {
+      "id": 119,
+      "question": "______ critical reviews, the movie was a great success at the box office.",
+      "answerOptions": [
+        {
+          "text": "(A) During",
+          "isCorrect": false,
+          "rationale": "Trong suốt."
+        },
+        {
+          "text": "(B) About",
+          "isCorrect": false,
+          "rationale": "Về."
+        },
+        {
+          "text": "(C) Despite",
+          "isCorrect": true,
+          "rationale": "Mặc dù (dùng với cụm danh từ chỉ sự tương phản)."
+        },
+        {
+          "text": "(D) Over",
+          "isCorrect": false,
+          "rationale": "Qua/trên."
+        }
+      ],
+      "hint": "Cần giới từ chỉ sự nhượng bộ/tương phản đứng trước cụm danh từ[cite: 446].",
+      "translation": "Mặc dù có nhiều bài phê bình tiêu cực, bộ phim vẫn đạt doanh thu phòng vé rất cao[cite: 447].",
+      "category": "preposition"
+    },
+    {
+      "id": 120,
+      "question": "The spray-on sealant ______ as a protective layer that keeps your tiles from getting scratched.",
+      "answerOptions": [
+        {
+          "text": "(A) acts",
+          "isCorrect": true,
+          "rationale": "Động từ chính chia theo chủ ngữ số ít 'sealant'."
+        },
+        {
+          "text": "(B) acting",
+          "isCorrect": false,
+          "rationale": "Dạng V-ing (cần trợ động từ be để làm động từ chính)."
+        },
+        {
+          "text": "(C) action",
+          "isCorrect": false,
+          "rationale": "Danh từ."
+        },
+        {
+          "text": "(D) actively",
+          "isCorrect": false,
+          "rationale": "Trạng từ."
+        }
+      ],
+      "hint": "Cấu trúc 'act as + noun' (đóng vai trò là/hoạt động như là)[cite: 450].",
+      "translation": "Lớp keo xịt hoạt động như một lớp bảo vệ giúp gạch không bị trầy xước[cite: 450].",
+      "category": "word-form"
+    },
+    {
+      "id": 121,
+      "question": "The contract for the renovation of the park will not be awarded ______ all bids have been submitted.",
+      "answerOptions": [
+        {
+          "text": "(A) nor",
+          "isCorrect": false,
+          "rationale": "Cũng không."
+        },
+        {
+          "text": "(B) next",
+          "isCorrect": false,
+          "rationale": "Kế tiếp."
+        },
+        {
+          "text": "(C) until",
+          "isCorrect": true,
+          "rationale": "Cho đến khi (thường đi với phủ định 'not ... until')."
+        },
+        {
+          "text": "(D) because",
+          "isCorrect": false,
+          "rationale": "Bởi vì."
+        }
+      ],
+      "hint": "Cấu trúc nhấn mạnh mốc thời gian hoàn thành sự việc[cite: 453].",
+      "translation": "Hợp đồng cải tạo công viên sẽ không được trao cho đến khi tất cả hồ sơ dự thầu được nộp[cite: 454].",
+      "category": "conjunction"
+    },
+    {
+      "id": 122,
+      "question": "A recent study showed that substituting refined sugars with maple syrup may have some important ______ benefits.",
+      "answerOptions": [
+        {
+          "text": "(A) only",
+          "isCorrect": false,
+          "rationale": "Chỉ."
+        },
+        {
+          "text": "(B) full",
+          "isCorrect": false,
+          "rationale": "Đầy đủ."
+        },
+        {
+          "text": "(C) legal",
+          "isCorrect": false,
+          "rationale": "Pháp lý."
+        },
+        {
+          "text": "(D) health",
+          "isCorrect": true,
+          "rationale": "Sức khỏe. 'Health benefits' là cụm danh từ phổ biến."
+        }
+      ],
+      "hint": "Cần một danh từ/tính từ bổ nghĩa cho 'benefits' trong ngữ cảnh y tế/dinh dưỡng[cite: 457].",
+      "translation": "Một nghiên cứu gần đây cho thấy việc thay đường tinh luyện bằng siro cây phong có thể mang lại một số lợi ích sức khỏe quan trọng[cite: 458].",
+      "category": "vocabulary"
+    },
+    {
+      "id": 123,
+      "question": "Margie Fung was ______ the winners at Sterntez Institute's art competition.",
+      "answerOptions": [
+        {
+          "text": "(A) from",
+          "isCorrect": false,
+          "rationale": "Từ."
+        },
+        {
+          "text": "(B) upon",
+          "isCorrect": false,
+          "rationale": "Trên/ngay sau khi."
+        },
+        {
+          "text": "(C) among",
+          "isCorrect": true,
+          "rationale": "Trong số (dùng cho một nhóm từ 3 người/vật trở lên)."
+        },
+        {
+          "text": "(D) beyond",
+          "isCorrect": false,
+          "rationale": "Vượt ra ngoài."
+        }
+      ],
+      "hint": "Dùng để chỉ một cá nhân nằm trong một tập thể người thắng cuộc[cite: 461].",
+      "translation": "Margie Fung đã nằm trong số những người chiến thắng tại cuộc thi nghệ thuật của Viện Sterntez[cite: 462].",
+      "category": "preposition"
+    },
+    {
+      "id": 124,
+      "question": "Posting updates too infrequently on social media can cause small businesses ______ by their customers.",
+      "answerOptions": [
+        {
+          "text": "(A) forgets",
+          "isCorrect": false,
+          "rationale": "Động từ chia ngôi thứ 3 số ít."
+        },
+        {
+          "text": "(B) to forget",
+          "isCorrect": false,
+          "rationale": "Dạng chủ động (không hợp nghĩa vì doanh nghiệp 'bị' quên)."
+        },
+        {
+          "text": "(C) been forgotten",
+          "isCorrect": false,
+          "rationale": "Thiếu 'to be' trong cấu trúc cause."
+        },
+        {
+          "text": "(D) to be forgotten",
+          "isCorrect": true,
+          "rationale": "Dạng bị động 'to be + V3' sau cấu trúc cause + object + to V."
+        }
+      ],
+      "hint": "Cấu trúc 'cause someone/something to be + V3' (khiến cái gì bị...)[cite: 465].",
+      "translation": "Việc đăng cập nhật quá ít trên mạng xã hội có thể khiến các doanh nghiệp nhỏ bị khách hàng quên mất[cite: 465].",
+      "category": "grammar"
+    },
+    {
+      "id": 125,
+      "question": "Ideal for conference rooms, our soundproof panels have been specially designed to ______ unwanted background noise.",
+      "answerOptions": [
+        {
+          "text": "(A) compete",
+          "isCorrect": false,
+          "rationale": "Cạnh tranh."
+        },
+        {
+          "text": "(B) absorb",
+          "isCorrect": true,
+          "rationale": "Hấp thụ, tiêu âm (dùng cho vật liệu cách âm)."
+        },
+        {
+          "text": "(C) surpass",
+          "isCorrect": false,
+          "rationale": "Vượt qua."
+        },
+        {
+          "text": "(D) remain",
+          "isCorrect": false,
+          "rationale": "Duy trì/còn lại."
+        }
+      ],
+      "hint": "Chọn động từ phù hợp với chức năng của 'soundproof panels' (tấm cách âm)[cite: 468].",
+      "translation": "Lý tưởng cho phòng hội nghị, các tấm cách âm của chúng tôi đã được thiết kế đặc biệt để giảm/hấp thụ tiếng ồn nền không mong muốn[cite: 468].",
+      "category": "vocabulary"
+    },
+    {
+      "id": 126,
+      "question": "Mr. Sato will call into the meeting ______ the hotel's wireless network.",
+      "answerOptions": [
+        {
+          "text": "(A) used",
+          "isCorrect": false,
+          "rationale": "Quá khứ phân từ mang nghĩa bị động (không hợp ngữ cảnh)."
+        },
+        {
+          "text": "(B) using",
+          "isCorrect": true,
+          "rationale": "Hiện tại phân từ (V-ing) rút gọn mệnh đề quan hệ mang nghĩa chủ động hoặc chỉ cách thức."
+        },
+        {
+          "text": "(C) use",
+          "isCorrect": false,
+          "rationale": "Động từ nguyên mẫu."
+        },
+        {
+          "text": "(D) had used",
+          "isCorrect": false,
+          "rationale": "Quá khứ hoàn thành."
+        }
+      ],
+      "hint": "Dùng V-ing để chỉ phương thức thực hiện hành động chính trong câu[cite: 471].",
+      "translation": "Ông Sato sẽ gọi vào cuộc họp bằng cách dùng mạng Wi-Fi của khách sạn[cite: 473].",
+      "category": "word-form"
+    },
+    {
+      "id": 127,
+      "question": "Not only has Mr. Ogbu ______ worked on the project, but he has also trained Ms. Jeong to continue the work.",
+      "answerOptions": [
+        {
+          "text": "(A) accessibly",
+          "isCorrect": false,
+          "rationale": "Một cách dễ tiếp cận."
+        },
+        {
+          "text": "(B) diligently",
+          "isCorrect": true,
+          "rationale": "Một cách chăm chỉ/cần mẫn (bổ nghĩa cho worked)."
+        },
+        {
+          "text": "(C) eventually",
+          "isCorrect": false,
+          "rationale": "Cuối cùng thì."
+        },
+        {
+          "text": "(D) completely",
+          "isCorrect": false,
+          "rationale": "Hoàn toàn."
+        }
+      ],
+      "hint": "Cần trạng từ chỉ cách thức làm việc tích cực[cite: 476].",
+      "translation": "Không những ông Ogbu đã làm việc chăm chỉ trong dự án, mà ông ấy còn đào tạo bà Jeong để tiếp tục công việc[cite: 477].",
+      "category": "word-form"
+    },
+    {
+      "id": 128,
+      "question": "Belker Auto offers a ten-year warranty for ______ that want greater peace of mind.",
+      "answerOptions": [
+        {
+          "text": "(A) this",
+          "isCorrect": false,
+          "rationale": "Cái này (số ít)."
+        },
+        {
+          "text": "(B) those",
+          "isCorrect": true,
+          "rationale": "Những người/đối tượng (đại từ chỉ định thay cho customers)."
+        },
+        {
+          "text": "(C) somebody",
+          "isCorrect": false,
+          "rationale": "Một ai đó."
+        },
+        {
+          "text": "(D) everyone",
+          "isCorrect": false,
+          "rationale": "Mọi người."
+        }
+      ],
+      "hint": "Dùng đại từ chỉ định 'those' làm tiền ngữ cho mệnh đề quan hệ 'that want...'[cite: 479].",
+      "translation": "Belker Auto cung cấp bảo hành mười năm cho những người muốn yên tâm hơn[cite: 480].",
+      "category": "pronoun"
+    },
+    {
+      "id": 129,
+      "question": "After months of planning, the Lanton Bookstore school reading program will finally ______ in October.",
+      "answerOptions": [
+        {
+          "text": "(A) observe",
+          "isCorrect": false,
+          "rationale": "Quan sát."
+        },
+        {
+          "text": "(B) represent",
+          "isCorrect": false,
+          "rationale": "Đại diện."
+        },
+        {
+          "text": "(C) commence",
+          "isCorrect": true,
+          "rationale": "Bắt đầu/khởi động (từ trang trọng thường dùng cho chương trình/sự kiện)."
+        },
+        {
+          "text": "(D) access",
+          "isCorrect": false,
+          "rationale": "Truy cập."
+        }
+      ],
+      "hint": "Cần động từ mang nghĩa 'bắt đầu' sau một quá trình chuẩn bị lâu dài[cite: 482].",
+      "translation": "Sau nhiều tháng lên kế hoạch, chương trình đọc sách của trường Lanton Bookstore cuối cùng cũng sẽ bắt đầu vào tháng Mười[cite: 483].",
+      "category": "word-form"
+    },
+    {
+      "id": 130,
+      "question": "Independent consultants can be a valuable source of ______ advice to new entrepreneurs.",
+      "answerOptions": [
+        {
+          "text": "(A) unfulfilled",
+          "isCorrect": false,
+          "rationale": "Chưa được lấp đầy/thỏa mãn."
+        },
+        {
+          "text": "(B) indefinite",
+          "isCorrect": false,
+          "rationale": "Không xác định."
+        },
+        {
+          "text": "(C) obedient",
+          "isCorrect": false,
+          "rationale": "Biết vâng lời."
+        },
+        {
+          "text": "(D) impartial",
+          "isCorrect": true,
+          "rationale": "Khách quan, không thiên vị (đặc điểm của chuyên gia tư vấn)."
+        }
+      ],
+      "hint": "Tìm tính từ mô tả tính chất quý giá của lời khuyên từ bên thứ ba[cite: 486].",
+      "translation": "Các chuyên gia tư vấn độc lập có thể là một nguồn lời khuyên khách quan quý giá cho các doanh nhân mới[cite: 487].",
+      "category": "word-form"
+    }
+  ],
+  "title": "TOEIC Part 5 - ETS 2026 Test 5 (Questions 101-130)"
+}

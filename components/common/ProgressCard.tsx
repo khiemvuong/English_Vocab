@@ -116,6 +116,8 @@ const THEME_MAP = {
   }
 };
 
+type ThemeValue = typeof THEME_MAP[keyof typeof THEME_MAP];
+
 export function ProgressCard({
   href,
   tagLabel,
@@ -146,9 +148,9 @@ export function ProgressCard({
             : `border-slate-200 cursor-pointer hover:-translate-y-1 ${theme.cardBg} ${theme.hoverBorder} ${theme.hoverShadow}`}`}
       >
         {/* Decorative Light Flare */}
-        {(theme as any).flareBg && (
+        {('flareBg' in theme) && (
           <div 
-            className={`absolute bottom-0 right-0 w-2/3 md:w-1/2 h-full pointer-events-none opacity-50 ${(theme as any).flareBg}`} 
+            className={`absolute bottom-0 right-0 w-2/3 md:w-1/2 h-full pointer-events-none opacity-50 ${(theme as ThemeValue & { flareBg: string }).flareBg}`} 
             style={{ clipPath: 'polygon(100% 0, 100% 100%, 0 100%)' }}
           />
         )}

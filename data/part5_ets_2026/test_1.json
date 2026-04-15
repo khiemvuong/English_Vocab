@@ -1,0 +1,875 @@
+{
+  "title": "TOEIC Part 5 - ETS 2026 Test 1 (Questions 101-130)",
+  "questions": [
+    {
+      "id": 101,
+      "question": "The lecture will take place at 6:00 P.M., ______ which attendees may ask questions.",
+      "answerOptions": [
+        {
+          "text": "(A) across",
+          "isCorrect": false,
+          "rationale": "Giới từ chỉ sự băng qua, không phù hợp để nối thời gian với hành động tiếp theo."
+        },
+        {
+          "text": "(B) after",
+          "isCorrect": true,
+          "rationale": "'after which' tương đương với 'after that time', dùng để chỉ sự việc diễn ra sau mốc thời gian đã nêu."
+        },
+        {
+          "text": "(C) inside",
+          "isCorrect": false,
+          "rationale": "Giới từ chỉ vị trí bên trong, không hợp ngữ cảnh thời gian."
+        },
+        {
+          "text": "(D) among",
+          "isCorrect": false,
+          "rationale": "Giới từ chỉ sự nằm trong số nhiều đối tượng, không phù hợp."
+        }
+      ],
+      "hint": "Cần một giới từ đi kèm với 'which' để tạo mệnh đề quan hệ chỉ thời gian (sau đó).",
+      "translation": "Bài giảng sẽ diễn ra lúc 6 giờ tối, sau đó người tham dự có thể đặt câu hỏi.",
+      "category": "grammar"
+    },
+    {
+      "id": 102,
+      "question": "The ______ antique shop in Pepper Valley will close down next month.",
+      "answerOptions": [
+        {
+          "text": "(A) last",
+          "isCorrect": true,
+          "rationale": "Tính từ 'last' (cuối cùng) bổ nghĩa cho cụm danh từ 'antique shop'."
+        },
+        {
+          "text": "(B) lasts",
+          "isCorrect": false,
+          "rationale": "Động từ chia số ít, không thể đứng sau mạo từ 'The' để bổ nghĩa cho danh từ."
+        },
+        {
+          "text": "(C) lasted",
+          "isCorrect": false,
+          "rationale": "Động từ quá khứ hoặc phân từ, không hợp nghĩa."
+        },
+        {
+          "text": "(D) lasting",
+          "isCorrect": false,
+          "rationale": "Tính từ mang nghĩa bền vững/lâu dài, không hợp ngữ cảnh đóng cửa."
+        }
+      ],
+      "hint": "Cần một tính từ đứng trước danh từ 'antique shop' để chỉ thứ tự hoặc trạng thái.",
+      "translation": "Cửa hàng đồ cổ cuối cùng ở Pepper Valley sẽ đóng cửa vào tháng tới.",
+      "category": "word-form"
+    },
+    {
+      "id": 103,
+      "question": "Merryville residents will receive an online status ______ about the ongoing bridge construction project.",
+      "answerOptions": [
+        {
+          "text": "(A) update",
+          "isCorrect": true,
+          "rationale": "'status update' là một cụm danh từ ghép phổ biến mang nghĩa 'bản cập nhật tình trạng'."
+        },
+        {
+          "text": "(B) change",
+          "isCorrect": false,
+          "rationale": "Sự thay đổi, không chuyên dụng bằng 'update' trong ngữ cảnh thông tin dự án."
+        },
+        {
+          "text": "(C) payment",
+          "isCorrect": false,
+          "rationale": "Khoản thanh toán, không liên quan đến thông tin dự án xây cầu."
+        },
+        {
+          "text": "(D) request",
+          "isCorrect": false,
+          "rationale": "Lời yêu cầu, không hợp nghĩa với việc cư dân 'nhận' thông tin."
+        }
+      ],
+      "hint": "Tìm danh từ tạo thành cụm từ mang nghĩa 'bản cập nhật tình hình'.",
+      "translation": "Người dân Merryville sẽ nhận được bản cập nhật tình trạng trực tuyến về dự án xây cầu đang diễn ra.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 104,
+      "question": "As a result of ______ many years leading media organizations, Ms. Ayo was selected for the Dowell Journalism Prize.",
+      "answerOptions": [
+        {
+          "text": "(A) she",
+          "isCorrect": false,
+          "rationale": "Đại từ chủ ngữ, không thể đứng trước cụm danh từ."
+        },
+        {
+          "text": "(B) her",
+          "isCorrect": true,
+          "rationale": "Tính từ sở hữu 'her' bổ nghĩa cho cụm danh từ 'many years' phía sau."
+        },
+        {
+          "text": "(C) hers",
+          "isCorrect": false,
+          "rationale": "Đại từ sở hữu, đã bao gồm cả danh từ, không thể đứng trước một danh từ khác."
+        },
+        {
+          "text": "(D) herself",
+          "isCorrect": false,
+          "rationale": "Đại từ phản thân, không dùng để sở hữu trong ngữ cảnh này."
+        }
+      ],
+      "hint": "Cần một từ chỉ sở hữu đứng trước cụm danh từ 'many years...'.",
+      "translation": "Nhờ nhiều năm lãnh đạo các tổ chức truyền thông, bà Ayo đã được chọn cho Giải Báo chí Dowell.",
+      "category": "pronoun"
+    },
+    {
+      "id": 105,
+      "question": "To stop the ______ of computer viruses, do not open suspicious e-mails.",
+      "answerOptions": [
+        {
+          "text": "(A) break",
+          "isCorrect": false,
+          "rationale": "Sự đứt gãy/giải lao, không đi với virus."
+        },
+        {
+          "text": "(B) spread",
+          "isCorrect": true,
+          "rationale": "'the spread of' là cụm từ cố định chỉ sự lây lan, phát tán (virus, tin đồn...)."
+        },
+        {
+          "text": "(C) balance",
+          "isCorrect": false,
+          "rationale": "Sự cân bằng, không hợp nghĩa."
+        },
+        {
+          "text": "(D) surface",
+          "isCorrect": false,
+          "rationale": "Bề mặt, không hợp nghĩa."
+        }
+      ],
+      "hint": "Từ nào thường dùng để chỉ sự lây lan của dịch bệnh hoặc virus?",
+      "translation": "Để ngăn chặn sự lây lan của virus máy tính, đừng mở các email đáng ngờ.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 106,
+      "question": "The hiring manager ______ considered each applicant's résumé and qualifications.",
+      "answerOptions": [
+        {
+          "text": "(A) caring",
+          "isCorrect": false,
+          "rationale": "Danh động từ hoặc tính từ, không thể bổ nghĩa trực tiếp cho động từ 'considered'."
+        },
+        {
+          "text": "(B) careful",
+          "isCorrect": false,
+          "rationale": "Tính từ, không thể bổ nghĩa cho động từ."
+        },
+        {
+          "text": "(C) carefully",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'carefully' bổ nghĩa cho động từ 'considered' (xem xét một cách cẩn thận)."
+        },
+        {
+          "text": "(D) carefulness",
+          "isCorrect": false,
+          "rationale": "Danh từ, không thể bổ nghĩa cho động từ."
+        }
+      ],
+      "hint": "Vị trí giữa chủ ngữ và động từ chính thường cần một trạng từ để bổ nghĩa cho hành động.",
+      "translation": "Người quản lý tuyển dụng đã xem xét cẩn thận hồ sơ và trình độ của từng ứng viên.",
+      "category": "word-form"
+    },
+    {
+      "id": 107,
+      "question": "In October, Mr. Sakamoto will leave for New Zealand ______ will oversee the opening of the new Auckland branch.",
+      "answerOptions": [
+        {
+          "text": "(A) because",
+          "isCorrect": false,
+          "rationale": "Liên từ chỉ nguyên nhân, không hợp lý về cấu trúc song hành ở đây."
+        },
+        {
+          "text": "(B) in addition",
+          "isCorrect": false,
+          "rationale": "Trạng từ nối, thường cần dấu phẩy và không trực tiếp nối hai động từ."
+        },
+        {
+          "text": "(C) and",
+          "isCorrect": true,
+          "rationale": "Liên từ 'and' dùng để nối hai mệnh đề/động từ có cùng chủ ngữ 'Mr. Sakamoto'."
+        },
+        {
+          "text": "(D) prior to",
+          "isCorrect": false,
+          "rationale": "Giới từ, sau đó phải là danh từ hoặc V-ing, không thể đi với 'will oversee'."
+        }
+      ],
+      "hint": "Cần một liên từ nối hai hành động mà ông Sakamoto sẽ thực hiện.",
+      "translation": "Vào tháng 10, ông Sakamoto sẽ đến New Zealand và sẽ giám sát việc khai trương chi nhánh mới tại Auckland.",
+      "category": "conjunction"
+    },
+    {
+      "id": 108,
+      "question": "Tarateer Pharmaceuticals is varying its product ______ to include over-the-counter medications.",
+      "answerOptions": [
+        {
+          "text": "(A) to line",
+          "isCorrect": false,
+          "rationale": "Dạng động từ có 'to', không tạo thành cụm danh từ hợp nghĩa."
+        },
+        {
+          "text": "(B) lining",
+          "isCorrect": false,
+          "rationale": "Danh động từ, thường chỉ lớp lót."
+        },
+        {
+          "text": "(C) lined",
+          "isCorrect": false,
+          "rationale": "Tính từ/Quá khứ phân từ, không hợp nghĩa."
+        },
+        {
+          "text": "(D) line",
+          "isCorrect": true,
+          "rationale": "'product line' là cụm danh từ ghép nghĩa là 'dòng sản phẩm'."
+        }
+      ],
+      "hint": "Cụm từ nào chỉ tập hợp các sản phẩm tương tự nhau mà một công ty sản xuất?",
+      "translation": "Tarateer Pharmaceuticals đang thay đổi dòng sản phẩm của mình để bao gồm các loại thuốc không cần kê đơn.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 109,
+      "question": "Dynart, Inc., continuously ______ new ways to reduce its use of plastics.",
+      "answerOptions": [
+        {
+          "text": "(A) seeks",
+          "isCorrect": true,
+          "rationale": "Động từ chính chia ở hiện tại đơn, số ít để phù hợp với chủ ngữ là tên công ty 'Dynart, Inc.'."
+        },
+        {
+          "text": "(B) seeker",
+          "isCorrect": false,
+          "rationale": "Danh từ chỉ người tìm kiếm, không thể làm động từ chính."
+        },
+        {
+          "text": "(C) to seek",
+          "isCorrect": false,
+          "rationale": "Động từ nguyên thể có 'to', không làm động từ chính của câu."
+        },
+        {
+          "text": "(D) seeking",
+          "isCorrect": false,
+          "rationale": "V-ing không thể làm động từ chính nếu không có trợ động từ to be."
+        }
+      ],
+      "hint": "Câu đang thiếu một động từ chính được chia theo chủ ngữ số ít 'Dynart, Inc.'.",
+      "translation": "Dynart, Inc. liên tục tìm kiếm những cách mới để giảm việc sử dụng nhựa.",
+      "category": "grammar"
+    },
+    {
+      "id": 110,
+      "question": "The cash registers at Pirkle Books automatically ______ the remaining inventory of books available.",
+      "answerOptions": [
+        {
+          "text": "(A) calculate",
+          "isCorrect": true,
+          "rationale": "Động từ nguyên thể không chia phù hợp với chủ ngữ số nhiều 'The cash registers'."
+        },
+        {
+          "text": "(B) calculator",
+          "isCorrect": false,
+          "rationale": "Danh từ chỉ cái máy tính cầm tay."
+        },
+        {
+          "text": "(C) calculating",
+          "isCorrect": false,
+          "rationale": "Dạng V-ing, không làm động từ chính."
+        },
+        {
+          "text": "(D) calculation",
+          "isCorrect": false,
+          "rationale": "Danh từ chỉ sự tính toán."
+        }
+      ],
+      "hint": "Xác định động từ chính cho chủ ngữ số nhiều 'The cash registers'.",
+      "translation": "Máy tính tiền tại Pirkle Books tự động tính toán lượng sách tồn kho còn lại.",
+      "category": "grammar"
+    },
+    {
+      "id": 111,
+      "question": "The product team is designing mapping software that can ______ locate underground minerals.",
+      "answerOptions": [
+        {
+          "text": "(A) infinitely",
+          "isCorrect": false,
+          "rationale": "Vô tận, không hợp ngữ cảnh định vị."
+        },
+        {
+          "text": "(B) sincerely",
+          "isCorrect": false,
+          "rationale": "Chân thành, thường dùng trong thư từ."
+        },
+        {
+          "text": "(C) precisely",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'precisely' (chính xác) bổ nghĩa cho động từ 'locate'."
+        },
+        {
+          "text": "(D) greatly",
+          "isCorrect": false,
+          "rationale": "Rất nhiều, thường chỉ mức độ cảm xúc hoặc thay đổi."
+        }
+      ],
+      "hint": "Tìm trạng từ mô tả khả năng xác định vị trí một cách đúng đắn, tỉ mỉ.",
+      "translation": "Nhóm sản phẩm đang thiết kế phần mềm bản đồ có thể xác định chính xác các khoáng sản dưới lòng đất.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 112,
+      "question": "According to CEO Mayu Yamada, it would not be ______ responsible to expand the warehouse at this time.",
+      "answerOptions": [
+        {
+          "text": "(A) finance",
+          "isCorrect": false,
+          "rationale": "Danh từ hoặc động từ, không thể bổ nghĩa cho tính từ 'responsible'."
+        },
+        {
+          "text": "(B) financials",
+          "isCorrect": false,
+          "rationale": "Danh từ số nhiều chỉ báo cáo tài chính."
+        },
+        {
+          "text": "(C) financially",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'financially' bổ nghĩa cho tính từ 'responsible' (có trách nhiệm về mặt tài chính)."
+        },
+        {
+          "text": "(D) financing",
+          "isCorrect": false,
+          "rationale": "Danh động từ chỉ việc cấp vốn."
+        }
+      ],
+      "hint": "Từ loại nào đứng trước và bổ nghĩa cho một tính từ?",
+      "translation": "Theo CEO Mayu Yamada, việc mở rộng kho hàng vào thời điểm này sẽ không hợp lý về mặt tài chính.",
+      "category": "word-form"
+    },
+    {
+      "id": 113,
+      "question": "Analysts cannot say with any ______ what the regional demand for electric trucks will be.",
+      "answerOptions": [
+        {
+          "text": "(A) certainty",
+          "isCorrect": true,
+          "rationale": "Cụm từ 'with certainty' nghĩa là 'một cách chắc chắn'."
+        },
+        {
+          "text": "(B) justice",
+          "isCorrect": false,
+          "rationale": "Công lý, không phù hợp ngữ cảnh dự đoán nhu cầu."
+        },
+        {
+          "text": "(C) excellence",
+          "isCorrect": false,
+          "rationale": "Sự xuất sắc, không hợp nghĩa."
+        },
+        {
+          "text": "(D) denial",
+          "isCorrect": false,
+          "rationale": "Sự phủ nhận, không hợp nghĩa."
+        }
+      ],
+      "hint": "Sau 'with any' cần một danh từ để tạo thành trạng từ chỉ mức độ tin cậy của thông tin.",
+      "translation": "Các nhà phân tích không thể nói chắc chắn nhu cầu khu vực đối với xe tải điện sẽ như thế nào.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 114,
+      "question": "As part of its marketing campaign, Elegancia Dishware is ______ soliciting feedback from customers.",
+      "answerOptions": [
+        {
+          "text": "(A) lightly",
+          "isCorrect": false,
+          "rationale": "Nhẹ nhàng, không hợp với chiến dịch marketing."
+        },
+        {
+          "text": "(B) loyally",
+          "isCorrect": false,
+          "rationale": "Trung thành, thường dành cho khách hàng thay vì công ty."
+        },
+        {
+          "text": "(C) actively",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'actively' (tích cực) bổ nghĩa cho hành động 'soliciting' (thu thập)."
+        },
+        {
+          "text": "(D) cleanly",
+          "isCorrect": false,
+          "rationale": "Sạch sẽ, không hợp ngữ cảnh thu thập ý kiến."
+        }
+      ],
+      "hint": "Tìm trạng từ chỉ sự nỗ lực, hăng hái thực hiện một công việc.",
+      "translation": "Là một phần của chiến dịch marketing, Elegancia Dishware đang tích cực thu thập phản hồi từ khách hàng.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 115,
+      "question": "Rain gardens are intended to ______ water to prevent flooding of local roads.",
+      "answerOptions": [
+        {
+          "text": "(A) engage",
+          "isCorrect": false,
+          "rationale": "Tham gia/thu hút, không đi với nước trong ngữ cảnh này."
+        },
+        {
+          "text": "(B) undergo",
+          "isCorrect": false,
+          "rationale": "Trải qua, thường dùng cho quá trình hoặc thử thách."
+        },
+        {
+          "text": "(C) absorb",
+          "isCorrect": true,
+          "rationale": "Động từ 'absorb' (hấp thụ/thấm) phù hợp với chức năng của vườn mưa đối với nước."
+        },
+        {
+          "text": "(D) overwhelm",
+          "isCorrect": false,
+          "rationale": "Làm ngập tràn/áp đảo, ngược lại với mục đích ngăn lụt."
+        }
+      ],
+      "hint": "Hành động nào của khu vườn giúp giảm lượng nước dư thừa trên bề mặt?",
+      "translation": "Các khu vườn mưa được thiết kế để hấp thụ nước nhằm ngăn ngừa ngập lụt đường sá địa phương.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 116,
+      "question": "Theta Industries' training program aims to increase the ______ of its manufacturing systems.",
+      "answerOptions": [
+        {
+          "text": "(A) producer",
+          "isCorrect": false,
+          "rationale": "Người/nhà sản xuất, không thể tăng 'nhà sản xuất' của hệ thống."
+        },
+        {
+          "text": "(B) produced",
+          "isCorrect": false,
+          "rationale": "Dạng quá khứ/phân từ, không đứng sau mạo từ 'the' làm danh từ chính ở đây."
+        },
+        {
+          "text": "(C) productive",
+          "isCorrect": false,
+          "rationale": "Tính từ, không thể đứng sau 'the' mà không có danh từ theo sau."
+        },
+        {
+          "text": "(D) productivity",
+          "isCorrect": true,
+          "rationale": "Danh từ 'productivity' (năng suất) phù hợp để chỉ hiệu quả của hệ thống sản xuất."
+        }
+      ],
+      "hint": "Cần một danh từ đứng sau 'the' để chỉ mục tiêu cần tăng lên trong sản xuất.",
+      "translation": "Chương trình đào tạo của Theta Industries nhằm tăng năng suất của các hệ thống sản xuất.",
+      "category": "word-form"
+    },
+    {
+      "id": 117,
+      "question": "The board of directors has voted to award Mr. Mitrakos a bonus for his role ______ obtaining the international contract.",
+      "answerOptions": [
+        {
+          "text": "(A) in",
+          "isCorrect": true,
+          "rationale": "Cấu trúc 'role in (doing) something' nghĩa là 'vai trò trong việc gì'."
+        },
+        {
+          "text": "(B) at",
+          "isCorrect": false,
+          "rationale": "Giới từ chỉ địa điểm/thời điểm, không đi với 'role' trong ngữ cảnh này."
+        },
+        {
+          "text": "(C) except",
+          "isCorrect": false,
+          "rationale": "Ngoại trừ, không hợp nghĩa."
+        },
+        {
+          "text": "(D) apart",
+          "isCorrect": false,
+          "rationale": "Tách rời, thường dùng trong 'apart from'."
+        }
+      ],
+      "hint": "Giới từ nào thường đi sau 'role' để chỉ lĩnh vực hoặc hoạt động mà người đó tham gia?",
+      "translation": "Hội đồng quản trị đã bỏ phiếu trao thưởng cho ông Mitrakos vì vai trò của ông trong việc giành được hợp đồng quốc tế.",
+      "category": "preposition"
+    },
+    {
+      "id": 118,
+      "question": "The finance director gave his approval ______ the project can move forward.",
+      "answerOptions": [
+        {
+          "text": "(A) along",
+          "isCorrect": false,
+          "rationale": "Giới từ chỉ sự dọc theo, không nối được hai mệnh đề."
+        },
+        {
+          "text": "(B) furthermore",
+          "isCorrect": false,
+          "rationale": "Trạng từ nối, không dùng để chỉ mục đích trực tiếp giữa hai mệnh đề như thế này."
+        },
+        {
+          "text": "(C) cautiously",
+          "isCorrect": false,
+          "rationale": "Trạng từ chỉ cách thức, không hợp cấu trúc nối."
+        },
+        {
+          "text": "(D) so that",
+          "isCorrect": true,
+          "rationale": "Liên từ 'so that' dùng để chỉ mục đích (để cho/nhằm mục đích)."
+        }
+      ],
+      "hint": "Cần một từ nối chỉ mục đích của việc đưa ra sự phê duyệt.",
+      "translation": "Giám đốc tài chính đã phê duyệt để dự án có thể tiếp tục triển khai.",
+      "category": "conjunction"
+    },
+    {
+      "id": 119,
+      "question": "The newspaper article describes ways job seekers can ______ for having little workplace experience.",
+      "answerOptions": [
+        {
+          "text": "(A) reply",
+          "isCorrect": false,
+          "rationale": "Phản hồi, thường đi với giới từ 'to'."
+        },
+        {
+          "text": "(B) capture",
+          "isCorrect": false,
+          "rationale": "Nắm bắt, không đi với 'for' trong ngữ cảnh này."
+        },
+        {
+          "text": "(C) compensate",
+          "isCorrect": true,
+          "rationale": "Cấu trúc 'compensate for something' nghĩa là 'bù đắp cho cái gì'."
+        },
+        {
+          "text": "(D) accumulate",
+          "isCorrect": false,
+          "rationale": "Tích lũy, thường là ngoại động từ đi trực tiếp với tân ngữ."
+        }
+      ],
+      "hint": "Động từ nào đi với 'for' mang nghĩa làm điều gì đó để lấp đầy khuyết điểm hoặc thiếu sót?",
+      "translation": "Bài báo mô tả các cách người tìm việc có thể bù đắp cho việc thiếu kinh nghiệm làm việc.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 120,
+      "question": "Mr. Ellis and Ms. Barnes were both highly qualified, but ______ got the job.",
+      "answerOptions": [
+        {
+          "text": "(A) myself",
+          "isCorrect": false,
+          "rationale": "Đại từ phản thân, không thể làm chủ ngữ chỉ người khác."
+        },
+        {
+          "text": "(B) neither",
+          "isCorrect": true,
+          "rationale": "'neither' dùng để chỉ cả hai người đều không (vì có liên từ 'but' thể hiện sự đối lập với ý 'cả hai đều giỏi')."
+        },
+        {
+          "text": "(C) anybody",
+          "isCorrect": false,
+          "rationale": "Bất kỳ ai, không hợp nghĩa phủ định trong sự đối lập này."
+        },
+        {
+          "text": "(D) whoever",
+          "isCorrect": false,
+          "rationale": "Bất cứ ai, dùng cho mệnh đề quan hệ danh từ, không hợp nghĩa."
+        }
+      ],
+      "hint": "Khi nói về hai người và muốn diễn đạt ý phủ định 'không ai trong hai', ta dùng từ gì?",
+      "translation": "Ông Ellis và bà Barnes đều có trình độ cao, nhưng không ai trong hai người được nhận việc.",
+      "category": "pronoun"
+    },
+    {
+      "id": 121,
+      "question": "Ennis Photography purchased all new lighting equipment ______ the high cost.",
+      "answerOptions": [
+        {
+          "text": "(A) even though",
+          "isCorrect": false,
+          "rationale": "Liên từ, sau đó phải là một mệnh đề (S+V)."
+        },
+        {
+          "text": "(B) however",
+          "isCorrect": false,
+          "rationale": "Trạng từ nối, không thể đứng trước cụm danh từ để tạo sự nhượng bộ."
+        },
+        {
+          "text": "(C) until",
+          "isCorrect": false,
+          "rationale": "Cho đến khi, không hợp nghĩa."
+        },
+        {
+          "text": "(D) despite",
+          "isCorrect": true,
+          "rationale": "Giới từ 'despite' đứng trước cụm danh từ 'the high cost' để chỉ sự nhượng bộ (mặc dù)."
+        }
+      ],
+      "hint": "Cần một từ mang nghĩa 'mặc dù' đứng trước một cụm danh từ.",
+      "translation": "Ennis Photography đã mua toàn bộ thiết bị chiếu sáng mới mặc dù chi phí cao.",
+      "category": "preposition"
+    },
+    {
+      "id": 122,
+      "question": "Marburton residents who wish to ______ a home should contact the award-winning team at Kwan Real Estate.",
+      "answerOptions": [
+        {
+          "text": "(A) seller",
+          "isCorrect": false,
+          "rationale": "Danh từ chỉ người bán."
+        },
+        {
+          "text": "(B) sold",
+          "isCorrect": false,
+          "rationale": "Dạng quá khứ/phân từ của 'sell'."
+        },
+        {
+          "text": "(C) sell",
+          "isCorrect": true,
+          "rationale": "Sau 'wish to' cần một động từ nguyên thể (V-bare)."
+        },
+        {
+          "text": "(D) selling",
+          "isCorrect": false,
+          "rationale": "Dạng V-ing."
+        }
+      ],
+      "hint": "Cấu trúc 'wish to do something' yêu cầu dạng thức nào của động từ?",
+      "translation": "Những cư dân Marburton muốn bán nhà nên liên hệ với đội ngũ đoạt giải tại Kwan Real Estate.",
+      "category": "word-form"
+    },
+    {
+      "id": 123,
+      "question": "Maswa Bistro began a ______ agreement with local farmers to purchase a set amount of produce each week.",
+      "answerOptions": [
+        {
+          "text": "(A) disruptive",
+          "isCorrect": false,
+          "rationale": "Gây gián đoạn/phiền phức."
+        },
+        {
+          "text": "(B) cooperative",
+          "isCorrect": true,
+          "rationale": "Tính từ 'cooperative' (hợp tác) mô tả tính chất của bản thỏa thuận giữa hai bên."
+        },
+        {
+          "text": "(C) grateful",
+          "isCorrect": false,
+          "rationale": "Biết ơn, thường dành cho con người."
+        },
+        {
+          "text": "(D) concerned",
+          "isCorrect": false,
+          "rationale": "Lo lắng/lo ngại."
+        }
+      ],
+      "hint": "Tính từ nào mô tả một thỏa thuận mà hai bên cùng làm việc với nhau?",
+      "translation": "Maswa Bistro đã bắt đầu một thỏa thuận hợp tác với nông dân địa phương để mua một lượng nông sản cố định mỗi tuần.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 124,
+      "question": "The City of Doyle's new downtown parking ______ have been met with opposition by residents and visitors.",
+      "answerOptions": [
+        {
+          "text": "(A) restricts",
+          "isCorrect": false,
+          "rationale": "Động từ số ít."
+        },
+        {
+          "text": "(B) restricted",
+          "isCorrect": false,
+          "rationale": "Tính từ hoặc quá khứ phân từ."
+        },
+        {
+          "text": "(C) restrictions",
+          "isCorrect": true,
+          "rationale": "Danh từ số nhiều 'restrictions' (sự hạn chế) làm chủ ngữ phù hợp với động từ 'have been met'."
+        },
+        {
+          "text": "(D) restricting",
+          "isCorrect": false,
+          "rationale": "Danh động từ."
+        }
+      ],
+      "hint": "Chủ ngữ của câu đang thiếu một danh từ số nhiều để phù hợp với trợ động từ 'have'.",
+      "translation": "Các hạn chế đỗ xe mới ở trung tâm thành phố Doyle đã vấp phải sự phản đối từ cư dân và du khách.",
+      "category": "word-form"
+    },
+    {
+      "id": 125,
+      "question": "The plumbing position requires extensive training, even for those who studied ______ in technical school.",
+      "answerOptions": [
+        {
+          "text": "(A) diligently",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'diligently' (chăm chỉ) bổ nghĩa cho động từ 'studied'."
+        },
+        {
+          "text": "(B) scientifically",
+          "isCorrect": false,
+          "rationale": "Một cách khoa học."
+        },
+        {
+          "text": "(C) objectively",
+          "isCorrect": false,
+          "rationale": "Một cách khách quan."
+        },
+        {
+          "text": "(D) decidedly",
+          "isCorrect": false,
+          "rationale": "Một cách quyết đoán/rõ rệt."
+        }
+      ],
+      "hint": "Trạng từ nào mô tả việc học tập một cách nghiêm túc, vất vả?",
+      "translation": "Vị trí thợ ống nước đòi hỏi đào tạo chuyên sâu, ngay cả với những người đã học chăm chỉ ở trường kỹ thuật.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 126,
+      "question": "With its fixed price ______, Omega Cellular guarantees no phone bill increases for three years.",
+      "answerOptions": [
+        {
+          "text": "(A) assurance",
+          "isCorrect": true,
+          "rationale": "Danh từ 'assurance' (sự đảm bảo/cam kết) tạo thành cụm danh từ 'fixed price assurance'."
+        },
+        {
+          "text": "(B) assuredly",
+          "isCorrect": false,
+          "rationale": "Trạng từ."
+        },
+        {
+          "text": "(C) assuring",
+          "isCorrect": false,
+          "rationale": "Tính từ/V-ing."
+        },
+        {
+          "text": "(D) assures",
+          "isCorrect": false,
+          "rationale": "Động từ số ít."
+        }
+      ],
+      "hint": "Cần một danh từ sau tính từ 'fixed' và danh từ bổ trợ 'price' để hoàn thiện cụm danh từ.",
+      "translation": "Với việc cam kết giá cố định, Omega Cellular đảm bảo không tăng hóa đơn điện thoại trong ba năm.",
+      "category": "word-form"
+    },
+    {
+      "id": 127,
+      "question": "As chief analytics officer, Mr. Ko has worked at Lochston Ltd. with great ______ for more than twenty years.",
+      "answerOptions": [
+        {
+          "text": "(A) deduction",
+          "isCorrect": false,
+          "rationale": "Sự khấu trừ hoặc sự suy luận."
+        },
+        {
+          "text": "(B) duplication",
+          "isCorrect": false,
+          "rationale": "Sự sao chép/nhân bản."
+        },
+        {
+          "text": "(C) declaration",
+          "isCorrect": false,
+          "rationale": "Sự tuyên bố."
+        },
+        {
+          "text": "(D) dedication",
+          "isCorrect": true,
+          "rationale": "Danh từ 'dedication' (sự cống hiến) đi với 'with great' để mô tả thái độ làm việc."
+        }
+      ],
+      "hint": "Từ nào chỉ sự tận tâm, hết lòng với công việc trong thời gian dài?",
+      "translation": "Với vai trò giám đốc phân tích, ông Ko đã làm việc tại Lochston Ltd. với sự cống hiến to lớn trong hơn 20 năm.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 128,
+      "question": "Milltown Hospital's cafeteria serves lunch seven days a week ______ only on weekdays.",
+      "answerOptions": [
+        {
+          "text": "(A) up to",
+          "isCorrect": false,
+          "rationale": "Lên đến, không hợp ngữ cảnh đối lập."
+        },
+        {
+          "text": "(B) as though",
+          "isCorrect": false,
+          "rationale": "Như thể là, dùng cho mệnh đề giả định."
+        },
+        {
+          "text": "(C) each time",
+          "isCorrect": false,
+          "rationale": "Mỗi lần."
+        },
+        {
+          "text": "(D) rather than",
+          "isCorrect": true,
+          "rationale": "'rather than' dùng để thể hiện sự ưu tiên hoặc đối lập (thay vì/chứ không phải)."
+        }
+      ],
+      "hint": "Cần một từ nối chỉ sự khác biệt giữa '7 ngày/tuần' và 'chỉ ngày thường'.",
+      "translation": "Căn tin Bệnh viện Milltown phục vụ bữa trưa 7 ngày/tuần chứ không chỉ vào các ngày trong tuần.",
+      "category": "conjunction"
+    },
+    {
+      "id": 129,
+      "question": "The store's entire inventory of lumber comes from a nearby ______ supplier.",
+      "answerOptions": [
+        {
+          "text": "(A) financial",
+          "isCorrect": false,
+          "rationale": "Thuộc về tài chính."
+        },
+        {
+          "text": "(B) promotional",
+          "isCorrect": false,
+          "rationale": "Thuộc về quảng bá/khuyến mãi."
+        },
+        {
+          "text": "(C) chemical",
+          "isCorrect": false,
+          "rationale": "Thuộc về hóa chất."
+        },
+        {
+          "text": "(D) commercial",
+          "isCorrect": true,
+          "rationale": "Tính từ 'commercial' (thương mại) mô tả loại hình nhà cung cấp hàng hóa cho cửa hàng."
+        }
+      ],
+      "hint": "Tính từ nào mô tả nhà cung cấp hoạt động trong lĩnh vực buôn bán, kinh doanh?",
+      "translation": "Toàn bộ kho gỗ của cửa hàng được cung cấp từ một nhà cung cấp thương mại gần đó.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 130,
+      "question": "For a $95 ______ fee, our mechanics will determine what repairs are needed.",
+      "answerOptions": [
+        {
+          "text": "(A) diagnosed",
+          "isCorrect": false,
+          "rationale": "Dạng quá khứ/phân từ, không dùng làm tính từ bổ nghĩa cho 'fee' trong trường hợp này."
+        },
+        {
+          "text": "(B) diagnostic",
+          "isCorrect": true,
+          "rationale": "Tính từ 'diagnostic' (thuộc về chẩn đoán) bổ nghĩa cho danh từ 'fee' để tạo thành cụm 'phí chẩn đoán'."
+        },
+        {
+          "text": "(C) diagnosable",
+          "isCorrect": false,
+          "rationale": "Có thể chẩn đoán được."
+        },
+        {
+          "text": "(D) diagnose",
+          "isCorrect": false,
+          "rationale": "Động từ chẩn đoán."
+        }
+      ],
+      "hint": "Cần một tính từ đứng trước danh từ 'fee' để chỉ loại phí dùng để kiểm tra, tìm ra lỗi.",
+      "translation": "Với phí chẩn đoán 95 đô la, các thợ máy của chúng tôi sẽ xác định những sửa chữa cần thiết.",
+      "category": "word-form"
+    }
+  ]
+}

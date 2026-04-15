@@ -1,0 +1,875 @@
+{
+  "questions": [
+    {
+      "id": 101,
+      "question": "Sydney Fashion Week drew thousands of ------- visitors to the city last week.",
+      "answerOptions": [
+        {
+          "text": "(A) excite",
+          "isCorrect": false,
+          "rationale": "Động từ nguyên thể (làm phấn khích)."
+        },
+        {
+          "text": "(B) excited",
+          "isCorrect": true,
+          "rationale": "Tính từ đuôi -ed chỉ cảm xúc của con người, phù hợp bổ nghĩa cho danh từ 'visitors'."
+        },
+        {
+          "text": "(C) excites",
+          "isCorrect": false,
+          "rationale": "Động từ chia thì hiện tại đơn số ít."
+        },
+        {
+          "text": "(D) excitement",
+          "isCorrect": false,
+          "rationale": "Danh từ (sự phấn khích)."
+        }
+      ],
+      "hint": "Trước danh từ 'visitors' cần một tính từ miêu tả trạng thái/cảm xúc.",
+      "translation": "Tuần lễ Thời trang Sydney đã thu hút hàng nghìn du khách hào hứng đến thành phố vào tuần trước.",
+      "category": "word-form"
+    },
+    {
+      "id": 102,
+      "question": "Ms. Choi was pleased to learn that ------- is a finalist in the technology competition.",
+      "answerOptions": [
+        {
+          "text": "(A) she",
+          "isCorrect": true,
+          "rationale": "Đại từ chủ ngữ đứng đầu mệnh đề sau 'that' và làm chủ ngữ cho động từ 'is'."
+        },
+        {
+          "text": "(B) her",
+          "isCorrect": false,
+          "rationale": "Tính từ sở hữu hoặc đại từ tân ngữ."
+        },
+        {
+          "text": "(C) hers",
+          "isCorrect": false,
+          "rationale": "Đại từ sở hữu."
+        },
+        {
+          "text": "(D) herself",
+          "isCorrect": false,
+          "rationale": "Đại từ phản thân."
+        }
+      ],
+      "hint": "Cấu trúc: learn that + S + V.",
+      "translation": "Cô Choi rất vui khi biết rằng cô ấy là một trong những thí sinh vào vòng chung kết của cuộc thi công nghệ.",
+      "category": "pronoun"
+    },
+    {
+      "id": 103,
+      "question": "All visitors to the factory should use the ------- on the north side of the building.",
+      "answerOptions": [
+        {
+          "text": "(A) enter",
+          "isCorrect": false,
+          "rationale": "Động từ (đi vào)."
+        },
+        {
+          "text": "(B) entrance",
+          "isCorrect": true,
+          "rationale": "Danh từ (lối vào), đứng sau mạo từ 'the' để làm tân ngữ cho động từ 'use'."
+        },
+        {
+          "text": "(C) entering",
+          "isCorrect": false,
+          "rationale": "Danh động từ hoặc phân từ."
+        },
+        {
+          "text": "(D) entered",
+          "isCorrect": false,
+          "rationale": "Động từ dạng quá khứ."
+        }
+      ],
+      "hint": "Sau 'use the' cần một danh từ chỉ nơi chốn/vật thể.",
+      "translation": "Tất cả khách tham quan nhà máy nên sử dụng lối vào ở phía bắc của tòa nhà.",
+      "category": "word-form"
+    },
+    {
+      "id": 104,
+      "question": "Unfortunately, we cannot provide an ------- time for the delivery of the new laptops.",
+      "answerOptions": [
+        {
+          "text": "(A) exact",
+          "isCorrect": true,
+          "rationale": "Tính từ (chính xác), bổ nghĩa cho danh từ 'time'."
+        },
+        {
+          "text": "(B) obvious",
+          "isCorrect": false,
+          "rationale": "Tính từ (rõ ràng)."
+        },
+        {
+          "text": "(C) absent",
+          "isCorrect": false,
+          "rationale": "Tính từ (vắng mặt)."
+        },
+        {
+          "text": "(D) inspirational",
+          "isCorrect": false,
+          "rationale": "Tính từ (truyền cảm hứng)."
+        }
+      ],
+      "hint": "Cụm danh từ: an + adjective + time.",
+      "translation": "Đáng tiếc là chúng tôi không thể cung cấp thời gian chính xác cho việc giao các máy tính xách tay mới.",
+      "category": "word-form"
+    },
+    {
+      "id": 105,
+      "question": "Tourists visiting Star Island are asked ------- the privacy of residents.",
+      "answerOptions": [
+        {
+          "text": "(A) respects",
+          "isCorrect": false,
+          "rationale": "Động từ chia số ít."
+        },
+        {
+          "text": "(B) have respected",
+          "isCorrect": false,
+          "rationale": "Dạng hoàn thành."
+        },
+        {
+          "text": "(C) to respect",
+          "isCorrect": true,
+          "rationale": "Cấu trúc bị động: be asked + to V (được yêu cầu làm gì)."
+        },
+        {
+          "text": "(D) will respect",
+          "isCorrect": false,
+          "rationale": "Thì tương lai đơn."
+        }
+      ],
+      "hint": "Cấu trúc: ask someone to do something.",
+      "translation": "Du khách đến thăm đảo Star được yêu cầu tôn trọng quyền riêng tư của cư dân.",
+      "category": "word-form"
+    },
+    {
+      "id": 106,
+      "question": "Rivlyn, Inc., has recycled ------- 11 million kilograms of paper waste over the past decade.",
+      "answerOptions": [
+        {
+          "text": "(A) firmly",
+          "isCorrect": false,
+          "rationale": "Trạng từ (vững chắc)."
+        },
+        {
+          "text": "(B) nearly",
+          "isCorrect": true,
+          "rationale": "Trạng từ (gần như/xấp xỉ), thường dùng trước các con số."
+        },
+        {
+          "text": "(C) closely",
+          "isCorrect": false,
+          "rationale": "Trạng từ (chặt chẽ)."
+        },
+        {
+          "text": "(D) freely",
+          "isCorrect": false,
+          "rationale": "Trạng từ (tự do)."
+        }
+      ],
+      "hint": "Cấu trúc: nearly + number (gần + con số).",
+      "translation": "Công ty Rivlyn, Inc. đã tái chế gần như 11 triệu kilôgam rác thải giấy trong suốt thập kỷ qua.",
+      "category": "word-form"
+    },
+    {
+      "id": 107,
+      "question": "The new Dorvale 500 exercise machine is significantly heavier and sturdier than the previous -------.",
+      "answerOptions": [
+        {
+          "text": "(A) time",
+          "isCorrect": false,
+          "rationale": "Thời gian."
+        },
+        {
+          "text": "(B) model",
+          "isCorrect": true,
+          "rationale": "Danh từ (mẫu/đời sản phẩm), dùng để so sánh giữa hai phiên bản máy."
+        },
+        {
+          "text": "(C) weight",
+          "isCorrect": false,
+          "rationale": "Trọng lượng."
+        },
+        {
+          "text": "(D) class",
+          "isCorrect": false,
+          "rationale": "Hạng/lớp."
+        }
+      ],
+      "hint": "Cụm từ 'previous model' thường dùng khi so sánh các thế hệ sản phẩm.",
+      "translation": "Máy tập Dorvale 500 mới nặng và chắc chắn hơn đáng kể so với mẫu trước đó.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 108,
+      "question": "Beachside Inn is the perfect place to ------- an event for your corporate clients.",
+      "answerOptions": [
+        {
+          "text": "(A) entertain",
+          "isCorrect": false,
+          "rationale": "Giải trí."
+        },
+        {
+          "text": "(B) gather",
+          "isCorrect": false,
+          "rationale": "Tụ họp."
+        },
+        {
+          "text": "(C) host",
+          "isCorrect": true,
+          "rationale": "Động từ (tổ chức), thường đi kèm với 'an event'."
+        },
+        {
+          "text": "(D) stay",
+          "isCorrect": false,
+          "rationale": "Ở lại."
+        }
+      ],
+      "hint": "Collocation: host an event (tổ chức một sự kiện).",
+      "translation": "Nhà nghỉ Beachside Inn là địa điểm hoàn hảo để tổ chức một sự kiện cho các khách hàng doanh nghiệp của bạn.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 109,
+      "question": "------- in cloud computing have transformed the gaming industry in many ways.",
+      "answerOptions": [
+        {
+          "text": "(A) Advance",
+          "isCorrect": false,
+          "rationale": "Động từ hoặc danh từ số ít."
+        },
+        {
+          "text": "(B) Advancing",
+          "isCorrect": false,
+          "rationale": "Danh động từ."
+        },
+        {
+          "text": "(C) Advancement",
+          "isCorrect": false,
+          "rationale": "Danh từ số ít."
+        },
+        {
+          "text": "(D) Advancements",
+          "isCorrect": true,
+          "rationale": "Danh từ số nhiều làm chủ ngữ, phù hợp với trợ động từ 'have'."
+        }
+      ],
+      "hint": "Vị trí đầu câu làm chủ ngữ cho động từ chia số nhiều 'have transformed'.",
+      "translation": "Những tiến bộ trong điện toán đám mây đã biến đổi ngành công nghiệp trò chơi theo nhiều cách.",
+      "category": "word-form"
+    },
+    {
+      "id": 110,
+      "question": "To provide feedback ------- your recent dental appointment, please respond to this brief survey.",
+      "answerOptions": [
+        {
+          "text": "(A) about",
+          "isCorrect": true,
+          "rationale": "Giới từ (về), chỉ nội dung của phản hồi (feedback about something)."
+        },
+        {
+          "text": "(B) below",
+          "isCorrect": false,
+          "rationale": "Bên dưới."
+        },
+        {
+          "text": "(C) near",
+          "isCorrect": false,
+          "rationale": "Gần."
+        },
+        {
+          "text": "(D) onto",
+          "isCorrect": false,
+          "rationale": "Lên trên."
+        }
+      ],
+      "hint": "Feedback + about/on + Noun (phản hồi về việc gì).",
+      "translation": "Để cung cấp phản hồi về buổi hẹn nha khoa gần đây của bạn, vui lòng trả lời khảo sát ngắn bên dưới.",
+      "category": "preposition"
+    },
+    {
+      "id": 111,
+      "question": "If your company computer is not ------- functional, please call the IT Department at extension 12.",
+      "answerOptions": [
+        {
+          "text": "(A) complete",
+          "isCorrect": false,
+          "rationale": "Tính từ (đầy đủ)."
+        },
+        {
+          "text": "(B) completed",
+          "isCorrect": false,
+          "rationale": "Phân từ (đã hoàn thành)."
+        },
+        {
+          "text": "(C) completely",
+          "isCorrect": true,
+          "rationale": "Trạng từ bổ nghĩa cho tính từ 'functional'."
+        },
+        {
+          "text": "(D) completing",
+          "isCorrect": false,
+          "rationale": "V-ing."
+        }
+      ],
+      "hint": "Trạng từ (Adverb) bổ nghĩa cho Tính từ (Adjective).",
+      "translation": "Nếu máy tính của công ty bạn không hoạt động hoàn toàn, vui lòng gọi cho phòng IT theo đầu số 12.",
+      "category": "word-form"
+    },
+    {
+      "id": 112,
+      "question": "The ------- of electric buses to our current fleet has made commuting much more pleasant.",
+      "answerOptions": [
+        {
+          "text": "(A) replacement",
+          "isCorrect": false,
+          "rationale": "Sự thay thế."
+        },
+        {
+          "text": "(B) addition",
+          "isCorrect": true,
+          "rationale": "Sự bổ sung (the addition of something to something)."
+        },
+        {
+          "text": "(C) substitution",
+          "isCorrect": false,
+          "rationale": "Sự thay thế tương đương."
+        },
+        {
+          "text": "(D) building",
+          "isCorrect": false,
+          "rationale": "Việc xây dựng."
+        }
+      ],
+      "hint": "Dựa vào nghĩa: Thêm xe buýt vào đội xe có sẵn.",
+      "translation": "Việc bổ sung các xe buýt điện vào đội xe hiện tại của chúng tôi đã khiến việc đi lại trở nên dễ chịu hơn nhiều.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 113,
+      "question": "The Zwick Air Wave generates a powerful blast to cool your workspace -------.",
+      "answerOptions": [
+        {
+          "text": "(A) quickness",
+          "isCorrect": false,
+          "rationale": "Danh từ (sự nhanh chóng)."
+        },
+        {
+          "text": "(B) quicken",
+          "isCorrect": false,
+          "rationale": "Động từ."
+        },
+        {
+          "text": "(C) quickens",
+          "isCorrect": false,
+          "rationale": "Động từ chia số ít."
+        },
+        {
+          "text": "(D) quickly",
+          "isCorrect": true,
+          "rationale": "Trạng từ bổ nghĩa cho động từ 'cool'."
+        }
+      ],
+      "hint": "Cần trạng từ đứng sau động từ để chỉ cách thức hành động.",
+      "translation": "Máy Zwick Air Wave tạo ra luồng gió mạnh để làm mát không gian làm việc của bạn một cách nhanh chóng.",
+      "category": "word-form"
+    },
+    {
+      "id": 114,
+      "question": "The Oak Hill Art Museum offers several ------- exhibits and a series of limited-time exhibits.",
+      "answerOptions": [
+        {
+          "text": "(A) previous",
+          "isCorrect": false,
+          "rationale": "Trước đây."
+        },
+        {
+          "text": "(B) permanent",
+          "isCorrect": true,
+          "rationale": "Tính từ (thường trực/vĩnh viễn), đối lập với 'limited-time' (ngắn hạn)."
+        },
+        {
+          "text": "(C) inevitable",
+          "isCorrect": false,
+          "rationale": "Không thể tránh khỏi."
+        },
+        {
+          "text": "(D) entire",
+          "isCorrect": false,
+          "rationale": "Toàn bộ."
+        }
+      ],
+      "hint": "Từ vựng bảo tàng: permanent exhibit (triển lãm thường trực).",
+      "translation": "Bảo tàng Nghệ thuật Oak Hill cung cấp một số triển lãm thường trực và một loạt các triển lãm ngắn hạn.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 115,
+      "question": "Any remote employees wanting an additional computer monitor should ------- Ms. Suzuki.",
+      "answerOptions": [
+        {
+          "text": "(A) participate",
+          "isCorrect": false,
+          "rationale": "Tham gia (thường đi với 'in')."
+        },
+        {
+          "text": "(B) activate",
+          "isCorrect": false,
+          "rationale": "Kích hoạt."
+        },
+        {
+          "text": "(C) convene",
+          "isCorrect": false,
+          "rationale": "Triệu tập."
+        },
+        {
+          "text": "(D) notify",
+          "isCorrect": true,
+          "rationale": "Thông báo cho ai đó (notify someone)."
+        }
+      ],
+      "hint": "Cấu trúc: notify + someone.",
+      "translation": "Bất kỳ nhân viên làm việc từ xa nào muốn có thêm một màn hình máy tính nên thông báo cho cô Suzuki.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 116,
+      "question": "Customer loyalty programs are ------- for many retail businesses.",
+      "answerOptions": [
+        {
+          "text": "(A) profited",
+          "isCorrect": false,
+          "rationale": "V-ed."
+        },
+        {
+          "text": "(B) profitable",
+          "isCorrect": true,
+          "rationale": "Tính từ (có lợi nhuận), đứng sau động từ tobe 'are'."
+        },
+        {
+          "text": "(C) profitably",
+          "isCorrect": false,
+          "rationale": "Trạng từ."
+        },
+        {
+          "text": "(D) profitability",
+          "isCorrect": false,
+          "rationale": "Danh từ."
+        }
+      ],
+      "hint": "Sau 'to be' thường là một tính từ miêu tả tính chất của chủ ngữ.",
+      "translation": "Các chương trình khách hàng thân thiết mang lại lợi nhuận cho nhiều doanh nghiệp bán lẻ.",
+      "category": "word-form"
+    },
+    {
+      "id": 117,
+      "question": "Prompt submission of travel vouchers ------- the accounts department will expedite refunds.",
+      "answerOptions": [
+        {
+          "text": "(A) to",
+          "isCorrect": true,
+          "rationale": "Giới từ (tới/cho), chỉ hướng nộp của chứng từ (submission to somewhere)."
+        },
+        {
+          "text": "(B) as",
+          "isCorrect": false,
+          "rationale": "Như là."
+        },
+        {
+          "text": "(C) on",
+          "isCorrect": false,
+          "rationale": "Trên."
+        },
+        {
+          "text": "(D) up",
+          "isCorrect": false,
+          "rationale": "Lên."
+        }
+      ],
+      "hint": "Collocation: submission of... to + Department.",
+      "translation": "Việc nộp kịp thời các phiếu du lịch cho bộ phận kế toán sẽ giúp đẩy nhanh việc hoàn tiền.",
+      "category": "preposition"
+    },
+    {
+      "id": 118,
+      "question": "After extensively ------- our hiring policies, the consultant recommended a simpler process.",
+      "answerOptions": [
+        {
+          "text": "(A) be reviewing",
+          "isCorrect": false,
+          "rationale": "Sai cấu trúc sau giới từ."
+        },
+        {
+          "text": "(B) reviewed",
+          "isCorrect": false,
+          "rationale": "V-ed."
+        },
+        {
+          "text": "(C) reviewing",
+          "isCorrect": true,
+          "rationale": "V-ing đứng sau giới từ 'after' (dạng rút gọn chủ ngữ)."
+        },
+        {
+          "text": "(D) reviews",
+          "isCorrect": false,
+          "rationale": "V-s."
+        }
+      ],
+      "hint": "Sau 'After/Before' + Ving khi hai mệnh đề cùng chủ ngữ.",
+      "translation": "Sau khi xem xét kỹ lưỡng các chính sách tuyển dụng, chuyên gia tư vấn đã đề xuất một quy trình đơn giản hơn.",
+      "category": "word-form"
+    },
+    {
+      "id": 119,
+      "question": "Under the ------- of Ms. Kenu, the historical society's fund-raiser went very well this year.",
+      "answerOptions": [
+        {
+          "text": "(A) cover",
+          "isCorrect": false,
+          "rationale": "Sự che phủ."
+        },
+        {
+          "text": "(B) field",
+          "isCorrect": false,
+          "rationale": "Lĩnh vực."
+        },
+        {
+          "text": "(C) direction",
+          "isCorrect": true,
+          "rationale": "Sự chỉ đạo/hướng dẫn. Cụm 'under the direction of someone'."
+        },
+        {
+          "text": "(D) summary",
+          "isCorrect": false,
+          "rationale": "Bản tóm tắt."
+        }
+      ],
+      "hint": "Cụm cố định: under the direction of (dưới sự chỉ đạo của).",
+      "translation": "Dưới sự chỉ đạo của bà Kenu, buổi gây quỹ của hội lịch sử đã diễn ra rất thành công trong năm nay.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 120,
+      "question": "The company decided to proceed ------- with plans to expand into new sales territories.",
+      "answerOptions": [
+        {
+          "text": "(A) caution",
+          "isCorrect": false,
+          "rationale": "Danh từ (sự thận trọng)."
+        },
+        {
+          "text": "(B) cautionary",
+          "isCorrect": false,
+          "rationale": "Tính từ cảnh báo."
+        },
+        {
+          "text": "(C) cautious",
+          "isCorrect": false,
+          "rationale": "Tính từ thận trọng."
+        },
+        {
+          "text": "(D) cautiously",
+          "isCorrect": true,
+          "rationale": "Trạng từ bổ nghĩa cho động từ 'proceed' (tiến hành một cách thận trọng)."
+        }
+      ],
+      "hint": "Cần trạng từ (Adverb) bổ nghĩa cho Động từ (Verb).",
+      "translation": "Công ty quyết định tiến hành một cách thận trọng với các kế hoạch mở rộng sang các thị trường bán hàng mới.",
+      "category": "word-form"
+    },
+    {
+      "id": 121,
+      "question": "------- access the building, enter the code listed on the tenant directory.",
+      "answerOptions": [
+        {
+          "text": "(A) In order to",
+          "isCorrect": true,
+          "rationale": "Cụm từ chỉ mục đích (để làm gì), theo sau là động từ nguyên thể 'access'."
+        },
+        {
+          "text": "(B) For instance",
+          "isCorrect": false,
+          "rationale": "Ví dụ."
+        },
+        {
+          "text": "(C) Due to",
+          "isCorrect": false,
+          "rationale": "Bởi vì (theo sau là N/Ving)."
+        },
+        {
+          "text": "(D) As a result of",
+          "isCorrect": false,
+          "rationale": "Là kết quả của."
+        }
+      ],
+      "hint": "In order to + Verb (nguyên thể).",
+      "translation": "Để vào được tòa nhà, hãy nhập mã được liệt kê trong danh bạ người thuê.",
+      "category": "conjunction"
+    },
+    {
+      "id": 122,
+      "question": "Mr. Davis ------- the marketing department will attend Monday's meeting with the client.",
+      "answerOptions": [
+        {
+          "text": "(A) when",
+          "isCorrect": false,
+          "rationale": "Khi nào."
+        },
+        {
+          "text": "(B) into",
+          "isCorrect": false,
+          "rationale": "Vào trong."
+        },
+        {
+          "text": "(C) so",
+          "isCorrect": false,
+          "rationale": "Vì vậy."
+        },
+        {
+          "text": "(D) from",
+          "isCorrect": true,
+          "rationale": "Giới từ chỉ nguồn gốc/đơn vị công tác (Mr. Davis từ bộ phận...)."
+        }
+      ],
+      "hint": "Cấu trúc: Tên người + from + Phòng ban.",
+      "translation": "Ông Davis từ bộ phận marketing sẽ tham dự cuộc họp với khách hàng vào thứ Hai.",
+      "category": "preposition"
+    },
+    {
+      "id": 123,
+      "question": "Several ------- reviews helped make the debut novel a best seller.",
+      "answerOptions": [
+        {
+          "text": "(A) pending",
+          "isCorrect": false,
+          "rationale": "Đang chờ xử lý."
+        },
+        {
+          "text": "(B) resolved",
+          "isCorrect": false,
+          "rationale": "Đã giải quyết."
+        },
+        {
+          "text": "(C) outstanding",
+          "isCorrect": true,
+          "rationale": "Tính từ (xuất sắc/nổi bật), bổ nghĩa cho 'reviews' để chỉ các đánh giá tốt."
+        },
+        {
+          "text": "(D) equivalent",
+          "isCorrect": false,
+          "rationale": "Tương đương."
+        }
+      ],
+      "hint": "Chọn tính từ tích cực để giải thích lý do sách bán chạy.",
+      "translation": "Một số đánh giá nổi bật đã giúp cuốn tiểu thuyết ra mắt trở thành sách bán chạy.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 124,
+      "question": "Please ------- us in welcoming Dr. Sito, who brings ten years of experience in the aerospace industry to his new position.",
+      "answerOptions": [
+        {
+          "text": "(A) join",
+          "isCorrect": true,
+          "rationale": "Động từ nguyên thể đứng sau 'Please' để đưa ra lời mời (Hãy cùng chúng tôi...)."
+        },
+        {
+          "text": "(B) joins",
+          "isCorrect": false,
+          "rationale": "V-s."
+        },
+        {
+          "text": "(C) joining",
+          "isCorrect": false,
+          "rationale": "V-ing."
+        },
+        {
+          "text": "(D) joined",
+          "isCorrect": false,
+          "rationale": "V-ed."
+        }
+      ],
+      "hint": "Cấu trúc lời mời: Please + Verb (nguyên thể).",
+      "translation": "Xin hãy cùng chúng tôi chào đón Tiến sĩ Sito, người mang đến nhiều năm kinh nghiệm trong ngành hàng không vũ trụ cho vị trí mới.",
+      "category": "word-form"
+    },
+    {
+      "id": 125,
+      "question": "A survey of new car buyers asked them to ------- features in order from most to least important.",
+      "answerOptions": [
+        {
+          "text": "(A) opt",
+          "isCorrect": false,
+          "rationale": "Chọn lựa (thường đi với 'for')."
+        },
+        {
+          "text": "(B) turn",
+          "isCorrect": false,
+          "rationale": "Xoay/chuyển."
+        },
+        {
+          "text": "(C) rank",
+          "isCorrect": true,
+          "rationale": "Động từ (xếp hạng), phù hợp với ngữ cảnh 'từ quan trọng nhất đến ít nhất'."
+        },
+        {
+          "text": "(D) guide",
+          "isCorrect": false,
+          "rationale": "Hướng dẫn."
+        }
+      ],
+      "hint": "Cụm từ 'in order from... to...' thường đi với hành động 'rank' (xếp hạng).",
+      "translation": "Một cuộc khảo sát người mua xe mới đã yêu cầu họ xếp hạng các tính năng theo thứ tự từ quan trọng nhất đến ít quan trọng nhất.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 126,
+      "question": "As head of the Poels Museum, Mr. Ahuja oversaw the ------- of several significant works of art.",
+      "answerOptions": [
+        {
+          "text": "(A) acquires",
+          "isCorrect": false,
+          "rationale": "V-s."
+        },
+        {
+          "text": "(B) acquired",
+          "isCorrect": false,
+          "rationale": "V-ed."
+        },
+        {
+          "text": "(C) acquisition",
+          "isCorrect": true,
+          "rationale": "Danh từ (sự mua lại/tiếp nhận), đứng sau mạo từ 'the'."
+        },
+        {
+          "text": "(D) acquisitional",
+          "isCorrect": false,
+          "rationale": "Tính từ."
+        }
+      ],
+      "hint": "Sau 'the' và trước 'of' cần một danh từ.",
+      "translation": "Với tư cách là giám đốc Bảo tàng Poels, ông Ahuja giám sát việc tiếp nhận nhiều tác phẩm nghệ thuật quan trọng.",
+      "category": "word-form"
+    },
+    {
+      "id": 127,
+      "question": "Later today, we will hold a meeting to discuss changes to protocols ------- they go into effect next month.",
+      "answerOptions": [
+        {
+          "text": "(A) rather than",
+          "isCorrect": false,
+          "rationale": "Hơn là."
+        },
+        {
+          "text": "(B) as well as",
+          "isCorrect": false,
+          "rationale": "Cũng như."
+        },
+        {
+          "text": "(C) despite",
+          "isCorrect": false,
+          "rationale": "Mặc dù."
+        },
+        {
+          "text": "(D) before",
+          "isCorrect": true,
+          "rationale": "Liên từ chỉ thời gian (trước khi), nối hai mệnh đề."
+        }
+      ],
+      "hint": "Họp thảo luận sự thay đổi 'trước khi' nó có hiệu lực.",
+      "translation": "Hôm nay chúng tôi sẽ tổ chức một cuộc họp để thảo luận về các thay đổi trong quy trình trước khi chúng có hiệu lực vào tháng tới.",
+      "category": "conjunction"
+    },
+    {
+      "id": 128,
+      "question": "Customer service representatives can be reached ------- calling 800-555-0121 between 8:00 A.M. and 4:00 P.M.",
+      "answerOptions": [
+        {
+          "text": "(A) by",
+          "isCorrect": true,
+          "rationale": "Giới từ chỉ cách thức (bằng cách), theo sau là V-ing."
+        },
+        {
+          "text": "(B) because",
+          "isCorrect": false,
+          "rationale": "Bởi vì (liên từ)."
+        },
+        {
+          "text": "(C) ever",
+          "isCorrect": false,
+          "rationale": "Đã từng."
+        },
+        {
+          "text": "(D) at",
+          "isCorrect": false,
+          "rationale": "Tại (địa điểm/thời gian)."
+        }
+      ],
+      "hint": "By + V-ing: Bằng cách làm gì đó.",
+      "translation": "Bạn có thể liên hệ với nhân viên chăm sóc khách hàng bằng cách gọi số 800-555-0121 trong khoảng từ 8 giờ sáng đến 4 giờ chiều.",
+      "category": "preposition"
+    },
+    {
+      "id": 129,
+      "question": "Collaboration between multiple agencies is ------- challenging, but our project-based consulting can simplify the process for you.",
+      "answerOptions": [
+        {
+          "text": "(A) well",
+          "isCorrect": false,
+          "rationale": "Tốt."
+        },
+        {
+          "text": "(B) often",
+          "isCorrect": true,
+          "rationale": "Trạng từ chỉ tần suất (thường xuyên), phù hợp về nghĩa."
+        },
+        {
+          "text": "(C) deliberately",
+          "isCorrect": false,
+          "rationale": "Cố ý."
+        },
+        {
+          "text": "(D) finally",
+          "isCorrect": false,
+          "rationale": "Cuối cùng."
+        }
+      ],
+      "hint": "Dựa vào nghĩa: Việc hợp tác thường xuyên gây khó khăn.",
+      "translation": "Việc hợp tác giữa nhiều cơ quan thường mang tính thách thức, nhưng dịch vụ tư vấn theo dự án của chúng tôi có thể giúp đơn giản hóa quy trình cho bạn.",
+      "category": "word-form"
+    },
+    {
+      "id": 130,
+      "question": "The desserts we had at Giovanni's Bistro were not as delicious as ------- we enjoyed at Monteverdi's Taverna.",
+      "answerOptions": [
+        {
+          "text": "(A) whose",
+          "isCorrect": false,
+          "rationale": "Của ai."
+        },
+        {
+          "text": "(B) those",
+          "isCorrect": true,
+          "rationale": "Đại từ chỉ định dùng để thay thế cho danh từ số nhiều đã nhắc trước đó (desserts)."
+        },
+        {
+          "text": "(C) which",
+          "isCorrect": false,
+          "rationale": "Cái mà (đại từ quan hệ)."
+        },
+        {
+          "text": "(D) them",
+          "isCorrect": false,
+          "rationale": "Tân ngữ."
+        }
+      ],
+      "hint": "Sử dụng đại từ để tránh lặp từ 'desserts'.",
+      "translation": "Các món tráng miệng chúng tôi ăn tại Giovanni's Bistro không ngon bằng những món mà chúng tôi thưởng thức tại Monteverdi's Taverna.",
+      "category": "pronoun"
+    }
+  ],
+  "title": "TOEIC Part 5 - ETS 2026 Test 8 (Questions 101-130)"
+}

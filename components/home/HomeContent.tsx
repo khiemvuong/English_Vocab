@@ -5,6 +5,7 @@ import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import { LessonCard } from "@/components/home/LessonCard";
 import { PracticeCard } from "@/components/home/PracticeCard";
 import { Part6Card } from "@/components/home/Part6Card";
+import { Ets2026Card } from "@/components/home/Ets2026Card";
 
 
 const TABS = [
@@ -38,6 +39,16 @@ const TABS = [
     ),
     accent: "from-emerald-500 to-teal-600",
   },
+  {
+    id: "ets2026",
+    label: "ETS 2026",
+    icon: (
+      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+      </svg>
+    ),
+    accent: "from-violet-500 to-purple-600",
+  },
 ] as const;
 
 
@@ -54,9 +65,16 @@ interface Part6Test {
   isAvailable: boolean;
 }
 
+interface Ets2026Test {
+  id: string;
+  label: string;
+  isAvailable: boolean;
+}
+
 interface HomeContentProps {
   part5Tests: Part5Test[];
   part6Tests: Part6Test[];
+  ets2026Tests: Ets2026Test[];
   totalVocabLessons: number;
   availableVocabLessons: number[];
 }
@@ -74,18 +92,19 @@ function StatBadge({ value, label, icon }: { value: string; label: string; icon:
   );
 }
 
-export function HomeContent({ part5Tests, part6Tests, totalVocabLessons, availableVocabLessons }: HomeContentProps) {
+export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLessons, availableVocabLessons }: HomeContentProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
   const pathname = usePathname();
   const paramTab = searchParams.get("tab");
 
   const [activeTab, setActiveTab] = useState(
-    paramTab === "part5" ? "part5" : paramTab === "part6" ? "part6" : "vocab"
+    paramTab === "part5" ? "part5" : paramTab === "part6" ? "part6" : paramTab === "ets2026" ? "ets2026" : "vocab"
   );
 
   useEffect(() => {
-    if (paramTab === "part5" || paramTab === "vocab" || paramTab === "part6") {
+    if (paramTab === "part5" || paramTab === "vocab" || paramTab === "part6" || paramTab === "ets2026") {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setActiveTab(paramTab);
     }
   }, [paramTab]);
@@ -226,6 +245,8 @@ export function HomeContent({ part5Tests, part6Tests, totalVocabLessons, availab
                 ? `${totalVocabLessons} bài học từ vựng — Intensive Course`
                 : activeTab === "part6"
                 ? `${part6Tests.length} bộ đề Part 6 — Text Completion, giải thích chi tiết`
+                : activeTab === "ets2026"
+                ? `${ets2026Tests.length} đề ETS 2026 — 30 câu/đề, giải thích chi tiết`
                 : `${part5Tests.length} bộ đề Part 5 — 30 câu/bộ, giải thích chi tiết`}
             </p>
           </div>
@@ -269,6 +290,23 @@ export function HomeContent({ part5Tests, part6Tests, totalVocabLessons, availab
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
               {part6Tests.map((test) => (
                 <Part6Card
+                  key={test.id}
+                  testId={test.id}
+                  testLabel={test.label}
+                  isAvailable={test.isAvailable}
+                />
+              ))}
+            </div>
+          </div>
+
+          {/* ETS 2026 tab */}
+          <div
+            style={{ display: activeTab === "ets2026" ? "block" : "none" }}
+            className="animate-in fade-in duration-200"
+          >
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
+              {ets2026Tests.map((test) => (
+                <Ets2026Card
                   key={test.id}
                   testId={test.id}
                   testLabel={test.label}
