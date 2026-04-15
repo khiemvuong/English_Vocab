@@ -1,0 +1,875 @@
+{
+  "questions": [
+    {
+      "id": 101,
+      "question": "Ms. Chiu recently announced that ______ is planning to retire in September.",
+      "answerOptions": [
+        {
+          "text": "(A) her",
+          "isCorrect": false,
+          "rationale": "Tính từ sở hữu hoặc tân ngữ, không thể làm chủ ngữ cho mệnh đề phụ."
+        },
+        {
+          "text": "(B) hers",
+          "isCorrect": false,
+          "rationale": "Đại từ sở hữu, không phù hợp về ngữ nghĩa trong trường hợp này."
+        },
+        {
+          "text": "(C) herself",
+          "isCorrect": false,
+          "rationale": "Đại từ phản thân, không dùng làm chủ ngữ của động từ chính trong mệnh đề."
+        },
+        {
+          "text": "(D) she",
+          "isCorrect": true,
+          "rationale": "Đại từ nhân xưng đóng vai trò chủ ngữ (subject) đứng trước động từ 'is planning' trong mệnh đề 'that'."
+        }
+      ],
+      "hint": "Sau 'that' cần một mệnh đề đầy đủ có chủ ngữ đứng trước động từ.",
+      "translation": "Bà Chiu gần đây thông báo rằng bà ấy đang có kế hoạch nghỉ hưu vào tháng Chín.",
+      "category": "pronoun"
+    },
+    {
+      "id": 102,
+      "question": "Mr. Kashnitz will interview the applicants ______ the holiday.",
+      "answerOptions": [
+        {
+          "text": "(A) above",
+          "isCorrect": false,
+          "rationale": "Phía trên (vị trí), không phù hợp ngữ cảnh thời gian."
+        },
+        {
+          "text": "(B) before",
+          "isCorrect": true,
+          "rationale": "Giới từ chỉ thời gian phù hợp, diễn tả việc phỏng vấn diễn ra trước kỳ nghỉ."
+        },
+        {
+          "text": "(C) among",
+          "isCorrect": false,
+          "rationale": "Giữa nhiều đối tượng, không phù hợp ngữ pháp đi với 'the holiday'."
+        },
+        {
+          "text": "(D) along",
+          "isCorrect": false,
+          "rationale": "Dọc theo, thường dùng cho không gian."
+        }
+      ],
+      "hint": "Cần một giới từ chỉ thời gian để kết nối việc phỏng vấn và kỳ nghỉ.",
+      "translation": "Ông Kashnitz sẽ phỏng vấn các ứng viên trước kỳ nghỉ.",
+      "category": "preposition"
+    },
+    {
+      "id": 103,
+      "question": "The real estate agent may ______ a buyer with a neighborhood analysis upon request.",
+      "answerOptions": [
+        {
+          "text": "(A) providing",
+          "isCorrect": false,
+          "rationale": "Dạng V-ing, không đứng sau động từ khuyết thiếu 'may'."
+        },
+        {
+          "text": "(B) provide",
+          "isCorrect": true,
+          "rationale": "Động từ nguyên mẫu (V-bare) đứng sau động từ khuyết thiếu 'may'."
+        },
+        {
+          "text": "(C) provided",
+          "isCorrect": false,
+          "rationale": "Dạng quá khứ/phân từ, không đứng sau 'may'."
+        },
+        {
+          "text": "(D) provides",
+          "isCorrect": false,
+          "rationale": "Động từ chia số ít, không đứng sau 'may'."
+        }
+      ],
+      "hint": "Cấu trúc: may + V-bare.",
+      "translation": "Nhân viên môi giới bất động sản có thể cung cấp cho người mua bản phân tích khu dân cư khi được yêu cầu.",
+      "category": "word-form"
+    },
+    {
+      "id": 104,
+      "question": "The city's development committee is looking for a ______ to plant a community garden.",
+      "answerOptions": [
+        {
+          "text": "(A) flower",
+          "isCorrect": false,
+          "rationale": "Bông hoa, không hợp nghĩa với việc tìm kiếm để 'trồng một khu vườn'."
+        },
+        {
+          "text": "(B) topic",
+          "isCorrect": false,
+          "rationale": "Chủ đề, không phù hợp."
+        },
+        {
+          "text": "(C) location",
+          "isCorrect": true,
+          "rationale": "Địa điểm, phù hợp với hành động tìm nơi để trồng vườn."
+        },
+        {
+          "text": "(D) show",
+          "isCorrect": false,
+          "rationale": "Buổi trình diễn, không phù hợp."
+        }
+      ],
+      "hint": "Cần một danh từ chỉ nơi chốn/vị trí.",
+      "translation": "Ủy ban phát triển thành phố đang tìm một địa điểm để trồng vườn cộng đồng.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 105,
+      "question": "We hope our customer service team has answered your questions in a ______ manner.",
+      "answerOptions": [
+        {
+          "text": "(A) satisfy",
+          "isCorrect": false,
+          "rationale": "Động từ, không thể bổ nghĩa cho danh từ 'manner'."
+        },
+        {
+          "text": "(B) satisfactory",
+          "isCorrect": true,
+          "rationale": "Tính từ bổ nghĩa cho danh từ 'manner', tạo thành cụm 'một cách thỏa đáng'."
+        },
+        {
+          "text": "(C) satisfaction",
+          "isCorrect": false,
+          "rationale": "Danh từ, không đứng trước danh từ khác trong cấu trúc này."
+        },
+        {
+          "text": "(D) satisfactorily",
+          "isCorrect": false,
+          "rationale": "Trạng từ, không đứng sau mạo từ 'a' và trước danh từ 'manner'."
+        }
+      ],
+      "hint": "Cấu trúc: in a + adjective + manner.",
+      "translation": "Chúng tôi hy vọng đội ngũ chăm sóc khách hàng đã trả lời các câu hỏi của bạn một cách thỏa đáng.",
+      "category": "word-form"
+    },
+    {
+      "id": 106,
+      "question": "Mr. Hanley expressed interest in the position ______ held by Ms. Akello.",
+      "answerOptions": [
+        {
+          "text": "(A) previously",
+          "isCorrect": true,
+          "rationale": "Trạng từ chỉ thời gian 'trước đây', bổ nghĩa cho quá khứ phân từ 'held'."
+        },
+        {
+          "text": "(B) slowly",
+          "isCorrect": false,
+          "rationale": "Chậm rãi, không hợp nghĩa."
+        },
+        {
+          "text": "(C) widely",
+          "isCorrect": false,
+          "rationale": "Rộng rãi, không hợp nghĩa."
+        },
+        {
+          "text": "(D) loosely",
+          "isCorrect": false,
+          "rationale": "Lỏng lẻo, không hợp nghĩa."
+        }
+      ],
+      "hint": "Cần một trạng từ diễn tả vị trí này từng thuộc về ai đó trong quá khứ.",
+      "translation": "Ông Hanley bày tỏ sự quan tâm đến vị trí mà trước đây bà Akello đã đảm nhiệm.",
+      "category": "word-form"
+    },
+    {
+      "id": 107,
+      "question": "Once Ms. Jeong ______ the contract, she will sign and return it to Allory Pharmaceuticals.",
+      "answerOptions": [
+        {
+          "text": "(A) to receive",
+          "isCorrect": false,
+          "rationale": "Dạng To-V không làm động từ chính trong mệnh đề phụ sau 'Once'."
+        },
+        {
+          "text": "(B) receives",
+          "isCorrect": true,
+          "rationale": "Thì hiện tại đơn diễn tả một hành động sẽ hoàn thành trong tương lai sau liên từ thời gian."
+        },
+        {
+          "text": "(C) was received",
+          "isCorrect": false,
+          "rationale": "Bị động quá khứ, không hợp nghĩa (Ms. Jeong là người nhận)."
+        },
+        {
+          "text": "(D) receiving",
+          "isCorrect": false,
+          "rationale": "Dạng V-ing không làm động từ chính."
+        }
+      ],
+      "hint": "Cấu trúc: Once + S + Hiện tại đơn, S + Tương lai đơn.",
+      "translation": "Khi bà Jeong nhận được hợp đồng, bà sẽ ký và gửi lại cho Allory Pharmaceuticals.",
+      "category": "grammar"
+    },
+    {
+      "id": 108,
+      "question": "Ten board members plan to attend, which is just ______ to approve the proposal.",
+      "answerOptions": [
+        {
+          "text": "(A) enough",
+          "isCorrect": true,
+          "rationale": "Đủ, phù hợp cấu trúc 'enough to do something'."
+        },
+        {
+          "text": "(B) several",
+          "isCorrect": false,
+          "rationale": "Vài, thường đi với danh từ số nhiều."
+        },
+        {
+          "text": "(C) most",
+          "isCorrect": false,
+          "rationale": "Hầu hết, không đi trực tiếp sau 'is just' trong ngữ cảnh này."
+        },
+        {
+          "text": "(D) those",
+          "isCorrect": false,
+          "rationale": "Đại từ chỉ định số nhiều, không phù hợp."
+        }
+      ],
+      "hint": "Cấu trúc: be + adjective/enough + to-V.",
+      "translation": "Mười thành viên hội đồng dự định tham dự, vừa đủ để thông qua đề xuất.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 109,
+      "question": "Mr. Aziz is often alone in the shop while his partner is out making a ______. ",
+      "answerOptions": [
+        {
+          "text": "(A) deliver",
+          "isCorrect": false,
+          "rationale": "Động từ, không đứng sau mạo từ 'a'."
+        },
+        {
+          "text": "(B) delivery",
+          "isCorrect": true,
+          "rationale": "Danh từ phù hợp sau mạo từ 'a', tạo thành cụm 'make a delivery' (đi giao hàng)."
+        },
+        {
+          "text": "(C) delivered",
+          "isCorrect": false,
+          "rationale": "Dạng quá khứ/phân từ, không phải danh từ."
+        },
+        {
+          "text": "(D) delivering",
+          "isCorrect": false,
+          "rationale": "Danh từ động (gerund), không phù hợp sau 'a' trong cụm từ này."
+        }
+      ],
+      "hint": "Cần một danh từ sau mạo từ 'a'.",
+      "translation": "Ông Aziz thường ở một mình trong cửa hàng trong khi đối tác của ông ra ngoài để giao hàng.",
+      "category": "word-form"
+    },
+    {
+      "id": 110,
+      "question": "The Pacific Coast Sunset Run has been ______ to August 31 because of bad weather.",
+      "answerOptions": [
+        {
+          "text": "(A) canceled",
+          "isCorrect": false,
+          "rationale": "Hủy bỏ, nếu hủy thì sẽ không có ngày cụ thể 31/8 tiếp theo."
+        },
+        {
+          "text": "(B) combined",
+          "isCorrect": false,
+          "rationale": "Kết hợp, không phù hợp ngữ cảnh thời tiết."
+        },
+        {
+          "text": "(C) rescheduled",
+          "isCorrect": true,
+          "rationale": "Sắp xếp lại/dời lịch, phù hợp với việc thay đổi thời gian do thời tiết."
+        },
+        {
+          "text": "(D) administered",
+          "isCorrect": false,
+          "rationale": "Quản lý/thi hành, không hợp nghĩa."
+        }
+      ],
+      "hint": "Từ khóa: 'bad weather' và ngày mới 'August 31'.",
+      "translation": "Cuộc chạy Pacific Coast Sunset Run đã bị rời lịch đến ngày 31 tháng 8 do thời tiết xấu.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 111,
+      "question": "Graber hair and nail growth supplements come in ______ pill and liquid form.",
+      "answerOptions": [
+        {
+          "text": "(A) these",
+          "isCorrect": false,
+          "rationale": "Không đi kèm với 'and' để liệt kê hai dạng."
+        },
+        {
+          "text": "(B) both",
+          "isCorrect": true,
+          "rationale": "Cấu trúc 'both A and B' (cả A và B)."
+        },
+        {
+          "text": "(C) almost",
+          "isCorrect": false,
+          "rationale": "Gần như, không phù hợp."
+        },
+        {
+          "text": "(D) likely",
+          "isCorrect": false,
+          "rationale": "Có khả năng, không phù hợp."
+        }
+      ],
+      "hint": "Để ý liên từ 'and' ở phía sau.",
+      "translation": "Các sản phẩm bổ sung giúp mọc tóc và móng tay của Graber có ở cả dạng viên và dạng lỏng.",
+      "category": "conjunction"
+    },
+    {
+      "id": 112,
+      "question": "The posters must be completed soon ______ they can be put up in advance of the gala.",
+      "answerOptions": [
+        {
+          "text": "(A) so that",
+          "isCorrect": true,
+          "rationale": "Liên từ chỉ mục đích (để mà), nối hai mệnh đề."
+        },
+        {
+          "text": "(B) despite",
+          "isCorrect": false,
+          "rationale": "Mặc dù, sau nó cần một danh từ/V-ing."
+        },
+        {
+          "text": "(C) whenever",
+          "isCorrect": false,
+          "rationale": "Bất cứ khi nào, không hợp nghĩa mục đích."
+        },
+        {
+          "text": "(D) as if",
+          "isCorrect": false,
+          "rationale": "Như thể là, diễn tả sự so sánh không thật."
+        }
+      ],
+      "hint": "Vế sau giải thích mục đích của việc hoàn thành áp phích sớm.",
+      "translation": "Các áp phích phải được hoàn thành sớm để có thể được treo trước buổi dạ tiệc.",
+      "category": "conjunction"
+    },
+    {
+      "id": 113,
+      "question": "Mr. Oliver praised the film in his review, even though he ______ disliked its aesthetic style.",
+      "answerOptions": [
+        {
+          "text": "(A) personal",
+          "isCorrect": false,
+          "rationale": "Tính từ, không bổ nghĩa cho động từ 'disliked'."
+        },
+        {
+          "text": "(B) personally",
+          "isCorrect": true,
+          "rationale": "Trạng từ bổ nghĩa cho động từ 'disliked' (về mặt cá nhân/đích thân)."
+        },
+        {
+          "text": "(C) personals",
+          "isCorrect": false,
+          "rationale": "Danh từ số nhiều, không phù hợp."
+        },
+        {
+          "text": "(D) person",
+          "isCorrect": false,
+          "rationale": "Danh từ, không phù hợp."
+        }
+      ],
+      "hint": "Cần trạng từ để bổ nghĩa cho động từ.",
+      "translation": "Ông Olivero khen bộ phim trong bài đánh giá của mình, mặc dù cá nhân ông không thích phong cách thẩm mỹ của nó.",
+      "category": "word-form"
+    },
+    {
+      "id": 114,
+      "question": "______ weeks of record-setting rain, expect only blue skies this weekend.",
+      "answerOptions": [
+        {
+          "text": "(A) After",
+          "isCorrect": true,
+          "rationale": "Giới từ chỉ thời gian phù hợp (sau khi...), tạo sự đối lập giữa quá khứ và cuối tuần này."
+        },
+        {
+          "text": "(B) Besides",
+          "isCorrect": false,
+          "rationale": "Ngoài ra, không hợp nghĩa thời gian."
+        },
+        {
+          "text": "(C) Opposite",
+          "isCorrect": false,
+          "rationale": "Đối diện, không hợp nghĩa."
+        },
+        {
+          "text": "(D) Alongside",
+          "isCorrect": false,
+          "rationale": "Bên cạnh, không hợp nghĩa."
+        }
+      ],
+      "hint": "Cần một giới từ chỉ thời gian đứng trước một khoảng thời gian.",
+      "translation": "Sau nhiều tuần mưa kỷ lục, cuối tuần này bầu trời sẽ quang đãng.",
+      "category": "preposition"
+    },
+    {
+      "id": 115,
+      "question": "The Serenica dining table comes with levelers ______ its stability on uneven surfaces.",
+      "answerOptions": [
+        {
+          "text": "(A) ensure",
+          "isCorrect": false,
+          "rationale": "Động từ nguyên mẫu, không thể đứng sau danh từ 'levelers' mà không có từ nối."
+        },
+        {
+          "text": "(B) ensures",
+          "isCorrect": false,
+          "rationale": "Động từ chia theo chủ ngữ số ít, không phù hợp."
+        },
+        {
+          "text": "(C) to ensure",
+          "isCorrect": true,
+          "rationale": "Dạng To-V chỉ mục đích (để đảm bảo)."
+        },
+        {
+          "text": "(D) to be ensured",
+          "isCorrect": false,
+          "rationale": "Dạng bị động, không phù hợp nghĩa (levelers đảm bảo sự ổn định)."
+        }
+      ],
+      "hint": "Cấu trúc chỉ mục đích: To + Verb.",
+      "translation": "Bàn ăn Serenica được trang bị chân điều chỉnh độ cao để đảm bảo sự ổn định trên các bề mặt không bằng phẳng.",
+      "category": "word-form"
+    },
+    {
+      "id": 116,
+      "question": "Applicants to any open position at Allcrest Engineering can expect a ______ within three business days.",
+      "answerOptions": [
+        {
+          "text": "(A) degree",
+          "isCorrect": false,
+          "rationale": "Bằng cấp, không phù hợp ngữ cảnh nhận tin từ nhà tuyển dụng."
+        },
+        {
+          "text": "(B) raise",
+          "isCorrect": false,
+          "rationale": "Sự tăng lương, chưa đi làm thì chưa có tăng lương."
+        },
+        {
+          "text": "(C) change",
+          "isCorrect": false,
+          "rationale": "Sự thay đổi, không rõ nghĩa."
+        },
+        {
+          "text": "(D) response",
+          "isCorrect": true,
+          "rationale": "Sự phản hồi, phù hợp nhất với quy trình ứng tuyển."
+        }
+      ],
+      "hint": "Ứng viên thường mong chờ điều gì sau khi nộp đơn?",
+      "translation": "Ứng viên cho bất kỳ vị trí tuyển dụng nào tại Allcrest Engineering có thể mong đợi một lời phản hồi trong vòng ba ngày làm việc.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 117,
+      "question": "______ prepares the patient's medical records is required to maintain confidentiality.",
+      "answerOptions": [
+        {
+          "text": "(A) Whoever",
+          "isCorrect": true,
+          "rationale": "Đại từ quan hệ bất định đóng vai trò chủ ngữ (bất kỳ ai người mà...), phù hợp với động từ số ít 'prepares'."
+        },
+        {
+          "text": "(B) Who",
+          "isCorrect": false,
+          "rationale": "Dùng cho câu hỏi hoặc khi tiền ngữ đã xác định."
+        },
+        {
+          "text": "(C) Whose",
+          "isCorrect": false,
+          "rationale": "Chỉ sở hữu, sau nó phải là danh từ."
+        },
+        {
+          "text": "(D) What",
+          "isCorrect": false,
+          "rationale": "Cái gì, chỉ dùng cho vật."
+        }
+      ],
+      "hint": "Cần một từ có nghĩa là 'Anyone who'.",
+      "translation": "Bất kỳ ai chuẩn bị hồ sơ y tế của bệnh nhân đều phải giữ bí mật để đảm bảo tính bảo mật.",
+      "category": "pronoun"
+    },
+    {
+      "id": 118,
+      "question": "Because of the high demand for our services, our office was ______ expanded last year.",
+      "answerOptions": [
+        {
+          "text": "(A) significantly",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'đáng kể', bổ nghĩa cho tính từ/động từ 'expanded'."
+        },
+        {
+          "text": "(B) tightly",
+          "isCorrect": false,
+          "rationale": "Chặt chẽ, không hợp nghĩa mở rộng."
+        },
+        {
+          "text": "(C) remotely",
+          "isCorrect": false,
+          "rationale": "Từ xa, không hợp nghĩa mở rộng văn phòng."
+        },
+        {
+          "text": "(D) identically",
+          "isCorrect": false,
+          "rationale": "Giống hệt nhau, không phù hợp."
+        }
+      ],
+      "hint": "Nhu cầu cao thì văn phòng thường được mở rộng như thế nào?",
+      "translation": "Do nhu cầu cao đối với các dịch vụ của chúng tôi, văn phòng của chúng tôi đã được mở rộng đáng kể vào năm ngoái.",
+      "category": "word-form"
+    },
+    {
+      "id": 119,
+      "question": "The Terry Hoig Prize for ______ architecture was awarded to Ms. Helblon on Tuesday.",
+      "answerOptions": [
+        {
+          "text": "(A) sustain",
+          "isCorrect": false,
+          "rationale": "Động từ, không bổ nghĩa cho danh từ 'architecture'."
+        },
+        {
+          "text": "(B) sustainable",
+          "isCorrect": true,
+          "rationale": "Tính từ 'bền vững', bổ nghĩa cho danh từ 'architecture'."
+        },
+        {
+          "text": "(C) sustainer",
+          "isCorrect": false,
+          "rationale": "Danh từ chỉ người/vật duy trì, không phù hợp."
+        },
+        {
+          "text": "(D) sustains",
+          "isCorrect": false,
+          "rationale": "Động từ chia số ít, không phù hợp."
+        }
+      ],
+      "hint": "Cần tính từ đứng trước danh từ.",
+      "translation": "Giải thưởng Terry Hoig cho kiến trúc bền vững đã được trao cho bà Heblon vào thứ Ba.",
+      "category": "word-form"
+    },
+    {
+      "id": 120,
+      "question": "We have been ______ problems with the thermostat in the western end of the warehouse.",
+      "answerOptions": [
+        {
+          "text": "(A) experiencing",
+          "isCorrect": true,
+          "rationale": "Đang gặp phải/trải qua (vấn đề), đi kèm với 'problems'."
+        },
+        {
+          "text": "(B) regarding",
+          "isCorrect": false,
+          "rationale": "Về việc/liên quan đến (thường là giới từ)."
+        },
+        {
+          "text": "(C) repurposing",
+          "isCorrect": false,
+          "rationale": "Thay đổi mục đích sử dụng, không đi với 'problems'."
+        },
+        {
+          "text": "(D) establishing",
+          "isCorrect": false,
+          "rationale": "Thiết lập, không đi với 'problems'."
+        }
+      ],
+      "hint": "Động từ nào thường đi với 'problems'?",
+      "translation": "Chúng tôi đã và đang gặp phải các sự cố với bộ điều nhiệt ở khu vực phía tây của nhà kho.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 121,
+      "question": "Two students from Wrisley University worked ______ on the design of the new library in Lorth Park.",
+      "answerOptions": [
+        {
+          "text": "(A) collaborate",
+          "isCorrect": false,
+          "rationale": "Động từ nguyên mẫu."
+        },
+        {
+          "text": "(B) collaborative",
+          "isCorrect": false,
+          "rationale": "Tính từ, không bổ nghĩa cho động từ 'worked'."
+        },
+        {
+          "text": "(C) collaboratively",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'một cách hợp tác', bổ nghĩa cho động từ 'worked'."
+        },
+        {
+          "text": "(D) collaborated",
+          "isCorrect": false,
+          "rationale": "Động từ quá khứ, câu đã có động từ chính 'worked'."
+        }
+      ],
+      "hint": "Cần trạng từ để bổ nghĩa cho động từ 'worked'.",
+      "translation": "Hai sinh viên từ Đại học Wrisley đã làm việc một cách hợp tác trong việc thiết kế thư viện mới tại Lorth Park.",
+      "category": "word-form"
+    },
+    {
+      "id": 122,
+      "question": "The images displayed on our gallery's Web site may not reflect the ______ colors of the artwork for sale.",
+      "answerOptions": [
+        {
+          "text": "(A) loyal",
+          "isCorrect": false,
+          "rationale": "Trung thành, không dùng cho màu sắc."
+        },
+        {
+          "text": "(B) smart",
+          "isCorrect": false,
+          "rationale": "Thông minh, không dùng cho màu sắc."
+        },
+        {
+          "text": "(C) close",
+          "isCorrect": false,
+          "rationale": "Gần gũi, không hợp nghĩa nhất."
+        },
+        {
+          "text": "(D) exact",
+          "isCorrect": true,
+          "rationale": "Chính xác, phù hợp để mô tả màu sắc thực tế so với hình ảnh."
+        }
+      ],
+      "hint": "Hình ảnh trên mạng đôi khi không giống màu sắc ______.",
+      "translation": "Các hình ảnh hiển thị trên trang web của phòng trưng bày có thể không phản ánh chính xác màu sắc của tác phẩm nghệ thuật được bán.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 123,
+      "question": "At Beautyvale Cosmetics, our representatives answer customers' ______ within 24 hours of receipt.",
+      "answerOptions": [
+        {
+          "text": "(A) inquirers",
+          "isCorrect": false,
+          "rationale": "Những người hỏi, không hợp nghĩa (trả lời người hỏi vs trả lời câu hỏi)."
+        },
+        {
+          "text": "(B) inquired",
+          "isCorrect": false,
+          "rationale": "Động từ quá khứ."
+        },
+        {
+          "text": "(C) to inquire",
+          "isCorrect": false,
+          "rationale": "Dạng To-V."
+        },
+        {
+          "text": "(D) inquiries",
+          "isCorrect": true,
+          "rationale": "Danh từ số nhiều 'các yêu cầu/thắc mắc', phù hợp làm tân ngữ của 'answer'."
+        }
+      ],
+      "hint": "Cần một danh từ số nhiều làm tân ngữ cho động từ 'answer'.",
+      "translation": "Tại Beautyvale Cosmetics, đại diện của chúng tôi trả lời các câu hỏi của khách hàng trong vòng 24 giờ kể từ khi nhận được.",
+      "category": "word-form"
+    },
+    {
+      "id": 124,
+      "question": "We would like to attend the retreat, but ______ we are unavailable on that date.",
+      "answerOptions": [
+        {
+          "text": "(A) regrettably",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'đáng tiếc là', diễn tả sự tiếc nuối khi từ chối lời mời."
+        },
+        {
+          "text": "(B) scarcely",
+          "isCorrect": false,
+          "rationale": "Hầu như không, không hợp nghĩa."
+        },
+        {
+          "text": "(C) exceptionally",
+          "isCorrect": false,
+          "rationale": "Đặc biệt/ngoại lệ, không hợp nghĩa."
+        },
+        {
+          "text": "(D) annually",
+          "isCorrect": false,
+          "rationale": "Hàng năm, không hợp nghĩa."
+        }
+      ],
+      "hint": "Từ nào diễn tả cảm giác tiếc nuối?",
+      "translation": "Chúng tôi rất muốn tham dự buổi nghỉ dưỡng, nhưng đáng tiếc là chúng tôi không rảnh vào ngày đó.",
+      "category": "word-form"
+    },
+    {
+      "id": 125,
+      "question": "In celebration of Ms. Tseng's promotion, tea and cookies will be served ______ the meeting. ",
+      "answerOptions": [
+        {
+          "text": "(A) later",
+          "isCorrect": false,
+          "rationale": "Trạng từ, không đứng trước danh từ để làm giới từ."
+        },
+        {
+          "text": "(B) as soon as",
+          "isCorrect": false,
+          "rationale": "Liên từ, cần một mệnh đề sau nó."
+        },
+        {
+          "text": "(C) following",
+          "isCorrect": true,
+          "rationale": "Giới từ có nghĩa là 'sau khi' (after)."
+        },
+        {
+          "text": "(D) in case of",
+          "isCorrect": false,
+          "rationale": "Trong trường hợp, không hợp nghĩa."
+        }
+      ],
+      "hint": "Cần một giới từ có nghĩa tương đương 'after'.",
+      "translation": "Nhân dịp chúc mừng bà Tseng được thăng chức, trà và bánh quy sẽ được phục vụ sau cuộc họp.",
+      "category": "preposition"
+    },
+    {
+      "id": 126,
+      "question": "Beginning next month, all employees at Sartson Analytics will have the ______ of working from home two days per week.",
+      "answerOptions": [
+        {
+          "text": "(A) place",
+          "isCorrect": false,
+          "rationale": "Nơi chốn, không đi với 'working from home' trong cấu trúc này."
+        },
+        {
+          "text": "(B) combination",
+          "isCorrect": false,
+          "rationale": "Sự kết hợp, không phù hợp."
+        },
+        {
+          "text": "(C) range",
+          "isCorrect": false,
+          "rationale": "Phạm vi, không phù hợp."
+        },
+        {
+          "text": "(D) option",
+          "isCorrect": true,
+          "rationale": "Lựa chọn, phù hợp với 'lựa chọn làm việc tại nhà'."
+        }
+      ],
+      "hint": "Cụm từ: have the option of + Ving.",
+      "translation": "Bắt đầu từ tháng tới, tất cả nhân viên tại Sartson Analytics sẽ có lựa chọn làm việc tại nhà hai ngày mỗi tuần.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 127,
+      "question": "The accounting department's new policy outlines the ______ process for the procurement of office equipment.",
+      "answerOptions": [
+        {
+          "text": "(A) preferring",
+          "isCorrect": false,
+          "rationale": "Dạng V-ing, không phù hợp nghĩa."
+        },
+        {
+          "text": "(B) preferably",
+          "isCorrect": false,
+          "rationale": "Trạng từ, không đứng trước danh từ bổ nghĩa."
+        },
+        {
+          "text": "(C) preferred",
+          "isCorrect": true,
+          "rationale": "Tính từ/Phân từ 'được ưu tiên/được ưa dùng hơn', bổ nghĩa cho 'process'."
+        },
+        {
+          "text": "(D) preferability",
+          "isCorrect": false,
+          "rationale": "Danh từ, không đứng trước danh từ khác để bổ nghĩa trong trường hợp này."
+        }
+      ],
+      "hint": "Cần một tính từ để mô tả 'quy trình'.",
+      "translation": "Chính sách mới của phòng kế toán nêu rõ quy trình được ưu tiên cho việc mua sắm thiết bị văn phòng.",
+      "category": "word-form"
+    },
+    {
+      "id": 128,
+      "question": "All documents ______ to the company merger will become available to the public within one year.",
+      "answerOptions": [
+        {
+          "text": "(A) assigning",
+          "isCorrect": false,
+          "rationale": "Phân công, không đi với giới từ 'to' trong nghĩa này."
+        },
+        {
+          "text": "(B) facilitating",
+          "isCorrect": false,
+          "rationale": "Tạo điều kiện, không đi với 'to'."
+        },
+        {
+          "text": "(C) pertaining",
+          "isCorrect": true,
+          "rationale": "Liên quan đến, cấu trúc 'pertaining to' dùng để bổ nghĩa cho danh từ trước đó."
+        },
+        {
+          "text": "(D) embarking",
+          "isCorrect": false,
+          "rationale": "Bắt đầu (embark on), không đi với 'to'."
+        }
+      ],
+      "hint": "Cụm từ: pertaining to = related to.",
+      "translation": "Tất cả các tài liệu liên quan đến việc sáp nhập công ty sẽ được công bố cho công chúng trong vòng một năm.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 129,
+      "question": "Granta Hospital has added several pediatric nurses to its staff as part of its new ______ with the Friel School of Nursing.",
+      "answerOptions": [
+        {
+          "text": "(A) affiliation",
+          "isCorrect": true,
+          "rationale": "Sự liên kết/hợp tác, phù hợp khi nói về mối quan hệ giữa bệnh viện và trường học."
+        },
+        {
+          "text": "(B) affiliated",
+          "isCorrect": false,
+          "rationale": "Tính từ, không đứng sau tính từ 'new' để làm danh từ chính."
+        },
+        {
+          "text": "(C) affiliating",
+          "isCorrect": false,
+          "rationale": "Dạng V-ing, không phù hợp."
+        },
+        {
+          "text": "(D) affiliates",
+          "isCorrect": false,
+          "rationale": "Danh từ số nhiều chỉ các chi nhánh, không hợp ngữ cảnh mối quan hệ đơn lẻ."
+        }
+      ],
+      "hint": "Cần một danh từ sau tính từ 'new'.",
+      "translation": "Bệnh viện Granta đã bổ sung thêm một số y tá nhi khoa vào đội ngũ nhân sự như một phần của mối quan hệ hợp tác mới với Trường Điều dưỡng Friel.",
+      "category": "word-form"
+    },
+    {
+      "id": 130,
+      "question": "During checkout, cashiers must be able to scan purchased items accurately ______ field questions from customers.",
+      "answerOptions": [
+        {
+          "text": "(A) but",
+          "isCorrect": false,
+          "rationale": "Nhưng, tạo sự đối lập không cần thiết."
+        },
+        {
+          "text": "(B) for instance",
+          "isCorrect": false,
+          "rationale": "Ví dụ, không dùng để nối hai động từ nguyên mẫu."
+        },
+        {
+          "text": "(C) although",
+          "isCorrect": false,
+          "rationale": "Mặc dù, cần một mệnh đề."
+        },
+        {
+          "text": "(D) as well as",
+          "isCorrect": true,
+          "rationale": "Cũng như, dùng để nối hai cụm động từ tương đương (scan... và field...)."
+        }
+      ],
+      "hint": "Cần một từ nối hai hành động mà thu ngân phải làm.",
+      "translation": "Trong quá trình thanh toán, thu ngân phải có khả năng quét chính xác các mặt hàng đã mua cũng như trả lời các câu hỏi từ khách hàng.",
+      "category": "conjunction"
+    }
+  ],
+  "title": "TOEIC Part 5 - ETS 2026 Test 4 (Questions 101-130)"
+}

@@ -23,6 +23,10 @@ export function getAvailablePart5Tests(): string[] {
   return scanQuizFiles("part5", /^(.+)_quiz\.json$/);
 }
 
+export function getAvailablePart5Ets2026Tests(): string[] {
+  return scanQuizFiles("part5_ets_2026", /^(test_\d+)\.json$/);
+}
+
 export function getAvailableVocabLessons(): number[] {
   return scanQuizFiles("vocabulary", /^lesson(\d+)_quiz\.json$/).map(Number);
 }
@@ -68,6 +72,21 @@ export function loadPart6Data(id: string): Part6Data | null {
   const filePath = path.join(DATA_DIR, "part6", `${id}_quiz.json`);
   try {
     return JSON.parse(fs.readFileSync(filePath, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+export function loadPart5Ets2026Data(id: string): QuizData | null {
+  const filePath = path.join(DATA_DIR, "part5_ets_2026", `${id}.json`);
+  try {
+    const raw = JSON.parse(fs.readFileSync(filePath, "utf8"));
+    // Inject title if missing
+    if (!raw.title) {
+      const num = id.replace("test_", "");
+      raw.title = `TOEIC Part 5 - ETS 2026 Test ${num}`;
+    }
+    return raw as QuizData;
   } catch {
     return null;
   }

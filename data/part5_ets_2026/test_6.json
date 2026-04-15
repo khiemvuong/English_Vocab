@@ -1,0 +1,877 @@
+{
+  "test_name": "TEST 6 - ETS 2026 - Zenlish",
+  "part": 5,
+  "questions": [
+    {
+      "id": 101,
+      "question": "On Saturday, the Edbridge Orchestra will ------- a new work by local composer Nina Borstein.",
+      "answerOptions": [
+        {
+          "text": "(A) make",
+          "isCorrect": false,
+          "rationale": "Làm, tạo ra."
+        },
+        {
+          "text": "(B) operate",
+          "isCorrect": false,
+          "rationale": "Vận hành."
+        },
+        {
+          "text": "(C) perform",
+          "isCorrect": true,
+          "rationale": "Biểu diễn tác phẩm âm nhạc."
+        },
+        {
+          "text": "(D) fulfill",
+          "isCorrect": false,
+          "rationale": "Hoàn thành, đáp ứng."
+        }
+      ],
+      "hint": "Cụm từ: perform + a work/piece (biểu diễn một tác phẩm).",
+      "translation": "Vào thứ Bảy, Dàn nhạc Edbridge sẽ biểu diễn một tác phẩm mới của nhà soạn nhạc địa phương Nina Borstein.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 102,
+      "question": "It is important to be especially ------- when in the company of new clients.",
+      "answerOptions": [
+        {
+          "text": "(A) polite",
+          "isCorrect": true,
+          "rationale": "Tính từ phù hợp sau trạng từ 'especially' để bổ nghĩa cho chủ ngữ."
+        },
+        {
+          "text": "(B) politely",
+          "isCorrect": false,
+          "rationale": "Trạng từ."
+        },
+        {
+          "text": "(C) politest",
+          "isCorrect": false,
+          "rationale": "So sánh nhất (không phù hợp ngữ cảnh)."
+        },
+        {
+          "text": "(D) politeness",
+          "isCorrect": false,
+          "rationale": "Danh từ."
+        }
+      ],
+      "hint": "Cấu trúc: be + adv + adj.",
+      "translation": "Điều quan trọng là phải lịch sự, đặc biệt khi làm việc với khách hàng mới.",
+      "category": "word-form"
+    },
+    {
+      "id": 103,
+      "question": "Although Ms. Endou was not chosen for an award, ------- achievements were praised.",
+      "answerOptions": [
+        {
+          "text": "(A) she",
+          "isCorrect": false,
+          "rationale": "Đại từ chủ ngữ."
+        },
+        {
+          "text": "(B) her",
+          "isCorrect": true,
+          "rationale": "Tính từ sở hữu đứng trước danh từ 'achievements'."
+        },
+        {
+          "text": "(C) hers",
+          "isCorrect": false,
+          "rationale": "Đại từ sở hữu."
+        },
+        {
+          "text": "(D) herself",
+          "isCorrect": false,
+          "rationale": "Đại từ phản thân."
+        }
+      ],
+      "hint": "Cần tính từ sở hữu bổ nghĩa cho danh từ phía sau.",
+      "translation": "Mặc dù bà Endou không được chọn cho giải thưởng, những thành tựu của bà ấy vẫn được ca ngợi.",
+      "category": "pronoun"
+    },
+    {
+      "id": 104,
+      "question": "The newly opened Westside Clinic is located ------- the intersection of Broad Street and Elm Avenue.",
+      "answerOptions": [
+        {
+          "text": "(A) at",
+          "isCorrect": true,
+          "rationale": "Giới từ chỉ địa điểm cụ thể (tại ngã tư)."
+        },
+        {
+          "text": "(B) to",
+          "isCorrect": false,
+          "rationale": "Đến (chỉ hướng)."
+        },
+        {
+          "text": "(C) for",
+          "isCorrect": false,
+          "rationale": "Cho, vì."
+        },
+        {
+          "text": "(D) on",
+          "isCorrect": false,
+          "rationale": "Trên (thường dùng cho tên đường đơn thuần)."
+        }
+      ],
+      "hint": "Cụm từ: at the intersection of (tại giao lộ/ngã tư).",
+      "translation": "Phòng khám Westside mới khai trương nằm tại ngã tư đường Broad và đại lộ Elm.",
+      "category": "preposition"
+    },
+    {
+      "id": 105,
+      "question": "Staff members should contact the IT department if they ------- any technical difficulties.",
+      "answerOptions": [
+        {
+          "text": "(A) encounter",
+          "isCorrect": true,
+          "rationale": "Gặp phải (vấn đề/khó khăn)."
+        },
+        {
+          "text": "(B) involve",
+          "isCorrect": false,
+          "rationale": "Liên quan."
+        },
+        {
+          "text": "(C) prevent",
+          "isCorrect": false,
+          "rationale": "Ngăn chặn."
+        },
+        {
+          "text": "(D) achieve",
+          "isCorrect": false,
+          "rationale": "Đạt được."
+        }
+      ],
+      "hint": "Sử dụng câu điều kiện loại 1, nghĩa phù hợp nhất là 'gặp phải'.",
+      "translation": "Nhân viên nên liên hệ với bộ phận IT nếu họ gặp phải bất kỳ khó khăn kỹ thuật nào.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 106,
+      "question": "Ms. Gomez ------- presented the final budget report at the board meeting yesterday.",
+      "answerOptions": [
+        {
+          "text": "(A) success",
+          "isCorrect": false,
+          "rationale": "Danh từ."
+        },
+        {
+          "text": "(B) succeed",
+          "isCorrect": false,
+          "rationale": "Động từ."
+        },
+        {
+          "text": "(C) successful",
+          "isCorrect": false,
+          "rationale": "Tính từ."
+        },
+        {
+          "text": "(D) successfully",
+          "isCorrect": true,
+          "rationale": "Trạng từ bổ nghĩa cho động từ 'presented'."
+        }
+      ],
+      "hint": "Vị trí giữa chủ ngữ và động từ chính cần một trạng từ bổ nghĩa.",
+      "translation": "Bà Gomez đã trình bày thành công báo cáo ngân sách cuối cùng tại cuộc họp hội đồng quản trị ngày hôm qua.",
+      "category": "word-form"
+    },
+    {
+      "id": 107,
+      "question": "The maintenance crew provided a ------- estimate for the repairs needed in the lobby.",
+      "answerOptions": [
+        {
+          "text": "(A) reliably",
+          "isCorrect": false,
+          "rationale": "Trạng từ."
+        },
+        {
+          "text": "(B) relying",
+          "isCorrect": false,
+          "rationale": "V-ing."
+        },
+        {
+          "text": "(C) relied",
+          "isCorrect": false,
+          "rationale": "V-ed."
+        },
+        {
+          "text": "(D) reliable",
+          "isCorrect": true,
+          "rationale": "Tính từ bổ nghĩa cho danh từ 'estimate' (bản ước tính đáng tin cậy)."
+        }
+      ],
+      "hint": "Cần tính từ đứng trước danh từ.",
+      "translation": "Đội bảo trì đã cung cấp một bản ước tính đáng tin cậy cho các sửa chữa cần thiết ở sảnh chờ.",
+      "category": "word-form"
+    },
+    {
+      "id": 108,
+      "question": "Mr. Aponte's photograph of the autumn foliage will be featured on the front ------- of Outward Expansion Magazine.",
+      "answerOptions": [
+        {
+          "text": "(A) cover",
+          "isCorrect": true,
+          "rationale": "Bìa (tạp chí)."
+        },
+        {
+          "text": "(B) coverage",
+          "isCorrect": false,
+          "rationale": "Sự đưa tin."
+        },
+        {
+          "text": "(C) covered",
+          "isCorrect": false,
+          "rationale": "Được che phủ."
+        },
+        {
+          "text": "(D) coverable",
+          "isCorrect": false,
+          "rationale": "Có thể che phủ."
+        }
+      ],
+      "hint": "Cụm từ cố định: on the front cover (trên trang bìa).",
+      "translation": "Bức ảnh chụp cảnh lá mùa thu của ông Aponte đã được đăng trên trang bìa của tạp chí Outward Expansion.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 109,
+      "question": "Handi Office Supplies' new desk organizers serve ------- practical and stylish additions to any office workstation.",
+      "answerOptions": [
+        {
+          "text": "(A) of",
+          "isCorrect": false,
+          "rationale": "Giới từ của."
+        },
+        {
+          "text": "(B) as",
+          "isCorrect": true,
+          "rationale": "Như là/đóng vai trò là."
+        },
+        {
+          "text": "(C) out",
+          "isCorrect": false,
+          "rationale": "Ra ngoài."
+        },
+        {
+          "text": "(D) until",
+          "isCorrect": false,
+          "rationale": "Cho đến khi."
+        }
+      ],
+      "hint": "Cấu trúc: serve as (đóng vai trò như là).",
+      "translation": "Các khay sắp xếp bàn làm việc mới của Handi Office Supplies đóng vai trò là những bổ sung vừa thiết thực vừa phong cách cho bất kỳ không gian làm việc nào.",
+      "category": "preposition"
+    },
+    {
+      "id": 110,
+      "question": "The efficient redesign of the airline terminal led to ------- flight delays.",
+      "answerOptions": [
+        {
+          "text": "(A) friendlier",
+          "isCorrect": false,
+          "rationale": "Thân thiện hơn."
+        },
+        {
+          "text": "(B) accurate",
+          "isCorrect": false,
+          "rationale": "Chính xác."
+        },
+        {
+          "text": "(C) previous",
+          "isCorrect": false,
+          "rationale": "Trước đây."
+        },
+        {
+          "text": "(D) fewer",
+          "isCorrect": true,
+          "rationale": "Ít hơn (dùng cho danh từ đếm được số nhiều 'delays')."
+        }
+      ],
+      "hint": "So sánh về số lượng với danh từ đếm được.",
+      "translation": "Việc thiết kế lại hiệu quả của nhà ga hàng không đã dẫn đến ít chuyến bay bị trì hoãn hơn.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 111,
+      "question": "Mr. Ogbu's editor appreciated his ability to approach the subject matter -------.",
+      "answerOptions": [
+        {
+          "text": "(A) objects",
+          "isCorrect": false,
+          "rationale": "Danh từ/Động từ phản đối."
+        },
+        {
+          "text": "(B) objective",
+          "isCorrect": false,
+          "rationale": "Tính từ/Danh từ mục tiêu."
+        },
+        {
+          "text": "(C) objectively",
+          "isCorrect": true,
+          "rationale": "Trạng từ bổ nghĩa cho động từ 'approach'."
+        },
+        {
+          "text": "(D) objectivity",
+          "isCorrect": false,
+          "rationale": "Danh từ tính khách quan."
+        }
+      ],
+      "hint": "Động từ thường + trạng từ.",
+      "translation": "Biên tập viên của ông Ogbu đánh giá cao khả năng tiếp cận vấn đề của ông một cách khách quan.",
+      "category": "word-form"
+    },
+    {
+      "id": 112,
+      "question": "Construction of the new bridge was completed ahead of schedule, ------- to the hard work of the local crew.",
+      "answerOptions": [
+        {
+          "text": "(A) owing",
+          "isCorrect": true,
+          "rationale": "Owing to = Nhờ vào/Do bởi."
+        },
+        {
+          "text": "(B) because",
+          "isCorrect": false,
+          "rationale": "Bởi vì (phải đi với mệnh đề)."
+        },
+        {
+          "text": "(C) instead",
+          "isCorrect": false,
+          "rationale": "Thay vì (phải có of)."
+        },
+        {
+          "text": "(D) despite",
+          "isCorrect": false,
+          "rationale": "Mặc dù."
+        }
+      ],
+      "hint": "Cụm từ: owing to + Noun Phrase.",
+      "translation": "Việc xây dựng cây cầu mới đã được hoàn thành trước thời hạn nhờ vào sự làm việc chăm chỉ của đội ngũ địa phương.",
+      "category": "preposition"
+    },
+    {
+      "id": 113,
+      "question": "The research team will meet at 2:00 P.M. to ------- the results of the recent survey.",
+      "answerOptions": [
+        {
+          "text": "(A) discuss",
+          "isCorrect": true,
+          "rationale": "Thảo luận."
+        },
+        {
+          "text": "(B) mention",
+          "isCorrect": false,
+          "rationale": "Đề cập."
+        },
+        {
+          "text": "(C) confess",
+          "isCorrect": false,
+          "rationale": "Thú nhận."
+        },
+        {
+          "text": "(D) argue",
+          "isCorrect": false,
+          "rationale": "Tranh cãi."
+        }
+      ],
+      "hint": "Động từ phù hợp với 'survey results'.",
+      "translation": "Nhóm nghiên cứu sẽ họp vào lúc 2 giờ chiều để thảo luận về kết quả của cuộc khảo sát gần đây.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 114,
+      "question": "The technician used a specialized tool to ------- the exact location of the leak.",
+      "answerOptions": [
+        {
+          "text": "(A) overcome",
+          "isCorrect": false,
+          "rationale": "Vượt qua."
+        },
+        {
+          "text": "(B) prolong",
+          "isCorrect": false,
+          "rationale": "Kéo dài."
+        },
+        {
+          "text": "(C) deserve",
+          "isCorrect": false,
+          "rationale": "Xứng đáng."
+        },
+        {
+          "text": "(D) determine",
+          "isCorrect": true,
+          "rationale": "Xác định."
+        }
+      ],
+      "hint": "Xác định vị trí chính xác của cái gì đó.",
+      "translation": "Kỹ thuật viên đã sử dụng một công cụ chuyên dụng để xác định vị trí chính xác của chỗ rò rỉ.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 115,
+      "question": "Garza's Restaurant is ------- decorated with paintings and photographs of southern Mexico.",
+      "answerOptions": [
+        {
+          "text": "(A) elaborately",
+          "isCorrect": true,
+          "rationale": "Một cách công phu/tỉ mỉ."
+        },
+        {
+          "text": "(B) elaborating",
+          "isCorrect": false,
+          "rationale": "Đang diễn giải."
+        },
+        {
+          "text": "(C) elaborates",
+          "isCorrect": false,
+          "rationale": "Diễn giải (V-s)."
+        },
+        {
+          "text": "(D) elaboration",
+          "isCorrect": false,
+          "rationale": "Sự diễn giải."
+        }
+      ],
+      "hint": "Cần trạng từ bổ nghĩa cho phân từ 'decorated'.",
+      "translation": "Nhà hàng Garza được trang trí công phu với các bức tranh và ảnh chụp miền nam Mexico.",
+      "category": "word-form"
+    },
+    {
+      "id": 116,
+      "question": "Mr. Brighton's first ------- at Glynn Engineering was in the materials testing group.",
+      "answerOptions": [
+        {
+          "text": "(A) assign",
+          "isCorrect": false,
+          "rationale": "Động từ."
+        },
+        {
+          "text": "(B) assigned",
+          "isCorrect": false,
+          "rationale": "V-ed."
+        },
+        {
+          "text": "(C) assigning",
+          "isCorrect": false,
+          "rationale": "V-ing."
+        },
+        {
+          "text": "(D) assignment",
+          "isCorrect": true,
+          "rationale": "Nhiệm vụ/Công việc được giao."
+        }
+      ],
+      "hint": "Đứng sau tính từ 'first' và tính từ sở hữu 'Mr. Brighton's' cần một danh từ làm chủ ngữ.",
+      "translation": "Nhiệm vụ đầu tiên của ông Brighton tại Glynn Engineering thuộc nhóm kiểm tra vật liệu.",
+      "category": "word-form"
+    },
+    {
+      "id": 117,
+      "question": "The installation of new benches throughout Haverford Park will cost ------- €5,000.",
+      "answerOptions": [
+        {
+          "text": "(A) briefly",
+          "isCorrect": false,
+          "rationale": "Ngắn gọn."
+        },
+        {
+          "text": "(B) roughly",
+          "isCorrect": true,
+          "rationale": "Xấp xỉ/Khoảng chừng."
+        },
+        {
+          "text": "(C) correctly",
+          "isCorrect": false,
+          "rationale": "Chính xác."
+        },
+        {
+          "text": "(D) generously",
+          "isCorrect": false,
+          "rationale": "Hào phóng."
+        }
+      ],
+      "hint": "Dùng trạng từ chỉ sự ước lượng trước một con số.",
+      "translation": "Việc lắp đặt các băng ghế mới trong toàn bộ Công viên Haverford sẽ tốn khoảng 5.000 euro.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 118,
+      "question": "------- who is unable to attend the quarterly stakeholder meeting is welcome to appoint a representative.",
+      "answerOptions": [
+        {
+          "text": "(A) Such",
+          "isCorrect": false,
+          "rationale": "Như vậy."
+        },
+        {
+          "text": "(B) Whichever",
+          "isCorrect": false,
+          "rationale": "Bất cứ cái nào."
+        },
+        {
+          "text": "(C) Anyone",
+          "isCorrect": true,
+          "rationale": "Bất kỳ ai (đi với động từ số ít 'is')."
+        },
+        {
+          "text": "(D) Those",
+          "isCorrect": false,
+          "rationale": "Những người (đi với động từ số nhiều 'are')."
+        }
+      ],
+      "hint": "Cấu trúc: Anyone who + V(số ít).",
+      "translation": "Bất kỳ ai không thể tham dự cuộc họp cổ đông hằng quý đều được chào đón chỉ định một người đại diện.",
+      "category": "pronoun"
+    },
+    {
+      "id": 119,
+      "question": "Singer Maria Stanley ------- today that she is scheduling a world tour.",
+      "answerOptions": [
+        {
+          "text": "(A) reveal",
+          "isCorrect": false,
+          "rationale": "Động từ nguyên mẫu."
+        },
+        {
+          "text": "(B) revealed",
+          "isCorrect": true,
+          "rationale": "Đã tiết lộ (phù hợp thì quá khứ của sự việc vừa xảy ra)."
+        },
+        {
+          "text": "(C) to reveal",
+          "isCorrect": false,
+          "rationale": "Dạng to-V."
+        },
+        {
+          "text": "(D) revealing",
+          "isCorrect": false,
+          "rationale": "Dạng V-ing."
+        }
+      ],
+      "hint": "Câu thiếu động từ chính được chia thì.",
+      "translation": "Ca sĩ Maria Stanley hôm nay đã tiết lộ rằng cô đang lên lịch cho một chuyến lưu diễn vòng quanh thế giới.",
+      "category": "grammar"
+    },
+    {
+      "id": 120,
+      "question": "Biographer Amber Bowen has been recognized for her distinctive writing -------.",
+      "answerOptions": [
+        {
+          "text": "(A) styleless",
+          "isCorrect": false,
+          "rationale": "Không phong cách."
+        },
+        {
+          "text": "(B) styled",
+          "isCorrect": false,
+          "rationale": "Được tạo kiểu."
+        },
+        {
+          "text": "(C) stylish",
+          "isCorrect": false,
+          "rationale": "Có phong cách (adj)."
+        },
+        {
+          "text": "(D) style",
+          "isCorrect": true,
+          "rationale": "Phong cách (N)."
+        }
+      ],
+      "hint": "Cụm danh từ: Writing style (phong cách viết).",
+      "translation": "Nhà viết tiểu sử Amber Bowen đã được công nhận nhờ phong cách viết đặc trưng và đầy cuốn hút của mình.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 121,
+      "question": "The award-winning stationery created by the artists at Paperi Designs is of ------- quality.",
+      "answerOptions": [
+        {
+          "text": "(A) comfortable",
+          "isCorrect": false,
+          "rationale": "Thoải mái."
+        },
+        {
+          "text": "(B) exceptional",
+          "isCorrect": true,
+          "rationale": "Xuất sắc/Vượt trội."
+        },
+        {
+          "text": "(C) hospitable",
+          "isCorrect": false,
+          "rationale": "Hiếu khách."
+        },
+        {
+          "text": "(D) ambitious",
+          "isCorrect": false,
+          "rationale": "Tham vọng."
+        }
+      ],
+      "hint": "Tính từ bổ nghĩa cho 'quality' để khen ngợi sản phẩm.",
+      "translation": "Các sản phẩm văn phòng phẩm đoạt giải thưởng do các nghệ sĩ tại Paperi Designs sáng tạo có chất lượng xuất sắc.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 122,
+      "question": "During the past quarter, ------- all of Renafy Technology's sales came from one region.",
+      "answerOptions": [
+        {
+          "text": "(A) between",
+          "isCorrect": false,
+          "rationale": "Giữa."
+        },
+        {
+          "text": "(B) nearly",
+          "isCorrect": true,
+          "rationale": "Gần như."
+        },
+        {
+          "text": "(C) somewhat",
+          "isCorrect": false,
+          "rationale": "Hơi/Phần nào."
+        },
+        {
+          "text": "(D) next to",
+          "isCorrect": false,
+          "rationale": "Bên cạnh."
+        }
+      ],
+      "hint": "Trạng từ chỉ mức độ đứng trước 'all'.",
+      "translation": "Trong quý vừa qua, gần như toàn bộ doanh số của Renafy Technology đến từ một khu vực.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 123,
+      "question": "Commercial property insurance covers the ------- associated with repairing or rebuilding a business property after certain events.",
+      "answerOptions": [
+        {
+          "text": "(A) expenses",
+          "isCorrect": true,
+          "rationale": "Chi phí."
+        },
+        {
+          "text": "(B) symptoms",
+          "isCorrect": false,
+          "rationale": "Triệu chứng."
+        },
+        {
+          "text": "(C) challenges",
+          "isCorrect": false,
+          "rationale": "Thách thức."
+        },
+        {
+          "text": "(D) opportunities",
+          "isCorrect": false,
+          "rationale": "Cơ hội."
+        }
+      ],
+      "hint": "Bảo hiểm chi trả cho cái gì?",
+      "translation": "Bảo hiểm tài sản thương mại chi trả các chi phí liên quan đến việc sửa chữa hoặc xây dựng lại tài sản kinh doanh sau một số sự kiện nhất định.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 124,
+      "question": "The first-aid class usually fills up quickly, so prompt ------- is recommended.",
+      "answerOptions": [
+        {
+          "text": "(A) registration",
+          "isCorrect": true,
+          "rationale": "Sự đăng ký."
+        },
+        {
+          "text": "(B) detection",
+          "isCorrect": false,
+          "rationale": "Sự phát hiện."
+        },
+        {
+          "text": "(C) information",
+          "isCorrect": false,
+          "rationale": "Thông tin."
+        },
+        {
+          "text": "(D) certification",
+          "isCorrect": false,
+          "rationale": "Sự cấp chứng chỉ."
+        }
+      ],
+      "hint": "Hành động cần làm để có chỗ trong lớp học.",
+      "translation": "Lớp học sơ cứu thường nhanh chóng kín chỗ, vì vậy khuyến nghị nên đăng ký sớm.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 125,
+      "question": "Manufacturing all its products in-house allows Long Bridge Steel Corp. to ------- every aspect of the production process.",
+      "answerOptions": [
+        {
+          "text": "(A) expect",
+          "isCorrect": false,
+          "rationale": "Mong đợi."
+        },
+        {
+          "text": "(B) impress",
+          "isCorrect": false,
+          "rationale": "Gây ấn tượng."
+        },
+        {
+          "text": "(C) remain",
+          "isCorrect": false,
+          "rationale": "Duy trì."
+        },
+        {
+          "text": "(D) control",
+          "isCorrect": true,
+          "rationale": "Kiểm soát."
+        }
+      ],
+      "hint": "Tự làm mọi thứ cho phép công ty làm gì với quy trình?",
+      "translation": "Việc sản xuất toàn bộ sản phẩm nội bộ cho phép Long Bridge Steel Corp. kiểm soát mọi khía cạnh của quy trình sản xuất.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 126,
+      "question": "------- its use on home-cooking shows, consumer demand for Silvershine Cookware has doubled.",
+      "answerOptions": [
+        {
+          "text": "(A) Moreover",
+          "isCorrect": false,
+          "rationale": "Hơn nữa (đi với mệnh đề)."
+        },
+        {
+          "text": "(B) For example",
+          "isCorrect": false,
+          "rationale": "Ví dụ."
+        },
+        {
+          "text": "(C) Even though",
+          "isCorrect": false,
+          "rationale": "Mặc dù (đi với mệnh đề)."
+        },
+        {
+          "text": "(D) Because of",
+          "isCorrect": true,
+          "rationale": "Bởi vì (đi với cụm danh từ 'its use')."
+        }
+      ],
+      "hint": "Chỉ nguyên nhân + Cụm danh từ.",
+      "translation": "Do được sử dụng trong các chương trình nấu ăn tại nhà, nhu cầu tiêu dùng đối với dụng cụ nấu ăn Silvershine đã tăng gấp đôi.",
+      "category": "conjunction"
+    },
+    {
+      "id": 127,
+      "question": "Artists at Cavin Graphics work ------- with clients through all stages of the design process to ensure satisfaction.",
+      "answerOptions": [
+        {
+          "text": "(A) collaborative",
+          "isCorrect": false,
+          "rationale": "Tính từ."
+        },
+        {
+          "text": "(B) collaboratively",
+          "isCorrect": true,
+          "rationale": "Một cách hợp tác (trạng từ)."
+        },
+        {
+          "text": "(C) collaborates",
+          "isCorrect": false,
+          "rationale": "V-s."
+        },
+        {
+          "text": "(D) collaborators",
+          "isCorrect": false,
+          "rationale": "Người cộng tác."
+        }
+      ],
+      "hint": "Trạng từ bổ nghĩa cho động từ 'work'.",
+      "translation": "Các nghệ sĩ tại Cavin Graphics làm việc một cách hợp tác với khách hàng trong suốt mọi giai đoạn của quy trình thiết kế để đảm bảo sự hài lòng.",
+      "category": "word-form"
+    },
+    {
+      "id": 128,
+      "question": "Brile Construction's contract for the mall development project has finally been ------- by the city supervisor.",
+      "answerOptions": [
+        {
+          "text": "(A) verifying",
+          "isCorrect": false,
+          "rationale": "V-ing."
+        },
+        {
+          "text": "(B) verifiably",
+          "isCorrect": false,
+          "rationale": "Trạng từ."
+        },
+        {
+          "text": "(C) verified",
+          "isCorrect": true,
+          "rationale": "Được xác minh (dạng bị động)."
+        },
+        {
+          "text": "(D) verification",
+          "isCorrect": false,
+          "rationale": "Sự xác minh."
+        }
+      ],
+      "hint": "Câu bị động: has been + V3/ed.",
+      "translation": "Hợp đồng của Brile Construction cho dự án phát triển trung tâm thương mại cuối cùng đã được giám sát viên thành phố xác minh.",
+      "category": "word-form"
+    },
+    {
+      "id": 129,
+      "question": "------- 4,000 Urlvac trash removal systems are in use in the eastern region.",
+      "answerOptions": [
+        {
+          "text": "(A) Always",
+          "isCorrect": false,
+          "rationale": "Luôn luôn."
+        },
+        {
+          "text": "(B) Quite",
+          "isCorrect": false,
+          "rationale": "Khá."
+        },
+        {
+          "text": "(C) Almost",
+          "isCorrect": true,
+          "rationale": "Gần như."
+        },
+        {
+          "text": "(D) Closely",
+          "isCorrect": false,
+          "rationale": "Chặt chẽ."
+        }
+      ],
+      "hint": "Dùng trạng từ chỉ sự gần đạt đến một con số.",
+      "translation": "Gần như 4.000 hệ thống loại bỏ rác Ulvac đang được sử dụng tại khu vực phía đông.",
+      "category": "vocabulary"
+    },
+    {
+      "id": 130,
+      "question": "The conference schedule will be posted online ------- mailed to attendees.",
+      "answerOptions": [
+        {
+          "text": "(A) in order that",
+          "isCorrect": false,
+          "rationale": "Để mà."
+        },
+        {
+          "text": "(B) as soon as",
+          "isCorrect": false,
+          "rationale": "Ngay khi."
+        },
+        {
+          "text": "(C) in case",
+          "isCorrect": false,
+          "rationale": "Phòng trường hợp."
+        },
+        {
+          "text": "(D) rather than",
+          "isCorrect": true,
+          "rationale": "Hơn là/thay vì."
+        }
+      ],
+      "hint": "Sự lựa chọn phương thức hành động này thay cho hành động kia.",
+      "translation": "Lịch trình hội nghị sẽ được đăng trực tuyến thay vì gửi email cho những người tham dự.",
+      "category": "conjunction"
+    }
+  ],
+  "title": "TOEIC Part 5 - ETS 2026 Test 6 (Questions 101-130)"
+}

@@ -97,20 +97,40 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
 
   if (!session) return null;
 
+  const isEts2026Lesson = lessonId.startsWith("part5-ets2026-");
+  const isPart5Lesson = lessonId.startsWith("part5-") && !isEts2026Lesson;
+  const homeTab = isEts2026Lesson ? "ets2026" : isPart5Lesson ? "part5" : "vocab";
+
+  const headerTitleText = (() => {
+    if (isEts2026Lesson) {
+      const etsId = lessonId.replace("part5-ets2026-", "");
+      if (etsId.startsWith("test_")) {
+        return `ETS 2026 – Test ${etsId.replace("test_", "")}`;
+      }
+      return `ETS 2026 – ${etsId.toUpperCase()}`;
+    }
+
+    if (isPart5Lesson) {
+      return `Part 5 – ${lessonId.replace("part5-", "").toUpperCase()}`;
+    }
+
+    return `Lesson ${lessonId.padStart(2, "0")}`;
+  })();
+
 
 
   return (
     <div className="flex flex-col h-dvh w-full overflow-hidden">
       <div className="flex flex-col flex-1 w-full max-w-3xl mx-auto px-4 md:px-6 pt-4 md:pt-6 overflow-hidden">
       <QuizHeader
-        titleText={lessonId.startsWith('part5-') ? `Part 5 – ${lessonId.replace('part5-', '').toUpperCase()}` : `Lesson ${lessonId.padStart(2, '0')}`}
+        titleText={headerTitleText}
         subtitleText={`${currentIndex + 1} / ${quizData.questions.length}`}
         progressPercent={(currentIndex / quizData.questions.length) * 100}
         progressColorClass="bg-blue-500"
         isMuted={isMuted}
         onToggleMute={toggleMute}
         onRestart={() => restartLesson(lessonId)}
-        onExit={() => router.push(lessonId.startsWith('part5') ? '/?tab=part5' : '/?tab=vocab')}
+        onExit={() => router.push(`/?tab=${homeTab}`)}
       />
 
       {/* Main Content Area - Scrollable */}
@@ -303,7 +323,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
                 };
               })}
               onRestart={() => restartLesson(lessonId)}
-              onExit={() => router.push(lessonId.startsWith('part5') ? '/?tab=part5' : '/?tab=vocab')}
+              onExit={() => router.push(`/?tab=${homeTab}`)}
               exitLabel="Về Dashboard"
             />
           )}

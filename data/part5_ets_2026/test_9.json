@@ -1,0 +1,875 @@
+{
+  "questions": [
+    {
+      "id": 101,
+      "question": "Our ------ indicate that your company car is due for regular service next month.",
+      "answerOptions": [
+        {
+          "text": "(A) records",
+          "isCorrect": true,
+          "rationale": "Khoảng trống đứng sau 'our' (tính từ sở hữu) nên cần một danh từ. Vì động từ 'indicate' ở dạng số nhiều (không thêm s), nên cần danh từ số nhiều 'records'."
+        },
+        {
+          "text": "(B) recording",
+          "isCorrect": false,
+          "rationale": "Danh từ chỉ hành động ghi âm, không phù hợp ngữ cảnh 'hồ sơ xe'."
+        },
+        {
+          "text": "(C) recorded",
+          "isCorrect": false,
+          "rationale": "Dạng quá khứ của động từ hoặc tính từ, không phù hợp vị trí danh từ chính."
+        },
+        {
+          "text": "(D) recordable",
+          "isCorrect": false,
+          "rationale": "Tính từ (có thể ghi lại), không phù hợp vị trí danh từ chính."
+        }
+      ],
+      "hint": "Cấu trúc: indicate that + S + V (cho thấy rằng...).",
+      "translation": "Hồ sơ của chúng tôi cho thấy xe công ty của bạn đến hạn bảo dưỡng định kỳ vào tháng sau.",
+      "category": "word-form"
+    },
+    {
+      "id": 102,
+      "question": "The ------ entrance to our office building will be closed on Tuesday because of construction.",
+      "answerOptions": [
+        {
+          "text": "(A) next",
+          "isCorrect": false,
+          "rationale": "Tiếp theo, không tạo thành cụm danh từ phổ biến cho lối vào tòa nhà trong ngữ cảnh này."
+        },
+        {
+          "text": "(B) main",
+          "isCorrect": true,
+          "rationale": "Tính từ 'main' (chính) bổ nghĩa cho danh từ 'entrance' để tạo cụm 'lối vào chính' hợp lý về nghĩa."
+        },
+        {
+          "text": "(C) sure",
+          "isCorrect": false,
+          "rationale": "Chắc chắn, không dùng để miêu tả lối vào."
+        },
+        {
+          "text": "(D) early",
+          "isCorrect": false,
+          "rationale": "Sớm, không phù hợp để miêu tả vị trí/loại lối vào."
+        }
+      ],
+      "hint": "Cụm danh từ: The main entrance (Lối vào chính).",
+      "translation": "Lối vào chính của tòa nhà văn phòng sẽ đóng cửa vào thứ Ba do đang xây dựng.",
+      "category": "word-form"
+    },
+    {
+      "id": 103,
+      "question": "Any document marked “Confidential” must be handled and stored ------.",
+      "answerOptions": [
+        {
+          "text": "(A) careful",
+          "isCorrect": false,
+          "rationale": "Tính từ, không bổ nghĩa cho động từ 'handled' và 'stored'."
+        },
+        {
+          "text": "(B) carefully",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'carefully' dùng để bổ nghĩa cho các động từ chỉ hành động 'xử lý' và 'lưu trữ'."
+        },
+        {
+          "text": "(C) carefulness",
+          "isCorrect": false,
+          "rationale": "Danh từ, không đứng sau động từ để bổ nghĩa cách thức."
+        },
+        {
+          "text": "(D) more careful",
+          "isCorrect": false,
+          "rationale": "Dạng so sánh của tính từ, không phù hợp ngữ pháp."
+        }
+      ],
+      "hint": "Trạng từ (Adv) bổ nghĩa cho Động từ (V).",
+      "translation": "Bất kỳ tài liệu nào được đánh dấu “Bảo mật” đều phải được xử lý và lưu trữ cẩn thận.",
+      "category": "word-form"
+    },
+    {
+      "id": 104,
+      "question": "The new technology ------ trains to switch quickly between electric and diesel modes.",
+      "answerOptions": [
+        {
+          "text": "(A) rides",
+          "isCorrect": false,
+          "rationale": "Lái/đi (xe), không đi với cấu trúc O + to V trong ngữ cảnh này."
+        },
+        {
+          "text": "(B) forms",
+          "isCorrect": false,
+          "rationale": "Hình thành, không phù hợp về nghĩa."
+        },
+        {
+          "text": "(C) allows",
+          "isCorrect": true,
+          "rationale": "Động từ 'allows' phù hợp cấu trúc 'allow + O + to V' (cho phép ai/cái gì làm gì)."
+        },
+        {
+          "text": "(D) conducts",
+          "isCorrect": false,
+          "rationale": "Tiến hành/dẫn dắt, không phù hợp về nghĩa."
+        }
+      ],
+      "hint": "Cấu trúc: allow + object + to-infinitive.",
+      "translation": "Công nghệ mới cho phép tàu chuyển đổi nhanh giữa chế độ điện và diesel.",
+      "category": "word-form"
+    },
+    {
+      "id": 105,
+      "question": "The Chocobonne Corporation says it plans to open 28 new ------ in the next three years.",
+      "answerOptions": [
+        {
+          "text": "(A) stores",
+          "isCorrect": true,
+          "rationale": "Sau số đếm '28' và tính từ 'new' cần một danh từ số nhiều đếm được."
+        },
+        {
+          "text": "(B) storing",
+          "isCorrect": false,
+          "rationale": "Danh động từ, không dùng làm danh từ chỉ địa điểm/cửa hàng."
+        },
+        {
+          "text": "(C) store",
+          "isCorrect": false,
+          "rationale": "Danh từ số ít, không phù hợp với số lượng 28."
+        },
+        {
+          "text": "(D) storage",
+          "isCorrect": false,
+          "rationale": "Danh từ không đếm được (kho bãi), không phù hợp số lượng cụ thể 28."
+        }
+      ],
+      "hint": "Số đếm > 1 + Danh từ số nhiều.",
+      "translation": "Công ty Chocobonne cho biết họ dự định mở 28 cửa hàng mới trong ba năm tới.",
+      "category": "word-form"
+    },
+    {
+      "id": 106,
+      "question": "The Lofstrom Shopping Center is ------ new tenants to rent vacant retail space.",
+      "answerOptions": [
+        {
+          "text": "(A) seeking",
+          "isCorrect": true,
+          "rationale": "Động từ 'seeking' (tìm kiếm) phù hợp ngữ cảnh trung tâm thương mại tìm người thuê."
+        },
+        {
+          "text": "(B) growing",
+          "isCorrect": false,
+          "rationale": "Phát triển, không đi trực tiếp với tân ngữ 'tenants' trong nghĩa này."
+        },
+        {
+          "text": "(C) facing",
+          "isCorrect": false,
+          "rationale": "Đối mặt, không phù hợp nghĩa."
+        },
+        {
+          "text": "(D) relating",
+          "isCorrect": false,
+          "rationale": "Liên quan, thường đi với giới từ 'to'."
+        }
+      ],
+      "hint": "Seek + Object = Tìm kiếm cái gì/ai.",
+      "translation": "Trung tâm mua sắm Lofstrom đang tìm kiếm người thuê mới cho các không gian bán lẻ còn trống.",
+      "category": "word-form"
+    },
+    {
+      "id": 107,
+      "question": "The painter Marion Settimi developed ------ distinctive style during the years she lived in Indonesia.",
+      "answerOptions": [
+        {
+          "text": "(A) herself",
+          "isCorrect": false,
+          "rationale": "Đại từ phản thân, không đứng trước cụm danh từ làm sở hữu."
+        },
+        {
+          "text": "(B) hers",
+          "isCorrect": false,
+          "rationale": "Đại từ sở hữu, không đứng trước danh từ."
+        },
+        {
+          "text": "(C) her",
+          "isCorrect": true,
+          "rationale": "Tính từ sở hữu 'her' đứng trước cụm danh từ 'distinctive style' để chỉ sở hữu của chủ ngữ Marion Settimi."
+        },
+        {
+          "text": "(D) she",
+          "isCorrect": false,
+          "rationale": "Đại từ nhân xưng làm chủ ngữ, không đứng vị trí này."
+        }
+      ],
+      "hint": "Tính từ sở hữu + Adj + Noun.",
+      "translation": "Họa sĩ Marion Settimi đã phát triển phong cách đặc trưng của cô ấy trong những năm sống tại Indonesia.",
+      "category": "pronoun"
+    },
+    {
+      "id": 108,
+      "question": "The company picnic at Floral Park will begin at noon on Saturday and end ------ 4:00 P.M.",
+      "answerOptions": [
+        {
+          "text": "(A) around",
+          "isCorrect": true,
+          "rationale": "Giới từ 'around' (khoảng) phù hợp khi nói về mốc thời gian không tuyệt đối."
+        },
+        {
+          "text": "(B) until",
+          "isCorrect": false,
+          "rationale": "Thường dùng trong cấu trúc 'not... until' hoặc diễn tả một trạng thái kéo dài tới lúc nào đó, không dùng sau 'end'."
+        },
+        {
+          "text": "(C) outside",
+          "isCorrect": false,
+          "rationale": "Bên ngoài, không dùng cho mốc thời gian."
+        },
+        {
+          "text": "(D) within",
+          "isCorrect": false,
+          "rationale": "Trong vòng (khoảng thời gian), không đi với mốc giờ cụ thể 4:00 PM."
+        }
+      ],
+      "hint": "Around + time = Vào khoảng thời gian nào đó.",
+      "translation": "Buổi dã ngoại của công ty tại Floral Park sẽ bắt đầu vào trưa thứ Bảy và kết thúc vào khoảng 4 giờ chiều.",
+      "category": "preposition"
+    },
+    {
+      "id": 109,
+      "question": "Last Monday, the department ------ Mr. Okada's recent promotion to manager.",
+      "answerOptions": [
+        {
+          "text": "(A) will be celebrating",
+          "isCorrect": false,
+          "rationale": "Thì tương lai tiếp diễn, không phù hợp 'Last Monday'."
+        },
+        {
+          "text": "(B) celebrated",
+          "isCorrect": true,
+          "rationale": "Thì quá khứ đơn vì có trạng ngữ chỉ thời gian 'Last Monday'."
+        },
+        {
+          "text": "(C) is celebrating",
+          "isCorrect": false,
+          "rationale": "Thì hiện tại tiếp diễn, không phù hợp quá khứ."
+        },
+        {
+          "text": "(D) celebrates",
+          "isCorrect": false,
+          "rationale": "Thì hiện tại đơn, không phù hợp quá khứ."
+        }
+      ],
+      "hint": "Dấu hiệu 'Last Monday' -> Thì Quá khứ đơn (V-ed).",
+      "translation": "Thứ Hai tuần trước, phòng ban đã kỷ niệm việc ông Okada được thăng chức làm quản lý.",
+      "category": "grammar"
+    },
+    {
+      "id": 110,
+      "question": "Ms. Xuan's ------ for reducing the company's energy consumption is worth considering.",
+      "answerOptions": [
+        {
+          "text": "(A) revision",
+          "isCorrect": false,
+          "rationale": "Bản chỉnh sửa, không phù hợp nghĩa đề xuất giải pháp mới."
+        },
+        {
+          "text": "(B) attention",
+          "isCorrect": false,
+          "rationale": "Sự chú ý, không dùng cấu trúc 'attention for V-ing' trong ngữ cảnh này."
+        },
+        {
+          "text": "(C) meaning",
+          "isCorrect": false,
+          "rationale": "Ý nghĩa, không phù hợp ngữ cảnh."
+        },
+        {
+          "text": "(D) proposal",
+          "isCorrect": true,
+          "rationale": "Danh từ 'proposal' (đề xuất) phù hợp với mục đích đưa ra kế hoạch giảm tiêu thụ năng lượng."
+        }
+      ],
+      "hint": "Proposal for + N/V-ing (Đề xuất cho việc gì).",
+      "translation": "Đề xuất của cô Xuan nhằm giảm mức tiêu thụ năng lượng của công ty đáng được xem xét.",
+      "category": "word-form"
+    },
+    {
+      "id": 111,
+      "question": "Dr. Grayston ------ accepted the position of school superintendent.",
+      "answerOptions": [
+        {
+          "text": "(A) enthusiast",
+          "isCorrect": false,
+          "rationale": "Danh từ (người nhiệt tình), không đứng trước động từ để bổ nghĩa."
+        },
+        {
+          "text": "(B) enthusiastic",
+          "isCorrect": false,
+          "rationale": "Tính từ, không bổ nghĩa cho động từ 'accepted'."
+        },
+        {
+          "text": "(C) enthusiastically",
+          "isCorrect": true,
+          "rationale": "Trạng từ đứng trước động từ 'accepted' để mô tả cách thức thực hiện hành động."
+        },
+        {
+          "text": "(D) enthusiasm",
+          "isCorrect": false,
+          "rationale": "Danh từ, không phù hợp vị trí ngữ pháp này."
+        }
+      ],
+      "hint": "Trạng từ (Adv) đứng giữa S và V để bổ nghĩa cho V.",
+      "translation": "Tiến sĩ Grayston đã nhiệt tình chấp nhận vị trí giám đốc trường học.",
+      "category": "word-form"
+    },
+    {
+      "id": 112,
+      "question": "Austina Gallery is located at the northern end of Arch Street, ------ the Verdigris Bistro.",
+      "answerOptions": [
+        {
+          "text": "(A) opposite",
+          "isCorrect": true,
+          "rationale": "Giới từ 'opposite' (đối diện) chỉ vị trí tương quan giữa hai địa điểm."
+        },
+        {
+          "text": "(B) except",
+          "isCorrect": false,
+          "rationale": "Ngoại trừ, không phù hợp nghĩa chỉ vị trí."
+        },
+        {
+          "text": "(C) across",
+          "isCorrect": false,
+          "rationale": "Thường dùng 'across from', nếu dùng 'across' một mình thường mang nghĩa 'ngang qua'."
+        },
+        {
+          "text": "(D) plus",
+          "isCorrect": false,
+          "rationale": "Cộng thêm, không dùng chỉ vị trí."
+        }
+      ],
+      "hint": "Opposite + Noun (Đối diện với cái gì).",
+      "translation": "Phòng trưng bày Austina nằm ở đầu phía bắc của phố Arch, đối diện quán Verdigris Bistro.",
+      "category": "preposition"
+    },
+    {
+      "id": 113,
+      "question": "Mr. Garcia promised ------ a mentor to Ms. Winston after he retired.",
+      "answerOptions": [
+        {
+          "text": "(A) became",
+          "isCorrect": false,
+          "rationale": "Dạng quá khứ, không đứng sau động từ 'promise'."
+        },
+        {
+          "text": "(B) becoming",
+          "isCorrect": false,
+          "rationale": "V-ing không đi sau động từ 'promise'."
+        },
+        {
+          "text": "(C) to become",
+          "isCorrect": true,
+          "rationale": "Cấu trúc 'promise + to-V' (hứa làm gì)."
+        },
+        {
+          "text": "(D) had become",
+          "isCorrect": false,
+          "rationale": "Thì quá khứ hoàn thành, không phù hợp cấu trúc sau 'promise'."
+        }
+      ],
+      "hint": "Promise + to V (Hứa làm gì).",
+      "translation": "Ông Garcia hứa sẽ trở thành cố vấn cho cô Winston sau khi ông ấy nghỉ hưu.",
+      "category": "grammar"
+    },
+    {
+      "id": 114,
+      "question": "Once considered a specialty product, shoes made from recycled materials are now ------ available.",
+      "answerOptions": [
+        {
+          "text": "(A) upward",
+          "isCorrect": false,
+          "rationale": "Hướng lên, không dùng với 'available'."
+        },
+        {
+          "text": "(B) widely",
+          "isCorrect": true,
+          "rationale": "Cụm 'widely available' (có sẵn rộng rãi) là một kết hợp từ phổ biến."
+        },
+        {
+          "text": "(C) enough",
+          "isCorrect": false,
+          "rationale": "Đủ, thường đứng sau tính từ (available enough)."
+        },
+        {
+          "text": "(D) closely",
+          "isCorrect": false,
+          "rationale": "Chặt chẽ, không phù hợp nghĩa."
+        }
+      ],
+      "hint": "Widely available = Có sẵn ở khắp mọi nơi.",
+      "translation": "Từng được xem là sản phẩm chuyên biệt, giày làm từ vật liệu tái chế hiện nay đã được bán rộng rãi.",
+      "category": "word-form"
+    },
+    {
+      "id": 115,
+      "question": "Yuping University has formed ------ with local businesses to create internship opportunities for its students.",
+      "answerOptions": [
+        {
+          "text": "(A) partner",
+          "isCorrect": false,
+          "rationale": "Danh từ số ít, cần mạo từ nếu muốn dùng."
+        },
+        {
+          "text": "(B) partners",
+          "isCorrect": false,
+          "rationale": "Các đối tác, nhưng động từ 'form' thường đi với 'partnerships' (mối quan hệ hợp tác)."
+        },
+        {
+          "text": "(C) partnering",
+          "isCorrect": false,
+          "rationale": "Việc hợp tác (danh động từ), không phù hợp nhất sau 'form'."
+        },
+        {
+          "text": "(D) partnerships",
+          "isCorrect": true,
+          "rationale": "Cụm 'form partnerships' (thiết lập mối quan hệ hợp tác) là cụm từ cố định."
+        }
+      ],
+      "hint": "Form partnerships with = Thiết lập quan hệ đối tác với.",
+      "translation": "Đại học Yuping đã hình thành các mối quan hệ hợp tác với doanh nghiệp địa phương để tạo cơ hội thực tập cho sinh viên.",
+      "category": "word-form"
+    },
+    {
+      "id": 116,
+      "question": "Our market research shows that buyers with limited ------ of a product often look for information from expert sources.",
+      "answerOptions": [
+        {
+          "text": "(A) knowledge",
+          "isCorrect": true,
+          "rationale": "Cụm 'limited knowledge of' (kiến thức hạn chế về) phù hợp ngữ cảnh người mua tìm chuyên gia."
+        },
+        {
+          "text": "(B) approval",
+          "isCorrect": false,
+          "rationale": "Sự chấp thuận, không phù hợp nghĩa."
+        },
+        {
+          "text": "(C) perception",
+          "isCorrect": false,
+          "rationale": "Nhận thức/cảm nhận, không phổ biến bằng 'knowledge' trong trường hợp này."
+        },
+        {
+          "text": "(D) consideration",
+          "isCorrect": false,
+          "rationale": "Sự cân nhắc, không phù hợp nghĩa."
+        }
+      ],
+      "hint": "Knowledge of something = Kiến thức về cái gì.",
+      "translation": "Nghiên cứu thị trường của chúng tôi cho thấy những người mua có kiến thức hạn chế về sản phẩm thường tìm kiếm thông tin từ các nguồn chuyên gia.",
+      "category": "word-form"
+    },
+    {
+      "id": 117,
+      "question": "------ is preventing the graphic artists from accessing the image files in the main database.",
+      "answerOptions": [
+        {
+          "text": "(A) many",
+          "isCorrect": false,
+          "rationale": "Dùng cho số nhiều, trong khi động từ là 'is' (số ít)."
+        },
+        {
+          "text": "(B) other",
+          "isCorrect": false,
+          "rationale": "Tính từ, cần danh từ đi kèm."
+        },
+        {
+          "text": "(C) something",
+          "isCorrect": true,
+          "rationale": "Đại từ bất định 'something' làm chủ ngữ số ít, phù hợp với động từ 'is'."
+        },
+        {
+          "text": "(D) whoever",
+          "isCorrect": false,
+          "rationale": "Bất cứ ai, thường chỉ người, không phù hợp với việc ngăn truy cập tệp như một sự cố kỹ thuật."
+        }
+      ],
+      "hint": "Something (Đại từ bất định) + động từ số ít.",
+      "translation": "Một điều gì đó đang ngăn cản các họa sĩ đồ họa truy cập vào các tệp hình ảnh trong cơ sở dữ liệu chính.",
+      "category": "pronoun"
+    },
+    {
+      "id": 118,
+      "question": "------ a delay, Tihantch completed the renovation of its warehouse before the target date of April 7.",
+      "answerOptions": [
+        {
+          "text": "(A) although",
+          "isCorrect": false,
+          "rationale": "Liên từ, theo sau phải là một mệnh đề."
+        },
+        {
+          "text": "(B) despite",
+          "isCorrect": true,
+          "rationale": "Giới từ 'despite' (mặc dù) theo sau là cụm danh từ 'a delay' để chỉ sự tương phản."
+        },
+        {
+          "text": "(C) according to",
+          "isCorrect": false,
+          "rationale": "Theo như, không phù hợp nghĩa tương phản trong câu."
+        },
+        {
+          "text": "(D) however",
+          "isCorrect": false,
+          "rationale": "Trạng từ liên kết, thường đứng đầu câu và có dấu phẩy hoặc giữa hai mệnh đề."
+        }
+      ],
+      "hint": "Despite + Noun/V-ing (Mặc dù...).",
+      "translation": "Mặc dù có sự trì hoãn, Tihantch vẫn hoàn thành việc cải tạo kho trước ngày mục tiêu là ngày 7 tháng 4.",
+      "category": "grammar"
+    },
+    {
+      "id": 119,
+      "question": "While its credit card system is offline, the Lexler Department Store is ------ closed for business.",
+      "answerOptions": [
+        {
+          "text": "(A) effect",
+          "isCorrect": false,
+          "rationale": "Danh từ hoặc động từ, không đứng vị trí này."
+        },
+        {
+          "text": "(B) effecting",
+          "isCorrect": false,
+          "rationale": "V-ing, không phù hợp ngữ pháp."
+        },
+        {
+          "text": "(C) effective",
+          "isCorrect": false,
+          "rationale": "Tính từ, không bổ nghĩa cho tính từ/phân từ 'closed'."
+        },
+        {
+          "text": "(D) effectively",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'effectively' ở đây mang nghĩa 'thực tế là/coi như là' đã đóng cửa."
+        }
+      ],
+      "hint": "Effectively = Thực tế là (dùng để nhấn mạnh một tình trạng).",
+      "translation": "Trong khi hệ thống thẻ tín dụng bị ngừng hoạt động, cửa hàng bách hóa Lexler trên thực tế đang đóng cửa kinh doanh.",
+      "category": "word-form"
+    },
+    {
+      "id": 120,
+      "question": "Nearly half of the toy manufacturers surveyed reported increased sales ------ the last two years.",
+      "answerOptions": [
+        {
+          "text": "(A) onto",
+          "isCorrect": false,
+          "rationale": "Lên trên, không chỉ thời gian."
+        },
+        {
+          "text": "(B) under",
+          "isCorrect": false,
+          "rationale": "Dưới, không phù hợp nghĩa."
+        },
+        {
+          "text": "(C) against",
+          "isCorrect": false,
+          "rationale": "Chống lại, không phù hợp nghĩa."
+        },
+        {
+          "text": "(D) over",
+          "isCorrect": true,
+          "rationale": "Giới từ 'over' dùng để chỉ một khoảng thời gian kéo dài (trong suốt...)."
+        }
+      ],
+      "hint": "Over + khoảng thời gian = Trong suốt khoảng thời gian đó.",
+      "translation": "Gần một nửa số nhà sản xuất đồ chơi được khảo sát đã báo cáo doanh số tăng trong suốt hai năm qua.",
+      "category": "preposition"
+    },
+    {
+      "id": 121,
+      "question": "Nonprofit groups ------ up to three applications for funding consideration during any given calendar year.",
+      "answerOptions": [
+        {
+          "text": "(A) be submitted",
+          "isCorrect": false,
+          "rationale": "Thiếu động từ khiếm khuyết hoặc trợ động từ để tạo câu bị động đúng."
+        },
+        {
+          "text": "(B) submitting",
+          "isCorrect": false,
+          "rationale": "Dạng V-ing không thể làm động từ chính duy nhất trong câu."
+        },
+        {
+          "text": "(C) submits",
+          "isCorrect": false,
+          "rationale": "Chủ ngữ 'groups' là số nhiều, động từ phải là 'submit'."
+        },
+        {
+          "text": "(D) may submit",
+          "isCorrect": true,
+          "rationale": "Động từ khiếm khuyết 'may' + V-bare phù hợp ngữ pháp và nghĩa (có thể/được phép nộp)."
+        }
+      ],
+      "hint": "Modal verb + V-bare.",
+      "translation": "Các nhóm phi lợi nhuận có thể nộp tối đa ba đơn xin xét duyệt cấp kinh phí trong bất kỳ năm dương lịch nào.",
+      "category": "word-form"
+    },
+    {
+      "id": 122,
+      "question": "Critics reacted ------ to the new musical, praising the exciting design and impressive choreography.",
+      "answerOptions": [
+        {
+          "text": "(A) intentionally",
+          "isCorrect": false,
+          "rationale": "Cố ý, không phù hợp ngữ cảnh nhận xét nghệ thuật."
+        },
+        {
+          "text": "(B) favorably",
+          "isCorrect": true,
+          "rationale": "Trạng từ 'favorably' (một cách tích cực/thuận lợi) phù hợp với hành động 'praising' (khen ngợi) ở vế sau."
+        },
+        {
+          "text": "(C) uncertainly",
+          "isCorrect": false,
+          "rationale": "Một cách không chắc chắn, mâu thuẫn với việc khen ngợi."
+        },
+        {
+          "text": "(D) continuously",
+          "isCorrect": false,
+          "rationale": "Liên tục, không phù hợp ngữ cảnh phản ứng với một tác phẩm."
+        }
+      ],
+      "hint": "React favorably to = Phản ứng một cách tích cực với cái gì.",
+      "translation": "Các nhà phê bình đã phản ứng tích cực với vở nhạc kịch mới, khen ngợi thiết kế sôi động và vũ đạo ấn tượng.",
+      "category": "word-form"
+    },
+    {
+      "id": 123,
+      "question": "Clausen's Notes is well-known ------ writers and publishers for its in-depth reviews of books.",
+      "answerOptions": [
+        {
+          "text": "(A) owed to",
+          "isCorrect": false,
+          "rationale": "Nhờ vào, không đi sau 'well-known' để chỉ đối tượng biết đến."
+        },
+        {
+          "text": "(B) because",
+          "isCorrect": false,
+          "rationale": "Bởi vì (liên từ), cần mệnh đề."
+        },
+        {
+          "text": "(C) among",
+          "isCorrect": true,
+          "rationale": "Giới từ 'among' (trong số/giữa) dùng để chỉ một nhóm đối tượng mà chủ thể nổi tiếng đối với họ."
+        },
+        {
+          "text": "(D) in between",
+          "isCorrect": false,
+          "rationale": "Ở giữa (hai đối tượng cụ thể), không phù hợp số nhiều chung chung."
+        }
+      ],
+      "hint": "Well-known among + group of people (Nổi tiếng trong giới/số...).",
+      "translation": "Clausen's Notes nổi tiếng trong giới nhà văn và nhà xuất bản vì những bài đánh giá sách chuyên sâu.",
+      "category": "preposition"
+    },
+    {
+      "id": 124,
+      "question": "The ongoing shortage of hardwood has caused the price of certain furniture items to ------.",
+      "answerOptions": [
+        {
+          "text": "(A) drain",
+          "isCorrect": false,
+          "rationale": "Cạn kiệt, không dùng cho giá cả (price)."
+        },
+        {
+          "text": "(B) loop",
+          "isCorrect": false,
+          "rationale": "Lặp lại theo vòng, không phù hợp."
+        },
+        {
+          "text": "(C) soar",
+          "isCorrect": true,
+          "rationale": "Động từ 'soar' (tăng vọt) dùng để miêu tả giá cả tăng mạnh do khan hiếm hàng hóa."
+        },
+        {
+          "text": "(D) fling",
+          "isCorrect": false,
+          "rationale": "Quăng/ném, không phù hợp nghĩa."
+        }
+      ],
+      "hint": "Cause something to soar = Khiến cái gì đó tăng vọt.",
+      "translation": "Tình trạng thiếu hụt gỗ cứng đang diễn ra đã khiến giá của một số mặt hàng nội thất tăng vọt.",
+      "category": "word-form"
+    },
+    {
+      "id": 125,
+      "question": "Attach the ------ tray to any flat steel surface for easy storage of and access to household or automotive tools.",
+      "answerOptions": [
+        {
+          "text": "(A) magnetic",
+          "isCorrect": true,
+          "rationale": "Tính từ 'magnetic' (có từ tính) bổ nghĩa cho 'tray' để chỉ loại khay có thể dính vào bề mặt thép."
+        },
+        {
+          "text": "(B) magnetize",
+          "isCorrect": false,
+          "rationale": "Động từ, không đứng trước danh từ làm tính từ."
+        },
+        {
+          "text": "(C) magnets",
+          "isCorrect": false,
+          "rationale": "Danh từ số nhiều (nam châm), không phù hợp vị trí bổ nghĩa cho 'tray'."
+        },
+        {
+          "text": "(D) magnetically",
+          "isCorrect": false,
+          "rationale": "Trạng từ, không bổ nghĩa cho danh từ 'tray'."
+        }
+      ],
+      "hint": "Tính từ + Danh từ.",
+      "translation": "Gắn khay có từ tính vào bất kỳ bề mặt thép phẳng nào để dễ dàng cất giữ và lấy các dụng cụ gia đình hoặc ô tô.",
+      "category": "word-form"
+    },
+    {
+      "id": 126,
+      "question": "The customer ------ to buy an extended warranty on the dishwasher, so it is not eligible for a free repair.",
+      "answerOptions": [
+        {
+          "text": "(A) rejected",
+          "isCorrect": false,
+          "rationale": "Từ chối, thường dùng với tân ngữ trực tiếp (rejected the offer), không dùng 'reject to do sth'."
+        },
+        {
+          "text": "(B) neglected",
+          "isCorrect": true,
+          "rationale": "Động từ 'neglected' trong cấu trúc 'neglect to do sth' nghĩa là không làm/xao nhãng việc gì đó cần làm."
+        },
+        {
+          "text": "(C) omitted",
+          "isCorrect": false,
+          "rationale": "Bỏ sót/lược bỏ, thường dùng cho văn bản hoặc danh sách."
+        },
+        {
+          "text": "(D) dismissed",
+          "isCorrect": false,
+          "rationale": "Gạt bỏ/sa thải, không phù hợp nghĩa."
+        }
+      ],
+      "hint": "Neglect to do something = Không làm/quên làm việc gì đó.",
+      "translation": "Khách hàng đã không mua gói bảo hành mở rộng cho máy rửa bát, vì vậy nó không đủ điều kiện được sửa chữa miễn phí.",
+      "category": "word-form"
+    },
+    {
+      "id": 127,
+      "question": "Although much of the material was technical in nature, the audience appeared to remain ------ throughout Ms. Sharma's presentation.",
+      "answerOptions": [
+        {
+          "text": "(A) engage",
+          "isCorrect": false,
+          "rationale": "Động từ nguyên mẫu, không đứng sau động từ nối 'remain'."
+        },
+        {
+          "text": "(B) engaged",
+          "isCorrect": true,
+          "rationale": "Tính từ 'engaged' (tập trung/biên cuốn hút) đi sau động từ nối 'remain' để chỉ trạng thái của khán giả."
+        },
+        {
+          "text": "(C) engagingly",
+          "isCorrect": false,
+          "rationale": "Trạng từ, không đi sau động từ nối để mô tả tính chất chủ ngữ."
+        },
+        {
+          "text": "(D) engagement",
+          "isCorrect": false,
+          "rationale": "Danh từ, không phù hợp nghĩa mô tả trạng thái ở đây."
+        }
+      ],
+      "hint": "Remain + Adjective (Giữ trạng thái như thế nào).",
+      "translation": "Mặc dù phần lớn tài liệu mang tính kỹ thuật, khán giả dường như vẫn rất tập trung trong suốt bài thuyết trình của bà Sharma.",
+      "category": "word-form"
+    },
+    {
+      "id": 128,
+      "question": "------ fresh fruit and vegetables, vendors at the Wattville Farm Market also sell various handmade goods.",
+      "answerOptions": [
+        {
+          "text": "(A) Compared with",
+          "isCorrect": false,
+          "rationale": "So sánh với, không phù hợp với từ 'also' (cũng) ở vế sau."
+        },
+        {
+          "text": "(B) In addition to",
+          "isCorrect": true,
+          "rationale": "Cụm 'In addition to' (Ngoài... ra) dùng để bổ sung thông tin: ngoài rau quả, họ còn bán đồ thủ công."
+        },
+        {
+          "text": "(C) Rather than",
+          "isCorrect": false,
+          "rationale": "Thay vì, mâu thuẫn với từ 'also'."
+        },
+        {
+          "text": "(D) As a result of",
+          "isCorrect": false,
+          "rationale": "Kết quả của, không phù hợp logic câu."
+        }
+      ],
+      "hint": "In addition to + Noun = Ngoài cái gì đó ra (thì còn cái khác).",
+      "translation": "Ngoài trái cây và rau củ tươi, các người bán tại Chợ nông sản Wattville còn bán nhiều mặt hàng thủ công khác nhau.",
+      "category": "preposition"
+    },
+    {
+      "id": 129,
+      "question": "------ route they choose, it should take the management team approximately four hours to drive to the hotel in Antibes.",
+      "answerOptions": [
+        {
+          "text": "(A) what",
+          "isCorrect": false,
+          "rationale": "Không dùng để chỉ sự lựa chọn trong số các phương án không xác định như 'whichever'."
+        },
+        {
+          "text": "(B) some",
+          "isCorrect": false,
+          "rationale": "Một vài, không tạo thành cấu trúc nhượng bộ phù hợp ở đầu câu."
+        },
+        {
+          "text": "(C) somewhere",
+          "isCorrect": false,
+          "rationale": "Một nơi nào đó, là trạng từ, không đi trực tiếp trước danh từ 'route'."
+        },
+        {
+          "text": "(D) whichever",
+          "isCorrect": true,
+          "rationale": "Đại từ quan hệ 'whichever' (bất kỳ... nào) đi với danh từ 'route' tạo mệnh đề nhượng bộ: Dù chọn bất kỳ tuyến đường nào."
+        }
+      ],
+      "hint": "Whichever + Noun + S + V = Cho dù là bất cứ cái nào.",
+      "translation": "Dù họ chọn bất kỳ tuyến đường nào, đội ngũ quản lý cũng sẽ mất khoảng bốn giờ để lái xe đến khách sạn ở Antibes.",
+      "category": "pronoun"
+    },
+    {
+      "id": 130,
+      "question": "All Baranacke Ltd. hand tools undergo ------ inspections to ensure they are free of defects.",
+      "answerOptions": [
+        {
+          "text": "(A) rigorous",
+          "isCorrect": true,
+          "rationale": "Tính từ 'rigorous' (nghiêm ngặt/kỹ lưỡng) thường đi kèm với 'inspections' (kiểm tra) để chỉ quy trình kiểm soát chất lượng."
+        },
+        {
+          "text": "(B) negotiated",
+          "isCorrect": false,
+          "rationale": "Đã thương lượng, không dùng cho quy trình kiểm tra lỗi sản phẩm."
+        },
+        {
+          "text": "(C) returnable",
+          "isCorrect": false,
+          "rationale": "Có thể trả lại, không phù hợp nghĩa bổ nghĩa cho việc kiểm tra."
+        },
+        {
+          "text": "(D) portable",
+          "isCorrect": false,
+          "rationale": "Có thể mang theo, không phù hợp nghĩa."
+        }
+      ],
+      "hint": "Rigorous inspection = Sự kiểm tra nghiêm ngặt/chặt chẽ.",
+      "translation": "Tất cả các dụng cụ cầm tay của công ty Baranacke Ltd. đều trải qua các đợt kiểm tra nghiêm ngặt để đảm bảo chúng không có lỗi.",
+      "category": "word-form"
+    }
+  ],
+  "title": "TOEIC Part 5 - ETS 2026 Test 9 (Questions 101-130)"
+}
