@@ -1,0 +1,837 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 15",
+  "questions": [
+  {
+    "question": "Trong báo cáo đồ án, khi giảng viên yêu cầu thêm phần 'software references /ˈsɔːftˌwer ˈrefərənsɪz/', điều này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Liệt kê tài liệu tham khảo liên quan đến phần mềm đã sử dụng",
+        "isCorrect": true,
+        "rationale": "Software references là phần ghi rõ phần mềm, phiên bản, nhà phát triển và nguồn tham khảo chính thức."
+      },
+      {
+        "text": "Chỉ ghi tên thành viên trong nhóm",
+        "isCorrect": false,
+        "rationale": "Đây là thông tin nhân sự, không phải tài liệu tham khảo phần mềm."
+      },
+      {
+        "text": "Mô tả lỗi phần mềm",
+        "isCorrect": false,
+        "rationale": "Đây thuộc phần testing hoặc bug report."
+      },
+      {
+        "text": "Danh sách khách hàng sử dụng phần mềm",
+        "isCorrect": false,
+        "rationale": "Không liên quan đến software references."
+      }
+    ],
+    "hint": "Hãy nghĩ đến phần tài liệu tham khảo cuối báo cáo."
+  },
+  {
+    "question": "Nếu ai đó nói họ mua áo ở 'department store /dɪˈpɑːrtmənt stɔːr/', nơi đó là gì?",
+    "answerOptions": [
+      {
+        "text": "Cửa hàng bách hóa lớn",
+        "isCorrect": true,
+        "rationale": "Department store là nơi bán nhiều loại hàng hóa khác nhau theo từng khu riêng."
+      },
+      {
+        "text": "Nhà ga xe lửa",
+        "isCorrect": false,
+        "rationale": "Không liên quan đến mua sắm."
+      },
+      {
+        "text": "Cửa hàng tiện lợi nhỏ",
+        "isCorrect": false,
+        "rationale": "Đó là convenience store."
+      },
+      {
+        "text": "Nhà máy sản xuất",
+        "isCorrect": false,
+        "rationale": "Không phải nơi bán lẻ."
+      }
+    ],
+    "hint": "Nơi này thường có nhiều tầng và nhiều khu hàng khác nhau."
+  },
+  {
+    "question": "Câu 'He lacks /læks/ experience' diễn tả điều gì?",
+    "answerOptions": [
+      {
+        "text": "Anh ấy thiếu kinh nghiệm",
+        "isCorrect": true,
+        "rationale": "Lack nghĩa là thiếu."
+      },
+      {
+        "text": "Anh ấy được thăng chức",
+        "isCorrect": false,
+        "rationale": "Không liên quan đến experience."
+      },
+      {
+        "text": "Anh ấy làm việc rất nhanh",
+        "isCorrect": false,
+        "rationale": "Không phản ánh nghĩa của lacks."
+      },
+      {
+        "text": "Anh ấy đã nghỉ việc",
+        "isCorrect": false,
+        "rationale": "Không đúng ngữ nghĩa."
+      }
+    ],
+    "hint": "Từ khóa là 'lacks'."
+  },
+  {
+    "question": "Khách sạn có 'proximity /prɑːkˈsɪmɪti/ to the airport' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Khách sạn ở gần sân bay",
+        "isCorrect": true,
+        "rationale": "Proximity nghĩa là sự gần gũi hoặc khoảng cách gần."
+      },
+      {
+        "text": "Khách sạn rất đắt",
+        "isCorrect": false,
+        "rationale": "Không liên quan đến vị trí."
+      },
+      {
+        "text": "Khách sạn mới xây",
+        "isCorrect": false,
+        "rationale": "Không đúng nghĩa."
+      },
+      {
+        "text": "Khách sạn có hồ bơi",
+        "isCorrect": false,
+        "rationale": "Không liên quan đến proximity."
+      }
+    ],
+    "hint": "Hãy nghĩ đến vị trí địa lý."
+  },
+  {
+    "question": "Một 'company outing /ˈaʊtɪŋ/' thường là hoạt động gì?",
+    "answerOptions": [
+      {
+        "text": "Chuyến đi dã ngoại của công ty",
+        "isCorrect": true,
+        "rationale": "Company outing là hoạt động team building hoặc nghỉ ngơi cho nhân viên."
+      },
+      {
+        "text": "Cuộc họp sa thải nhân viên",
+        "isCorrect": false,
+        "rationale": "Không mang ý nghĩa tiêu cực như vậy."
+      },
+      {
+        "text": "Buổi kiểm tra nội bộ",
+        "isCorrect": false,
+        "rationale": "Không đúng ngữ cảnh outing."
+      },
+      {
+        "text": "Lễ tuyển dụng",
+        "isCorrect": false,
+        "rationale": "Không phải outing."
+      }
+    ],
+    "hint": "Thường diễn ra ngoài văn phòng."
+  },
+  {
+    "question": "Khi phòng HR 'manage payroll /ˈpeɪroʊl/', họ đang làm gì?",
+    "answerOptions": [
+      {
+        "text": "Quản lý bảng lương nhân viên",
+        "isCorrect": true,
+        "rationale": "Payroll liên quan đến tính lương, thưởng, thuế và thanh toán lương."
+      },
+      {
+        "text": "Thiết kế logo công ty",
+        "isCorrect": false,
+        "rationale": "Không thuộc nhân sự."
+      },
+      {
+        "text": "Tổ chức du lịch",
+        "isCorrect": false,
+        "rationale": "Không phải payroll."
+      },
+      {
+        "text": "Mua thiết bị văn phòng",
+        "isCorrect": false,
+        "rationale": "Không liên quan đến lương."
+      }
+    ],
+    "hint": "Liên quan đến salary."
+  },
+  {
+    "question": "Trong kinh doanh, 'labor costs /ˈleɪbər kɔːsts/' thường nói về gì?",
+    "answerOptions": [
+      {
+        "text": "Chi phí nhân công",
+        "isCorrect": true,
+        "rationale": "Labor thường nghĩa là lao động hoặc nhân công."
+      },
+      {
+        "text": "Chi phí quảng cáo",
+        "isCorrect": false,
+        "rationale": "Không liên quan đến labor."
+      },
+      {
+        "text": "Chi phí điện nước",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Chi phí vận chuyển",
+        "isCorrect": false,
+        "rationale": "Không phải labor."
+      }
+    ],
+    "hint": "Liên quan đến người lao động."
+  },
+  {
+    "question": "Một 'landscaping /ˈlændˌskeɪpɪŋ/ company' chuyên làm gì?",
+    "answerOptions": [
+      {
+        "text": "Thiết kế và chăm sóc cảnh quan sân vườn",
+        "isCorrect": true,
+        "rationale": "Landscaping company làm sân vườn, cây xanh và cảnh quan."
+      },
+      {
+        "text": "Dạy ngoại ngữ",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      },
+      {
+        "text": "Sửa máy tính",
+        "isCorrect": false,
+        "rationale": "Không đúng lĩnh vực."
+      },
+      {
+        "text": "Xuất bản sách",
+        "isCorrect": false,
+        "rationale": "Không phải landscaping."
+      }
+    ],
+    "hint": "Liên quan đến garden và lawn."
+  },
+  {
+    "question": "Một công ty tham gia 'trade show /treɪd ʃoʊ/' để làm gì?",
+    "answerOptions": [
+      {
+        "text": "Giới thiệu sản phẩm và tìm cơ hội kinh doanh",
+        "isCorrect": true,
+        "rationale": "Trade show là hội chợ thương mại để quảng bá và kết nối đối tác."
+      },
+      {
+        "text": "Thi đấu thể thao",
+        "isCorrect": false,
+        "rationale": "Không phải sự kiện thể thao."
+      },
+      {
+        "text": "Đăng ký kết hôn",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      },
+      {
+        "text": "Nộp hồ sơ visa",
+        "isCorrect": false,
+        "rationale": "Không đúng ngữ cảnh."
+      }
+    ],
+    "hint": "Hãy nghĩ đến expo hoặc exhibition."
+  },
+  {
+    "question": "Trong bài luận, 'counterargument /ˈkaʊntərˌɑːrɡjumənt/' là gì?",
+    "answerOptions": [
+      {
+        "text": "Lập luận phản biện",
+        "isCorrect": true,
+        "rationale": "Counterargument là ý kiến dùng để phản bác lập luận trước đó."
+      },
+      {
+        "text": "Tiêu đề bài viết",
+        "isCorrect": false,
+        "rationale": "Không đúng chức năng."
+      },
+      {
+        "text": "Ví dụ minh họa",
+        "isCorrect": false,
+        "rationale": "Không phải phản biện."
+      },
+      {
+        "text": "Lời kết luận",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      }
+    ],
+    "hint": "Counter = đối lại."
+  },
+  {
+    "question": "Nếu bạn đi bằng 'ferry /ˈferi/' ra đảo, bạn đang đi bằng gì?",
+    "answerOptions": [
+      {
+        "text": "Phà",
+        "isCorrect": true,
+        "rationale": "Ferry là phương tiện chở người và xe qua sông hoặc biển ngắn."
+      },
+      {
+        "text": "Máy bay",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Xe buýt",
+        "isCorrect": false,
+        "rationale": "Không phải ferry."
+      },
+      {
+        "text": "Tàu điện ngầm",
+        "isCorrect": false,
+        "rationale": "Không đúng phương tiện."
+      }
+    ],
+    "hint": "Phương tiện đường thủy."
+  },
+  {
+    "question": "Từ 'regulation /ˌreɡjəˈleɪʃən/' trong kinh doanh thường mang nghĩa gì?",
+    "answerOptions": [
+      {
+        "text": "Quy định, luật lệ",
+        "isCorrect": true,
+        "rationale": "Regulation thường nói về các quy định cần tuân thủ."
+      },
+      {
+        "text": "Tiền thưởng",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      },
+      {
+        "text": "Cuộc họp",
+        "isCorrect": false,
+        "rationale": "Không đúng nghĩa."
+      },
+      {
+        "text": "Hợp đồng thuê",
+        "isCorrect": false,
+        "rationale": "Không phải regulation."
+      }
+    ],
+    "hint": "Companies must follow these."
+  },
+  {
+    "question": "Một 'journalist /ˈdʒɜːrnəlɪst/' là ai?",
+    "answerOptions": [
+      {
+        "text": "Nhà báo hoặc phóng viên",
+        "isCorrect": true,
+        "rationale": "Journalist là người thu thập và đưa tin tức."
+      },
+      {
+        "text": "Bác sĩ",
+        "isCorrect": false,
+        "rationale": "Không đúng ngành nghề."
+      },
+      {
+        "text": "Luật sư",
+        "isCorrect": false,
+        "rationale": "Không phải journalist."
+      },
+      {
+        "text": "Đầu bếp",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      }
+    ],
+    "hint": "Người làm việc với news."
+  },
+  {
+    "question": "Trong câu 'The police arrested the main suspect /ˈsʌspekt/', suspect là gì?",
+    "answerOptions": [
+      {
+        "text": "Nghi phạm",
+        "isCorrect": true,
+        "rationale": "Suspect là người bị nghi ngờ liên quan đến vụ việc."
+      },
+      {
+        "text": "Nhân chứng",
+        "isCorrect": false,
+        "rationale": "Witness mới là nhân chứng."
+      },
+      {
+        "text": "Luật sư",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Thẩm phán",
+        "isCorrect": false,
+        "rationale": "Không phải suspect."
+      }
+    ],
+    "hint": "Người bị cảnh sát nghi ngờ."
+  },
+  {
+    "question": "Nếu giáo viên đang 'evaluating /ɪˈvæljueɪtɪŋ/ students', họ đang làm gì?",
+    "answerOptions": [
+      {
+        "text": "Đánh giá học sinh",
+        "isCorrect": true,
+        "rationale": "Evaluating là hành động đánh giá."
+      },
+      {
+        "text": "Phạt học sinh",
+        "isCorrect": false,
+        "rationale": "Không nhất thiết là phạt."
+      },
+      {
+        "text": "Cho nghỉ học",
+        "isCorrect": false,
+        "rationale": "Không đúng nghĩa."
+      },
+      {
+        "text": "Chuyển lớp",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      }
+    ],
+    "hint": "Liên quan đến assessment."
+  },
+  {
+    "question": "Nếu ai đó 'was instrumental /ˌɪnstrəˈmentəl/ in the project success', điều đó nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Người đó đóng vai trò rất quan trọng",
+        "isCorrect": true,
+        "rationale": "Instrumental thường mang nghĩa then chốt, quyết định."
+      },
+      {
+        "text": "Người đó chơi nhạc trong dự án",
+        "isCorrect": false,
+        "rationale": "Đây là nghĩa khác của instrumental."
+      },
+      {
+        "text": "Người đó nghỉ việc",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Người đó chỉ quan sát",
+        "isCorrect": false,
+        "rationale": "Không phản ánh vai trò quan trọng."
+      }
+    ],
+    "hint": "Gần nghĩa với crucial."
+  },
+  {
+    "question": "Trong cửa hàng quần áo, 'mannequin /ˈmænɪkɪn/' là gì?",
+    "answerOptions": [
+      {
+        "text": "Ma-nơ-canh trưng bày quần áo",
+        "isCorrect": true,
+        "rationale": "Mannequin là hình người giả dùng để trưng bày sản phẩm."
+      },
+      {
+        "text": "Máy tính tiền",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Nhân viên bán hàng",
+        "isCorrect": false,
+        "rationale": "Không phải mannequin."
+      },
+      {
+        "text": "Giỏ mua hàng",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      }
+    ],
+    "hint": "Thường đứng trong cửa kính shop."
+  },
+  {
+    "question": "Từ 'excessive /ɪkˈsesɪv/ spending' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Chi tiêu quá mức",
+        "isCorrect": true,
+        "rationale": "Excessive nghĩa là vượt quá mức hợp lý."
+      },
+      {
+        "text": "Tiết kiệm tiền",
+        "isCorrect": false,
+        "rationale": "Trái nghĩa."
+      },
+      {
+        "text": "Mua hàng trả góp",
+        "isCorrect": false,
+        "rationale": "Không đúng nghĩa."
+      },
+      {
+        "text": "Đầu tư dài hạn",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      }
+    ],
+    "hint": "Too much."
+  },
+  {
+    "question": "Trong chợ thực phẩm, 'fresh produce /ˈproʊduːs/' thường chỉ gì?",
+    "answerOptions": [
+      {
+        "text": "Nông sản tươi",
+        "isCorrect": true,
+        "rationale": "Produce ở dạng danh từ thường chỉ rau củ, trái cây và nông sản."
+      },
+      {
+        "text": "Máy móc mới",
+        "isCorrect": false,
+        "rationale": "Không đúng ngữ cảnh."
+      },
+      {
+        "text": "Đồ điện tử",
+        "isCorrect": false,
+        "rationale": "Không phải produce."
+      },
+      {
+        "text": "Tài liệu mới",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      }
+    ],
+    "hint": "Bạn thường thấy ở siêu thị thực phẩm."
+  },
+  {
+    "question": "Cấu trúc đúng tự nhiên hơn với động từ 'supply /səˈplaɪ/' là gì?",
+    "answerOptions": [
+      {
+        "text": "supply supermarkets with fresh produce",
+        "isCorrect": true,
+        "rationale": "Supply + someone/place + with + something là cấu trúc chuẩn."
+      },
+      {
+        "text": "supply on produce",
+        "isCorrect": false,
+        "rationale": "Cấu trúc này không tự nhiên trong tiếng Anh."
+      },
+      {
+        "text": "supply under produce",
+        "isCorrect": false,
+        "rationale": "Không dùng như vậy."
+      },
+      {
+        "text": "supply by produce",
+        "isCorrect": false,
+        "rationale": "Không đúng cấu trúc."
+      }
+    ],
+    "hint": "Hãy nhớ giới từ phổ biến sau supply."
+  },
+  {
+    "question": "'Passport application /ˌæplɪˈkeɪʃən/' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đơn xin cấp hộ chiếu",
+        "isCorrect": true,
+        "rationale": "Passport application là hồ sơ hoặc quá trình xin hộ chiếu."
+      },
+      {
+        "text": "Hộ chiếu hết hạn",
+        "isCorrect": false,
+        "rationale": "Đó là expired passport."
+      },
+      {
+        "text": "Vé máy bay quốc tế",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      },
+      {
+        "text": "Visa du lịch",
+        "isCorrect": false,
+        "rationale": "Khác với passport."
+      }
+    ],
+    "hint": "Application = đơn xin."
+  },
+  {
+    "question": "Trong phim ảnh, 'sequel /ˈsiːkwəl/' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Phần tiếp theo",
+        "isCorrect": true,
+        "rationale": "Sequel là phần sau của một bộ phim, sách hoặc game."
+      },
+      {
+        "text": "Phần giới thiệu",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Đoạn quảng cáo",
+        "isCorrect": false,
+        "rationale": "Không phải sequel."
+      },
+      {
+        "text": "Phần kết thúc",
+        "isCorrect": false,
+        "rationale": "Không chính xác."
+      }
+    ],
+    "hint": "Movie part 2."
+  },
+  {
+    "question": "'Legislation /ˌledʒɪˈsleɪʃən/' thường nói về điều gì?",
+    "answerOptions": [
+      {
+        "text": "Luật pháp và việc ban hành luật",
+        "isCorrect": true,
+        "rationale": "Legislation liên quan đến hệ thống luật và quá trình lập pháp."
+      },
+      {
+        "text": "Tiền lương",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Trang trí nội thất",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      },
+      {
+        "text": "Lịch trình du lịch",
+        "isCorrect": false,
+        "rationale": "Không phải legislation."
+      }
+    ],
+    "hint": "Liên quan đến legal system."
+  },
+  {
+    "question": "'Landlord /ˈlændlɔːrd/' là ai?",
+    "answerOptions": [
+      {
+        "text": "Chủ nhà cho thuê",
+        "isCorrect": true,
+        "rationale": "Landlord là người sở hữu nhà hoặc đất và cho người khác thuê."
+      },
+      {
+        "text": "Người thuê nhà",
+        "isCorrect": false,
+        "rationale": "Đó là tenant."
+      },
+      {
+        "text": "Môi giới bất động sản",
+        "isCorrect": false,
+        "rationale": "Không hẳn là landlord."
+      },
+      {
+        "text": "Người giao hàng",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      }
+    ],
+    "hint": "Ngược với tenant."
+  },
+  {
+    "question": "'Suburbs /ˈsʌbɜːrbz/' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Vùng ngoại ô",
+        "isCorrect": true,
+        "rationale": "Suburbs là khu dân cư ngoài trung tâm thành phố."
+      },
+      {
+        "text": "Trung tâm tài chính",
+        "isCorrect": false,
+        "rationale": "Đó gần nghĩa downtown."
+      },
+      {
+        "text": "Khu công nghiệp",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Nông trại",
+        "isCorrect": false,
+        "rationale": "Không hoàn toàn giống countryside."
+      }
+    ],
+    "hint": "Nơi nhiều gia đình thích sống."
+  },
+  {
+    "question": "'Accompany /əˈkʌmpəni/ someone to the hospital' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đi cùng ai đó đến bệnh viện",
+        "isCorrect": true,
+        "rationale": "Accompany nghĩa là đi cùng hoặc tháp tùng."
+      },
+      {
+        "text": "Lái xe cứu thương",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Gọi điện cho bệnh viện",
+        "isCorrect": false,
+        "rationale": "Không phải accompany."
+      },
+      {
+        "text": "Thanh toán viện phí",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      }
+    ],
+    "hint": "Go with."
+  },
+  {
+    "question": "'Institute /ˈɪnstɪtuːt/' thường có nghĩa phổ biến nhất là gì?",
+    "answerOptions": [
+      {
+        "text": "Viện hoặc học viện",
+        "isCorrect": true,
+        "rationale": "Institute thường dùng cho viện nghiên cứu hoặc học viện."
+      },
+      {
+        "text": "Siêu thị",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Khách sạn",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      },
+      {
+        "text": "Công viên",
+        "isCorrect": false,
+        "rationale": "Không phải institute."
+      }
+    ],
+    "hint": "Ví dụ: MIT."
+  },
+  {
+    "question": "'Downtown /ˈdaʊntaʊn/' thường thiên về khu vực nào?",
+    "answerOptions": [
+      {
+        "text": "Khu trung tâm thương mại sầm uất",
+        "isCorrect": true,
+        "rationale": "Downtown thường chỉ khu trung tâm văn phòng, mua sắm và tài chính."
+      },
+      {
+        "text": "Khu ngoại ô yên tĩnh",
+        "isCorrect": false,
+        "rationale": "Đó là suburbs."
+      },
+      {
+        "text": "Khu nông thôn",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Khu công viên",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      }
+    ],
+    "hint": "American English dùng nhiều."
+  },
+  {
+    "question": "'Critically acclaimed /ˈkrɪtɪkli əˈkleɪmd/ chef' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đầu bếp được giới phê bình đánh giá cao",
+        "isCorrect": true,
+        "rationale": "Critically acclaimed nhấn mạnh sự công nhận từ chuyên gia."
+      },
+      {
+        "text": "Đầu bếp mới vào nghề",
+        "isCorrect": false,
+        "rationale": "Trái nghĩa."
+      },
+      {
+        "text": "Đầu bếp làm việc bán thời gian",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      },
+      {
+        "text": "Đầu bếp dạy học",
+        "isCorrect": false,
+        "rationale": "Không đúng nghĩa."
+      }
+    ],
+    "hint": "Không chỉ nổi tiếng mà còn được giới chuyên môn khen ngợi."
+  },
+  {
+    "question": "'Sponsorship /ˈspɑːnsərʃɪp/' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự tài trợ",
+        "isCorrect": true,
+        "rationale": "Sponsorship là việc hỗ trợ tiền bạc hoặc nguồn lực cho sự kiện hay cá nhân."
+      },
+      {
+        "text": "Sự nghỉ việc",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Bản hợp đồng thuê",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      },
+      {
+        "text": "Cuộc thi tuyển",
+        "isCorrect": false,
+        "rationale": "Không phải sponsorship."
+      }
+    ],
+    "hint": "Liên quan đến sponsor."
+  },
+  {
+    "question": "'Company retreat /rɪˈtriːt/' thường là gì?",
+    "answerOptions": [
+      {
+        "text": "Chuyến nghỉ dưỡng của công ty",
+        "isCorrect": true,
+        "rationale": "Retreat trong ngữ cảnh công việc là chuyến đi nghỉ kết hợp team building."
+      },
+      {
+        "text": "Buổi kiểm tra năng lực",
+        "isCorrect": false,
+        "rationale": "Không đúng."
+      },
+      {
+        "text": "Phiên họp sa thải",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      },
+      {
+        "text": "Lớp học nội bộ",
+        "isCorrect": false,
+        "rationale": "Không phải retreat."
+      }
+    ],
+    "hint": "Gần nghĩa với company outing nhưng trang trọng hơn."
+  },
+  {
+    "question": "Một 'raffle /ˈræfəl/ for prizes' thường là hoạt động gì?",
+    "answerOptions": [
+      {
+        "text": "Bốc thăm trúng thưởng",
+        "isCorrect": true,
+        "rationale": "Raffle for prizes là chương trình quay số nhận quà."
+      },
+      {
+        "text": "Bán hàng giảm giá",
+        "isCorrect": false,
+        "rationale": "Không giống raffle."
+      },
+      {
+        "text": "Đấu giá sản phẩm",
+        "isCorrect": false,
+        "rationale": "Auction mới là đấu giá."
+      },
+      {
+        "text": "Phỏng vấn xin việc",
+        "isCorrect": false,
+        "rationale": "Không liên quan."
+      }
+    ],
+    "hint": "Lucky draw."
+  }
+]
+}
