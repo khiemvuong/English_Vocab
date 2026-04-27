@@ -10,16 +10,25 @@ export const renderFormattedText = (text: string) => {
          if (part.startsWith('/') && part.endsWith('/')) {
            const textBefore = i > 0 ? parts[i-1] : '';
            let wordToSpeak = '';
-           const strictQuoteMatch = textBefore.match(/['"]([^'"]+)['"]\s*$/);
-           if (strictQuoteMatch) {
-             wordToSpeak = strictQuoteMatch[1];
-           } else {
-             const words = textBefore.trim().split(/\s+/);
-             if (words.length <= 3) {
-               wordToSpeak = textBefore.replace(/['":;,.()]/g, '').trim();
-             } else {
-               wordToSpeak = words[words.length - 1].replace(/['":;,.()]/g, '');
-             }
+           // Extract phrase from an unclosed opening quote, if present
+           let extractedPhrase = textBefore;
+           const openingQuoteMatch = textBefore.match(/(?:^|[\s(])(['"])([^'"]*)$/);
+           if (openingQuoteMatch) {
+             extractedPhrase = openingQuoteMatch[2];
+           }
+           
+           // Count phonetic words (roughly by spaces)
+           const phoneticWordsCount = part.trim().split(/\s+/).length;
+           
+           // Extract target words from the phrase
+           const words = extractedPhrase.trim().split(/\s+/);
+           const targetWords = words.slice(-phoneticWordsCount);
+           
+           wordToSpeak = targetWords.join(' ').replace(/['":;,.()?!]/g, '').trim();
+           
+           // Fallback if something went wrong
+           if (!wordToSpeak) {
+             wordToSpeak = extractedPhrase.replace(/['":;,.()?!]/g, '').trim();
            }
            
            return (
