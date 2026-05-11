@@ -262,32 +262,6 @@
       "hint": "Bán tống bán tháo để nhập hàng mới."
     },
     {
-      "question": "Anh ấy thực hiện một 'casual mortgage payment / ˈkæʒuəl ˈmɔːrɡɪdʒ ˈpeɪmənt/' bổ sung, điều này có nghĩa là gì?",
-      "answerOptions": [
-        {
-          "text": "Một khoản trả nợ thế chấp không theo định kỳ",
-          "isCorrect": true,
-          "rationale": "Trong ngữ cảnh này, 'casual' có thể hiểu là khoản trả thêm không bắt buộc hoặc phát sinh thêm ngoài lịch trình cố định."
-        },
-        {
-          "text": "Tiền thuê nhà hàng tháng",
-          "isCorrect": false,
-          "rationale": "Đó là monthly rent."
-        },
-        {
-          "text": "Hóa đơn tiền điện",
-          "isCorrect": false,
-          "rationale": "Không liên quan đến mortgage."
-        },
-        {
-          "text": "Tiền phạt vi phạm giao thông",
-          "isCorrect": false,
-          "rationale": "Không liên quan."
-        }
-      ],
-      "hint": "Mortgage liên quan đến vay tiền mua nhà."
-    },
-    {
       "question": "Hợp đồng 'stipulates /ˈstɪpjuleɪts/' rằng công việc phải hoàn thành trong 3 tháng, nghĩa là gì?",
       "answerOptions": [
         {
@@ -442,6 +416,162 @@
         }
       ],
       "hint": "Hành động dùng hai bàn tay đập vào nhau tạo ra tiếng."
+    },
+    {
+      "question": "Sau khi tìm thấy chiếc ví bị mất, anh ấy cảm thấy rất 'relieved /rɪˈliːvd/', điều này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "An tâm, bớt căng thẳng",
+          "isCorrect": true,
+          "rationale": "Relieved là cảm giác nhẹ nhõm sau khi một nỗi lo lắng hoặc khó khăn qua đi."
+        },
+        {
+          "text": "Lo lắng hơn",
+          "isCorrect": false,
+          "rationale": "Trái nghĩa với relieved."
+        },
+        {
+          "text": "Tức giận",
+          "isCorrect": false,
+          "rationale": "Không đúng nghĩa."
+        },
+        {
+          "text": "Mệt mỏi",
+          "isCorrect": false,
+          "rationale": "Không liên quan."
+        }
+      ],
+      "hint": "Cảm giác khi một gánh nặng được trút bỏ."
+    },
+    {
+      "question": "Buổi họp kết thúc 'abruptly /əˈbrʌptli/' khiến mọi người ngạc nhiên, từ này nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Đột ngột, bất ngờ",
+          "isCorrect": true,
+          "rationale": "Abruptly diễn tả một hành động xảy ra rất nhanh và không có sự chuẩn bị trước."
+        },
+        {
+          "text": "Chậm rãi",
+          "isCorrect": false,
+          "rationale": "Trái nghĩa với abruptly."
+        },
+        {
+          "text": "Theo đúng kế hoạch",
+          "isCorrect": false,
+          "rationale": "Abruptly thường mang tính bất ngờ."
+        },
+        {
+          "text": "Một cách ồn ào",
+          "isCorrect": false,
+          "rationale": "Không đúng nghĩa."
+        }
+      ],
+      "hint": "Suddenly."
+    },
+    {
+      "question": "Một 'mortgage broker /ˈmɔːrɡɪdʒ ˈbroʊkər/' giúp khách hàng làm gì?",
+      "answerOptions": [
+        {
+          "text": "Môi giới và tư vấn các khoản vay thế chấp",
+          "isCorrect": true,
+          "rationale": "Mortgage broker là người trung gian giúp người vay kết nối với các ngân hàng để tìm khoản vay mua nhà tốt nhất."
+        },
+        {
+          "text": "Sửa chữa nhà cửa",
+          "isCorrect": false,
+          "rationale": "Đó là contractor hoặc repairman."
+        },
+        {
+          "text": "Thiết kế nội thất",
+          "isCorrect": false,
+          "rationale": "Đó là interior designer."
+        },
+        {
+          "text": "Bán bảo hiểm nhân thọ",
+          "isCorrect": false,
+          "rationale": "Không phải công việc chính của mortgage broker."
+        }
+      ],
+      "hint": "Người trung gian giữa bạn và ngân hàng cho vay mua nhà."
+    },
+    {
+      "question": "Nhiều người nổi tiếng đã tham dự sự kiện, 'notably /ˈnoʊtəbli/' là vị thủ tướng, từ này nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Đáng chú ý, đặc biệt là",
+          "isCorrect": true,
+          "rationale": "Notably dùng để nhấn mạnh một ví dụ cụ thể hoặc quan trọng nhất trong một nhóm."
+        },
+        {
+          "text": "Một cách bí mật",
+          "isCorrect": false,
+          "rationale": "Đó là secretly."
+        },
+        {
+          "text": "Hiếm khi",
+          "isCorrect": false,
+          "rationale": "Đó là rarely."
+        },
+        {
+          "text": "Không quan trọng",
+          "isCorrect": false,
+          "rationale": "Trái nghĩa với notably."
+        }
+      ],
+      "hint": "Dùng để nêu bật một chi tiết quan trọng."
+    },
+    {
+      "question": "Hội đồng thành phố đã quyết định 'revoke /rɪˈvoʊk/' giấy phép kinh doanh của nhà hàng đó, từ này nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Thu hồi hoặc hủy bỏ",
+          "isCorrect": true,
+          "rationale": "Revoke là hành động chính thức hủy bỏ một quyền lợi, quyết định hoặc giấy phép đã cấp trước đó."
+        },
+        {
+          "text": "Gia hạn thêm",
+          "isCorrect": false,
+          "rationale": "Đó là renew hoặc extend."
+        },
+        {
+          "text": "Cấp mới",
+          "isCorrect": false,
+          "rationale": "Đó là issue hoặc grant."
+        },
+        {
+          "text": "Khen thưởng",
+          "isCorrect": false,
+          "rationale": "Không liên quan."
+        }
+      ],
+      "hint": "Lấy lại một thứ gì đó đã cho phép trước đây."
+    },
+    {
+      "question": "Chúng tôi 'occasionally /əˈkeɪʒnəli/' đi ăn tối tại nhà hàng Pháp này, tần suất này là thế nào?",
+      "answerOptions": [
+        {
+          "text": "Thỉnh thoảng, không thường xuyên",
+          "isCorrect": true,
+          "rationale": "Occasionally chỉ một việc xảy ra đôi khi, thỉnh thoảng, không có định kỳ cụ thể."
+        },
+        {
+          "text": "Mỗi ngày",
+          "isCorrect": false,
+          "rationale": "Đó là every day hoặc daily."
+        },
+        {
+          "text": "Luôn luôn",
+          "isCorrect": false,
+          "rationale": "Đó là always."
+        },
+        {
+          "text": "Chưa bao giờ",
+          "isCorrect": false,
+          "rationale": "Đó là never."
+        }
+      ],
+      "hint": "Sometimes but not often."
     }
   ]
 }
