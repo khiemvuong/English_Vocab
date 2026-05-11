@@ -1,5 +1,5 @@
 {
-  "title": "Từ vựng Trắc nghiệm Lesson 15",
+  "title": "Từ vựng Trắc nghiệm Lesson 16",
   "questions": [
   {
     "question": "Trong báo cáo đồ án, khi giảng viên yêu cầu thêm phần 'software references /ˈsɔːftˌwer ˈrefərənsɪz/', điều này có nghĩa là gì?",
@@ -832,6 +832,84 @@
       }
     ],
     "hint": "Lucky draw."
+  },
+  {
+    "question": "Trong buổi họp, sếp đề nghị anh Minh phụ trách thêm dự án mới vào cuối tuần. Do đã có kế hoạch đi chơi với gia đình, anh ấy tỏ vẻ 'reluctant /rɪˈlʌktənt/' khi nhận lời. Thái độ của anh ấy là gì?",
+    "answerOptions": [
+      {
+        "text": "Ngập ngừng, miễn cưỡng và không mấy tự nguyện",
+        "isCorrect": true,
+        "rationale": "'Reluctant' mang nghĩa chần chừ, miễn cưỡng làm một việc gì đó vì không thực sự muốn."
+      },
+      {
+        "text": "Rất hào hứng và vui vẻ đồng ý ngay",
+        "isCorrect": false,
+        "rationale": "Đây là nghĩa trái ngược. 'Eager' hoặc 'Enthusiastic' mới là hào hứng."
+      },
+      {
+        "text": "Kiên quyết từ chối thẳng thừng",
+        "isCorrect": false,
+        "rationale": "'Reluctant' không hẳn là từ chối, mà là làm trong trạng thái gượng ép."
+      },
+      {
+        "text": "Đòi hỏi tăng lương ngay lập tức",
+        "isCorrect": false,
+        "rationale": "Không liên quan đến ý nghĩa của từ 'reluctant'."
+      }
+    ],
+    "hint": "Cảm giác khi bạn bị ép phải làm một việc mà bạn không thích."
+  },
+  {
+    "question": "Công ty ABC vừa cải thiện chế độ bảo hiểm y tế, tăng số ngày nghỉ phép và tổ chức nhiều hoạt động gắn kết. Giám đốc nhân sự cho biết điều này nhằm tăng 'employee retention /rɪˈtenʃən/'. Mục tiêu của công ty là gì?",
+    "answerOptions": [
+      {
+        "text": "Giữ chân nhân viên, giảm tỷ lệ người lao động nghỉ việc",
+        "isCorrect": true,
+        "rationale": "'Retention' có nghĩa là sự giữ lại. 'Employee retention' là chiến lược giữ chân nhân tài của công ty."
+      },
+      {
+        "text": "Thu hút và tuyển dụng nhiều nhân sự mới",
+        "isCorrect": false,
+        "rationale": "Việc tuyển người mới là 'Recruitment', không phải 'Retention'."
+      },
+      {
+        "text": "Đánh giá lại năng suất làm việc của từng người",
+        "isCorrect": false,
+        "rationale": "Đánh giá năng suất là 'Performance evaluation'."
+      },
+      {
+        "text": "Cắt giảm nhân sự để tối ưu hóa chi phí",
+        "isCorrect": false,
+        "rationale": "Đây là hành động trái ngược hoàn toàn với việc giữ chân."
+      }
+    ],
+    "hint": "Mục tiêu là để những người đang làm việc không bỏ sang công ty khác."
+  },
+  {
+    "question": "Lô hàng nguyên vật liệu bị kẹt ở hải quan suốt 2 tuần không thể nhập kho. 'Consequently /ˈkɑːnsəkwentli/', nhà máy sản xuất phải đối mặt với tình huống nào?",
+    "answerOptions": [
+      {
+        "text": "Do đó, nhà máy phải tạm ngừng hoạt động vì thiếu vật liệu",
+        "isCorrect": true,
+        "rationale": "'Consequently' là trạng từ dùng để nối câu, chỉ hậu quả hoặc kết quả tất yếu (Do đó, hậu quả là) của sự việc trước đó."
+      },
+      {
+        "text": "Tuy nhiên, nhà máy vẫn sản xuất vượt chỉ tiêu",
+        "isCorrect": false,
+        "rationale": "Sự trái ngược thường dùng 'However' hoặc 'Nevertheless', không phải 'Consequently'."
+      },
+      {
+        "text": "Thêm vào đó, họ quyết định mở rộng quy mô xưởng",
+        "isCorrect": false,
+        "rationale": "Bổ sung ý thường dùng 'In addition' hoặc 'Moreover'."
+      },
+      {
+        "text": "Ví dụ, họ sẽ tăng lương cho tất cả công nhân",
+        "isCorrect": false,
+        "rationale": "Đưa ra ví dụ dùng 'For example' hoặc 'For instance'."
+      }
+    ],
+    "hint": "Từ này dùng để chỉ một kết quả trực tiếp của sự việc vừa diễn ra."
   }
 ]
 }

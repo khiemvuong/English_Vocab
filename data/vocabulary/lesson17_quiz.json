@@ -1,0 +1,447 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 17",
+  "questions": [
+    {
+      "question": "Khi một người nói: 'The weather was bad; nonetheless /ˌnʌn.ðəˈles/, we enjoyed the trip', từ 'nonetheless' có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Tuy nhiên, mặc dù vậy",
+          "isCorrect": true,
+          "rationale": "Nonetheless được dùng để kết nối hai ý trái ngược nhau, mang nghĩa 'mặc dù vậy'."
+        },
+        {
+          "text": "Bởi vì thế",
+          "isCorrect": false,
+          "rationale": "Đây là nghĩa của therefore hoặc because."
+        },
+        {
+          "text": "Hơn nữa",
+          "isCorrect": false,
+          "rationale": "Đó là furthermore hoặc moreover."
+        },
+        {
+          "text": "Trong khi đó",
+          "isCorrect": false,
+          "rationale": "Đó là meanwhile hoặc whereas."
+        }
+      ],
+      "hint": "Dùng để chỉ sự nhượng bộ hoặc đối lập."
+    },
+    {
+      "question": "Câu 'The project was difficult; nevertheless /ˌnev.ə.ðəˈles/, we finished it on time' diễn đạt điều gì?",
+      "answerOptions": [
+        {
+          "text": "Dự án khó nhưng chúng tôi vẫn hoàn thành đúng hạn",
+          "isCorrect": true,
+          "rationale": "Nevertheless mang nghĩa 'tuy nhiên' hoặc 'tuy thế mà', nhấn mạnh việc vượt qua khó khăn."
+        },
+        {
+          "text": "Dự án khó nên chúng tôi bỏ cuộc",
+          "isCorrect": false,
+          "rationale": "Trái ngược với ý nghĩa của nevertheless."
+        },
+        {
+          "text": "Dự án dễ nên hoàn thành nhanh",
+          "isCorrect": false,
+          "rationale": "Không đúng với ngữ cảnh difficulty."
+        },
+        {
+          "text": "Dự án bị hủy bỏ",
+          "isCorrect": false,
+          "rationale": "Không liên quan."
+        }
+      ],
+      "hint": "Từ này đồng nghĩa với nonetheless."
+    },
+    {
+      "question": "Nếu hai công ty đang có một 'dispute /dɪˈspjuːt/' về hợp đồng, họ đang gặp vấn đề gì?",
+      "answerOptions": [
+        {
+          "text": "Tranh chấp hoặc bàn cãi",
+          "isCorrect": true,
+          "rationale": "Dispute là sự bất đồng, tranh chấp hoặc cuộc tranh luận gay gắt."
+        },
+        {
+          "text": "Sự hợp tác vui vẻ",
+          "isCorrect": false,
+          "rationale": "Đây là collaboration, không phải dispute."
+        },
+        {
+          "text": "Ký kết thành công",
+          "isCorrect": false,
+          "rationale": "Dispute thường xảy ra trước hoặc thay vì ký kết."
+        },
+        {
+          "text": "Tổ chức tiệc ăn mừng",
+          "isCorrect": false,
+          "rationale": "Không liên quan đến tranh chấp."
+        }
+      ],
+      "hint": "Nghĩ đến sự bất đồng ý kiến."
+    },
+    {
+      "question": "Một người làm việc tại 'ceramics factory /səˈræmɪks ˈfæktəri/' sẽ tham gia vào quá trình sản xuất gì?",
+      "answerOptions": [
+        {
+          "text": "Sản xuất gốm sứ",
+          "isCorrect": true,
+          "rationale": "Ceramics là đồ gốm sứ; factory là nhà máy."
+        },
+        {
+          "text": "Linh kiện điện tử",
+          "isCorrect": false,
+          "rationale": "Đó là electronics factory."
+        },
+        {
+          "text": "Sản xuất ô tô",
+          "isCorrect": false,
+          "rationale": "Đó là car factory."
+        },
+        {
+          "text": "Chế biến thực phẩm",
+          "isCorrect": false,
+          "rationale": "Đó là food processing plant."
+        }
+      ],
+      "hint": "Hãy nghĩ đến bát đĩa, bình hoa làm từ đất sét nung."
+    },
+    {
+      "question": "Công nhân xây dựng vừa 'paved a section /peɪvd ə ˈsekʃən/' của bãi đậu xe, họ đã làm gì?",
+      "answerOptions": [
+        {
+          "text": "Lát hoặc trải nhựa một phần",
+          "isCorrect": true,
+          "rationale": "Pave là lát đường/sân bằng đá, gạch hoặc nhựa đường; section là một phần."
+        },
+        {
+          "text": "Đào một cái hố lớn",
+          "isCorrect": false,
+          "rationale": "Pave không phải là đào."
+        },
+        {
+          "text": "Lắp đặt đèn chiếu sáng",
+          "isCorrect": false,
+          "rationale": "Không liên quan đến việc lát bề mặt."
+        },
+        {
+          "text": "Dọn dẹp rác thải",
+          "isCorrect": false,
+          "rationale": "Không phải nghĩa của paved."
+        }
+      ],
+      "hint": "Làm cho bề mặt phẳng và cứng để đi lại."
+    },
+    {
+      "question": "Khi bạn vào một cửa hàng và cần sự giúp đỡ, 'sales clerks /seɪlz klɜːrks/' là những ai?",
+      "answerOptions": [
+        {
+          "text": "Nhân viên bán hàng",
+          "isCorrect": true,
+          "rationale": "Sales clerks là những người hỗ trợ khách hàng và thực hiện việc bán hàng tại quầy."
+        },
+        {
+          "text": "Bảo vệ cửa hàng",
+          "isCorrect": false,
+          "rationale": "Đó là security guards."
+        },
+        {
+          "text": "Khách hàng mua sắm",
+          "isCorrect": false,
+          "rationale": "Đó là customers."
+        },
+        {
+          "text": "Chủ sở hữu tòa nhà",
+          "isCorrect": false,
+          "rationale": "Không phải sales clerks."
+        }
+      ],
+      "hint": "Người đứng ở quầy hoặc kệ hàng để giúp bạn."
+    },
+    {
+      "question": "Sáng nay lái xe rất nguy hiểm vì có 'fog /fɒɡ/', đây là hiện tượng gì?",
+      "answerOptions": [
+        {
+          "text": "Sương mù",
+          "isCorrect": true,
+          "rationale": "Fog là sương mù, làm giảm tầm nhìn khi di chuyển."
+        },
+        {
+          "text": "Mưa rào",
+          "isCorrect": false,
+          "rationale": "Đó là shower hoặc rain."
+        },
+        {
+          "text": "Tuyết rơi",
+          "isCorrect": false,
+          "rationale": "Đó là snow."
+        },
+        {
+          "text": "Nắng gắt",
+          "isCorrect": false,
+          "rationale": "Đó là sunny/bright sunlight."
+        }
+      ],
+      "hint": "Làm cho mọi thứ trở nên mờ ảo và khó nhìn xa."
+    },
+    {
+      "question": "Bạn nên xem 'weather forecast /ˈweðər ˈfɔːrkæst/' trước khi đi dã ngoại để làm gì?",
+      "answerOptions": [
+        {
+          "text": "Biết trước tình hình thời tiết",
+          "isCorrect": true,
+          "rationale": "Weather forecast là bản tin dự báo thời tiết."
+        },
+        {
+          "text": "Mua vé máy bay",
+          "isCorrect": false,
+          "rationale": "Không liên quan trực tiếp đến dự báo."
+        },
+        {
+          "text": "Đặt phòng khách sạn",
+          "isCorrect": false,
+          "rationale": "Không phải mục đích chính của forecast."
+        },
+        {
+          "text": "Kiểm tra giá xăng",
+          "isCorrect": false,
+          "rationale": "Không liên quan."
+        }
+      ],
+      "hint": "Dự đoán nắng hay mưa."
+    },
+    {
+      "question": "Chúng tôi đã thuê một 'catering company /ˈkeɪtərɪŋ ˈkʌmpəni/' cho buổi tiệc cuối năm, họ sẽ làm gì?",
+      "answerOptions": [
+        {
+          "text": "Cung cấp đồ ăn thức uống",
+          "isCorrect": true,
+          "rationale": "Catering company chuyên cung cấp dịch vụ ăn uống cho các sự kiện."
+        },
+        {
+          "text": "Trang trí hoa tươi",
+          "isCorrect": false,
+          "rationale": "Đó là florist hoặc decorator."
+        },
+        {
+          "text": "Cho thuê âm thanh ánh sáng",
+          "isCorrect": false,
+          "rationale": "Đó là AV rental company."
+        },
+        {
+          "text": "Quay phim chụp ảnh",
+          "isCorrect": false,
+          "rationale": "Đó là photography/videography service."
+        }
+      ],
+      "hint": "Liên quan đến food and drinks."
+    },
+    {
+      "question": "Cửa hàng đang có chương trình 'clearance sale /ˈklɪərəns seɪl/', mục đích của họ là gì?",
+      "answerOptions": [
+        {
+          "text": "Bán hết hàng cũ để dọn kho",
+          "isCorrect": true,
+          "rationale": "Clearance sale là đợt bán giảm giá mạnh để giải phóng hàng tồn kho."
+        },
+        {
+          "text": "Giới thiệu bộ sưu tập mới giá cao",
+          "isCorrect": false,
+          "rationale": "Clearance thường là hàng cũ."
+        },
+        {
+          "text": "Kỷ niệm ngày thành lập công ty",
+          "isCorrect": false,
+          "rationale": "Có thể có giảm giá nhưng clearance nhấn mạnh việc dọn kho."
+        },
+        {
+          "text": "Tăng giá sản phẩm",
+          "isCorrect": false,
+          "rationale": "Ngược lại với ý nghĩa của sale."
+        }
+      ],
+      "hint": "Bán tống bán tháo để nhập hàng mới."
+    },
+    {
+      "question": "Anh ấy thực hiện một 'casual mortgage payment / ˈkæʒuəl ˈmɔːrɡɪdʒ ˈpeɪmənt/' bổ sung, điều này có nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Một khoản trả nợ thế chấp không theo định kỳ",
+          "isCorrect": true,
+          "rationale": "Trong ngữ cảnh này, 'casual' có thể hiểu là khoản trả thêm không bắt buộc hoặc phát sinh thêm ngoài lịch trình cố định."
+        },
+        {
+          "text": "Tiền thuê nhà hàng tháng",
+          "isCorrect": false,
+          "rationale": "Đó là monthly rent."
+        },
+        {
+          "text": "Hóa đơn tiền điện",
+          "isCorrect": false,
+          "rationale": "Không liên quan đến mortgage."
+        },
+        {
+          "text": "Tiền phạt vi phạm giao thông",
+          "isCorrect": false,
+          "rationale": "Không liên quan."
+        }
+      ],
+      "hint": "Mortgage liên quan đến vay tiền mua nhà."
+    },
+    {
+      "question": "Hợp đồng 'stipulates /ˈstɪpjuleɪts/' rằng công việc phải hoàn thành trong 3 tháng, nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Quy định rõ ràng hoặc đặt điều kiện",
+          "isCorrect": true,
+          "rationale": "Stipulate nghĩa là đưa ra quy định hoặc điều kiện cụ thể trong một thỏa thuận."
+        },
+        {
+          "text": "Gợi ý một cách nhẹ nhàng",
+          "isCorrect": false,
+          "rationale": "Stipulate mang tính bắt buộc và rõ ràng hơn suggest."
+        },
+        {
+          "text": "Phủ nhận mọi điều khoản",
+          "isCorrect": false,
+          "rationale": "Trái nghĩa với stipulate."
+        },
+        {
+          "text": "Hy vọng mọi việc tốt đẹp",
+          "isCorrect": false,
+          "rationale": "Không đúng ngữ nghĩa pháp lý."
+        }
+      ],
+      "hint": "Thường dùng trong các văn bản pháp lý hoặc hợp đồng."
+    },
+    {
+      "question": "Bộ phim mới đã nhận được sự 'acclaim /əˈkleɪm/' từ giới chuyên môn, nghĩa là gì?",
+      "answerOptions": [
+        {
+          "text": "Sự ca ngợi, hoan nghênh nhiệt liệt",
+          "isCorrect": true,
+          "rationale": "Acclaim là sự công nhận và khen ngợi công khai."
+        },
+        {
+          "text": "Sự chỉ trích gay gắt",
+          "isCorrect": false,
+          "rationale": "Đó là criticism."
+        },
+        {
+          "text": "Sự lãng quên của khán giả",
+          "isCorrect": false,
+          "rationale": "Trái ngược với acclaim."
+        },
+        {
+          "text": "Yêu cầu bồi thường",
+          "isCorrect": false,
+          "rationale": "Không liên quan."
+        }
+      ],
+      "hint": "Khi mọi người đều nói tốt về nó."
+    },
+    {
+      "question": "Những 'entrepreneurs /ˌɒntrəprəˈnɜːrz/' trẻ đang thay đổi nền kinh tế bằng cách nào?",
+      "answerOptions": [
+        {
+          "text": "Bằng cách khởi nghiệp và kinh doanh",
+          "isCorrect": true,
+          "rationale": "Entrepreneurs là những nhà doanh nghiệp, những người mạo hiểm mở công ty riêng."
+        },
+        {
+          "text": "Bằng cách đi xin việc ở công ty lớn",
+          "isCorrect": false,
+          "rationale": "Đó là employees/job seekers."
+        },
+        {
+          "text": "Bằng cách nghỉ hưu sớm",
+          "isCorrect": false,
+          "rationale": "Không phản ánh vai trò của entrepreneurs."
+        },
+        {
+          "text": "Bằng cách chỉ tiêu tiền tiết kiệm",
+          "isCorrect": false,
+          "rationale": "Không đúng."
+        }
+      ],
+      "hint": "Người tự làm chủ và tạo ra doanh nghiệp."
+    },
+    {
+      "question": "Công ty đang áp dụng 'web-based strategies /web-beɪst ˈstrætədʒiz/' để tiếp cận khách hàng, đó là gì?",
+      "answerOptions": [
+        {
+          "text": "Các chiến lược dựa trên nền tảng internet",
+          "isCorrect": true,
+          "rationale": "Web-based nghĩa là dựa trên web hoặc internet; strategies là các chiến lược."
+        },
+        {
+          "text": "Bán hàng qua bưu điện truyền thống",
+          "isCorrect": false,
+          "rationale": "Đó là mail-order."
+        },
+        {
+          "text": "Phát tờ rơi trên đường phố",
+          "isCorrect": false,
+          "rationale": "Không phải web-based."
+        },
+        {
+          "text": "Quảng cáo trên đài phát thanh",
+          "isCorrect": false,
+          "rationale": "Đó là radio advertising."
+        }
+      ],
+      "hint": "Sử dụng website hoặc mạng xã hội."
+    },
+    {
+      "question": "Nhiều người trẻ phải gánh khoản 'mortgage /ˈmɔːrɡɪdʒ/' lớn khi mua căn hộ đầu tiên, mortgage là gì?",
+      "answerOptions": [
+        {
+          "text": "Khoản vay thế chấp mua bất động sản",
+          "isCorrect": true,
+          "rationale": "Mortgage là khoản tiền vay ngân hàng để mua nhà/đất và dùng chính tài sản đó làm vật thế chấp."
+        },
+        {
+          "text": "Tiền thưởng cuối năm",
+          "isCorrect": false,
+          "rationale": "Đó là bonus."
+        },
+        {
+          "text": "Hợp đồng bảo hiểm y tế",
+          "isCorrect": false,
+          "rationale": "Đó là health insurance."
+        },
+        {
+          "text": "Tiền đặt cọc mua xe",
+          "isCorrect": false,
+          "rationale": "Không phải mortgage."
+        }
+      ],
+      "hint": "Khoản nợ dài hạn gắn liền với ngôi nhà."
+    },
+    {
+      "question": "Sau bài thuyết trình xuất sắc, anh ấy đã nhận được một tràng 'applause /əˈplɔːz/' từ khán giả, đó là gì?",
+      "answerOptions": [
+        {
+          "text": "Tiếng vỗ tay tán thưởng",
+          "isCorrect": true,
+          "rationale": "Applause là tiếng vỗ tay để bày tỏ sự khen ngợi hoặc tán thành."
+        },
+        {
+          "text": "Tiếng la ó phản đối",
+          "isCorrect": false,
+          "rationale": "Đó là boos/jeers."
+        },
+        {
+          "text": "Sự im lặng đáng sợ",
+          "isCorrect": false,
+          "rationale": "Không phải applause."
+        },
+        {
+          "text": "Yêu cầu thuyết trình lại",
+          "isCorrect": false,
+          "rationale": "Không liên quan."
+        }
+      ],
+      "hint": "Hành động dùng hai bàn tay đập vào nhau tạo ra tiếng."
+    }
+  ]
+}
