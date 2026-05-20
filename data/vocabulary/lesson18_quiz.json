@@ -1,0 +1,5751 @@
+{
+  "title": "Từ vựng Trắc nghiệm Lesson 17",
+  "questions": [
+  {
+    "question": "Trong buổi kiểm tra vệ sinh an toàn thực phẩm tại nhà hàng, quản lý nhấn mạnh: 'Cleanliness /'klenlinəs/ is our top priority'. Từ 'Cleanliness' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự sạch sẽ",
+        "isCorrect": true,
+        "rationale": "Cleanliness xuất phát từ tính từ 'clean', mang nghĩa là tình trạng sạch sẽ hoặc việc giữ gìn sạch sẽ."
+      },
+      {
+        "text": "Sự gọn gàng",
+        "isCorrect": false,
+        "rationale": "Sự gọn gàng thường dùng từ 'tidiness' hoặc 'neatness'."
+      },
+      {
+        "text": "Sự an toàn",
+        "isCorrect": false,
+        "rationale": "Sự an toàn là 'safety' hoặc 'security'."
+      },
+      {
+        "text": "Sự chuyên nghiệp",
+        "isCorrect": false,
+        "rationale": "Sự chuyên nghiệp là 'professionalism'."
+      }
+    ],
+    "hint": "Từ này liên quan mật thiết đến tính từ 'clean'."
+  },
+  {
+    "question": "Khi hướng dẫn viên du lịch dặn nhóm khách: 'Do not try to climb /klaɪm/ this steep rock without safety gear', họ đang yêu cầu khách không làm gì?",
+    "answerOptions": [
+      {
+        "text": "Leo trèo",
+        "isCorrect": true,
+        "rationale": "Climb là động từ chỉ hành động leo, trèo lên một độ cao nào đó."
+      },
+      {
+        "text": "Chạy xuống",
+        "isCorrect": false,
+        "rationale": "Chạy xuống là 'run down'."
+      },
+      {
+        "text": "Nhảy qua",
+        "isCorrect": false,
+        "rationale": "Nhảy qua là 'jump over'."
+      },
+      {
+        "text": "Đi bộ đường dài",
+        "isCorrect": false,
+        "rationale": "Đi bộ đường dài là 'hike'."
+      }
+    ],
+    "hint": "Hành động di chuyển lên cao bằng cách dùng cả tay và chân."
+  },
+  {
+    "question": "Trong một bản tin y khoa: 'The newly developed drug is now undergoing clinical /'klɪnɪkl/ trials on humans'. Thuộc tính 'clinical' ở đây có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Thuộc lâm sàng",
+        "isCorrect": true,
+        "rationale": "Clinical có nghĩa là liên quan đến việc khám và điều trị bệnh nhân thực tế, thuộc về lâm sàng."
+      },
+      {
+        "text": "Thuộc lý thuyết",
+        "isCorrect": false,
+        "rationale": "Thuộc lý thuyết là 'theoretical'."
+      },
+      {
+        "text": "Thuộc hóa học",
+        "isCorrect": false,
+        "rationale": "Thuộc hóa học là 'chemical'."
+      },
+      {
+        "text": "Thuộc sinh học",
+        "isCorrect": false,
+        "rationale": "Thuộc sinh học là 'biological'."
+      }
+    ],
+    "hint": "Liên quan trực tiếp đến việc quan sát và điều trị người bệnh tại bệnh viện."
+  },
+  {
+    "question": "Tại cuộc họp nội bộ, giám đốc đề xuất: 'Our R&D team should collaborate /kə'læbəreɪt/ with the marketing team on this launch'. Từ 'collaborate' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Hợp tác",
+        "isCorrect": true,
+        "rationale": "Collaborate có nghĩa là làm việc chung, phối hợp hoặc hợp tác với người khác/đội nhóm khác để đạt mục đích chung."
+      },
+      {
+        "text": "Cạnh tranh",
+        "isCorrect": false,
+        "rationale": "Cạnh tranh là 'compete'."
+      },
+      {
+        "text": "Tranh luận",
+        "isCorrect": false,
+        "rationale": "Tranh luận là 'debate' hoặc 'argue'."
+      },
+      {
+        "text": "Tách rời",
+        "isCorrect": false,
+        "rationale": "Tách rời là 'separate'."
+      }
+    ],
+    "hint": "Đồng nghĩa với cụm từ 'work together'."
+  },
+  {
+    "question": "Báo cáo cuối năm ghi nhận: 'The success of the project was due to the close collaboration /kə,læbə'reɪʃn/ between departments'. Từ 'collaboration' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự cộng tác, hợp tác",
+        "isCorrect": true,
+        "rationale": "Collaboration là danh từ của 'collaborate', biểu thị sự hợp tác, cộng tác."
+      },
+      {
+        "text": "Sự độc lập",
+        "isCorrect": false,
+        "rationale": "Sự độc lập là 'independence'."
+      },
+      {
+        "text": "Sự chia rẽ",
+        "isCorrect": false,
+        "rationale": "Sự chia rẽ là 'division' hoặc 'separation'."
+      },
+      {
+        "text": "Sự mâu thuẫn",
+        "isCorrect": false,
+        "rationale": "Sự mâu thuẫn là 'conflict'."
+      }
+    ],
+    "hint": "Đây là danh từ của hành động cùng nhau làm việc."
+  },
+  {
+    "question": "Khi đi cắm trại, một người mang theo chiếc ghế và giới thiệu: 'I love this collapsible /kə'læpsəbl/ chair because it saves space'. 'Collapsible' mang nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Có thể gấp gọn, thu nhỏ lại được",
+        "isCorrect": true,
+        "rationale": "Collapsible chỉ những vật dụng có thiết kế thông minh để có thể xếp, gấp gọn lại khi không dùng đến."
+      },
+      {
+        "text": "Không thể phá hủy",
+        "isCorrect": false,
+        "rationale": "Không thể phá hủy là 'indestructible'."
+      },
+      {
+        "text": "Nặng nề, cồng kềnh",
+        "isCorrect": false,
+        "rationale": "Nặng nề là 'heavy', cồng kềnh là 'bulky'."
+      },
+      {
+        "text": "Được làm bằng kim loại",
+        "isCorrect": false,
+        "rationale": "Làm bằng kim loại là 'metallic'."
+      }
+    ],
+    "hint": "Vật có cấu trúc cho phép thu hẹp kích thước bằng cách bẻ/gập lại."
+  },
+  {
+    "question": "Khi giới thiệu nhân sự mới trong văn phòng: 'This is Jane, your new colleague /'kɒli:ɡ/ in the accounting team'. Từ 'colleague' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đồng nghiệp",
+        "isCorrect": true,
+        "rationale": "Colleague dùng để chỉ người cùng làm việc trong một cơ quan, công ty hoặc cùng một ngành nghề."
+      },
+      {
+        "text": "Đối thủ",
+        "isCorrect": false,
+        "rationale": "Đối thủ là 'rival' hoặc 'opponent'."
+      },
+      {
+        "text": "Khách hàng",
+        "isCorrect": false,
+        "rationale": "Khách hàng là 'client' hoặc 'customer'."
+      },
+      {
+        "text": "Cấp trên",
+        "isCorrect": false,
+        "rationale": "Cấp trên là 'superior' hoặc 'boss'."
+      }
+    ],
+    "hint": "Người làm chung một công ty hay một tổ chức với bạn."
+  },
+  {
+    "question": "Một bảo tàng thông báo: 'We are opening a new collection /kə'lekʃn/ of 19th-century paintings next week'. Từ 'collection' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bộ sưu tập",
+        "isCorrect": true,
+        "rationale": "Collection là một tập hợp các đồ vật, hiện vật được gom lại theo chủ đề hoặc sở thích."
+      },
+      {
+        "text": "Sự phá hủy",
+        "isCorrect": false,
+        "rationale": "Sự phá hủy là 'destruction'."
+      },
+      {
+        "text": "Bản báo cáo",
+        "isCorrect": false,
+        "rationale": "Bản báo cáo là 'report'."
+      },
+      {
+        "text": "Cuộc thảo luận",
+        "isCorrect": false,
+        "rationale": "Cuộc thảo luận là 'discussion'."
+      }
+    ],
+    "hint": "Nhiều vật phẩm tương tự được gom lại làm một."
+  },
+  {
+    "question": "Nhà thiết kế phần mềm giải thích: 'This app can combine /kəm'baɪ/ multiple photos into a single image'. Động từ 'combine' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Kết hợp",
+        "isCorrect": true,
+        "rationale": "Combine có nghĩa là phối hợp, gộp hoặc kết hợp hai hay nhiều yếu tố lại với nhau."
+      },
+      {
+        "text": "Chia nhỏ",
+        "isCorrect": false,
+        "rationale": "Chia nhỏ là 'divide' hoặc 'split'."
+      },
+      {
+        "text": "Xóa bỏ",
+        "isCorrect": false,
+        "rationale": "Xóa bỏ là 'delete' hoặc 'erase'."
+      },
+      {
+        "text": "Phóng to",
+        "isCorrect": false,
+        "rationale": "Phóng to là 'magnify' hoặc 'zoom'."
+      }
+    ],
+    "hint": "Hành động gom nhiều thứ lại để hoạt động hoặc tồn tại cùng nhau."
+  },
+  {
+    "question": "Khi mua một chiếc ghế sofa mới, khách hàng nhận xét: 'The cushions are soft, it's very comfortable /'kʌmftəbl/'. Tính từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Thoải mái",
+        "isCorrect": true,
+        "rationale": "Comfortable mô tả cảm giác dễ chịu, dễ dàng về mặt thể xác hoặc tinh thần; thoải mái."
+      },
+      {
+        "text": "Đắt tiền",
+        "isCorrect": false,
+        "rationale": "Đắt tiền là 'expensive'."
+      },
+      {
+        "text": "Cứng nhắc",
+        "isCorrect": false,
+        "rationale": "Cứng nhắc là 'rigid' hoặc 'stiff'."
+      },
+      {
+        "text": "Chật chội",
+        "isCorrect": false,
+        "rationale": "Chật chội là 'cramped'."
+      }
+    ],
+    "hint": "Cảm giác dễ chịu khi ngồi hoặc mặc một thứ gì đó."
+  },
+  {
+    "question": "Người dẫn chương trình tuyên bố: 'The opening ceremony will commence /kə'mens/ in exactly five minutes'. Từ 'commence' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bắt đầu",
+        "isCorrect": true,
+        "rationale": "Commence là một từ trang trọng (formal) có nghĩa tương đương với 'begin' hoặc 'start'."
+      },
+      {
+        "text": "Kết thúc",
+        "isCorrect": false,
+        "rationale": "Kết thúc là 'end' hoặc 'conclude'."
+      },
+      {
+        "text": "Hoãn lại",
+        "isCorrect": false,
+        "rationale": "Hoãn lại là 'postpone' hoặc 'delay'."
+      },
+      {
+        "text": "Hủy bỏ",
+        "isCorrect": false,
+        "rationale": "Hủy bỏ là 'cancel'."
+      }
+    ],
+    "hint": "Từ đồng nghĩa mang tính trang trọng của 'start'."
+  },
+  {
+    "question": "Trong email tuyên dương: 'Management wants to commend /kə'mend/ the sales team for achieving record numbers'. Động từ 'commend' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Khen ngợi, ca ngợi",
+        "isCorrect": true,
+        "rationale": "Commend có nghĩa là tán dương, khen ngợi ai đó một cách chính thức vì đã làm tốt công việc."
+      },
+      {
+        "text": "Khiển trách",
+        "isCorrect": false,
+        "rationale": "Khiển trách là 'reprimand' hoặc 'scold'."
+      },
+      {
+        "text": "Sa thải",
+        "isCorrect": false,
+        "rationale": "Sa thải là 'dismiss' hoặc 'fire'."
+      },
+      {
+        "text": "Thử thách",
+        "isCorrect": false,
+        "rationale": "Thử thách là 'challenge'."
+      }
+    ],
+    "hint": "Hành động bày tỏ sự chấp thuận hoặc khen ngợi đối với thành tích xuất sắc."
+  },
+  {
+    "question": "Thông báo tuyển dụng ghi rõ: 'Salary will be commensurate /kə'menʃərət/ with experience and qualifications'. Tính từ 'commensurate' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tương xứng",
+        "isCorrect": true,
+        "rationale": "Commensurate nghĩa là có cùng kích thước, mức độ, hoặc giá trị; tương xứng, phù hợp với cái gì."
+      },
+      {
+        "text": "Cố định",
+        "isCorrect": false,
+        "rationale": "Cố định là 'fixed'."
+      },
+      {
+        "text": "Thấp hơn",
+        "isCorrect": false,
+        "rationale": "Thấp hơn là 'lower'."
+      },
+      {
+        "text": "Bí mật",
+        "isCorrect": false,
+        "rationale": "Bí mật là 'secret' hoặc 'confidential'."
+      }
+    ],
+    "hint": "Kinh nghiệm càng cao thì mức lương sẽ càng lớn, hai thứ đi đôi với nhau."
+  },
+  {
+    "question": "Dưới bài đăng trực tuyến có dòng chữ: 'Please leave your comment /'kɒment/ below'. Từ 'comment' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bình luận, ý kiến",
+        "isCorrect": true,
+        "rationale": "Comment là lời bày tỏ ý kiến, nhận xét hoặc bình luận về một chủ đề nào đó."
+      },
+      {
+        "text": "Lời bài hát",
+        "isCorrect": false,
+        "rationale": "Lời bài hát là 'lyrics'."
+      },
+      {
+        "text": "Mật khẩu",
+        "isCorrect": false,
+        "rationale": "Mật khẩu là 'password'."
+      },
+      {
+        "text": "Đơn khiếu nại",
+        "isCorrect": false,
+        "rationale": "Đơn khiếu nại là 'complaint form'."
+      }
+    ],
+    "hint": "Những lời bạn viết ra để nêu suy nghĩ của mình về bài viết của người khác."
+  },
+  {
+    "question": "Trong kinh tế học: 'The commercial /kə'mɜ:ʃl/ value of the land has doubled over the past year'. Tính từ 'commercial' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Thuộc thương mại",
+        "isCorrect": true,
+        "rationale": "Commercial nghĩa là liên quan đến việc mua bán hàng hóa, dịch vụ kiếm lời; thuộc về thương mại."
+      },
+      {
+        "text": "Thuộc nông nghiệp",
+        "isCorrect": false,
+        "rationale": "Thuộc nông nghiệp là 'agricultural'."
+      },
+      {
+        "text": "Thuộc cá nhân",
+        "isCorrect": false,
+        "rationale": "Thuộc cá nhân là 'personal'."
+      },
+      {
+        "text": "Thuộc lịch sử",
+        "isCorrect": false,
+        "rationale": "Thuộc lịch sử là 'historical'."
+      }
+    ],
+    "hint": "Liên quan đến kinh doanh và lợi nhuận."
+  },
+  {
+    "question": "Khi đang xem TV, một đứa trẻ phàn nàn: 'There are too many commercials /kə'mɜ:ʃlz/ during this movie'. Danh từ số nhiều 'commercials' ở đây nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Quảng cáo (trên truyền hình/phát thanh)",
+        "isCorrect": true,
+        "rationale": "Khi là danh từ, commercial có nghĩa là đoạn phim ngắn hoặc đoạn âm thanh dùng để quảng cáo hàng hóa trên đài/TV."
+      },
+      {
+        "text": "Nhân vật chính",
+        "isCorrect": false,
+        "rationale": "Nhân vật chính là 'main character' hoặc 'protagonist'."
+      },
+      {
+        "text": "Cảnh hậu trường",
+        "isCorrect": false,
+        "rationale": "Cảnh hậu trường là 'behind-the-scenes'."
+      },
+      {
+        "text": "Tin tức thời sự",
+        "isCorrect": false,
+        "rationale": "Tin tức thời sự là 'news broadcast'."
+      }
+    ],
+    "hint": "Những chương trình ngắn ngắt quãng bộ phim để giới thiệu sản phẩm."
+  },
+  {
+    "question": "Hội đồng thành phố quyết định: 'We will commission /kə'mɪʃn/ a local artist to paint a mural on the wall'. Động từ 'commission' mang nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Ủy nhiệm, đặt làm",
+        "isCorrect": true,
+        "rationale": "Commission (động từ) có nghĩa là chính thức yêu cầu ai đó tạo ra một tác phẩm hoặc thực hiện một nhiệm vụ cho mình."
+      },
+      {
+        "text": "Cấm đoán",
+        "isCorrect": false,
+        "rationale": "Cấm đoán là 'ban' hoặc 'forbid'."
+      },
+      {
+        "text": "Mua đứt",
+        "isCorrect": false,
+        "rationale": "Mua đứt là 'buy out'."
+      },
+      {
+        "text": "Phê bình",
+        "isCorrect": false,
+        "rationale": "Phê bình là 'criticize'."
+      }
+    ],
+    "hint": "Hành động trả tiền thuê chuyên gia/nghệ sĩ thiết kế riêng một sản phẩm."
+  },
+  {
+    "question": "Khi đọc tin tức thể thao: 'The baseball commissioner /kə'mɪʃənər/ announced new rules today'. Danh từ 'commissioner' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Ủy viên, người đứng đầu một tổ chức",
+        "isCorrect": true,
+        "rationale": "Commissioner là thành viên của một ủy ban hoặc người chịu trách nhiệm đứng đầu một bộ phận chính phủ, tổ chức thể thao lớn."
+      },
+      {
+        "text": "Vận động viên",
+        "isCorrect": false,
+        "rationale": "Vận động viên là 'athlete'."
+      },
+      {
+        "text": "Khán giả",
+        "isCorrect": false,
+        "rationale": "Khán giả là 'spectator'."
+      },
+      {
+        "text": "Trọng tài",
+        "isCorrect": false,
+        "rationale": "Trọng tài là 'referee' hoặc 'umpire'."
+      }
+    ],
+    "hint": "Một chức danh quản lý cao cấp trong các cơ quan hoặc hiệp hội lớn."
+  },
+  {
+    "question": "Tại buổi lễ ký kết hợp đồng, đối tác phát biểu: 'This agreement shows our commitment /kə'mɪtmənt/ to long-term growth'. Từ 'commitment' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự cam kết, tận tụy",
+        "isCorrect": true,
+        "rationale": "Commitment là lời hứa, sự cam kết vững chắc hoặc sự tận tụy gắn bó với một mục tiêu nào đó."
+      },
+      {
+        "text": "Sự nghi ngờ",
+        "isCorrect": false,
+        "rationale": "Sự nghi ngờ là 'suspicion' hoặc 'doubt'."
+      },
+      {
+        "text": "Sự từ chối",
+        "isCorrect": false,
+        "rationale": "Sự từ chối là 'refusal' hoặc 'rejection'."
+      },
+      {
+        "text": "Sự hủy bỏ",
+        "isCorrect": false,
+        "rationale": "Sự hủy bỏ là 'cancellation'."
+      }
+    ],
+    "hint": "Tinh thần sẵn sàng dồn tâm sức để thực hiện bằng được điều đã hứa."
+  },
+  {
+    "question": "Văn bản hành chính ghi rõ: 'The organizing committee /kə'mɪti/ will meet tomorrow at 9 AM'. Từ 'committee' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Ủy ban, ban nhóm",
+        "isCorrect": true,
+        "rationale": "Committee là một nhóm người được chọn ra để đại diện quản lý, đưa ra quyết định cho một tổ chức hoặc sự kiện."
+      },
+      {
+        "text": "Công ty liên doanh",
+        "isCorrect": false,
+        "rationale": "Công ty liên doanh là 'joint venture'."
+      },
+      {
+        "text": "Khách hàng thân thiết",
+        "isCorrect": false,
+        "rationale": "Khách hàng thân thiết là 'loyal customers'."
+      },
+      {
+        "text": "Lực lượng lao động",
+        "isCorrect": false,
+        "rationale": "Lực lượng lao động là 'workforce'."
+      }
+    ],
+    "hint": "Một tập thể gồm nhiều thành viên cùng họp bàn xử lý công việc chung."
+  },
+  {
+    "question": "Khi phỏng vấn tuyển dụng, ứng viên nói: 'I commute /kə'mju:t/ by train from the suburbs every day'. Động từ 'commute' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đi làm, đi lại thường xuyên (giữa nhà và nơi làm việc)",
+        "isCorrect": true,
+        "rationale": "Commute là hành động di chuyển đều đặn hàng ngày trên một quãng đường cố định từ nhà đến chỗ làm hoặc trường học."
+      },
+      {
+        "text": "Đi du lịch nước ngoài",
+        "isCorrect": false,
+        "rationale": "Đi du lịch nước ngoài là 'travel abroad'."
+      },
+      {
+        "text": "Chuyển nhà",
+        "isCorrect": false,
+        "rationale": "Chuyển nhà là 'relocate' hoặc 'move house'."
+      },
+      {
+        "text": "Đi bộ tập thể dục",
+        "isCorrect": false,
+        "rationale": "Đi bộ tập thể dục là 'walk for exercise'."
+      }
+    ],
+    "hint": "Hành trình sáng đi tối về quen thuộc của dân văn phòng."
+  },
+  {
+    "question": "Báo cáo giao thông cho biết: 'The new subway line aims to reduce overcrowding for commuters /kə'mju:tərz/'. Danh từ số nhiều 'commuters' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Người đi làm xa (bằng phương tiện giao thông di chuyển thường xuyên)",
+        "isCorrect": true,
+        "rationale": "Commuter là danh từ chỉ những người hàng ngày phải di chuyển quãng đường xa bằng xe bus, tàu hỏa... để đến nơi làm việc."
+      },
+      {
+        "text": "Khách du lịch quốc tế",
+        "isCorrect": false,
+        "rationale": "Khách du lịch quốc tế là 'international tourists'."
+      },
+      {
+        "text": "Tài xế taxi",
+        "isCorrect": false,
+        "rationale": "Tài xế taxi là 'taxi drivers'."
+      },
+      {
+        "text": "Người đi bộ qua đường",
+        "isCorrect": false,
+        "rationale": "Người đi bộ qua đường là 'pedestrians'."
+      }
+    ],
+    "hint": "Những người tạo nên làn sóng di chuyển đông đúc vào giờ cao điểm."
+  },
+  {
+    "question": "Khi tư vấn mua máy ảnh: 'If you travel a lot, you should buy a compact /'kɒmpækt/ camera'. Tính từ 'compact' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Gọn nhẹ, nhỏ gọn",
+        "isCorrect": true,
+        "rationale": "Compact mô tả những vật có kích thước nhỏ hơn thông thường một cách tiện lợi nhưng vẫn đầy đủ chức năng."
+      },
+      {
+        "text": "Cồng kềnh",
+        "isCorrect": false,
+        "rationale": "Cồng kềnh là 'bulky'."
+      },
+      {
+        "text": "Độ phân giải thấp",
+        "isCorrect": false,
+        "rationale": "Độ phân giải thấp là 'low resolution'."
+      },
+      {
+        "text": "Giá rẻ",
+        "isCorrect": false,
+        "rationale": "Giá rẻ là 'cheap' hoặc 'inexpensive'."
+      }
+    ],
+    "hint": "Thiết kế tiết kiệm không gian, dễ bỏ túi mang đi."
+  },
+  {
+    "question": "Trên máy bay, tiếp viên nhắc nhở: 'Please place your small bags under the seat or in the overhead compartment /kəm'pɑ:rtmənt/'. Từ 'compartment' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Ngăn chứa, khoang",
+        "isCorrect": true,
+        "rationale": "Compartment là một phần không gian được chia nhỏ ra trong tủ, xe hỏa, máy bay... để chứa đồ."
+      },
+      {
+        "text": "Cánh cửa hành khách",
+        "isCorrect": false,
+        "rationale": "Cánh cửa hành khách là 'passenger door'."
+      },
+      {
+        "text": "Đường băng",
+        "isCorrect": false,
+        "rationale": "Đường băng là 'runway'."
+      },
+      {
+        "text": "Ghế ngồi",
+        "isCorrect": false,
+        "rationale": "Ghế ngồi là 'seat'."
+      }
+    ],
+    "hint": "Một hộp hoặc một hộc tủ được chia vách riêng biệt."
+  },
+  {
+    "question": "Khi mua linh kiện máy tính, kỹ thuật viên dặn: 'Make sure this graphic card is compatible /kəm'pætəbl/ with your motherboard'. Từ 'compatible' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tương thích",
+        "isCorrect": true,
+        "rationale": "Compatible chỉ khả năng hoạt động tốt cùng nhau mà không xảy ra xung đột hay lỗi của máy móc, phần mềm."
+      },
+      {
+        "text": "Hiện đại",
+        "isCorrect": false,
+        "rationale": "Hiện đại là 'modern' hoặc 'state-of-the-art'."
+      },
+      {
+        "text": "Xung đột",
+        "isCorrect": false,
+        "rationale": "Xung đột là 'conflicting'."
+      },
+      {
+        "text": "Độc lập",
+        "isCorrect": false,
+        "rationale": "Độc lập là 'independent'."
+      }
+    ],
+    "hint": "Có thể kết nối và chạy chung với nhau một cách mượt mà."
+  },
+  {
+    "question": "Đại diện hãng bảo hiểm thông báo: 'The airline will compensate /'kɒmpenseɪt/ passengers for the lost luggage'. Động từ 'compensate' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đền bù, bồi thường",
+        "isCorrect": true,
+        "rationale": "Compensate là hành động trả tiền hoặc tặng hiện vật có giá trị tương đương để bù đắp tổn thất, thiệt hại do lỗi của mình gây ra."
+      },
+      {
+        "text": "Tịch thu",
+        "isCorrect": false,
+        "rationale": "Tịch thu là 'confiscate'."
+      },
+      {
+        "text": "Tìm kiếm",
+        "isCorrect": false,
+        "rationale": "Tìm kiếm là 'search for'."
+      },
+      {
+        "text": "Phạt tiền",
+        "isCorrect": false,
+        "rationale": "Phạt tiền ai đó là 'fine'."
+      }
+    ],
+    "hint": "Trả lại giá trị vật chất nhằm chuộc lỗi hoặc đền ơn."
+  },
+  {
+    "question": "Trong môi trường kinh doanh khốc liệt: 'Small shops find it hard to compete /kəm'pi:t/ against giant supermarkets'. Động từ 'compete' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Cạnh tranh",
+        "isCorrect": true,
+        "rationale": "Compete nghĩa là cố gắng giành chiến thắng hoặc đạt được lợi thế trước người khác; cạnh tranh, đua tranh."
+      },
+      {
+        "text": "Hợp tác",
+        "isCorrect": false,
+        "rationale": "Hợp tác là 'cooperate' hoặc 'collaborate'."
+      },
+      {
+        "text": "Sáp nhập",
+        "isCorrect": false,
+        "rationale": "Sáp nhập là 'merge'."
+      },
+      {
+        "text": "Nhượng bộ",
+        "isCorrect": false,
+        "rationale": "Nhượng bộ là 'concede'."
+      }
+    ],
+    "hint": "Cố gắng chứng minh mình giỏi hơn hoặc thu hút nhiều khách hơn đối thủ."
+  },
+  {
+    "question": "Khi nhận xét về năng lực của thư ký mới: 'She is a highly competent /'kɒmpɪtənt/ employee who handles tasks efficiently'. Tính từ 'competent' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Có năng lực, thạo việc",
+        "isCorrect": true,
+        "rationale": "Competent mô tả một người có đầy đủ kỹ năng, kiến thức và khả năng để làm tốt công việc của mình."
+      },
+      {
+        "text": "Lười biếng",
+        "isCorrect": false,
+        "rationale": "Lười biếng là 'lazy'."
+      },
+      {
+        "text": "Thiếu kinh nghiệm",
+        "isCorrect": false,
+        "rationale": "Thiếu kinh nghiệm là 'inexperienced'."
+      },
+      {
+        "text": "Kiêu ngạo",
+        "isCorrect": false,
+        "rationale": "Kiêu ngạo là 'arrogant'."
+      }
+    ],
+    "hint": "Đủ trình độ và làm việc đạt yêu cầu chất lượng cao."
+  },
+  {
+    "question": "Một thông báo trên tờ rơi trường học: 'The photography competition /ˌkɒmpə'tɪʃn/ is open to all students'. Từ 'competition' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Cuộc thi, sự cạnh tranh",
+        "isCorrect": true,
+        "rationale": "Competition là danh từ của 'compete', chỉ một sự kiện thi đấu hoặc trạng thái giành giật thị trường giữa các bên."
+      },
+      {
+        "text": "Buổi hội thảo",
+        "isCorrect": false,
+        "rationale": "Buổi hội thảo là 'seminar' hoặc 'workshop'."
+      },
+      {
+        "text": "Lễ tốt nghiệp",
+        "isCorrect": false,
+        "rationale": "Lễ tốt nghiệp là 'graduation ceremony'."
+      },
+      {
+        "text": "Khóa đào tạo",
+        "isCorrect": false,
+        "rationale": "Khóa đào tạo là 'training course'."
+      }
+    ],
+    "hint": "Nơi mọi người nộp tác phẩm để phân định người thắng kẻ thua."
+  },
+  {
+    "question": "Để tồn tại, doanh nghiệp luôn tìm cách duy trì 'competitive /kəm'petətɪv/ prices'. Tính từ 'competitive' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Có tính cạnh tranh (giá tốt, có lợi thế)",
+        "isCorrect": true,
+        "rationale": "Competitive dùng để mô tả giá cả hoặc dịch vụ đủ tốt, đủ rẻ để thu hút khách hàng hơn đối thủ."
+      },
+      {
+        "text": "Quá đắt đỏ",
+        "isCorrect": false,
+        "rationale": "Quá đắt đỏ là 'exorbitant' hoặc 'overpriced'."
+      },
+      {
+        "text": "Không đổi",
+        "isCorrect": false,
+        "rationale": "Không đổi là 'unchanged' hoặc 'constant'."
+      },
+      {
+        "text": "Độc quyền",
+        "isCorrect": false,
+        "rationale": "Độc quyền là 'monopolistic'."
+      }
+    ],
+    "hint": "Thuộc tính giúp sản phẩm dễ dàng đứng vững trước các đối thủ khác."
+  },
+  {
+    "question": "Giám đốc phân tích thị trường: 'We need to spy on our main competitor /kəm'petɪtər/'. Từ 'competitor' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đối thủ cạnh tranh",
+        "isCorrect": true,
+        "rationale": "Competitor là cá nhân hoặc tổ chức kinh doanh cùng một mặt hàng và muốn giành lấy khách hàng của bạn."
+      },
+      {
+        "text": "Nhà cung ứng",
+        "isCorrect": false,
+        "rationale": "Nhà cung ứng là 'supplier'."
+      },
+      {
+        "text": "Nhà đầu tư",
+        "isCorrect": false,
+        "rationale": "Nhà đầu tư là 'investor'."
+      },
+      {
+        "text": "Đối tác chiến lược",
+        "isCorrect": false,
+        "rationale": "Đối tác chiến lược là 'strategic partner'."
+      }
+    ],
+    "hint": "Người hoặc công ty cùng bán một loại sản phẩm giống bạn."
+  },
+  {
+    "question": "Yêu cầu của dự án: 'You need to compile /kəm'paɪ/ all customer feedback into a single report'. Động từ 'compile' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Biên soạn, tổng hợp",
+        "isCorrect": true,
+        "rationale": "Compile nghĩa là thu thập thông tin từ nhiều nguồn khác nhau để sắp xếp lại thành một cuốn sách, danh sách, hay báo cáo."
+      },
+      {
+        "text": "Phát tán",
+        "isCorrect": false,
+        "rationale": "Phát tán là 'distribute' hoặc 'scatter'."
+      },
+      {
+        "text": "Xóa sạch dữ liệu",
+        "isCorrect": false,
+        "rationale": "Xóa sạch dữ liệu là 'wipe data'."
+      },
+      {
+        "text": "Dịch thuật",
+        "isCorrect": false,
+        "rationale": "Dịch thuật là 'translate'."
+      }
+    ],
+    "hint": "Hành động gom nhặt tư liệu rời rạc rồi xếp lại cho hệ thống."
+  },
+  {
+    "question": "Khách hàng tức giận gọi điện: 'I want to complain /kəm'pleɪn/ about the terrible service I received yesterday'. Động từ 'complain' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Phàn nàn, khiếu nại",
+        "isCorrect": true,
+        "rationale": "Complain là việc nói hoặc viết thư để bày tỏ sự bất mãn, không hài lòng về điều gì đó."
+      },
+      {
+        "text": "Khen ngợi",
+        "isCorrect": false,
+        "rationale": "Khen ngợi là 'praise' hoặc 'compliment'."
+      },
+      {
+        "text": "Đặt hàng thêm",
+        "isCorrect": false,
+        "rationale": "Đặt hàng thêm là 'order more'."
+      },
+      {
+        "text": "Thanh toán tiền",
+        "isCorrect": false,
+        "rationale": "Thanh toán tiền là 'make a payment'."
+      }
+    ],
+    "hint": "Nói ra những điểm dở tệ của dịch vụ khiến bạn bực mình."
+  },
+  {
+    "question": "Bộ phận chăm sóc khách hàng báo cáo: 'We received a serious complaint /kəm'pleɪnt/ regarding product defects'. Từ 'complaint' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Lời phàn nàn, đơn khiếu nại",
+        "isCorrect": true,
+        "rationale": "Complaint là danh từ của 'complain', chỉ sự bất bình hoặc văn bản khiếu nại lỗi sản phẩm."
+      },
+      {
+        "text": "Hóa đơn mua hàng",
+        "isCorrect": false,
+        "rationale": "Hóa đơn mua hàng là 'receipt' hoặc 'invoice'."
+      },
+      {
+        "text": "Thư cảm ơn",
+        "isCorrect": false,
+        "rationale": "Thư cảm ơn là 'thank-you letter'."
+      },
+      {
+        "text": "Phiếu giảm giá",
+        "isCorrect": false,
+        "rationale": "Phiếu giảm giá là 'coupon' hoặc 'voucher'."
+      }
+    ],
+    "hint": "Sản phẩm của hành động 'complain'."
+  },
+  {
+    "question": "Người giám sát nhắc nhở công nhân: 'You must complete /kəm'pli:t/ the safety training before starting work'. Động từ 'complete' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Hoàn thành",
+        "isCorrect": true,
+        "rationale": "Complete nghĩa là làm cho xong, hoàn tất một công việc hoặc một chuỗi hành động."
+      },
+      {
+        "text": "Hủy bỏ giữa chừng",
+        "isCorrect": false,
+        "rationale": "Hủy bỏ giữa chừng là 'abort' hoặc 'quit'."
+      },
+      {
+        "text": "Hoãn lại ngày mai",
+        "isCorrect": false,
+        "rationale": "Hoãn lại ngày mai là 'postpone'."
+      },
+      {
+        "text": "Kéo dài thời gian",
+        "isCorrect": false,
+        "rationale": "Kéo dài là 'extend' hoặc 'prolong'."
+      }
+    ],
+    "hint": "Làm cho phần việc được trọn vẹn từ đầu đến cuối."
+  },
+  {
+    "question": "Tại lễ bàn giao nhà: 'The project is near completion /kəm'pli:ʃn/, only minor details are left'. Từ 'completion' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự hoàn thành",
+        "isCorrect": true,
+        "rationale": "Completion là danh từ của 'complete', trạng thái hoàn tất toàn bộ tiến độ."
+      },
+      {
+        "text": "Sự khởi đầu",
+        "isCorrect": false,
+        "rationale": "Sự khởi đầu là 'beginning' hoặc 'commencement'."
+      },
+      {
+        "text": "Sự thất bại",
+        "isCorrect": false,
+        "rationale": "Sự thất bại là 'failure'."
+      },
+      {
+        "text": "Sự tạm ngừng",
+        "isCorrect": false,
+        "rationale": "Sự tạm ngừng là 'suspension' hoặc 'pause'."
+      }
+    ],
+    "hint": "Cột mốc kết thúc thắng lợi một công trình hay nhiệm vụ."
+  },
+  {
+    "question": "Luật sư nhắc nhở doanh nghiệp: 'We must ensure compliance /kəm'plaɪəns/ with the new environmental laws'. Từ 'compliance' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự tuân thủ",
+        "isCorrect": true,
+        "rationale": "Compliance là việc làm đúng theo các luật lệ, quy định chính thức đề ra."
+      },
+      {
+        "text": "Sự phản đối",
+        "isCorrect": false,
+        "rationale": "Sự phản đối là 'opposition' hoặc 'resistance'."
+      },
+      {
+        "text": "Sự sửa đổi luật",
+        "isCorrect": false,
+        "rationale": "Sự sửa đổi luật là 'amendment'."
+      },
+      {
+        "text": "Sự lờ đi, bỏ qua",
+        "isCorrect": false,
+        "rationale": "Sự lờ đi là 'ignorance'."
+      }
+    ],
+    "hint": "Hành động nghe theo và làm đúng boong luật pháp quy định."
+  },
+  {
+    "question": "Khi đối tác làm tốt, bạn nên gửi 'compliment /'kɒmplɪmənt/' cho họ. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Lời khen ngợi",
+        "isCorrect": true,
+        "rationale": "Compliment là lời nói hoặc hành động bày tỏ sự khen ngợi, ngưỡng mộ với ai đó."
+      },
+      {
+        "text": "Lời chỉ trích",
+        "isCorrect": false,
+        "rationale": "Lời chỉ chỉ trích là 'criticism'."
+      },
+      {
+        "text": "Lời xin lỗi",
+        "isCorrect": false,
+        "rationale": "Lời xin lỗi là 'apology'."
+      },
+      {
+        "text": "Lời cảnh báo",
+        "isCorrect": false,
+        "rationale": "Lời cảnh báo là 'warning'."
+      }
+    ],
+    "hint": "Câu nói ngọt ngào khiến người nghe cảm thấy tự hào về bản thân."
+  },
+  {
+    "question": "Khách sạn thông báo: 'Every guest receives a complimentary /ˌkɒmplɪ'mentri/ breakfast every morning'. 'Complimentary' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Miễn phí",
+        "isCorrect": true,
+        "rationale": "Trong ngữ cảnh dịch vụ thương mại, complimentary nghĩa là món đồ được tặng không, không tính thêm tiền vào hóa đơn."
+      },
+      {
+        "text": "Rất đắt đỏ",
+        "isCorrect": false,
+        "rationale": "Đắt đỏ là 'expensive'."
+      },
+      {
+        "text": "Tự chọn",
+        "isCorrect": false,
+        "rationale": "Tự chọn là 'optional'."
+      },
+      {
+        "text": "Bắt buộc phải trả tiền",
+        "isCorrect": false,
+        "rationale": "Bắt buộc trả tiền là 'charged'."
+      }
+    ],
+    "hint": "Từ đồng nghĩa lịch sự hơn của từ 'free'."
+  },
+  {
+    "question": "Trong sổ tay nhân viên: 'All staff members must comply with /kəm'plaɪ wɪð/ safety regulations'. Cụm động từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tuân thủ",
+        "isCorrect": true,
+        "rationale": "Comply with có nghĩa là tuân theo pháp luật, quy tắc hay mệnh lệnh đề ra."
+      },
+      {
+        "text": "Thay đổi",
+        "isCorrect": false,
+        "rationale": "Thay đổi là 'change' hoặc 'modify'."
+      },
+      {
+        "text": "Xem nhẹ",
+        "isCorrect": false,
+        "rationale": "Xem nhẹ là 'neglect' hoặc 'disregard'."
+      },
+      {
+        "text": "Báo cáo",
+        "isCorrect": false,
+        "rationale": "Báo cáo là 'report'."
+      }
+    ],
+    "hint": "Đi kèm giới từ 'with' để chỉ việc chấp hành quy định."
+  },
+  {
+    "question": "Người mẹ lo lắng nói với bác sĩ: 'I am very concerned /kən'sɜ:rnd/ about my child's high fever'. Tính từ 'concerned' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Lo lắng, quan tâm",
+        "isCorrect": true,
+        "rationale": "Concerned nghĩa là lo âu, bận tâm hoặc chăm chú chú ý đến một vấn đề có thể gây hại."
+      },
+      {
+        "text": "Thờ ơ, vô tâm",
+        "isCorrect": false,
+        "rationale": "Thờ ơ là 'indifferent' hoặc 'apathetic'."
+      },
+      {
+        "text": "Vui mừng",
+        "isCorrect": false,
+        "rationale": "Vui mừng là 'happy' hoặc 'excited'."
+      },
+      {
+        "text": "Giận dữ",
+        "isCorrect": false,
+        "rationale": "Giận dữ là 'furious' hoặc 'angry'."
+      }
+    ],
+    "hint": "Trạng thái tâm lý không yên tâm khi một chuyện xấu đang xảy ra."
+  },
+  {
+    "question": "Tại công trường: 'The workers are pouring concrete /'kɒŋkri:t/ to lay the foundation'. Danh từ 'concrete' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bê tông",
+        "isCorrect": true,
+        "rationale": "Concrete là hỗn hợp cát, đá, nước và xi măng trộn lại thành khối đá nhân tạo cứng để xây dựng nhà cửa."
+      },
+      {
+        "text": "Thạch cao",
+        "isCorrect": false,
+        "rationale": "Thạch cao là 'gypsum' hoặc 'plaster'."
+      },
+      {
+        "text": "Nhựa đường",
+        "isCorrect": false,
+        "rationale": "Nhựa đường là 'asphalt'."
+      },
+      {
+        "text": "Gỗ ép",
+        "isCorrect": false,
+        "rationale": "Gỗ ép là 'plywood'."
+      }
+    ],
+    "hint": "Vật liệu xây dựng xám xịt và cực kỳ kiên cố khi khô."
+  },
+  {
+    "question": "Bác sĩ kiểm tra và nhận định: 'The patient's condition /kən'dɪʃn/ is stable now'. Từ 'condition' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tình trạng, điều kiện",
+        "isCorrect": true,
+        "rationale": "Condition chỉ thể trạng sức khỏe của một sinh vật hoặc trạng thái vật lý của đồ vật."
+      },
+      {
+        "text": "Phương pháp điều trị",
+        "isCorrect": false,
+        "rationale": "Phương pháp điều trị là 'treatment' hoặc 'therapy'."
+      },
+      {
+        "text": "Hóa đơn viện phí",
+        "isCorrect": false,
+        "rationale": "Viện phí là 'medical bill'."
+      },
+      {
+        "text": "Đơn thuốc",
+        "isCorrect": false,
+        "rationale": "Đơn thuốc là 'prescription'."
+      }
+    ],
+    "hint": "Cách mà một người hoặc vật đang tồn tại ở một thời điểm cụ thể."
+  },
+  {
+    "question": "Lãnh đạo ra chỉ thị: 'We will conduct /kən'dʌkt/ an internal audit next Monday'. Động từ 'conduct' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tiến hành, thực hiện",
+        "isCorrect": true,
+        "rationale": "Conduct dùng để diễn tả việc tổ chức và thực hiện một hoạt động cụ thể (như nghiên cứu, khảo sát, kiểm toán)."
+      },
+      {
+        "text": "Trì hoãn",
+        "isCorrect": false,
+        "rationale": "Trì hoãn là 'postpone' hoặc 'delay'."
+      },
+      {
+        "text": "Hủy bỏ hoàn toàn",
+        "isCorrect": false,
+        "rationale": "Hủy bỏ là 'cancel'."
+      },
+      {
+        "text": "Từ chối tham gia",
+        "isCorrect": false,
+        "rationale": "Từ chối là 'refuse'."
+      }
+    ],
+    "hint": "Từ đồng nghĩa có tính trang trọng của 'carry out' hoặc 'do'."
+  },
+  {
+    "question": "Trước khi bước vào phòng thi, giáo viên dặn học sinh: 'Be confident /'kɒnfɪdent/! You have studied hard'. Tính từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tự tin",
+        "isCorrect": true,
+        "rationale": "Confident mô tả trạng thái tin tưởng mạnh mẽ vào năng lực, giá trị của bản thân."
+      },
+      {
+        "text": "Lo sợ",
+        "isCorrect": false,
+        "rationale": "Lo sợ là 'fearful' hoặc 'scared'."
+      },
+      {
+        "text": "Nhút nhát",
+        "isCorrect": false,
+        "rationale": "Nhút nhát là 'shy' hoặc 'timid'."
+      },
+      {
+        "text": "Chủ quan",
+        "isCorrect": false,
+        "rationale": "Chủ quan là 'subjective' hoặc 'overconfident'."
+      }
+    ],
+    "hint": "Cảm giác tin tưởng mình có thể làm tốt và chiến thắng."
+  },
+  {
+    "question": "Trên phong bì thư gửi đối tác có đóng dấu chữ đỏ lớn: 'Confidential /ˌkɒnfɪ'denʃl/'. Từ này cảnh báo điều gì?",
+    "answerOptions": [
+      {
+        "text": "Tài liệu bảo mật, kín",
+        "isCorrect": true,
+        "rationale": "Confidential nghĩa là thông tin chỉ được lưu hành nội bộ hoặc riêng tư, không được tiết lộ ra ngoài trái phép."
+      },
+      {
+        "text": "Tài liệu miễn phí",
+        "isCorrect": false,
+        "rationale": "Miễn phí là 'free' hoặc 'complimentary'."
+      },
+      {
+        "text": "Thư quảng cáo",
+        "isCorrect": false,
+        "rationale": "Thư quảng cáo là 'promotional letter'."
+      },
+      {
+        "text": "Tài liệu công khai",
+        "isCorrect": false,
+        "rationale": "Công khai là 'public'."
+      }
+    ],
+    "hint": "Nội dung bên trong là bí mật kinh doanh, người ngoài không được đọc."
+  },
+  {
+    "question": "Mọi nhân viên mới đều phải ký vào 'confidentiality /ˌkɒnfɪˌdenʃi'æləti/ agreement'. Danh từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự bảo mật, cam kết giữ kín thông tin",
+        "isCorrect": true,
+        "rationale": "Confidentiality chỉ tính chất hoặc trạng thái cần giữ bí mật của thông tin."
+      },
+      {
+        "text": "Sự công khai tài chính",
+        "isCorrect": false,
+        "rationale": "Công khai tài chính là 'financial disclosure'."
+      },
+      {
+        "text": "Sự tự do ngôn luận",
+        "isCorrect": false,
+        "rationale": "Tự do ngôn luận là 'freedom of speech'."
+      },
+      {
+        "text": "Hợp đồng thử việc",
+        "isCorrect": false,
+        "rationale": "Hợp đồng thử việc là 'probationary contract'."
+      }
+    ],
+    "hint": "Danh từ tương ứng với tính từ 'confidential'."
+  },
+  {
+    "question": "Khi bạn gọi điện đến khách sạn để chắc chắn về phòng đã đặt: 'I'd like to confirm /kən'fɜ:rm/ my reservation'. Động từ 'confirm' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Xác nhận",
+        "isCorrect": true,
+        "rationale": "Confirm có nghĩa là làm cho một lịch trình, sự kiện hoặc thông tin trở nên chắc chắn chính xác bằng văn bản hoặc lời nói."
+      },
+      {
+        "text": "Hủy bỏ lịch",
+        "isCorrect": false,
+        "rationale": "Hủy bỏ là 'cancel'."
+      },
+      {
+        "text": "Thay đổi ngày",
+        "isCorrect": false,
+        "rationale": "Thay đổi ngày là 'change dates'."
+      },
+      {
+        "text": "Phàn nàn giá",
+        "isCorrect": false,
+        "rationale": "Phàn nàn giá là 'complain about prices'."
+      }
+    ],
+    "hint": "Hành động chứng thực để bảo đảm không có nhầm lẫn."
+  },
+  {
+    "question": "Hệ thống tự động gửi về điện thoại của bạn một tin nhắn 'confirmation /ˌkɒnfər'meɪʃn/ code'. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự xác nhận, mã xác nhận",
+        "isCorrect": true,
+        "rationale": "Confirmation là danh từ chỉ hành động chứng thực thông tin hoặc bằng chứng xác minh giao dịch thành công."
+      },
+      {
+        "text": "Mã khuyến mãi",
+        "isCorrect": false,
+        "rationale": "Mã khuyến mãi là 'promo code' hoặc 'discount code'."
+      },
+      {
+        "text": "Lỗi hệ thống",
+        "isCorrect": false,
+        "rationale": "Lỗi hệ thống là 'system error'."
+      },
+      {
+        "text": "Yêu cầu thanh toán",
+        "isCorrect": false,
+        "rationale": "Yêu cầu thanh toán là 'payment request'."
+      }
+    ],
+    "hint": "Danh từ của động từ 'confirm'."
+  },
+  {
+    "question": "Bản tin radio lúc 8 giờ sáng báo cáo: 'The city center is heavily congested /kən'dʒestɪd/ due to an accident'. Tính từ 'congested' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tắc nghẽn, đông nghịt",
+        "isCorrect": true,
+        "rationale": "Congested mô tả tình trạng quá tải xe cộ trên đường hoặc quá tải người trong một không gian chật hẹp dẫn đến kẹt cứng."
+      },
+      {
+        "text": "Vắng vẻ, thưa thớt",
+        "isCorrect": false,
+        "rationale": "Vắng vẻ là 'deserted' hoặc 'sparse'."
+      },
+      {
+        "text": "Thông thoáng",
+        "isCorrect": false,
+        "rationale": "Thông thoáng là 'clear' hoặc 'open'."
+      },
+      {
+        "text": "Đang sửa chữa",
+        "isCorrect": false,
+        "rationale": "Đang sửa chữa là 'under construction'."
+      }
+    ],
+    "hint": "Từ miêu tả cảnh tượng kẹt xe kéo dài giờ cao điểm."
+  },
+  {
+    "question": "Khi kiểm tra thiết bị mạng internet: 'Please check the cable connection /kə'nekʃn/ at the back of the router'. Từ 'connection' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự kết nối, mối liên kết",
+        "isCorrect": true,
+        "rationale": "Connection là trạng thái hoặc điểm giao nhau kết nối hai hoặc nhiều vật thể, thiết bị lại với nhau."
+      },
+      {
+        "text": "Sự đứt đoạn",
+        "isCorrect": false,
+        "rationale": "Sự đứt đoạn là 'disconnection' hoặc 'interruption'."
+      },
+      {
+        "text": "Tốc độ truyền dữ liệu",
+        "isCorrect": false,
+        "rationale": "Tốc độ truyền dữ liệu là 'data transfer speed'."
+      },
+      {
+        "text": "Nguồn điện",
+        "isCorrect": false,
+        "rationale": "Nguồn điện là 'power source'."
+      }
+    ],
+    "hint": "Nơi liên kết tín hiệu hoặc dây dẫn với nhau."
+  },
+  {
+    "question": "Tổ chức bảo vệ thiên nhiên phát động dự án: 'Wildlife conservation /ˌkɒnsər'veɪʃn/ is crucial for maintaining ecosystems'. Từ 'conservation' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự bảo tồn, gìn giữ",
+        "isCorrect": true,
+        "rationale": "Conservation chỉ việc bảo vệ, quản lý môi trường, tài nguyên thiên nhiên hoặc các công trình cổ để tránh bị phá hủy, cạn kiệt."
+      },
+      {
+        "text": "Sự khai thác triệt để",
+        "isCorrect": false,
+        "rationale": "Sự khai thác triệt để là 'exploitation'."
+      },
+      {
+        "text": "Sự ô nhiễm bẩn thỉu",
+        "isCorrect": false,
+        "rationale": "Sự ô nhiễm là 'pollution'."
+      },
+      {
+        "text": "Sự đô thị hóa",
+        "isCorrect": false,
+        "rationale": "Sự đô thị hóa là 'urbanization'."
+      }
+    ],
+    "hint": "Hành động bảo vệ thiên nhiên hoang dã khỏi bàn tay tàn phá của con người."
+  },
+  {
+    "question": "Áp phích tại hồ nước công cộng kêu gọi: 'Please conserve /kən'sɜ:rv/ water during the dry season'. Động từ 'conserve' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bảo tồn, tiết kiệm, giữ gìn",
+        "isCorrect": true,
+        "rationale": "Conserve có nghĩa là sử dụng một cách khôn ngoan và tiết kiệm tài nguyên để chúng không bị lãng phí hay mất đi."
+      },
+      {
+        "text": "Xả thẳng ra ngoài",
+        "isCorrect": false,
+        "rationale": "Xả ra ngoài là 'discharge' hoặc 'release'."
+      },
+      {
+        "text": "Lãng phí tiêu xài",
+        "isCorrect": false,
+        "rationale": "Lãng phí là 'waste' hoặc 'squander'."
+      },
+      {
+        "text": "Lọc sạch tạp chất",
+        "isCorrect": false,
+        "rationale": "Lọc sạch là 'filter' hoặc 'purify'."
+      }
+    ],
+    "hint": "Tránh dùng phí phạm để dành tài nguyên cho tương lai."
+  },
+  {
+    "question": "Khi đứng trước các lựa chọn đầu tư mạo hiểm: 'We need to carefully consider /kən'sɪdər/ all financial risks'. Động từ 'consider' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Cân nhắc, xem xét",
+        "isCorrect": true,
+        "rationale": "Consider là việc suy nghĩ thấu đáo về điều gì đó, đặc biệt trước khi đưa ra một quyết định quan trọng."
+      },
+      {
+        "text": "Lờ đi không quan tâm",
+        "isCorrect": false,
+        "rationale": "Lờ đi là 'ignore' hoặc 'disregard'."
+      },
+      {
+        "text": "Từ chối ngay lập tức",
+        "isCorrect": false,
+        "rationale": "Từ chối ngay là 'reject immediately'."
+      },
+      {
+        "text": "Đồng ý mù quáng",
+        "isCorrect": false,
+        "rationale": "Đồng ý mù quáng là 'agree blindly'."
+      }
+    ],
+    "hint": "Đặt lên bàn cân suy nghĩ mặt tốt và mặt hại."
+  },
+  {
+    "question": "Sau một tuần thảo luận, hội đồng thông báo: 'After due consideration /kənˌsɪdə'reɪʃn/, we approved the plan'. Từ 'consideration' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự cân nhắc, xem xét kỹ lưỡng",
+        "isCorrect": true,
+        "rationale": "Consideration là danh từ của động từ 'consider', trạng thái suy nghĩ tính toán thấu đáo."
+      },
+      {
+        "text": "Sự bất cẩn ngẫu hứng",
+        "isCorrect": false,
+        "rationale": "Sự bất cẩn ngẫu hứng là 'carelessness' hoặc 'impulsiveness'."
+      },
+      {
+        "text": "Sự hiểu nhầm",
+        "isCorrect": false,
+        "rationale": "Sự hiểu nhầm là 'misunderstanding'."
+      },
+      {
+        "text": "Sự trì hoãn vô thời hạn",
+        "isCorrect": false,
+        "rationale": "Sự trì hoãn là 'procrastination' hoặc 'postponement'."
+      }
+    ],
+    "hint": "Quá trình bộ não mổ xẻ thông tin trước khi chốt phương án."
+  },
+  {
+    "question": "Hãng vận tải gửi email: 'Your consignment /kən'saɪnmənt/ of electronics has safely arrived at the dock'. Từ 'consignment' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Hàng ký gửi, lô hàng",
+        "isCorrect": true,
+        "rationale": "Consignment nghĩa là một số lượng hàng hóa lớn được gửi đi cho một bên khác bằng đường tàu biển, hàng không."
+      },
+      {
+        "text": "Hóa đơn tiền điện",
+        "isCorrect": false,
+        "rationale": "Hóa đơn là 'invoice'."
+      },
+      {
+        "text": "Nhà kho lưu trữ",
+        "isCorrect": false,
+        "rationale": "Nhà kho là 'warehouse'."
+      },
+      {
+        "text": "Phương tiện vận chuyển",
+        "isCorrect": false,
+        "rationale": "Phương tiện là 'vehicle' hoặc 'means of transport'."
+      }
+    ],
+    "hint": "Tập hợp kiện hàng hóa cụ thể được vận chuyển trong chuyến đi."
+  },
+  {
+    "question": "Báo cáo chất lượng ghi nhận: 'The employee has consistently /kən'sɪstəntli/ met performance goals'. Trạng từ 'consistently' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Một cách nhất quán, liên tục trước sau như một",
+        "isCorrect": true,
+        "rationale": "Consistently chỉ hành động lặp đi lặp lại một cách đều đặn, giữ nguyên phong độ tốt ổn định theo thời gian."
+      },
+      {
+        "text": "Thất thường lúc được lúc không",
+        "isCorrect": false,
+        "rationale": "Thất thường là 'erratically' hoặc 'unpredictably'."
+      },
+      {
+        "text": "Hiếm khi làm được",
+        "isCorrect": false,
+        "rationale": "Hiếm khi là 'rarely' hoặc 'seldom'."
+      },
+      {
+        "text": "Làm một cách tình cờ",
+        "isCorrect": false,
+        "rationale": "Tình cờ là 'accidentally' hoặc 'by chance'."
+      }
+    ],
+    "hint": "Luôn luôn giữ vững một tiêu chuẩn giống nhau trong mọi thời điểm."
+  },
+  {
+    "question": "Bác sĩ cảnh báo: 'These three major risk factors constitute /'kɒnstɪtu:t/ the main cause of heart failure'. Động từ 'constitute' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Cấu thành, tạo nên",
+        "isCorrect": true,
+        "rationale": "Constitue nghĩa là hình thành nên, gộp lại thành hoặc được xem là yếu tố cấu thành một tổng thể lớn."
+      },
+      {
+        "text": "Phá hủy cốt lõi",
+        "isCorrect": false,
+        "rationale": "Phá hủy là 'destroy' hoặc 'demolish'."
+      },
+      {
+        "text": "Giảm bớt tác hại",
+        "isCorrect": false,
+        "rationale": "Giảm bớt là 'reduce' hoặc 'mitigate'."
+      },
+      {
+        "text": "Bỏ qua luật lệ",
+        "isCorrect": false,
+        "rationale": "Bỏ qua là 'ignore'."
+      }
+    ],
+    "hint": "Các phần nhỏ họp lại để 'make up' thành một bức tranh lớn."
+  },
+  {
+    "question": "Biển báo đặt gần khu vực phong tỏa: 'Danger! Construction /kən'strʌkʃn/ site. Keep out!'. Từ 'construction' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự xây dựng, công trình đang xây",
+        "isCorrect": true,
+        "rationale": "Construction chỉ hành động xây nhà, cầu đường hoặc kiến trúc hạ tầng vật lý."
+      },
+      {
+        "text": "Sự dỡ bỏ bom mìn",
+        "isCorrect": false,
+        "rationale": "Dỡ bỏ bom mìn là 'mine clearance'."
+      },
+      {
+        "text": "Khu công nghiệp khai khoáng",
+        "isCorrect": false,
+        "rationale": "Khai khoáng là 'mining district'."
+      },
+      {
+        "text": "Vườn bách thảo công cộng",
+        "isCorrect": false,
+        "rationale": "Vườn bách thảo là 'botanical garden'."
+      }
+    ],
+    "hint": "Hoạt động lắp gạch, đổ bê tông tạo thành tòa nhà."
+  },
+  {
+    "question": "Nhận xét của sếp trong buổi duyệt thiết kế: 'Thank you for your constructive /kən'strʌktɪv/ feedback; it helps improve the product'. 'Constructive' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Mang tính xây dựng, có ích",
+        "isCorrect": true,
+        "rationale": "Constructive chỉ những ý kiến đóng góp có thiện chí, giúp giải quyết vấn đề và làm cho tình hình tốt lên."
+      },
+      {
+        "text": "Mang tính hủy hoại dìm hàng",
+        "isCorrect": false,
+        "rationale": "Hủy hoại là 'destructive'."
+      },
+      {
+        "text": "Nhạt nhẽo vô bổ",
+        "isCorrect": false,
+        "rationale": "Vô bổ là 'useless' hoặc 'pointless'."
+      },
+      {
+        "text": "Lời khen sáo rỗng",
+        "isCorrect": false,
+        "rationale": "Sáo rỗng là 'hollow praise'."
+      }
+    ],
+    "hint": "Ngược lại hoàn toàn với xu hướng chê bai phá hoại ('destructive')."
+  },
+  {
+    "question": "Khi bạn gặp khó khăn trong việc khai thuế cá nhân: 'You should consult /kən'sʌlt/ a tax lawyer before filing'. Động từ 'consult' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tham khảo ý kiến, tư vấn",
+        "isCorrect": true,
+        "rationale": "Consult nghĩa là hỏi ý kiến chuyên gia hoặc tra cứu tài liệu chuyên ngành để có thông tin chính xác."
+      },
+      {
+        "text": "Cãi cọ tranh luận",
+        "isCorrect": false,
+        "rationale": "Cãi cọ là 'argue' hoặc 'quarrel'."
+      },
+      {
+        "text": "Tự mình mò mẫm",
+        "isCorrect": false,
+        "rationale": "Tự mò mẫm là 'figure it out by oneself'."
+      },
+      {
+        "text": "Bỏ qua lời khuyên",
+        "isCorrect": false,
+        "rationale": "Bỏ qua lời khuyên là 'ignore advice'."
+      }
+    ],
+    "hint": "Gặp người có chuyên môn cao để xin lời khuyên đúng đắn."
+  },
+  {
+    "question": "Trong kinh doanh: 'We need to focus on consumer /kən'su:mər/ satisfaction'. Từ 'consumer' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Người tiêu dùng",
+        "isCorrect": true,
+        "rationale": "Consumer là người mua hàng hóa hoặc sử dụng dịch vụ để thỏa mãn nhu cầu cá nhân."
+      },
+      {
+        "text": "Nhà phân phối sỉ",
+        "isCorrect": false,
+        "rationale": "Nhà phân phối sỉ là 'wholesaler'."
+      },
+      {
+        "text": "Chủ doanh nghiệp sản xuất",
+        "isCorrect": false,
+        "rationale": "Nhà sản xuất là 'manufacturer'."
+      },
+      {
+        "text": "Người kiểm kho",
+        "isCorrect": false,
+        "rationale": "Người kiểm kho là 'inventory checker'."
+      }
+    ],
+    "hint": "Mắt xích cuối cùng sử dụng sản phẩm trong chuỗi cung ứng."
+  },
+  {
+    "question": "Báo cáo năng lượng nêu rõ: 'Fuel consumption /kən'sʌmpʃn/ has decreased sharply this month'. Từ 'consumption' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự tiêu thụ, lượng tiêu thụ",
+        "isCorrect": true,
+        "rationale": "Consumption là lượng nguyên liệu, thực phẩm hoặc năng lượng được sử dụng hết bởi hệ thống/con người."
+      },
+      {
+        "text": "Sự sản xuất dư thừa",
+        "isCorrect": false,
+        "rationale": "Sự sản xuất dư thừa là 'overproduction'."
+      },
+      {
+        "text": "Sự rò rỉ thất thoát",
+        "isCorrect": false,
+        "rationale": "Sự rò rỉ là 'leakage'."
+      },
+      {
+        "text": "Sự xuất khẩu",
+        "isCorrect": false,
+        "rationale": "Sự xuất khẩu là 'export'."
+      }
+    ],
+    "hint": "Danh từ của hành động ăn uống hoặc xài hết nhiên liệu."
+  },
+  {
+    "question": "Nhãn ghi trên chai nước xịt kính: 'This product may contain /kən'teɪn/ hazardous chemicals'. Động từ 'contain' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Chứa đựng, bao gồm",
+        "isCorrect": true,
+        "rationale": "Contain nghĩa là có cái gì đó nằm gọn bên trong một vật, một hộp hoặc một hỗn hợp."
+      },
+      {
+        "text": "Đẩy ra ngoài",
+        "isCorrect": false,
+        "rationale": "Đẩy ra là 'exclude' hoặc 'eject'."
+      },
+      {
+        "text": "Lọc sạch tạp chất",
+        "isCorrect": false,
+        "rationale": "Lọc sạch là 'filter'."
+      },
+      {
+        "text": "Làm đông đá",
+        "isCorrect": false,
+        "rationale": "Làm đông đá là 'freeze'."
+      }
+    ],
+    "hint": "Bên trong cái chai có chứa những chất đó."
+  },
+  {
+    "question": "Tại cảng biển, cần cẩu đang nhấc các 'container /kən'teɪnər/' từ dưới tàu lên bãi. Từ 'container' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Thùng chứa đồ, thùng công-ten-nơ",
+        "isCorrect": true,
+        "rationale": "Container nói chung là đồ dùng lớn để đựng vật phẩm, trong vận tải là chiếc thùng sắt khổng lồ bảo vệ hàng hóa."
+      },
+      {
+        "text": "Mũ bảo hiểm bảo hộ",
+        "isCorrect": false,
+        "rationale": "Mũ bảo hộ là 'safety helmet'."
+      },
+      {
+        "text": "Đèn tín hiệu hàng hải",
+        "isCorrect": false,
+        "rationale": "Đèn tín hiệu là 'signal light'."
+      },
+      {
+        "text": "Đường ray xe lửa",
+        "isCorrect": false,
+        "rationale": "Đường ray là 'railway track'."
+      }
+    ],
+    "hint": "Vật dùng để đựng đồ đạc hoặc chuyên chở hàng khối lượng lớn."
+  },
+  {
+    "question": "Triển lãm kiến trúc trưng bày những 'contemporary /kən'tempəreri/ house designs'. Tính từ 'contemporary' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đương đại, hiện đại",
+        "isCorrect": true,
+        "rationale": "Contemporary chỉ những thứ thuộc về thời gian hiện tại, cùng thời đại ngày nay."
+      },
+      {
+        "text": "Cổ xưa, tiền sử",
+        "isCorrect": false,
+        "rationale": "Cổ xưa là 'ancient' hoặc 'prehistoric'."
+      },
+      {
+        "text": "Lỗi thời, cổ hủ",
+        "isCorrect": false,
+        "rationale": "Lỗi thời là 'obsolete' hoặc 'outdated'."
+      },
+      {
+        "text": "Thuộc về tương lai",
+        "isCorrect": false,
+        "rationale": "Thuộc về tương lai là 'futuristic'."
+      }
+    ],
+    "hint": "Mang phong cách thiết kế của cuộc sống ngày hôm nay."
+  },
+  {
+    "question": "Hai công ty đồng ý các điều khoản và tiến hành ký 'contract /'kɒntrækt/'. Từ 'contract' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Hợp đồng, văn bản cam kết pháp lý",
+        "isCorrect": true,
+        "rationale": "Contract là một thỏa thuận chính thức giữa hai hay nhiều bên được pháp luật bảo hộ và công nhận."
+      },
+      {
+        "text": "Thư mời nhận việc sơ bộ",
+        "isCorrect": false,
+        "rationale": "Thư mời nhận việc là 'job offer letter'."
+      },
+      {
+        "text": "Hóa đơn giá trị gia tăng",
+        "isCorrect": false,
+        "rationale": "Hóa đơn VAT là 'VAT invoice'."
+      },
+      {
+        "text": "Phiếu khảo sát thị trường",
+        "isCorrect": false,
+        "rationale": "Phiếu khảo sát là 'survey form'."
+      }
+    ],
+    "hint": "Giấy tờ ràng buộc nghĩa vụ thực hiện giữa hai bên mua và bán."
+  },
+  {
+    "question": "Lời kêu gọi quyên góp: 'We invite everyone to contribute /kən'trɪbju:t/ to the disaster relief fund'. Động từ 'contribute' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đóng góp, góp phần",
+        "isCorrect": true,
+        "rationale": "Contribute là hành động đưa tiền, hiện vật hoặc ý tưởng để giúp đỡ một mục tiêu chung thành công."
+      },
+      {
+        "text": "Rút tiền về túi",
+        "isCorrect": false,
+        "rationale": "Rút tiền về là 'withdraw'."
+      },
+      {
+        "text": "Vay mượn khẩn cấp",
+        "isCorrect": false,
+        "rationale": "Vay mượn là 'borrow'."
+      },
+      {
+        "text": "Chi tiêu phung phí",
+        "isCorrect": false,
+        "rationale": "Chi tiêu phung phí là 'waste' hoặc 'squander'."
+      }
+    ],
+    "hint": "Chung tay góp một phần nhỏ bé của mình vào việc lớn."
+  },
+  {
+    "question": "Vinh danh nhà hảo tâm: 'We appreciate your generous contribution /ˌhɒntrɪ'bju:ʃn/ to our charity'. Từ 'contribution' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự đóng góp, vật đóng góp",
+        "isCorrect": true,
+        "rationale": "Contribution là danh từ của động từ 'contribute', món quà hoặc số tiền đem đi quyên góp."
+      },
+      {
+        "text": "Sự thu phí bắt buộc",
+        "isCorrect": false,
+        "rationale": "Thu phí là 'fee collection'."
+      },
+      {
+        "text": "Sự nợ nần chồng chất",
+        "isCorrect": false,
+        "rationale": "Nợ nần là 'debt'."
+      },
+      {
+        "text": "Sự đầu cơ tích trữ",
+        "isCorrect": false,
+        "rationale": "Tích trữ là 'hoarding'."
+      }
+    ],
+    "hint": "Phần hiện vật/tài chính được dâng tặng thiện nguyện."
+  },
+  {
+    "question": "Bảng điều khiển thông minh: 'This switch allows you to control /kən'troʊl/ the room temperature'. Động từ 'control' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Kiểm soát, điều khiển",
+        "isCorrect": true,
+        "rationale": "Control nghĩa là nắm quyền chỉ huy, ra lệnh hoặc điều chỉnh hoạt động của máy móc/con người theo ý mình."
+      },
+      {
+        "text": "Làm hỏng mạch",
+        "isCorrect": false,
+        "rationale": "Làm hỏng là 'damage' hoặc 'break'."
+      },
+      {
+        "text": "Ghi chép thụ động",
+        "isCorrect": false,
+        "rationale": "Ghi chép là 'record'."
+      },
+      {
+        "text": "Phát tán tự do",
+        "isCorrect": false,
+        "rationale": "Phát tán tự do là 'release freely'."
+      }
+    ],
+    "hint": "Làm chủ hành vi hoặc cơ chế vận hành của đồ vật."
+  },
+  {
+    "question": "Cửa hàng tiện lợi quảng cáo: 'Our shop is very convenient /kən'vi:niənt/ because it is open 24/7'. Từ 'convenient' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tiện lợi, thuận tiện",
+        "isCorrect": true,
+        "rationale": "Convenient chỉ tính chất dễ tiếp cận, giúp tiết kiệm thời gian sức lực và không gây phiền hà."
+      },
+      {
+        "text": "Bất tiện, rắc rối",
+        "isCorrect": false,
+        "rationale": "Bất tiện là 'inconvenient'."
+      },
+      {
+        "text": "Rất đắt đỏ khó mua",
+        "isCorrect": false,
+        "rationale": "Đắt đỏ là 'expensive'."
+      },
+      {
+        "text": "Nằm ở vùng xa xôi",
+        "isCorrect": false,
+        "rationale": "Xa xôi là 'remote' hoặc 'isolated'."
+      }
+    ],
+    "hint": "Làm cho cuộc sống trở nên dễ dàng, thoải mái hơn."
+  },
+  {
+    "question": "Nông dân chọn phương pháp canh tác lâu đời: 'They still use conventional /kən'venʃənl/ farming methods instead of modern drones'. Từ 'conventional' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Thông thường, truyền thống, theo tập quán",
+        "isCorrect": true,
+        "rationale": "Conventional chỉ những thứ bình thường, theo quy chuẩn cũ xã hội đã làm từ lâu, không phá cách."
+      },
+      {
+        "text": "Kỳ dị đột phá",
+        "isCorrect": false,
+        "rationale": "Kỳ dị đột phá là 'unconventional' hoặc 'revolutionary'."
+      },
+      {
+        "text": "Bị cấm đoán bởi pháp luật",
+        "isCorrect": false,
+        "rationale": "Bị cấm đoán là 'banned' hoặc 'prohibited'."
+      },
+      {
+        "text": "Áp dụng trí tuệ nhân tạo",
+        "isCorrect": false,
+        "rationale": "Áp dụng AI là 'AI-powered'."
+      }
+    ],
+    "hint": "Theo lối mòn quen thuộc xưa nay vẫn làm."
+  },
+  {
+    "question": "Khi đi đổi tiền ở sân bay: 'Where can I convert /kən'vɜ:rt/ my dollars into euros?'. Động từ 'convert' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Chuyển đổi (hình thức, đơn vị, tiền tệ)",
+        "isCorrect": true,
+        "rationale": "Convert là hành động biến đổi hình thái, hệ thống hoặc giá trị của một thứ sang một dạng thức khác."
+      },
+      {
+        "text": "Giữ nguyên giá trị",
+        "isCorrect": false,
+        "rationale": "Giữ nguyên là 'maintain value'."
+      },
+      {
+        "text": "Làm mất, đánh rơi",
+        "isCorrect": false,
+        "rationale": "Đánh rơi là 'lose'."
+      },
+      {
+        "text": "Đốt bỏ hoàn toàn",
+        "isCorrect": false,
+        "rationale": "Đốt bỏ là 'burn down'."
+      }
+    ],
+    "hint": "Thay hình đổi dạng để phù hợp với mục đích mới."
+  },
+  {
+    "question": "Người diễn thuyết tâm sự: 'It's hard to convey /kən'veɪ/ my emotions through words alone'. Động từ 'convey' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Truyền tải, biểu đạt (ý tưởng, cảm xúc)",
+        "isCorrect": true,
+        "rationale": "Convey có nghĩa là làm cho người khác hiểu được tâm tư, thông điệp hoặc suy nghĩ của mình."
+      },
+      {
+        "text": "Che giấu, giữ kín",
+        "isCorrect": false,
+        "rationale": "Che giấu là 'hide' hoặc 'conceal'."
+      },
+      {
+        "text": "Bịt tai lờ đi",
+        "isCorrect": false,
+        "rationale": "Lờ đi là 'ignore'."
+      },
+      {
+        "text": "Gây gổ hiểu lầm",
+        "isCorrect": false,
+        "rationale": "Gây hiểu lầm là 'mislead'."
+      }
+    ],
+    "hint": "Đưa thông điệp từ tâm trí mình sang tâm trí người khác."
+  },
+  {
+    "question": "Nhân viên bán hàng cố gắng: 'I am trying to convince /kən'vɪns/ the customer to sign the agreement'. Động từ 'convince' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Thuyết phục",
+        "isCorrect": true,
+        "rationale": "Convince nghĩa là dùng lý lẽ, bằng chứng để làm cho người khác tin tưởng hoặc đồng ý làm theo ý mình."
+      },
+      {
+        "text": "Đe dọa bắt buộc",
+        "isCorrect": false,
+        "rationale": "Đe dọa là 'threaten' hoặc 'intimidate'."
+      },
+      {
+        "text": "Lừa gạt tiền bạc",
+        "isCorrect": false,
+        "rationale": "Lừa gạt là 'cheat' hoặc 'scam'."
+      },
+      {
+        "text": "Bỏ mặc tự do",
+        "isCorrect": false,
+        "rationale": "Bỏ mặc là 'abandon'."
+      }
+    ],
+    "hint": "Làm cho đối phương gật đầu đồng ý bằng lời lẽ khôn khéo."
+  },
+  {
+    "question": "Sau khi nghe giải thích khoa học rõ ràng: 'I am convinced /kən'vɪnst/ that climate change is real'. Tính từ 'convinced' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tin chắc, bị thuyết phục hoàn toàn",
+        "isCorrect": true,
+        "rationale": "Convinced là trạng thái tâm lý hoàn toàn tin tưởng vào một sự thật nào đó mà không còn hoài nghi."
+      },
+      {
+        "text": "Hoang mang nghi ngờ",
+        "isCorrect": false,
+        "rationale": "Nghi ngờ là 'doubtful' hoặc 'skeptical'."
+      },
+      {
+        "text": "Từ chối không tin",
+        "isCorrect": false,
+        "rationale": "Không tin là 'unbelieving'."
+      },
+      {
+        "text": "Không quan tâm chuyện gì xảy ra",
+        "isCorrect": false,
+        "rationale": "Không quan tâm là 'indifferent'."
+      }
+    ],
+    "hint": "Cảm giác trong lòng không còn một chút băn khoăn hay lưỡng lự nào."
+  },
+  {
+    "question": "Khu mua sắm gia dụng treo biển bảng: 'Discounts on high-quality cookware /'kʊkwer/ today'. Từ 'cookware' chỉ những vật gì?",
+    "answerOptions": [
+      {
+        "text": "Dụng cụ nấu ăn (nồi, niêu, xoong, chảo)",
+        "isCorrect": true,
+        "rationale": "Cookware là danh từ chung chỉ các loại nồi, chảo dùng để chế biến thức ăn trên bếp."
+      },
+      {
+        "text": "Quần áo đầu bếp",
+        "isCorrect": false,
+        "rationale": "Quần áo đầu bếp là 'chef uniform'."
+      },
+      {
+        "text": "Gia vị thực phẩm",
+        "isCorrect": false,
+        "rationale": "Gia vị là 'spices' hoặc 'condiments'."
+      },
+      {
+        "text": "Thiết bị tủ lạnh",
+        "isCorrect": false,
+        "rationale": "Tủ lạnh là 'refrigerator' hoặc 'fridge'."
+      }
+    ],
+    "hint": "Những chiếc nồi và chảo kim loại dùng trong căn bếp."
+  },
+  {
+    "question": "Trong thông điệp liên doanh: 'We look forward to a fruitful cooperation /koʊˌɑːpə'reɪʃn/ with your firm'. Từ 'cooperation' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự hợp tác, giúp đỡ lẫn nhau",
+        "isCorrect": true,
+        "rationale": "Cooperation là danh từ chỉ hành động chung sức làm việc cùng nhau để đạt mục tiêu chung."
+      },
+      {
+        "text": "Sự cạnh tranh khốc liệt",
+        "isCorrect": false,
+        "rationale": "Cạnh tranh là 'competition'."
+      },
+      {
+        "text": "Sự hủy ước hợp đồng",
+        "isCorrect": false,
+        "rationale": "Hủy ước là 'breach of contract'."
+      },
+      {
+        "text": "Sự thâu tóm công ty",
+        "isCorrect": false,
+        "rationale": "Thâu tóm là 'takeover'."
+      }
+    ],
+    "hint": "Hành động hai bên cùng chìa tay ra để giúp nhau cùng phát triển."
+  },
+  {
+    "question": "Thông tin liên hệ của dự án: 'If you have questions about scheduling, please email the coordinator /koʊ'ɔːrdɪneɪtər/'. Danh từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Điều phối viên, người tổ chức sắp xếp",
+        "isCorrect": true,
+        "rationale": "Coordinator là người chịu trách nhiệm kết nối các bộ phận, sắp xếp lịch trình để một sự kiện chạy trơn tru."
+      },
+      {
+        "text": "Nhân viên bảo vệ tòa nhà",
+        "isCorrect": false,
+        "rationale": "Bảo vệ là 'security guard'."
+      },
+      {
+        "text": "Nhà đầu tư thiên thần",
+        "isCorrect": false,
+        "rationale": "Nhà đầu tư là 'investor'."
+      },
+      {
+        "text": "Khách hàng vãng lai",
+        "isCorrect": false,
+        "rationale": "Khách hàng vãng lai là 'casual customer'."
+      }
+    ],
+    "hint": "Người đứng ở giữa để kết nối lịch làm việc cho mọi người."
+  },
+  {
+    "question": "Bức thư bắt đầu bằng câu: 'You are cordially /'kɔːrdʒəli/ invited to our annual gala dinner'. Trạng từ 'cordially' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Một cách thân mật, chân thành, nồng hậu",
+        "isCorrect": true,
+        "rationale": "Cordially thường dùng trong các lời mời trang trọng để bày tỏ sự ấm áp, lịch sự và chân thành."
+      },
+      {
+        "text": "Một cách bắt buộc",
+        "isCorrect": false,
+        "rationale": "Bắt buộc là 'compulsorily'."
+      },
+      {
+        "text": "Một cách lạnh lùng hờ hững",
+        "isCorrect": false,
+        "rationale": "Lạnh lùng là 'coldly'."
+      },
+      {
+        "text": "Một cách bí mật",
+        "isCorrect": false,
+        "rationale": "Bí mật là 'secretly'."
+      }
+    ],
+    "hint": "Thường thấy trong thiệp mời cưới hoặc tiệc lớn của công ty."
+  },
+  {
+    "question": "Khi đi ăn tại nhà hàng sang trọng: 'This premium steak will cost /kɔːst/ you fifty dollars'. Động từ 'cost' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tốn kém, trị giá, có giá là",
+        "isCorrect": true,
+        "rationale": "Cost (động từ) chỉ lượng tiền mặt cần phải chi trả để sở hữu hoặc thực hiện cái gì đó."
+      },
+      {
+        "text": "Kiếm lời được",
+        "isCorrect": false,
+        "rationale": "Kiếm lời là 'earn' hoặc 'make profit'."
+      },
+      {
+        "text": "Giảm giá sâu",
+        "isCorrect": false,
+        "rationale": "Giảm giá là 'discount'."
+      },
+      {
+        "text": "Miễn phí hoàn toàn",
+        "isCorrect": false,
+        "rationale": "Miễn phí là 'free of charge'."
+      }
+    ],
+    "hint": "Hành động móc ví trả một số tiền nhất định."
+  },
+  {
+    "question": "Lời khuyên mua sắm: 'Buying a sports car can be very costly /'kɔːstli/ to maintain'. Tính từ 'costly' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đắt đỏ, tốn kém nhiều tiền",
+        "isCorrect": true,
+        "rationale": "Costly đồng nghĩa với 'expensive', chỉ những thứ đòi hỏi chi phí tài chính cao."
+      },
+      {
+        "text": "Rẻ mạt, giá hời",
+        "isCorrect": false,
+        "rationale": "Rẻ mạt là 'cheap' hoặc 'inexpensive'."
+      },
+      {
+        "text": "Hợp lý vừa túi tiền",
+        "isCorrect": false,
+        "rationale": "Hợp lý là 'affordable' hoặc 'reasonable'."
+      },
+      {
+        "text": "Không tốn một xu",
+        "isCorrect": false,
+        "rationale": "Không tốn xu nào là 'free'."
+      }
+    ],
+    "hint": "Ngốn rất nhiều ngân sách của bạn."
+  },
+  {
+    "question": "Trong chính trị địa phương: 'The city council /'kaʊnsl/ voted to build a new public park'. Từ 'council' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Hội đồng, ban quản trị",
+        "isCorrect": true,
+        "rationale": "Council là một nhóm người được bầu ra để quản lý điều hành một thành phố hoặc tổ chức xã hội."
+      },
+      {
+        "text": "Trường dạy nghề",
+        "isCorrect": false,
+        "rationale": "Trường dạy nghề là 'vocational school'."
+      },
+      {
+        "text": "Bệnh viện tư nhân",
+        "isCorrect": false,
+        "rationale": "Bệnh viện tư là 'private hospital'."
+      },
+      {
+        "text": "Trung tâm thương mại",
+        "isCorrect": false,
+        "rationale": "Trung tâm thương mại là 'shopping mall'."
+      }
+    ],
+    "hint": "Cơ quan tập hợp các đại biểu họp bàn việc công vụ thành phố."
+  },
+  {
+    "question": "Nhận xét về một người chu đáo: 'He treated everyone with courtesy /'kɜːrtəsi/ and respect'. Từ 'courtesy' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự lịch sự, nhã nhặn",
+        "isCorrect": true,
+        "rationale": "Courtesy chỉ hành vi lịch thiệp, tôn trọng và có văn hóa đối với người xung quanh."
+      },
+      {
+        "text": "Sự thô lỗ cộc cằn",
+        "isCorrect": false,
+        "rationale": "Thô lỗ là 'rudeness' hoặc 'impoliteness'."
+      },
+      {
+        "text": "Sự tham lam ích kỷ",
+        "isCorrect": false,
+        "rationale": "Tham lam là 'greed'."
+      },
+      {
+        "text": "Sự hài hước đùa cợt",
+        "isCorrect": false,
+        "rationale": "Hài hước là 'humor'."
+      }
+    ],
+    "hint": "Cách hành xử chuẩn mực, quý phái của người có giáo dục."
+  },
+  {
+    "question": "Trong bản tin truyền thông: 'The local journalists will cover /'kʌvər/ the international tech event'. Động từ 'cover' ở đây nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đưa tin, bao phủ, chi trả tiền",
+        "isCorrect": true,
+        "rationale": "Trong ngành báo chí, cover nghĩa là theo dõi và đưa tin về một sự kiện; ngoài ra còn nghĩa là che phủ hoặc bao gồm chi phí."
+      },
+      {
+        "text": "Hủy bỏ lịch trình",
+        "isCorrect": false,
+        "rationale": "Hủy bỏ là 'cancel'."
+      },
+      {
+        "text": "Làm ngơ giả điếc",
+        "isCorrect": false,
+        "rationale": "Làm ngơ là 'ignore'."
+      },
+      {
+        "text": "Tấn công mạng",
+        "isCorrect": false,
+        "rationale": "Tấn công mạng là 'cyberattack'."
+      }
+    ],
+    "hint": "Cử phóng viên đến hiện trường lấy thông tin viết bài."
+  },
+  {
+    "question": "Khi nộp đơn ứng tuyển việc làm, bạn cần đính kèm hồ sơ và một 'cover letter /'kʌvər 'letər/'. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Thư xin việc, thư giới thiệu bản thân sơ bộ",
+        "isCorrect": true,
+        "rationale": "Cover letter là bức thư gửi kèm với CV để giải thích lý do bạn phù hợp với vị trí tuyển dụng."
+      },
+      {
+        "text": "Đơn xin nghỉ phép",
+        "isCorrect": false,
+        "rationale": "Đơn xin nghỉ phép là 'leave application'."
+      },
+      {
+        "text": "Thư thông báo tăng lương",
+        "isCorrect": false,
+        "rationale": "Thư tăng lương là 'salary increment letter'."
+      },
+      {
+        "text": "Hợp đồng bảo hiểm",
+        "isCorrect": false,
+        "rationale": "Hợp đồng bảo hiểm là 'insurance policy'."
+      }
+    ],
+    "hint": "Trang viết đầu tiên gửi nhà tuyển dụng nói rõ mong muốn ứng tuyển."
+  },
+  {
+    "question": "Khi đi tìm bãi đỗ xe vào ngày mưa: 'Look for a covered /'kʌvərd/ parking space'. Tính từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Có mái che, được bao phủ",
+        "isCorrect": true,
+        "rationale": "Covered chỉ những khu vực hoặc vật dụng được che chắn phần phía trên hoặc xung quanh để tránh nắng mưa."
+      },
+      {
+        "text": "Nằm ngoài trời hoàn toàn",
+        "isCorrect": false,
+        "rationale": "Ngoài trời là 'open-air' hoặc 'outdoor'."
+      },
+      {
+        "text": "Bị cấm đỗ",
+        "isCorrect": false,
+        "rationale": "Bị cấm là 'prohibited'."
+      },
+      {
+        "text": "Miễn phí vé",
+        "isCorrect": false,
+        "rationale": "Miễn phí là 'free of charge'."
+      }
+    ],
+    "hint": "Có trần bê tông hoặc mái tôn che phía trên đầu."
+  },
+  {
+    "question": "Tại căng tin công ty: 'I am having lunch with my coworker /'koʊwɜːrkər/ from the marketing team'. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đồng nghiệp",
+        "isCorrect": true,
+        "rationale": "Coworker là người làm chung một công sở, dự án với bạn; từ này tương đương với 'colleague'."
+      },
+      {
+        "text": "Khách hàng ruột",
+        "isCorrect": false,
+        "rationale": "Khách hàng là 'customer' hoặc 'client'."
+      },
+      {
+        "text": "Nhà cung cấp vật tư",
+        "isCorrect": false,
+        "rationale": "Nhà cung cấp là 'supplier'."
+      },
+      {
+        "text": "Đối thủ cạnh tranh",
+        "isCorrect": false,
+        "rationale": "Đối thủ là 'competitor'."
+      }
+    ],
+    "hint": "Người ngồi bàn kế bên bạn trong văn phòng."
+  },
+  {
+    "question": "Tại hội chợ nghệ thuật: 'These beautiful wooden items reflect local craft /kræft/ traditional skills'. Từ 'craft' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Thủ công, nghề thủ công, kỹ nghệ",
+        "isCorrect": true,
+        "rationale": "Craft là công việc đòi hỏi sự khéo léo của đôi bàn tay để tạo ra các sản phẩm mỹ nghệ."
+      },
+      {
+        "text": "Công nghiệp nặng tự động",
+        "isCorrect": false,
+        "rationale": "Công nghiệp nặng là 'heavy industry'."
+      },
+      {
+        "text": "Lập trình máy tính",
+        "isCorrect": false,
+        "rationale": "Lập trình là 'programming'."
+      },
+      {
+        "text": "Khai thác dầu khí",
+        "isCorrect": false,
+        "rationale": "Khai thác dầu là 'oil extraction'."
+      }
+    ],
+    "hint": "Đồ đạc làm bằng tay tỉ mỉ, không dùng máy móc sản xuất hàng loạt."
+  },
+  {
+    "question": "Tin nhắn lỗi đột ngột hiện lên: 'The system might crash /kræʃ/ if you run too nhiều apps'. Động từ 'crash' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Hỏng, sập nguồn (máy tính), đâm sầm vào nhau",
+        "isCorrect": true,
+        "rationale": "Crash chỉ sự cố phần phần cứng/phần mềm máy tính đột ngột ngừng hoạt động hoặc vụ va chạm xe cộ."
+      },
+      {
+        "text": "Tự động cập nhật bản mới",
+        "isCorrect": false,
+        "rationale": "Cập nhật là 'update'."
+      },
+      {
+        "text": "Tăng tốc độ xử lý",
+        "isCorrect": false,
+        "rationale": "Tăng tốc là 'speed up'."
+      },
+      {
+        "text": "Tiết kiệm pin",
+        "isCorrect": false,
+        "rationale": "Tiết kiệm pin là 'save battery'."
+      }
+    ],
+    "hint": "Hiện tượng máy tính đơ cứng biến thành màn hình xanh."
+  },
+  {
+    "question": "Khi đi tham quan trang trại bò sữa: 'Let's buy some fresh cheese at the local creamery /'kriːməri/'. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Cửa hàng bán các sản phẩm từ sữa (bơ, phô mai)",
+        "isCorrect": true,
+        "rationale": "Creamery là nơi sản xuất hoặc cửa hàng chuyên bán các sản phẩm chế biến từ sữa như kem, bơ, phô mai."
+      },
+      {
+        "text": "Tiệm bánh ngọt",
+        "isCorrect": false,
+        "rationale": "Tiệm bánh là 'bakery'."
+      },
+      {
+        "text": "Quầy thịt tươi",
+        "isCorrect": false,
+        "rationale": "Quầy thịt là 'butcher's shop'."
+      },
+      {
+        "text": "Cửa hàng rau củ",
+        "isCorrect": false,
+        "rationale": "Cửa hàng rau củ là 'grocery store'."
+      }
+    ],
+    "hint": "Nơi ngập tràn sữa tươi, váng sữa và phô mai béo ngậy."
+  },
+  {
+    "question": "Khi là quần áo: 'Be careful, don't crease /kriːs/ the shirt after ironing'. Từ 'crease' ở đây nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Làm nhăn, nếp gấp, nếp nhăn",
+        "isCorrect": true,
+        "rationale": "Crease vừa là động từ làm nhăn vải/giấy, vừa là danh từ chỉ đường nếp gấp nhăn nhúm."
+      },
+      {
+        "text": "Làm sạch vết bẩn",
+        "isCorrect": false,
+        "rationale": "Làm sạch là 'clean' hoặc 'remove stains'."
+      },
+      {
+        "text": "Nhuộm màu quần áo",
+        "isCorrect": false,
+        "rationale": "Nhuộm là 'dye'."
+      },
+      {
+        "text": "May thêm cúc áo",
+        "isCorrect": false,
+        "rationale": "May cúc là 'sew buttons'."
+      }
+    ],
+    "hint": "Vết hằn xấu xí xuất hiện khi bạn vò nát trang phục."
+  },
+  {
+    "question": "Mục tiêu của ban giám đốc: 'We want to create /kri'eɪt/ five hundred new jobs this year'. Động từ 'create' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tạo ra, sáng tạo nên",
+        "isCorrect": true,
+        "rationale": "Create nghĩa là làm cho một thứ mới mẻ xuất hiện hoặc tồn tại."
+      },
+      {
+        "text": "Xóa sổ, loại bỏ",
+        "isCorrect": false,
+        "rationale": "Xóa bỏ là 'delete' hoặc 'eliminate'."
+      },
+      {
+        "text": "Sao chép lậu",
+        "isCorrect": false,
+        "rationale": "Sao chép là 'copy' hoặc 'replicate'."
+      },
+      {
+        "text": "Trì hoãn tiến độ",
+        "isCorrect": false,
+        "rationale": "Trì hoãn là 'delay'."
+      }
+    ],
+    "hint": "Biến một ý tưởng thành hiện thực vật lý chưa từng có trước đây."
+  },
+  {
+    "question": "Khi kiểm tra hồ sơ ứng viên cao cấp: 'Please verify his academic credentials /krə'denʃlz/'. Từ 'credentials' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Chứng chỉ, bằng cấp, giấy tờ chứng nhận năng lực",
+        "isCorrect": true,
+        "rationale": "Credentials là những tài liệu chứng minh một người có đủ trình độ, học vấn để làm một công việc."
+      },
+      {
+        "text": "Sở thích cá nhân",
+        "isCorrect": false,
+        "rationale": "Sở thích là 'hobbies' hoặc 'interests'."
+      },
+      {
+        "text": "Địa chỉ nhà riêng",
+        "isCorrect": false,
+        "rationale": "Địa chỉ là 'home address'."
+      },
+      {
+        "text": "Hóa đơn đóng tiền học",
+        "isCorrect": false,
+        "rationale": "Hóa đơn học phí là 'tuition receipt'."
+      }
+    ],
+    "hint": "Tấm bằng đại học hoặc chứng chỉ hành nghề được cơ quan nhà nước cấp."
+  },
+  {
+    "question": "Để làm tư liệu viết bài, nhà báo cần một 'credible /'kredəbl/' source. Tính từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đáng tin cậy, có thể tin được",
+        "isCorrect": true,
+        "rationale": "Credible mô tả những thông tin hoặc con người chính trực, có bằng chứng xác thực khiến ta tin tưởng."
+      },
+      {
+        "text": "Giả mạo bịa đặt",
+        "isCorrect": false,
+        "rationale": "Giả mạo là 'fake' hoặc 'fabricated'."
+      },
+      {
+        "text": "Mơ hồ khó hiểu",
+        "isCorrect": false,
+        "rationale": "Mơ hồ là 'vague' hoặc 'ambiguous'."
+      },
+      {
+        "text": "Nổi tiếng tai tiếng",
+        "isCorrect": false,
+        "rationale": "Tai tiếng là 'infamous' hoặc 'notorious'."
+      }
+    ],
+    "hint": "Không chứa thông tin sai lệch, có độ xác thực cao."
+  },
+  {
+    "question": "Thuyền trưởng hét lớn chỉ huy: 'All crew /kruː/ members must report to the deck immediately'. Từ 'crew' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đội, nhóm nhân viên, phi hành đoàn, thủy thủ đoàn",
+        "isCorrect": true,
+        "rationale": "Crew chỉ một tập thể người cùng làm việc phối hợp trên một con tàu, máy bay hoặc một đoàn làm phim."
+      },
+      {
+        "text": "Hành khách đi tàu",
+        "isCorrect": false,
+        "rationale": "Hành khách là 'passengers'."
+      },
+      {
+        "text": "Lực lượng cảnh sát biển",
+        "isCorrect": false,
+        "rationale": "Cảnh sát biển là 'coast guard'."
+      },
+      {
+        "text": "Đám đông biểu tình",
+        "isCorrect": false,
+        "rationale": "Đám đông biểu tình là 'protesters'."
+      }
+    ],
+    "hint": "Nhóm người vận hành kỹ thuật hậu cần cho chuyến bay hoặc chuyến tàu."
+  },
+  {
+    "question": "Trong tài liệu chấm giải: 'What criteria /kraɪ'tɪriə/ did you use to choose the winner?'. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tiêu chí (số nhiều)",
+        "isCorrect": true,
+        "rationale": "Criteria là danh từ số nhiều của 'criterion', nghĩa là các quy chuẩn, tiêu chuẩn dùng để đánh giá hoặc đưa ra quyết định."
+      },
+      {
+        "text": "Giải thưởng tiền mặt",
+        "isCorrect": false,
+        "rationale": "Giải thưởng là 'prize' hoặc 'award'."
+      },
+      {
+        "text": "Danh sách thí sinh",
+        "isCorrect": false,
+        "rationale": "Thí sinh là 'candidates' hoặc 'contestants'."
+      },
+      {
+        "text": "Đơn khiếu nại kết quả",
+        "isCorrect": false,
+        "rationale": "Đơn khiếu nại là 'complaint'."
+      }
+    ],
+    "hint": "Các thước đo để chấm điểm xem ai giỏi nhất."
+  },
+  {
+    "question": "Bộ phim mới bị một nghệ thuật 'critic /'krɪtɪk/' chê bai thậm tệ trên báo. Từ 'critic' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Nhà phê bình",
+        "isCorrect": true,
+        "rationale": "Critic là người chuyên viết bài đánh giá, phân tích điểm tốt xấu của các tác phẩm nghệ thuật, sách báo hoặc phim ảnh."
+      },
+      {
+        "text": "Đạo diễn phim",
+        "isCorrect": false,
+        "rationale": "Đạo diễn là 'director'."
+      },
+      {
+        "text": "Khán giả hâm mộ",
+        "isCorrect": false,
+        "rationale": "Người hâm mộ là 'fan' hoặc 'admirer'."
+      },
+      {
+        "text": "Nhà đầu tư sản xuất",
+        "isCorrect": false,
+        "rationale": "Nhà sản xuất là 'producer'."
+      }
+    ],
+    "hint": "Người làm nghề soi lỗi và đưa ra nhận xét chuyên môn."
+  },
+  {
+    "question": "Bác sĩ thông báo khẩn cấp: 'The next 24 hours are critical /'krɪtɪkl/ for his recovery'. Tính từ 'critical' ở đây nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Quan trọng, nguy cấp, mang tính phê bình",
+        "isCorrect": true,
+        "rationale": "Critical có nhiều nghĩa, trong y khoa hoặc quản lý dự án có nghĩa là cực kỳ quan trọng, mang tính quyết định hoặc nguy cấp."
+      },
+      {
+        "text": "Bình thường không đáng lo",
+        "isCorrect": false,
+        "rationale": "Bình thường là 'normal' hoặc 'ordinary'."
+      },
+      {
+        "text": "Giá rẻ bất ngờ",
+        "isCorrect": false,
+        "rationale": "Giá rẻ là 'cheap'."
+      },
+      {
+        "text": "Dễ dàng vượt qua",
+        "isCorrect": false,
+        "rationale": "Dễ dàng là 'easy'."
+      }
+    ],
+    "hint": "Thời điểm mấu chốt, nếu sơ sẩy có thể hỏng cả đại sự."
+  },
+  {
+    "question": "Lãnh đạo công ty luôn sẵn sàng đón nhận 'criticism /'krɪtɪsɪzəm/' từ công chúng. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự phê bình, chỉ trích, lời chê bai",
+        "isCorrect": true,
+        "rationale": "Criticism là danh từ chỉ hành động vạch ra lỗi sai, khiếm khuyết của ai đó hoặc cái gì đó."
+      },
+      {
+        "text": "Sự khen ngợi tâng bốc",
+        "isCorrect": false,
+        "rationale": "Khen ngợi là 'praise' hoặc 'compliment'."
+      },
+      {
+        "text": "Sự đầu tư tài chính",
+        "isCorrect": false,
+        "rationale": "Đầu tư là 'investment'."
+      },
+      {
+        "text": "Sự thờ ơ lờ đi",
+        "isCorrect": false,
+        "rationale": "Thờ ơ là 'indifference'."
+      }
+    ],
+    "hint": "Những lời chê trách chỉ ra điểm yếu cần khắc phục."
+  },
+  {
+    "question": "Biển báo hiệu ở ngã tư đường: 'Look both ways before you cross /krɔːs/ the street'. Động từ 'cross' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Băng qua, đi qua",
+        "isCorrect": true,
+        "rationale": "Cross nghĩa là di chuyển từ bên này sang bên kia của một con đường, dòng sông hoặc ranh giới."
+      },
+      {
+        "text": "Chạy dọc theo",
+        "isCorrect": false,
+        "rationale": "Chạy dọc là 'run along'."
+      },
+      {
+        "text": "Dừng lại chờ đèn",
+        "isCorrect": false,
+        "rationale": "Dừng lại là 'stop'."
+      },
+      {
+        "text": "Quay đầu xe lại",
+        "isCorrect": false,
+        "rationale": "Quay đầu là 'turn back' hoặc 'make a U-turn'."
+      }
+    ],
+    "hint": "Hành động đi cắt ngang qua vạch kẻ đường dành cho người đi bộ."
+  },
+  {
+    "question": "Khi bước vào trung tâm mua sắm dịp lễ hội: 'The mall was very crowded /'kraʊdɪd/ with shoppers'. Tính từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đông đúc, nghẹt người",
+        "isCorrect": true,
+        "rationale": "Crowded mô tả một không gian chứa đầy người, không còn chỗ trống."
+      },
+      {
+        "text": "Vắng tanh như chùa Bà Đanh",
+        "isCorrect": false,
+        "rationale": "Vắng tanh là 'empty' hoặc 'deserted'."
+      },
+      {
+        "text": "Rộng rãi thoáng đãng",
+        "isCorrect": false,
+        "rationale": "Rộng rãi là 'spacious'."
+      },
+      {
+        "text": "Đóng cửa bảo trì",
+        "isCorrect": false,
+        "rationale": "Đóng cửa là 'closed'."
+      }
+    ],
+    "hint": "Tình trạng biển người chen chân không lọt."
+  },
+  {
+    "question": "Trong báo cáo kinh doanh: 'Crucially /'kruːʃəli/, we need to secure funding before next month'. Trạng từ 'Crucially' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Một cách quyết định, quan trọng mấu chốt",
+        "isCorrect": true,
+        "rationale": "Crucially dùng để nhấn mạnh một điều kiện tiên quyết, cực kỳ quan trọng đối với kết quả cuối cùng."
+      },
+      {
+        "text": "Một cách tùy ý, sao cũng được",
+        "isCorrect": false,
+        "rationale": "Tùy ý là 'optionally' hoặc 'randomly'."
+      },
+      {
+        "text": "Một cách chậm trễ",
+        "isCorrect": false,
+        "rationale": "Chậm trễ là 'belatedly' hoặc 'slowly'."
+      },
+      {
+        "text": "Một cách hời hợt",
+        "isCorrect": false,
+        "rationale": "Hời hợt là 'superficially'."
+      }
+    ],
+    "hint": "Đồng nghĩa với từ 'importantly' nhưng mức độ sống còn cao hơn."
+  },
+  {
+    "question": "Khi đi du lịch Pháp, du khách hào hứng: 'I love French cuisine /kwi'ziːn/'. Từ 'cuisine' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Ẩm thực, cách nấu nướng đặc trưng",
+        "isCorrect": true,
+        "rationale": "Cuisine chỉ phong cách chế biến món ăn mang bản sắc văn hóa riêng của một quốc gia hoặc vùng miền."
+      },
+      {
+        "text": "Trang phục truyền thống",
+        "isCorrect": false,
+        "rationale": "Trang phục là 'traditional costume'."
+      },
+      {
+        "text": "Kiến trúc lâu đài",
+        "isCorrect": false,
+        "rationale": "Kiến trúc là 'architecture'."
+      },
+      {
+        "text": "Lịch sử chính trị",
+        "isCorrect": false,
+        "rationale": "Lịch sử là 'history'."
+      }
+    ],
+    "hint": "Thế giới các món ăn ngon mang hương vị đặc trưng vùng miền."
+  },
+  {
+    "question": "Thông báo tuyển dụng đầu bếp: 'Applicants must have excellent culinary /'kʌlɪneri/ skills'. Tính từ 'culinary' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Thuộc về ẩm thực, bếp núc",
+        "isCorrect": true,
+        "rationale": "Culinary có nghĩa là liên quan đến việc nấu nướng, chuẩn bị thức ăn hoặc công việc trong nhà bếp."
+      },
+      {
+        "text": "Thuộc về may vá thiết kế",
+        "isCorrect": false,
+        "rationale": "May vá là 'tailoring' hoặc 'fashion-related'."
+      },
+      {
+        "text": "Thuộc về cơ khí sửa chữa",
+        "isCorrect": false,
+        "rationale": "Cơ khí là 'mechanical'."
+      },
+      {
+        "text": "Thuộc về kế toán sổ sách",
+        "isCorrect": false,
+        "rationale": "Kế toán là 'accounting-related'."
+      }
+    ],
+    "hint": "Bất cứ thứ gì liên quan đến dao, thớt, chảo và nghệ thuật nấu món ăn."
+  },
+  {
+    "question": "Lời khuyên của chuyên gia phát triển bản thân: 'You should cultivate /'kʌltɪveɪt/ good habits from a young age'. Động từ 'cultivate' ở đây nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Trau dồi, canh tác, vun đắp",
+        "isCorrect": true,
+        "rationale": "Cultivate trong nông nghiệp là cày cấy, còn trong đời sống tinh thần là nỗ lực phát triển, trau dồi kỹ năng/mối quan hệ."
+      },
+      {
+        "text": "Xóa bỏ, bài trừ",
+        "isCorrect": false,
+        "rationale": "Xóa bỏ là 'eliminate' hoặc 'eradicate'."
+      },
+      {
+        "text": "Lười biếng bỏ mặc",
+        "isCorrect": false,
+        "rationale": "Bỏ mặc là 'neglect'."
+      },
+      {
+        "text": "Bắt chước rập khuôn",
+        "isCorrect": false,
+        "rationale": "Bắt chước là 'imitate'."
+      }
+    ],
+    "hint": "Hành động chăm bón, tưới tắm cho một thói quen tốt ngày càng lớn mạnh."
+  },
+  {
+    "question": "Nhiệm vụ của quản lý phòng tranh: 'She was hired to curate /'kjʊreɪt/ the upcoming modern art exhibition'. Động từ 'curate' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tuyển chọn, phụ trách trưng bày",
+        "isCorrect": true,
+        "rationale": "Curate chỉ hành động lựa chọn, sắp xếp các tác phẩm, hiện vật nghệ thuật để trưng bày trong bảo tàng hoặc bộ sưu tập."
+      },
+      {
+        "text": "Vẽ tranh minh họa",
+        "isCorrect": false,
+        "rationale": "Vẽ tranh là 'paint' hoặc 'illustrate'."
+      },
+      {
+        "text": "Bán đấu giá tài sản",
+        "isCorrect": false,
+        "rationale": "Bán đấu giá là 'auction off'."
+      },
+      {
+        "text": "Lau chùi sàn nhà",
+        "isCorrect": false,
+        "rationale": "Lau sàn là 'mop the floor'."
+      }
+    ],
+    "hint": "Đóng vai trò giám đốc nghệ thuật chọn ra những món đồ đẹp nhất xếp vào tủ trưng bày."
+  },
+  {
+    "question": "Đứa trẻ nhìn vào chiếc hộp đóng kín với ánh mắt 'curious /'kjʊriəs/'. Tính từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tò mò, hiếu kỳ",
+        "isCorrect": true,
+        "rationale": "Curious chỉ trạng thái mong muốn tìm hiểu, khám phá những điều mình chưa biết."
+      },
+      {
+        "text": "Chán nản",
+        "isCorrect": false,
+        "rationale": "Chán nản là 'bored'."
+      },
+      {
+        "text": "Sợ hãi",
+        "isCorrect": false,
+        "rationale": "Sợ hãi là 'scared' hoặc 'afraid'."
+      },
+      {
+        "text": "Tức giận",
+        "isCorrect": false,
+        "rationale": "Tức giận là 'angry' hoặc 'furious'."
+      }
+    ],
+    "hint": "Muốn mở tung mọi thứ ra để xem bên trong có gì."
+  },
+  {
+    "question": "Trong bản tin thời sự: 'The current /'kɜːrənt/ economic situation is improving'. Tính từ 'current' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Hiện tại, hiện hành",
+        "isCorrect": true,
+        "rationale": "Current chỉ những sự kiện, tình huống đang diễn ra ngay ở thời điểm bây giờ."
+      },
+      {
+        "text": "Quá khứ xa xưa",
+        "isCorrect": false,
+        "rationale": "Quá khứ là 'past'."
+      },
+      {
+        "text": "Tương lai sắp tới",
+        "isCorrect": false,
+        "rationale": "Tương lai là 'future'."
+      },
+      {
+        "text": "Lỗi thời từ lâu",
+        "isCorrect": false,
+        "rationale": "Lỗi thời là 'outdated' hoặc 'obsolete'."
+      }
+    ],
+    "hint": "Ngay lúc này, thuộc về thời đại này."
+  },
+  {
+    "question": "Khi viết email cập nhật tiến độ: 'We are currently /'kɜːrəntli/ testing the prototype'. Trạng từ 'currently' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Hiện tại, vào lúc này",
+        "isCorrect": true,
+        "rationale": "Currently là trạng từ đồng nghĩa với 'at present' hoặc 'now'."
+      },
+      {
+        "text": "Hôm qua",
+        "isCorrect": false,
+        "rationale": "Hôm qua là 'yesterday'."
+      },
+      {
+        "text": "Trong tương lai xa",
+        "isCorrect": false,
+        "rationale": "Trong tương lai xa là 'in the distant future'."
+      },
+      {
+        "text": "Định kỳ hàng năm",
+        "isCorrect": false,
+        "rationale": "Hàng năm là 'annually'."
+      }
+    ],
+    "hint": "Chỉ hành động đang diễn ra song song với thời gian nói."
+  },
+  {
+    "question": "Trong hợp đồng thuê tòa nhà: 'The custodian /kʌ'stoʊdiən/ is responsible for locking the doors at night'. Danh từ 'custodian' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Người trông coi, nhân viên tạp vụ bảo quản tài sản",
+        "isCorrect": true,
+        "rationale": "Custodian là người được thuê để quét dọn, quản lý và chăm sóc một tòa nhà hoặc tài sản công cộng."
+      },
+      {
+        "text": "Giám đốc điều hành",
+        "isCorrect": false,
+        "rationale": "Giám đốc điều hành là 'CEO'."
+      },
+      {
+        "text": "Kiến trúc sư trưởng",
+        "isCorrect": false,
+        "rationale": "Kiến trúc sư là 'architect'."
+      },
+      {
+        "text": "Khách mua nhà",
+        "isCorrect": false,
+        "rationale": "Khách mua là 'buyer'."
+      }
+    ],
+    "hint": "Người nắm giữ chùm chìa khóa và lo việc vệ sinh, an ninh cho cơ quan."
+  },
+  {
+    "question": "Hãng xe sang giới thiệu dịch vụ: 'We provide custom /'kʌstəm/ leather seats for your car'. Tính từ 'custom' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tùy chỉnh, đặt làm riêng theo yêu cầu",
+        "isCorrect": true,
+        "rationale": "Custom (tính từ) mô tả những sản phẩm được thiết kế riêng biệt cho một khách hàng cụ thể, không phải hàng đại trà."
+      },
+      {
+        "text": "Sản xuất hàng loạt giá rẻ",
+        "isCorrect": false,
+        "rationale": "Sản xuất hàng loạt là 'mass-produced'."
+      },
+      {
+        "text": "Lỗi thời thô kệch",
+        "isCorrect": false,
+        "rationale": "Lỗi thời là 'outdated'."
+      },
+      {
+        "text": "Nhập khẩu bất hợp pháp",
+        "isCorrect": false,
+        "rationale": "Bất hợp pháp là 'illegal'."
+      }
+    ],
+    "hint": "Được đo ni đóng giày riêng cho sở thích của bạn."
+  },
+  {
+    "question": "Giao diện phần mềm cho phép khách hàng: 'Click here to customize /'kʌstəmaɪz/ your profile dashboard'. Động từ 'customize' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Làm theo yêu cầu, tùy chỉnh theo ý muốn",
+        "isCorrect": true,
+        "rationale": "Customize là hành động thay đổi đặc tính của món đồ/phần mềm để vừa vặn với sở thích cá nhân cá thể."
+      },
+      {
+        "text": "Khóa tài khoản vĩnh viễn",
+        "isCorrect": false,
+        "rationale": "Khóa tài khoản là 'lock account'."
+      },
+      {
+        "text": "Xóa sạch dữ liệu cũ",
+        "isCorrect": false,
+        "rationale": "Xóa dữ liệu là 'wipe data'."
+      },
+      {
+        "text": "Báo cáo lỗi phần mềm",
+        "isCorrect": false,
+        "rationale": "Báo cáo lỗi là 'report a bug'."
+      }
+    ],
+    "hint": "Hành động chỉnh sửa hình nền, font chữ theo gu riêng của bạn."
+  },
+  {
+    "question": "Sản phẩm quà tặng cao cấp: 'We offer customized /'kʌstəmaɪzd/ gifts with your name engraved on them'. 'Customized' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đã được tùy chỉnh theo yêu cầu",
+        "isCorrect": true,
+        "rationale": "Customized là dạng tính từ bị động, chỉ vật phẩm đã được hoàn thiện riêng biệt theo đơn đặt hàng."
+      },
+      {
+        "text": "Bị hỏng hóc biến dạng",
+        "isCorrect": false,
+        "rationale": "Bị hỏng là 'damaged'."
+      },
+      {
+        "text": "Bán đại trà ở siêu thị",
+        "isCorrect": false,
+        "rationale": "Bán đại trà là 'mass-market'."
+      },
+      {
+        "text": "Hàng đã qua sử dụng",
+        "isCorrect": false,
+        "rationale": "Đã qua sử dụng là 'used' hoặc 'second-hand'."
+      }
+    ],
+    "hint": "Đồ vật mang dấu ấn cá nhân độc nhất vô nhị."
+  },
+  {
+    "question": "Khi kiểm tra kiện hàng vừa giao: 'The box was damaged /'dæmɪdʒd/ during transit'. Tính từ 'damaged' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bị hư hỏng, sứt mẻ, móp méo",
+        "isCorrect": true,
+        "rationale": "Damaged chỉ tình trạng đồ vật bị phá hủy một phần, giảm giá trị sử dụng do va đập vật lý."
+      },
+      {
+        "text": "Còn nguyên vẹn hoàn hảo",
+        "isCorrect": false,
+        "rationale": "Nguyên vẹn là 'intact' hoặc 'perfect'."
+      },
+      {
+        "text": "Được bọc màng bảo vệ",
+        "isCorrect": false,
+        "rationale": "Được bọc bảo vệ là 'protected' hoặc 'wrapped'."
+      },
+      {
+        "text": "Giao nhầm địa chỉ",
+        "isCorrect": false,
+        "rationale": "Giao nhầm là 'misdelivered'."
+      }
+    ],
+    "hint": "Tình trạng rách nát hoặc vỡ nứt của thùng hàng."
+  },
+  {
+    "question": "Nhân viên văn phòng thở phào nhẹ nhõm: 'Tomorrow is my day off /deɪ ɔːf/, I will sleep all day'. Cụm danh từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Ngày nghỉ không làm việc",
+        "isCorrect": true,
+        "rationale": "Day off là ngày bạn được phép nghỉ ngơi, không phải chấm công đi làm tại cơ quan."
+      },
+      {
+        "text": "Ngày tăng ca ban đêm",
+        "isCorrect": false,
+        "rationale": "Tăng ca là 'overtime day'."
+      },
+      {
+        "text": "Ngày nhận lương",
+        "isCorrect": false,
+        "rationale": "Ngày nhận lương là 'payday'."
+      },
+      {
+        "text": "Ngày họp đại hội cổ đông",
+        "isCorrect": false,
+        "rationale": "Ngày họp là 'meeting day'."
+      }
+    ],
+    "hint": "Ngày bạn được ở nhà đi chơi tự do thoải mái."
+  },
+  {
+    "question": "Thông báo từ ngân hàng: 'The deactivation /diːˌæktɪ'veɪʃn/ of your credit card is complete'. Từ 'deactivation' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự hủy kích hoạt, ngừng hoạt động",
+        "isCorrect": true,
+        "rationale": "Deactivation là hành động làm cho một tài khoản, thiết bị hoặc hệ thống ngừng chạy hoặc mất hiệu lực tín hiệu."
+      },
+      {
+        "text": "Sự mở tài khoản mới",
+        "isCorrect": false,
+        "rationale": "Mở mới là 'activation' hoặc 'opening'."
+      },
+      {
+        "text": "Sự gia hạn thẻ",
+        "isCorrect": false,
+        "rationale": "Gia hạn là 'renewal'."
+      },
+      {
+        "text": "Sự nuốt thẻ tại cây ATM",
+        "isCorrect": false,
+        "rationale": "Nuốt thẻ là 'card retention'."
+      }
+    ],
+    "hint": "Làm cho chiếc thẻ không còn quẹt thanh toán tiền được nữa."
+  },
+  {
+    "question": "Trong một buổi họp dự án, quản lý nhắc nhở: 'We must meet the deadline /ˈdedlaɪn/ for the proposal.' Từ 'deadline' ở đây có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Hạn chót, thời hạn cuối cùng phải hoàn thành",
+        "isCorrect": true,
+        "rationale": "Deadline là mốc thời gian giới hạn bắt buộc bạn phải hoàn thành một công việc."
+      },
+      {
+        "text": "Thời gian bắt đầu dự án",
+        "isCorrect": false,
+        "rationale": "Thời gian bắt đầu thường gọi là start date hoặc commencement."
+      },
+      {
+        "text": "Biên bản cuộc họp",
+        "isCorrect": false,
+        "rationale": "Biên bản cuộc họp là meeting minutes."
+      },
+      {
+        "text": "Giờ nghỉ giải lao",
+        "isCorrect": false,
+        "rationale": "Giờ nghỉ giải lao là break hoặc interval."
+      }
+    ],
+    "hint": "Đây là mốc thời gian bạn không được phép trễ khi làm việc."
+  },
+  {
+    "question": "Khi chuẩn bị rời máy bay, tiếp viên thông báo: 'Please check your belongings before you deboard /diːˈbɔːrd/.', hành động 'deboard' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Xuống (xe, tàu, máy bay)",
+        "isCorrect": true,
+        "rationale": "Deboard đồng nghĩa với disembark, nghĩa là bước xuống khỏi một phương tiện giao thông."
+      },
+      {
+        "text": "Lên máy bay",
+        "isCorrect": false,
+        "rationale": "Lên tàu/máy bay gọi là board."
+      },
+      {
+        "text": "Ký gửi hành lý",
+        "isCorrect": false,
+        "rationale": "Ký gửi hành lý là check in luggage."
+      },
+      {
+        "text": "Thắt dây an toàn",
+        "isCorrect": false,
+        "rationale": "Thắt dây an toàn là fasten seatbelt."
+      }
+    ],
+    "hint": "Hành động đi từ trên phương tiện xuống mặt đất."
+  },
+  {
+    "question": "Khi sửa sang lại nhà cửa, chủ nhà nói: 'We will focus on the dining room decoration /ˌdekəˈreɪʃn/ first.' Từ 'decoration' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự trang trí, đồ trang trí",
+        "isCorrect": true,
+        "rationale": "Decoration là danh từ chỉ hành động làm đẹp không gian bằng vật dụng hoặc chính vật dụng làm đẹp đó."
+      },
+      {
+        "text": "Sự đập phá, dỡ bỏ",
+        "isCorrect": false,
+        "rationale": "Sự phá dỡ là demolition."
+      },
+      {
+        "text": "Hệ thống thoát nước",
+        "isCorrect": false,
+        "rationale": "Hệ thống thoát nước là drainage system."
+      },
+      {
+        "text": "Bản vẽ cấu trúc",
+        "isCorrect": false,
+        "rationale": "Bản vẽ cấu trúc là structural blueprint."
+      }
+    ],
+    "hint": "Hành động treo tranh, bày hoa để phòng ốc trông đẹp hơn."
+  },
+  {
+    "question": "Một nhà thiết kế nội thất nhận xét: 'These pillows are purely decorative /ˈdekərətɪv/.' Từ 'decorative' ở đây có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Có tính chất trang trí, làm đẹp là chính",
+        "isCorrect": true,
+        "rationale": "Decorative là tính từ chỉ những vật làm ra với mục đích thẩm mỹ chứ không có nhiều công năng sử dụng."
+      },
+      {
+        "text": "Rất bền bỉ",
+        "isCorrect": false,
+        "rationale": "Bền bỉ là durable."
+      },
+      {
+        "text": "Có thể gấp gọn được",
+        "isCorrect": false,
+        "rationale": "Có thể gấp gọn là collapsible."
+      },
+      {
+        "text": "Đắt tiền, xa xỉ",
+        "isCorrect": false,
+        "rationale": "Đắt tiền là costly hoặc expensive."
+      }
+    ],
+    "hint": "Chiếc gối này để bày cho đẹp bộ sofa chứ không dùng để gối đầu ngủ."
+  },
+  {
+    "question": "Báo cáo tài chính ghi: 'We expect a decrease /dɪˈkriːs/ in operating costs next month.' Từ 'decrease' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự giảm bớt, sụt giảm",
+        "isCorrect": true,
+        "rationale": "Decrease có nghĩa là trở nên ít hơn về kích thước, số lượng hoặc giá trị."
+      },
+      {
+        "text": "Sự tăng trưởng",
+        "isCorrect": false,
+        "rationale": "Sự tăng trưởng là increase hoặc growth."
+      },
+      {
+        "text": "Sự giữ nguyên",
+        "isCorrect": false,
+        "rationale": "Giữ nguyên là remaining constant."
+      },
+      {
+        "text": "Sự biến động thất thường",
+        "isCorrect": false,
+        "rationale": "Biến động là fluctuation."
+      }
+    ],
+    "hint": "Ngược nghĩa hoàn toàn với động từ/danh từ 'increase'."
+  },
+  {
+    "question": "Trong thư chúc mừng, giám đốc viết: 'I want to dedicate /ˈdedɪkeɪt/ this award to our hardworking staff.' Từ 'dedicate' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Cống hiến, hiến dâng, dành tặng riêng",
+        "isCorrect": true,
+        "rationale": "Dedicate có nghĩa là dành trọn thời gian, công sức hoặc một phần thưởng cho một mục đích hay một ai đó."
+      },
+      {
+        "text": "Từ chối trao tặng",
+        "isCorrect": false,
+        "rationale": "Từ chối là refuse hoặc deny."
+      },
+      {
+        "text": "Trì hoãn sự kiện",
+        "isCorrect": false,
+        "rationale": "Trì hoãn là postpone."
+      },
+      {
+        "text": "Tịch thu, thu hồi",
+        "isCorrect": false,
+        "rationale": "Thu hồi là recall hoặc confiscate."
+      }
+    ],
+    "hint": "Hành động hướng toàn bộ thành quả hoặc tâm huyết của mình về phía một người khác."
+  },
+  {
+    "question": "Khi nói về một nhân viên kỳ cựu: 'Everyone admires her dedication /ˌdedɪˈkeɪʃn/ to the company.' Từ 'dedication' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự cống hiến, tận tụy",
+        "isCorrect": true,
+        "rationale": "Dedication là danh từ chỉ sự tận tâm, làm việc hết lòng không quản ngại khó khăn vì một lý tưởng hoặc công việc."
+      },
+      {
+        "text": "Sự phàn nàn",
+        "isCorrect": false,
+        "rationale": "Sự phàn nàn là complaint."
+      },
+      {
+        "text": "Sự đi làm muộn",
+        "isCorrect": false,
+        "rationale": "Đi muộn là tardiness."
+      },
+      {
+        "text": "Sự thiếu năng lực",
+        "isCorrect": false,
+        "rationale": "Thiếu năng lực là incompetence."
+      }
+    ],
+    "hint": "Đồng nghĩa với từ 'commitment', chỉ sự hết lòng với công việc."
+  },
+  {
+    "question": "Quy định mua sắm ghi rõ: 'The store will deduct /dɪˈdʌkt/ $10 if you bring your own bag.' Hành động 'deduct' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Khấu trừ, trừ bớt đi",
+        "isCorrect": true,
+        "rationale": "Deduct có nghĩa là lấy đi một lượng hoặc một số tiền từ một tổng số có sẵn."
+      },
+      {
+        "text": "Cộng thêm vào",
+        "isCorrect": false,
+        "rationale": "Cộng thêm là add hoặc charge extra."
+      },
+      {
+        "text": "Phạt tiền gấp đôi",
+        "isCorrect": false,
+        "rationale": "Phạt tiền là fine."
+      },
+      {
+        "text": "Hoàn lại toàn bộ tiền",
+        "isCorrect": false,
+        "rationale": "Hoàn tiền là refund."
+      }
+    ],
+    "hint": "Khi hóa đơn của bạn là $50, cửa hàng 'deduct' $10 tức là bạn chỉ cần trả $40."
+  },
+  {
+    "question": "Khi được hỏi liệu bạn có tham gia bữa tiệc không, bạn trả lời: 'I will definitely /ˈdefɪnətli/ be there!' Từ 'definitely' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Chắc chắn, hiển nhiên rồi",
+        "isCorrect": true,
+        "rationale": "Definitely dùng để khẳng định một sự việc một cách chắc chắn 100%, không có sự nghi ngờ."
+      },
+      {
+        "text": "Có lẽ, chưa chắc chắn",
+        "isCorrect": false,
+        "rationale": "Có lẽ là maybe hoặc perhaps."
+      },
+      {
+        "text": "Không bao giờ",
+        "isCorrect": false,
+        "rationale": "Không bao giờ là never."
+      },
+      {
+        "text": "Hiếm khi xảy ra",
+        "isCorrect": false,
+        "rationale": "Hiếm khi là rarely."
+      }
+    ],
+    "hint": "Đồng nghĩa với từ 'certainly'."
+  },
+  {
+    "question": "Trong từ điển tiếng Anh có ghi: 'The definition /ˌdefɪˈnɪʃn/ of a word.' Từ 'definition' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Định nghĩa, lời giải nghĩa",
+        "isCorrect": true,
+        "rationale": "Definition là câu văn giải thích rõ nghĩa của một từ, cụm từ hoặc khái niệm."
+      },
+      {
+        "text": "Cách phát âm",
+        "isCorrect": false,
+        "rationale": "Cách phát âm là pronunciation."
+      },
+      {
+        "text": "Từ đồng nghĩa",
+        "isCorrect": false,
+        "rationale": "Từ đồng nghĩa là synonym."
+      },
+      {
+        "text": "Lịch sử của từ",
+        "isCorrect": false,
+        "rationale": "Lịch sử từ vựng là etymology."
+      }
+    ],
+    "hint": "Phần chữ giải thích cho bạn biết từ đó có ý nghĩa là gì."
+  },
+  {
+    "question": "Khi ứng tuyển công việc cao cấp, nhà tuyển dụng yêu cầu: 'Applicants must hold a university degree /dɪˈɡriː/.' Từ 'degree' ở đây có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bằng cấp, học vị",
+        "isCorrect": true,
+        "rationale": "Degree là chứng chỉ, bằng cấp do trường đại học cấp sau khi bạn hoàn thành khóa học."
+      },
+      {
+        "text": "Kinh nghiệm làm việc",
+        "isCorrect": false,
+        "rationale": "Kinh nghiệm là experience."
+      },
+      {
+        "text": "Đơn xin việc",
+        "isCorrect": false,
+        "rationale": "Đơn xin việc là application."
+      },
+      {
+        "text": "Nhiệt độ phòng",
+        "isCorrect": false,
+        "rationale": "Mặc dù degree nghĩa là 'độ', nhưng trong ngữ cảnh 'university degree' thì nó bắt buộc là bằng cấp."
+      }
+    ],
+    "hint": "Thứ bạn nhận được vào ngày lễ tốt nghiệp đại học."
+  },
+  {
+    "question": "Nhận được món quà bất ngờ từ đồng nghiệp, bạn nói: 'I am delighted /dɪˈlaɪtɪd/ with your gift!' Từ 'delighted' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Vui mừng, hạnh phúc, hài lòng",
+        "isCorrect": true,
+        "rationale": "Delighted chỉ trạng thái vô cùng vui sướng và thỏa mãn về một điều gì đó."
+      },
+      {
+        "text": "Bối rối, ngạc nhiên",
+        "isCorrect": false,
+        "rationale": "Bối rối là confused, ngạc nhiên là surprised."
+      },
+      {
+        "text": "Tức giận, bất bình",
+        "isCorrect": false,
+        "rationale": "Tức giận là angry hoặc outraged."
+      },
+      {
+        "text": "Thất vọng, buồn chán",
+        "isCorrect": false,
+        "rationale": "Thất vọng là disappointed."
+      }
+    ],
+    "hint": "Một trạng thái cảm xúc còn mạnh mẽ và tích cực hơn cả 'happy'."
+  },
+  {
+    "question": "Quản lý thị trường phân tích: 'The demand /dɪˈmænd/ for electric cars is rising rapidly.' Từ 'demand' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Nhu cầu (mua sắm, sử dụng)",
+        "isCorrect": true,
+        "rationale": "Demand trong kinh tế học chỉ nhu cầu và khả năng sẵn sàng chi trả của người tiêu dùng đối với một mặt hàng."
+      },
+      {
+        "text": "Nguồn cung hàng hóa",
+        "isCorrect": false,
+        "rationale": "Nguồn cung là supply."
+      },
+      {
+        "text": "Giá cả thị trường",
+        "isCorrect": false,
+        "rationale": "Giá cả là price."
+      },
+      {
+        "text": "Chiến dịch quảng cáo",
+        "isCorrect": false,
+        "rationale": "Chiến dịch là campaign."
+      }
+    ],
+    "hint": "Đi chung với từ 'supply' (cung) để tạo thành quy luật cung - ..."
+  },
+  {
+    "question": "Biển báo trước một khu nhà cũ nát: 'Caution! Demolition /ˌdeməˈlɪʃn/ in progress.' Từ 'demolition' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự phá dỡ, đánh sập (công trình)",
+        "isCorrect": true,
+        "rationale": "Demolition là hành động san phẳng, phá hủy một tòa nhà hoặc cấu trúc một cách có chủ đích."
+      },
+      {
+        "text": "Sự xây mới hoàn toàn",
+        "isCorrect": false,
+        "rationale": "Xây mới là construction."
+      },
+      {
+        "text": "Sự sơn sửa bề ngoài",
+        "isCorrect": false,
+        "rationale": "Sơn sửa là renovation hoặc repainting."
+      },
+      {
+        "text": "Sự bán đấu giá nhà đất",
+        "isCorrect": false,
+        "rationale": "Bán đấu giá là auction."
+      }
+    ],
+    "hint": "Hành động dùng xe xúc, máy ủi hoặc thuốc nổ để đánh sập một khu chung cư cũ."
+  },
+  {
+    "question": "Khi giới thiệu phần mềm mới cho khách hàng, nhân viên nói: 'Let me demonstrate /ˈdemənstreɪt/ how it works.' Từ 'demonstrate' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Trình bày, làm mẫu, chứng minh cách làm",
+        "isCorrect": true,
+        "rationale": "Demonstrate là hành động giải thích hoặc chỉ cho ai đó thấy cách hoạt động của một thứ bằng thực tế trực quan."
+      },
+      {
+        "text": "Giấu kín tính năng",
+        "isCorrect": false,
+        "rationale": "Giấu là hide hoặc conceal."
+      },
+      {
+        "text": "Bán sản phẩm giá cao",
+        "isCorrect": false,
+        "rationale": "Bán là sell."
+      },
+      {
+        "text": "Sửa chữa lỗi lập trình",
+        "isCorrect": false,
+        "rationale": "Sửa lỗi phần mềm là fix bugs."
+      }
+    ],
+    "hint": "Hành động thao tác trực tiếp trên máy để người khác nhìn và học theo."
+  },
+  {
+    "question": "Lời mời trên poster sự kiện: 'Join us for a live cooking demonstration /ˌdemənˈstreɪʃn/.' Từ 'demonstration' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự minh họa, buổi hướng dẫn thực tế",
+        "isCorrect": true,
+        "rationale": "Demonstration là danh từ của demonstrate, chỉ một buổi trình diễn cách làm hoặc tính năng sản phẩm."
+      },
+      {
+        "text": "Cuộc thi nấu ăn có giải thưởng",
+        "isCorrect": false,
+        "rationale": "Cuộc thi là competition."
+      },
+      {
+        "text": "Bữa tiệc ăn thử miễn phí",
+        "isCorrect": false,
+        "rationale": "Ăn thử là food tasting."
+      },
+      {
+        "text": "Lễ khai trương nhà hàng",
+        "isCorrect": false,
+        "rationale": "Khai trương là grand opening."
+      }
+    ],
+    "hint": "Buổi đầu bếp đứng nấu trực tiếp cho khán giả xem và học hỏi công thức."
+  },
+  {
+    "question": "Khi bị đau răng, bạn cần đặt một lịch hẹn với 'a dentist /ˈdentɪst/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Nha sĩ",
+        "isCorrect": true,
+        "rationale": "Dentist là bác sĩ chuyên khoa phụ trách khám và điều trị các bệnh liên quan đến răng, nướu."
+      },
+      {
+        "text": "Dược sĩ",
+        "isCorrect": false,
+        "rationale": "Dược sĩ là pharmacist."
+      },
+      {
+        "text": "Bác sĩ nhãn khoa",
+        "isCorrect": false,
+        "rationale": "Bác sĩ mắt là ophthalmologist hoặc oculist."
+      },
+      {
+        "text": "Bác sĩ thú y",
+        "isCorrect": false,
+        "rationale": "Bác sĩ thú y là veterinarian (vet)."
+      }
+    ],
+    "hint": "Người chuyên nhổ răng sâu hoặc bọc răng sứ cho bạn."
+  },
+  {
+    "question": "Bảng điện tử tại ga tàu hiển thị: 'The train to Boston will depart /dɪˈpɑːrt/ from platform 3.' Từ 'depart' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Khởi hành, rời đi",
+        "isCorrect": true,
+        "rationale": "Depart là động từ hành động rời khỏi một địa điểm để bắt đầu một chuyến đi."
+      },
+      {
+        "text": "Cập bến, đi tới nơi",
+        "isCorrect": false,
+        "rationale": "Đến nơi là arrive."
+      },
+      {
+        "text": "Bị hoãn chuyến",
+        "isCorrect": false,
+        "rationale": "Bị hoãn là delayed."
+      },
+      {
+        "text": "Bị hủy lịch trình",
+        "isCorrect": false,
+        "rationale": "Bị hủy là canceled."
+      }
+    ],
+    "hint": "Ngược nghĩa với động từ 'arrive' (đến nơi)."
+  },
+  {
+    "question": "Tại sân bay, bạn cần đi theo biển chỉ dẫn nào để tìm phòng chờ lên máy bay? 'Departure /dɪˈpɑːrtʃər/' hay 'Arrival'?",
+    "answerOptions": [
+      {
+        "text": "Departure - Khu vực khởi hành",
+        "isCorrect": true,
+        "rationale": "Departure là danh từ chỉ sự rời đi, khu vực làm thủ tục xuất cảnh để bay đi."
+      },
+      {
+        "text": "Arrival - Khu vực đón khách đến",
+        "isCorrect": false,
+        "rationale": "Arrival dành cho những người vừa đáp máy bay xuống."
+      },
+      {
+        "text": "Baggage Claim - Nơi lấy hành lý",
+        "isCorrect": false,
+        "rationale": "Đây là nơi nhận lại vali sau chuyến bay."
+      },
+      {
+        "text": "Customs - Cửa hải quan",
+        "isCorrect": false,
+        "rationale": "Đây là nơi kiểm tra hàng hóa, thuế quản."
+      }
+    ],
+    "hint": "Khu vực dành cho hành khách chuẩn bị bay rời khỏi thành phố."
+  },
+  {
+    "question": "Mẹ dặn con: 'Our picnic will depend on /dɪˈpend ɑːn/ the weather.' Cụm động từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Phụ thuộc vào, tùy thuộc vào",
+        "isCorrect": true,
+        "rationale": "Depend on chỉ một sự việc có diễn ra hay không là do một yếu tố khác quyết định."
+      },
+      {
+        "text": "Bất chấp, không quan tâm",
+        "isCorrect": false,
+        "rationale": "Bất chấp là regardless of."
+      },
+      {
+        "text": "Hủy hoại, làm hỏng",
+        "isCorrect": false,
+        "rationale": "Làm hỏng là ruin."
+      },
+      {
+        "text": "Dự báo trước",
+        "isCorrect": false,
+        "rationale": "Dự báo là predict."
+      }
+    ],
+    "hint": "Trời nắng thì đi, trời mưa thì nghỉ, tức là chuyến đi... thời tiết."
+  },
+  {
+    "question": "Khi một quốc gia không tự chủ được nguồn năng lượng: 'The country is energy dependent /dɪˈpendənt/.' Từ 'dependent' mang ý nghĩa gì?",
+    "answerOptions": [
+      {
+        "text": "Phụ thuộc, lệ thuộc",
+        "isCorrect": true,
+        "rationale": "Dependent là tính từ chỉ trạng thái cần có ai đó hoặc thứ gì đó khác để sinh tồn hoặc hoạt động."
+      },
+      {
+        "text": "Độc lập, tự chủ",
+        "isCorrect": false,
+        "rationale": "Độc lập là independent."
+      },
+      {
+        "text": "Dồi dào, vô tận",
+        "isCorrect": false,
+        "rationale": "Dồi dào là abundant."
+      },
+      {
+        "text": "Miễn phí hoàn toàn",
+        "isCorrect": false,
+        "rationale": "Miễn phí là free."
+      }
+    ],
+    "hint": "Ngược nghĩa hoàn toàn với tính từ 'independent'."
+  },
+  {
+    "question": "Khi thuê căn hộ, chủ nhà yêu cầu: 'You must pay a one-month deposit /dɪˈpɑːzɪt/.' Từ 'deposit' ở đây có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tiền đặt cọc, tiền ký quỹ",
+        "isCorrect": true,
+        "rationale": "Deposit là một khoản tiền trả trước để đảm bảo bạn sẽ thực hiện hợp đồng hoặc để đền bù nếu làm hỏng đồ."
+      },
+      {
+        "text": "Tiền thuê nhà hàng tháng",
+        "isCorrect": false,
+        "rationale": "Tiền thuê nhà là rent."
+      },
+      {
+        "text": "Tiền môi giới nhà đất",
+        "isCorrect": false,
+        "rationale": "Tiền môi giới là brokerage fee."
+      },
+      {
+        "text": "Tiền phạt vi phạm hợp đồng",
+        "isCorrect": false,
+        "rationale": "Tiền phạt là fine hoặc penalty."
+      }
+    ],
+    "hint": "Khoản tiền bạn gửi chủ nhà giữ trước, khi trả phòng không hỏng hóc gì sẽ được nhận lại."
+  },
+  {
+    "question": "Cảnh sát yêu cầu nhân chứng: 'Can you describe /dɪˈskraɪb/ the suspect?' Từ 'describe' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Mô tả, miêu tả (ngoại hình, tính chất)",
+        "isCorrect": true,
+        "rationale": "Describe là dùng từ ngữ để vẽ lại đặc điểm, hình dáng hoặc tính chất của người, vật, sự việc."
+      },
+      {
+        "text": "Bắt giữ ngay lập tức",
+        "isCorrect": false,
+        "rationale": "Bắt giữ là arrest."
+      },
+      {
+        "text": "Phác họa một bức tranh",
+        "isCorrect": false,
+        "rationale": "Vẽ phác họa là sketch."
+      },
+      {
+        "text": "Thả tự do cho ai đó",
+        "isCorrect": false,
+        "rationale": "Thả tự do là release."
+      }
+    ],
+    "hint": "Nói cho người khác biết kẻ đó cao hay thấp, tóc dài hay ngắn."
+  },
+  {
+    "question": "Trang web mua sắm trực tuyến luôn có mục: 'Product description /dɪˈskrɪpʃn/.' Mục này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự mô tả, phần mô tả thông số sản phẩm",
+        "isCorrect": true,
+        "rationale": "Description là danh từ của describe, chỉ đoạn văn ghi rõ chi tiết sản phẩm làm bằng gì, kích thước bao nhiêu."
+      },
+      {
+        "text": "Đánh giá của người mua trước",
+        "isCorrect": false,
+        "rationale": "Đánh giá là review."
+      },
+      {
+        "text": "Chính sách đổi trả hàng",
+        "isCorrect": false,
+        "rationale": "Chính sách đổi trả là return policy."
+      },
+      {
+        "text": "Hóa đơn giá trị gia tăng",
+        "isCorrect": false,
+        "rationale": "Hóa đơn là invoice."
+      }
+    ],
+    "hint": "Nơi ghi rõ chất liệu, nguồn gốc xuất xứ của chiếc áo bạn muốn mua."
+  },
+  {
+    "question": "Sau những nỗ lực ngày đêm hoàn thành dự án, sếp nói: 'You deserve /dɪˈzɜːrv/ a promotion.' Từ 'deserve' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Xứng đáng được hưởng",
+        "isCorrect": true,
+        "rationale": "Deserve nghĩa là có phẩm chất hoặc đã làm những việc xứng đáng nhận được phần thưởng hoặc hình phạt tương ứng."
+      },
+      {
+        "text": "Bị từ chối thẳng thừng",
+        "isCorrect": false,
+        "rationale": "Bị từ chối là be rejected."
+      },
+      {
+        "text": "Cảm thấy lo sợ",
+        "isCorrect": false,
+        "rationale": "Lo sợ là feel anxious/scared."
+      },
+      {
+        "text": "Chưa đủ điều kiện xét duyệt",
+        "isCorrect": false,
+        "rationale": "Chưa đủ điều kiện là unqualified."
+      }
+    ],
+    "hint": "Làm việc siêu tốt thì việc nhận phần thưởng là điều hoàn toàn hiển nhiên và..."
+  },
+  {
+    "question": "Tại công viên, bạn thấy biển báo: 'Smoking is only allowed in designated /ˈdezɪɡneɪtɪd/ areas.' Từ 'designated' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Được chỉ định, quy định sẵn cho mục đích riêng",
+        "isCorrect": true,
+        "rationale": "Designated chỉ một địa điểm hoặc vị trí đã được lựa chọn, đánh dấu chính thức cho một hoạt động cụ thể."
+      },
+      {
+        "text": "Bị cấm hoàn toàn",
+        "isCorrect": false,
+        "rationale": "Bị cấm là prohibited."
+      },
+      {
+        "text": "Rộng rãi, thoáng mát",
+        "isCorrect": false,
+        "rationale": "Rộng rãi là spacious."
+      },
+      {
+        "text": "Đang sửa chữa, phong tỏa",
+        "isCorrect": false,
+        "rationale": "Phong tỏa là blocked/under repair."
+      }
+    ],
+    "hint": "Khu vực đã được cắm biển dành riêng cho người hút thuốc."
+  },
+  {
+    "question": "Khi một người mất hết hy vọng và sẵn sàng làm bất cứ điều gì: 'He was desperate /ˈdespərət/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tuyệt vọng, liều lĩnh, không còn gì để mất",
+        "isCorrect": true,
+        "rationale": "Desperate mô tả trạng thái cực kỳ lo âu, mất hết hy vọng khiến một người có thể hành động liều lĩnh bất chấp hậu quả."
+      },
+      {
+        "text": "Vui vẻ, lạc quan",
+        "isCorrect": false,
+        "rationale": "Lạc quan là optimistic."
+      },
+      {
+        "text": "Bình tĩnh, tự tin",
+        "isCorrect": false,
+        "rationale": "Bình tĩnh là calm, tự tin là confident."
+      },
+      {
+        "text": "Giàu có, sung túc",
+        "isCorrect": false,
+        "rationale": "Giàu có là wealthy."
+      }
+    ],
+    "hint": "Tâm trạng của một người đang rơi vào đường cùng."
+  },
+  {
+    "question": "Khi đặt vé máy bay, hệ thống hỏi: 'What is your final destination /ˌdestɪˈneɪʃn/?' Từ 'destination' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Điểm đến, nơi đến",
+        "isCorrect": true,
+        "rationale": "Destination là địa điểm cuối cùng mà ai đó hoặc cái gì đó đang hướng tới trong hành trình."
+      },
+      {
+        "text": "Nơi khởi hành",
+        "isCorrect": false,
+        "rationale": "Nơi khởi hành là departure point."
+      },
+      {
+        "text": "Điểm dừng chân quá cảnh",
+        "isCorrect": false,
+        "rationale": "Điểm dừng quá cảnh là layover hoặc stopover."
+      },
+      {
+        "text": "Hãng hàng không lựa chọn",
+        "isCorrect": false,
+        "rationale": "Hãng hàng không là airline."
+      }
+    ],
+    "hint": "Thành phố nơi bạn sẽ bước xuống máy bay và kết thúc chuyến hành trình."
+  },
+  {
+    "question": "Hướng dẫn lắp ráp ghi: 'Detach /dɪˈtætʃ/ the cable before cleaning.' Hành động 'detach' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tháo gỡ ra, tách rời ra",
+        "isCorrect": true,
+        "rationale": "Detach nghĩa là tháo một vật ra khỏi vật khác mà nó đang được gắn liền vào."
+      },
+      {
+        "text": "Cắm chặt vào, gắn vào",
+        "isCorrect": false,
+        "rationale": "Gắn vào là attach."
+      },
+      {
+        "text": "Cắt đứt bằng kéo",
+        "isCorrect": false,
+        "rationale": "Cắt đứt là cut off."
+      },
+      {
+        "text": "Vặn chặt ốc vít",
+        "isCorrect": false,
+        "rationale": "Vặn chặt là tighten."
+      }
+    ],
+    "hint": "Ngược nghĩa hoàn toàn với động từ 'attach' (gắn vào, đính kèm)."
+  },
+  {
+    "question": "Sếp yêu cầu trợ lý: 'I need a detailed /dɪˈteɪld/ report on our sales.' Từ 'detailed' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Chi tiết, tỉ mỉ, đầy đủ thông tin nhỏ",
+        "isCorrect": true,
+        "rationale": "Detailed là tính từ chỉ một tài liệu hoặc thông tin có chiều sâu, bao gồm tất cả các khía cạnh nhỏ nhất."
+      },
+      {
+        "text": "Ngắn gọn, tóm tắt sơ qua",
+        "isCorrect": false,
+        "rationale": "Tóm tắt là brief hoặc summarized."
+      },
+      {
+        "text": "Chỉ toàn hình vẽ",
+        "isCorrect": false,
+        "rationale": "Toàn hình vẽ là illustrated."
+      },
+      {
+        "text": "Được viết bằng mật mã",
+        "isCorrect": false,
+        "rationale": "Mật mã là coded hoặc encrypted."
+      }
+    ],
+    "hint": "Báo cáo không chỉ nói chung chung mà phân tích kỹ từng con số, từng ngày."
+  },
+  {
+    "question": "Khi bạn muốn hỏi thêm thông tin, bạn nói: 'Can you give me more details /ˈdiːteɪlz/?' Từ 'details' ở đây nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Chi tiết, thông tin cụ thể",
+        "isCorrect": true,
+        "rationale": "Details ở dạng danh từ số nhiều chỉ các mảnh thông tin cụ thể, riêng lẻ của một câu chuyện hoặc kế hoạch."
+      },
+      {
+        "text": "Giá cả sản phẩm",
+        "isCorrect": false,
+        "rationale": "Giá cả là prices."
+      },
+      {
+        "text": "Hạn chót công việc",
+        "isCorrect": false,
+        "rationale": "Hạn chót là deadlines."
+      },
+      {
+        "text": "Lời khen ngợi",
+        "isCorrect": false,
+        "rationale": "Lời khen là compliments."
+      }
+    ],
+    "hint": "Những dữ liệu, thông tin cụ thể hơn để làm rõ vấn đề."
+  },
+  {
+    "question": "Hội đồng tuyển dụng họp lại: 'We need to determine /dɪˈtɜːrmɪn/ who is the best candidate.' Từ 'determine' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Xác định, quyết định, phân định",
+        "isCorrect": true,
+        "rationale": "Determine có nghĩa là tìm ra câu trả lời chính xác hoặc đưa ra một quyết định dứt khoát sau khi xem xét các dữ kiện."
+      },
+      {
+        "text": "Loại bỏ ứng viên",
+        "isCorrect": false,
+        "rationale": "Loại bỏ là eliminate."
+      },
+      {
+        "text": "Trì hoãn phỏng vấn",
+        "isCorrect": false,
+        "rationale": "Trì hoãn là postpone."
+      },
+      {
+        "text": "Chúc mừng người thắng cuộc",
+        "isCorrect": false,
+        "rationale": "Chúc mừng là congratulate."
+      }
+    ],
+    "hint": "Hành động phân tích để chốt lại xem ai mới là người phù hợp nhất."
+  },
+  {
+    "question": "Hệ thống an ninh lắp camera khắp nơi nhằm mục đích 'deterrence /dɪˈtɜːrəns/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự ngăn chặn, sự răn đe (làm chùn bước tội phạm)",
+        "isCorrect": true,
+        "rationale": "Deterrence là việc ngăn ngừa một hành vi xấu xảy ra bằng cách làm cho người ta sợ hậu quả hoặc thấy khó khăn mà từ bỏ."
+      },
+      {
+        "text": "Sự ghi hình làm kỷ niệm",
+        "isCorrect": false,
+        "rationale": "Ghi hình là recording."
+      },
+      {
+        "text": "Sự trang trí cho đẹp mắt",
+        "isCorrect": false,
+        "rationale": "Trang trí là decoration."
+      },
+      {
+        "text": "Sự tấn công chủ động",
+        "isCorrect": false,
+        "rationale": "Tấn công là attack."
+      }
+    ],
+    "hint": "Trộm nhìn thấy camera sẽ sợ bị bắt mà không dám ra tay trộm đồ nữa."
+  },
+  {
+    "question": "Công ty công nghệ cam kết: 'We always try to develop /dɪˈveləp/ new software.' Từ 'develop' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Phát triển, mở rộng, nghiên cứu chế tạo ra",
+        "isCorrect": true,
+        "rationale": "Develop là hành động làm cho một thứ trở nên tiên tiến hơn, lớn hơn hoặc tạo ra sản phẩm mới qua thời gian."
+      },
+      {
+        "text": "Hủy bỏ phần mềm cũ",
+        "isCorrect": false,
+        "rationale": "Hủy bỏ là discontinue hoặc cancel."
+      },
+      {
+        "text": "Sao chép từ đối thủ",
+        "isCorrect": false,
+        "rationale": "Sao chép là copy."
+      },
+      {
+        "text": "Bán bản quyền lấy tiền",
+        "isCorrect": false,
+        "rationale": "Bán là sell."
+      }
+    ],
+    "hint": "Làm cho thứ gì đó lớn mạnh hoặc hoàn thiện hơn."
+  },
+  {
+    "question": "Điện thoại thông minh, máy tính bảng được gọi chung là 'electronic devices /dɪˈvaɪs/.' Từ 'device' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Thiết bị, dụng cụ công nghệ",
+        "isCorrect": true,
+        "rationale": "Device là một vật dụng, máy móc được thiết kế, chế tạo cho một mục đích hoặc công năng cụ thể."
+      },
+      {
+        "text": "Hệ thống mạng internet",
+        "isCorrect": false,
+        "rationale": "Hệ thống mạng là network."
+      },
+      {
+        "text": "Ứng dụng di động",
+        "isCorrect": false,
+        "rationale": "Ứng dụng là application (app)."
+      },
+      {
+        "text": "Gói cước viễn thông",
+        "isCorrect": false,
+        "rationale": "Gói cước là telecommunication package."
+      }
+    ],
+    "hint": "Bất kỳ công cụ cơ khí hoặc điện tử nào giúp bạn thực hiện một công việc."
+  },
+  {
+    "question": "Bác sĩ tiến hành xét nghiệm máu để 'diagnose /ˌdaɪəɡˈnoʊs/' bệnh. Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Chẩn đoán (bệnh trạng, nguyên nhân sự cố)",
+        "isCorrect": true,
+        "rationale": "Diagnose là hành động tìm ra nguyên nhân của một căn bệnh hoặc một lỗi kỹ thuật sau khi xem xét các triệu chứng."
+      },
+      {
+        "text": "Kê đơn thuốc điều trị",
+        "isCorrect": false,
+        "rationale": "Kê đơn thuốc là prescribe."
+      },
+      {
+        "text": "Phẫu thuật cấp cứu",
+        "isCorrect": false,
+        "rationale": "Phẫu thuật là perform surgery."
+      },
+      {
+        "text": "Chúc mừng bệnh nhân xuất viện",
+        "isCorrect": false,
+        "rationale": "Chúc mừng xuất viện là discharge from hospital."
+      }
+    ],
+    "hint": "Hành động tìm ra xem cơ thể bạn đang bị mắc bệnh gì."
+  },
+  {
+    "question": "Khi mua tủ quần áo, bạn cần kiểm tra 'dimension /daɪˈmenʃn/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Kích thước (chiều dài, chiều rộng, chiều cao)",
+        "isCorrect": true,
+        "rationale": "Dimension là số đo không gian của một vật thể."
+      },
+      {
+        "text": "Màu sắc gỗ sơn",
+        "isCorrect": false,
+        "rationale": "Màu sắc là color."
+      },
+      {
+        "text": "Giá tiền bao gồm thuế",
+        "isCorrect": false,
+        "rationale": "Giá tiền là price."
+      },
+      {
+        "text": "Nơi sản xuất",
+        "isCorrect": false,
+        "rationale": "Nơi sản xuất là origin hoặc place of production."
+      }
+    ],
+    "hint": "Số đo xem cái tủ có vừa với khoảng trống trong phòng ngủ của bạn không."
+  },
+  {
+    "question": "Người đại diện cho một quốc gia đi đàm phán quốc tế được gọi là 'a diplomat /ˈdɪpləmæt/.' Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Nhà ngoại giao",
+        "isCorrect": true,
+        "rationale": "Diplomat là quan chức chính phủ đại diện đất nước thực hiện các công vụ đối ngoại với nước khác."
+      },
+      {
+        "text": "Chính trị gia trong nước",
+        "isCorrect": false,
+        "rationale": "Chính trị gia chung là politician."
+      },
+      {
+        "text": "Doanh nhân quốc tế",
+        "isCorrect": false,
+        "rationale": "Doanh nhân là businessman."
+      },
+      {
+        "text": "Thông dịch viên tự do",
+        "isCorrect": false,
+        "rationale": "Thông dịch viên là interpreter."
+      }
+    ],
+    "hint": "Người làm việc tại các đại sứ quán hoặc lãnh sự quán ở nước ngoài."
+  },
+  {
+    "question": "Người bảo vệ đứng ở cổng trường để 'direct /dəˈrekt/' khách đến thăm. Từ này làm động từ có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Hướng dẫn, chỉ đường, điều hướng",
+        "isCorrect": true,
+        "rationale": "Direct ai đó nghĩa là chỉ cho họ con đường đi hoặc hướng dẫn họ đi đến đúng địa điểm."
+      },
+      {
+        "text": "Chặn lại không cho vào",
+        "isCorrect": false,
+        "rationale": "Chặn lại là block hoặc bar."
+      },
+      {
+        "text": "Thu tiền vé giữ xe",
+        "isCorrect": false,
+        "rationale": "Thu tiền là collect money."
+      },
+      {
+        "text": "Phê bình thái độ",
+        "isCorrect": false,
+        "rationale": "Phê bình là criticize."
+      }
+    ],
+    "hint": "Hành động chỉ tay bảo khách rẽ trái hoặc đi thẳng để tới văn phòng hiệu trưởng."
+  },
+  {
+    "question": "Hộp thuốc hoặc đồ chơi lắp ráp luôn đi kèm tờ giấy ghi: 'Directions /dəˈrekʃnz/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Lời chỉ dẫn, hướng dẫn cách dùng/cách đi",
+        "isCorrect": true,
+        "rationale": "Directions là danh từ số nhiều chỉ các bước hướng dẫn chi tiết cách vận hành hoặc bản đồ chỉ đường."
+      },
+      {
+        "text": "Hóa đơn mua hàng",
+        "isCorrect": false,
+        "rationale": "Hóa đơn là bill/receipt."
+      },
+      {
+        "text": "Danh sách các thành phần",
+        "isCorrect": false,
+        "rationale": "Thành phần là ingredients."
+      },
+      {
+        "text": "Bảo hành sản phẩm",
+        "isCorrect": false,
+        "rationale": "Bảo hành là warranty."
+      }
+    ],
+    "hint": "Phần chữ hướng dẫn bạn uống ngày mấy viên, sau ăn hay trước ăn."
+  },
+  {
+    "question": "Nếu muốn gặp sếp lớn, hãy gọi 'directly /dəˈrektli/' cho ông ấy. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Một cách trực tiếp, không qua trung gian",
+        "isCorrect": true,
+        "rationale": "Directly là trạng từ chỉ việc thực hiện hành động thẳng tới đối tượng, không cần thông qua thư ký hay ai khác."
+      },
+      {
+        "text": "Một cách gián tiếp",
+        "isCorrect": false,
+        "rationale": "Gián tiếp là indirectly."
+      },
+      {
+        "text": "Bằng văn bản viết tay",
+        "isCorrect": false,
+        "rationale": "Bằng văn bản là in writing."
+      },
+      {
+        "text": "Vào tuần sau",
+        "isCorrect": false,
+        "rationale": "Tuần sau là next week."
+      }
+    ],
+    "hint": "Gọi thẳng vào số máy cá nhân của sếp thay vì qua tổng đài công ty."
+  },
+  {
+    "question": "Tại sảnh công ty lớn có đặt một cuốn sổ hoặc bảng điện tử gọi là 'building directory /dəˈrektəri/.' Từ 'directory' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Danh bạ, bảng hướng dẫn vị trí/phòng ban",
+        "isCorrect": true,
+        "rationale": "Directory là một danh sách hệ thống tên tuổi, địa chỉ hoặc sơ đồ các văn phòng trong tòa nhà."
+      },
+      {
+        "text": "Nội quy lao động",
+        "isCorrect": false,
+        "rationale": "Nội quy là regulations."
+      },
+      {
+        "text": "Hộp cứu hỏa khẩn cấp",
+        "isCorrect": false,
+        "rationale": "Hộp cứu hỏa là fire extinguisher box."
+      },
+      {
+        "text": "Lịch làm việc của giám đốc",
+        "isCorrect": false,
+        "rationale": "Lịch làm việc là schedule."
+      }
+    ],
+    "hint": "Bảng giúp bạn nhìn vào để biết phòng kế toán ở tầng mấy, phòng nhân sự ở đâu."
+  },
+  {
+    "question": "Công ty thông báo: 'We will disclose /dɪsˈkloʊz/ our financial status next week.' Từ 'disclose' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tiết lộ, công khai (thông tin bí mật)",
+        "isCorrect": true,
+        "rationale": "Disclose là hành động đưa một thông tin vốn đang được giữ kín ra ánh sáng cho mọi người cùng biết."
+      },
+      {
+        "text": "Che giấu, giữ bí mật",
+        "isCorrect": false,
+        "rationale": "Che giấu là conceal hoặc hide."
+      },
+      {
+        "text": "Hủy bỏ tài khoản",
+        "isCorrect": false,
+        "rationale": "Hủy bỏ là cancel hoặc delete."
+      },
+      {
+        "text": "Thay đổi số liệu số sách",
+        "isCorrect": false,
+        "rationale": "Thay đổi là modify."
+      }
+    ],
+    "hint": "Ngược nghĩa hoàn toàn với động từ 'conceal' (che giấu)."
+  },
+  {
+    "question": "Do doanh số quá thấp, hãng quyết định 'discontinue /ˌdɪskənˈtɪnjuː/' dòng sản phẩm này. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Ngừng sản xuất, ngừng cung cấp, gián đoạn",
+        "isCorrect": true,
+        "rationale": "Discontinue nghĩa là dừng lại một hành động, thói quen hoặc việc sản xuất một mặt hàng một cách vĩnh viễn."
+      },
+      {
+        "text": "Tiếp tục đẩy mạnh quảng cáo",
+        "isCorrect": false,
+        "rationale": "Tiếp tục là continue."
+      },
+      {
+        "text": "Tăng giá bán lên gấp đôi",
+        "isCorrect": false,
+        "rationale": "Tăng giá là raise the price."
+      },
+      {
+        "text": "Xuất khẩu sang nước khác",
+        "isCorrect": false,
+        "rationale": "Xuất khẩu là export."
+      }
+    ],
+    "hint": "Quyết định khai tử một mẫu điện thoại cũ, không làm ra nó nữa."
+  },
+  {
+    "question": "Các nhà khoa học vui mừng: 'We discover /dɪsˈkʌvər/ a new planet.' Từ 'discover' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Khám phá, phát hiện ra (thứ đã có sẵn nhưng chưa ai biết)",
+        "isCorrect": true,
+        "rationale": "Discover là việc tìm ra một địa điểm, đồ vật hoặc sự thật lần đầu tiên."
+      },
+      {
+        "text": "Phát minh ra một cái máy mới",
+        "isCorrect": false,
+        "rationale": "Phát minh ra cái chưa từng có gọi là invent."
+      },
+      {
+        "text": "Hủy hoại môi trường",
+        "isCorrect": false,
+        "rationale": "Hủy hoại là destroy."
+      },
+      {
+        "text": "Che giấu thông tin",
+        "isCorrect": false,
+        "rationale": "Che giấu là hide."
+      }
+    ],
+    "hint": "Hành động tìm ra một loài sinh vật mới sâu trong rừng rậm."
+  },
+  {
+    "question": "Y học thế giới luôn nỗ lực tìm cách chữa trị các loại 'heart disease /dɪˈziːz/.' Từ 'disease' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bệnh tật",
+        "isCorrect": true,
+        "rationale": "Disease là tình trạng rối loạn sức khỏe, bệnh tật gây ra do nhiễm trùng hoặc di truyền."
+      },
+      {
+        "text": "Sức khỏe dẻo dai",
+        "isCorrect": false,
+        "rationale": "Sức khỏe là health."
+      },
+      {
+        "text": "Phương pháp ăn kiêng",
+        "isCorrect": false,
+        "rationale": "Ăn kiêng là diet."
+      },
+      {
+        "text": "Bệnh viện đa khoa",
+        "isCorrect": false,
+        "rationale": "Bệnh viện là hospital."
+      }
+    ],
+    "hint": "Đồng nghĩa với từ 'illness' hoặc 'sickness'."
+  },
+  {
+    "question": "Khi chuyển văn phòng, chúng ta cần 'dismantle /dɪsˈmæntl/' bàn ghế gỗ. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Tháo dỡ (thành từng mảnh nhỏ)",
+        "isCorrect": true,
+        "rationale": "Dismantle là tháo rời các bộ phận cấu thành của một cái máy hoặc đồ nội thất ra."
+      },
+      {
+        "text": "Lắp ráp lại hoàn chỉnh",
+        "isCorrect": false,
+        "rationale": "Lắp ráp là assemble."
+      },
+      {
+        "text": "Đập nát bỏ đi",
+        "isCorrect": false,
+        "rationale": "Đập nát là smash."
+      },
+      {
+        "text": "Sơn lại màu mới",
+        "isCorrect": false,
+        "rationale": "Sơn lại là repaint."
+      }
+    ],
+    "hint": "Tháo rời chiếc giường thành từng tấm ván để dễ mang vác lên cầu thang."
+  },
+  {
+    "question": "Khách hàng gửi email thể hiện 'displeasure /dɪsˈpleʒər/' của họ. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự không hài lòng, khó chịu, bực bội",
+        "isCorrect": true,
+        "rationale": "Displeasure là danh từ chỉ cảm giác bực bội hoặc không vừa ý trước hành vi của người khác."
+      },
+      {
+        "text": "Sự vui mừng khôn xiết",
+        "isCorrect": false,
+        "rationale": "Sự vui mừng là pleasure hoặc delight."
+      },
+      {
+        "text": "Sự đồng ý hoàn toàn",
+        "isCorrect": false,
+        "rationale": "Sự đồng ý là agreement."
+      },
+      {
+        "text": "Sự bất ngờ, kinh ngạc",
+        "isCorrect": false,
+        "rationale": "Sự bất ngờ là surprise."
+      }
+    ],
+    "hint": "Ngược nghĩa hoàn toàn với từ 'pleasure' (sự hài lòng, niềm vui)."
+  },
+  {
+    "question": "Tại bệnh viện, các bác sĩ thường dùng 'disposable /dɪsˈpoʊzəbl/ gloves.' Từ 'disposable' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Dùng một lần rồi vứt bỏ",
+        "isCorrect": true,
+        "rationale": "Disposable chỉ những sản phẩm được thiết kế để sử dụng duy nhất một lần, không tái sử dụng."
+      },
+      {
+        "text": "Rất đắt và hiếm",
+        "isCorrect": false,
+        "rationale": "Đắt là expensive, hiếm là rare."
+      },
+      {
+        "text": "Có thể giặt sạch để dùng lại",
+        "isCorrect": false,
+        "rationale": "Có thể tái sử dụng là reusable."
+      },
+      {
+        "text": "Làm bằng da cao cấp",
+        "isCorrect": false,
+        "rationale": "Làm bằng da là leather."
+      }
+    ],
+    "hint": "Những chiếc cốc giấy hoặc khẩu trang y tế dùng xong là bỏ vào thùng rác."
+  },
+  {
+    "question": "Thành phố có quy định nghiêm ngặt về 'waste disposal /dɪsˈpoʊzl/.' Từ 'disposal' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự xử lý, sự vứt bỏ, thải bỏ",
+        "isCorrect": true,
+        "rationale": "Disposal là hành động vứt bỏ hoặc phá hủy cái gì đó không còn cần thiết nữa."
+      },
+      {
+        "text": "Sự thu gom, tích trữ",
+        "isCorrect": false,
+        "rationale": "Tích trữ là accumulation hoặc hoarding."
+      },
+      {
+        "text": "Sự phân loại rác đầu nguồn",
+        "isCorrect": false,
+        "rationale": "Phân loại là sorting."
+      },
+      {
+        "text": "Sự tái chế rác thải",
+        "isCorrect": false,
+        "rationale": "Tái chế là recycling."
+      }
+    ],
+    "hint": "Hành động bỏ rác đúng nơi quy định để xe rác mang đi xử lý."
+  },
+  {
+    "question": "Sự cố mất điện bất ngờ gây ra 'a disruption /dɪsˈrʌpʃn/' cho buổi lễ. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự gián đoạn, sự hỗn loạn tạm thời",
+        "isCorrect": true,
+        "rationale": "Disruption là một sự việc làm gián đoạn, ngăn cản một quy trình hoặc sự kiện diễn ra bình thường."
+      },
+      {
+        "text": "Sự thành công rực rỡ",
+        "isCorrect": false,
+        "rationale": "Thành công là success."
+      },
+      {
+        "text": "Sự mở màn hoành tráng",
+        "isCorrect": false,
+        "rationale": "Mở màn là opening."
+      },
+      {
+        "text": "Sự yên tĩnh tuyệt đối",
+        "isCorrect": false,
+        "rationale": "Yên tĩnh là quietness."
+      }
+    ],
+    "hint": "Buổi họp đang diễn ra ngon lành thì bị mất mạng internet làm ngắt quãng."
+  },
+  {
+    "question": "Khi lái xe đường dài, bạn cần chú ý đến biển báo 'distance /ˈdɪstəns/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Khoảng cách, quãng đường",
+        "isCorrect": true,
+        "rationale": "Distance là độ dài không gian giữa hai địa điểm hoặc hai vật thể."
+      },
+      {
+        "text": "Tốc độ giới hạn",
+        "isCorrect": false,
+        "rationale": "Tốc độ là speed limit."
+      },
+      {
+        "text": "Trạm thu phí",
+        "isCorrect": false,
+        "rationale": "Trạm thu phí là toll booth."
+      },
+      {
+        "text": "Thời gian dự kiến đến nơi",
+        "isCorrect": false,
+        "rationale": "Thời gian dự kiến là ETA."
+      }
+    ],
+    "hint": "Số km hiển thị trên bản đồ từ vị trí của bạn đến bãi biển."
+  },
+  {
+    "question": "Mùi vị của quả sầu riêng rất 'distinctive /dɪˈstɪŋktɪv/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đặc biệt, dễ nhận biết, không thể lẫn lộn",
+        "isCorrect": true,
+        "rationale": "Distinctive chỉ một đặc điểm xuất sắc hoặc riêng biệt giúp phân biệt một vật với các vật khác."
+      },
+      {
+        "text": "Nhạt nhẽo, phổ thông",
+        "isCorrect": false,
+        "rationale": "Phổ thông là common hoặc ordinary."
+      },
+      {
+        "text": "Kinh tởm, thối rữa",
+        "isCorrect": false,
+        "rationale": "Kinh tởm là disgusting."
+      },
+      {
+        "text": "Ngọt ngào, dịu nhẹ",
+        "isCorrect": false,
+        "rationale": "Dịu nhẹ là mild."
+      }
+    ],
+    "hint": "Một đặc điểm độc lạ khiến bạn ngửi một phát là nhận ra ngay."
+  },
+  {
+    "question": "Trong lớp học, việc chơi điện thoại là 'distracting /dɪˈstræktɪŋ/.' Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Gây xao nhãng, làm mất tập trung",
+        "isCorrect": true,
+        "rationale": "Distracting mô tả thứ gì đó cướp đi sự chú ý của bạn khỏi việc bạn đang cần làm."
+      },
+      {
+        "text": "Giúp tiếp thu bài tốt hơn",
+        "isCorrect": false,
+        "rationale": "Giúp tiếp thu là helpful."
+      },
+      {
+        "text": "Rất tẻ nhạt, buồn ngủ",
+        "isCorrect": false,
+        "rationale": "Buồn ngủ là boring."
+      },
+      {
+        "text": "Mang tính giáo dục cao",
+        "isCorrect": false,
+        "rationale": "Mang tính giáo dục là educational."
+      }
+    ],
+    "hint": "Tiếng ồn bên ngoài làm bạn không thể tập trung đọc sách được."
+  },
+  {
+    "question": "Công ty cần một chiến lược tốt để 'distribute /dɪˈstrɪbjuːt/' tờ rơi quảng cáo. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Phân phối, phát rải rác",
+        "isCorrect": true,
+        "rationale": "Distribute là hành động chia nhỏ một lượng đồ vật và đưa chúng cho nhiều người hoặc nhiều nơi."
+      },
+      {
+        "text": "Thu gom về một chỗ",
+        "isCorrect": false,
+        "rationale": "Thu gom là collect."
+      },
+      {
+        "text": "In ấn hàng loạt",
+        "isCorrect": false,
+        "rationale": "In ấn là print."
+      },
+      {
+        "text": "Thiết kế hình ảnh",
+        "isCorrect": false,
+        "rationale": "Thiết kế là design."
+      }
+    ],
+    "hint": "Hành động đi từng nhà để phát sữa miễn phí của một thương hiệu."
+  },
+  {
+    "question": "Hệ thống 'product distribution /ˌdɪstrɪˈbjuːʃn/' của hãng rất mạnh. Từ 'distribution' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự phân phối, mạng lưới cung ứng",
+        "isCorrect": true,
+        "rationale": "Distribution là danh từ của distribute, chỉ hành trình đưa hàng hóa từ nhà máy tới tay các đại lý."
+      },
+      {
+        "text": "Sự sản xuất hàng hóa",
+        "isCorrect": false,
+        "rationale": "Sản xuất là production."
+      },
+      {
+        "text": "Sự tiêu thụ sản phẩm",
+        "isCorrect": false,
+        "rationale": "Tiêu thụ là consumption."
+      },
+      {
+        "text": "Chiến dịch giảm giá",
+        "isCorrect": false,
+        "rationale": "Giảm giá là discount campaign."
+      }
+    ],
+    "hint": "Hệ thống kho bãi và xe tải vận chuyển hàng đi khắp cả nước."
+  },
+  {
+    "question": "Nếu muốn nhập hàng số lượng lớn, bạn nên liên hệ 'a distributor /dɪˈstrɪbjətər/.' Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Nhà phân phối, đại lý tổng",
+        "isCorrect": true,
+        "rationale": "Distributor là cá nhân hoặc công ty chuyên mua hàng từ nhà máy để bán lại cho các cửa hàng nhỏ."
+      },
+      {
+        "text": "Người mua hàng nhỏ lẻ",
+        "isCorrect": false,
+        "rationale": "Người mua lẻ là retail customer."
+      },
+      {
+        "text": "Công nhân nhà máy",
+        "isCorrect": false,
+        "rationale": "Công nhân là factory worker."
+      },
+      {
+        "text": "Nhân viên kiểm toán",
+        "isCorrect": false,
+        "rationale": "Nhân viên kiểm toán là auditor."
+      }
+    ],
+    "hint": "Bên trung gian đứng ra gom hàng số lượng lớn của hãng để chia lại cho các tiệm tạp hóa."
+  },
+  {
+    "question": "Văn phòng của chúng tôi nằm ở 'District /ˈdɪstrɪkt/ 1.' Từ 'district' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Quận, khu vực hành chính",
+        "isCorrect": true,
+        "rationale": "District là một vùng đất được phân chia rõ ràng về mặt địa lý hoặc hành chính của một thành phố."
+      },
+      {
+        "text": "Quốc gia",
+        "isCorrect": false,
+        "rationale": "Quốc gia là country."
+      },
+      {
+        "text": "Tòa nhà chung cư",
+        "isCorrect": false,
+        "rationale": "Chung cư là apartment building."
+      },
+      {
+        "text": "Thủ đô",
+        "isCorrect": false,
+        "rationale": "Thủ đô là capital."
+      }
+    ],
+    "hint": "Đơn vị phân chia hành chính nhỏ hơn thành phố (ví dụ: Quận Đống Đa, Quận 1)."
+  },
+  {
+    "question": "Công ty tự hào vì có 'a diverse /daɪˈvɜːrs/ team.' Từ 'diverse' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đa dạng, gồm nhiều thành phần khác nhau",
+        "isCorrect": true,
+        "rationale": "Diverse chỉ một tập thể bao gồm nhiều người có xuất thân, quốc tịch hoặc kỹ năng khác biệt nhau hoàn toàn."
+      },
+      {
+        "text": "Đồng đều, giống hệt nhau",
+        "isCorrect": false,
+        "rationale": "Giống nhau là identical hoặc uniform."
+      },
+      {
+        "text": "Nhỏ bé, nghèo nàn",
+        "isCorrect": false,
+        "rationale": "Nghèo nàn là poor."
+      },
+      {
+        "text": "Chỉ toàn nam giới",
+        "isCorrect": false,
+        "rationale": "Toàn nam là all-male."
+      }
+    ],
+    "hint": "Một đội nhóm có cả người già, người trẻ, người châu Á, người châu Âu."
+  },
+  {
+    "question": "Con tàu chuẩn bị 'dock /dɑːk/' sau chuyến hải trình dài. Từ 'dock' làm động từ có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Cập bến, neo đậu vào bến",
+        "isCorrect": true,
+        "rationale": "To dock là hành động điều khiển tàu thuyền tiến sát và buộc chặt vào cầu cảng."
+      },
+      {
+        "text": "Ra khơi, bắt đầu bay",
+        "isCorrect": false,
+        "rationale": "Ra khơi là set sail."
+      },
+      {
+        "text": "Bị chìm xuống biển",
+        "isCorrect": false,
+        "rationale": "Chìm là sink."
+      },
+      {
+        "text": "Bảo dưỡng động cơ",
+        "isCorrect": false,
+        "rationale": "Bảo dưỡng là maintain."
+      }
+    ],
+    "hint": "Hành động đưa thuyền vào bờ và thả neo."
+  },
+  {
+    "question": "Hãng hàng không phục vụ cả 'domestic /dəˈmestɪk/ flights.' Từ 'domestic' ở đây nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Nội địa, trong nước",
+        "isCorrect": true,
+        "rationale": "Domestic chỉ những thứ diễn ra bên trong phạm vi một quốc gia, không mang tính quốc tế."
+      },
+      {
+        "text": "Quốc tế, bay xuyên lục địa",
+        "isCorrect": false,
+        "rationale": "Quốc tế là international."
+      },
+      {
+        "text": "Miễn phí thuế",
+        "isCorrect": false,
+        "rationale": "Miễn thuế là tax-free."
+      },
+      {
+        "text": "Chuyên chở hàng hóa nặng",
+        "isCorrect": false,
+        "rationale": "Chở hàng là cargo."
+      }
+    ],
+    "hint": "Chuyến bay từ Hà Nội vào TP.HCM được gọi là chuyến bay..."
+  },
+  {
+    "question": "Anh ấy quyết định 'donate /ˈdoʊneɪt/' sách cũ cho trẻ em vùng cao. Từ 'donate' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Quyên góp, hiến tặng, từ thiện",
+        "isCorrect": true,
+        "rationale": "Donate là tặng tiền, quần áo, sách vở cho một tổ chức xã hội mà không đòi hỏi nhận lại tiền bạc."
+      },
+      {
+        "text": "Bán thanh lý giá rẻ",
+        "isCorrect": false,
+        "rationale": "Bán thanh lý là liquidate hoặc sell cheaply."
+      },
+      {
+        "text": "Cho mượn lấy lãi",
+        "isCorrect": false,
+        "rationale": "Cho mượn là lend."
+      },
+      {
+        "text": "Vứt bỏ vào thùng rác",
+        "isCorrect": false,
+        "rationale": "Vứt bỏ là discard."
+      }
+    ],
+    "hint": "Hành động cho đi tài sản cá nhân với mục đích nhân đạo."
+  },
+  {
+    "question": "Nhà trường rất biết ơn mọi 'donation /doʊˈneɪʃn/' từ phụ huynh. Từ 'donation' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự quyên góp, khoản tiền/vật chất hiến tặng",
+        "isCorrect": true,
+        "rationale": "Donation là danh từ của donate, chỉ chính món quà hoặc số tiền được đem đi từ thiện."
+      },
+      {
+        "text": "Học phí bắt buộc",
+        "isCorrect": false,
+        "rationale": "Học phí là tuition fee."
+      },
+      {
+        "text": "Tiền phạt đi học muộn",
+        "isCorrect": false,
+        "rationale": "Tiền phạt là fine."
+      },
+      {
+        "text": "Tiền mua sách giáo khoa",
+        "isCorrect": false,
+        "rationale": "Tiền mua đồ là payment."
+      }
+    ],
+    "hint": "Số tiền bạn bỏ vào hòm từ thiện ủng hộ đồng bào bị bão lụt."
+  },
+  {
+    "question": "Anh ấy đứng chặn ngay ở 'doorway /ˈdɔːrweɪ/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Lối đi vào qua cửa, vòm cửa",
+        "isCorrect": true,
+        "rationale": "Doorway là khoảng trống không gian nơi cánh cửa mở ra để đi vào phòng."
+      },
+      {
+        "text": "Cửa sổ thông gió",
+        "isCorrect": false,
+        "rationale": "Cửa sổ là window."
+      },
+      {
+        "text": "Sân thượng tòa nhà",
+        "isCorrect": false,
+        "rationale": "Sân thượng là rooftop."
+      },
+      {
+        "text": "Cầu thang máy",
+        "isCorrect": false,
+        "rationale": "Thang máy là elevator."
+      }
+    ],
+    "hint": "Vị trí ngay ngõ cửa ra vào căn phòng."
+  },
+  {
+    "question": "Tôi có một vài 'doubt /daʊt/' về kế hoạch này. Từ 'doubt' làm danh từ/động từ có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự nghi ngờ, hoài nghi",
+        "isCorrect": true,
+        "rationale": "Doubt chỉ trạng thái không chắc chắn, cảm thấy một việc chưa chắc đã đúng hoặc bất khả thi."
+      },
+      {
+        "text": "Sự tin tưởng tuyệt đối",
+        "isCorrect": false,
+        "rationale": "Tin tưởng là trust hoặc belief."
+      },
+      {
+        "text": "Sự tán thành ký kết",
+        "isCorrect": false,
+        "rationale": "Tán thành là approval."
+      },
+      {
+        "text": "Sự tức giận lôi đình",
+        "isCorrect": false,
+        "rationale": "Tức giận là anger."
+      }
+    ],
+    "hint": "Cảm giác phân vân, không biết lời sếp nói có chính xác thật không."
+  },
+  {
+    "question": "Thành công của dự án này vẫn rất 'doubtful /ˈdaʊtfl/.' Từ 'doubtful' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Nghi ngờ, đầy hoài nghi, chưa chắc chắn",
+        "isCorrect": true,
+        "rationale": "Doubtful là tính từ mô tả một sự việc có khả năng thất bại cao hoặc không đáng tin cậy."
+      },
+      {
+        "text": "Chắc chắn 100%",
+        "isCorrect": false,
+        "rationale": "Chắc chắn là definite hoặc certain."
+      },
+      {
+        "text": "Vô cùng dễ dàng",
+        "isCorrect": false,
+        "rationale": "Dễ dàng là easy."
+      },
+      {
+        "text": "Đã hoàn thành xong",
+        "isCorrect": false,
+        "rationale": "Hoàn thành là completed."
+      }
+    ],
+    "hint": "Cảm giác lung lay, không chắc việc này có thể thành công được."
+  },
+  {
+    "question": "Khách sạn nằm ở khu 'downtown /ˌdaʊnˈtaʊn/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Khu trung tâm thành phố (nơi sầm uất kinh doanh)",
+        "isCorrect": true,
+        "rationale": "Downtown chỉ khu vực trung tâm thương mại, giải trí cốt lõi của một thành phố lớn."
+      },
+      {
+        "text": "Khu vùng ven, ngoại ô",
+        "isCorrect": false,
+        "rationale": "Ngoại ô là suburb hoặc countryside."
+      },
+      {
+        "text": "Khu công nghiệp nặng",
+        "isCorrect": false,
+        "rationale": "Khu công nghiệp là industrial zone."
+      },
+      {
+        "text": "Bến xe miền Tây",
+        "isCorrect": false,
+        "rationale": "Bến xe là bus station."
+      }
+    ],
+    "hint": "Khu phố trung tâm nơi tập trung các trung tâm thương mại lớn và nhà hàng đắt đỏ."
+  },
+  {
+    "question": "Đây mới chỉ là 'the first draft /dræft/' của cuốn sách. Từ 'draft' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bản thảo, bản phác thảo sơ bộ",
+        "isCorrect": true,
+        "rationale": "Draft là bản viết tay hoặc bản thiết kế đầu tiên của một văn bản, chưa qua sửa chữa hoàn thiện."
+      },
+      {
+        "text": "Bản in chính thức",
+        "isCorrect": false,
+        "rationale": "Bản chính thức là final version."
+      },
+      {
+        "text": "Hợp đồng đã ký kết",
+        "isCorrect": false,
+        "rationale": "Hợp đồng đã ký là signed contract."
+      },
+      {
+        "text": "Đơn xin thôi việc",
+        "isCorrect": false,
+        "rationale": "Đơn thôi việc là resignation letter."
+      }
+    ],
+    "hint": "Bản viết nháp đầu tiên để mọi người cùng sửa lỗi trước khi đem in."
+  },
+  {
+    "question": "Giá xăng tăng 'drastically /ˈdræstɪkli/.' Từ 'drastically' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Một cách mạnh mẽ, quyết liệt, đáng kể",
+        "isCorrect": true,
+        "rationale": "Drastically là trạng từ chỉ sự thay đổi diễn ra rất đột ngột, có tác động cực lớn."
+      },
+      {
+        "text": "Một cách chậm rãi, từ từ",
+        "isCorrect": false,
+        "rationale": "Chậm rãi là gradually."
+      },
+      {
+        "text": "Không đáng kể",
+        "isCorrect": false,
+        "rationale": "Không đáng kể là slightly."
+      },
+      {
+        "text": "Theo định kỳ hàng năm",
+        "isCorrect": false,
+        "rationale": "Hàng năm là annually."
+      }
+    ],
+    "hint": "Tăng vọt một phát từ 20k lên 30k một lít thì gọi là tăng..."
+  },
+  {
+    "question": "Cửa hàng tổ chức 'a lucky drawing /ˈdrɔːɪŋ/.' Từ 'drawing' ở ngữ cảnh này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Lễ bốc thăm trúng thưởng",
+        "isCorrect": true,
+        "rationale": "Trong marketing/sự kiện, drawing có nghĩa là hành động bốc thăm ngẫu nhiên để tìm người trúng giải."
+      },
+      {
+        "text": "Bức tranh vẽ bằng bút chì",
+        "isCorrect": false,
+        "rationale": "Mặc dù drawing nghĩa thông thường là bức vẽ, nhưng đi kèm cụm 'lucky' thì nó bắt buộc là bốc thăm trúng thưởng."
+      },
+      {
+        "text": "Khóa học mỹ thuật",
+        "isCorrect": false,
+        "rationale": "Khóa học là art class."
+      },
+      {
+        "text": "Hội chợ triển lãm tranh",
+        "isCorrect": false,
+        "rationale": "Triển lãm là art exhibition."
+      }
+    ],
+    "hint": "Sự kiện thò tay vào thùng phiếu để rút ra con số may mắn nhận quà."
+  },
+  {
+    "question": "Nhiệt độ ban đêm sẽ 'drop /drɑːp/.' Từ 'drop' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Rơi, giảm sụt đột ngột",
+        "isCorrect": true,
+        "rationale": "Drop có nghĩa là di chuyển xuống mức thấp hơn hoặc rơi tự do xuống đất."
+      },
+      {
+        "text": "Tăng cao đỉnh điểm",
+        "isCorrect": false,
+        "rationale": "Tăng là rise hoặc peak."
+      },
+      {
+        "text": "Giữ nguyên ổn định",
+        "isCorrect": false,
+        "rationale": "Ổn định là stabilize."
+      },
+      {
+        "text": "Biến mất hoàn toàn",
+        "isCorrect": false,
+        "rationale": "Biến mất là disappear."
+      }
+    ],
+    "hint": "Hành động chiếc lá rơi xuống hoặc doanh số tụt giảm."
+  },
+  {
+    "question": "Hóa đơn này 'is due /duː/ tomorrow.' Từ 'due' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đến hạn thanh toán/đến hạn hoàn thành",
+        "isCorrect": true,
+        "rationale": "Due là tính từ chỉ một việc bắt buộc phải được làm hoặc trả tiền trước mốc thời gian đó."
+      },
+      {
+        "text": "Được miễn phí toàn bộ",
+        "isCorrect": false,
+        "rationale": "Miễn phí là free."
+      },
+      {
+        "text": "Bị hủy bỏ vĩnh viễn",
+        "isCorrect": false,
+        "rationale": "Hủy bỏ là canceled."
+      },
+      {
+        "text": "Đã được thanh toán xong từ trước",
+        "isCorrect": false,
+        "rationale": "Đã trả là paid."
+      }
+    ],
+    "hint": "Ngày mai là ngày cuối cùng bạn phải nộp tiền điện nếu không muốn bị cắt."
+  },
+  {
+    "question": "Khách hàng luôn quan tâm đến 'the durability /ˌdʊrəˈbɪləti/' của lốp xe. Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Độ bền, tính lâu bền",
+        "isCorrect": true,
+        "rationale": "Durability là danh từ chỉ khả năng chịu đựng mài mòn, hư hỏng của vật liệu qua thời gian dài."
+      },
+      {
+        "text": "Giá tiền rẻ",
+        "isCorrect": false,
+        "rationale": "Giá rẻ là cheapness."
+      },
+      {
+        "text": "Màu sắc bắt mắt",
+        "isCorrect": false,
+        "rationale": "Màu sắc là attractiveness."
+      },
+      {
+        "text": "Tốc độ chạy nhanh",
+        "isCorrect": false,
+        "rationale": "Tốc độ là speed."
+      }
+    ],
+    "hint": "Khả năng dùng được 5-10 năm mà không bị hỏng hóc hay rách nát."
+  },
+  {
+    "question": "Chiếc túi xách này làm bằng vật liệu rất 'durable /ˈdʊrəbl/.' Từ 'durable' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bền bỉ, dùng được lâu, khó hỏng",
+        "isCorrect": true,
+        "rationale": "Durable là tính từ mô tả những đồ vật chắc chắn, có tuổi thọ cao."
+      },
+      {
+        "text": "Dễ rách, dễ vỡ",
+        "isCorrect": false,
+        "rationale": "Dễ vỡ là fragile."
+      },
+      {
+        "text": "Lỗi mốt thời trang",
+        "isCorrect": false,
+        "rationale": "Lỗi mốt là outdated."
+      },
+      {
+        "text": "Làm thủ công bằng tay",
+        "isCorrect": false,
+        "rationale": "Thủ công là handmade."
+      }
+    ],
+    "hint": "Vật liệu dùng quăng quật thoải mái cũng không lo bị sờn rách."
+  },
+  {
+    "question": "Thị trường công nghệ luôn biến chuyển rất 'dynamic /daɪˈnæmɪk/.' Từ 'dynamic' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Năng động, đầy biến động, luôn thay đổi phát triển",
+        "isCorrect": true,
+        "rationale": "Dynamic chỉ một môi trường hoặc con người tràn đầy năng lượng, liên tục cải tiến và không đứng yên."
+      },
+      {
+        "text": "Trì trệ, bảo thủ",
+        "isCorrect": false,
+        "rationale": "Trì trệ là stagnant."
+      },
+      {
+        "text": "Nhàm chán, tẻ nhạt",
+        "isCorrect": false,
+        "rationale": "Nhàm chán là boring."
+      },
+      {
+        "text": "Do nhà nước độc quyền",
+        "isCorrect": false,
+        "rationale": "Độc quyền là monopolized."
+      }
+    ],
+    "hint": "Ngược nghĩa hoàn toàn với từ 'static' (bất biến, đứng yên một chỗ)."
+  },
+  {
+    "question": "Ứng viên rất 'eager /ˈiːɡər/' để bắt đầu công việc mới. Từ 'eager' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Háo hức, thiết tha, hăng hái",
+        "isCorrect": true,
+        "rationale": "Eager chỉ trạng thái một người rất muốn làm điều gì đó ngay lập tức với sự nhiệt huyết cao."
+      },
+      {
+        "text": "Lo sợ, chần chừ",
+        "isCorrect": false,
+        "rationale": "Chần chừ là hesitant."
+      },
+      {
+        "text": "Mệt mỏi, chán nản",
+        "isCorrect": false,
+        "rationale": "Chán nản là bored."
+      },
+      {
+        "text": "Kiêu ngạo, coi thường",
+        "isCorrect": false,
+        "rationale": "Kiêu ngạo là arrogant."
+      }
+    ],
+    "hint": "Tâm trạng mong ngóng đến ngày đầu tiên đi làm để thể hiện bản thân."
+  },
+  {
+    "question": "Chính phủ quyết định 'earmark /ˈɪrmɑːrk/' số tiền này cho giáo dục. Từ 'earmark' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Dành riêng (tiền bạc, ngân sách) cho mục đích cụ thể",
+        "isCorrect": true,
+        "rationale": "To earmark tiền bạc nghĩa là giữ lại hoặc chỉ định khoản tiền đó chỉ được phép tiêu vào việc đã định trước."
+      },
+      {
+        "text": "Hủy bỏ quỹ cứu trợ",
+        "isCorrect": false,
+        "rationale": "Hủy bỏ là cancel."
+      },
+      {
+        "text": "Chia đều cho người dân",
+        "isCorrect": false,
+        "rationale": "Chia đều là distribute equally."
+      },
+      {
+        "text": "Đem đi đầu tư chứng khoán",
+        "isCorrect": false,
+        "rationale": "Đầu tư là invest."
+      }
+    ],
+    "hint": "Khoản ngân sách này được dán nhãn 'chỉ dành để xây trường học'."
+  },
+  {
+    "question": "Sếp của tôi là một người rất 'easygoing /ˌiːziˈɡoʊɪŋ/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Dễ tính, thoải mái, ít khi nổi cáu",
+        "isCorrect": true,
+        "rationale": "Easygoing mô tả tính cách một người thư thả, không hay lo nghĩ hay đòi hỏi khắt khe với người khác."
+      },
+      {
+        "text": "Nghiêm khắc, khó tính",
+        "isCorrect": false,
+        "rationale": "Khó tính là strict hoặc demanding."
+      },
+      {
+        "text": "Hay đi trễ",
+        "isCorrect": false,
+        "rationale": "Hay đi trễ là unpunctual."
+      },
+      {
+        "text": "Rất kiệt sỉ",
+        "isCorrect": false,
+        "rationale": "Kiệt sỉ là stingy."
+      }
+    ],
+    "hint": "Người quản lý làm sai chút cũng cười xòa bảo sửa lại là được, không mắng mỏ nặng lời."
+  },
+  {
+    "question": "Ngôi nhà có phong cách thiết kế rất 'eclectic /ɪˈklektɪk/.' Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Pha trộn nhiều phong cách độc lạ, chiết trung",
+        "isCorrect": true,
+        "rationale": "Eclectic chỉ việc lựa chọn, kết hợp những ý tưởng, phong cách tốt nhất từ nhiều nguồn đa dạng khác nhau."
+      },
+      {
+        "text": "Chỉ duy nhất một màu trắng thuần",
+        "isCorrect": false,
+        "rationale": "Một màu là monochrome."
+      },
+      {
+        "text": "Cổ điển châu Âu cổ xưa",
+        "isCorrect": false,
+        "rationale": "Cổ điển là gothic hoặc classical."
+      },
+      {
+        "text": "Lỗi thời và tồi tàn",
+        "isCorrect": false,
+        "rationale": "Tồi tàn là shabby."
+      }
+    ],
+    "hint": "Phòng khách vừa có tranh hiện đại, vừa có bàn gỗ cổ điển, vừa có thảm thổ cẩm."
+  },
+  {
+    "question": "Bạn cần 'edit /ˈedɪt/' đoạn video này trước khi đăng lên mạng. Từ 'edit' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Biên tập, chỉnh sửa, cắt gọt",
+        "isCorrect": true,
+        "rationale": "Edit là hành động sửa lỗi, cắt bỏ phần thừa hoặc sắp xếp lại văn bản, video để hoàn thiện."
+      },
+      {
+        "text": "Xóa sạch không để lại dấu vết",
+        "isCorrect": false,
+        "rationale": "Xóa là delete."
+      },
+      {
+        "text": "Quay phim trực tiếp",
+        "isCorrect": false,
+        "rationale": "Quay phim là film hoặc record."
+      },
+      {
+        "text": "Xem phim giải trí",
+        "isCorrect": false,
+        "rationale": "Xem là watch."
+      }
+    ],
+    "hint": "Hành động chèn nhạc, cắt chữ, bỏ đoạn lỗi trong video clip."
+  },
+  {
+    "question": "Trong danh sách từ bổ sung: Anh ấy làm việc tại một 'ceramics factory /səˈræmɪks ˈfæktəri/.' Nơi đây sản xuất sản phẩm gì?",
+    "answerOptions": [
+      {
+        "text": "Đồ gốm sứ",
+        "isCorrect": true,
+        "rationale": "Ceramics liên quan đến đất sét nung, gốm sứ."
+      },
+      {
+        "text": "Quần áo may mặc",
+        "isCorrect": false,
+        "rationale": "May mặc là garment factory."
+      },
+      {
+        "text": "Linh kiện điện tử",
+        "isCorrect": false,
+        "rationale": "Linh kiện điện tử là electronics factory."
+      },
+      {
+        "text": "Nước giải khát",
+        "isCorrect": false,
+        "rationale": "Nước giải khát là beverage factory."
+      }
+    ],
+    "hint": "Nơi làm ra những chiếc bát đĩa, bình hoa bằng đất nung tráng men."
+  },
+  {
+    "question": "Công nhân đã 'paved a section /peɪvd ə ˈsekʃn/' của con phố. Cụm từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Lát đường/rải nhựa một đoạn đường",
+        "isCorrect": true,
+        "rationale": "To pave là lát đá hoặc đổ nhựa lên đường để đi lại dễ dàng."
+      },
+      {
+        "text": "Đào một hố sâu",
+        "isCorrect": false,
+        "rationale": "Đào hố là dig a hole."
+      },
+      {
+        "text": "Rào chắn phong tỏa đường",
+        "isCorrect": false,
+        "rationale": "Rào chắn là block the road."
+      },
+      {
+        "text": "Trồng thêm cây xanh",
+        "isCorrect": false,
+        "rationale": "Trồng cây là plant trees."
+      }
+    ],
+    "hint": "Hành động làm cho bề mặt con đường trở nên bằng phẳng bằng bê tông hoặc nhựa đường."
+  },
+  {
+    "question": "Những người đứng ở quầy thanh toán hỗ trợ bạn mua đồ gọi là 'sales clerks /seɪlz klɜːrks/.' Họ là ai?",
+    "answerOptions": [
+      {
+        "text": "Nhân viên bán hàng",
+        "isCorrect": true,
+        "rationale": "Sales clerk là người trực tiếp tư vấn và tính tiền cho khách tại cửa hàng."
+      },
+      {
+        "text": "Giám đốc tài chính",
+        "isCorrect": false,
+        "rationale": "Giám đốc là CFO hoặc director."
+      },
+      {
+        "text": "Người đi mua hàng",
+        "isCorrect": false,
+        "rationale": "Người mua là customer hoặc shopper."
+      },
+      {
+        "text": "Nhân viên lao công",
+        "isCorrect": false,
+        "rationale": "Lao công là janitor hoặc custodian."
+      }
+    ],
+    "hint": "Người mặc đồng nghiệp siêu thị đứng quét mã vạch tính tiền cho bạn."
+  },
+  {
+    "question": "Thời tiết sáng sớm có rất nhiều 'fog /fɔːɡ/.' Từ này có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sương mù",
+        "isCorrect": true,
+        "rationale": "Fog là hiện tượng hơi nước tụ lại dày đặc sát mặt đất làm giảm tầm nhìn."
+      },
+      {
+        "text": "Mưa rào lớn",
+        "isCorrect": false,
+        "rationale": "Mưa rào là heavy rain."
+      },
+      {
+        "text": "Tuyết rơi dày",
+        "isCorrect": false,
+        "rationale": "Tuyết là snow."
+      },
+      {
+        "text": "Nắng gắt chói chang",
+        "isCorrect": false,
+        "rationale": "Nắng gắt là bright sunlight."
+      }
+    ],
+    "hint": "Hiện tượng làm mờ kính xe khi bạn đi du lịch Đà Lạt hay Sapa sáng sớm."
+  },
+  {
+    "question": "Chúng tôi thuê một 'catering company /ˈkeɪtərɪŋ ˈkʌmpəni/' cho tiệc cưới. Công ty này làm dịch vụ gì?",
+    "answerOptions": [
+      {
+        "text": "Dịch vụ nấu ăn, cung cấp cỗ tiệc trọn gói",
+        "isCorrect": true,
+        "rationale": "Catering là dịch vụ nấu và phục vụ thức ăn tận nơi cho các sự kiện."
+      },
+      {
+        "text": "Dịch vụ cho thuê xe hoa",
+        "isCorrect": false,
+        "rationale": "Thuê xe là car rental."
+      },
+      {
+        "text": "Dịch vụ chụp ảnh quay phim",
+        "isCorrect": false,
+        "rationale": "Chụp ảnh là photography service."
+      },
+      {
+        "text": "Dịch vụ bán quần áo cưới",
+        "isCorrect": false,
+        "rationale": "Quần áo cưới là bridal shop."
+      }
+    ],
+    "hint": "Bên đứng ra nấu mâm cỗ bưng lên cho khách khứa ăn tiệc."
+  },
+  {
+    "question": "Văn bản hợp đồng quy định: 'The contract stipulates /ˈstɪpjuleɪts/ that...' Từ 'stipulates' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Quy định rõ, đặt điều kiện bắt buộc",
+        "isCorrect": true,
+        "rationale": "Stipulate là đưa ra điều khoản bắt buộc trong một văn bản pháp lý."
+      },
+      {
+        "text": "Gợi ý tham khảo",
+        "isCorrect": false,
+        "rationale": "Gợi ý là suggest."
+      },
+      {
+        "text": "Hủy bỏ điều khoản",
+        "isCorrect": false,
+        "rationale": "Hủy bỏ là cancel."
+      },
+      {
+        "text": "Phủ nhận sự thật",
+        "isCorrect": false,
+        "rationale": "Phủ nhận là deny."
+      }
+    ],
+    "hint": "Hành động ghi rõ bằng chữ đen giấy trắng luật lệ bắt buộc phải theo."
+  },
+  {
+    "question": "Bộ phim nhận được rất nhiều 'critical acclaim /əˈkleɪm/.' Từ 'acclaim' có nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự hoan nghênh, ca ngợi, khen ngợi lớn",
+        "isCorrect": true,
+        "rationale": "Acclaim là sự tán dương nhiệt liệt từ công chúng hoặc giới chuyên môn."
+      },
+      {
+        "text": "Sự chê bai, tẩy chay",
+        "isCorrect": false,
+        "rationale": "Chê bai là criticism hoặc boycott."
+      },
+      {
+        "text": "Doanh thu phòng vé",
+        "isCorrect": false,
+        "rationale": "Doanh thu là box office revenue."
+      },
+      {
+        "text": "Lịch chiếu phim",
+        "isCorrect": false,
+        "rationale": "Lịch chiếu là showtimes."
+      }
+    ],
+    "hint": "Hành động vỗ tay khen ngợi hết lời của khán giả dành cho một kiệt tác."
+  },
+  {
+    "question": "Những người trẻ tự mở công ty kinh doanh riêng được gọi là 'entrepreneurs /ˌɑːntrəprəˈnɜːrz/.' Họ là gì?",
+    "answerOptions": [
+      {
+        "text": "Các nhà khởi nghiệp, doanh nhân",
+        "isCorrect": true,
+        "rationale": "Entrepreneur là người chấp nhận rủi ro tài chính để tự thành lập và điều hành doanh nghiệp."
+      },
+      {
+        "text": "Công chức nhà nước",
+        "isCorrect": false,
+        "rationale": "Công chức là civil servant."
+      },
+      {
+        "text": "Công nhân làm thuê theo giờ",
+        "isCorrect": false,
+        "rationale": "Công nhân theo giờ là hourly worker."
+      },
+      {
+        "text": "Học sinh thực tập",
+        "isCorrect": false,
+        "rationale": "Thực tập sinh là intern."
+      }
+    ],
+    "hint": "Những người làm chủ doanh nghiệp, tự gầy dựng cơ nghiệp từ đầu."
+  },
+  {
+    "question": "Chúng tôi chuyển sang dùng 'satellite /ˈsætəlaɪt/ television.' Từ 'satellite' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Vệ tinh",
+        "isCorrect": true,
+        "rationale": "Satellite là vệ tinh nhân tạo bay quanh trái đất dùng để truyền dẫn tín hiệu."
+      },
+      {
+        "text": "Cáp ngầm dưới biển",
+        "isCorrect": false,
+        "rationale": "Cáp ngầm là submarine cable."
+      },
+      {
+        "text": "Đường dây điện lực",
+        "isCorrect": false,
+        "rationale": "Dây điện là power line."
+      },
+      {
+        "text": "Ăng-ten râu cũ",
+        "isCorrect": false,
+        "rationale": "Ăng-ten râu là traditional antenna."
+      }
+    ],
+    "hint": "Thiết bị bay lơ lửng ngoài vũ trụ giúp truyền tín hiệu TV xuống đầu thu nhà bạn."
+  },
+  {
+    "question": "Khách hàng muốn xem bản vẽ 'floor plan /flɔːr plæn/' của căn hộ. Cụm từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sơ đồ mặt bằng, bản vẽ bố trí phòng ốc trên sàn",
+        "isCorrect": true,
+        "rationale": "Floor plan là bản vẽ phẳng nhìn từ trên xuống chỉ rõ vị trí cửa, tường, phòng khách, phòng ngủ."
+      },
+      {
+        "text": "Hóa đơn mua gạch lát sàn",
+        "isCorrect": false,
+        "rationale": "Hóa đơn là invoice."
+      },
+      {
+        "text": "Hợp đồng bảo hiểm cháy nổ",
+        "isCorrect": false,
+        "rationale": "Bảo hiểm là insurance contract."
+      },
+      {
+        "text": "Mẫu sơn tường",
+        "isCorrect": false,
+        "rationale": "Mẫu sơn là paint sample."
+      }
+    ],
+    "hint": "Bản vẽ giúp bạn biết phòng ngủ nằm bên trái hay bên phải phòng khách."
+  },
+  {
+    "question": "Siêu thị điện máy được gọi là 'an appliance store /əˈplaɪəns stɔːr/.' Nơi đây bán gì?",
+    "answerOptions": [
+      {
+        "text": "Thiết bị, đồ gia dụng (tủ lạnh, máy giặt, lò vi sóng)",
+        "isCorrect": true,
+        "rationale": "Appliance thường chỉ các thiết bị điện sử dụng phục vụ công việc nhà."
+      },
+      {
+        "text": "Quần áo thời trang",
+        "isCorrect": false,
+        "rationale": "Quần áo là clothing store."
+      },
+      {
+        "text": "Thuốc chữa bệnh",
+        "isCorrect": false,
+        "rationale": "Thuốc là pharmacy."
+      },
+      {
+        "text": "Sách vở đồ dùng học tập",
+        "isCorrect": false,
+        "rationale": "Sách là bookstore."
+      }
+    ],
+    "hint": "Nơi bạn đến mua nồi cơm điện hoặc máy điều hòa."
+  },
+  {
+    "question": "Sách lịch sử viết về một 'historical expedition /hɪˈstɔːrɪkl ˌekspəˈdɪʃn/.' Cụm này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Cuộc thám hiểm mang tính lịch sử",
+        "isCorrect": true,
+        "rationale": "Expedition là một chuyến đi dài ngày với mục đích thám hiểm hoặc nghiên cứu khoa học."
+      },
+      {
+        "text": "Buổi triển lãm cổ vật",
+        "isCorrect": false,
+        "rationale": "Triển lãm là exhibition."
+      },
+      {
+        "text": "Báo cáo khảo cổ học",
+        "isCorrect": false,
+        "rationale": "Báo cáo là report."
+      },
+      {
+        "text": "Cuộc chiến tranh giành thuộc địa",
+        "isCorrect": false,
+        "rationale": "Chiến tranh là war."
+      }
+    ],
+    "hint": "Chuyến đi tìm ra châu Mỹ của Colombo là một ví dụ."
+  },
+  {
+    "question": "Báo chí viết: 'This is a factual /ˈfæktʃuəl/ report.' Từ 'factual' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Dựa trên sự thật, thực tế, chính xác",
+        "isCorrect": true,
+        "rationale": "Factual là tính từ chỉ những thông tin có bằng chứng, đúng sự thật, không phải hư cấu."
+      },
+      {
+        "text": "Hoàn toàn là giả tưởng",
+        "isCorrect": false,
+        "rationale": "Giả tưởng là fictional."
+      },
+      {
+        "text": "Mơ hồ, đồn đoán",
+        "isCorrect": false,
+        "rationale": "Đồn đoán là speculative."
+      },
+      {
+        "text": "Bị thổi phồng quá mức",
+        "isCorrect": false,
+        "rationale": "Thổi phồng là exaggerated."
+      }
+    ],
+    "hint": "Báo cáo nói có sách, mách có chứng, không thêm thắt drama."
+  },
+  {
+    "question": "Trong nhà bếp có chiếc 'food steamer /fuːd ˈstiːmər/.' Máy này dùng làm gì?",
+    "answerOptions": [
+      {
+        "text": "Nồi hấp thực phẩm (bằng hơi nước)",
+        "isCorrect": true,
+        "rationale": "Steamer là dụng cụ làm chín thức ăn bằng sức nóng của hơi nước."
+      },
+      {
+        "text": "Lò nướng bánh mì",
+        "isCorrect": false,
+        "rationale": "Lò nướng là toaster hoặc oven."
+      },
+      {
+        "text": "Máy xay sinh tố",
+        "isCorrect": false,
+        "rationale": "Máy xay là blender."
+      },
+      {
+        "text": "Tủ lạnh cấp đông",
+        "isCorrect": false,
+        "rationale": "Tủ lạnh là freezer."
+      }
+    ],
+    "hint": "Chiếc nồi dùng để làm chín bánh bao hoặc hấp cá."
+  },
+  {
+    "question": "Tại buổi tiệc, sếp bảo nhân viên mới: 'Go and mingle /ˈmɪŋɡl/ with everyone.' Từ 'mingle' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Giao lưu, hòa mình, chuyện trò với đám đông",
+        "isCorrect": true,
+        "rationale": "Mingle là hành động di chuyển xung quanh một bữa tiệc để trò chuyện với nhiều người."
+      },
+      {
+        "text": "Đứng một góc chơi điện thoại",
+        "isCorrect": false,
+        "rationale": "Đứng một mình là stay apart."
+      },
+      {
+        "text": "Đi về nhà sớm",
+        "isCorrect": false,
+        "rationale": "Đi về là leave early."
+      },
+      {
+        "text": "Tranh cãi với khách hàng",
+        "isCorrect": false,
+        "rationale": "Tranh cãi là argue."
+      }
+    ],
+    "hint": "Cầm ly nước đi bắt tay, làm quen với các đồng nghiệp phòng khác."
+  },
+  {
+    "question": "Chiếc xe này cần một chút 'fine-tuning /faɪn ˈtuːnɪŋ/.' Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự tinh chỉnh, điều chỉnh nhỏ để đạt độ hoàn hảo",
+        "isCorrect": true,
+        "rationale": "Fine-tuning là việc sửa chữa, căn chỉnh những chi tiết rất nhỏ để hệ thống chạy mượt nhất."
+      },
+      {
+        "text": "Đập đi làm lại từ đầu",
+        "isCorrect": false,
+        "rationale": "Làm lại từ đầu là overhaul."
+      },
+      {
+        "text": "Thay mới toàn bộ động cơ",
+        "isCorrect": false,
+        "rationale": "Thay mới là replace."
+      },
+      {
+        "text": "Bán thanh lý xe cũ",
+        "isCorrect": false,
+        "rationale": "Bán thanh lý là sell off."
+      }
+    ],
+    "hint": "Máy móc cơ bản ổn rồi, chỉ cần vặn lại một cái ốc nhỏ cho chuẩn xác."
+  },
+  {
+    "question": "Họ sử dụng một chiếc 'forklift /ˈfɔːrklɪft/' trong nhà kho. Đây là cái gì?",
+    "answerOptions": [
+      {
+        "text": "Xe nâng hàng hóa nặng",
+        "isCorrect": true,
+        "rationale": "Forklift là loại xe nhỏ có hai càng phía trước để nâng các pallet hàng lên cao."
+      },
+      {
+        "text": "Xe máy giao hàng nhanh",
+        "isCorrect": false,
+        "rationale": "Xe giao hàng là delivery motorcycle."
+      },
+      {
+        "text": "Thang cuốn tự động",
+        "isCorrect": false,
+        "rationale": "Thang cuốn là escalator."
+      },
+      {
+        "text": "Cần cẩu khổng lồ ngoài cảng",
+        "isCorrect": false,
+        "rationale": "Cần cẩu lớn là crane."
+      }
+    ],
+    "hint": "Chiếc xe màu vàng chuyên dùng để xếp các thùng hàng lớn lên kệ kho."
+  },
+  {
+    "question": "Bức tường gạch đã được 'reinforced /ˌriːɪnˈfɔːrst/.' Từ này nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Được gia cố, củng cố cho chắc chắn hơn",
+        "isCorrect": true,
+        "rationale": "Reinforce là làm cho cấu trúc hoặc vật thể mạnh hơn bằng cách thêm vật liệu chống đỡ."
+      },
+      {
+        "text": "Bị đập sập hoàn toàn",
+        "isCorrect": false,
+        "rationale": "Đập sập là demolished."
+      },
+      {
+        "text": "Bị nứt nẻ do thời gian",
+        "isCorrect": false,
+        "rationale": "Nứt là cracked."
+      },
+      {
+        "text": "Được sơn vẽ tranh nghệ thuật",
+        "isCorrect": false,
+        "rationale": "Sơn vẽ là painted."
+      }
+    ],
+    "hint": "Thêm thanh sắt bọc vào cột bê tông để nhà không bị đổ."
+  },
+  {
+    "question": "Nhà máy phải 'urgently /ˈɜːrdʒəntli/' sửa chữa đường ống. Từ 'urgently' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Một cách khẩn cấp, cấp bách",
+        "isCorrect": true,
+        "rationale": "Urgently yêu cầu hành động ngay lập tức vì tính chất nghiêm trọng của sự việc."
+      },
+      {
+        "text": "Một cách từ từ, thong thả",
+        "isCorrect": false,
+        "rationale": "Thong thả là leisurely."
+      },
+      {
+        "text": "Vào cuối tháng này",
+        "isCorrect": false,
+        "rationale": "Cuối tháng là at the end of the month."
+      },
+      {
+        "text": "Khi nào có kinh phí thì làm",
+        "isCorrect": false,
+        "rationale": "Khi có kinh phí là when budget permits."
+      }
+    ],
+    "hint": "Nước đang rò rỉ ngập sàn, phải gọi thợ đến xử lý ngay lập tức."
+  },
+  {
+    "question": "Mọi hoạt động sản xuất đã bị 'halted /hɔːltɪd/.' Từ 'halted' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Bị tạm dừng, đình chỉ",
+        "isCorrect": true,
+        "rationale": "Halt có nghĩa là dừng lại ngay lập tức một hoạt động đang diễn ra."
+      },
+      {
+        "text": "Được đẩy nhanh tiến độ",
+        "isCorrect": false,
+        "rationale": "Đẩy nhanh là accelerated."
+      },
+      {
+        "text": "Được chuyển sang nước khác",
+        "isCorrect": false,
+        "rationale": "Chuyển đi là relocated."
+      },
+      {
+        "text": "Đã hoàn thành xuất sắc",
+        "isCorrect": false,
+        "rationale": "Hoàn thành là completed."
+      }
+    ],
+    "hint": "Sếp ra lệnh bấm nút dừng khẩn cấp toàn bộ dây chuyền do phát hiện lỗi."
+  },
+  {
+    "question": "Do một sự 'oversight /ˈoʊvərsaɪt/', tên của bạn bị thiếu trong danh sách. Từ 'oversight' ở đây nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Sự sơ suất, vô tình bỏ sót",
+        "isCorrect": true,
+        "rationale": "Oversight có hai nghĩa trái ngược: sự giám sát hoặc một lỗi vô ý do không chú ý kỹ."
+      },
+      {
+        "text": "Hành vi cố tình chơi xấu",
+        "isCorrect": false,
+        "rationale": "Cố tình là intentional act."
+      },
+      {
+        "text": "Quyết định của giám đốc",
+        "isCorrect": false,
+        "rationale": "Quyết định là decision."
+      },
+      {
+        "text": "Lỗi do máy tính nhiễm virus",
+        "isCorrect": false,
+        "rationale": "Nhiễm virus là virus infection."
+      }
+    ],
+    "hint": "Người làm danh sách vô ý quên mất không gõ tên bạn vào."
+  },
+  {
+    "question": "Chúng tôi cần 'obtain /əbˈteɪn/' giấy phép kinh doanh trước. Từ 'obtain' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đạt được, giành được, thu về được",
+        "isCorrect": true,
+        "rationale": "Obtain có nghĩa là có được thứ gì đó bằng cách nỗ lực làm việc hoặc làm thủ tục xin cấp."
+      },
+      {
+        "text": "Đem vứt tờ giấy đi",
+        "isCorrect": false,
+        "rationale": "Vứt đi là discard."
+      },
+      {
+        "text": "Làm mất tài liệu",
+        "isCorrect": false,
+        "rationale": "Làm mất là lose."
+      },
+      {
+        "text": "Bán lại cho người khác",
+        "isCorrect": false,
+        "rationale": "Bán lại là resell."
+      }
+    ],
+    "hint": "Hành động lên cơ quan chính quyền để lấy về tờ giấy phép."
+  },
+  {
+    "question": "Hiệp hội đang 'advocating /ˈædvəkeɪtɪŋ/' cho luật môi trường mới. Từ 'advocating' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Ủng hộ, tán thành, biện hộ, kêu gọi cho",
+        "isCorrect": true,
+        "rationale": "Advocate là công khai ủng hộ hoặc đề xuất một chính sách, đạo luật tốt đẹp."
+      },
+      {
+        "text": "Phản đối, biểu tình đòi hủy bỏ",
+        "isCorrect": false,
+        "rationale": "Phản đối là opposing."
+      },
+      {
+        "text": "Lờ đi không quan tâm",
+        "isCorrect": false,
+        "rationale": "Lờ đi là ignoring."
+      },
+      {
+        "text": "Vi phạm quy định luật pháp",
+        "isCorrect": false,
+        "rationale": "Vi phạm là violating."
+      }
+    ],
+    "hint": "Hành động đứng lên nói trước đám đông kêu gọi mọi người hãy bảo vệ loài tê giác."
+  },
+  {
+    "question": "Anh ấy đóng vai trò 'instrumental /ˌɪnstrəˈmentl/' trong dự án này. Từ 'instrumental' nghĩa là gì?",
+    "answerOptions": [
+      {
+        "text": "Đóng vai trò quan trọng, là nhân tố chủ chốt",
+        "isCorrect": true,
+        "rationale": "Instrumental chỉ một người hoặc một việc có tính chất quyết định giúp sự việc đạt thành công."
+      },
+      {
+        "text": "Chỉ đứng nhìn không làm gì",
+        "isCorrect": false,
+        "rationale": "Không làm gì là passive/inactive."
+      },
+      {
+        "text": "Gây phá hoại, làm hỏng dự án",
+        "isCorrect": false,
+        "rationale": "Phá hoại là destructive."
+      },
+      {
+        "text": "Liên quan đến nhạc cụ ghi ta",
+        "isCorrect": false,
+        "rationale": "Mặc dù từ này gốc từ instrument (nhạc cụ/công cụ), nhưng trong ngữ cảnh công việc, nó mang nghĩa nhân tố chủ chốt."
+      }
+    ],
+    "hint": "Nếu không có anh ấy đứng ra kết nối, dự án này chắc chắn đã đổ bể."
+  }  
+]
+}
