@@ -14,12 +14,12 @@ import { QuestionTimer } from "@/components/quiz/QuestionTimer";
 import { getDeterministicShuffle } from "@/utils/shuffle";
 
 const CATEGORY_MAP: Record<string, { label: string; color: string }> = {
-  'word-form': { label: 'Từ Loại', color: 'bg-purple-50 text-purple-700 border-purple-200' },
-  'vocabulary': { label: 'Từ vựng', color: 'bg-sky-50 text-sky-700 border-sky-200' },
-  'grammar': { label: 'Ngữ pháp', color: 'bg-rose-50 text-rose-700 border-rose-200' },
-  'preposition': { label: 'Giới từ', color: 'bg-teal-50 text-teal-700 border-teal-200' },
-  'conjunction': { label: 'Liên từ', color: 'bg-orange-50 text-orange-700 border-orange-200' },
-  'pronoun': { label: 'Đại từ', color: 'bg-indigo-50 text-indigo-700 border-indigo-200' },
+  'word-form': { label: 'Từ Loại', color: 'bg-purple-500/10 text-purple-300 border-purple-500/20' },
+  'vocabulary': { label: 'Từ vựng', color: 'bg-sky-500/10 text-sky-300 border-sky-500/20' },
+  'grammar': { label: 'Ngữ pháp', color: 'bg-rose-500/10 text-rose-300 border-rose-500/20' },
+  'preposition': { label: 'Giới từ', color: 'bg-teal-500/10 text-teal-300 border-teal-500/20' },
+  'conjunction': { label: 'Liên từ', color: 'bg-orange-500/10 text-orange-300 border-orange-500/20' },
+  'pronoun': { label: 'Đại từ', color: 'bg-indigo-500/10 text-indigo-300 border-indigo-500/20' },
 };
 
 export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonId: string }) {
@@ -55,6 +55,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
   }, [selectedOption, answerQuestion, lessonId, currentIndex, isMuted]);
 
   useLayoutEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setShowHint(false);
   }, [currentIndex]);
 
@@ -120,13 +121,17 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
 
 
   return (
-    <div className="flex flex-col h-dvh w-full overflow-hidden">
-      <div className="flex flex-col flex-1 w-full max-w-3xl mx-auto px-4 md:px-6 pt-4 md:pt-6 overflow-hidden">
+    <div className="flex flex-col h-dvh w-full overflow-hidden bg-slate-950 text-white relative">
+      {/* Background radial gradients for glassmorphism glow */}
+      <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-500/10 blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-500/10 blur-[120px] pointer-events-none" />
+      <div className="absolute top-[30%] right-[10%] w-[300px] h-[300px] rounded-full bg-indigo-500/5 blur-[100px] pointer-events-none" />
+
+      <div className="flex flex-col flex-1 w-full max-w-3xl mx-auto px-4 md:px-6 pt-4 md:pt-6 overflow-hidden relative z-10">
       <QuizHeader
         titleText={headerTitleText}
         subtitleText={`${currentIndex + 1} / ${quizData.questions.length}`}
-        progressPercent={(currentIndex / quizData.questions.length) * 100}
-        progressColorClass="bg-blue-500"
+        progressPercent={(Object.keys(answers).length / quizData.questions.length) * 100}
         isMuted={isMuted}
         onToggleMute={toggleMute}
         onRestart={() => restartLesson(lessonId)}
@@ -143,13 +148,13 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
             </span>
           )}
 
-          <h1 className="text-lg md:text-xl font-semibold text-slate-800 leading-relaxed">
+          <h1 className="text-xl md:text-2xl font-bold text-white leading-relaxed tracking-tight">
             {renderFormattedText(question.question)}
           </h1>
 
           {/* Translation - revealed after answering */}
           {isAnswered && question.translation && (
-            <div className="text-sm text-slate-500 bg-slate-50 border border-slate-200/80 rounded-xl px-4 py-3 flex items-start gap-2.5 animate-in fade-in slide-in-from-top-2 duration-300">
+            <div className="text-sm text-slate-300 bg-white/5 border border-white/10 rounded-xl px-4 py-3 flex items-start gap-2.5 animate-in fade-in slide-in-from-top-2 duration-300">
               <svg className="w-4 h-4 shrink-0 mt-0.5 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" /></svg>
               <span className="leading-relaxed italic">{question.translation}</span>
             </div>
@@ -161,13 +166,13 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
                 <button 
                   onClick={() => setShowHint(true)}
                   disabled={isAnswered}
-                  className={`text-xs font-semibold flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors cursor-pointer ${isAnswered ? 'text-slate-400 bg-slate-100 cursor-not-allowed hidden' : 'text-amber-600 hover:text-amber-700 bg-amber-50 hover:bg-amber-100'}`}
+                  className={`text-xs font-semibold flex items-center gap-1.5 px-3 py-1.5 rounded-full transition-colors cursor-pointer border ${isAnswered ? 'text-slate-500 bg-white/5 border-white/5 cursor-not-allowed hidden' : 'text-amber-400 hover:text-amber-300 bg-amber-500/10 hover:bg-amber-500/20 border-amber-500/20'}`}
                 >
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
                   Gợi ý
                 </button>
               ) : (
-                <div className={`text-sm px-4 py-3 rounded-xl border flex items-start gap-3 transition-colors ${isAnswered ? 'text-slate-500 bg-slate-50 border-slate-200' : 'text-amber-700 bg-amber-50/80 border-amber-200/50'}`}>
+                <div className={`text-sm px-4 py-3 rounded-xl border flex items-start gap-3 transition-colors ${isAnswered ? 'text-slate-400 bg-white/5 border-white/10' : 'text-amber-300 bg-amber-500/10 border-amber-500/20'}`}>
                   <svg className="w-5 h-5 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                   <span className="leading-relaxed">{question.hint}</span>
                 </div>
@@ -212,14 +217,14 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
       )}
 
       {/* Footer Action */}
-      <div className="shrink-0 w-full bg-white/90 backdrop-blur-md border-t border-slate-200 shadow-[0_-4px_20px_-10px_rgba(0,0,0,0.05)] z-50">
+      <div className="shrink-0 w-full bg-slate-950/90 backdrop-blur-md border-t border-white/10 shadow-[0_-4px_20px_-10px_rgba(0,0,0,0.5)] z-50">
         <div className="w-full max-w-3xl mx-auto p-3 md:p-5 px-4 md:px-6 flex justify-between items-center">
           
           <button 
             title="Go to previous question"
             onClick={() => goToPrev(lessonId)} 
             disabled={currentIndex === 0}
-            className={`px-5 py-3 font-semibold rounded-full transition-all flex items-center gap-2 ${currentIndex === 0 ? 'text-slate-300 cursor-not-allowed opacity-50' : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100 cursor-pointer active:scale-95'}`}
+            className={`px-5 py-3 font-semibold rounded-full transition-all flex items-center gap-2 ${currentIndex === 0 ? 'text-white/20 cursor-not-allowed opacity-50' : 'text-white/60 hover:text-white hover:bg-white/10 cursor-pointer active:scale-95'}`}
           >
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" /></svg>
             <span className="hidden sm:inline">Prev</span>
@@ -227,14 +232,14 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
 
           <div className="flex items-center gap-4">
             {isAnswered && (
-              <span className="text-xs font-bold text-slate-300 hidden md:inline-block tracking-widest uppercase">
+              <span className="text-xs font-bold text-white/30 hidden md:inline-block tracking-widest uppercase">
                 {currentIndex < quizData.questions.length - 1 ? 'PRESS SPACE TO CONTINUE' : 'PRESS SPACE TO FINISH'}
               </span>
             )}
             <button 
                onClick={() => goToNext(lessonId, quizData.questions.length)}
                disabled={!isAnswered}
-               className={`px-8 py-3 font-semibold rounded-full transition-all flex items-center gap-2 ${!isAnswered ? 'bg-slate-100 text-slate-300 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-600/20 cursor-pointer hover:-translate-y-0.5 active:scale-95'}`}
+               className={`px-8 py-3 font-semibold rounded-full transition-all flex items-center gap-2 ${!isAnswered ? 'bg-white/5 text-white/20 cursor-not-allowed border border-white/5' : 'bg-blue-600 hover:bg-blue-700 text-white shadow-lg shadow-blue-600/20 cursor-pointer hover:-translate-y-0.5 active:scale-95'}`}
             >
                {currentIndex < quizData.questions.length - 1 ? 'Next' : 'Results'}
                {isAnswered && <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" /></svg>}
@@ -247,19 +252,19 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
       {isFinished && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-slate-900/60 backdrop-blur-sm p-4">
           {previewQuestionIndex !== null ? (
-            <div className="bg-slate-50 rounded-3xl shadow-2xl w-full max-w-lg flex flex-col overflow-hidden max-h-[85vh] animate-in slide-in-from-right-8 duration-300">
+            <div className="bg-slate-900/95 border border-white/10 backdrop-blur-xl rounded-3xl shadow-2xl w-full max-w-lg flex flex-col overflow-hidden max-h-[85vh] animate-in slide-in-from-right-8 duration-300 text-white">
                {/* Preview Header */}
-               <div className="flex items-center justify-between p-4 border-b border-slate-200 bg-white shrink-0">
-                  <button onClick={() => setPreviewQuestionIndex(null)} className="p-2 hover:bg-slate-100 rounded-full text-slate-500 transition-colors cursor-pointer">
+               <div className="flex items-center justify-between p-4 border-b border-white/10 bg-slate-900/50 backdrop-blur-md shrink-0">
+                  <button onClick={() => setPreviewQuestionIndex(null)} className="p-2 hover:bg-white/10 rounded-full text-white/70 hover:text-white transition-colors cursor-pointer">
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M15 19l-7-7 7-7" /></svg>
                   </button>
-                  <div className="font-bold text-slate-700">Xem lại Câu {previewQuestionIndex + 1}</div>
+                  <div className="font-bold text-white">Xem lại Câu {previewQuestionIndex + 1}</div>
                   <div className="w-9" />
                </div>
                
                {/* Preview Body */}
                <div className="p-5 lg:p-6 overflow-y-auto flex-1">
-                  <h3 className="font-bold text-slate-800 leading-relaxed mb-6 text-lg">
+                  <h3 className="font-bold text-white leading-relaxed mb-6 text-lg">
                      {renderFormattedText(quizData.questions[previewQuestionIndex].question)}
                   </h3>
                   
@@ -269,34 +274,34 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
                       const isSelected = ansObj === oIdx;
                       const isCorrect = opt.isCorrect;
                       
-                      let boxClass = "border border-slate-200 bg-white opacity-60";
+                      let boxClass = "border border-white/5 bg-slate-950/20 opacity-45 text-white/60 backdrop-blur-sm";
                       if (isCorrect) {
-                        boxClass = "border-green-300 bg-green-50 shadow-sm opacity-100 ring-2 ring-green-500/20";
+                        boxClass = "border-emerald-500 bg-emerald-500/10 backdrop-blur-xl text-white ring-1 ring-emerald-400/30 shadow-[0_8px_32px_rgba(16,185,129,0.2)]";
                       } else if (isSelected) {
-                        boxClass = "border-red-200 bg-red-50 opacity-100 ring-2 ring-red-500/20";
+                        boxClass = "border-rose-500 bg-rose-500/10 backdrop-blur-xl text-white ring-1 ring-rose-400/30 shadow-[0_8px_32px_rgba(244,63,94,0.2)]";
                       }
 
                       return (
                         <div key={oIdx} className={`w-full text-left p-4 rounded-2xl transition-all duration-300 ${boxClass}`}>
                           <div className="flex items-start gap-4">
-                            <span className={`w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm mt-0.5 shrink-0 ${isCorrect ? 'bg-green-500 text-white' : (isSelected ? 'bg-red-500 text-white' : 'bg-slate-100 text-slate-400')}`}>
+                            <span className={`w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm mt-0.5 shrink-0 ${isCorrect ? 'bg-emerald-500 text-white shadow-[0_0_12px_rgba(16,185,129,0.4)]' : (isSelected ? 'bg-rose-500 text-white shadow-[0_0_12px_rgba(244,63,94,0.4)]' : 'bg-white/10 text-white/80')}`}>
                               {String.fromCharCode(65 + oIdx)}
                             </span>
                             <div className="flex flex-col w-full">
-                              <span className={`text-[15px] leading-snug mt-0.5 ${isCorrect ? 'text-green-900 font-bold' : (isSelected ? 'text-red-900 font-bold' : 'text-slate-500 font-medium')}`}>
+                              <span className={`text-[15px] leading-snug mt-0.5 font-semibold ${isCorrect ? 'text-emerald-300 drop-shadow-[0_0_8px_rgba(16,185,129,0.3)]' : (isSelected ? 'text-rose-300 drop-shadow-[0_0_8px_rgba(244,63,94,0.3)]' : 'text-white/90')}`}>
                                 {renderFormattedText(opt.text)}
                               </span>
                               {(isCorrect || isSelected) && opt.rationale && (
                                 <div className="mt-3 text-sm animate-in fade-in duration-300">
-                                  {isCorrect && <div className="text-green-700 font-bold flex items-center gap-1.5 mb-1.5">
-                                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
+                                  {isCorrect && <div className="text-emerald-400 font-bold flex items-center gap-1.5 mb-1.5">
+                                    <svg className="w-4 h-4 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" /></svg>
                                     Chính xác!
                                   </div>}
-                                  {isSelected && !isCorrect && <div className="text-red-700 font-bold flex items-center gap-1.5 mb-1.5">
-                                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
+                                  {isSelected && !isCorrect && <div className="text-rose-400 font-bold flex items-center gap-1.5 mb-1.5">
+                                    <svg className="w-4 h-4 text-rose-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
                                     Lựa chọn của bạn
                                   </div>}
-                                  <p className={`leading-relaxed ${isSelected && !isCorrect ? 'text-slate-600' : 'text-slate-700'}`}>{opt.rationale}</p>
+                                  <p className="leading-relaxed text-slate-350">{opt.rationale}</p>
                                 </div>
                               )}
                             </div>

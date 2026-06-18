@@ -29,7 +29,6 @@ export function AnswerButtonList<T>({
   correctOptionId,
   isAnswered,
   onSelect,
-  isMuted = false,
   restartCount = 0,
   stableKey = "default",
   renderContent,
@@ -57,16 +56,16 @@ export function AnswerButtonList<T>({
         const showResult = isAnswered;
 
         let className =
-          `flex items-start ${size === "sm" ? "gap-3 p-3 rounded-xl" : "gap-4 p-4 rounded-xl"} border-2 transition-all duration-200 cursor-pointer text-left w-full`;
+          `group flex items-start ${size === "sm" ? "gap-3 p-3 rounded-xl" : "gap-4 p-4 rounded-xl"} border transition-all duration-300 ease-out cursor-pointer text-left w-full relative overflow-hidden`;
 
         if (!showResult) {
-          className += " border-slate-200 bg-white hover:border-blue-300 hover:bg-blue-50/50 active:scale-[0.98]";
+          className += " border-white/15 bg-slate-900/50 backdrop-blur-xl text-white shadow-[0_8px_32px_rgba(0,0,0,0.6)] hover:border-white/30 hover:bg-slate-800/60 hover:-translate-y-0.5 hover:shadow-[0_12px_40px_rgba(255,255,255,0.06)] hover:ring-1 hover:ring-white/15 active:scale-[0.98]";
         } else if (isCorrectOption) {
-          className += " border-emerald-300 bg-emerald-50 text-emerald-800 ring-1 ring-emerald-500/20";
+          className += " border-emerald-500 bg-emerald-500/10 backdrop-blur-xl text-white ring-1 ring-emerald-400/30 shadow-[0_8px_32px_rgba(16,185,129,0.2)]";
         } else if (isSelected && !isCorrectOption) {
-          className += " border-red-300 bg-red-50 text-red-700 ring-1 ring-red-500/20";
+          className += " border-rose-500 bg-rose-500/10 backdrop-blur-xl text-white ring-1 ring-rose-400/30 shadow-[0_8px_32px_rgba(244,63,94,0.2)]";
         } else {
-          className += " border-slate-100 bg-white/50 opacity-50";
+          className += " border-white/5 bg-slate-950/20 opacity-45 text-white/60 backdrop-blur-sm";
         }
 
         return (
@@ -78,29 +77,32 @@ export function AnswerButtonList<T>({
             role="button"
             tabIndex={0}
           >
+            {/* Subtle glassmorphic decorative flare inside each card */}
+            <div className="absolute inset-0 pointer-events-none bg-linear-to-tr from-white/1 via-transparent to-white/4 opacity-40 transition-opacity duration-300 group-hover:opacity-100" />
+
             <span
-              className={`${size === "sm" ? "w-6 h-6 md:w-7 md:h-7 text-xs" : "w-8 h-8 text-sm"} rounded-lg flex items-center justify-center font-bold shrink-0 mt-0.5 ${
+              className={`${size === "sm" ? "w-6 h-6 md:w-7 md:h-7 text-xs" : "w-8 h-8 text-sm"} rounded-lg flex items-center justify-center font-bold shrink-0 mt-0.5 transition-all duration-300 z-10 ${
                 showResult && isCorrectOption
-                  ? "bg-emerald-500 text-white"
+                  ? "bg-emerald-500 text-white shadow-[0_0_12px_rgba(16,185,129,0.4)]"
                   : showResult && isSelected
-                  ? "bg-red-500 text-white"
-                  : "bg-slate-100 text-slate-500"
+                  ? "bg-rose-500 text-white shadow-[0_0_12px_rgba(244,63,94,0.4)]"
+                  : "bg-white/10 text-white/80 group-hover:bg-white/20 group-hover:text-white group-hover:scale-105"
               }`}
             >
               {letter}
             </span>
             
-            <div className="flex flex-col flex-1 text-left min-w-0">
+            <div className="flex flex-col flex-1 text-left min-w-0 z-10">
               {renderContent(optObj, isSelected, isCorrectOption, showResult)}
             </div>
 
             {showResult && isCorrectOption && (
-              <svg className="w-5 h-5 ml-auto text-emerald-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="w-5 h-5 ml-auto text-emerald-500 shrink-0 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
               </svg>
             )}
             {showResult && isSelected && !isCorrectOption && (
-              <svg className="w-5 h-5 ml-auto text-red-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="w-5 h-5 ml-auto text-red-500 shrink-0 z-10" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M6 18L18 6M6 6l12 12" />
               </svg>
             )}

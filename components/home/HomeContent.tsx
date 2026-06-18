@@ -2,10 +2,18 @@
 
 import { useState, useEffect } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
+import dynamic from "next/dynamic";
+import { BookOpen, FileText, LayoutList, CheckCircle } from "lucide-react";
 import { LessonCard } from "@/components/home/LessonCard";
 import { PracticeCard } from "@/components/home/PracticeCard";
 import { Part6Card } from "@/components/home/Part6Card";
 import { Ets2026Card } from "@/components/home/Ets2026Card";
+import { GlassFilter } from "@/components/ui/liquid-glass";
+
+const Spline = dynamic(() => import('@splinetool/react-spline'), {
+  ssr: false,
+  loading: () => <div className="absolute inset-0 bg-slate-950" />
+});
 
 
 const TABS = [
@@ -80,18 +88,6 @@ interface HomeContentProps {
 }
 
 
-function StatBadge({ value, label, icon }: { value: string; label: string; icon: React.ReactNode }) {
-  return (
-    <div className="flex items-center gap-2 px-4 py-2.5 bg-white/70 border border-slate-200/80 rounded-2xl shadow-sm backdrop-blur-sm">
-      <span className="text-slate-400">{icon}</span>
-      <div className="flex items-baseline gap-1.5">
-        <span className="text-lg font-extrabold text-slate-800 leading-none">{value}</span>
-        <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">{label}</span>
-      </div>
-    </div>
-  );
-}
-
 export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLessons, availableVocabLessons }: HomeContentProps) {
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -101,6 +97,16 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
   const [activeTab, setActiveTab] = useState(
     paramTab === "part5" ? "part5" : paramTab === "part6" ? "part6" : paramTab === "ets2026" ? "ets2026" : "vocab"
   );
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     if (paramTab === "part5" || paramTab === "vocab" || paramTab === "part6" || paramTab === "ets2026") {
@@ -115,132 +121,157 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
     router.replace(`${pathname}?tab=${tabId}`, { scroll: false });
   };
 
-  const availablePart5Count = part5Tests.filter((t) => t.isAvailable).length;
-  const availablePart6Count = part6Tests.filter((t) => t.isAvailable).length;
-  const activeTabData = TABS.find((t) => t.id === activeTab)!;
-
+  const getTabInfo = (id: string) => {
+    switch (id) {
+      case "vocab":
+        return {
+          icon: <BookOpen className="w-5 h-5" />,
+          description: `${totalVocabLessons} bài học từ vựng — Intensive Course`,
+        };
+      case "part5":
+        return {
+          icon: <LayoutList className="w-5 h-5" />,
+          description: `${part5Tests.length} bộ đề Incomplete Sentences`,
+        };
+      case "part6":
+        return {
+          icon: <FileText className="w-5 h-5" />,
+          description: `${part6Tests.length} bộ đề Text Completion`,
+        };
+      case "ets2026":
+        return {
+          icon: <CheckCircle className="w-5 h-5" />,
+          description: `${ets2026Tests.length} đề thi mới nhất từ ETS`,
+        };
+      default:
+        return {
+          icon: <BookOpen className="w-5 h-5" />,
+          description: "",
+        };
+    }
+  };
 
   return (
-    <div className="min-h-dvh relative overflow-hidden">
-      {/* Decorative background — sits behind content via DOM order */}
-      <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden="true">
-        {/* Top center blue/indigo glow */}
-        <div
-          className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[550px] rounded-full blur-3xl"
-          style={{ background: "radial-gradient(ellipse at center, rgba(147,197,253,0.45) 0%, rgba(165,180,252,0.25) 50%, transparent 75%)" }}
-        />
-        {/* Right amber accent */}
-        <div
-          className="absolute top-1/4 -right-32 w-96 h-96 rounded-full blur-3xl"
-          style={{ background: "radial-gradient(circle, rgba(253,186,116,0.35) 0%, transparent 70%)" }}
-        />
-        {/* Bottom-left indigo accent */}
-        <div
-          className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full blur-3xl"
-          style={{ background: "radial-gradient(circle, rgba(129,140,248,0.25) 0%, transparent 70%)" }}
-        />
-        {/* Subtle dot grid */}
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: "radial-gradient(circle, rgba(100,116,139,0.18) 1px, transparent 1px)",
-            backgroundSize: "28px 28px",
-          }}
-        />
-      </div>
-
-      <div className="max-w-5xl mx-auto px-4 md:px-8 lg:px-12 py-10 md:py-16 flex flex-col">
-        {/* ── Hero Header ── */}
-        <header className="text-center mb-10 md:mb-14">
-          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-[1.05] mb-5">
-            <span className="text-transparent bg-clip-text bg-linear-to-r from-slate-900 via-blue-800 to-indigo-800">
-              TOEIC Mastery
-            </span>
-            </h1>
-
-          <p className="text-slate-500 max-w-lg mx-auto text-base md:text-lg font-medium leading-relaxed mb-8">
-            Ôn tập từ vựng &amp; luyện đề TOEIC theo từng Part với&nbsp;
-            <span className="text-slate-700 font-semibold">giải thích chi tiết</span> từng câu.
-          </p>
-
-          {/* Stats row */}
-          <div className="flex flex-wrap items-center justify-center gap-3">
-            <StatBadge
-              value={String(totalVocabLessons)}
-              label="Bộ từ vựng"
-              icon={
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253" />
-                </svg>
-              }
-            />
-            <StatBadge
-              value={String(availablePart5Count)}
-              label="Part 5"
-              icon={
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2" />
-                </svg>
-              }
-            />
-            <StatBadge
-              value={String(availablePart6Count)}
-              label="Part 6"
-              icon={
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-                </svg>
-              }
-            />
-            <StatBadge
-              value={`${availablePart5Count * 30 + availablePart6Count * 16}+`}
-              label="Câu hỏi"
-              icon={
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              }
-            />
-          </div>
-
-        </header>
-
-        {/* ── Tabs ── */}
-        <div className="flex justify-center mb-8 md:mb-10 relative z-10">
-          <div className="inline-flex bg-white/90 backdrop-blur-md rounded-2xl p-1.5 shadow-md border border-slate-200/80 gap-1">
-            {TABS.map((tab) => {
-              const isActive = activeTab === tab.id;
-              return (
-                <button
-                  key={tab.id}
-                  id={`tab-${tab.id}`}
-                  onClick={() => handleTabChange(tab.id)}
-                  className={`relative flex items-center gap-2.5 px-6 py-2.5 rounded-xl text-sm font-bold transition-all duration-200 cursor-pointer ${
-                    isActive
-                      ? "text-white shadow-lg"
-                      : "text-slate-500 hover:text-slate-700 hover:bg-slate-50"
-                  }`}
-                >
-                  {isActive && (
-                    <span
-                      className={`absolute inset-0 rounded-xl bg-linear-to-r ${tab.accent}`}
-                      aria-hidden="true"
-                    />
-                  )}
-                  <span className="relative z-10">{tab.icon}</span>
-                  <span className="relative z-10">{tab.label}</span>
-                </button>
-              );
-            })}
+    <div className="min-h-dvh relative overflow-hidden w-full bg-slate-950 flex flex-col justify-between">
+      <GlassFilter />
+      
+      {/* ── Hero Section Wrapper (Stable Height, Holds centered Spline Robot) ── */}
+      <div className="relative w-full overflow-hidden min-h-[80vh] lg:min-h-[85vh] flex flex-col justify-between">
+        
+        {/* ── Seamless Center-Top Spline Robot Background (Anchored to Hero wrapper) ── */}
+        <div className="absolute inset-0 z-0 flex justify-center items-center pointer-events-none select-none">
+          <div className="w-[900px] h-[900px] sm:w-[1100px] sm:h-[1100px] lg:w-[1400px] lg:h-[1400px] opacity-75 shrink-0 scale-120 sm:scale-125 lg:scale-130 translate-y-[-2%] sm:translate-y-[-4%] lg:translate-y-[-5%] translate-x-[-1.5%] sm:translate-x-[-2%] lg:translate-x-[-2.5%] transition-all duration-500 flex justify-center items-center">
+            {isMobile ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src="/robot_preview.png"
+                alt="Robot Preview"
+                className="w-full h-full object-contain select-none pointer-events-none opacity-80"
+              />
+            ) : (
+              <Spline scene="https://prod.spline.design/Hoc-5P8xfjMh7imC/scene.splinecode" />
+            )}
           </div>
         </div>
 
-        {/* ── Tab Content ── */}
-        <div className="relative z-10 pb-16">
-          {/* Subtitle bar */}
-          <div className="flex items-center gap-2 mb-5 px-1">
-            <div className={`w-1.5 h-5 rounded-full bg-linear-to-b ${activeTabData.accent}`} />
-            <p className="text-sm text-slate-500 font-semibold">
+        {/* ── Hero Content (Max width container) ── */}
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-12 pt-24 md:pt-28 pb-10 flex flex-col flex-1 justify-between">
+          
+          {/* Main Title Layout */}
+          {/* Mobile Unified Layout */}
+          <div className="w-full flex flex-col items-center text-center md:hidden pointer-events-none select-none mt-2 z-10 relative">
+            <h1 className="text-4xl sm:text-5xl font-black tracking-tighter uppercase drop-shadow-[0_10px_25px_rgba(0,0,0,0.9)]">
+              <span className="text-white">TOEIC</span>{" "}
+              <span className="bg-linear-to-br from-white via-white to-zinc-400 bg-clip-text text-transparent">MASTERY</span>
+            </h1>
+            <p className="text-zinc-300 text-xs sm:text-sm font-medium mt-3 max-w-sm drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)] leading-relaxed">
+              Học từ vựng &amp; ngữ pháp hiệu quả. Luyện đề thi TOEIC thực chiến với giải thích đáp án chi tiết.
+            </p>
+          </div>
+
+          {/* Desktop Split Layout */}
+          <div className="hidden md:flex w-full flex-row justify-between items-center pointer-events-none select-none gap-0 mt-4 md:mt-8 z-10 relative">
+            {/* Left Title */}
+            <div className="w-[34%] lg:w-[32%] text-left flex flex-col justify-center items-start pl-2 lg:pl-6">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tighter text-white drop-shadow-[0_10px_25px_rgba(0,0,0,0.9)] uppercase">
+                TOEIC
+              </h1>
+              <p className="text-zinc-300 text-sm sm:text-base font-medium mt-4 max-w-xs drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)] leading-relaxed">
+                Học tiếng Anh thông minh với giao diện đột phá. Ôn luyện từ vựng &amp; ngữ pháp hiệu quả.
+              </p>
+            </div>
+            
+            {/* Center Spacer for breathing room */}
+            <div className="w-[32%] lg:w-[36%]" />
+
+            {/* Right Title */}
+            <div className="w-[34%] lg:w-[32%] text-right flex flex-col justify-center items-end pr-2 lg:pr-6">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tighter bg-linear-to-br from-white via-white to-zinc-400 bg-clip-text text-transparent drop-shadow-[0_10px_25px_rgba(0,0,0,0.9)] uppercase">
+                MASTERY
+              </h1>
+              <p className="text-zinc-300 text-sm sm:text-base font-medium mt-4 max-w-xs drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)] leading-relaxed">
+                Luyện đề thi TOEIC thực chiến với giải thích chi tiết đáp án từng câu hỏi.
+              </p>
+            </div>
+          </div>
+
+          {/* Horizontal Click-Based Menu Cards under robot's feet */}
+          <div className="w-full mt-12 md:mt-16">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+              {TABS.map((tab) => {
+                const isActive = activeTab === tab.id;
+                const info = getTabInfo(tab.id);
+                
+                return (
+                  <button
+                    key={tab.id}
+                    onClick={() => handleTabChange(tab.id)}
+                    className={`group relative overflow-hidden rounded-2xl p-5 md:p-6 text-left transition-all duration-300 backdrop-blur-md cursor-pointer border select-none w-full
+                      ${isActive 
+                        ? 'bg-white/10 border-white/30 shadow-[0_8px_32px_rgba(255,255,255,0.08)] ring-2 ring-white/10' 
+                        : 'bg-slate-900/40 border-white/10 hover:border-white/20 hover:bg-slate-800/40 shadow-lg'
+                      }`}
+                  >
+                    {/* Card Glow Effect */}
+                    <div className="absolute top-0 right-0 -mr-8 -mt-8 h-24 w-24 rounded-full bg-white/5 blur-xl pointer-events-none transition-all duration-300 group-hover:scale-150" />
+                    
+                    <div className="flex items-start justify-between mb-4">
+                      <div className={`p-2.5 rounded-xl transition-all duration-300
+                        ${isActive 
+                          ? 'bg-white text-slate-950 scale-110 shadow-md shadow-white/5' 
+                          : 'bg-white/5 text-white/70 group-hover:text-white'
+                        }`}
+                      >
+                        {info.icon}
+                      </div>
+                      {isActive && (
+                        <span className="flex h-2 w-2 relative">
+                          <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                          <span className="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
+                        </span>
+                      )}
+                    </div>
+
+                    <h3 className="text-lg font-bold text-white mb-1 tracking-tight">
+                      {tab.label}
+                    </h3>
+                    <p className="text-xs text-zinc-400 font-medium line-clamp-2 leading-relaxed">
+                      {info.description}
+                    </p>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      {/* ── Tab Content ── */}
+      <div className="relative z-10 pb-16 max-w-7xl mx-auto px-4 md:px-8 lg:px-12 w-full">
+        {/* Subtitle bar */}
+        <div className="flex items-center gap-2 mb-5 px-1">
+          <div className="w-1.5 h-5 rounded-full bg-white/60" />
+          <p className="text-sm text-slate-500 font-semibold">
               {activeTab === "vocab"
                 ? `${totalVocabLessons} bài học từ vựng — Intensive Course`
                 : activeTab === "part6"
@@ -315,8 +346,6 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
               ))}
             </div>
           </div>
-
-        </div>
       </div>
     </div>
   );

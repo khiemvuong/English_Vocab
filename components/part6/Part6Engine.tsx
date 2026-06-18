@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import type { Part6Data, Part6Passage, Part6Question } from "@/lib/types";
+import type { Part6Data } from "@/lib/types";
 import { useQuizStore } from "@/store/quizStore";
 import { playSound } from "@/utils/audio";
 import { ResultSummary } from "@/components/common/ResultSummary";
@@ -27,13 +27,13 @@ const QUESTION_TYPE_LABELS: Record<string, string> = {
 };
 
 const QUESTION_TYPE_COLORS: Record<string, string> = {
-  vocabulary: "bg-blue-50 text-blue-700 border-blue-200",
-  grammar: "bg-violet-50 text-violet-700 border-violet-200",
-  conjunction: "bg-amber-50 text-amber-700 border-amber-200",
-  preposition: "bg-orange-50 text-orange-700 border-orange-200",
-  "word-form": "bg-teal-50 text-teal-700 border-teal-200",
-  "sentence-insertion": "bg-emerald-50 text-emerald-700 border-emerald-200",
-  "reading-comprehension": "bg-indigo-50 text-indigo-700 border-indigo-200",
+  vocabulary: "bg-blue-500/10 text-blue-300 border-blue-500/20",
+  grammar: "bg-violet-500/10 text-violet-300 border-violet-500/20",
+  conjunction: "bg-amber-500/10 text-amber-300 border-amber-500/20",
+  preposition: "bg-orange-500/10 text-orange-300 border-orange-500/20",
+  "word-form": "bg-teal-500/10 text-teal-300 border-teal-500/20",
+  "sentence-insertion": "bg-emerald-500/10 text-emerald-300 border-emerald-500/20",
+  "reading-comprehension": "bg-indigo-500/10 text-indigo-300 border-indigo-500/20",
 };
 
 export function Part6Engine({ data, testId }: Part6EngineProps) {
@@ -62,7 +62,7 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
 
   useEffect(() => {
     initLesson(lessonId, totalQuestions);
-    setMounted(true);
+    Promise.resolve().then(() => setMounted(true));
   }, [initLesson, lessonId, totalQuestions]);
 
   const lessonState = progress[lessonId];
@@ -110,12 +110,13 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
     if (!isMuted) {
       playSound(isCorrect ? 'correct' : 'incorrect');
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isAnswered, correctOriginIdx, answerQuestion, lessonId, activeIndex, isMuted]);
 
-  useEffect(() => {
-    setShowHint(false); // Reset hint visibility when question changes
-  }, [activeIndex]);
+  const [prevActiveIndex, setPrevActiveIndex] = useState(activeIndex);
+  if (activeIndex !== prevActiveIndex) {
+    setPrevActiveIndex(activeIndex);
+    setShowHint(false);
+  }
 
   // Keyboard controls
   useEffect(() => {
@@ -151,11 +152,11 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
         <div className="space-y-4">
           <div>
             <p className="text-[10px] md:text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1.5">Passage A</p>
-            <div className="text-[13px] md:text-[14px] leading-relaxed text-slate-800 font-medium whitespace-pre-wrap font-sans text-justify">{passage.passageA}</div>
+            <div className="text-[13px] md:text-[14px] leading-relaxed text-slate-200 font-medium whitespace-pre-wrap font-sans text-justify">{passage.passageA}</div>
           </div>
-          <div className="border-t border-slate-200 pt-3">
+          <div className="border-t border-white/10 pt-3">
             <p className="text-[10px] md:text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-1.5">Passage B</p>
-            <div className="text-[13px] md:text-[14px] leading-relaxed text-slate-800 font-medium whitespace-pre-wrap font-sans text-justify">{passage.passageB}</div>
+            <div className="text-[13px] md:text-[14px] leading-relaxed text-slate-200 font-medium whitespace-pre-wrap font-sans text-justify">{passage.passageB}</div>
           </div>
         </div>
       );
@@ -165,7 +166,7 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
     if (passage.passage && (passage.passage.includes("{") || passage.passage.includes("["))) {
        const parts = passage.passage.split(/(?:\{|\[)(\d+)(?:\}|\])/g);
        return (
-         <div className="text-[13px] md:text-[14px] leading-relaxed text-slate-800 font-medium whitespace-pre-wrap font-sans text-justify">
+         <div className="text-[13px] md:text-[14px] leading-relaxed text-slate-200 font-medium whitespace-pre-wrap font-sans text-justify">
            {parts.map((part, i) => {
              if (i % 2 === 1) { // It's a blank identifier like 131
                const bIdxStr = part;
@@ -185,13 +186,13 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
                         key={i}
                         className={`inline-flex items-center gap-1 px-2.5 py-0.5 mx-0.5 rounded-lg text-sm font-bold border transition-all ${
                           isCorrect
-                            ? "bg-emerald-50 text-emerald-700 border-emerald-200"
-                            : "bg-red-50 text-red-600 border-red-200 line-through"
+                            ? "bg-emerald-500/10 text-emerald-300 border-emerald-500/20"
+                            : "bg-rose-500/10 text-rose-300 border-rose-500/20 line-through"
                         }`}
                       >
                         {ansText}
                         {!isCorrect && (
-                          <span className="no-underline text-emerald-600 font-bold ml-1">
+                          <span className="no-underline text-emerald-400 font-bold ml-1">
                             → {correctAnsText}
                           </span>
                         )}
@@ -205,8 +206,8 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
                    key={i}
                    className={`inline-flex items-center px-3 py-0.5 mx-0.5 rounded-lg text-sm font-bold border-2 border-dashed transition-all ${
                      isCurrent
-                       ? "bg-cyan-50 text-cyan-600 border-cyan-300 animate-pulse"
-                       : "bg-slate-50 text-slate-400 border-slate-200"
+                       ? "bg-cyan-500/10 text-cyan-300 border-cyan-500/20 animate-pulse"
+                       : "bg-white/5 text-slate-400 border-white/5"
                    }`}
                  >
                    {isCurrent ? (
@@ -227,7 +228,7 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
     }
 
     return (
-      <div className="text-[13px] md:text-[14px] leading-relaxed text-slate-800 font-medium whitespace-pre-wrap font-sans text-justify">
+      <div className="text-[13px] md:text-[14px] leading-relaxed text-slate-200 font-medium whitespace-pre-wrap font-sans text-justify">
         {passage.passage}
       </div>
     );
@@ -243,7 +244,7 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
         <ResultSummary
           score={correctCount}
           total={totalQuestions}
-          items={flatQuestions.map((item, i) => {
+          items={flatQuestions.map((item) => {
             const hasAnswered = answers[item.globalIndex] !== undefined;
             const correctOptIdx = item.question.answerOptions.findIndex(o => o.isCorrect);
             const isCorrect = hasAnswered ? answers[item.globalIndex] === correctOptIdx : false;
@@ -266,15 +267,20 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
   if (!question) return null;
 
   return (
-    <div className="flex flex-col min-h-dvh w-full bg-white pb-32">
-      <div className="flex flex-col w-full max-w-3xl mx-auto px-4 sm:px-5 md:px-6 pt-5 sm:pt-6 md:pt-8 gap-y-4">
+    <div className="flex flex-col min-h-dvh w-full bg-slate-950 text-white pb-32 relative">
+      {/* Background radial gradients for glassmorphism glow */}
+      <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-500/10 blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-500/10 blur-[120px] pointer-events-none" />
+      <div className="absolute top-[30%] right-[10%] w-[300px] h-[300px] rounded-full bg-indigo-500/5 blur-[100px] pointer-events-none" />
+
+      <div className="flex flex-col w-full max-w-3xl mx-auto px-4 sm:px-5 md:px-6 pt-5 sm:pt-6 md:pt-8 gap-y-4 relative z-10">
         {previewQIndex !== null ? (
           <header className="flex flex-wrap items-center justify-between mb-4 md:mb-6 shrink-0 gap-y-3">
             <button
               onClick={() => setPreviewQIndex(null)}
-              className="group flex items-center gap-2 text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
+              className="group flex items-center gap-2 text-white/70 hover:text-white transition-colors cursor-pointer"
             >
-              <div className="w-8 h-8 bg-slate-100 group-hover:bg-slate-200 rounded-full flex items-center justify-center transition-colors">
+              <div className="w-8 h-8 bg-white/5 border border-white/10 group-hover:bg-white/10 rounded-full flex items-center justify-center transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" /></svg>
               </div>
               <span className="font-bold text-sm">Quay về Kết quả</span>
@@ -285,7 +291,6 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
             titleText={`Part 6 – ${testId.toUpperCase()} • Câu ${question.id}`}
             subtitleText={`${answeredCount} / ${totalQuestions} câu`}
             progressPercent={(answeredCount / totalQuestions) * 100}
-            progressColorClass="bg-emerald-500"
             isMuted={isMuted}
             onToggleMute={toggleMute}
             onRestart={() => restartLesson(lessonId)}
@@ -295,33 +300,33 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
 
         <div className="mb-4 shrink-0">
           <div className="flex items-center gap-2 mb-1.5 flex-wrap">
-            <span className="text-[10px] md:text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-slate-100 text-slate-500 border border-slate-200">
+            <span className="text-[10px] md:text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-white/5 text-slate-400 border border-white/5">
               Đoạn {passage.passageNumber}: Câu {passage.questionRange}
             </span>
-            <span className="text-[10px] md:text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200">
+            <span className="text-[10px] md:text-[11px] font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-300 border border-emerald-500/20">
               {passage.passageType}
             </span>
             <span className={`text-[10px] md:text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full border ${
-              QUESTION_TYPE_COLORS[question.questionType] || "bg-slate-50 text-slate-600 border-slate-200"
+              QUESTION_TYPE_COLORS[question.questionType] || "bg-white/5 text-slate-400 border-white/5"
             }`}>
               {QUESTION_TYPE_LABELS[question.questionType] || question.questionType}
             </span>
             {question.blankLabel && (
-              <span className="text-[10px] md:text-[11px] font-bold uppercase bg-slate-100 text-slate-500 border border-slate-200 px-2 py-1 rounded-full">
+              <span className="text-[10px] md:text-[11px] font-bold uppercase bg-white/5 text-slate-400 border border-white/5 px-2 py-1 rounded-full">
                 Vị trí {question.blankLabel}
               </span>
             )}
           </div>
-          <h2 className="text-lg md:text-xl font-bold text-slate-800">
+          <h2 className="text-lg md:text-xl font-extrabold text-white tracking-tight">
             {passage.passageTitle}
           </h2>
         </div>
 
         <div className="w-full flex flex-col gap-4 sm:gap-6 pb-6">
           {/* Passage Text */}
-          <div className="bg-slate-50/50 border border-slate-200/80 rounded-2xl p-5 sm:p-6 md:p-8 relative">
+          <div className="bg-slate-900/40 border border-white/10 rounded-2xl p-5 sm:p-6 md:p-8 relative shadow-lg backdrop-blur-md">
             {passage.passageA && (
-              <div className="absolute top-3 right-3 text-[10px] font-bold uppercase tracking-wider text-slate-400 bg-white border border-slate-200 px-2 py-1 rounded-lg">
+              <div className="absolute top-3 right-3 text-[10px] font-bold uppercase tracking-wider text-slate-300 bg-white/5 border border-white/10 px-2 py-1 rounded-lg">
                 Double Passage
               </div>
             )}
@@ -329,12 +334,12 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
           </div>
 
           {/* Current Question */}
-          <div className="bg-white border border-slate-200/80 rounded-2xl p-5 sm:p-6 md:p-8 shadow-[0_4px_20px_-10px_rgba(0,0,0,0.05)] relative">
+          <div className="bg-slate-900/30 border border-white/10 rounded-2xl p-5 sm:p-6 md:p-8 shadow-lg backdrop-blur-md">
             <div className="flex items-center gap-2 mb-4">
-              <span className="w-7 h-7 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center text-xs font-bold">
+              <span className="w-7 h-7 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center text-xs font-bold">
                 {question.id}
               </span>
-              <h3 className="text-sm font-bold text-slate-600">
+              <h3 className="text-sm font-bold text-slate-300">
                 {question.question ? `Câu hỏi: ${question.question}` : "Chọn đáp án đúng cho chỗ trống"}
               </h3>
             </div>
@@ -354,12 +359,18 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
                 const optText = optObj.opt.text;
                 return (
                   <div className="flex flex-col gap-0.5 w-full text-left">
-                    <span className={`font-semibold text-[13px] leading-snug wrap-break-word ${showResult && isCorrectOption ? 'text-emerald-900' : (showResult && isSelected ? 'text-red-900' : 'text-slate-700')}`}>
+                    <span className={`font-semibold text-[13px] leading-snug wrap-break-word transition-colors duration-300 ${
+                      showResult && isCorrectOption 
+                        ? 'text-emerald-300 drop-shadow-[0_0_8px_rgba(16,185,129,0.3)]' 
+                        : (showResult && isSelected 
+                          ? 'text-rose-300 drop-shadow-[0_0_8px_rgba(244,63,94,0.3)]' 
+                          : 'text-white group-hover:text-white')
+                    }`}>
                       {optText}
                     </span>
                     {showResult && (isSelected || isCorrectOption) && optObj.opt.rationale && (
                       <span className={`text-[11.5px] font-medium leading-snug mt-1 pt-1 border-t ${
-                        isCorrectOption ? "text-emerald-700/80 border-emerald-200/50" : "text-red-700/80 border-red-200/50"
+                        isCorrectOption ? "text-emerald-400/80 border-white/5" : "text-rose-400/80 border-white/5"
                       }`}>
                         {isCorrectOption ? "✓ " : "✗ "}{optObj.opt.rationale}
                       </span>
@@ -375,7 +386,7 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
                 {!showHint ? (
                   <button
                     onClick={() => setShowHint(true)}
-                    className="flex items-center gap-1.5 text-xs font-semibold text-emerald-600 hover:text-emerald-700 transition-colors self-start cursor-pointer"
+                    className="flex items-center gap-1.5 text-xs font-semibold text-emerald-400 hover:text-emerald-300 transition-colors self-start cursor-pointer"
                   >
                     <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -384,17 +395,17 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
                     Xem giải thích / dịch nghĩa
                   </button>
                 ) : (
-                  <div className="bg-white rounded-xl p-3 border border-slate-200 shadow-sm animate-in fade-in zoom-in-95 duration-200">
+                  <div className="bg-white/5 rounded-xl p-3 border border-white/10 shadow-sm animate-in fade-in zoom-in-95 duration-200">
                     {question.hint && (
                       <div className="mb-2">
-                        <p className="text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-0.5">Gợi ý</p>
-                        <p className="text-[13px] text-slate-700 leading-relaxed font-medium">{question.hint}</p>
+                        <p className="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-0.5">Gợi ý</p>
+                        <p className="text-[13px] text-zinc-200 leading-relaxed font-medium">{question.hint}</p>
                       </div>
                     )}
                     {question.translation && (
-                      <div className={question.hint ? "mt-2 pt-2 border-t border-slate-100" : ""}>
-                        <p className="text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-0.5">Dịch</p>
-                        <p className="text-[13px] text-slate-500 italic leading-relaxed">{question.translation}</p>
+                      <div className={question.hint ? "mt-2 pt-2 border-t border-white/5" : ""}>
+                        <p className="text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-0.5">Dịch</p>
+                        <p className="text-[13px] text-zinc-300 italic leading-relaxed">{question.translation}</p>
                       </div>
                     )}
                   </div>
@@ -408,7 +419,7 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
                 {activeIndex > 0 && (
                   <button
                     onClick={() => goToPrev(lessonId)}
-                    className="w-14 md:w-16 py-3.5 bg-slate-100 hover:bg-slate-200 text-slate-600 font-bold rounded-xl transition-colors cursor-pointer flex items-center justify-center shrink-0"
+                    className="w-14 md:w-16 py-3.5 bg-white/5 border border-white/10 hover:bg-white/10 text-white/70 font-bold rounded-xl transition-colors cursor-pointer flex items-center justify-center shrink-0"
                     title="Câu trước (Arrow Left)"
                   >
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -419,7 +430,7 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
                 {isAnswered ? (
                   <button
                     onClick={() => goToNext(lessonId, totalQuestions)}
-                    className="flex-1 py-3.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-2"
+                    className="flex-1 py-3.5 bg-emerald-600 hover:bg-emerald-700 border border-emerald-500 text-white font-bold rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-2"
                   >
                     {activeIndex === totalQuestions - 1 ? "Xem Kết Quả (Space)" : "Tiếp Theo (Space)"}
                     <svg className="w-4 h-4 text-emerald-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -427,7 +438,7 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
                     </svg>
                   </button>
                 ) : (
-                  <div className="flex-1 py-3.5 bg-slate-100 text-slate-400 font-bold rounded-xl flex items-center justify-center cursor-not-allowed border border-slate-200/50">
+                  <div className="flex-1 py-3.5 bg-white/5 text-white/20 font-bold rounded-xl flex items-center justify-center cursor-not-allowed border border-white/5">
                     Chọn một đáp án
                   </div>
                 )}

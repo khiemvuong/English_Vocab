@@ -1,4 +1,5 @@
 "use client";
+/* eslint-disable react-hooks/exhaustive-deps */
 
 import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
@@ -23,8 +24,7 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
   const [previewBlankKey, setPreviewBlankKey] = useState<string | null>(null);
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setMounted(true);
+    Promise.resolve().then(() => setMounted(true));
   }, []);
 
   const progress = scenarioProgress[testId];
@@ -140,7 +140,6 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
     };
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mounted, progress, showSummary, isAnswered, blankKey, displayOptions, previewBlankKey, handleSelect, goNext, goPrev]);
 
   // Render passage text with blanks highlighted
@@ -148,7 +147,7 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
     if (!passage) return null;
     const parts = passage.text.split(/\{(\d+)\}/g);
     return (
-      <p className="text-base md:text-lg leading-loose text-slate-700 font-medium">
+      <p className="text-base md:text-lg leading-loose text-slate-200 font-medium">
         {parts.map((part, i) => {
           if (i % 2 === 1) {
             const bIdx = parseInt(part);
@@ -164,13 +163,13 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
                   key={i}
                   className={`inline-flex items-center gap-1 px-2.5 py-0.5 mx-0.5 rounded-lg text-sm font-bold border transition-all ${
                     correct
-                      ? "bg-emerald-50 text-emerald-700 border-emerald-200"
-                      : "bg-red-50 text-red-600 border-red-200 line-through"
+                      ? "bg-emerald-500/10 text-emerald-300 border-emerald-500/20"
+                      : "bg-rose-500/10 text-rose-300 border-rose-500/20 line-through"
                   }`}
                 >
                   {answered}
                   {!correct && (
-                    <span className="no-underline text-emerald-600 font-bold ml-1">
+                    <span className="no-underline text-emerald-400 font-bold ml-1">
                       → {blankData?.answer}
                     </span>
                   )}
@@ -183,8 +182,8 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
                 key={i}
                 className={`inline-flex items-center px-3 py-0.5 mx-0.5 rounded-lg text-sm font-bold border-2 border-dashed transition-all ${
                   isCurrent
-                    ? "bg-blue-50 text-blue-600 border-blue-300 animate-pulse"
-                    : "bg-slate-50 text-slate-400 border-slate-200"
+                    ? "bg-blue-500/10 text-blue-300 border-blue-500/20 animate-pulse"
+                    : "bg-white/5 text-slate-400 border-white/5"
                 }`}
               >
                 {isCurrent ? (
@@ -249,15 +248,20 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
   if (!blank) return null;
 
   return (
-    <div className="flex flex-col h-dvh w-full overflow-hidden">
-      <div className="flex flex-col flex-1 w-full max-w-3xl mx-auto px-4 md:px-6 pt-4 md:pt-6 overflow-hidden">
+    <div className="flex flex-col h-dvh w-full overflow-hidden bg-slate-950 text-white relative">
+      {/* Background radial gradients for glassmorphism glow */}
+      <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] rounded-full bg-blue-500/10 blur-[120px] pointer-events-none" />
+      <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] rounded-full bg-purple-500/10 blur-[120px] pointer-events-none" />
+      <div className="absolute top-[30%] right-[10%] w-[300px] h-[300px] rounded-full bg-indigo-500/5 blur-[100px] pointer-events-none" />
+
+      <div className="flex flex-col flex-1 w-full max-w-3xl mx-auto px-4 md:px-6 pt-4 md:pt-6 overflow-hidden relative z-10">
         {previewBlankKey !== null ? (
           <header className="flex flex-wrap items-center justify-between mb-4 md:mb-6 shrink-0 gap-y-3">
             <button
               onClick={() => setPreviewBlankKey(null)}
-              className="group flex items-center gap-2 text-slate-500 hover:text-slate-800 transition-colors cursor-pointer"
+              className="group flex items-center gap-2 text-white/70 hover:text-white transition-colors cursor-pointer"
             >
-              <div className="w-8 h-8 bg-slate-100 group-hover:bg-slate-200 rounded-full flex items-center justify-center transition-colors">
+              <div className="w-8 h-8 bg-white/5 border border-white/10 group-hover:bg-white/10 rounded-full flex items-center justify-center transition-colors">
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" /></svg>
               </div>
               <span className="font-bold text-sm">Quay về Kết quả</span>
@@ -268,7 +272,6 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
             titleText={`Part 5 – ${testId.toUpperCase()} • Tình Huống`}
             subtitleText={`${answeredCount} / ${totalBlanks} từ`}
             progressPercent={(answeredCount / totalBlanks) * 100}
-            progressColorClass="bg-emerald-500"
             isMuted={isMuted}
             onToggleMute={toggleMute}
             onRestart={() => restartScenario(testId)}
@@ -279,11 +282,11 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
         {/* Scenario Title */}
         <div className="mb-4 shrink-0">
           <div className="flex items-center gap-2 mb-1.5">
-            <span className="text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-amber-50 text-amber-700 border border-amber-200">
+            <span className="text-xs font-bold uppercase tracking-widest px-2.5 py-1 rounded-full bg-amber-500/10 text-amber-300 border border-amber-500/20">
               {scenario.theme}
             </span>
           </div>
-          <h2 className="text-xl md:text-2xl font-bold text-slate-800">
+          <h2 className="text-xl md:text-2xl font-extrabold text-white tracking-tight">
             {scenario.title}
           </h2>
         </div>
@@ -291,18 +294,18 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
         {/* Main Content */}
         <div className="flex-1 overflow-y-auto no-scrollbar pb-8">
           {/* Passage Text */}
-          <div className="bg-white border border-slate-200 rounded-2xl p-5 md:p-6 mb-6 shadow-sm">
+          <div className="bg-slate-900/40 border border-white/10 rounded-2xl p-5 md:p-6 mb-6 shadow-lg backdrop-blur-md">
             {renderPassageText()}
           </div>
 
           {/* Current Blank Question */}
-          <div className="bg-slate-50 border border-slate-200 rounded-2xl p-5 md:p-6">
+          <div className="bg-slate-900/20 border border-white/5 backdrop-blur-xs rounded-2xl p-5 md:p-6">
             <div className="flex items-center gap-2 mb-4">
-              <span className="w-7 h-7 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-xs font-bold">
+              <span className="w-7 h-7 bg-blue-500/20 text-blue-400 rounded-full flex items-center justify-center text-xs font-bold">
                 {activeBlankIdx + 1}
               </span>
-              <h3 className="text-sm font-bold text-slate-600">
-                Chọn từ đúng cho chỗ trống: <span className="text-blue-600">{blank.hint}</span>
+              <h3 className="text-sm font-bold text-slate-300">
+                Chọn từ đúng cho chỗ trống: <span className="text-blue-400">{blank.hint}</span>
               </h3>
             </div>
 
@@ -320,7 +323,7 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
                 {(scenarioIdx > 0 || passageIdx > 0 || blankIdx > 0) && (
                   <button
                     onClick={goPrev}
-                    className="w-14 md:w-16 py-3.5 bg-slate-100 hover:bg-slate-200 text-slate-600 font-bold rounded-xl transition-colors cursor-pointer flex items-center justify-center shrink-0"
+                    className="w-14 md:w-16 py-3.5 bg-white/5 border border-white/10 hover:bg-white/10 text-white/80 font-bold rounded-xl transition-colors cursor-pointer flex items-center justify-center shrink-0"
                     title="Câu trước (Arrow Left)"
                   >
                     <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -331,7 +334,7 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
                 {isAnswered ? (
                   <button
                     onClick={goNext}
-                    className="flex-1 py-3.5 bg-slate-800 hover:bg-slate-900 text-white font-bold rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-2"
+                    className="flex-1 py-3.5 bg-slate-800 hover:bg-slate-900 border border-slate-700 text-white font-bold rounded-xl transition-colors cursor-pointer flex items-center justify-center gap-2"
                   >
                     {scenarioIdx === data.scenarios.length - 1 &&
                      passageIdx === scenario.passages.length - 1 &&
@@ -346,7 +349,7 @@ export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
                     </svg>
                   </button>
                 ) : (
-                  <div className="flex-1 py-3.5 bg-slate-100 text-slate-400 font-bold rounded-xl flex items-center justify-center cursor-not-allowed border border-slate-200/50">
+                  <div className="flex-1 py-3.5 bg-white/5 text-white/20 font-bold rounded-xl flex items-center justify-center cursor-not-allowed border border-white/5">
                     Chọn một đáp án
                   </div>
                 )}

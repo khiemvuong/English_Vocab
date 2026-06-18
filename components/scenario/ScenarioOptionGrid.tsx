@@ -41,24 +41,30 @@ export function ScenarioOptionGrid({
         return (
           <>
             <div className="flex items-center gap-2 flex-wrap">
-              <span className={`font-semibold text-[15px] leading-snug wrap-break-word ${showResult && isCorrectOption ? 'text-emerald-900' : (showResult && isSelected ? 'text-red-900' : 'text-slate-700')}`}>
+              <span className={`font-semibold text-[15px] leading-snug wrap-break-word transition-colors duration-300 ${
+                showResult && isCorrectOption 
+                  ? 'text-emerald-300 drop-shadow-[0_0_8px_rgba(16,185,129,0.3)]' 
+                  : (showResult && isSelected 
+                    ? 'text-rose-300 drop-shadow-[0_0_8px_rgba(244,63,94,0.3)]' 
+                    : 'text-white group-hover:text-white')
+              }`}>
                 {optionText}
               </span>
               {showResult && (
                 <AudioButton 
                   text={optionText}
-                  className={`p-1 rounded-full transition-colors hover:text-indigo-600 bg-slate-100/80 hover:bg-slate-200 ${showResult && isCorrectOption ? "text-emerald-700" : showResult && isSelected ? "text-red-700" : "text-slate-500"}`}
+                  className={`p-1 rounded-full transition-colors hover:text-indigo-400 bg-white/5 hover:bg-white/10 ${showResult && isCorrectOption ? "text-emerald-400" : showResult && isSelected ? "text-rose-400" : "text-slate-400"}`}
                   iconClassName="w-3.5 h-3.5"
                 />
               )}
             </div>
             
             {showResult && typeof optObj !== 'string' && optObj.phonetic && optObj.meaning && (
-              <div className="flex flex-col animate-in fade-in duration-300 gap-0.5">
-                <span className={`text-[13px] font-mono tracking-tight ${isCorrectOption ? "text-emerald-700/80" : isSelected ? "text-red-700/80" : "text-slate-500"}`}>
+              <div className="flex flex-col animate-in fade-in duration-300 gap-0.5 mt-1">
+                <span className={`text-[13px] font-mono tracking-tight ${isCorrectOption ? "text-emerald-400/80" : isSelected ? "text-rose-400/80" : "text-slate-400"}`}>
                   {optObj.phonetic}
                 </span>
-                <span className={`text-[13.5px] font-medium leading-snug ${isCorrectOption ? "text-emerald-800/90" : isSelected ? "text-red-800/90" : "text-slate-600"}`}>
+                <span className={`text-[13.5px] font-medium leading-snug ${isCorrectOption ? "text-emerald-300" : isSelected ? "text-rose-300" : "text-slate-300"}`}>
                   {optObj.meaning}
                 </span>
               </div>

@@ -6,7 +6,6 @@ interface QuizHeaderProps {
   titleText: React.ReactNode;
   subtitleText?: React.ReactNode;
   progressPercent: number; // 0 to 100
-  progressColorClass?: string; // default: 'bg-blue-500'
   isMuted: boolean;
   onToggleMute: () => void;
   onRestart: () => void;
@@ -17,7 +16,6 @@ export function QuizHeader({
   titleText,
   subtitleText,
   progressPercent,
-  progressColorClass = "bg-blue-500",
   isMuted,
   onToggleMute,
   onRestart,
@@ -26,11 +24,11 @@ export function QuizHeader({
   return (
     <header className="flex flex-wrap items-center justify-between mb-4 md:mb-6 shrink-0 gap-y-3">
       {/* Left: Info */}
-      <div className="text-xs font-bold text-slate-500 uppercase tracking-widest shrink-0">
+      <div className="text-xs font-bold text-slate-400 uppercase tracking-widest shrink-0">
         {titleText}
         {subtitleText && (
           <>
-            <span className="mx-1.5 text-slate-300">•</span>
+            <span className="mx-1.5 text-slate-600">•</span>
             {subtitleText}
           </>
         )}
@@ -38,11 +36,20 @@ export function QuizHeader({
 
       {/* Center: Progress Bar */}
       <div className="flex-1 flex justify-center w-full min-w-[150px] order-3 md:order-2 md:w-auto px-2 md:px-0">
-        <div className="w-full max-w-[200px] h-1.5 bg-slate-200 rounded-full overflow-hidden">
+        <div className="w-full max-w-[200px] h-1.5 bg-slate-900 rounded-full overflow-hidden relative border border-white/5 shadow-[inset_0_1.5px_2px_rgba(0,0,0,0.5)]">
           <div
-            className={`${progressColorClass} h-full transition-all duration-300 ease-out`}
+            className="bg-linear-to-r from-blue-600 via-indigo-500 to-cyan-400 h-full transition-all duration-300 ease-out shadow-[0_0_12px_rgba(29,111,251,0.4)] relative overflow-hidden"
             style={{ width: `${Math.max(0, Math.min(100, progressPercent))}%` }}
-          />
+          >
+            {/* Glossy sheen reflection sweep */}
+            <span 
+              className="absolute inset-y-0 left-0 w-1/2 rounded-full animate-progress-sheen pointer-events-none"
+              style={{ 
+                background: "linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.4) 50%, transparent 100%)",
+                mixBlendMode: "screen"
+              }}
+            />
+          </div>
         </div>
       </div>
 
@@ -50,7 +57,7 @@ export function QuizHeader({
       <div className="flex items-center justify-end gap-2.5 order-2 md:order-3 shrink-0">
         <button 
           onClick={onRestart}
-          className="p-1.5 text-slate-500 bg-slate-100 hover:text-amber-600 hover:bg-amber-50 active:bg-amber-100 rounded-full transition-colors flex items-center justify-center h-8 w-8 cursor-pointer"
+          className="p-1.5 text-white/70 bg-white/5 border border-white/10 hover:text-white hover:bg-white/10 rounded-full transition-colors flex items-center justify-center h-8 w-8 cursor-pointer"
           title="Làm lại từ đầu"
         >
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -59,7 +66,7 @@ export function QuizHeader({
         </button>
         <button 
           onClick={onToggleMute}
-          className="p-1.5 text-slate-500 bg-slate-100 hover:bg-slate-200 active:bg-slate-300 rounded-full transition-colors flex items-center justify-center h-8 w-8 cursor-pointer"
+          className="p-1.5 text-white/70 bg-white/5 border border-white/10 hover:text-white hover:bg-white/10 rounded-full transition-colors flex items-center justify-center h-8 w-8 cursor-pointer"
           title={isMuted ? "Bật âm thanh" : "Tắt âm thanh"}
         >
           {isMuted ? (
@@ -71,7 +78,7 @@ export function QuizHeader({
         <button
           onClick={onExit}
           title="Thoát"
-          className="flex items-center gap-1.5 px-3 py-1.5 text-slate-600 bg-slate-100 hover:text-red-700 hover:bg-red-50 active:bg-red-100 rounded-full transition-colors cursor-pointer"
+          className="flex items-center gap-1.5 px-3 py-1.5 text-white/80 bg-white/5 border border-white/10 hover:text-red-400 hover:border-red-500/20 rounded-full transition-colors cursor-pointer"
         >
           <span className="text-sm font-bold">Thoát</span>
           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -79,6 +86,16 @@ export function QuizHeader({
           </svg>
         </button>
       </div>
+
+      <style dangerouslySetInnerHTML={{__html: `
+        @keyframes progress-sheen {
+          0% { transform: translateX(-110%); }
+          100% { transform: translateX(210%); }
+        }
+        .animate-progress-sheen {
+          animation: progress-sheen 2s linear infinite;
+        }
+      `}} />
     </header>
   );
 }
