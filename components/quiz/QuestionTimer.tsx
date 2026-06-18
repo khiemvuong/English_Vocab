@@ -13,6 +13,7 @@ export function QuestionTimer({ currentIndex, isAnswered, duration = 30 }: Quest
 
   // Reset timer whenever the question changes
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setTimeLeft(duration);
   }, [currentIndex, duration]);
 
@@ -30,6 +31,7 @@ export function QuestionTimer({ currentIndex, isAnswered, duration = 30 }: Quest
   // Auto-hide tip after a few questions if they haven't manually closed it
   useEffect(() => {
     if (currentIndex >= 3 && !hasDismissedTip) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setShowTip(false);
     }
   }, [currentIndex, hasDismissedTip]);

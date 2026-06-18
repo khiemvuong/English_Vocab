@@ -32,9 +32,12 @@ export const renderFormattedText = (text: string) => {
            }
            
            return (
-             <span key={i} className="inline-flex items-center whitespace-nowrap px-2 py-0.5 mx-0.5 bg-indigo-50/80 text-indigo-700 font-medium rounded-lg text-[0.9em] tracking-wide align-baseline border border-indigo-100/50">
+             <span key={i} className="inline-flex items-center whitespace-nowrap px-2.5 py-0.5 mx-1 bg-indigo-500/15 text-indigo-300 font-semibold rounded-lg text-[0.88em] tracking-wide align-baseline border border-indigo-500/25 shadow-[0_0_8px_rgba(99,102,241,0.15)] transition-all">
                {part}
-               <AudioButton text={wordToSpeak} />
+               <AudioButton 
+                 text={wordToSpeak} 
+                 className="ml-1 p-0.5 text-indigo-400 hover:text-indigo-200 hover:bg-white/10 rounded-full transition-colors active:scale-90"
+               />
              </span>
            );
          }

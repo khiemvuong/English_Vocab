@@ -15,6 +15,7 @@ export function Part6Card({ testId, testLabel, isAvailable }: Part6CardProps) {
   const progressState = useQuizStore((state) => state.progress[`part6-${testId}`]);
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true);
   }, []);
 
@@ -23,7 +24,6 @@ export function Part6Card({ testId, testLabel, isAvailable }: Part6CardProps) {
     mounted && progressState?.answers ? Object.keys(progressState.answers).length : 0;
   const totalQuestions =
     mounted && progressState?.totalQuestions ? progressState.totalQuestions : 16;
-  const inProgress = mounted && !isCompleted && amountAnswered > 0;
 
   return (
     <ProgressCard

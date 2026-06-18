@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { RouteTransitionLoader } from "@/components/common/RouteTransitionLoader";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -20,8 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${inter.variable} antialiased selection:bg-blue-100 selection:text-blue-900 bg-slate-50 text-slate-900`}
+        className={`${inter.variable} antialiased selection:bg-blue-950 selection:text-blue-200 bg-slate-950 text-slate-100`}
       >
+        <RouteTransitionLoader />
         {children}
       </body>
     </html>

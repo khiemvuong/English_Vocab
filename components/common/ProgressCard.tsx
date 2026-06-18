@@ -27,92 +27,94 @@ export interface ProgressCardProps {
 
 const THEME_MAP = {
   blue: {
-    hoverBorder: 'hover:border-blue-300 hover:ring-2 hover:ring-blue-200/50',
-    hoverShadow: 'hover:shadow-blue-900/15',
-    cardBg: 'bg-blue-50/50 backdrop-blur-xl border-blue-200/70 shadow-[0_8px_30px_rgb(59,130,246,0.08)]',
-    titleText: 'text-slate-800',
-    subtitleText: 'text-slate-500',
-    tagText: 'text-blue-700',
-    progressBg: 'bg-blue-400',
-    progressText: 'text-blue-600',
-    scoreLabel: 'text-slate-500',
-    scoreText: 'text-slate-800',
-    startButtonBg: 'bg-blue-100/60 backdrop-blur-sm',
-    startButtonText: 'text-blue-700',
-    startButtonBorder: 'border-blue-200 shadow-sm shadow-blue-900/5',
-    startPing: 'bg-blue-400',
-    startDot: 'bg-blue-500',
-    flareBg: 'bg-linear-to-tl from-blue-400/60 via-blue-300/20 to-blue-100/5',
+    hoverBorder: 'hover:border-white/30 hover:ring-2 hover:ring-white/10',
+    hoverShadow: 'hover:shadow-black/40',
+    cardBg: 'bg-slate-900/40 backdrop-blur-md border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.5)]',
+    titleText: 'text-white',
+    subtitleText: 'text-slate-300',
+    tagText: 'text-zinc-400',
+    progressBg: 'bg-white/80',
+    progressText: 'text-white font-semibold',
+    scoreLabel: 'text-slate-400',
+    scoreText: 'text-white',
+    startButtonBg: 'bg-white/10 hover:bg-white/20 backdrop-blur-xs transition-colors duration-200',
+    startButtonText: 'text-white',
+    startButtonBorder: 'border-white/20',
+    startPing: 'bg-white/40',
+    startDot: 'bg-white',
+    flareBg: 'bg-linear-to-tl from-white/5 via-white/0 to-transparent',
   },
   amber: {
-    hoverBorder: 'hover:border-amber-300 hover:ring-2 hover:ring-amber-200/50',
-    hoverShadow: 'hover:shadow-amber-900/15',
-    cardBg: 'bg-amber-50/50 backdrop-blur-xl border-amber-200/70 shadow-[0_8px_30px_rgb(245,158,11,0.08)]',
-    titleText: 'text-slate-800',
-    subtitleText: 'text-slate-500',
-    tagText: 'text-amber-700',
-    progressBg: 'bg-amber-400',
-    progressText: 'text-amber-600',
-    scoreLabel: 'text-slate-500',
-    scoreText: 'text-slate-800',
-    startButtonBg: 'bg-amber-100/60 backdrop-blur-sm',
-    startButtonText: 'text-amber-700',
-    startButtonBorder: 'border-amber-200 shadow-sm shadow-amber-900/5',
-    startPing: 'bg-amber-400',
-    startDot: 'bg-amber-500',
-    flareBg: 'bg-linear-to-tl from-amber-400/60 via-amber-300/20 to-amber-100/5',
+    hoverBorder: 'hover:border-white/30 hover:ring-2 hover:ring-white/10',
+    hoverShadow: 'hover:shadow-black/40',
+    cardBg: 'bg-slate-900/40 backdrop-blur-md border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.5)]',
+    titleText: 'text-white',
+    subtitleText: 'text-slate-300',
+    tagText: 'text-zinc-400',
+    progressBg: 'bg-white/80',
+    progressText: 'text-white font-semibold',
+    scoreLabel: 'text-slate-400',
+    scoreText: 'text-white',
+    startButtonBg: 'bg-white/10 hover:bg-white/20 backdrop-blur-xs transition-colors duration-200',
+    startButtonText: 'text-white',
+    startButtonBorder: 'border-white/20',
+    startPing: 'bg-white/40',
+    startDot: 'bg-white',
+    flareBg: 'bg-linear-to-tl from-white/5 via-white/0 to-transparent',
   },
   emerald: {
-    hoverBorder: 'hover:border-emerald-300 hover:ring-2 hover:ring-emerald-200/50',
-    hoverShadow: 'hover:shadow-emerald-900/15',
-    cardBg: 'bg-emerald-50/50 backdrop-blur-xl border-emerald-200/70 shadow-[0_8px_30px_rgb(16,185,129,0.08)]',
-    titleText: 'text-slate-800',
-    subtitleText: 'text-slate-500',
-    tagText: 'text-emerald-700',
-    progressBg: 'bg-emerald-400',
-    progressText: 'text-emerald-600',
-    scoreLabel: 'text-slate-500',
-    scoreText: 'text-slate-800',
-    startButtonBg: 'bg-emerald-100/60 backdrop-blur-sm',
-    startButtonText: 'text-emerald-700',
-    startButtonBorder: 'border-emerald-200 shadow-sm shadow-emerald-900/5',
-    startPing: 'bg-emerald-400',
-    startDot: 'bg-emerald-500',
-    flareBg: 'bg-linear-to-tl from-emerald-400/60 via-emerald-300/20 to-emerald-100/5',
+    hoverBorder: 'hover:border-white/30 hover:ring-2 hover:ring-white/10',
+    hoverShadow: 'hover:shadow-black/40',
+    cardBg: 'bg-slate-900/40 backdrop-blur-md border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.5)]',
+    titleText: 'text-white',
+    subtitleText: 'text-slate-300',
+    tagText: 'text-zinc-400',
+    progressBg: 'bg-white/80',
+    progressText: 'text-white font-semibold',
+    scoreLabel: 'text-slate-400',
+    scoreText: 'text-white',
+    startButtonBg: 'bg-white/10 hover:bg-white/20 backdrop-blur-xs transition-colors duration-200',
+    startButtonText: 'text-white',
+    startButtonBorder: 'border-white/20',
+    startPing: 'bg-white/40',
+    startDot: 'bg-white',
+    flareBg: 'bg-linear-to-tl from-white/5 via-white/0 to-transparent',
   },
   purple: {
-    hoverBorder: 'hover:border-purple-300',
-    hoverShadow: 'hover:shadow-purple-900/10',
-    cardBg: 'bg-gradient-to-br from-white via-white to-purple-50/50',
-    titleText: 'text-slate-800',
-    subtitleText: 'text-slate-500',
-    tagText: 'text-slate-400',
-    progressBg: 'bg-purple-400',
-    progressText: 'text-purple-600',
-    scoreLabel: 'text-slate-500',
-    scoreText: 'text-slate-800',
-    startButtonBg: 'bg-purple-50',
-    startButtonText: 'text-purple-700',
-    startButtonBorder: 'border-purple-100',
-    startPing: 'bg-purple-400',
-    startDot: 'bg-purple-500',
+    hoverBorder: 'hover:border-white/30 hover:ring-2 hover:ring-white/10',
+    hoverShadow: 'hover:shadow-black/40',
+    cardBg: 'bg-slate-900/40 backdrop-blur-md border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.5)]',
+    titleText: 'text-white',
+    subtitleText: 'text-slate-300',
+    tagText: 'text-zinc-400',
+    progressBg: 'bg-white/80',
+    progressText: 'text-white font-semibold',
+    scoreLabel: 'text-slate-400',
+    scoreText: 'text-white',
+    startButtonBg: 'bg-white/10 hover:bg-white/20 backdrop-blur-xs transition-colors duration-200',
+    startButtonText: 'text-white',
+    startButtonBorder: 'border-white/20',
+    startPing: 'bg-white/40',
+    startDot: 'bg-white',
+    flareBg: 'bg-linear-to-tl from-white/5 via-white/0 to-transparent',
   },
   orange: {
-    hoverBorder: 'hover:border-orange-300',
-    hoverShadow: 'hover:shadow-orange-900/10',
-    cardBg: 'bg-gradient-to-br from-white via-white to-orange-50/50',
-    titleText: 'text-slate-800',
-    subtitleText: 'text-slate-500',
-    tagText: 'text-slate-400',
-    progressBg: 'bg-orange-400',
-    progressText: 'text-orange-600',
-    scoreLabel: 'text-slate-500',
-    scoreText: 'text-slate-800',
-    startButtonBg: 'bg-orange-50',
-    startButtonText: 'text-orange-700',
-    startButtonBorder: 'border-orange-100',
-    startPing: 'bg-orange-400',
-    startDot: 'bg-orange-500',
+    hoverBorder: 'hover:border-white/30 hover:ring-2 hover:ring-white/10',
+    hoverShadow: 'hover:shadow-black/40',
+    cardBg: 'bg-slate-900/40 backdrop-blur-md border-white/10 shadow-[0_8px_32px_rgba(0,0,0,0.5)]',
+    titleText: 'text-white',
+    subtitleText: 'text-slate-300',
+    tagText: 'text-zinc-400',
+    progressBg: 'bg-white/80',
+    progressText: 'text-white font-semibold',
+    scoreLabel: 'text-slate-400',
+    scoreText: 'text-white',
+    startButtonBg: 'bg-white/10 hover:bg-white/20 backdrop-blur-xs transition-colors duration-200',
+    startButtonText: 'text-white',
+    startButtonBorder: 'border-white/20',
+    startPing: 'bg-white/40',
+    startDot: 'bg-white',
+    flareBg: 'bg-linear-to-tl from-white/5 via-white/0 to-transparent',
   }
 };
 
@@ -144,8 +146,8 @@ export function ProgressCard({
       <div 
         className={`flex flex-col h-full border rounded-2xl p-5 md:p-6 transition-all duration-300 relative overflow-hidden
           ${!isAvailable 
-            ? 'border-slate-100 opacity-60 cursor-not-allowed bg-slate-50/50' 
-            : `border-slate-200 cursor-pointer hover:-translate-y-1 ${theme.cardBg} ${theme.hoverBorder} ${theme.hoverShadow}`}`}
+            ? 'border-white/5 opacity-40 cursor-not-allowed bg-slate-900/20 backdrop-blur-xs' 
+            : `border-white/10 cursor-pointer hover:-translate-y-1 ${theme.cardBg} ${theme.hoverBorder} ${theme.hoverShadow}`}`}
       >
         {/* Decorative Light Flare */}
         {('flareBg' in theme) && (
@@ -204,25 +206,47 @@ export function ProgressCard({
           {isAvailable ? (
              isCompleted ? (
                <div className="flex flex-col w-full text-xs gap-1.5 mt-2">
-                 <div className={`flex justify-between font-medium ${theme.scoreLabel || 'text-slate-500'}`}>
-                   <span>Score</span>
-                   <span className={`font-bold ${theme.scoreText || 'text-slate-800'}`}>{score} / {totalQuestions}</span>
+                 <div className="flex flex-wrap justify-between items-center font-semibold text-slate-350 gap-y-1">
+                   <span className="flex items-center gap-1.5">
+                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.8)]" />
+                     <span className="text-emerald-400 font-bold whitespace-nowrap">{score} đúng</span>
+                     <span className="text-slate-600">•</span>
+                     <span className="w-1.5 h-1.5 rounded-full bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.8)]" />
+                     <span className="text-rose-400 font-bold whitespace-nowrap">{(totalQuestions - score)} sai</span>
+                   </span>
+                   <span className="text-white font-bold">{Math.round((score / totalQuestions) * 100)}%</span>
                  </div>
-                 <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
-                   <div className="bg-green-500 h-full w-full"></div>
+                 <div className="w-full bg-slate-950 h-1.5 rounded-full overflow-hidden flex border border-white/5 shadow-[inset_0_1.5px_2px_rgba(0,0,0,0.5)]">
+                   <div 
+                     className="bg-linear-to-r from-emerald-600 to-emerald-400 h-full transition-all duration-500 shadow-[0_0_8px_rgba(16,185,129,0.3)]" 
+                     style={{ width: `${(score / totalQuestions) * 100}%` }}
+                   />
+                   <div 
+                     className="bg-linear-to-r from-rose-600 to-rose-400 h-full transition-all duration-500 shadow-[0_0_8px_rgba(244,63,94,0.3)]" 
+                     style={{ width: `${((totalQuestions - score) / totalQuestions) * 100}%` }}
+                   />
                  </div>
                </div>
              ) : inProgress ? (
                <div className="flex flex-col w-full text-xs gap-1.5 mt-2">
-                 <div className={`flex justify-between font-bold ${theme.progressText}`}>
-                   <span>In Progress</span>
-                   <span>{amountAnswered} / {totalQuestions}</span>
+                 <div className="flex flex-wrap justify-between items-center font-semibold text-slate-350 gap-y-1">
+                   <span className="text-slate-400 font-bold whitespace-nowrap">Đang làm: {amountAnswered} / {totalQuestions}</span>
+                   <span className="text-white font-bold">{Math.round((amountAnswered / totalQuestions) * 100)}%</span>
                  </div>
-                 <div className="w-full bg-slate-100 h-1.5 rounded-full overflow-hidden">
+                 <div className="w-full bg-slate-950 h-1.5 rounded-full overflow-hidden relative border border-white/5 shadow-[inset_0_1.5px_2px_rgba(0,0,0,0.5)]">
                    <div 
-                     className={`${theme.progressBg} h-full rounded-full transition-all duration-500 max-w-full`}
+                     className="bg-linear-to-r from-blue-600 via-indigo-500 to-cyan-400 h-full rounded-full transition-all duration-500 shadow-[0_0_12px_rgba(29,111,251,0.4)] relative overflow-hidden"
                      style={{ width: `${Math.min(100, Math.max(0, (amountAnswered / totalQuestions) * 100))}%` }}
-                   ></div>
+                   >
+                     {/* Glossy sheen reflection sweep */}
+                     <span 
+                       className="absolute inset-y-0 left-0 w-1/2 rounded-full animate-progress-sheen pointer-events-none"
+                       style={{ 
+                         background: "linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.4) 50%, transparent 100%)",
+                         mixBlendMode: "screen"
+                       }}
+                     />
+                   </div>
                  </div>
                </div>
              ) : (
@@ -235,12 +259,23 @@ export function ProgressCard({
                </div>
              )
           ) : (
-             <div className="flex items-center gap-1.5 text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1.5 rounded-full w-fit mt-2">
+             <div className="flex items-center gap-1.5 text-xs font-bold text-slate-500 bg-slate-900/40 px-3 py-1.5 rounded-full w-fit mt-2 border border-white/5">
                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
                Locked
              </div>
           )}
         </div>
+        
+        {/* Sheen animation global styles definition */}
+        <style dangerouslySetInnerHTML={{__html: `
+          @keyframes progress-sheen {
+            0% { transform: translateX(-110%); }
+            100% { transform: translateX(210%); }
+          }
+          .animate-progress-sheen {
+            animation: progress-sheen 2s linear infinite;
+          }
+        `}} />
       </div>
     </Link>
   );
