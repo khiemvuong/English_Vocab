@@ -89,10 +89,9 @@ export function Part5MistakesReview({ quizzes }: Part5MistakesReviewProps) {
           </Link>
           <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="text-[11px] font-black uppercase tracking-[0.28em] text-amber-300">Local review</p>
               <h1 className="mt-2 text-4xl font-black tracking-tight md:text-6xl">Ôn câu sai Part 5</h1>
               <p className="mt-3 max-w-2xl text-sm font-medium leading-relaxed text-slate-400 md:text-base">
-                Dữ liệu được đọc từ localStorage hiện tại. Khi chuyển sang MongoDB, màn hình này có thể nhận danh sách câu sai từ server mà không đổi trải nghiệm.
+                Bộ những câu hỏi bạn đã chọn sai trong quá trình học
               </p>
             </div>
             <div className="rounded-3xl border border-amber-200/20 bg-amber-300/10 px-6 py-4 text-left md:text-right">

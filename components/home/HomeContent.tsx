@@ -165,7 +165,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
       <GlassFilter />
       
       {/* ── Hero Section Wrapper (Stable Height, Holds centered Spline Robot) ── */}
-      <div className="relative w-full overflow-hidden min-h-[80vh] lg:min-h-[85vh] flex flex-col justify-between">
+      <div className="relative w-full min-h-[80vh] lg:min-h-[85vh] flex flex-col justify-between">
         
         {/* ── Seamless Center-Top Spline Robot Background (Anchored to Hero wrapper) ── */}
         <div className="absolute inset-0 z-0 flex justify-center items-center pointer-events-none select-none">
