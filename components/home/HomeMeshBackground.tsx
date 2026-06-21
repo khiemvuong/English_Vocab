@@ -13,14 +13,14 @@ export function HomeMeshBackground() {
       <MeshGradientImpl
         className="absolute inset-0 w-full h-full"
         colors={["#0a021c", "#3b0764", "#581c87", "#0f255c"]}
-        speed={0.15}
-        distortion={0.4}
-        swirl={0.3}
+        speed={1.0}
+        distortion={0.9}
+        swirl={0.6}
         grainOverlay={0.08}
         style={{ width: "100%", height: "100%" }}
       />
       {/* Subtle overlay to soften and darken the shader for readability */}
-      <div className="absolute inset-0 bg-black/20" />
+      <div className="absolute inset-0 bg-black/50" />
     </div>
   );
 }
