@@ -68,7 +68,7 @@ export function QuizOptionGrid({
                     Incorrect
                   </div>
                 )}
-                <p className={`leading-relaxed ${isSelected || isCorrect ? 'text-slate-200' : 'text-slate-500'}`}>{opt.rationale}</p>
+                <p className={`leading-relaxed ${isSelected || isCorrect ? 'text-slate-200' : 'text-slate-200'}`}>{opt.rationale}</p>
               </div>
             )}
           </>

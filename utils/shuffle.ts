@@ -1,8 +1,8 @@
 export function getDeterministicShuffle<T>(options: T[], restartCount: number, stableKey: string): T[] {
-  if (restartCount === 0 || !options || options.length === 0) return options || [];
+  if (!options || options.length === 0) return options || [];
   
   let hash = 0;
-  const str = stableKey + restartCount;
+  const str = stableKey + (restartCount + 1);
   for (let i = 0; i < str.length; i++) {
       hash = Math.imul(31, hash) + str.charCodeAt(i) | 0;
   }
