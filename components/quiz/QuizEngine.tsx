@@ -2,10 +2,10 @@
 
 import { useEffect, useLayoutEffect, useState, useCallback, useMemo } from "react";
 import { useQuizStore } from "@/store/quizStore";
-import { playSound } from "@/utils/audio";
+import { playSound, speakWord } from "@/utils/audio";
 import { useRouter } from "next/navigation";
 import type { QuizData } from "@/lib/types";
-import { renderFormattedText } from "@/utils/textFormatting";
+import { getSpeakableText, renderFormattedText } from "@/utils/textFormatting";
 import { QuizOptionGrid } from "@/components/quiz/QuizOptionGrid";
 import { QuizEngineSkeleton } from "@/components/common/QuizEngineSkeleton";
 import { ResultSummary } from "@/components/common/ResultSummary";
@@ -22,11 +22,15 @@ const CATEGORY_MAP: Record<string, { label: string; color: string }> = {
   'pronoun': { label: 'Đại từ', color: 'bg-indigo-500/10 text-indigo-300 border-indigo-500/20' },
 };
 
+const AUTO_PRONUNCIATION_KEY = "toeic-auto-pronunciation";
+const isPart5LikeLesson = (lessonId: string) => lessonId.startsWith("part5-");
+
 export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonId: string }) {
   const { progress, isMuted, toggleMute, initLesson, answerQuestion, goToNext, goToPrev, restartLesson } = useQuizStore();
   const [mounted, setMounted] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const [previewQuestionIndex, setPreviewQuestionIndex] = useState<number | null>(null);
+  const [autoPronunciation, setAutoPronunciation] = useState(false);
   const router = useRouter();
 
   useEffect(() => {
@@ -59,6 +63,26 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
     setShowHint(false);
   }, [currentIndex]);
 
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setAutoPronunciation(window.localStorage.getItem(AUTO_PRONUNCIATION_KEY) === "true");
+  }, []);
+
+  useEffect(() => {
+    if (!mounted || isPart5LikeLesson(lessonId) || !autoPronunciation) return;
+
+    const textToSpeak = getSpeakableText(question?.question ?? "");
+    if (textToSpeak) speakWord(textToSpeak);
+  }, [autoPronunciation, currentIndex, lessonId, mounted, question?.question]);
+
+  const toggleAutoPronunciation = useCallback(() => {
+    setAutoPronunciation((value) => {
+      const nextValue = !value;
+      window.localStorage.setItem(AUTO_PRONUNCIATION_KEY, String(nextValue));
+      return nextValue;
+    });
+  }, []);
+
   const displayOptions = useMemo(() => {
     if (!question?.answerOptions) return [];
     const stableKey = question.id?.toString() || `q-${currentIndex}`;
@@ -80,7 +104,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
           }
         }
       } else {
-        if (e.code === "Space") {
+        if (e.code === "Space" || e.code === "ArrowRight") {
           e.preventDefault();
           goToNext(lessonId, quizData.questions.length);
         }
@@ -148,6 +172,17 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
             </span>
           )}
 
+          {!isPart5LikeLesson(lessonId) && (
+            <button
+              onClick={toggleAutoPronunciation}
+              className={`self-start inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-black uppercase tracking-widest transition-all active:scale-95 ${autoPronunciation ? "border-emerald-300/30 bg-emerald-400/10 text-emerald-200" : "border-white/10 bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white"}`}
+              title="Tự động đọc từ khi chuyển câu"
+            >
+              <span className={`h-2 w-2 rounded-full ${autoPronunciation ? "bg-emerald-300 shadow-[0_0_10px_rgba(110,231,183,0.8)]" : "bg-slate-500"}`} />
+              Auto phát âm {autoPronunciation ? "bật" : "tắt"}
+            </button>
+          )}
+
           <h1 className="text-xl md:text-2xl font-bold text-white leading-relaxed tracking-tight">
             {renderFormattedText(question.question)}
           </h1>
@@ -203,7 +238,11 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
            <kbd className="font-sans font-bold bg-slate-100 border border-slate-200 rounded px-1.5 py-0.5 text-slate-500 leading-none">1</kbd>
            <span className="mx-0.5">-</span>
            <kbd className="font-sans font-bold bg-slate-100 border border-slate-200 rounded px-1.5 py-0.5 text-slate-500 leading-none">4</kbd>
-           <span>để chọn nhanh tương ứng A, B, C, D</span>
+           <span>để chọn nhanh,</span>
+           <kbd className="font-sans font-bold bg-slate-100 border border-slate-200 rounded px-1.5 py-0.5 text-slate-500 leading-none">Space</kbd>
+           <span>hoặc</span>
+           <kbd className="font-sans font-bold bg-slate-100 border border-slate-200 rounded px-1.5 py-0.5 text-slate-500 leading-none">→</kbd>
+           <span>để qua câu</span>
         </div>
       </div>
       </div>

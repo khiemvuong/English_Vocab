@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import dynamic from "next/dynamic";
 import { BookOpen, FileText, LayoutList, CheckCircle } from "lucide-react";
@@ -8,12 +8,26 @@ import { LessonCard } from "@/components/home/LessonCard";
 import { PracticeCard } from "@/components/home/PracticeCard";
 import { Part6Card } from "@/components/home/Part6Card";
 import { Ets2026Card } from "@/components/home/Ets2026Card";
+import { MistakeReviewCard } from "@/components/home/MistakeReviewCard";
+import { PracticeSection } from "@/components/home/PracticeSection";
 import { GlassFilter } from "@/components/ui/liquid-glass";
+import { HomeMeshBackground } from "@/components/home/HomeMeshBackground";
 
 const Spline = dynamic(() => import('@splinetool/react-spline'), {
   ssr: false,
   loading: () => <div className="absolute inset-0 bg-slate-950" />
 });
+
+const createSplineMouseMove = (event: React.PointerEvent<HTMLDivElement>) => (
+  new MouseEvent("mousemove", {
+    bubbles: true,
+    cancelable: true,
+    clientX: event.clientX,
+    clientY: event.clientY,
+    screenX: event.screenX,
+    screenY: event.screenY,
+  })
+);
 
 
 const TABS = [
@@ -29,7 +43,7 @@ const TABS = [
   },
   {
     id: "part5",
-    label: "Part 5",
+    label: "Part 5 + ETS",
     icon: (
       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
@@ -46,16 +60,6 @@ const TABS = [
       </svg>
     ),
     accent: "from-emerald-500 to-teal-600",
-  },
-  {
-    id: "ets2026",
-    label: "ETS 2026",
-    icon: (
-      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
-      </svg>
-    ),
-    accent: "from-violet-500 to-purple-600",
   },
 ] as const;
 
@@ -95,23 +99,13 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
   const paramTab = searchParams.get("tab");
 
   const [activeTab, setActiveTab] = useState(
-    paramTab === "part5" ? "part5" : paramTab === "part6" ? "part6" : paramTab === "ets2026" ? "ets2026" : "vocab"
+    paramTab === "part5" || paramTab === "ets2026" ? "part5" : paramTab === "part6" ? "part6" : "vocab"
   );
-  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    const handleResize = () => {
-      setIsMobile(window.innerWidth < 768);
-    };
-    handleResize();
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  useEffect(() => {
-    if (paramTab === "part5" || paramTab === "vocab" || paramTab === "part6" || paramTab === "ets2026") {
+    if (paramTab === "part5" || paramTab === "ets2026" || paramTab === "vocab" || paramTab === "part6") {
       // eslint-disable-next-line react-hooks/set-state-in-effect
-      setActiveTab(paramTab);
+      setActiveTab(paramTab === "ets2026" ? "part5" : paramTab);
     }
   }, [paramTab]);
 
@@ -120,6 +114,17 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
     setActiveTab(tabId);
     router.replace(`${pathname}?tab=${tabId}`, { scroll: false });
   };
+
+  const forwardTapToSpline = useCallback((event: React.PointerEvent<HTMLDivElement>) => {
+    const canvas = document.querySelector<HTMLCanvasElement>("canvas");
+
+    if (!canvas) {
+      window.dispatchEvent(createSplineMouseMove(event));
+      return;
+    }
+
+    canvas.dispatchEvent(createSplineMouseMove(event));
+  }, []);
 
   const getTabInfo = (id: string) => {
     switch (id) {
@@ -131,7 +136,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
       case "part5":
         return {
           icon: <LayoutList className="w-5 h-5" />,
-          description: `${part5Tests.length} bộ đề Incomplete Sentences`,
+          description: `${part5Tests.length + ets2026Tests.length} bộ Part 5 & ETS 2026`,
         };
       case "part6":
         return {
@@ -152,7 +157,11 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
   };
 
   return (
-    <div className="min-h-dvh relative overflow-hidden w-full bg-slate-950 flex flex-col justify-between">
+    <div
+      className="min-h-dvh relative overflow-hidden w-full bg-black flex flex-col justify-between"
+      onPointerDown={forwardTapToSpline}
+    >
+      <HomeMeshBackground />
       <GlassFilter />
       
       {/* ── Hero Section Wrapper (Stable Height, Holds centered Spline Robot) ── */}
@@ -161,16 +170,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
         {/* ── Seamless Center-Top Spline Robot Background (Anchored to Hero wrapper) ── */}
         <div className="absolute inset-0 z-0 flex justify-center items-center pointer-events-none select-none">
           <div className="w-[900px] h-[900px] sm:w-[1100px] sm:h-[1100px] lg:w-[1400px] lg:h-[1400px] opacity-75 shrink-0 scale-120 sm:scale-125 lg:scale-130 translate-y-[-2%] sm:translate-y-[-4%] lg:translate-y-[-5%] translate-x-[-1.5%] sm:translate-x-[-2%] lg:translate-x-[-2.5%] transition-all duration-500 flex justify-center items-center">
-            {isMobile ? (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img
-                src="/robot_preview.png"
-                alt="Robot Preview"
-                className="w-full h-full object-contain select-none pointer-events-none opacity-80"
-              />
-            ) : (
-              <Spline scene="https://prod.spline.design/Hoc-5P8xfjMh7imC/scene.splinecode" />
-            )}
+            <Spline scene="https://prod.spline.design/Hoc-5P8xfjMh7imC/scene.splinecode" />
           </div>
         </div>
 
@@ -226,10 +226,10 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
                   <button
                     key={tab.id}
                     onClick={() => handleTabChange(tab.id)}
-                    className={`group relative overflow-hidden rounded-2xl p-5 md:p-6 text-left transition-all duration-300 backdrop-blur-md cursor-pointer border select-none w-full
+                    className={`group relative overflow-hidden rounded-2xl p-5 md:p-6 text-left transition-all duration-300 backdrop-blur-xl cursor-pointer border select-none w-full
                       ${isActive 
-                        ? 'bg-white/10 border-white/30 shadow-[0_8px_32px_rgba(255,255,255,0.08)] ring-2 ring-white/10' 
-                        : 'bg-slate-900/40 border-white/10 hover:border-white/20 hover:bg-slate-800/40 shadow-lg'
+                        ? 'bg-white/10 border-white/25 shadow-[0_8px_32px_rgba(255,255,255,0.05)] ring-2 ring-white/5' 
+                        : 'bg-white/3 border-white/5 hover:border-white/15 hover:bg-white/8 shadow-lg'
                       }`}
                   >
                     {/* Card Glow Effect */}
@@ -276,9 +276,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
                 ? `${totalVocabLessons} bài học từ vựng — Intensive Course`
                 : activeTab === "part6"
                 ? `${part6Tests.length} bộ đề Part 6 — Text Completion, giải thích chi tiết`
-                : activeTab === "ets2026"
-                ? `${ets2026Tests.length} đề ETS 2026 — 30 câu/đề, giải thích chi tiết`
-                : `${part5Tests.length} bộ đề Part 5 — 30 câu/bộ, giải thích chi tiết`}
+                : `${part5Tests.length} bộ Part 5 + ${ets2026Tests.length} đề ETS 2026 — có ôn lỗi sai`}
             </p>
           </div>
 
@@ -295,21 +293,50 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
             </div>
           </div>
 
-          {/* Part5 tab */}
+          {/* Part5 + ETS tab */}
           <div
             style={{ display: activeTab === "part5" ? "block" : "none" }}
             className="animate-in fade-in duration-200"
           >
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
-              {part5Tests.map((test) => (
-                <PracticeCard
-                  key={test.id}
-                  testId={test.id}
-                  testLabel={test.label}
-                  questionRange={test.range}
-                  isAvailable={test.isAvailable}
-                />
-              ))}
+            <div className="space-y-10">
+              <PracticeSection
+                eyebrow="Review"
+                title="Ôn lỗi sai Part 5"
+                description="Một khu vực nhỏ để gọi lại các câu bạn từng chọn sai trong Part 5."
+              >
+                <MistakeReviewCard href="/part5/mistakes" />
+              </PracticeSection>
+
+              <PracticeSection
+                eyebrow="Core drills"
+                title="Part 5 Practice"
+                description="Các bộ Incomplete Sentences tiêu chuẩn, phù hợp để luyện tốc độ và nền tảng ngữ pháp."
+              >
+                {part5Tests.map((test) => (
+                  <PracticeCard
+                    key={test.id}
+                    testId={test.id}
+                    testLabel={test.label}
+                    questionRange={test.range}
+                    isAvailable={test.isAvailable}
+                  />
+                ))}
+              </PracticeSection>
+
+              <PracticeSection
+                eyebrow="Exam mode"
+                title="ETS 2026"
+                description="Các đề Part 5 theo format ETS 2026."
+              >
+                {ets2026Tests.map((test) => (
+                  <Ets2026Card
+                    key={test.id}
+                    testId={test.id}
+                    testLabel={test.label}
+                    isAvailable={test.isAvailable}
+                  />
+                ))}
+              </PracticeSection>
             </div>
           </div>
 
@@ -330,22 +357,6 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
             </div>
           </div>
 
-          {/* ETS 2026 tab */}
-          <div
-            style={{ display: activeTab === "ets2026" ? "block" : "none" }}
-            className="animate-in fade-in duration-200"
-          >
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
-              {ets2026Tests.map((test) => (
-                <Ets2026Card
-                  key={test.id}
-                  testId={test.id}
-                  testLabel={test.label}
-                  isAvailable={test.isAvailable}
-                />
-              ))}
-            </div>
-          </div>
       </div>
     </div>
   );
