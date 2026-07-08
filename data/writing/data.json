@@ -1,0 +1,1476 @@
+{
+  "setId": "toeic-writing-q1-5-sentence-building",
+  "title": "Luyện viết câu mô tả tranh - TOEIC Speaking & Writing (Câu 1-5)",
+  "description": "Bộ câu hỏi trắc nghiệm giúp luyện kỹ năng ghép ý, chọn đúng ngữ pháp (thì, giới từ, liên từ, từ chỉ mức độ) và hiểu tiêu chí chấm điểm khi viết câu mô tả tranh dựa trên 2 từ khóa cho sẵn, theo định dạng TOEIC Writing câu 1-5.",
+  "sourceMaterial": "Biên soạn dựa trên tài liệu 'Questions 1-5: Write a sentence based on a picture' (Cô Vũ Thị Mai Phương - Ngoaingu24h.vn), chuyển thể sang định dạng trắc nghiệm để tự luyện tập.",
+  "skillTypes": [
+    {
+      "key": "verbTense",
+      "label": "Chia đúng thì động từ",
+      "description": "Chọn đúng thì/thể (hiện tại đơn, tiếp diễn, hoàn thành, bị động) phù hợp với hành động hoặc trạng thái trong tranh."
+    },
+    {
+      "key": "preposition",
+      "label": "Giới từ chỉ vị trí",
+      "description": "Chọn đúng giới từ (on, next to, between, along, under, in front of, near, across from...) để mô tả vị trí các vật/người trong tranh."
+    },
+    {
+      "key": "connector",
+      "label": "Liên từ & từ nối",
+      "description": "Chọn đúng liên từ (while, because, but, so that, in order to, after, as...) để nối hai ý trong câu mô tả tranh."
+    },
+    {
+      "key": "intensifier",
+      "label": "Từ chỉ mức độ",
+      "description": "Phân biệt many/much/a lot of/very/so/almost để nhấn mạnh mức độ hoặc số lượng."
+    },
+    {
+      "key": "sentenceCombining",
+      "label": "Ghép câu từ 2 từ khóa",
+      "description": "Kỹ năng cốt lõi của TOEIC Writing câu 1-5: chọn ra câu ghép đúng cả hai từ khóa cho sẵn, đúng ngữ pháp và khớp với tranh."
+    }
+  ],
+  "totalQuestions": 40,
+  "questions": [
+    {
+      "id": "vt-01",
+      "skillType": "verbTense",
+      "skillLabel": "Chọn đúng thì của động từ",
+      "topic": "Home",
+      "keywords": [
+        "woman",
+        "wipe"
+      ],
+      "scene": "Trong bức ảnh, một người phụ nữ đang đeo găng tay cao su và lau mặt bàn bếp bằng khăn ướt, xung quanh có bình xịt tẩy rửa.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'woman' và 'wipe'.",
+      "answerOptions": [
+        {
+          "text": "The woman is wiping the counter with a cloth.",
+          "isCorrect": true,
+          "rationale": "Hành động đang diễn ra ngay tại thời điểm chụp ảnh nên thì hiện tại tiếp diễn (is + V-ing) là lựa chọn tự nhiên và phù hợp nhất."
+        },
+        {
+          "text": "The woman wipes the counter with a cloth.",
+          "isCorrect": false,
+          "rationale": "Thì hiện tại đơn thường dùng để mô tả trạng thái hoặc thói quen, không phù hợp để diễn tả một hành động đang xảy ra ngay trong tranh."
+        },
+        {
+          "text": "The woman has wiped the counter with a cloth.",
+          "isCorrect": false,
+          "rationale": "Thì hiện tại hoàn thành ngụ ý hành động đã kết thúc, trong khi bức tranh cho thấy hành động lau bàn vẫn đang tiếp diễn."
+        },
+        {
+          "text": "The woman wipe the counter with a cloth.",
+          "isCorrect": false,
+          "rationale": "Thiếu trợ động từ 'is' và sai hình thức động từ, đây là lỗi ngữ pháp cơ bản cần tránh."
+        }
+      ],
+      "hint": "Hành động có đang xảy ra ngay lúc chụp hay không? Nếu có, ưu tiên thì hiện tại tiếp diễn.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/1_ZanObMgir.jpeg"
+    },
+    {
+      "id": "vt-02",
+      "skillType": "verbTense",
+      "skillLabel": "Chọn đúng thì của động từ",
+      "topic": "Home",
+      "keywords": [
+        "jacket",
+        "hook"
+      ],
+      "scene": "Một chiếc áo khoác màu đen được treo ngay ngắn trên móc gần cửa ra vào.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'jacket' và 'hook'.",
+      "answerOptions": [
+        {
+          "text": "The jacket is hanging on the hook.",
+          "isCorrect": true,
+          "rationale": "'Hang' vốn là động từ chỉ trạng thái, nhưng trong văn phong mô tả tranh TOEIC, dạng tiếp diễn 'is hanging' được dùng phổ biến để diễn tả vị trí treo của vật."
+        },
+        {
+          "text": "The jacket hangs on the hook.",
+          "isCorrect": false,
+          "rationale": "Câu này không sai ngữ pháp nhưng kém tự nhiên hơn dạng tiếp diễn khi mô tả một bức tranh cụ thể tại một thời điểm."
+        },
+        {
+          "text": "The jacket has hung on the hook for hours.",
+          "isCorrect": false,
+          "rationale": "Chi tiết thời gian 'for hours' không thể suy ra từ bức tranh, khiến câu thêm thông tin không có căn cứ."
+        },
+        {
+          "text": "The jacket hanging on the hook.",
+          "isCorrect": false,
+          "rationale": "Câu thiếu trợ động từ 'is', khiến đây không phải một câu hoàn chỉnh."
+        }
+      ],
+      "hint": "Với các vật ở một vị trí cố định trong tranh, TOEIC vẫn ưu tiên dùng dạng 'is + V-ing'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/2_AwqF5vvbD.jpeg"
+    },
+    {
+      "id": "vt-03",
+      "skillType": "verbTense",
+      "skillLabel": "Chọn đúng thì của động từ",
+      "topic": "Home",
+      "keywords": [
+        "fruit",
+        "fresh"
+      ],
+      "scene": "Một đĩa trái cây trên bàn ăn có vài quả táo bị thâm và mềm, trông không còn tươi ngon.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'fruit' và 'fresh'.",
+      "answerOptions": [
+        {
+          "text": "Some of the fruit doesn't look fresh.",
+          "isCorrect": true,
+          "rationale": "Đây là mẫu câu chuẩn: dùng thì hiện tại đơn với động từ tri giác 'look' để mô tả trạng thái/đặc điểm của sự vật trong tranh."
+        },
+        {
+          "text": "Some of the fruit isn't looking fresh.",
+          "isCorrect": false,
+          "rationale": "Động từ tri giác 'look' (mang nghĩa trông có vẻ) thường không dùng ở dạng tiếp diễn khi diễn tả trạng thái."
+        },
+        {
+          "text": "Some of the fruit didn't look fresh.",
+          "isCorrect": false,
+          "rationale": "Thì quá khứ không phù hợp vì tranh mô tả trạng thái tại thời điểm hiện tại, không phải trong quá khứ."
+        },
+        {
+          "text": "Some of the fruit doesn't looks fresh.",
+          "isCorrect": false,
+          "rationale": "Sau trợ động từ 'doesn't', động từ phải ở dạng nguyên mẫu 'look', không thêm 's'."
+        }
+      ],
+      "hint": "Các động từ tri giác như look/seem/appear khi mô tả trạng thái thường dùng thì hiện tại đơn, không dùng tiếp diễn.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/3_ssbq553up.jpeg"
+    },
+    {
+      "id": "vt-04",
+      "skillType": "verbTense",
+      "skillLabel": "Chọn đúng thể chủ động/bị động",
+      "topic": "Workplace",
+      "keywords": [
+        "air conditioner",
+        "install"
+      ],
+      "scene": "Một người thợ đang lắp đặt máy điều hòa lên tường, có một đồng nghiệp khác đứng cầm dụng cụ hỗ trợ.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'air conditioner' và 'install'.",
+      "answerOptions": [
+        {
+          "text": "The air conditioner is being installed.",
+          "isCorrect": true,
+          "rationale": "Máy điều hòa là đối tượng chịu tác động của hành động lắp đặt, nên dùng thể bị động tiếp diễn 'is being installed' – đúng cấu trúc mô tả tranh cho vật bị tác động."
+        },
+        {
+          "text": "The air conditioner installs on the wall.",
+          "isCorrect": false,
+          "rationale": "Máy điều hòa không tự lắp đặt chính nó, câu này sai về logic chủ động/bị động."
+        },
+        {
+          "text": "The air conditioner has installed on the wall.",
+          "isCorrect": false,
+          "rationale": "Present perfect chủ động không phù hợp vì máy điều hòa là vật bị tác động, cần dùng thể bị động."
+        },
+        {
+          "text": "The air conditioner is installing on the wall.",
+          "isCorrect": false,
+          "rationale": "Thiếu thể bị động; máy điều hòa không thể tự thực hiện hành động 'lắp đặt'."
+        }
+      ],
+      "hint": "Khi chủ ngữ là vật bị tác động bởi người khác, hãy dùng thể bị động 'is being + V3'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/4__HYmgKAOAe2.jpeg"
+    },
+    {
+      "id": "vt-05",
+      "skillType": "verbTense",
+      "skillLabel": "Chọn đúng thì hoàn thành",
+      "topic": "Home",
+      "keywords": [
+        "drawer",
+        "leave"
+      ],
+      "scene": "Một ngăn kéo bàn làm việc đang mở, bên trong có vài tài liệu lộ ra ngoài, không thấy ai đứng gần đó.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'drawer' và 'leave'.",
+      "answerOptions": [
+        {
+          "text": "The drawer has been left open.",
+          "isCorrect": true,
+          "rationale": "Cấu trúc diễn tả một hành động đã xảy ra trong quá khứ nhưng kết quả (ngăn kéo đang mở) vẫn còn đúng ở hiện tại – đặc trưng của thì hiện tại hoàn thành bị động."
+        },
+        {
+          "text": "The drawer has been leaving open.",
+          "isCorrect": false,
+          "rationale": "Sai cấu trúc; động từ 'leave' ở dạng bị động phải chia là V3 (left), không phải V-ing."
+        },
+        {
+          "text": "The drawer left open.",
+          "isCorrect": false,
+          "rationale": "Thiếu trợ động từ 'has been', câu không hoàn chỉnh về mặt ngữ pháp."
+        },
+        {
+          "text": "The drawer is leaving open.",
+          "isCorrect": false,
+          "rationale": "'Leave' ở đây không dùng chủ động vì ngăn kéo không tự 'rời đi', cần dùng thể bị động."
+        }
+      ],
+      "hint": "Khi không thấy ai đang thực hiện hành động nhưng kết quả vẫn còn đó, hãy nghĩ đến hiện tại hoàn thành bị động.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/5_Dq0M_Fard.jpeg"
+    },
+    {
+      "id": "vt-06",
+      "skillType": "verbTense",
+      "skillLabel": "Chọn đúng thì của động từ",
+      "topic": "Workplace",
+      "keywords": [
+        "people",
+        "discuss"
+      ],
+      "scene": "Trong cuộc họp, một vài nhân viên đang thảo luận sôi nổi về kế hoạch, tay chỉ vào bảng biểu.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'people' và 'discuss'.",
+      "answerOptions": [
+        {
+          "text": "Some people are discussing something with each other.",
+          "isCorrect": true,
+          "rationale": "Hành động đang diễn ra tại thời điểm chụp ảnh nên dùng thì hiện tại tiếp diễn."
+        },
+        {
+          "text": "Some people discuss something with each other.",
+          "isCorrect": false,
+          "rationale": "Thì hiện tại đơn phù hợp hơn để nói về thói quen hoặc sự thật chung, không phải hành động đang diễn ra trong tranh."
+        },
+        {
+          "text": "Some people are discuss something with each other.",
+          "isCorrect": false,
+          "rationale": "Sau trợ động từ 'are' cần động từ thêm '-ing' ('discussing'), không được để nguyên thể."
+        },
+        {
+          "text": "Some people discussing something with each other.",
+          "isCorrect": false,
+          "rationale": "Câu thiếu trợ động từ 'are', chưa phải một câu hoàn chỉnh."
+        }
+      ],
+      "hint": "Hành động 'đang thảo luận' là hành động tức thời trong tranh, không phải thói quen.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/6_FVaw8VENy.jpeg"
+    },
+    {
+      "id": "vt-07",
+      "skillType": "verbTense",
+      "skillLabel": "Chọn đúng thì hoàn thành bị động",
+      "topic": "Transportation",
+      "keywords": [
+        "bikes",
+        "park"
+      ],
+      "scene": "Một dãy xe đạp được khóa cẩn thận dọc theo hàng rào sắt bên ngoài tòa nhà, không có ai đang di chuyển chúng.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'bikes' và 'park'.",
+      "answerOptions": [
+        {
+          "text": "Several bikes have been parked along the fence.",
+          "isCorrect": true,
+          "rationale": "Hành động đỗ xe đã xảy ra trước đó và kết quả (xe đang đứng yên) vẫn còn đúng ở hiện tại, nên thì hiện tại hoàn thành bị động là lựa chọn phù hợp."
+        },
+        {
+          "text": "Several bikes park along the fence.",
+          "isCorrect": false,
+          "rationale": "Xe đạp không tự 'đỗ' chính nó, câu này sai logic chủ động/bị động."
+        },
+        {
+          "text": "Several bikes are parking along the fence.",
+          "isCorrect": false,
+          "rationale": "Cấu trúc này ngụ ý xe đang tự di chuyển vào chỗ đỗ, không phù hợp với hình ảnh xe đang đứng yên."
+        },
+        {
+          "text": "Several bikes have park along the fence.",
+          "isCorrect": false,
+          "rationale": "Sau 'have' cần động từ ở dạng V3 (parked), không phải nguyên mẫu."
+        }
+      ],
+      "hint": "Vật vô tri không thể tự thực hiện hành động lên chính nó — hãy nghĩ đến thể bị động.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/7_3s_UUzUnU.jpeg"
+    },
+    {
+      "id": "vt-08",
+      "skillType": "verbTense",
+      "skillLabel": "Chọn đúng thì của động từ",
+      "topic": "Workplace",
+      "keywords": [
+        "worker",
+        "wear"
+      ],
+      "scene": "Một công nhân xây dựng đội mũ bảo hộ màu vàng và mặc áo phản quang khi làm việc trên công trường.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'worker' và 'wear'.",
+      "answerOptions": [
+        {
+          "text": "The worker is wearing a safety helmet.",
+          "isCorrect": true,
+          "rationale": "'Wear' là động từ chỉ trạng thái mặc/đội trên người, thường dùng ở dạng tiếp diễn trong mô tả tranh TOEIC để nói về trang phục tại thời điểm chụp."
+        },
+        {
+          "text": "The worker wears a safety helmet.",
+          "isCorrect": false,
+          "rationale": "Thì hiện tại đơn nghe như một thói quen chung, kém tự nhiên hơn dạng tiếp diễn khi mô tả một bức tranh cụ thể."
+        },
+        {
+          "text": "The worker is wear a safety helmet.",
+          "isCorrect": false,
+          "rationale": "Thiếu đuôi '-ing' sau trợ động từ 'is'."
+        },
+        {
+          "text": "The worker weared a safety helmet.",
+          "isCorrect": false,
+          "rationale": "'Wear' là động từ bất quy tắc, quá khứ đúng phải là 'wore'; hơn nữa thì quá khứ không phù hợp với hành động đang diễn ra trong tranh."
+        }
+      ],
+      "hint": "'Wear' mô tả trang phục đang mặc trên người — vẫn dùng dạng tiếp diễn trong văn phong mô tả tranh.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/8_hQveB7yEA.jpeg"
+    },
+    {
+      "id": "prep-01",
+      "skillType": "preposition",
+      "skillLabel": "Chọn đúng giới từ chỉ vị trí",
+      "topic": "Home",
+      "keywords": [
+        "lamp",
+        "table"
+      ],
+      "scene": "Một chiếc đèn bàn được đặt ngay ngắn trên mặt bàn làm việc bằng gỗ.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'lamp' và 'table'.",
+      "answerOptions": [
+        {
+          "text": "The lamp is on the table.",
+          "isCorrect": true,
+          "rationale": "'On' diễn tả vị trí một vật nằm trên bề mặt của vật khác, đúng với hình ảnh chiếc đèn đặt trên bàn."
+        },
+        {
+          "text": "The lamp is in the table.",
+          "isCorrect": false,
+          "rationale": "'In' diễn tả vật nằm bên trong một không gian kín, không phù hợp khi đèn được đặt trên bề mặt bàn."
+        },
+        {
+          "text": "The lamp is under the table.",
+          "isCorrect": false,
+          "rationale": "'Under' nghĩa là ở phía dưới, trái ngược với vị trí thực tế của chiếc đèn trong tranh."
+        },
+        {
+          "text": "The lamp is between the table.",
+          "isCorrect": false,
+          "rationale": "'Between' cần đi với hai vật để chỉ vị trí ở giữa (between A and B), dùng với một vật duy nhất là sai ngữ pháp."
+        }
+      ],
+      "hint": "'On' dùng cho vật nằm trên bề mặt của vật khác.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/9_YcQJBN4YV.jpeg"
+    },
+    {
+      "id": "prep-02",
+      "skillType": "preposition",
+      "skillLabel": "Chọn đúng giới từ chỉ vị trí",
+      "topic": "Streets/Park",
+      "keywords": [
+        "bikes",
+        "building"
+      ],
+      "scene": "Vài chiếc xe đạp được dựng sát tường của một tòa nhà gạch đỏ.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'bikes' và 'building'.",
+      "answerOptions": [
+        {
+          "text": "The bikes are next to the building.",
+          "isCorrect": true,
+          "rationale": "'Next to' nghĩa là ngay sát cạnh, mô tả đúng vị trí những chiếc xe đạp dựa sát tòa nhà."
+        },
+        {
+          "text": "The bikes are on the building.",
+          "isCorrect": false,
+          "rationale": "'On' ngụ ý xe đạp nằm trên bề mặt tòa nhà (như trên mái), không đúng với hình ảnh xe đứng cạnh tòa nhà."
+        },
+        {
+          "text": "The bikes are among the building.",
+          "isCorrect": false,
+          "rationale": "'Among' dùng để chỉ vị trí ở giữa một nhóm từ ba đối tượng trở lên, không phù hợp khi so sánh xe đạp với một tòa nhà."
+        },
+        {
+          "text": "The bikes are next the building.",
+          "isCorrect": false,
+          "rationale": "Thiếu giới từ 'to' sau 'next', cụm từ đúng phải là 'next to'."
+        }
+      ],
+      "hint": "Cụm giới từ 'next to' luôn cần đủ hai từ 'next' + 'to'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/10_pg3aBQwLe.jpeg"
+    },
+    {
+      "id": "prep-03",
+      "skillType": "preposition",
+      "skillLabel": "Chọn đúng giới từ chỉ vị trí",
+      "topic": "Home",
+      "keywords": [
+        "desk",
+        "chairs"
+      ],
+      "scene": "Một chiếc bàn trang điểm nhỏ được đặt giữa hai chiếc ghế tựa gỗ trong phòng ngủ.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'desk' và 'chairs'.",
+      "answerOptions": [
+        {
+          "text": "The desk is between the two chairs.",
+          "isCorrect": true,
+          "rationale": "'Between' dùng để mô tả vị trí ở giữa hai vật, chính xác với hình ảnh chiếc bàn nằm giữa hai ghế."
+        },
+        {
+          "text": "The desk is among the two chairs.",
+          "isCorrect": false,
+          "rationale": "'Among' chỉ dùng khi có từ ba đối tượng trở lên, không phù hợp khi chỉ có hai chiếc ghế."
+        },
+        {
+          "text": "The desk is next the two chairs.",
+          "isCorrect": false,
+          "rationale": "Thiếu giới từ 'to', và 'next to' cũng không diễn tả đúng vị trí 'ở giữa' như trong tranh."
+        },
+        {
+          "text": "The desk is under the two chairs.",
+          "isCorrect": false,
+          "rationale": "'Under' nghĩa là ở bên dưới, không đúng với vị trí thực tế của chiếc bàn."
+        }
+      ],
+      "hint": "'Between' chỉ dùng cho đúng HAI đối tượng; 'among' dùng cho từ ba trở lên.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/11_pywgDx7xV.jpeg"
+    },
+    {
+      "id": "prep-04",
+      "skillType": "preposition",
+      "skillLabel": "Chọn đúng giới từ chỉ vị trí",
+      "topic": "Transportation",
+      "keywords": [
+        "cars",
+        "street"
+      ],
+      "scene": "Nhiều ô tô đỗ san sát nhau dọc theo con phố có hàng cây xanh mát hai bên.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'cars' và 'street'.",
+      "answerOptions": [
+        {
+          "text": "The cars are parked along the street.",
+          "isCorrect": true,
+          "rationale": "'Along' diễn tả vị trí trải dài theo chiều dài của một con phố, phù hợp với hình ảnh nhiều xe đỗ nối tiếp nhau."
+        },
+        {
+          "text": "The cars are parked on the street.",
+          "isCorrect": false,
+          "rationale": "Cách nói này không sai nhưng chưa lột tả được hình ảnh các xe nối tiếp nhau dọc theo con phố như 'along'."
+        },
+        {
+          "text": "The cars are parked between the street.",
+          "isCorrect": false,
+          "rationale": "'Between' cần đi kèm hai vật để chỉ vị trí ở giữa, không thể dùng với một con phố duy nhất."
+        },
+        {
+          "text": "The cars are parked along street.",
+          "isCorrect": false,
+          "rationale": "Thiếu mạo từ 'the' trước danh từ 'street'."
+        }
+      ],
+      "hint": "Khi nhiều vật xếp nối tiếp nhau theo chiều dài của một con đường, dùng 'along'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/12_ZxXyXYnV2.jpeg"
+    },
+    {
+      "id": "prep-05",
+      "skillType": "preposition",
+      "skillLabel": "Chọn đúng giới từ chỉ vị trí",
+      "topic": "Streets/Park",
+      "keywords": [
+        "man",
+        "tree"
+      ],
+      "scene": "Một người đàn ông đang đứng nghỉ dưới bóng mát của một cây to trong công viên.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'man' và 'tree'.",
+      "answerOptions": [
+        {
+          "text": "The man is standing in the shade of a tree.",
+          "isCorrect": true,
+          "rationale": "Cụm từ đúng để chỉ việc đứng dưới bóng mát/bóng râm của cây là 'in the shade of a tree'. Giới từ 'in' được dùng để chỉ việc nằm trong vùng bóng tối/bóng râm đó."
+        },
+        {
+          "text": "The man is standing under the shade of a tree.",
+          "isCorrect": false,
+          "rationale": "Mặc dù ta nói 'under a tree' (dưới gốc cây), nhưng khi nói về 'shade' (bóng râm) thì giới từ đúng phải là 'in' ('in the shade'), dùng 'under the shade' là sai ngữ pháp."
+        },
+        {
+          "text": "The man is standing on the shade of a tree.",
+          "isCorrect": false,
+          "rationale": "Không dùng giới từ 'on' để chỉ trạng thái đứng trong bóng râm."
+        },
+        {
+          "text": "The man is standing at the shade of a tree.",
+          "isCorrect": false,
+          "rationale": "Không dùng giới từ 'at' để chỉ vị trí nằm trong khu vực bóng mát."
+        }
+      ],
+      "hint": "Ta nói 'under a tree' (dưới gốc cây) nhưng 'in the shade' (trong bóng râm).",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/13_vHGponLzZ.jpeg"
+    },
+    {
+      "id": "prep-06",
+      "skillType": "preposition",
+      "skillLabel": "Chọn đúng giới từ chỉ vị trí",
+      "topic": "Home",
+      "keywords": [
+        "flowers",
+        "window"
+      ],
+      "scene": "Một vài chậu hoa nhỏ được xếp ngay ngắn phía trước cửa sổ căn nhà.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'flowers' và 'window'.",
+      "answerOptions": [
+        {
+          "text": "There are some flowers in front of the window.",
+          "isCorrect": true,
+          "rationale": "'In front of' diễn tả vị trí ở phía trước một vật, đúng với hình ảnh chậu hoa đặt trước cửa sổ."
+        },
+        {
+          "text": "There are some flowers next of the window.",
+          "isCorrect": false,
+          "rationale": "Không tồn tại cụm giới từ 'next of'; cụm đúng phải là 'next to'."
+        },
+        {
+          "text": "There are some flowers behind the window.",
+          "isCorrect": false,
+          "rationale": "'Behind' nghĩa là ở phía sau, trái ngược với vị trí của chậu hoa trong tranh."
+        },
+        {
+          "text": "There are some flowers in the window.",
+          "isCorrect": false,
+          "rationale": "'In' ngụ ý hoa được đặt bên trong cửa sổ, khác với hình ảnh hoa đặt phía trước cửa sổ."
+        }
+      ],
+      "hint": "'In front of' luôn đi cùng 'of', không có cụm 'next of'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/14_aUCFSGcPA.jpeg"
+    },
+    {
+      "id": "prep-07",
+      "skillType": "preposition",
+      "skillLabel": "Chọn đúng giới từ chỉ vị trí",
+      "topic": "Streets/Park",
+      "keywords": [
+        "bench",
+        "lamppost"
+      ],
+      "scene": "Một chiếc ghế đá công viên được đặt gần một cột đèn đường cổ điển.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'bench' và 'lamppost'.",
+      "answerOptions": [
+        {
+          "text": "The bench is near the lamppost.",
+          "isCorrect": true,
+          "rationale": "'Near' diễn tả khoảng cách gần, phù hợp với hình ảnh ghế đá đặt gần cột đèn."
+        },
+        {
+          "text": "The bench is far the lamppost.",
+          "isCorrect": false,
+          "rationale": "'Far' cần đi kèm giới từ 'from' ('far from'), và về nghĩa cũng ngược lại với hình ảnh (ghế đặt gần, không xa cột đèn)."
+        },
+        {
+          "text": "The bench is near of the lamppost.",
+          "isCorrect": false,
+          "rationale": "'Near' là giới từ độc lập, không cần thêm 'of' phía sau."
+        },
+        {
+          "text": "The bench is between the lamppost.",
+          "isCorrect": false,
+          "rationale": "'Between' cần đi với hai đối tượng để chỉ vị trí ở giữa, không phù hợp khi chỉ có một cột đèn."
+        }
+      ],
+      "hint": "'Near' đứng một mình, không cần 'of' theo sau, khác với 'in front of' hay 'because of'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/15_q1XtbxID6.jpeg"
+    },
+    {
+      "id": "prep-08",
+      "skillType": "preposition",
+      "skillLabel": "Chọn đúng giới từ chỉ vị trí",
+      "topic": "Places",
+      "keywords": [
+        "shop",
+        "park"
+      ],
+      "scene": "Một cửa hàng nhỏ nằm ngay đối diện bên kia đường của một công viên.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'shop' và 'park'.",
+      "answerOptions": [
+        {
+          "text": "The shop is across from the park.",
+          "isCorrect": true,
+          "rationale": "'Across from' diễn tả vị trí đối diện qua một con đường/khoảng không gian, đúng với hình ảnh cửa hàng nằm đối diện công viên."
+        },
+        {
+          "text": "The shop is across the park.",
+          "isCorrect": false,
+          "rationale": "Thiếu giới từ 'from'; 'across the park' lại mang nghĩa 'băng qua công viên', khác với ý 'nằm đối diện'."
+        },
+        {
+          "text": "The shop is along the park.",
+          "isCorrect": false,
+          "rationale": "'Along' diễn tả vị trí trải dài dọc theo một vật, không diễn tả đúng mối quan hệ 'đối diện' giữa cửa hàng và công viên."
+        },
+        {
+          "text": "The shop is between the park.",
+          "isCorrect": false,
+          "rationale": "'Between' cần đi với hai đối tượng để chỉ vị trí ở giữa, không phù hợp khi chỉ so sánh với một công viên."
+        }
+      ],
+      "hint": "'Across from' = đối diện; 'across' một mình lại mang nghĩa 'băng qua'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/16_I3wTKynzk.jpeg"
+    },
+    {
+      "id": "conn-01",
+      "skillType": "connector",
+      "skillLabel": "Chọn đúng liên từ/từ nối",
+      "topic": "Transportation",
+      "keywords": [
+        "talk",
+        "drive"
+      ],
+      "scene": "Một người đàn ông vừa lái xe vừa nói chuyện điện thoại, một tay cầm điện thoại áp vào tai.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'talk' và 'drive'.",
+      "answerOptions": [
+        {
+          "text": "The man is talking on the phone while he is driving.",
+          "isCorrect": true,
+          "rationale": "'While' dùng để nối hai hành động xảy ra đồng thời, đúng với hình ảnh người đàn ông vừa lái xe vừa nói chuyện."
+        },
+        {
+          "text": "The man is talking on the phone because he is driving.",
+          "isCorrect": false,
+          "rationale": "'Because' diễn tả nguyên nhân - kết quả, nhưng việc lái xe không phải là lý do khiến ông ấy nói chuyện điện thoại."
+        },
+        {
+          "text": "The man is talking on the phone so that he is driving.",
+          "isCorrect": false,
+          "rationale": "'So that' diễn tả mục đích, không phù hợp để nối hai hành động xảy ra song song như trong tranh."
+        },
+        {
+          "text": "The man is talking on the phone but he is driving.",
+          "isCorrect": false,
+          "rationale": "'But' diễn tả sự tương phản, nhưng hai hành động 'nói chuyện' và 'lái xe' không hề đối lập nhau ở đây."
+        }
+      ],
+      "hint": "Hai hành động xảy ra CÙNG LÚC thường được nối bằng 'while' hoặc 'as'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/17_U9he5Ltsl.jpeg"
+    },
+    {
+      "id": "conn-02",
+      "skillType": "connector",
+      "skillLabel": "Chọn đúng liên từ/từ nối",
+      "topic": "Workplace",
+      "keywords": [
+        "cart",
+        "heavy"
+      ],
+      "scene": "Một nhân viên giao hàng dùng xe đẩy để chở nhiều thùng hàng nặng vào kho.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'cart' và 'heavy'.",
+      "answerOptions": [
+        {
+          "text": "The man is using a cart to carry the heavy boxes.",
+          "isCorrect": true,
+          "rationale": "Cấu trúc chỉ mục đích 'to + verb' (để làm gì) là chính xác nhất ở đây. Người đàn ông dùng xe đẩy (cart) để chở các thùng hàng nặng (heavy)."
+        },
+        {
+          "text": "The man is using a cart for carry the heavy boxes.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp. Giới từ 'for' chỉ mục đích cần đi với V-ing ('for carrying'), không thể đi trực tiếp với động từ nguyên mẫu 'carry'."
+        },
+        {
+          "text": "The man is using a cart because carry the heavy boxes.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp. Liên từ 'because' chỉ nguyên nhân cần theo sau bởi một mệnh đề (S + V), không thể đi trực tiếp với động từ 'carry'."
+        },
+        {
+          "text": "The man is using a cart so that carry the heavy boxes.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp. Cụm từ chỉ mục đích 'so that' phải đi kèm với một mệnh đề (ví dụ: 'so that he can carry...'), không thể đi trực tiếp với động từ 'carry'."
+        }
+      ],
+      "hint": "Dùng 'to + V-inf' để chỉ mục đích của hành động, hoặc 'for + V-ing'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/18_0vi_pl6gF.jpeg"
+    },
+    {
+      "id": "conn-03",
+      "skillType": "connector",
+      "skillLabel": "Chọn đúng liên từ/từ nối",
+      "topic": "Workplace",
+      "keywords": [
+        "lift",
+        "heavy"
+      ],
+      "scene": "Người đàn ông đang cố gắng nhấc một chiếc hộp lớn nhưng gương mặt anh ta nhăn lại vì hộp quá nặng.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'lift' và 'heavy'.",
+      "answerOptions": [
+        {
+          "text": "The man is trying to lift the box, but it is too heavy.",
+          "isCorrect": true,
+          "rationale": "'But' diễn tả sự tương phản/khó khăn: dù cố gắng nhấc hộp, anh ta gặp trở ngại vì hộp quá nặng."
+        },
+        {
+          "text": "The man is trying to lift the box, because it is too heavy.",
+          "isCorrect": false,
+          "rationale": "'Because' diễn tả nguyên nhân, nhưng việc hộp nặng không phải là lý do anh ấy cố nhấc nó lên, mà là trở ngại khi thực hiện hành động."
+        },
+        {
+          "text": "The man is trying to lift the box, while it is too heavy.",
+          "isCorrect": false,
+          "rationale": "'While' không diễn tả đúng mối quan hệ tương phản/khó khăn như trong tình huống này."
+        },
+        {
+          "text": "The man is trying to lift the box, so that it is too heavy.",
+          "isCorrect": false,
+          "rationale": "'So that' diễn tả mục đích, hoàn toàn không phù hợp với ngữ cảnh khó khăn khi nhấc vật nặng."
+        }
+      ],
+      "hint": "Khi có một trở ngại làm hành động khó thực hiện, hãy nghĩ đến 'but'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/19_qt0E6ATa9.jpeg"
+    },
+    {
+      "id": "conn-04",
+      "skillType": "connector",
+      "skillLabel": "Chọn đúng liên từ/từ nối",
+      "topic": "Workplace",
+      "keywords": [
+        "read",
+        "learn"
+      ],
+      "scene": "Một nhân viên đang chăm chú đọc tài liệu giấy tại bàn làm việc để nghiên cứu và học hỏi.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'read' và 'learn'.",
+      "answerOptions": [
+        {
+          "text": "She is reading the document so that she can learn.",
+          "isCorrect": true,
+          "rationale": "'So that' diễn tả mục đích: cô ấy đọc tập tài liệu (document) với mục đích để học hỏi, thu nhận kiến thức (learn)."
+        },
+        {
+          "text": "She is reading the document because she can learn.",
+          "isCorrect": false,
+          "rationale": "'Because' chỉ nguyên nhân - kết quả, việc học hỏi là mục đích hướng tới của hành động đọc, không phải là lý do trực tiếp gây ra hành động đọc."
+        },
+        {
+          "text": "She is reading the document while she can learn.",
+          "isCorrect": false,
+          "rationale": "'While' dùng cho hai hành động song song độc lập, không diễn tả được mối quan hệ mục đích của hành động đọc tài liệu."
+        },
+        {
+          "text": "She is reading the document but she can learn.",
+          "isCorrect": false,
+          "rationale": "'But' chỉ sự tương phản, không phù hợp vì việc đọc và việc học hỏi ở đây bổ trợ ý nghĩa cho nhau chứ không mâu thuẫn."
+        }
+      ],
+      "hint": "Khi muốn diễn tả MỤC ĐÍCH của hành động, hãy dùng 'so that' hoặc 'in order to'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/20_M6K-l82Iz.jpeg"
+    },
+    {
+      "id": "conn-05",
+      "skillType": "connector",
+      "skillLabel": "Chọn đúng liên từ/từ nối",
+      "topic": "Places",
+      "keywords": [
+        "open",
+        "drink"
+      ],
+      "scene": "Một người phụ nữ bước ra khỏi cửa hàng tiện lợi, tay mở nắp một lon nước ngọt.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'open' và 'drink'.",
+      "answerOptions": [
+        {
+          "text": "She opens the drink as she walks out of the store.",
+          "isCorrect": true,
+          "rationale": "'As' là liên từ chỉ thời gian dùng để nối hai hành động diễn ra song song (cô ấy mở lon nước khi đang bước ra khỏi cửa hàng)."
+        },
+        {
+          "text": "She opens the drink because she walks out of the store.",
+          "isCorrect": false,
+          "rationale": "'Because' chỉ mối quan hệ nguyên nhân - kết quả, việc bước ra khỏi cửa hàng không phải là lý do khiến cô ấy mở lon nước."
+        },
+        {
+          "text": "She opens the drink so that she walks out of the store.",
+          "isCorrect": false,
+          "rationale": "'So that' chỉ mục đích, việc bước ra cửa hàng không phải là mục đích hướng tới của việc mở đồ uống."
+        },
+        {
+          "text": "She opens the drink but she walks out of the store.",
+          "isCorrect": false,
+          "rationale": "'But' chỉ sự tương phản, không phù hợp để nối hai hành động diễn ra song song và tự nhiên này."
+        }
+      ],
+      "hint": "Dùng liên từ chỉ thời gian 'as' hoặc 'while' để diễn tả hai hành động diễn ra đồng thời.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/21_8wm_AFqxS.jpeg"
+    },
+    {
+      "id": "conn-06",
+      "skillType": "connector",
+      "skillLabel": "Chọn đúng liên từ/từ nối",
+      "topic": "Streets/Park",
+      "keywords": [
+        "smile",
+        "photo"
+      ],
+      "scene": "Hai người phụ nữ cùng tạo dáng chụp ảnh, cả hai đều cười tươi khi máy ảnh bấm nút chụp.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'smile' và 'photo'.",
+      "answerOptions": [
+        {
+          "text": "The women are smiling as they take a photo.",
+          "isCorrect": true,
+          "rationale": "'As' diễn tả hai hành động xảy ra gần như đồng thời, phù hợp với khoảnh khắc họ cười khi được chụp ảnh."
+        },
+        {
+          "text": "The women are smiling because they take a photo.",
+          "isCorrect": false,
+          "rationale": "'Because' nhấn quá mạnh vào quan hệ nhân - quả, trong khi thực tế đây chỉ là hai hành động diễn ra cùng lúc một cách tự nhiên."
+        },
+        {
+          "text": "The women are smiling so that they take a photo.",
+          "isCorrect": false,
+          "rationale": "'So that' diễn tả mục đích, không phù hợp với tình huống hai hành động xảy ra đồng thời và tự nhiên."
+        },
+        {
+          "text": "The women are smiling but they take a photo.",
+          "isCorrect": false,
+          "rationale": "'But' diễn tả sự tương phản, nhưng việc cười và chụp ảnh ở đây không hề đối lập nhau."
+        }
+      ],
+      "hint": "'As' thường dùng cho hai hành động diễn ra gần như cùng một khoảnh khắc.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/22_CqyW6q1Vd.jpeg"
+    },
+    {
+      "id": "conn-07",
+      "skillType": "connector",
+      "skillLabel": "Chọn đúng liên từ/từ nối",
+      "topic": "Home",
+      "keywords": [
+        "water",
+        "sweep"
+      ],
+      "scene": "Người đàn ông tưới cây xong rồi mới bắt đầu quét dọn sân vườn.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'water' và 'sweep'.",
+      "answerOptions": [
+        {
+          "text": "He sweeps the yard after he waters the plants.",
+          "isCorrect": true,
+          "rationale": "'After' diễn tả thứ tự thời gian: hành động quét sân diễn ra sau khi tưới cây, đúng với trình tự trong tranh."
+        },
+        {
+          "text": "He sweeps the yard because he waters the plants.",
+          "isCorrect": false,
+          "rationale": "'Because' diễn tả nguyên nhân, nhưng việc tưới cây không phải là lý do khiến anh ấy quét sân."
+        },
+        {
+          "text": "He sweeps the yard while he waters the plants.",
+          "isCorrect": false,
+          "rationale": "'While' diễn tả hai hành động song song, nhưng trong tranh hai hành động diễn ra nối tiếp nhau chứ không đồng thời."
+        },
+        {
+          "text": "He sweeps the yard so that he waters the plants.",
+          "isCorrect": false,
+          "rationale": "'So that' diễn tả mục đích, không phù hợp với mối quan hệ về trình tự thời gian giữa hai hành động."
+        }
+      ],
+      "hint": "Khi hai hành động diễn ra LẦN LƯỢT (cái này xong mới đến cái kia), hãy dùng 'after'/'before'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/23_zuzlfrhvp.jpeg"
+    },
+    {
+      "id": "conn-08",
+      "skillType": "connector",
+      "skillLabel": "Chọn đúng liên từ/từ nối",
+      "topic": "Streets/Park",
+      "keywords": [
+        "umbrella",
+        "rain"
+      ],
+      "scene": "Trời đang mưa, một người phụ nữ giơ ô lên che khi bước đi trên vỉa hè.",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'umbrella' và 'rain'.",
+      "answerOptions": [
+        {
+          "text": "She is holding an umbrella because it is raining.",
+          "isCorrect": true,
+          "rationale": "'Because' diễn tả nguyên nhân: trời mưa là lý do khiến cô ấy cầm ô, phù hợp với logic trong tranh."
+        },
+        {
+          "text": "She is holding an umbrella so that it is raining.",
+          "isCorrect": false,
+          "rationale": "'So that' diễn tả mục đích, nhưng việc trời mưa không phải là điều cô ấy muốn đạt được bằng hành động cầm ô – ngược lại, mưa mới là nguyên nhân."
+        },
+        {
+          "text": "She is holding an umbrella but it is raining.",
+          "isCorrect": false,
+          "rationale": "'But' diễn tả sự tương phản, nhưng việc cầm ô khi trời mưa là hợp lý và nhất quán, không hề đối lập."
+        },
+        {
+          "text": "She is holding an umbrella in order to it is raining.",
+          "isCorrect": false,
+          "rationale": "'In order to' phải theo sau bởi động từ nguyên mẫu (to + V), không thể theo sau bởi một mệnh đề đầy đủ chủ ngữ - động từ như 'it is raining'."
+        }
+      ],
+      "hint": "Thời tiết thường là NGUYÊN NHÂN của hành động — hãy nghĩ đến 'because'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/24_3L3PBTXSVR.jpeg"
+    },
+    {
+      "id": "int-01",
+      "skillType": "intensifier",
+      "skillLabel": "Chọn đúng từ chỉ mức độ",
+      "topic": "Places",
+      "keywords": [
+        "bookstore",
+        "people"
+      ],
+      "scene": "Một cửa hàng sách cũ chật kín người vào cuối tuần, khách xếp hàng dài để thanh toán.",
+      "question": "Chọn từ chỉ mức độ phù hợp để hoàn thành câu: 'There are ___ people at the bookstore.'",
+      "answerOptions": [
+        {
+          "text": "a lot of",
+          "isCorrect": true,
+          "rationale": "'A lot of' dùng được với cả danh từ đếm được và không đếm được, phù hợp để diễn tả số lượng người đông tại cửa hàng."
+        },
+        {
+          "text": "much",
+          "isCorrect": false,
+          "rationale": "'Much' chỉ dùng với danh từ không đếm được, trong khi 'people' là danh từ đếm được (số nhiều)."
+        },
+        {
+          "text": "very",
+          "isCorrect": false,
+          "rationale": "'Very' dùng để bổ nghĩa cho tính từ/trạng từ, không thể đứng trực tiếp trước danh từ như 'people'."
+        },
+        {
+          "text": "almost",
+          "isCorrect": false,
+          "rationale": "'Almost' mang nghĩa 'gần như, hầu như', không phù hợp để diễn tả số lượng đông đúc."
+        }
+      ],
+      "hint": "'People' là danh từ đếm được số nhiều — loại ngay 'much'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/25_9Kje62N8S.jpeg"
+    },
+    {
+      "id": "int-02",
+      "skillType": "intensifier",
+      "skillLabel": "Chọn đúng từ chỉ mức độ",
+      "topic": "Places",
+      "keywords": [
+        "woman",
+        "books"
+      ],
+      "scene": "Người phụ nữ ôm trên tay một chồng sách dày, có vẻ như cô ấy vừa mượn rất nhiều sách từ thư viện.",
+      "question": "Chọn từ chỉ mức độ phù hợp: 'The woman is holding ___ books.'",
+      "answerOptions": [
+        {
+          "text": "many",
+          "isCorrect": true,
+          "rationale": "'Many' dùng với danh từ đếm được số nhiều như 'books', phù hợp để diễn tả số lượng sách nhiều trên tay cô ấy."
+        },
+        {
+          "text": "much",
+          "isCorrect": false,
+          "rationale": "'Much' chỉ dùng với danh từ không đếm được, không phù hợp với danh từ đếm được 'books'."
+        },
+        {
+          "text": "so",
+          "isCorrect": false,
+          "rationale": "'So' thường bổ nghĩa cho tính từ/trạng từ (so beautiful, so quickly), không đứng trực tiếp trước danh từ số nhiều theo cách này."
+        },
+        {
+          "text": "almost",
+          "isCorrect": false,
+          "rationale": "'Almost' mang nghĩa 'gần như', không diễn tả số lượng nhiều của sách."
+        }
+      ],
+      "hint": "'Books' đếm được số nhiều → dùng 'many', không dùng 'much'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/26_0Yn6nfiCr.jpeg"
+    },
+    {
+      "id": "int-03",
+      "skillType": "intensifier",
+      "skillLabel": "Chọn đúng từ chỉ mức độ",
+      "topic": "Streets/Park",
+      "keywords": [
+        "trees",
+        "autumn"
+      ],
+      "scene": "Hàng cây trong công viên chuyển sang màu vàng cam rực rỡ vào mùa thu, cảnh vật trông rất nên thơ.",
+      "question": "Chọn từ chỉ mức độ phù hợp: 'The trees look ___ beautiful in the autumn.'",
+      "answerOptions": [
+        {
+          "text": "so",
+          "isCorrect": true,
+          "rationale": "'So' bổ nghĩa cho tính từ 'beautiful' để nhấn mạnh mức độ."
+        },
+        {
+          "text": "much",
+          "isCorrect": false,
+          "rationale": "'Much' không dùng trực tiếp trước tính từ ở dạng nguyên cấp như 'beautiful' theo cách này."
+        },
+        {
+          "text": "many",
+          "isCorrect": false,
+          "rationale": "'Many' chỉ dùng trước danh từ đếm được số nhiều, không thể bổ nghĩa cho tính từ 'beautiful'."
+        },
+        {
+          "text": "a lot of",
+          "isCorrect": false,
+          "rationale": "'A lot of' dùng trước danh từ, không thể đứng trước tính từ để nhấn mạnh mức độ."
+        }
+      ],
+      "hint": "Trước một tính từ, hãy dùng 'so' hoặc 'very' để nhấn mạnh mức độ.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/27_ARGmMGpc_.jpeg"
+    },
+    {
+      "id": "int-04",
+      "skillType": "intensifier",
+      "skillLabel": "Chọn đúng từ chỉ mức độ",
+      "topic": "Streets/Park",
+      "keywords": [
+        "tourists",
+        "destination"
+      ],
+      "scene": "Đoàn khách du lịch đang đi bộ nhanh, gần như đã đến được điểm tham quan sau một quãng đường dài.",
+      "question": "Chọn từ chỉ mức độ phù hợp: 'The tourists have ___ reached the destination.'",
+      "answerOptions": [
+        {
+          "text": "almost",
+          "isCorrect": true,
+          "rationale": "'Almost' diễn tả một hành động gần hoàn thành, phù hợp với hình ảnh đoàn khách sắp đến nơi."
+        },
+        {
+          "text": "so",
+          "isCorrect": false,
+          "rationale": "'So' dùng để nhấn mạnh tính từ/trạng từ, không phù hợp để diễn tả mức độ hoàn thành gần xong của một hành động."
+        },
+        {
+          "text": "very",
+          "isCorrect": false,
+          "rationale": "'Very' bổ nghĩa cho tính từ/trạng từ, không phù hợp để đứng trước động từ trong ngữ cảnh này."
+        },
+        {
+          "text": "much",
+          "isCorrect": false,
+          "rationale": "'Much' không diễn tả đúng ý 'gần hoàn thành' như 'almost'."
+        }
+      ],
+      "hint": "'Almost' đứng trước động từ để diễn tả một hành động 'gần như đã xong'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/28_R6yKvhqZx.jpeg"
+    },
+    {
+      "id": "int-05",
+      "skillType": "intensifier",
+      "skillLabel": "Chọn đúng từ chỉ mức độ",
+      "topic": "Home",
+      "keywords": [
+        "bottle",
+        "water"
+      ],
+      "scene": "Chai nước trên bàn chỉ còn lại một chút, gần như đã cạn.",
+      "question": "Chọn từ chỉ mức độ phù hợp: 'There isn't ___ water left in the bottle.'",
+      "answerOptions": [
+        {
+          "text": "much",
+          "isCorrect": true,
+          "rationale": "'Much' dùng với danh từ không đếm được như 'water', đặc biệt phổ biến trong câu phủ định."
+        },
+        {
+          "text": "many",
+          "isCorrect": false,
+          "rationale": "'Many' chỉ dùng với danh từ đếm được số nhiều, trong khi 'water' là danh từ không đếm được."
+        },
+        {
+          "text": "so",
+          "isCorrect": false,
+          "rationale": "'So' không phù hợp để đứng trước danh từ 'water' trong cấu trúc này."
+        },
+        {
+          "text": "a lot of",
+          "isCorrect": false,
+          "rationale": "Mặc dù 'a lot of' có thể dùng với danh từ không đếm được, nhưng trong câu phủ định, 'much' tự nhiên và phổ biến hơn."
+        }
+      ],
+      "hint": "'Water' là danh từ không đếm được, trong câu phủ định thường đi với 'much'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/29_jzN_xzcD1.jpeg"
+    },
+    {
+      "id": "int-06",
+      "skillType": "intensifier",
+      "skillLabel": "Chọn đúng từ chỉ mức độ",
+      "topic": "Places",
+      "keywords": [
+        "boy",
+        "toy"
+      ],
+      "scene": "Cậu bé nhìn thấy món đồ chơi mới trong cửa hàng và tỏ ra vô cùng phấn khích, mắt sáng lên.",
+      "question": "Chọn từ chỉ mức độ phù hợp: 'The boy looks ___ excited about the new toy.'",
+      "answerOptions": [
+        {
+          "text": "very",
+          "isCorrect": true,
+          "rationale": "'Very' bổ nghĩa cho tính từ 'excited' để nhấn mạnh mức độ phấn khích."
+        },
+        {
+          "text": "many",
+          "isCorrect": false,
+          "rationale": "'Many' chỉ dùng trước danh từ đếm được số nhiều, không thể bổ nghĩa cho tính từ 'excited'."
+        },
+        {
+          "text": "much",
+          "isCorrect": false,
+          "rationale": "'Much' thường dùng với danh từ không đếm được hoặc để nhấn mạnh động từ, không phù hợp để đứng trực tiếp trước tính từ ở đây."
+        },
+        {
+          "text": "almost",
+          "isCorrect": false,
+          "rationale": "'Almost' mang nghĩa 'gần như', không diễn tả đúng mức độ phấn khích cao như tranh mô tả."
+        }
+      ],
+      "hint": "Trước tính từ 'excited', từ nhấn mạnh tự nhiên nhất là 'very'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/30_4BKoKtPFe.jpeg"
+    },
+    {
+      "id": "combo-01",
+      "skillType": "sentenceCombining",
+      "skillLabel": "Ghép 2 từ khóa thành câu hoàn chỉnh",
+      "topic": "Workplace",
+      "keywords": [
+        "cart",
+        "boxes"
+      ],
+      "scene": "Một nhân viên bưu điện đang đẩy xe đẩy chở đầy các thùng hàng vào trong kho.",
+      "question": "Chọn câu mô tả đúng và đầy đủ nhất cho bức tranh, sử dụng đúng 2 từ khóa 'cart' và 'boxes'.",
+      "answerOptions": [
+        {
+          "text": "The worker is pushing a cart full of boxes.",
+          "isCorrect": true,
+          "rationale": "Câu đúng ngữ pháp, sử dụng đầy đủ và hợp lý cả hai từ khóa, đồng thời mô tả chính xác hành động trong tranh."
+        },
+        {
+          "text": "The worker pushing a cart and boxes.",
+          "isCorrect": false,
+          "rationale": "Thiếu trợ động từ 'is' trước 'pushing' và liên từ kết nối không diễn tả đúng bản chất (xe đẩy chở các thùng hàng)."
+        },
+        {
+          "text": "The worker push a cart full of boxes.",
+          "isCorrect": false,
+          "rationale": "Thiếu trợ động từ 'is' trước 'push' và sai hình thức động từ (phải là 'pushing')."
+        },
+        {
+          "text": "The boxes are pushing a cart.",
+          "isCorrect": false,
+          "rationale": "Câu không hợp lý về mặt logic – các thùng hàng không thể tự đẩy xe, không nhất quán với nội dung bức tranh."
+        }
+      ],
+      "hint": "Luôn kiểm tra: câu đã dùng ĐỦ cả hai từ khóa, đúng dạng, và khớp logic với tranh chưa?",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/31_fIe9dPq-q.jpeg"
+    },
+    {
+      "id": "combo-02",
+      "skillType": "sentenceCombining",
+      "skillLabel": "Ghép 2 từ khóa thành câu hoàn chỉnh",
+      "topic": "Home",
+      "keywords": [
+        "hang",
+        "wall"
+      ],
+      "scene": "Một người phụ nữ đang treo một bức tranh nhỏ lên tường phòng khách bằng búa và đinh.",
+      "question": "Chọn câu mô tả đúng và đầy đủ nhất cho bức tranh, sử dụng đúng 2 từ khóa 'hang' và 'wall'.",
+      "answerOptions": [
+        {
+          "text": "The woman is hanging a picture on the wall.",
+          "isCorrect": true,
+          "rationale": "Câu sử dụng đúng cả hai từ khóa ở dạng phù hợp, đúng ngữ pháp và mô tả chính xác hành động trong tranh."
+        },
+        {
+          "text": "The woman hanging a picture on the wall.",
+          "isCorrect": false,
+          "rationale": "Sai cấu trúc ngữ pháp do thiếu trợ động từ 'is' trước động từ dạng V-ing 'hanging'."
+        },
+        {
+          "text": "A picture hang on the wall.",
+          "isCorrect": false,
+          "rationale": "Sai hình thức động từ, cần chia là 'is hanging' hoặc 'hangs', không thể giữ nguyên thể 'hang' sau chủ ngữ số ít."
+        },
+        {
+          "text": "The wall is hanging in the room.",
+          "isCorrect": false,
+          "rationale": "Câu không hợp lý – bức tường không thể 'treo' trong phòng, không nhất quán với logic của bức tranh."
+        }
+      ],
+      "hint": "Chủ ngữ của hành động phải là NGƯỜI thực hiện hành động, không phải vật bị tác động.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/32_X9svsfa5d.jpeg"
+    },
+    {
+      "id": "combo-03",
+      "skillType": "sentenceCombining",
+      "skillLabel": "Ghép 2 từ khóa thành câu hoàn chỉnh",
+      "topic": "Streets/Park",
+      "keywords": [
+        "kick",
+        "grass"
+      ],
+      "scene": "Hai đứa trẻ đang đá một quả bóng qua lại trên bãi cỏ trong công viên.",
+      "question": "Chọn câu mô tả đúng và đầy đủ nhất cho bức tranh, sử dụng đúng 2 từ khóa 'kick' và 'grass'.",
+      "answerOptions": [
+        {
+          "text": "The children are kicking a ball on the grass.",
+          "isCorrect": true,
+          "rationale": "Câu đúng ngữ pháp, sử dụng cả hai từ khóa hợp lý và mô tả chính xác hành động của hai đứa trẻ trong tranh."
+        },
+        {
+          "text": "The children are play kickball on the grass.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp do sử dụng hai động từ liền kề nhau 'are play kickball' không đúng cấu trúc tiếp diễn hoặc nguyên mẫu."
+        },
+        {
+          "text": "The children kicking a ball on the grass.",
+          "isCorrect": false,
+          "rationale": "Thiếu trợ động từ 'are', câu chưa hoàn chỉnh về ngữ pháp."
+        },
+        {
+          "text": "The grass is kicking the ball.",
+          "isCorrect": false,
+          "rationale": "Câu vô lý về mặt logic – cỏ không thể tự thực hiện hành động đá bóng."
+        }
+      ],
+      "hint": "Đừng mô tả chung chung — hãy dùng đúng động từ cụ thể được cho trong từ khóa.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/33_HUgi5jrKs.jpeg"
+    },
+    {
+      "id": "combo-04",
+      "skillType": "sentenceCombining",
+      "skillLabel": "Ghép 2 từ khóa thành câu hoàn chỉnh",
+      "topic": "Home",
+      "keywords": [
+        "fix",
+        "sink"
+      ],
+      "scene": "Một người thợ sửa ống nước đang nằm dưới bồn rửa bát để khắc phục chỗ rò rỉ.",
+      "question": "Chọn câu mô tả đúng và đầy đủ nhất cho bức tranh, sử dụng đúng 2 từ khóa 'fix' và 'sink'.",
+      "answerOptions": [
+        {
+          "text": "The man is fixing a leak under the sink.",
+          "isCorrect": true,
+          "rationale": "Câu sử dụng đúng cả hai từ khóa, đúng ngữ pháp (thì hiện tại tiếp diễn) và nhất quán với hình ảnh người thợ đang sửa chữa."
+        },
+        {
+          "text": "The man is try to fix the sink.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp do sử dụng động từ nguyên mẫu 'try' sau trợ động từ 'is' (đúng phải là 'is trying to fix' hoặc 'tries to fix')."
+        },
+        {
+          "text": "The man fixing a leak under the sink.",
+          "isCorrect": false,
+          "rationale": "Thiếu trợ động từ 'is', câu chưa hoàn chỉnh."
+        },
+        {
+          "text": "The sink is fixing itself.",
+          "isCorrect": false,
+          "rationale": "Câu không hợp lý về logic – bồn rửa không thể tự sửa chữa chính nó."
+        }
+      ],
+      "hint": "Kiểm tra xem chủ ngữ có thực sự là người/vật đang thực hiện hành động hay không.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/34_l8T97Je0S.jpeg"
+    },
+    {
+      "id": "combo-05",
+      "skillType": "sentenceCombining",
+      "skillLabel": "Ghép 2 từ khóa thành câu hoàn chỉnh",
+      "topic": "Workplace",
+      "keywords": [
+        "chart",
+        "screen"
+      ],
+      "scene": "Trong phòng họp, một màn hình lớn đang hiển thị biểu đồ phân tích doanh thu và tăng trưởng.",
+      "question": "Chọn câu mô tả đúng và đầy đủ nhất cho bức tranh, sử dụng đúng 2 từ khóa 'chart' và 'screen'.",
+      "answerOptions": [
+        {
+          "text": "A chart is displayed on the screen.",
+          "isCorrect": true,
+          "rationale": "Câu sử dụng đầy đủ và hợp lý cả hai từ khóa, chia đúng ngữ pháp thể bị động (is displayed) và mô tả chính xác vật thể đang hiển thị trong tranh."
+        },
+        {
+          "text": "A chart is display on the screen.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp thể bị động (động từ 'display' phải ở dạng V3/ed là 'displayed' sau động từ tobe 'is')."
+        },
+        {
+          "text": "A chart displays on the screen.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp, động từ 'display' phải được chia ở dạng bị động 'is displayed' vì biểu đồ được con người hiển thị lên, bản thân nó không tự thực hiện hành động."
+        },
+        {
+          "text": "A chart is displayed on screen.",
+          "isCorrect": false,
+          "rationale": "Câu thiếu mạo từ 'the' trước danh từ xác định 'screen', chưa chuẩn ngữ pháp tiếng Anh."
+        }
+      ],
+      "hint": "Chú ý chia đúng thể bị động (is + V3/ed) và không bỏ sót mạo từ 'the' trước 'screen'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/35_g-hmb30cf.jpeg"
+    },
+    {
+      "id": "combo-06",
+      "skillType": "sentenceCombining",
+      "skillLabel": "Ghép 2 từ khóa thành câu hoàn chỉnh",
+      "topic": "Home",
+      "keywords": [
+        "water",
+        "plants"
+      ],
+      "scene": "Một người phụ nữ đang dùng bình tưới để tưới những chậu cây trong sân sau nhà.",
+      "question": "Chọn câu mô tả đúng và đầy đủ nhất cho bức tranh, sử dụng đúng 2 từ khóa 'water' và 'plants'.",
+      "answerOptions": [
+        {
+          "text": "The woman is watering the plants in the backyard.",
+          "isCorrect": true,
+          "rationale": "Câu sử dụng đúng cả hai từ khóa ở dạng phù hợp, đúng ngữ pháp và mô tả chính xác hành động trong tranh."
+        },
+        {
+          "text": "The woman is water the plants in the backyard.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp do sử dụng động từ nguyên mẫu 'water' sau trợ động từ 'is' (phải là động từ dạng tiếp diễn 'is watering')."
+        },
+        {
+          "text": "The woman water the plants in the backyard.",
+          "isCorrect": false,
+          "rationale": "Thiếu trợ động từ 'is' và sai hình thức động từ, cần là 'is watering'."
+        },
+        {
+          "text": "The plants are watering the woman.",
+          "isCorrect": false,
+          "rationale": "Câu không hợp lý về logic – cây cối không thể tự tưới nước cho con người."
+        }
+      ],
+      "hint": "Lưu ý: 'water' ở đây là ĐỘNG TỪ (tưới), không phải danh từ (nước).",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/36_myp3cvuHz.jpeg"
+    },
+    {
+      "id": "combo-07",
+      "skillType": "sentenceCombining",
+      "skillLabel": "Ghép 2 từ khóa thành câu hoàn chỉnh",
+      "topic": "Home",
+      "keywords": [
+        "cut",
+        "wood"
+      ],
+      "scene": "Một người thợ mộc đang dùng cưa tay để cắt một thanh gỗ dài trên bệ gỗ ngoài sân.",
+      "question": "Chọn câu mô tả đúng và đầy đủ nhất cho bức tranh, sử dụng đúng 2 từ khóa 'cut' và 'wood'.",
+      "answerOptions": [
+        {
+          "text": "The man is cutting a piece of wood with a saw.",
+          "isCorrect": true,
+          "rationale": "Câu sử dụng đúng cả hai từ khóa, đúng thì hiện tại tiếp diễn để mô tả hành động đang diễn ra, nhất quán với bức tranh."
+        },
+        {
+          "text": "The man is cut a piece of wood.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp do sử dụng động từ nguyên mẫu 'cut' sau trợ động từ 'is' (phải chia động từ dạng tiếp diễn 'is cutting')."
+        },
+        {
+          "text": "The man cut wood with a saw.",
+          "isCorrect": false,
+          "rationale": "Thì quá khứ đơn không phù hợp để mô tả một hành động đang diễn ra ngay trong bức tranh."
+        },
+        {
+          "text": "The saw is cutting the man.",
+          "isCorrect": false,
+          "rationale": "Câu không hợp lý về logic – cái cưa không thể tự hành động cắt người, đây là lỗi khiến câu không nhất quán với tranh."
+        }
+      ],
+      "hint": "Hãy hình dung lại: ai/cái gì là chủ thể thực sự gây ra hành động trong tranh?",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/37_ygQgQuFu4.jpeg"
+    },
+    {
+      "id": "combo-08",
+      "skillType": "sentenceCombining",
+      "skillLabel": "Ghép 2 từ khóa thành câu hoàn chỉnh",
+      "topic": "Streets/Park",
+      "keywords": [
+        "bench",
+        "lake"
+      ],
+      "scene": "Một cặp đôi đang ngồi trên ghế dài trong công viên, phía trước là một hồ nước lớn.",
+      "question": "Chọn câu mô tả đúng và đầy đủ nhất cho bức tranh, sử dụng đúng 2 từ khóa 'bench' và 'lake'.",
+      "answerOptions": [
+        {
+          "text": "The couple is sitting on a bench near the lake.",
+          "isCorrect": true,
+          "rationale": "Câu sử dụng đầy đủ và hợp lý cả hai từ khóa, đúng ngữ pháp và mô tả chính xác vị trí trong bức tranh."
+        },
+        {
+          "text": "The couple is sit on a bench near the lake.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp do sử dụng động từ nguyên mẫu 'sit' sau trợ động từ 'is' (phải chia là dạng tiếp diễn 'is sitting')."
+        },
+        {
+          "text": "The couple sitting on a bench near the lake.",
+          "isCorrect": false,
+          "rationale": "Thiếu trợ động từ 'is', câu chưa hoàn chỉnh về ngữ pháp."
+        },
+        {
+          "text": "The bench is sitting near the couple.",
+          "isCorrect": false,
+          "rationale": "Câu không hợp lý về logic – chiếc ghế không thể tự 'ngồi', chủ ngữ và hành động bị đảo lộn phi lý."
+        }
+      ],
+      "hint": "Kiểm tra hành động chính (sitting/standing) có khớp với tư thế thực tế trong tranh không.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/38_qvf2PkpCS.jpeg"
+    },
+    {
+      "id": "combo-09",
+      "skillType": "sentenceCombining",
+      "skillLabel": "Ghép 2 từ khóa thành câu hoàn chỉnh",
+      "topic": "Places",
+      "keywords": [
+        "label",
+        "shelf"
+      ],
+      "scene": "Một nhân viên siêu thị đang dán nhãn giá lên các sản phẩm được xếp trên kệ hàng.",
+      "question": "Chọn câu mô tả đúng và đầy đủ nhất cho bức tranh, sử dụng đúng 2 từ khóa 'label' và 'shelf'.",
+      "answerOptions": [
+        {
+          "text": "The employee is labeling the products on the shelf.",
+          "isCorrect": true,
+          "rationale": "Câu sử dụng đúng cả hai từ khóa ('label' chia ở dạng V-ing 'labeling', 'shelf' làm trạng ngữ chỉ nơi chốn) và mô tả chính xác hành động dán nhãn lên sản phẩm trên kệ."
+        },
+        {
+          "text": "The employee is label the products on the shelf.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp do sử dụng động từ nguyên mẫu 'label' ngay sau trợ động từ 'is' (phải chia là dạng tiếp diễn 'is labeling')."
+        },
+        {
+          "text": "The employee labeling the products on the shelf.",
+          "isCorrect": false,
+          "rationale": "Thiếu trợ động từ 'is', khiến câu chưa hoàn chỉnh về ngữ pháp."
+        },
+        {
+          "text": "The shelf is labeling the employee.",
+          "isCorrect": false,
+          "rationale": "Câu không hợp lý về mặt logic – chiếc kệ không thể tự thực hiện hành động dán nhãn người nhân viên."
+        }
+      ],
+      "hint": "Từ khóa danh từ như 'label' có thể được chuyển đổi linh hoạt thành động từ ('labeling') để câu văn tự nhiên hơn.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/39_9gQhdoQ5q.jpeg"
+    },
+    {
+      "id": "combo-10",
+      "skillType": "sentenceCombining",
+      "skillLabel": "Ghép 2 từ khóa thành câu hoàn chỉnh",
+      "topic": "Transportation",
+      "keywords": [
+        "carry",
+        "truck"
+      ],
+      "scene": "Hai người đàn ông đang khiêng một chiếc ghế sofa lên xe tải trong lúc chuyển nhà.",
+      "question": "Chọn câu mô tả đúng và đầy đủ nhất cho bức tranh, sử dụng đúng 2 từ khóa 'carry' và 'truck'.",
+      "answerOptions": [
+        {
+          "text": "The men are carrying a sofa onto the truck.",
+          "isCorrect": true,
+          "rationale": "Câu sử dụng đúng cả hai từ khóa, đúng ngữ pháp (thì hiện tại tiếp diễn) và mô tả chính xác hành động trong tranh."
+        },
+        {
+          "text": "The men are carry a sofa onto the truck.",
+          "isCorrect": false,
+          "rationale": "Sai ngữ pháp do sử dụng động từ nguyên mẫu 'carry' sau trợ động từ 'are' (đúng phải là dạng tiếp diễn 'are carrying')."
+        },
+        {
+          "text": "The men carrying a sofa onto the truck.",
+          "isCorrect": false,
+          "rationale": "Thiếu trợ động từ 'are', câu chưa hoàn chỉnh về ngữ pháp."
+        },
+        {
+          "text": "The sofa is carrying the men onto the truck.",
+          "isCorrect": false,
+          "rationale": "Câu không hợp lý về logic – chiếc sofa không thể tự khiêng người lên xe tải."
+        }
+      ],
+      "hint": "'Onto' thường đi kèm động từ chỉ chuyển động hướng lên trên một bề mặt, như 'carry onto', 'load onto'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/40_IAQVu9dBR.jpeg"
+    }
+  ]
+}
