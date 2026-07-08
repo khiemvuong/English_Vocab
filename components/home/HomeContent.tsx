@@ -3,7 +3,8 @@
 import { useState, useEffect, useCallback } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import dynamic from "next/dynamic";
-import { BookOpen, FileText, LayoutList, CheckCircle } from "lucide-react";
+import { BookOpen, FileText, LayoutList, CheckCircle, Pencil } from "lucide-react";
+import { WritingPracticeCard } from "@/components/home/WritingPracticeCard";
 import { LessonCard } from "@/components/home/LessonCard";
 import { PracticeCard } from "@/components/home/PracticeCard";
 import { Part6Card } from "@/components/home/Part6Card";
@@ -61,6 +62,16 @@ const TABS = [
     ),
     accent: "from-emerald-500 to-teal-600",
   },
+  {
+    id: "writing",
+    label: "Luyện Viết",
+    icon: (
+      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+      </svg>
+    ),
+    accent: "from-violet-500 to-purple-600",
+  },
 ] as const;
 
 
@@ -99,11 +110,11 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
   const paramTab = searchParams.get("tab");
 
   const [activeTab, setActiveTab] = useState(
-    paramTab === "part5" || paramTab === "ets2026" ? "part5" : paramTab === "part6" ? "part6" : "vocab"
+    paramTab === "part5" || paramTab === "ets2026" ? "part5" : paramTab === "part6" ? "part6" : paramTab === "writing" ? "writing" : "vocab"
   );
 
   useEffect(() => {
-    if (paramTab === "part5" || paramTab === "ets2026" || paramTab === "vocab" || paramTab === "part6") {
+    if (paramTab === "part5" || paramTab === "ets2026" || paramTab === "vocab" || paramTab === "part6" || paramTab === "writing") {
       // eslint-disable-next-line react-hooks/set-state-in-effect
       setActiveTab(paramTab === "ets2026" ? "part5" : paramTab);
     }
@@ -147,6 +158,11 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
         return {
           icon: <CheckCircle className="w-5 h-5" />,
           description: `${ets2026Tests.length} đề thi mới nhất từ ETS`,
+        };
+      case "writing":
+        return {
+          icon: <Pencil className="w-5 h-5" />,
+          description: "40 câu hỏi — TOEIC Writing Q1-5, 6 kỹ năng",
         };
       default:
         return {
@@ -276,6 +292,8 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
                 ? `${totalVocabLessons} bài học từ vựng — Intensive Course`
                 : activeTab === "part6"
                 ? `${part6Tests.length} bộ đề Part 6 — Text Completion, giải thích chi tiết`
+                : activeTab === "writing"
+                ? "40 câu hỏi — Luyện viết câu mô tả tranh theo 6 kỹ năng, 5 chủ đề"
                 : `${part5Tests.length} bộ Part 5 + ${ets2026Tests.length} đề ETS 2026 — có ôn lỗi sai`}
             </p>
           </div>
@@ -355,6 +373,14 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
                 />
               ))}
             </div>
+          </div>
+
+          {/* Writing Practice tab */}
+          <div
+            style={{ display: activeTab === "writing" ? "block" : "none" }}
+            className="animate-in fade-in duration-200"
+          >
+            <WritingPracticeCard />
           </div>
 
       </div>

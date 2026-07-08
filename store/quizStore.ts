@@ -20,6 +20,18 @@ export interface ScenarioProgress {
   restartCount?: number;
 }
 
+export interface WritingProgress {
+  currentIndex: number;
+  answers: Record<number, number>; // questionIndex -> selectedOptionIndex
+  score: number;
+  isFinished: boolean;
+  totalQuestions: number;
+  restartCount?: number;
+  filteredQuestionIds: string[]; // IDs of filtered questions
+  viewedHints: Record<number, boolean>; // Track hints viewed (not penalized)
+  skillAccuracy: Record<string, { correct: number; total: number }>; // Accuracy by skillType
+}
+
 interface QuizStore {
   progress: Record<string, LessonProgress>;
   isMuted: boolean;
@@ -33,6 +45,14 @@ interface QuizStore {
   updateScenarioState: (testId: string, updates: Partial<ScenarioProgress>) => void;
   answerScenarioBlank: (testId: string, blankKey: string, answer: string, isCorrect: boolean) => void;
   restartScenario: (testId: string) => void;
+  // Writing Practice
+  writingProgress: Record<string, WritingProgress>;
+  initWriting: (sessionId: string, questionIds: string[]) => void;
+  answerWritingQuestion: (sessionId: string, qIndex: number, optionIndex: number, isCorrect: boolean, skillType: string) => void;
+  toggleWritingHint: (sessionId: string, qIndex: number) => void;
+  goToNextWriting: (sessionId: string) => void;
+  goToPrevWriting: (sessionId: string) => void;
+  restartWriting: (sessionId: string, questionIds: string[]) => void;
 }
 
 export const useQuizStore = create<QuizStore>()(
@@ -167,6 +187,120 @@ export const useQuizStore = create<QuizStore>()(
               isFinished: false,
               score: 0,
               restartCount: (current?.restartCount || 0) + 1
+            }
+          }
+        };
+      }),
+      // Writing Practice Methods
+      writingProgress: {},
+      initWriting: (sessionId, questionIds) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session || session.filteredQuestionIds.join(',') !== questionIds.join(',')) {
+          return {
+            writingProgress: {
+              ...state.writingProgress,
+              [sessionId]: {
+                currentIndex: 0,
+                answers: {},
+                score: 0,
+                isFinished: false,
+                totalQuestions: questionIds.length,
+                restartCount: 0,
+                filteredQuestionIds: questionIds,
+                viewedHints: {},
+                skillAccuracy: {}
+              }
+            }
+          };
+        }
+        return state;
+      }),
+      answerWritingQuestion: (sessionId, qIndex, optionIndex, isCorrect, skillType) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session || session.answers[qIndex] !== undefined) return state;
+
+        const currentSkillAcc = session.skillAccuracy[skillType] || { correct: 0, total: 0 };
+        
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              answers: { ...session.answers, [qIndex]: optionIndex },
+              score: isCorrect ? session.score + 1 : session.score,
+              skillAccuracy: {
+                ...session.skillAccuracy,
+                [skillType]: {
+                  correct: isCorrect ? currentSkillAcc.correct + 1 : currentSkillAcc.correct,
+                  total: currentSkillAcc.total + 1
+                }
+              }
+            }
+          }
+        };
+      }),
+      toggleWritingHint: (sessionId, qIndex) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+        
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              viewedHints: {
+                ...session.viewedHints,
+                [qIndex]: !session.viewedHints[qIndex]
+              }
+            }
+          }
+        };
+      }),
+      goToNextWriting: (sessionId) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+
+        if (session.currentIndex < session.totalQuestions - 1) {
+          return {
+            writingProgress: {
+              ...state.writingProgress,
+              [sessionId]: { ...session, currentIndex: session.currentIndex + 1 }
+            }
+          };
+        } else {
+          return {
+            writingProgress: {
+              ...state.writingProgress,
+              [sessionId]: { ...session, isFinished: true }
+            }
+          };
+        }
+      }),
+      goToPrevWriting: (sessionId) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session || session.currentIndex === 0) return state;
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: { ...session, currentIndex: session.currentIndex - 1 }
+          }
+        };
+      }),
+      restartWriting: (sessionId, questionIds) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              currentIndex: 0,
+              answers: {},
+              score: 0,
+              isFinished: false,
+              totalQuestions: questionIds.length,
+              restartCount: (session?.restartCount || 0) + 1,
+              filteredQuestionIds: questionIds,
+              viewedHints: {},
+              skillAccuracy: {}
             }
           }
         };

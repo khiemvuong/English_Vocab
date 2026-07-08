@@ -83,3 +83,33 @@ export interface Part6Data {
   title: string;
   passages: Part6Passage[];
 }
+
+// Writing Practice types (TOEIC Writing Q1-5)
+export interface WritingSkillType {
+  key: string;
+  label: string;
+  description: string;
+}
+
+export interface WritingQuestion {
+  id: string;
+  skillType: "verbTense" | "preposition" | "connector" | "intensifier" | "sentenceCombining" | "scoringRubric";
+  skillLabel: string;
+  topic: string;
+  keywords: string[];
+  scene: string;
+  question: string;
+  answerOptions: AnswerOption[];
+  hint: string;
+  image?: string; // ImageKit URL for the scene picture
+}
+
+export interface WritingQuestionSet {
+  setId: string;
+  title: string;
+  description: string;
+  sourceMaterial: string;
+  skillTypes: WritingSkillType[];
+  totalQuestions: number;
+  questions: WritingQuestion[];
+}
