@@ -13,6 +13,7 @@ import { MistakeReviewCard } from "@/components/home/MistakeReviewCard";
 import { PracticeSection } from "@/components/home/PracticeSection";
 import { GlassFilter } from "@/components/ui/liquid-glass";
 import { HomeMeshBackground } from "@/components/home/HomeMeshBackground";
+import { GuidedTour, GuidedTourStep } from "@/components/common/GuidedTour";
 
 const Spline = dynamic(() => import('@splinetool/react-spline'), {
   ssr: false,
@@ -102,6 +103,20 @@ interface HomeContentProps {
   availableVocabLessons: number[];
 }
 
+const TOUR_STEPS: GuidedTourStep[] = [
+  {
+    targetId: "tab-vocab",
+    title: "Chương trình học đa dạng",
+    description: "Chọn các thẻ tab ở đây để chuyển đổi qua lại giữa học Từ vựng, luyện đề Part 5 & ETS, Part 6 hoặc Luyện Viết.",
+    placement: "bottom"
+  },
+  {
+    targetId: "vocab-lesson-1",
+    title: "Bắt đầu bài học đầu tiên",
+    description: "Nhấp vào ô bài học này để bắt đầu học từ vựng trực quan với hình ảnh sinh động và phát âm tự động.",
+    placement: "top"
+  }
+];
 
 export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLessons, availableVocabLessons }: HomeContentProps) {
   const searchParams = useSearchParams();
@@ -241,6 +256,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
                 return (
                   <button
                     key={tab.id}
+                    id={`tab-${tab.id}`}
                     onClick={() => handleTabChange(tab.id)}
                     className={`group relative overflow-hidden rounded-2xl p-5 md:p-6 text-left transition-all duration-300 backdrop-blur-xl cursor-pointer border select-none w-full
                       ${isActive 
@@ -306,7 +322,9 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
           >
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
               {Array.from({ length: totalVocabLessons }, (_, i) => i + 1).map((lesson) => (
-                <LessonCard key={lesson} lesson={lesson} isAvailable={availableVocabLessons.includes(lesson)} />
+                <div key={lesson} id={lesson === 1 ? "vocab-lesson-1" : undefined} className="w-full">
+                  <LessonCard lesson={lesson} isAvailable={availableVocabLessons.includes(lesson)} />
+                </div>
               ))}
             </div>
           </div>
@@ -392,6 +410,8 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
           </div>
 
       </div>
+
+      <GuidedTour storageKey="toeic-home-tour" steps={TOUR_STEPS} enabled={true} />
     </div>
   );
 }
