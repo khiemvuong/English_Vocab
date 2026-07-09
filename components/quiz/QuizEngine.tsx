@@ -12,6 +12,7 @@ import { ResultSummary } from "@/components/common/ResultSummary";
 import { QuizHeader } from "@/components/common/QuizHeader";
 import { QuestionTimer } from "@/components/quiz/QuestionTimer";
 import { getDeterministicShuffle } from "@/utils/shuffle";
+import { GuidedTour, GuidedTourStep } from "@/components/common/GuidedTour";
 
 const CATEGORY_MAP: Record<string, { label: string; color: string }> = {
   'word-form': { label: 'Từ Loại', color: 'bg-purple-500/10 text-purple-300 border-purple-500/20' },
@@ -24,6 +25,15 @@ const CATEGORY_MAP: Record<string, { label: string; color: string }> = {
 
 const AUTO_PRONUNCIATION_KEY = "toeic-auto-pronunciation";
 const isPart5LikeLesson = (lessonId: string) => lessonId.startsWith("part5-");
+
+const VOCAB_TOUR_STEPS: GuidedTourStep[] = [
+  {
+    targetId: "btn-auto-pronunciation",
+    title: "Tự động phát âm",
+    description: "Bật chức năng này để hệ thống tự động phát âm tiếng Anh của từ vựng mỗi khi chuyển sang câu hỏi mới.",
+    placement: "bottom"
+  }
+];
 
 export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonId: string }) {
   const { progress, isMuted, toggleMute, initLesson, answerQuestion, goToNext, goToPrev, restartLesson } = useQuizStore();
@@ -174,6 +184,7 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
 
           {!isPart5LikeLesson(lessonId) && (
             <button
+              id="btn-auto-pronunciation"
               onClick={toggleAutoPronunciation}
               className={`self-start inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs font-black uppercase tracking-widest transition-all active:scale-95 ${autoPronunciation ? "border-emerald-300/30 bg-emerald-400/10 text-emerald-200" : "border-white/10 bg-white/5 text-slate-400 hover:bg-white/10 hover:text-white"}`}
               title="Tự động đọc từ khi chuyển câu"
@@ -372,6 +383,10 @@ export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonI
             />
           )}
         </div>
+      )}
+
+      {!isPart5LikeLesson(lessonId) && (
+        <GuidedTour storageKey="toeic-vocab-tour" steps={VOCAB_TOUR_STEPS} enabled={true} />
       )}
     </div>
   );
