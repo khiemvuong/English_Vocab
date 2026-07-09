@@ -1,0 +1,1266 @@
+[
+  {
+    "id": "t2-q01",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Home",
+    "keywords": [
+      "hang",
+      "wall"
+    ],
+    "scene": "Người phụ nữ đang đứng treo một bức tranh lên bức tường.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'hang' và 'wall'.",
+    "answerOptions": [
+      {
+        "text": "The woman is hanging the picture on the wall.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giới từ treo trên tường là 'on the wall'."
+      },
+      {
+        "text": "The woman is hanging the picture at the wall.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'at the wall' cho việc treo tranh."
+      },
+      {
+        "text": "The woman hangs the picture on the wall.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không mô tả sinh động hành động tiếp diễn."
+      },
+      {
+        "text": "The woman is hanging the picture in the wall.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: 'in the wall' có nghĩa là bên trong bức tường."
+      }
+    ],
+    "hint": "Treo tranh lên tường dùng giới từ 'on'.",
+    "phraseOptions": [
+      {
+        "text": "Hang picture on the wall",
+        "meaning": "Treo tranh trên tường",
+        "isCorrect": true
+      },
+      {
+        "text": "Clean the floor",
+        "meaning": "Lau dọn sàn nhà",
+        "isCorrect": false
+      },
+      {
+        "text": "Paint the window",
+        "meaning": "Sơn cửa sổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Move the desk",
+        "meaning": "Di chuyển bàn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/22_1_fkKMZ-b4x.jpeg"
+  },
+  {
+    "id": "t2-q02",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Home",
+    "keywords": [
+      "vacuum"
+    ],
+    "scene": "Người phụ nữ đang hút bụi dọn dẹp sàn nhà.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'vacuum'.",
+    "answerOptions": [
+      {
+        "text": "She is vacuuming the floor.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì tiếp diễn miêu tả hành động hút bụi dọn nhà đang xảy ra."
+      },
+      {
+        "text": "She is vacuum the floor.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, thiếu đuôi '-ing'."
+      },
+      {
+        "text": "She vacuums the floor.",
+        "isCorrect": false,
+        "rationale": "Hiện tại đơn không phù hợp mô tả khoảnh khắc của tranh."
+      },
+      {
+        "text": "She is being vacuumed the floor.",
+        "isCorrect": false,
+        "rationale": "Sai thể bị động."
+      }
+    ],
+    "hint": "Hành động hút bụi dọn dẹp sàn nhà dùng thì tiếp diễn.",
+    "phraseOptions": [
+      {
+        "text": "Vacuum the floor",
+        "meaning": "Hút bụi sàn nhà",
+        "isCorrect": true
+      },
+      {
+        "text": "Wipe the window",
+        "meaning": "Lau cửa sổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Mop the tiles",
+        "meaning": "Lau gạch",
+        "isCorrect": false
+      },
+      {
+        "text": "Sweep the garden",
+        "meaning": "Quét vườn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/22_2_Ogy6_njzU.jpeg"
+  },
+  {
+    "id": "t2-q03",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Home",
+    "keywords": [
+      "clean",
+      "outside"
+    ],
+    "scene": "Người đàn ông đội mũ đang lau dọn quét tước bên ngoài ngôi nhà.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'clean' và 'outside'.",
+    "answerOptions": [
+      {
+        "text": "The man wearing a hat is cleaning outside.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Miêu tả đúng hành động dọn dẹp bên ngoài của người đàn ông đội mũ."
+      },
+      {
+        "text": "The man wearing a hat is clean outside.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "The man wearing a hat cleans outside.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp mô tả hành động đang tiếp diễn."
+      },
+      {
+        "text": "The man is wearing a hat and clean outside.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp song song."
+      }
+    ],
+    "hint": "Người đàn ông đội mũ đang làm việc ngoài trời.",
+    "phraseOptions": [
+      {
+        "text": "Clean outside",
+        "meaning": "Quét dọn bên ngoài",
+        "isCorrect": true
+      },
+      {
+        "text": "Cook inside",
+        "meaning": "Nấu ăn bên trong",
+        "isCorrect": false
+      },
+      {
+        "text": "Water plants",
+        "meaning": "Tưới cây",
+        "isCorrect": false
+      },
+      {
+        "text": "Read book",
+        "meaning": "Đọc sách",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/23_1_bq13hMDZP.jpeg"
+  },
+  {
+    "id": "t2-q04",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Home",
+    "keywords": [
+      "cut",
+      "saw"
+    ],
+    "scene": "Người đàn ông đang cưa hoặc cắt khúc gỗ bằng một chiếc cưa tay.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'cut' và 'saw'.",
+    "answerOptions": [
+      {
+        "text": "He's cutting the wood with a saw.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giới từ chỉ công cụ dùng để làm việc gì đó là 'with a saw'."
+      },
+      {
+        "text": "He's cutting the wood by a saw.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'by + công cụ cụ thể' như thế này, phải dùng 'with'."
+      },
+      {
+        "text": "He's cut the wood with a saw.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "He's cutting the wood using with a saw.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp chồng chéo."
+      }
+    ],
+    "hint": "Sử dụng công cụ gì đó ta dùng giới từ 'with'.",
+    "phraseOptions": [
+      {
+        "text": "Cut with a saw",
+        "meaning": "Cắt bằng cưa",
+        "isCorrect": true
+      },
+      {
+        "text": "Hit with a hammer",
+        "meaning": "Đập bằng búa",
+        "isCorrect": false
+      },
+      {
+        "text": "Paint with a brush",
+        "meaning": "Sơn bằng chổi",
+        "isCorrect": false
+      },
+      {
+        "text": "Dig with a shovel",
+        "meaning": "Đào bằng xẻng",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/23_2_jy3GLdGyA.jpeg"
+  },
+  {
+    "id": "t2-q05",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Home",
+    "keywords": [
+      "plants"
+    ],
+    "scene": "Một số chậu cây cảnh được treo rủ từ trên trần nhà xuống.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'plants'.",
+    "answerOptions": [
+      {
+        "text": "Some potted plants are hanging from the ceiling.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Sử dụng giới từ 'hanging from the ceiling' (treo từ trần nhà xuống)."
+      },
+      {
+        "text": "Some potted plants are hanging on the ceiling.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: 'on the ceiling' ngụ ý bám trên bề mặt trần chứ không phải treo thả xuống."
+      },
+      {
+        "text": "Some potted plants hang from the ceiling.",
+        "isCorrect": false,
+        "rationale": "Thì tiếp diễn tả trạng thái treo lơ lửng sinh động hơn."
+      },
+      {
+        "text": "Some potted plants are hanging under the ceiling.",
+        "isCorrect": false,
+        "rationale": "Không tự nhiên bằng cụm từ 'from the ceiling'."
+      }
+    ],
+    "hint": "Treo rủ từ trên trần nhà xuống dùng giới từ 'from'.",
+    "phraseOptions": [
+      {
+        "text": "Hanging from the ceiling",
+        "meaning": "Treo từ trần nhà",
+        "isCorrect": true
+      },
+      {
+        "text": "Placing on the floor",
+        "meaning": "Đặt trên sàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Hanging on the wall",
+        "meaning": "Treo trên tường",
+        "isCorrect": false
+      },
+      {
+        "text": "Leaning on the door",
+        "meaning": "Tựa vào cửa",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/24_1_uSf79l81S.jpeg"
+  },
+  {
+    "id": "t2-q06",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Home",
+    "keywords": [
+      "telephone"
+    ],
+    "scene": "Một chiếc điện thoại bàn được gắn cố định vào bức tường.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'telephone'.",
+    "answerOptions": [
+      {
+        "text": "A telephone is attached to the wall.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cấu trúc bị động 'be attached to the wall' nghĩa là được gắn vào tường."
+      },
+      {
+        "text": "A telephone is attached on the wall.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: đi với động từ 'attach' là giới từ 'to' chứ không dùng 'on'."
+      },
+      {
+        "text": "A telephone attaches to the wall.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ nghĩa chủ động."
+      },
+      {
+        "text": "A telephone is attached at the wall.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ."
+      }
+    ],
+    "hint": "Được gắn vào một bề mặt dùng cấu trúc 'attached to'.",
+    "phraseOptions": [
+      {
+        "text": "Attached to the wall",
+        "meaning": "Gắn vào tường",
+        "isCorrect": true
+      },
+      {
+        "text": "Placed on the table",
+        "meaning": "Đặt trên bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Hanging from ceiling",
+        "meaning": "Treo trên trần",
+        "isCorrect": false
+      },
+      {
+        "text": "Standing near window",
+        "meaning": "Đứng cạnh cửa sổ",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/24_2_cyUTNcRnW.jpeg"
+  },
+  {
+    "id": "t2-q07",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Home",
+    "keywords": [
+      "dinner"
+    ],
+    "scene": "Hai người đang cùng chuẩn bị bữa tối trong bếp.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'dinner'.",
+    "answerOptions": [
+      {
+        "text": "They are preparing dinner together.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì tiếp diễn diễn tả hành động nấu nướng chuẩn bị bữa tối đang diễn ra."
+      },
+      {
+        "text": "They are prepare dinner together.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, thiếu đuôi '-ing'."
+      },
+      {
+        "text": "They prepare dinner together.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp."
+      },
+      {
+        "text": "They are preparing for dinner together.",
+        "isCorrect": false,
+        "rationale": "Nấu bữa tối dùng 'prepare dinner' trực tiếp thay vì thêm giới từ 'for'."
+      }
+    ],
+    "hint": "Hành động chuẩn bị bữa ăn đang xảy ra.",
+    "phraseOptions": [
+      {
+        "text": "Prepare dinner",
+        "meaning": "Chuẩn bị bữa tối",
+        "isCorrect": true
+      },
+      {
+        "text": "Wash dishes",
+        "meaning": "Rửa bát đĩa",
+        "isCorrect": false
+      },
+      {
+        "text": "Sweep the house",
+        "meaning": "Quét nhà",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the table",
+        "meaning": "Lau dọn bàn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/25_1_PGW7PHEOU.jpeg"
+  },
+  {
+    "id": "t2-q08",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Home",
+    "keywords": [
+      "books"
+    ],
+    "scene": "Nhiều cuốn sách được xếp chất đống trên mặt sàn nhà.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'books'.",
+    "answerOptions": [
+      {
+        "text": "Some books are stacked on the floor.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Trạng thái bị động 'are stacked on the floor' nghĩa là được xếp chồng lên nhau trên sàn nhà."
+      },
+      {
+        "text": "Some books are stacked in the floor.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: xếp trên mặt sàn nhà dùng giới từ 'on'."
+      },
+      {
+        "text": "Some books stack on the floor.",
+        "isCorrect": false,
+        "rationale": "Sai thể chủ động."
+      },
+      {
+        "text": "Some books are stacking on the floor.",
+        "isCorrect": false,
+        "rationale": "Sách không thể tự xếp chồng lên nhau, dùng tiếp diễn chủ động là sai."
+      }
+    ],
+    "hint": "Sách được chất đống trên sàn nhà dùng cấu trúc bị động.",
+    "phraseOptions": [
+      {
+        "text": "Stacked on the floor",
+        "meaning": "Xếp chồng trên sàn",
+        "isCorrect": true
+      },
+      {
+        "text": "Arranged on shelves",
+        "meaning": "Sắp xếp trên giá",
+        "isCorrect": false
+      },
+      {
+        "text": "Leaning on wall",
+        "meaning": "Tựa vào tường",
+        "isCorrect": false
+      },
+      {
+        "text": "Placed in boxes",
+        "meaning": "Đặt trong các hộp",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/25_2_LWqtTl1td.jpeg"
+  },
+  {
+    "id": "t2-q09",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Home",
+    "keywords": [
+      "washing",
+      "clothes"
+    ],
+    "scene": "Hai người phụ nữ đang giặt/phơi quần áo.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'washing' và 'clothes'.",
+    "answerOptions": [
+      {
+        "text": "Two women are washing the clothes.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Mô tả hành động giặt quần áo bằng thì tiếp diễn."
+      },
+      {
+        "text": "Two women is washing the clothes.",
+        "isCorrect": false,
+        "rationale": "Sai hòa hợp chủ vị: 'Two women' số nhiều phải dùng 'are'."
+      },
+      {
+        "text": "Two women are wash the clothes.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "Two women wash the clothes.",
+        "isCorrect": false,
+        "rationale": "Hiện tại đơn không tả được hành động tiếp diễn tức thời."
+      }
+    ],
+    "hint": "Chủ ngữ số nhiều đang thực hiện hành động giặt giũ.",
+    "phraseOptions": [
+      {
+        "text": "Wash the clothes",
+        "meaning": "Giặt quần áo",
+        "isCorrect": true
+      },
+      {
+        "text": "Clean the window",
+        "meaning": "Lau cửa sổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Iron the shirt",
+        "meaning": "Ủi áo sơ mi",
+        "isCorrect": false
+      },
+      {
+        "text": "Fold the towels",
+        "meaning": "Gấp khăn tắm",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/26_1_V-Gf0OWSC.jpeg"
+  },
+  {
+    "id": "t2-q10",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Home",
+    "keywords": [
+      "sofa"
+    ],
+    "scene": "Mọi người đang cùng ngồi trò chuyện trên chiếc ghế sofa dài.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'sofa'.",
+    "answerOptions": [
+      {
+        "text": "They’re sitting on a sofa.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giới từ ngồi trên ghế sofa là 'on a sofa'."
+      },
+      {
+        "text": "They’re sitting in a sofa.",
+        "isCorrect": false,
+        "rationale": "Thói quen ngôn ngữ thường dùng 'on a sofa' cho ghế sô pha dài không có tay vịn ôm sát sâu."
+      },
+      {
+        "text": "They’re sitting at a sofa.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ."
+      },
+      {
+        "text": "They’re sit on a sofa.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Tư thế ngồi trên ghế sofa dùng giới từ 'on'.",
+    "phraseOptions": [
+      {
+        "text": "Sit on a sofa",
+        "meaning": "Ngồi trên ghế sofa",
+        "isCorrect": true
+      },
+      {
+        "text": "Stand near the sofa",
+        "meaning": "Đứng cạnh ghế sofa",
+        "isCorrect": false
+      },
+      {
+        "text": "Lean on the table",
+        "meaning": "Tựa vào bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Lie on the bed",
+        "meaning": "Nằm trên giường",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/26_2_IKNqYUncy.jpeg"
+  },
+  {
+    "id": "t2-q11",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Home",
+    "keywords": [
+      "vacuuming"
+    ],
+    "scene": "Người phụ nữ đang dùng máy hút bụi dọn sàn nhà.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "She is vacuuming the floor.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ 'vacuum' mô tả đúng nhất hành động của máy hút bụi trên sàn."
+      },
+      {
+        "text": "She is cleaning the floor.",
+        "isCorrect": false,
+        "rationale": "Mặc dù đúng nghĩa nhưng động từ 'vacuuming' đặc tả và chính xác hơn cho hành động dùng máy hút bụi."
+      },
+      {
+        "text": "She is pouring the floor.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa hoàn toàn."
+      },
+      {
+        "text": "She is dumping the floor.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa hoàn toàn."
+      }
+    ],
+    "hint": "Quan sát dụng cụ máy hút bụi cầm trên tay người phụ nữ.",
+    "phraseOptions": [
+      {
+        "text": "Vacuum the floor",
+        "meaning": "Hút bụi sàn nhà",
+        "isCorrect": true
+      },
+      {
+        "text": "Mop the kitchen",
+        "meaning": "Lau dọn bếp",
+        "isCorrect": false
+      },
+      {
+        "text": "Sweep the yard",
+        "meaning": "Quét sân",
+        "isCorrect": false
+      },
+      {
+        "text": "Dust the table",
+        "meaning": "Phủi bụi bàn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/27_1_mHaDr8lFB.jpeg"
+  },
+  {
+    "id": "t2-q12",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Home",
+    "keywords": [
+      "pouring"
+    ],
+    "scene": "Người phụ nữ đang rót nước từ bình thủy tinh vào cốc.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "She is pouring water into a cup.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Rót chất lỏng từ bình sang cốc dùng động từ 'pouring'."
+      },
+      {
+        "text": "She is dumping water into a cup.",
+        "isCorrect": false,
+        "rationale": "Động từ 'dump' mang nghĩa đổ bỏ rác hoặc vật liệu thô, không dùng cho rót nước."
+      },
+      {
+        "text": "She is cleaning water into a cup.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa."
+      },
+      {
+        "text": "She is arranging water into a cup.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa."
+      }
+    ],
+    "hint": "Hành động rót nước vào cốc dùng động từ 'pour'.",
+    "phraseOptions": [
+      {
+        "text": "Pour water into a cup",
+        "meaning": "Rót nước vào tách",
+        "isCorrect": true
+      },
+      {
+        "text": "Drink from a cup",
+        "meaning": "Uống nước từ tách",
+        "isCorrect": false
+      },
+      {
+        "text": "Wash the glass",
+        "meaning": "Rửa cốc",
+        "isCorrect": false
+      },
+      {
+        "text": "Hold a pitcher",
+        "meaning": "Cầm bình nước",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/27_2_ZSpExKEz1.jpeg"
+  },
+  {
+    "id": "t2-q13",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Home",
+    "keywords": [
+      "arranged"
+    ],
+    "scene": "Nhiều đồ đạc vật dụng sinh hoạt được xếp đặt ngay ngắn trên mặt sàn nhà.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "Some items have been arranged on the floor.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Trạng thái được sắp đặt ngăn nắp dùng bị động 'have been arranged'."
+      },
+      {
+        "text": "Some items have been dumped on the floor.",
+        "isCorrect": false,
+        "rationale": "Động từ 'dump' chỉ việc đổ bỏ lộn xộn, trái ngược với trạng thái ngăn nắp trong tranh."
+      },
+      {
+        "text": "Some items have been poured on the floor.",
+        "isCorrect": false,
+        "rationale": "Không dùng 'pour' cho đồ đạc (chỉ dùng cho chất lỏng/hạt nhỏ)."
+      },
+      {
+        "text": "Some items have been vacuumed on the floor.",
+        "isCorrect": false,
+        "rationale": "Không hợp ngữ nghĩa."
+      }
+    ],
+    "hint": "Vật dụng được xếp đặt gọn gàng ngăn nắp.",
+    "phraseOptions": [
+      {
+        "text": "Arranged on the floor",
+        "meaning": "Sắp xếp trên sàn",
+        "isCorrect": true
+      },
+      {
+        "text": "Thrown in the trash",
+        "meaning": "Vứt vào sọt rác",
+        "isCorrect": false
+      },
+      {
+        "text": "Stacked on the shelf",
+        "meaning": "Chất đống trên kệ",
+        "isCorrect": false
+      },
+      {
+        "text": "Hanging on the wall",
+        "meaning": "Treo trên tường",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/28_1_60xdXAPVR.jpeg"
+  },
+  {
+    "id": "t2-q14",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Home",
+    "keywords": [
+      "dumping"
+    ],
+    "scene": "Người đàn ông đang đổ rác vào trong xe hoặc thùng rác.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "The man is dumping the garbage.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ 'dump' đặc tả hành động đổ rác hoặc vứt bỏ chất thải."
+      },
+      {
+        "text": "The man is cleaning the garbage.",
+        "isCorrect": false,
+        "rationale": "Không tự nhiên bằng động từ 'dumping the garbage'."
+      },
+      {
+        "text": "The man is arranging the garbage.",
+        "isCorrect": false,
+        "rationale": "Không ai đi sắp xếp rác thải theo cách này."
+      },
+      {
+        "text": "The man is vacuuming the garbage.",
+        "isCorrect": false,
+        "rationale": "Hút bụi rác thải không đúng ngữ cảnh."
+      }
+    ],
+    "hint": "Hành động đổ hoặc vứt bỏ rác thải.",
+    "phraseOptions": [
+      {
+        "text": "Dump the garbage",
+        "meaning": "Đổ bỏ rác",
+        "isCorrect": true
+      },
+      {
+        "text": "Sort the trash",
+        "meaning": "Phân loại rác",
+        "isCorrect": false
+      },
+      {
+        "text": "Sweep the garden",
+        "meaning": "Quét dọn sân vườn",
+        "isCorrect": false
+      },
+      {
+        "text": "Carry a bucket",
+        "meaning": "Xách một chiếc xô",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/28_2_1wl5q_zLy.jpeg"
+  },
+  {
+    "id": "t2-q15",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Home",
+    "keywords": [
+      "stands"
+    ],
+    "scene": "Chiếc ti vi được kê ngay ngắn dọc theo bức tường phòng khách.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "A television stands along the wall.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ 'stands' mô tả vị trí dựng đứng, đứng yên dọc theo bức tường."
+      },
+      {
+        "text": "A television pours along the wall.",
+        "isCorrect": false,
+        "rationale": "Hoàn toàn sai nghĩa."
+      },
+      {
+        "text": "A television cleans along the wall.",
+        "isCorrect": false,
+        "rationale": "Ti vi không tự làm sạch dọc theo bức tường."
+      },
+      {
+        "text": "A television vacuums along the wall.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa."
+      }
+    ],
+    "hint": "Vị trí đặt thẳng đứng của chiếc ti vi cạnh bức tường.",
+    "phraseOptions": [
+      {
+        "text": "Stand along the wall",
+        "meaning": "Đứng dọc theo tường",
+        "isCorrect": true
+      },
+      {
+        "text": "Hang on the ceiling",
+        "meaning": "Treo trên trần",
+        "isCorrect": false
+      },
+      {
+        "text": "Place under the table",
+        "meaning": "Đặt dưới gầm bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Move into corner",
+        "meaning": "Di chuyển vào góc",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/29_1_N58kcB5GN.jpeg"
+  },
+  {
+    "id": "t2-q16",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Home",
+    "keywords": [
+      "cleaning"
+    ],
+    "scene": "Người phụ nữ đang dùng khăn lau dọn mặt bàn bếp.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "The woman is cleaning the counter.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Hành động lau dọn bàn bếp dùng động từ 'cleaning'."
+      },
+      {
+        "text": "The woman is pouring the counter.",
+        "isCorrect": false,
+        "rationale": "Rót bàn bếp là sai nghĩa."
+      },
+      {
+        "text": "The woman is arranging the counter.",
+        "isCorrect": false,
+        "rationale": "Không phù hợp bối cảnh dùng giẻ lau mặt bàn."
+      },
+      {
+        "text": "The woman is standing the counter.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp và nghĩa."
+      }
+    ],
+    "hint": "Hành động lau chùi, dọn dẹp mặt bàn bếp.",
+    "phraseOptions": [
+      {
+        "text": "Clean the counter",
+        "meaning": "Lau dọn bàn bếp",
+        "isCorrect": true
+      },
+      {
+        "text": "Cook a meal",
+        "meaning": "Nấu một bữa ăn",
+        "isCorrect": false
+      },
+      {
+        "text": "Wash the cup",
+        "meaning": "Rửa chiếc tách",
+        "isCorrect": false
+      },
+      {
+        "text": "Chop vegetables",
+        "meaning": "Thái rau củ",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/29_2_5sCWjief4.jpeg"
+  },
+  {
+    "id": "t2-q17",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Home",
+    "keywords": [
+      "plant",
+      "water"
+    ],
+    "scene": "Người phụ nữ đang cầm bình nước tưới cây cảnh ngoài vườn.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'plant' và 'water'.",
+    "answerOptions": [
+      {
+        "text": "The woman is watering the plant.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'Water' đóng vai trò động từ và 'plant' chia số ít phù hợp với bức tranh vẽ."
+      },
+      {
+        "text": "The woman is water the plant.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, thiếu đuôi '-ing'."
+      },
+      {
+        "text": "The woman is watering the plants.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu từ số ít 'plant' chứ không dùng 'plants' số nhiều."
+      },
+      {
+        "text": "The woman is cleaning the plant.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu động từ tưới nước 'water'."
+      }
+    ],
+    "hint": "Sử dụng 'water' làm động từ tiếp diễn và từ khóa 'plant' số ít.",
+    "phraseOptions": [
+      {
+        "text": "Water the plant",
+        "meaning": "Tưới cây cảnh",
+        "isCorrect": true
+      },
+      {
+        "text": "Prune the leaves",
+        "meaning": "Tỉa lá cây",
+        "isCorrect": false
+      },
+      {
+        "text": "Move the pot",
+        "meaning": "Di chuyển chậu cây",
+        "isCorrect": false
+      },
+      {
+        "text": "Plant the seeds",
+        "meaning": "Gieo hạt giống",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/30_1_ahrcmi6Mo.jpeg"
+  },
+  {
+    "id": "t2-q18",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Home",
+    "keywords": [
+      "basket",
+      "into"
+    ],
+    "scene": "Người phụ nữ đang đặt chiếc ô gập gọn vào trong một chiếc giỏ đựng đồ.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'basket' và 'into'.",
+    "answerOptions": [
+      {
+        "text": "The woman is putting an umbrella into the basket.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Diễn tả hành động đặt vật vào bên trong giỏ dùng giới từ 'into'."
+      },
+      {
+        "text": "The woman is putting an umbrella in the basket.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: không chứa từ 'into' như yêu cầu."
+      },
+      {
+        "text": "The woman is putting an umbrella into the box.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu danh từ 'basket'."
+      },
+      {
+        "text": "The woman put an umbrella into the basket.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Đảm bảo câu chứa đầy đủ hai từ khóa 'basket' và giới từ chỉ hướng 'into'.",
+    "phraseOptions": [
+      {
+        "text": "Put into the basket",
+        "meaning": "Đặt vào trong giỏ",
+        "isCorrect": true
+      },
+      {
+        "text": "Carry the basket",
+        "meaning": "Xách chiếc giỏ",
+        "isCorrect": false
+      },
+      {
+        "text": "Empty the basket",
+        "meaning": "Đổ hết đồ trong giỏ",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the basket",
+        "meaning": "Lau chùi chiếc giỏ",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/31_1_fbV6yCRLy.jpeg"
+  },
+  {
+    "id": "t2-q19",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Home",
+    "keywords": [
+      "potted",
+      "courtyard"
+    ],
+    "scene": "Nhiều chậu cây cảnh được xếp bày xung quanh khoảng sân trong nhà.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'potted' và 'courtyard'.",
+    "answerOptions": [
+      {
+        "text": "There are some potted plants in the courtyard.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Câu mô tả đúng vị trí các chậu cây cảnh trong sân và chứa đúng từ khóa."
+      },
+      {
+        "text": "There are some pot plants in the courtyard.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu 'potted' (tính từ) chứ không dùng danh từ ghép 'pot'."
+      },
+      {
+        "text": "There are some potted plants in the garden.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu danh từ chỉ khoảng sân 'courtyard'."
+      },
+      {
+        "text": "Some potted plants are in courtyard.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước 'courtyard' tạo ra câu chưa hoàn chỉnh ngữ pháp."
+      }
+    ],
+    "hint": "Sử dụng cụm tính từ 'potted plants' và giới từ chỉ vị trí trong khoảng sân 'in the courtyard'.",
+    "phraseOptions": [
+      {
+        "text": "Potted plants in courtyard",
+        "meaning": "Chậu cây ở sân trong",
+        "isCorrect": true
+      },
+      {
+        "text": "Grass on the ground",
+        "meaning": "Cỏ trên mặt đất",
+        "isCorrect": false
+      },
+      {
+        "text": "Flowers on the window",
+        "meaning": "Hoa trên cửa sổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Trees near the fence",
+        "meaning": "Cây xanh cạnh hàng rào",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/31_2_UARMni8Ee.jpeg"
+  },
+  {
+    "id": "t2-q20",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Home",
+    "keywords": [
+      "up",
+      "rug"
+    ],
+    "scene": "Hai người phụ nữ đang phối hợp cuộn một chiếc thảm trải sàn lớn.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'up' và 'rug'.",
+    "answerOptions": [
+      {
+        "text": "The two women are rolling up the rug.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Sử dụng đúng cụm động từ 'roll up' (cuộn lại) phù hợp với bối cảnh tấm thảm 'rug'."
+      },
+      {
+        "text": "The two women are rolling the rug.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu giới từ 'up' để tạo cụm động từ cuộn tròn."
+      },
+      {
+        "text": "The two women are rolling up the carpet.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu danh từ tấm thảm 'rug' như yêu cầu."
+      },
+      {
+        "text": "The two women roll up the rug.",
+        "isCorrect": false,
+        "rationale": "Hiện tại đơn không miêu tả sinh động khoảnh khắc tranh vẽ."
+      }
+    ],
+    "hint": "Cụm động từ cuộn tròn cái gì lại là 'roll up'.",
+    "phraseOptions": [
+      {
+        "text": "Roll up the rug",
+        "meaning": "Cuộn thảm lại",
+        "isCorrect": true
+      },
+      {
+        "text": "Clean the carpet",
+        "meaning": "Lau dọn thảm",
+        "isCorrect": false
+      },
+      {
+        "text": "Spread the blanket",
+        "meaning": "Trải chăn ra",
+        "isCorrect": false
+      },
+      {
+        "text": "Fold the towel",
+        "meaning": "Gấp khăn lại",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/32_1_48do-j28J.jpeg"
+  },
+  {
+    "id": "t2-q21",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Home",
+    "keywords": [
+      "work",
+      "machine"
+    ],
+    "scene": "Người đàn ông đang cắm cúi tập trung làm việc trên một chiếc máy khâu công nghiệp.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'work' và 'machine'.",
+    "answerOptions": [
+      {
+        "text": "The man is working on the machine.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ 'work' chia tiếp diễn đi kèm giới từ chỉ thiết bị 'on the machine'."
+      },
+      {
+        "text": "The man is working with machine.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: thiếu mạo từ 'the' trước danh từ xác định 'machine'."
+      },
+      {
+        "text": "The man is work on the machine.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp tiếp diễn."
+      },
+      {
+        "text": "The man is operating the sewing machine.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu động từ 'work' như yêu cầu."
+      }
+    ],
+    "hint": "Làm việc thao tác trên một thiết bị máy móc dùng giới từ 'on'.",
+    "phraseOptions": [
+      {
+        "text": "Work on the machine",
+        "meaning": "Làm việc trên máy",
+        "isCorrect": true
+      },
+      {
+        "text": "Repair the motor",
+        "meaning": "Sửa chữa động cơ",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the machine surface",
+        "meaning": "Lau chùi bề mặt máy",
+        "isCorrect": false
+      },
+      {
+        "text": "Turn off the switch",
+        "meaning": "Tắt công tắc điện",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/32_2_HMwB4JPCu.jpeg"
+  },
+  {
+    "id": "t2-q22",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Home",
+    "keywords": [
+      "place",
+      "sofa"
+    ],
+    "scene": "Một chiếc túi xách du lịch lớn được đặt ngay ngắn trên mặt ghế sofa.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'place' và 'sofa'.",
+    "answerOptions": [
+      {
+        "text": "A bag has been placed on the sofa.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Trạng thái bị động hoàn thành 'has been placed' chỉ vật đã được đặt lên mặt ghế sofa."
+      },
+      {
+        "text": "A bag is placing on the sofa.",
+        "isCorrect": false,
+        "rationale": "Sai chủ động: chiếc túi không thể tự đặt chính nó lên ghế."
+      },
+      {
+        "text": "A bag has been placed in the sofa.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: đặt trên mặt ghế dùng giới từ 'on'."
+      },
+      {
+        "text": "A bag has placed on the sofa.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc bị động."
+      }
+    ],
+    "hint": "Dùng thể bị động để diễn tả trạng thái của đồ vật trên ghế sofa.",
+    "phraseOptions": [
+      {
+        "text": "Placed on the sofa",
+        "meaning": "Đặt trên ghế sofa",
+        "isCorrect": true
+      },
+      {
+        "text": "Hanging near window",
+        "meaning": "Treo gần cửa sổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Thrown under chair",
+        "meaning": "Vứt dưới gầm ghế",
+        "isCorrect": false
+      },
+      {
+        "text": "Stacked on the floor",
+        "meaning": "Xếp chồng trên sàn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/33_1_VjYt0Y37M.jpeg"
+  }
+]

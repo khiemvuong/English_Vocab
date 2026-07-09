@@ -91,6 +91,12 @@ export interface WritingSkillType {
   description: string;
 }
 
+export interface PhraseOption {
+  text: string;
+  meaning: string;
+  isCorrect: boolean;
+}
+
 export interface WritingQuestion {
   id: string;
   skillType: "verbTense" | "preposition" | "connector" | "intensifier" | "sentenceCombining" | "scoringRubric";
@@ -101,7 +107,9 @@ export interface WritingQuestion {
   question: string;
   answerOptions: AnswerOption[];
   hint: string;
+  vocabHint?: string;
   image?: string; // ImageKit URL for the scene picture
+  phraseOptions?: PhraseOption[];
 }
 
 export interface WritingQuestionSet {

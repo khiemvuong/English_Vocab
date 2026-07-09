@@ -1,0 +1,1210 @@
+[
+  {
+    "id": "t5-q01",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Places",
+    "keywords": [
+      "looking at",
+      "shelves"
+    ],
+    "scene": "Người phụ nữ đang đứng nhìn ngắm các cuốn sách đặt trên kệ.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'looking at' và 'shelves'.",
+    "answerOptions": [
+      {
+        "text": "The woman is looking at the books on the shelves.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ nhìn ngắm 'looking at' và danh từ số nhiều kệ sách 'shelves' chia chuẩn xác."
+      },
+      {
+        "text": "The woman is looking at the books on the shelf.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu số nhiều 'shelves' chứ không dùng 'shelf' số ít."
+      },
+      {
+        "text": "The woman is looking the books on the shelves.",
+        "isCorrect": false,
+        "rationale": "Thiếu giới từ 'at' sau 'looking'."
+      },
+      {
+        "text": "The woman looks at the books on the shelves.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không mô tả sinh động khoảnh khắc tiếp diễn."
+      }
+    ],
+    "hint": "Người phụ nữ đang nhìn lên các kệ sách (số nhiều).",
+    "phraseOptions": [
+      {
+        "text": "Look at the shelves",
+        "meaning": "Nhìn lên kệ sách",
+        "isCorrect": true
+      },
+      {
+        "text": "Clean the shelf",
+        "meaning": "Lau dọn kệ sách",
+        "isCorrect": false
+      },
+      {
+        "text": "Carry a box",
+        "meaning": "Mang một chiếc hộp",
+        "isCorrect": false
+      },
+      {
+        "text": "Read the book",
+        "meaning": "Đọc cuốn sách",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/60_1_T55OvMd30.jpeg"
+  },
+  {
+    "id": "t5-q02",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Places",
+    "keywords": [
+      "front of"
+    ],
+    "scene": "Một vài người khách đang đứng xếp hàng chờ đợi trước quầy phục vụ.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng cụm từ 'front of'.",
+    "answerOptions": [
+      {
+        "text": "They’re standing in front of the counter.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giới từ vị trí phía trước quầy là 'in front of the counter'."
+      },
+      {
+        "text": "They’re standing on front of the counter.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'on front of'."
+      },
+      {
+        "text": "They’re standing behind the counter.",
+        "isCorrect": false,
+        "rationale": "Sai bối cảnh và từ khóa: họ đứng trước quầy chứ không phải đứng sau quầy của nhân viên."
+      },
+      {
+        "text": "They’re stand in front of the counter.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Khách hàng đang đứng ở vị trí phía trước quầy thanh toán.",
+    "phraseOptions": [
+      {
+        "text": "Stand in front of",
+        "meaning": "Đứng phía trước",
+        "isCorrect": true
+      },
+      {
+        "text": "Sit behind counter",
+        "meaning": "Ngồi sau quầy",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the glass",
+        "meaning": "Lau chùi cửa kính",
+        "isCorrect": false
+      },
+      {
+        "text": "Wait outside door",
+        "meaning": "Đợi bên ngoài cửa",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/60_2_fgRZuu_ES.jpeg"
+  },
+  {
+    "id": "t5-q03",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Places",
+    "keywords": [
+      "holding",
+      "plate"
+    ],
+    "scene": "Người phục vụ hoặc khách hàng đang cầm một đĩa đồ ăn trên tay.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'holding' và 'plate'.",
+    "answerOptions": [
+      {
+        "text": "She is holding a plate of food.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì tiếp diễn miêu tả hành động bưng cầm đĩa đồ ăn."
+      },
+      {
+        "text": "She is holding plates of food.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: tranh chỉ có 1 chiếc đĩa số ít 'plate'."
+      },
+      {
+        "text": "She is hold a plate of food.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, thiếu đuôi '-ing'."
+      },
+      {
+        "text": "She holds a plate of food.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp mô tả tranh."
+      }
+    ],
+    "hint": "Hành động đang cầm một đĩa thức ăn.",
+    "phraseOptions": [
+      {
+        "text": "Hold a plate",
+        "meaning": "Cầm đĩa thức ăn",
+        "isCorrect": true
+      },
+      {
+        "text": "Wash the plate",
+        "meaning": "Rửa đĩa",
+        "isCorrect": false
+      },
+      {
+        "text": "Serve the meal",
+        "meaning": "Phục vụ bữa ăn",
+        "isCorrect": false
+      },
+      {
+        "text": "Eat the food",
+        "meaning": "Ăn thức ăn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/61_1_VhGQsv43P.jpeg"
+  },
+  {
+    "id": "t5-q04",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Places",
+    "keywords": [
+      "hang",
+      "ceiling"
+    ],
+    "scene": "Những chiếc đèn chùm lớn được treo rủ từ trên trần nhà xuống.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'hang' và 'ceiling'.",
+    "answerOptions": [
+      {
+        "text": "Lamps are hanging from the ceiling.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Trạng thái đèn được treo thả từ trần nhà xuống là 'hanging from the ceiling'."
+      },
+      {
+        "text": "Lamps are hanging on the ceiling.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'on the ceiling' cho việc treo rủ."
+      },
+      {
+        "text": "Lamps hang from the ceiling.",
+        "isCorrect": false,
+        "rationale": "Thì tiếp diễn tả trạng thái lơ lửng sinh động và tự nhiên hơn."
+      },
+      {
+        "text": "Lamps are hanging under the ceiling.",
+        "isCorrect": false,
+        "rationale": "Không tự nhiên bằng cụm từ 'from the ceiling'."
+      }
+    ],
+    "hint": "Vật treo thả từ trên trần nhà xuống dùng giới từ 'from'.",
+    "phraseOptions": [
+      {
+        "text": "Hang from the ceiling",
+        "meaning": "Treo từ trần nhà",
+        "isCorrect": true
+      },
+      {
+        "text": "Place on the table",
+        "meaning": "Đặt trên bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Stand near the wall",
+        "meaning": "Đứng cạnh tường",
+        "isCorrect": false
+      },
+      {
+        "text": "Hanging on the door",
+        "meaning": "Treo trên cửa",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/61_2_HAxG5I9Aq.jpeg"
+  },
+  {
+    "id": "t5-q05",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Places",
+    "keywords": [
+      "arranged"
+    ],
+    "scene": "Nhiều giỏ hoa tươi được sắp xếp đẹp đẽ trưng bày trong tiệm bán hoa.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'arranged'.",
+    "answerOptions": [
+      {
+        "text": "Flowers have been arranged in the shop.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Câu bị động chỉ trạng thái hoa được cắm và xếp đặt gọn gàng trong tiệm."
+      },
+      {
+        "text": "Flowers have been arranged on the shop.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: trong cửa hàng ta dùng giới từ 'in the shop'."
+      },
+      {
+        "text": "Flowers have arranged in the shop.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc bị động."
+      },
+      {
+        "text": "Flowers are arranging in the shop.",
+        "isCorrect": false,
+        "rationale": "Sai chủ động: hoa không thể tự cắm đặt chính nó."
+      }
+    ],
+    "hint": "Hoa được bày biện cắm đặt gọn gàng bên trong tiệm hoa.",
+    "phraseOptions": [
+      {
+        "text": "Arranged in the shop",
+        "meaning": "Sắp xếp trong cửa hàng",
+        "isCorrect": true
+      },
+      {
+        "text": "Hanging near window",
+        "meaning": "Treo gần cửa sổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Thrown on floor",
+        "meaning": "Vứt trên sàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Selling outside",
+        "meaning": "Bán ngoài trời",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/62_1_o3iLCbPlO.jpeg"
+  },
+  {
+    "id": "t5-q06",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Places",
+    "keywords": [
+      "table"
+    ],
+    "scene": "Khách hàng ngồi quây quần dùng bữa xung quanh bàn ăn.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'table'.",
+    "answerOptions": [
+      {
+        "text": "People are sitting around the table.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Tư thế mọi người ngồi bao quanh chiếc bàn ăn là 'sitting around the table'."
+      },
+      {
+        "text": "People are sitting at around the table.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc giới từ ghép."
+      },
+      {
+        "text": "People are sitting around table.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước danh từ xác định 'table'."
+      },
+      {
+        "text": "People are sit around the table.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Khách ngồi vây quanh chiếc bàn ăn tròn.",
+    "phraseOptions": [
+      {
+        "text": "Sit around the table",
+        "meaning": "Ngồi quanh bàn",
+        "isCorrect": true
+      },
+      {
+        "text": "Stand near desk",
+        "meaning": "Đứng cạnh bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Leave the chairs",
+        "meaning": "Rời khỏi ghế",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the plate",
+        "meaning": "Lau dọn đĩa",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/62_2_2JACEa0wF.jpeg"
+  },
+  {
+    "id": "t5-q07",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Places",
+    "keywords": [
+      "buying",
+      "groceries"
+    ],
+    "scene": "Người phụ nữ đang chọn mua thực phẩm hàng hóa trong siêu thị.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'buying' và 'groceries'.",
+    "answerOptions": [
+      {
+        "text": "The woman is buying groceries.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì tiếp diễn diễn tả hành động đang mua sắm thực phẩm tươi sống."
+      },
+      {
+        "text": "The woman is buying grocery.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: hàng hóa thực phẩm luôn dùng dạng số nhiều 'groceries'."
+      },
+      {
+        "text": "The woman is buy groceries.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "The woman buys groceries.",
+        "isCorrect": false,
+        "rationale": "Hiện tại đơn không miêu tả sinh động khoảnh khắc tranh vẽ."
+      }
+    ],
+    "hint": "Hành động mua sắm thực phẩm (groceries số nhiều).",
+    "phraseOptions": [
+      {
+        "text": "Buy groceries",
+        "meaning": "Mua thực phẩm hàng ngày",
+        "isCorrect": true
+      },
+      {
+        "text": "Cook the meal",
+        "meaning": "Nấu bữa ăn",
+        "isCorrect": false
+      },
+      {
+        "text": "Wash the vegetables",
+        "meaning": "Rửa rau củ",
+        "isCorrect": false
+      },
+      {
+        "text": "Pay at cash counter",
+        "meaning": "Thanh toán tại quầy",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/63_1_laPmHqR-B.jpeg"
+  },
+  {
+    "id": "t5-q08",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Places",
+    "keywords": [
+      "row"
+    ],
+    "scene": "Nhiều chai nước thủy tinh được xếp thẳng tắp thành một hàng dài.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'row'.",
+    "answerOptions": [
+      {
+        "text": "Bottles are arranged in a row.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Trạng thái được xếp thành một hàng thẳng tắp là 'arranged in a row'."
+      },
+      {
+        "text": "Bottles are arranged on a row.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: xếp thành hàng dùng cụm giới từ 'in a row'."
+      },
+      {
+        "text": "Bottles are arranged in row.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'a' trong cụm 'in a row'."
+      },
+      {
+        "text": "Bottles arrange in a row.",
+        "isCorrect": false,
+        "rationale": "Sai bị động."
+      }
+    ],
+    "hint": "Chai nước được xếp thẳng tắp thành một hàng ngang.",
+    "phraseOptions": [
+      {
+        "text": "Arranged in a row",
+        "meaning": "Sắp xếp thành một hàng",
+        "isCorrect": true
+      },
+      {
+        "text": "Placed in boxes",
+        "meaning": "Đặt trong các hộp",
+        "isCorrect": false
+      },
+      {
+        "text": "Scattered on floor",
+        "meaning": "Rải rác trên sàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Stacked on shelf",
+        "meaning": "Chất đống trên kệ",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/63_2_KWJmL_oyq.jpeg"
+  },
+  {
+    "id": "t5-q09",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Places",
+    "keywords": [
+      "buying",
+      "newspaper"
+    ],
+    "scene": "Người đàn ông đứng xem và mua tờ báo tại sạp báo.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'buying' và 'newspaper'.",
+    "answerOptions": [
+      {
+        "text": "The man is buying a newspaper.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ 'buy' chia đúng tiếp diễn và chứa đúng danh từ tờ báo 'newspaper'."
+      },
+      {
+        "text": "The man is buying newspaper.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'a' trước danh từ đếm được số ít 'newspaper'."
+      },
+      {
+        "text": "The man is buy a newspaper.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "The man buys a newspaper.",
+        "isCorrect": false,
+        "rationale": "Hiện tại đơn không mô tả sinh động khoảnh khắc tranh vẽ."
+      }
+    ],
+    "hint": "Hành động mua một tờ báo ở quầy bán báo.",
+    "phraseOptions": [
+      {
+        "text": "Buy a newspaper",
+        "meaning": "Mua một tờ báo",
+        "isCorrect": true
+      },
+      {
+        "text": "Read the news",
+        "meaning": "Đọc tin tức",
+        "isCorrect": false
+      },
+      {
+        "text": "Fold the paper",
+        "meaning": "Gấp tờ báo",
+        "isCorrect": false
+      },
+      {
+        "text": "Write a report",
+        "meaning": "Viết báo cáo",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/64_1_zpnWoW0wQ.jpeg"
+  },
+  {
+    "id": "t5-q10",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Places",
+    "keywords": [
+      "counter"
+    ],
+    "scene": "Nhiều giỏ trái cây, rau quả tươi được bày ngay ngắn dọc quầy phục vụ hàng.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'counter'.",
+    "answerOptions": [
+      {
+        "text": "Fresh fruits are displayed on the counter.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Bày biện hoa quả trên mặt quầy dùng giới từ 'on the counter'."
+      },
+      {
+        "text": "Fresh fruits are displayed in the counter.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: bày trên bề mặt quầy dùng giới từ 'on'."
+      },
+      {
+        "text": "Fresh fruits are displayed at the counter.",
+        "isCorrect": false,
+        "rationale": "Không tự nhiên bằng giới từ chỉ rõ bề mặt 'on the counter'."
+      },
+      {
+        "text": "Fresh fruits display on the counter.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc bị động."
+      }
+    ],
+    "hint": "Trái cây tươi được trưng bày trên mặt quầy hàng.",
+    "phraseOptions": [
+      {
+        "text": "Displayed on the counter",
+        "meaning": "Trưng bày trên quầy",
+        "isCorrect": true
+      },
+      {
+        "text": "Placed under table",
+        "meaning": "Đặt dưới gầm bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Hanging from window",
+        "meaning": "Treo trên cửa sổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Stacked in backyard",
+        "meaning": "Xếp chồng ở sân sau",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/64_2_UsHWZy8Kd.jpeg"
+  },
+  {
+    "id": "t5-q11",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Places",
+    "keywords": [
+      "chopping"
+    ],
+    "scene": "Người đầu bếp đang dùng dao băm thái rau củ quả trên thớt gỗ.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "The chef is chopping vegetables.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ băm thái cắt nhỏ thực phẩm dùng 'chopping'."
+      },
+      {
+        "text": "The chef is pushing vegetables.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: không đẩy rau củ."
+      },
+      {
+        "text": "The chef is serving vegetables.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: anh ấy đang chế biến chứ không phải bưng lên phục vụ."
+      },
+      {
+        "text": "The chef is cleaning vegetables.",
+        "isCorrect": false,
+        "rationale": "Mặc dù có lau rửa nhưng thao tác cầm dao băm nhỏ dùng 'chopping' chuẩn xác nhất."
+      }
+    ],
+    "hint": "Hành động dùng dao thái cắt nhỏ rau củ trên thớt.",
+    "phraseOptions": [
+      {
+        "text": "Chop vegetables",
+        "meaning": "Thái rau củ quả",
+        "isCorrect": true
+      },
+      {
+        "text": "Peel the skin",
+        "meaning": "Gọt vỏ",
+        "isCorrect": false
+      },
+      {
+        "text": "Wash under tap",
+        "meaning": "Rửa dưới vòi nước",
+        "isCorrect": false
+      },
+      {
+        "text": "Boil in pot",
+        "meaning": "Luộc trong nồi",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/65_1_92CEDkirO.jpeg"
+  },
+  {
+    "id": "t5-q12",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Places",
+    "keywords": [
+      "looking at"
+    ],
+    "scene": "Người phụ nữ đang đứng nhìn ngắm ngắm nghía đồ trang sức trong tủ kính.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "She is looking at the items in the showcase.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'Looking at' diễn tả việc ngắm nhìn sản phẩm trưng bày."
+      },
+      {
+        "text": "She is serving the items in the showcase.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: cô ấy là khách hàng đi xem chứ không phục vụ."
+      },
+      {
+        "text": "She is chopping the items in the showcase.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa hoàn toàn."
+      },
+      {
+        "text": "She is pushing the items in the showcase.",
+        "isCorrect": false,
+        "rationale": "Không đúng bối cảnh nhìn xem tủ kính."
+      }
+    ],
+    "hint": "Khách hàng đang chăm chú xem các sản phẩm trong tủ trưng bày kính.",
+    "phraseOptions": [
+      {
+        "text": "Look at the showcase",
+        "meaning": "Nhìn vào tủ trưng bày",
+        "isCorrect": true
+      },
+      {
+        "text": "Clean the window glass",
+        "meaning": "Lau dọn mặt kính cửa",
+        "isCorrect": false
+      },
+      {
+        "text": "Lock the showcase door",
+        "meaning": "Khóa tủ trưng bày",
+        "isCorrect": false
+      },
+      {
+        "text": "Hold a handbag",
+        "meaning": "Cầm một chiếc túi xách",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/66_1_2cKYdTClr.jpeg"
+  },
+  {
+    "id": "t5-q13",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Places",
+    "keywords": [
+      "serving"
+    ],
+    "scene": "Người nhân viên phục vụ đang bưng món ăn phục vụ khách hàng tại bàn.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "A waiter is serving the customers.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Hành động bưng thức ăn phục vụ thực khách dùng động từ 'serving'."
+      },
+      {
+        "text": "A waiter is chopping the customers.",
+        "isCorrect": false,
+        "rationale": "Hoàn toàn sai nghĩa bạo lực."
+      },
+      {
+        "text": "A waiter is looking the customers.",
+        "isCorrect": false,
+        "rationale": "Thiếu giới từ 'at' và không mô tả đúng hành động đưa đĩa đồ ăn."
+      },
+      {
+        "text": "A waiter is pushing the customers.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa."
+      }
+    ],
+    "hint": "Nhân viên phục vụ bưng món ăn đưa ra cho khách hàng.",
+    "phraseOptions": [
+      {
+        "text": "Serve the customers",
+        "meaning": "Phục vụ khách hàng",
+        "isCorrect": true
+      },
+      {
+        "text": "Take the order book",
+        "meaning": "Ghi nhận gọi món",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the table surface",
+        "meaning": "Lau sạch mặt bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Wash the plates",
+        "meaning": "Rửa sạch bát đĩa",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/66_2_GGW3vCDFC.jpeg"
+  },
+  {
+    "id": "t5-q14",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Places",
+    "keywords": [
+      "ordering"
+    ],
+    "scene": "Người đàn ông đang đứng gọi món ăn tại quầy thức ăn nhanh.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "The man is ordering food at the counter.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Hành động gọi món ăn của thực khách dùng 'ordering'."
+      },
+      {
+        "text": "The man is serving food at the counter.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: anh ấy là khách mua đang gọi đồ chứ không phải nhân viên bưng bê phục vụ."
+      },
+      {
+        "text": "The man is chopping food at the counter.",
+        "isCorrect": false,
+        "rationale": "Không đúng nghĩa thái thức ăn."
+      },
+      {
+        "text": "The man is looking food at the counter.",
+        "isCorrect": false,
+        "rationale": "Thiếu giới từ 'at' và không sát bối cảnh giao tiếp gọi món."
+      }
+    ],
+    "hint": "Khách hàng gọi món ăn tại quầy thanh toán.",
+    "phraseOptions": [
+      {
+        "text": "Order food at counter",
+        "meaning": "Gọi món tại quầy",
+        "isCorrect": true
+      },
+      {
+        "text": "Pay with credit card",
+        "meaning": "Thanh toán bằng thẻ",
+        "isCorrect": false
+      },
+      {
+        "text": "Cook in kitchen",
+        "meaning": "Nấu ăn trong bếp",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the floor",
+        "meaning": "Lau dọn sàn nhà",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/67_1_50d-Rhuli.jpeg"
+  },
+  {
+    "id": "t5-q15",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Places",
+    "keywords": [
+      "browsing"
+    ],
+    "scene": "Người phụ nữ đang thong thả đi dạo xem lướt qua sách tại hiệu sách.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "The customer is browsing books.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ 'browsing' nghĩa là xem lướt qua các sản phẩm/sách trên kệ để lựa chọn."
+      },
+      {
+        "text": "The customer is serving books.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: sách không được phục vụ ăn uống."
+      },
+      {
+        "text": "The customer is chopping books.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa băm chặt sách."
+      },
+      {
+        "text": "The customer is pushing books.",
+        "isCorrect": false,
+        "rationale": "Không đúng bối cảnh mua sắm."
+      }
+    ],
+    "hint": "Hành động xem lướt qua để chọn mua sách.",
+    "phraseOptions": [
+      {
+        "text": "Browse books on shelf",
+        "meaning": "Xem lướt sách trên kệ",
+        "isCorrect": true
+      },
+      {
+        "text": "Buy a pencil",
+        "meaning": "Mua một chiếc bút chì",
+        "isCorrect": false
+      },
+      {
+        "text": "Read the story",
+        "meaning": "Đọc câu chuyện",
+        "isCorrect": false
+      },
+      {
+        "text": "Write a diary",
+        "meaning": "Viết nhật ký",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/67_2_kXUbKjnre.jpeg"
+  },
+  {
+    "id": "t5-q16",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Places",
+    "keywords": [
+      "dresses",
+      "in front of"
+    ],
+    "scene": "Người phụ nữ đang đứng ngắm nghía các bộ váy treo phía trước cửa hàng.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'dresses' và 'in front of'.",
+    "answerOptions": [
+      {
+        "text": "The woman is looking at some dresses in front of the store.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Chia đúng động từ tiếp diễn 'looking at', danh từ số nhiều váy 'dresses' và vị trí phía trước 'in front of'."
+      },
+      {
+        "text": "The woman is looking at some dress in front of the store.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu số nhiều 'dresses'."
+      },
+      {
+        "text": "The woman is looking at some dresses behind the store.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu cụm giới từ 'in front of'."
+      },
+      {
+        "text": "The woman is looking at some dresses in front of store.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước 'store'."
+      }
+    ],
+    "hint": "Ngắm những chiếc váy (dresses số nhiều) đặt phía trước cửa hàng.",
+    "phraseOptions": [
+      {
+        "text": "Dresses in front of store",
+        "meaning": "Váy phía trước cửa hàng",
+        "isCorrect": true
+      },
+      {
+        "text": "Shoes in window glass",
+        "meaning": "Giày trong tủ kính",
+        "isCorrect": false
+      },
+      {
+        "text": "Hanging clothes inside",
+        "meaning": "Treo quần áo bên trong",
+        "isCorrect": false
+      },
+      {
+        "text": "Buy accessories near door",
+        "meaning": "Mua trang sức cạnh cửa",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/68_1_Um7yGCDq0.jpeg"
+  },
+  {
+    "id": "t5-q17",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Places",
+    "keywords": [
+      "customer",
+      "credit card"
+    ],
+    "scene": "Người khách hàng đang đưa chiếc thẻ tín dụng cho nhân viên thu ngân.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'customer' và 'credit card'.",
+    "answerOptions": [
+      {
+        "text": "The customer is handing a credit card to the cashier.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ trao tay 'handing' kết hợp với cụm từ khóa 'customer' số ít và thẻ tín dụng 'credit card'."
+      },
+      {
+        "text": "The customer is handing credit card to the cashier.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'a' trước danh từ đếm được số ít 'credit card'."
+      },
+      {
+        "text": "The customers are handing a credit card to the cashier.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: tranh chỉ có 1 khách hàng giao dịch dùng 'customer' số ít."
+      },
+      {
+        "text": "The customer is using a credit card to pay.",
+        "isCorrect": false,
+        "rationale": "Mặc dù đúng ý nhưng thiếu cụm động từ trao tay đưa thẻ cho nhân viên."
+      }
+    ],
+    "hint": "Đưa thẻ tín dụng cho ai dùng cụm 'handing a credit card to someone'.",
+    "phraseOptions": [
+      {
+        "text": "Hand a credit card",
+        "meaning": "Đưa thẻ tín dụng",
+        "isCorrect": true
+      },
+      {
+        "text": "Sign the receipt",
+        "meaning": "Ký biên lai",
+        "isCorrect": false
+      },
+      {
+        "text": "Count the cash money",
+        "meaning": "Đếm tiền mặt",
+        "isCorrect": false
+      },
+      {
+        "text": "Open the wallet",
+        "meaning": "Mở ví tiền",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/69_1_OfIf2tVg7.jpeg"
+  },
+  {
+    "id": "t5-q18",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Places",
+    "keywords": [
+      "fruit",
+      "while"
+    ],
+    "scene": "Người phụ nữ lựa chọn hoa quả tươi trong khi có người đẩy xe mua sắm đi ngang qua.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'fruit' và 'while'.",
+    "answerOptions": [
+      {
+        "text": "The woman is choosing some fruit while holding a bag.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Sử dụng đúng liên từ song song 'while' và chứa đúng từ khóa không đếm được 'fruit'."
+      },
+      {
+        "text": "The woman is choosing some fruits while holding a bag.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: trong văn cảnh này, từ khóa yêu cầu là danh từ không đếm được 'fruit' số ít bổ nghĩa cho 'some' chỉ các loại quả ăn."
+      },
+      {
+        "text": "The woman is choosing some fruit because holding a bag.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ nối."
+      },
+      {
+        "text": "The woman is choose some fruit while holding a bag.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp động từ tiếp diễn."
+      }
+    ],
+    "hint": "Đảm bảo câu dùng đúng liên từ 'while' nối hành động và danh từ không đếm được 'fruit'.",
+    "phraseOptions": [
+      {
+        "text": "Choose fruit while",
+        "meaning": "Chọn hoa quả trong khi",
+        "isCorrect": true
+      },
+      {
+        "text": "Weigh items on scale",
+        "meaning": "Cân vật phẩm trên cân",
+        "isCorrect": false
+      },
+      {
+        "text": "Wash fruits in kitchen",
+        "meaning": "Rửa quả trong bếp",
+        "isCorrect": false
+      },
+      {
+        "text": "Eat apple in garden",
+        "meaning": "Ăn táo ngoài vườn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/69_2_EWv9mhW-B.jpeg"
+  },
+  {
+    "id": "t5-q19",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Places",
+    "keywords": [
+      "row",
+      "building"
+    ],
+    "scene": "Nhiều ngôi nhà được xây dựng thẳng hàng nối dài bên cạnh con đường.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'row' và 'building'.",
+    "answerOptions": [
+      {
+        "text": "There is a row of buildings along the street.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cấu trúc tồn tại chỉ một dãy hàng nhà 'there is a row of buildings' chạy dọc theo con đường."
+      },
+      {
+        "text": "There are a row of buildings along the street.",
+        "isCorrect": false,
+        "rationale": "Sai hòa hợp chủ vị: chủ ngữ chính sau 'there' là cụm từ số ít 'a row' nên động từ phải dùng 'is' chứ không dùng 'are'."
+      },
+      {
+        "text": "There is a row of building along the street.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: sau cụm 'a row of' (một dãy các...) phải đi kèm danh từ số nhiều 'buildings'."
+      },
+      {
+        "text": "A row of buildings is along the street.",
+        "isCorrect": false,
+        "rationale": "Diễn đạt chưa tự nhiên bằng cấu trúc tồn tại 'there is'."
+      }
+    ],
+    "hint": "Cấu trúc một dãy các tòa nhà chạy dọc phố dùng 'there is a row of buildings along...'.",
+    "phraseOptions": [
+      {
+        "text": "Row of buildings along",
+        "meaning": "Dãy nhà dọc theo",
+        "isCorrect": true
+      },
+      {
+        "text": "Parked cars on road",
+        "meaning": "Xe đỗ trên đường",
+        "isCorrect": false
+      },
+      {
+        "text": "Trees in the garden",
+        "meaning": "Cây xanh trong vườn",
+        "isCorrect": false
+      },
+      {
+        "text": "Walking people on path",
+        "meaning": "Người đi bộ trên lối đi",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/70_1_wPMf2ZiBj.jpeg"
+  },
+  {
+    "id": "t5-q20",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Places",
+    "keywords": [
+      "sign",
+      "building"
+    ],
+    "scene": "Biển quảng cáo hoặc biển báo được treo gắn bên ngoài tòa nhà.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'sign' và 'building'.",
+    "answerOptions": [
+      {
+        "text": "A sign is hanging on the wall of the building.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Mô tả đúng trạng thái treo tấm biển báo 'sign' trên bức tường tòa nhà."
+      },
+      {
+        "text": "A sign is hanging to the wall of the building.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: treo trên tường dùng giới từ 'on the wall'."
+      },
+      {
+        "text": "A sign is hanging on wall of building.",
+        "isCorrect": false,
+        "rationale": "Thiếu các mạo từ xác định 'the' trước 'wall' và 'building'."
+      },
+      {
+        "text": "The signs are hanging on the wall of building.",
+        "isCorrect": false,
+        "rationale": "Sai số nhiều và thiếu mạo từ."
+      }
+    ],
+    "hint": "Tấm biển báo treo trên tường của tòa nhà dùng giới từ 'on the wall of the building'.",
+    "phraseOptions": [
+      {
+        "text": "Sign hanging on wall",
+        "meaning": "Biển báo treo trên tường",
+        "isCorrect": true
+      },
+      {
+        "text": "Flag waving near window",
+        "meaning": "Lá cờ vẫy cạnh cửa sổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Poster lying on ground",
+        "meaning": "Áp phích nằm trên đất",
+        "isCorrect": false
+      },
+      {
+        "text": "Lights illuminating entrance",
+        "meaning": "Đèn chiếu sáng lối vào",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/70_2_QkJVFbup5.jpeg"
+  },
+  {
+    "id": "t5-q21",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Places",
+    "keywords": [
+      "outdoor",
+      "restaurant"
+    ],
+    "scene": "Nhiều dãy bàn ghế gỗ được bày xếp ngăn nắp tại khu vực ăn uống ngoài trời của nhà hàng.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'outdoor' và 'restaurant'.",
+    "answerOptions": [
+      {
+        "text": "There are tables and chairs in the outdoor restaurant.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Dùng đúng từ chỉ tính chất ngoài trời 'outdoor' bổ nghĩa cho 'restaurant' và chia danh từ số nhiều."
+      },
+      {
+        "text": "There is tables and chairs in the outdoor restaurant.",
+        "isCorrect": false,
+        "rationale": "Sai hòa hợp: chủ ngữ chính số nhiều 'tables and chairs' phải dùng 'there are'."
+      },
+      {
+        "text": "There are tables and chairs in outdoor restaurant.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước cụm danh từ đếm được số ít 'outdoor restaurant'."
+      },
+      {
+        "text": "Tables and chairs are placed in restaurant.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu tính chất ngoài trời 'outdoor'."
+      }
+    ],
+    "hint": "Cấu trúc chỉ sự tồn tại bàn ghế ở nhà hàng ngoài trời.",
+    "phraseOptions": [
+      {
+        "text": "Outdoor restaurant seating",
+        "meaning": "Chỗ ngồi nhà hàng ngoài trời",
+        "isCorrect": true
+      },
+      {
+        "text": "Indoor dining room tables",
+        "meaning": "Bàn phòng ăn trong nhà",
+        "isCorrect": false
+      },
+      {
+        "text": "Kitchen counter cleaning",
+        "meaning": "Lau dọn quầy bếp",
+        "isCorrect": false
+      },
+      {
+        "text": "Bar stools near counter",
+        "meaning": "Ghế quầy bar cạnh quầy",
+        "isCorrect": false
+      }
+    ],
+    "image": ""
+  }
+]

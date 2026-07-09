@@ -4,7 +4,7 @@ import { useState, useEffect, useCallback } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import dynamic from "next/dynamic";
 import { BookOpen, FileText, LayoutList, CheckCircle, Pencil } from "lucide-react";
-import { WritingPracticeCard } from "@/components/home/WritingPracticeCard";
+import { WritingLessonCard } from "@/components/home/WritingLessonCard";
 import { LessonCard } from "@/components/home/LessonCard";
 import { PracticeCard } from "@/components/home/PracticeCard";
 import { Part6Card } from "@/components/home/Part6Card";
@@ -293,7 +293,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
                 : activeTab === "part6"
                 ? `${part6Tests.length} bộ đề Part 6 — Text Completion, giải thích chi tiết`
                 : activeTab === "writing"
-                ? "40 câu hỏi — Luyện viết câu mô tả tranh theo 6 kỹ năng, 5 chủ đề"
+                ? "TOEIC Writing Q1-5"
                 : `${part5Tests.length} bộ Part 5 + ${ets2026Tests.length} đề ETS 2026 — có ôn lỗi sai`}
             </p>
           </div>
@@ -380,7 +380,15 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
             style={{ display: activeTab === "writing" ? "block" : "none" }}
             className="animate-in fade-in duration-200"
           >
-            <WritingPracticeCard />
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
+              <WritingLessonCard file="mix" tagLabel="Writing Mix" mainTitle="40 câu tổng hợp" totalQuestions={40} colorTheme="purple" />
+              <WritingLessonCard file="intro" tagLabel="Writing Intro" mainTitle="Khởi động" totalQuestions={11} colorTheme="blue" />
+              <WritingLessonCard file="topic1" tagLabel="Topic 1" mainTitle="Workplace" totalQuestions={22} colorTheme="amber" />
+              <WritingLessonCard file="topic2" tagLabel="Topic 2" mainTitle="Home" totalQuestions={22} colorTheme="emerald" />
+              <WritingLessonCard file="topic3" tagLabel="Topic 3" mainTitle="Streets/Park" totalQuestions={22} colorTheme="orange" />
+              <WritingLessonCard file="topic4" tagLabel="Topic 4" mainTitle="Transportation" totalQuestions={21} colorTheme="blue" />
+              <WritingLessonCard file="topic5" tagLabel="Topic 5" mainTitle="Places" totalQuestions={21} colorTheme="purple" />
+            </div>
           </div>
 
       </div>

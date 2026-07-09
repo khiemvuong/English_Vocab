@@ -1,0 +1,1263 @@
+[
+  {
+    "id": "t3-q01",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Streets/Park",
+    "keywords": [
+      "digging"
+    ],
+    "scene": "Người đàn ông đang cúi xuống đào đất ngoài bãi cỏ.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'digging'.",
+    "answerOptions": [
+      {
+        "text": "The man is digging on the ground.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì tiếp diễn miêu tả hành động đào bới mặt đất đang diễn ra."
+      },
+      {
+        "text": "The man is dig on the ground.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, thiếu đuôi '-ing'."
+      },
+      {
+        "text": "The man digs on the ground.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp."
+      },
+      {
+        "text": "The man has dug on the ground.",
+        "isCorrect": false,
+        "rationale": "Thì hoàn thành không tả được khoảnh khắc đang đào đất."
+      }
+    ],
+    "hint": "Quan sát động thái người đàn ông đang xúc đào đất ngoài trời.",
+    "phraseOptions": [
+      {
+        "text": "Dig on the ground",
+        "meaning": "Đào đất",
+        "isCorrect": true
+      },
+      {
+        "text": "Mow the lawn",
+        "meaning": "Cắt cỏ",
+        "isCorrect": false
+      },
+      {
+        "text": "Plant a tree",
+        "meaning": "Trồng cây",
+        "isCorrect": false
+      },
+      {
+        "text": "Sweep the path",
+        "meaning": "Quét đường",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/35_1_QtlNpspM2.jpeg"
+  },
+  {
+    "id": "t3-q02",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Streets/Park",
+    "keywords": [
+      "walk",
+      "dog"
+    ],
+    "scene": "Người đàn ông dắt chó đi dạo trong công viên.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'walk' và 'dog'.",
+    "answerOptions": [
+      {
+        "text": "He's walking the dog.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cụm từ 'walk the dog' nghĩa là dắt chó đi dạo, chia ở thì tiếp diễn."
+      },
+      {
+        "text": "He's walking with the dog.",
+        "isCorrect": false,
+        "rationale": "Mặc dù đúng ngữ pháp nhưng 'walk the dog' là cấu trúc phổ biến và ngắn gọn hơn để chỉ dắt chó đi dạo."
+      },
+      {
+        "text": "He's walk the dog.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "He walks the dog.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp mô tả tranh tiếp diễn."
+      }
+    ],
+    "hint": "Cụm động từ dắt chó đi dạo là 'walk the dog'.",
+    "phraseOptions": [
+      {
+        "text": "Walk the dog",
+        "meaning": "Dắt chó đi dạo",
+        "isCorrect": true
+      },
+      {
+        "text": "Feed the dog",
+        "meaning": "Cho chó ăn",
+        "isCorrect": false
+      },
+      {
+        "text": "Train the dog",
+        "meaning": "Huấn luyện chó",
+        "isCorrect": false
+      },
+      {
+        "text": "Chase the dog",
+        "meaning": "Đuổi theo chó",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/35_2_7mENbz2t0.jpeg"
+  },
+  {
+    "id": "t3-q03",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Streets/Park",
+    "keywords": [
+      "photograph"
+    ],
+    "scene": "Người phụ nữ đang dùng điện thoại hoặc máy ảnh để chụp ảnh hướng ra biển.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'photograph'.",
+    "answerOptions": [
+      {
+        "text": "She is taking a photograph of the sea.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cụm từ 'take a photograph of something' chỉ việc chụp ảnh cái gì đó."
+      },
+      {
+        "text": "She is taking a photograph at the sea.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: chụp ảnh của cái gì dùng giới từ 'of'."
+      },
+      {
+        "text": "She is make a photograph of the sea.",
+        "isCorrect": false,
+        "rationale": "Sai động từ đi kèm: ta dùng 'take a photograph'."
+      },
+      {
+        "text": "She is taking photograph of the sea.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'a' trước danh từ số ít 'photograph'."
+      }
+    ],
+    "hint": "Chụp ảnh cái gì đó dùng cụm 'take a photograph of something'.",
+    "phraseOptions": [
+      {
+        "text": "Take a photograph of the sea",
+        "meaning": "Chụp ảnh biển",
+        "isCorrect": true
+      },
+      {
+        "text": "Swim in the sea",
+        "meaning": "Bơi ở biển",
+        "isCorrect": false
+      },
+      {
+        "text": "Look at the ships",
+        "meaning": "Nhìn những con tàu",
+        "isCorrect": false
+      },
+      {
+        "text": "Walk on the beach",
+        "meaning": "Đi bộ trên bãi biển",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/36_1_rBgOOVDtV.jpeg"
+  },
+  {
+    "id": "t3-q04",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Streets/Park",
+    "keywords": [
+      "bench"
+    ],
+    "scene": "Hai người đang ngồi cạnh nhau trên một chiếc ghế băng trong công viên.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'bench'.",
+    "answerOptions": [
+      {
+        "text": "They're sitting next to each other on the bench.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'Sitting next to each other on the bench' tả đúng tư thế ngồi cạnh nhau trên ghế dài."
+      },
+      {
+        "text": "They're sitting next to each other in the bench.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: ngồi trên ghế băng dùng giới từ 'on'."
+      },
+      {
+        "text": "They're sit next to each other on the bench.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "They're sitting next to each other under the bench.",
+        "isCorrect": false,
+        "rationale": "Sai bối cảnh: họ không ngồi dưới gầm ghế."
+      }
+    ],
+    "hint": "Ngồi cạnh nhau trên chiếc ghế băng dài.",
+    "phraseOptions": [
+      {
+        "text": "Sit next to each other",
+        "meaning": "Ngồi cạnh nhau",
+        "isCorrect": true
+      },
+      {
+        "text": "Stand in a line",
+        "meaning": "Đứng thành một hàng",
+        "isCorrect": false
+      },
+      {
+        "text": "Walk along the path",
+        "meaning": "Đi dạo dọc con đường",
+        "isCorrect": false
+      },
+      {
+        "text": "Talk on the phone",
+        "meaning": "Nói chuyện điện thoại",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/36_2_QBud_a0eC.jpeg"
+  },
+  {
+    "id": "t3-q05",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Streets/Park",
+    "keywords": [
+      "sidewalk"
+    ],
+    "scene": "Người đàn ông đang sải bước đi bộ trên vỉa hè.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'sidewalk'.",
+    "answerOptions": [
+      {
+        "text": "He is walking on the sidewalk.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Đi bộ trên vỉa hè dùng giới từ 'on the sidewalk'."
+      },
+      {
+        "text": "He is walking in the sidewalk.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'in the sidewalk'."
+      },
+      {
+        "text": "He is walking at the sidewalk.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'at the sidewalk'."
+      },
+      {
+        "text": "He is walk on the sidewalk.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Hành động đi bộ trên vỉa hè dùng giới từ 'on'.",
+    "phraseOptions": [
+      {
+        "text": "Walk on the sidewalk",
+        "meaning": "Đi bộ trên vỉa hè",
+        "isCorrect": true
+      },
+      {
+        "text": "Cross the street",
+        "meaning": "Băng qua đường",
+        "isCorrect": false
+      },
+      {
+        "text": "Ride a bike",
+        "meaning": "Đi xe đạp",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the road",
+        "meaning": "Dọn dẹp lòng đường",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/37_1_uJ-IB-Xnz.jpeg"
+  },
+  {
+    "id": "t3-q06",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Streets/Park",
+    "keywords": [
+      "sweep"
+    ],
+    "scene": "Một người đang dùng chổi quét dọn lối đi công cộng.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'sweeping'.",
+    "answerOptions": [
+      {
+        "text": "A person is sweeping.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Miêu tả ngắn gọn hành động quét dọn đang xảy ra bằng thì tiếp diễn."
+      },
+      {
+        "text": "A person is sweep.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, thiếu đuôi '-ing'."
+      },
+      {
+        "text": "A person sweeps.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp mô tả tranh tiếp diễn."
+      },
+      {
+        "text": "A person has swept.",
+        "isCorrect": false,
+        "rationale": "Thì hoàn thành không tả được hành động đang diễn ra."
+      }
+    ],
+    "hint": "Hành động đang quét dọn của chủ ngữ số ít.",
+    "phraseOptions": [
+      {
+        "text": "A person sweeping",
+        "meaning": "Một người đang quét dọn",
+        "isCorrect": true
+      },
+      {
+        "text": "A person digging",
+        "meaning": "Một người đang đào",
+        "isCorrect": false
+      },
+      {
+        "text": "A person walking",
+        "meaning": "Một người đang đi bộ",
+        "isCorrect": false
+      },
+      {
+        "text": "A person resting",
+        "meaning": "Một người đang nghỉ ngơi",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/37_2_vR4lVsuZE.jpeg"
+  },
+  {
+    "id": "t3-q07",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Streets/Park",
+    "keywords": [
+      "motorbike"
+    ],
+    "scene": "Người đàn ông đang lái chiếc xe máy di chuyển trên đường phố.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'motorbike'.",
+    "answerOptions": [
+      {
+        "text": "The man is riding a motorbike.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Đi xe máy, xe đạp dùng động từ 'ride', chia ở thì tiếp diễn."
+      },
+      {
+        "text": "The man is driving a motorbike.",
+        "isCorrect": false,
+        "rationale": "Sai động từ: 'drive' chỉ dùng cho ô tô, taxi, xe tải chứ không dùng cho xe máy."
+      },
+      {
+        "text": "The man is riding motorbike.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'a' trước danh từ số ít 'motorbike'."
+      },
+      {
+        "text": "The man is ride a motorbike.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp tiếp diễn."
+      }
+    ],
+    "hint": "Điều khiển xe máy ta dùng động từ 'ride' chứ không dùng 'drive'.",
+    "phraseOptions": [
+      {
+        "text": "Ride a motorbike",
+        "meaning": "Lái xe máy",
+        "isCorrect": true
+      },
+      {
+        "text": "Drive a taxi",
+        "meaning": "Lái xe taxi",
+        "isCorrect": false
+      },
+      {
+        "text": "Fix the engine",
+        "meaning": "Sửa động cơ",
+        "isCorrect": false
+      },
+      {
+        "text": "Park the vehicle",
+        "meaning": "Đỗ phương tiện",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/38_1_A6qnMXQUZ.jpeg"
+  },
+  {
+    "id": "t3-q08",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Streets/Park",
+    "keywords": [
+      "group"
+    ],
+    "scene": "Một nhóm người đang đứng trò chuyện túm tụm cùng nhau.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'group'.",
+    "answerOptions": [
+      {
+        "text": "They're standing in a group.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cụm từ 'in a group' diễn tả trạng thái tập hợp thành một nhóm đứng trò chuyện."
+      },
+      {
+        "text": "They're standing on a group.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'on a group'."
+      },
+      {
+        "text": "They're stand in a group.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "They're standing at a group.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ."
+      }
+    ],
+    "hint": "Đứng tập hợp lại thành một nhóm.",
+    "phraseOptions": [
+      {
+        "text": "Stand in a group",
+        "meaning": "Đứng thành một nhóm",
+        "isCorrect": true
+      },
+      {
+        "text": "Sit in a line",
+        "meaning": "Ngồi thành hàng",
+        "isCorrect": false
+      },
+      {
+        "text": "Walk in pairs",
+        "meaning": "Đi bộ theo cặp",
+        "isCorrect": false
+      },
+      {
+        "text": "Talk to each other",
+        "meaning": "Nói chuyện với nhau",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/38_2_KsJkF5Z1I.jpeg"
+  },
+  {
+    "id": "t3-q09",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Streets/Park",
+    "keywords": [
+      "path"
+    ],
+    "scene": "Mọi người đang thong thả đi bộ dọc theo con đường nhỏ trong công viên.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'path'.",
+    "answerOptions": [
+      {
+        "text": "They're walking along the path.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giới từ 'along' miêu tả hành động đi bộ dọc theo con đường."
+      },
+      {
+        "text": "They're walking on the path.",
+        "isCorrect": false,
+        "rationale": "Mặc dù đúng ngữ pháp nhưng giới từ 'along the path' mô tả đúng nhất chuyển động di chuyển dọc theo lối đi."
+      },
+      {
+        "text": "They're walking along path.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước 'path'."
+      },
+      {
+        "text": "They're walk along the path.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Di chuyển dọc theo lối đi hoặc con đường nhỏ.",
+    "phraseOptions": [
+      {
+        "text": "Walk along the path",
+        "meaning": "Đi dọc lối đi",
+        "isCorrect": true
+      },
+      {
+        "text": "Cross the bridge",
+        "meaning": "Băng qua cầu",
+        "isCorrect": false
+      },
+      {
+        "text": "Sit near the path",
+        "meaning": "Ngồi cạnh lối đi",
+        "isCorrect": false
+      },
+      {
+        "text": "Jog in park",
+        "meaning": "Chạy bộ trong công viên",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/39_1_42vQLagRc.jpeg"
+  },
+  {
+    "id": "t3-q10",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Streets/Park",
+    "keywords": [
+      "children"
+    ],
+    "scene": "Những đứa trẻ đang cùng nhau chơi đùa ngoài sân cỏ.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'children'.",
+    "answerOptions": [
+      {
+        "text": "The children are playing outside.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Dùng tiếp diễn số nhiều 'are playing' mô tả hành động chơi ngoài trời của lũ trẻ."
+      },
+      {
+        "text": "The children is playing outside.",
+        "isCorrect": false,
+        "rationale": "Sai hòa hợp chủ vị: 'children' là danh từ số nhiều (của child) nên phải dùng 'are'."
+      },
+      {
+        "text": "The children are play outside.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "The children play outside.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không mô tả sinh động khoảnh khắc tranh vẽ."
+      }
+    ],
+    "hint": "Chủ ngữ số nhiều của đứa trẻ và thì tiếp diễn.",
+    "phraseOptions": [
+      {
+        "text": "Play outside",
+        "meaning": "Chơi đùa ngoài trời",
+        "isCorrect": true
+      },
+      {
+        "text": "Sit indoors",
+        "meaning": "Ngồi trong nhà",
+        "isCorrect": false
+      },
+      {
+        "text": "Do homework",
+        "meaning": "Làm bài tập",
+        "isCorrect": false
+      },
+      {
+        "text": "Sleep in room",
+        "meaning": "Ngủ trong phòng",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/39_2_M9Jz7bKXy.jpeg"
+  },
+  {
+    "id": "t3-q11",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Streets/Park",
+    "keywords": [
+      "parasol"
+    ],
+    "scene": "Mọi người đang ngồi nghỉ ngơi thư giãn bên dưới một chiếc ô che nắng lớn.",
+    "question": "Chọn từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "They’re resting under a parasol.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'Parasol' là chiếc ô che nắng lớn ngoài trời, rất phù hợp bối cảnh."
+      },
+      {
+        "text": "They’re resting under a tree.",
+        "isCorrect": false,
+        "rationale": "Mặc dù đúng ngữ pháp nhưng bức tranh cho thấy họ đang ngồi dưới chiếc ô lớn ('parasol') chứ không phải gốc cây."
+      },
+      {
+        "text": "They’re resting under a roof.",
+        "isCorrect": false,
+        "rationale": "Không đúng bối cảnh mái nhà."
+      },
+      {
+        "text": "They’re resting under a bridge.",
+        "isCorrect": false,
+        "rationale": "Không đúng bối cảnh gầm cầu."
+      }
+    ],
+    "hint": "Quan sát chiếc ô lớn che nắng ngoài bãi biển/công viên.",
+    "phraseOptions": [
+      {
+        "text": "Rest under a parasol",
+        "meaning": "Nghỉ dưới ô che nắng",
+        "isCorrect": true
+      },
+      {
+        "text": "Sit in the room",
+        "meaning": "Ngồi trong phòng",
+        "isCorrect": false
+      },
+      {
+        "text": "Stand under rain",
+        "meaning": "Đứng dưới mưa",
+        "isCorrect": false
+      },
+      {
+        "text": "Lie on beach",
+        "meaning": "Nằm trên bãi biển",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/40_1_jHNwX31K1.jpeg"
+  },
+  {
+    "id": "t3-q12",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Streets/Park",
+    "keywords": [
+      "push"
+    ],
+    "scene": "Người phụ nữ đang đẩy một chiếc xe nôi em bé đi dạo.",
+    "question": "Chọn từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "The woman is pushing the baby stroller.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Hành động đẩy xe đẩy em bé dùng động từ 'pushing'."
+      },
+      {
+        "text": "The woman is pulling the baby stroller.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: cô ấy đang đẩy phía trước chứ không phải kéo phía sau."
+      },
+      {
+        "text": "The woman is lifting the baby stroller.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: cô ấy không nhấc bổng xe lên."
+      },
+      {
+        "text": "The woman is cleaning the baby stroller.",
+        "isCorrect": false,
+        "rationale": "Không đúng bối cảnh đi dạo."
+      }
+    ],
+    "hint": "Hành động đẩy phương tiện di chuyển về phía trước.",
+    "phraseOptions": [
+      {
+        "text": "Push the baby stroller",
+        "meaning": "Đẩy xe nôi em bé",
+        "isCorrect": true
+      },
+      {
+        "text": "Carry the baby",
+        "meaning": "Bế em bé",
+        "isCorrect": false
+      },
+      {
+        "text": "Fix the wheel",
+        "meaning": "Sửa bánh xe",
+        "isCorrect": false
+      },
+      {
+        "text": "Buy a stroller",
+        "meaning": "Mua xe nôi",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/40_2_zAK5kalARA.jpeg"
+  },
+  {
+    "id": "t3-q13",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Streets/Park",
+    "keywords": [
+      "gathered"
+    ],
+    "scene": "Đám đông mọi người tụ tập tập trung trước hiên một tòa nhà lớn.",
+    "question": "Chọn từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "People are gathered outside the building.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cụm từ 'be gathered' chỉ trạng thái đám đông tụ tập cùng nhau."
+      },
+      {
+        "text": "People are leaning outside the building.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: đám đông tụ tập chứ không phải tất cả tựa vào tường."
+      },
+      {
+        "text": "People are floating outside the building.",
+        "isCorrect": false,
+        "rationale": "Hoàn toàn sai nghĩa."
+      },
+      {
+        "text": "People are shining outside the building.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa."
+      }
+    ],
+    "hint": "Trạng thái tụ tập tập hợp của một đám đông.",
+    "phraseOptions": [
+      {
+        "text": "Gathered outside",
+        "meaning": "Tụ tập bên ngoài",
+        "isCorrect": true
+      },
+      {
+        "text": "Waiting in lines",
+        "meaning": "Xếp hàng chờ",
+        "isCorrect": false
+      },
+      {
+        "text": "Entering doors",
+        "meaning": "Đi vào cửa",
+        "isCorrect": false
+      },
+      {
+        "text": "Leaving rooms",
+        "meaning": "Rời khỏi phòng",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/41_1_n875CxBjV.jpeg"
+  },
+  {
+    "id": "t3-q14",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Streets/Park",
+    "keywords": [
+      "leaning"
+    ],
+    "scene": "Người đàn ông đang đứng dựa lưng vào bức tường.",
+    "question": "Chọn từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "He’s leaning against the wall.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Tư thế đứng dựa vào tường dùng cấu trúc 'lean against the wall'."
+      },
+      {
+        "text": "He’s leaning on the wall.",
+        "isCorrect": false,
+        "rationale": "Không tự nhiên bằng giới từ 'against' khi nói về tựa lưng/tựa người vào tường thẳng đứng."
+      },
+      {
+        "text": "He’s leaning to the wall.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ."
+      },
+      {
+        "text": "He’s leaning along the wall.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ."
+      }
+    ],
+    "hint": "Đứng tựa người vào bề mặt thẳng đứng dùng giới từ 'against'.",
+    "phraseOptions": [
+      {
+        "text": "Lean against the wall",
+        "meaning": "Tựa vào tường",
+        "isCorrect": true
+      },
+      {
+        "text": "Sit on the floor",
+        "meaning": "Ngồi trên sàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Stand near door",
+        "meaning": "Đứng gần cửa",
+        "isCorrect": false
+      },
+      {
+        "text": "Walk in hallway",
+        "meaning": "Đi bộ trong hành lang",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/41_2_XgMAp23AU.jpeg"
+  },
+  {
+    "id": "t3-q15",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Streets/Park",
+    "keywords": [
+      "floating"
+    ],
+    "scene": "Một chiếc thuyền đang trôi lững lờ trên mặt nước.",
+    "question": "Chọn từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "A boat is floating on the water.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Trôi nổi trên mặt nước dùng động từ 'floating'."
+      },
+      {
+        "text": "A boat is sinking on the water.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: thuyền đang trôi nổi chứ không phải bị đắm chìm."
+      },
+      {
+        "text": "A boat is flying on the water.",
+        "isCorrect": false,
+        "rationale": "Hoàn toàn sai nghĩa."
+      },
+      {
+        "text": "A boat is gathered on the water.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa."
+      }
+    ],
+    "hint": "Thuyền trôi nổi lững lờ trên mặt nước.",
+    "phraseOptions": [
+      {
+        "text": "Float on the water",
+        "meaning": "Nổi trên mặt nước",
+        "isCorrect": true
+      },
+      {
+        "text": "Sail on the sea",
+        "meaning": "Lướt trên biển",
+        "isCorrect": false
+      },
+      {
+        "text": "Cross the river",
+        "meaning": "Băng qua sông",
+        "isCorrect": false
+      },
+      {
+        "text": "Dock at harbor",
+        "meaning": "Cập bến cảng",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/42_1_1PycYO53v.jpeg"
+  },
+  {
+    "id": "t3-q16",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Streets/Park",
+    "keywords": [
+      "brightly"
+    ],
+    "scene": "Mặt trời đang chiếu những tia nắng rực rỡ chói chang.",
+    "question": "Chọn từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "The sun is shining brightly.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Chiếu sáng rực rỡ chói chang dùng trạng từ 'brightly' bổ nghĩa cho động từ 'shining'."
+      },
+      {
+        "text": "The sun is shining gatherly.",
+        "isCorrect": false,
+        "rationale": "Sai từ nghĩa hoàn toàn."
+      },
+      {
+        "text": "The sun is shining leanly.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa hoàn toàn."
+      },
+      {
+        "text": "The sun is shining floatingly.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa hoàn toàn."
+      }
+    ],
+    "hint": "Mặt trời tỏa nắng chói chang chói lọi.",
+    "phraseOptions": [
+      {
+        "text": "Shine brightly",
+        "meaning": "Tỏa sáng rực rỡ",
+        "isCorrect": true
+      },
+      {
+        "text": "Blow strongly",
+        "meaning": "Thổi mạnh mẽ",
+        "isCorrect": false
+      },
+      {
+        "text": "Rain heavily",
+        "meaning": "Mưa nặng hạt",
+        "isCorrect": false
+      },
+      {
+        "text": "Set slowly",
+        "meaning": "Lặn từ từ",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/42_2_Vxd0KR1an.jpeg"
+  },
+  {
+    "id": "t3-q17",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Streets/Park",
+    "keywords": [
+      "athletic",
+      "trees"
+    ],
+    "scene": "Người thanh niên khỏe khoắn đang chạy bộ qua những hàng cây cao trong công viên.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'athletic' và 'trees'.",
+    "answerOptions": [
+      {
+        "text": "Some tall trees are standing near the athletic field.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Câu ghép chứa đúng từ khóa chỉ tính chất 'athletic' bổ nghĩa cho field và hàng cây 'trees' số nhiều."
+      },
+      {
+        "text": "Some tall trees are standing near the athletic.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: 'athletic' là tính từ phải có danh từ đi kèm phía sau."
+      },
+      {
+        "text": "Some tall tree is standing near the athletic field.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: 'some' phải đi kèm danh từ số nhiều 'trees'."
+      },
+      {
+        "text": "Some tall trees stand near the field.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu tính từ 'athletic'."
+      }
+    ],
+    "hint": "Sử dụng tính từ 'athletic' bổ nghĩa cho danh từ và 'trees' dạng số nhiều.",
+    "phraseOptions": [
+      {
+        "text": "Athletic field near trees",
+        "meaning": "Sân vận động cạnh hàng cây",
+        "isCorrect": true
+      },
+      {
+        "text": "Run in park",
+        "meaning": "Chạy trong công viên",
+        "isCorrect": false
+      },
+      {
+        "text": "Walk on sidewalk",
+        "meaning": "Đi dạo trên vỉa hè",
+        "isCorrect": false
+      },
+      {
+        "text": "Trees in forest",
+        "meaning": "Cây trong rừng",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/43_1_mx5_TKYuZ.jpeg"
+  },
+  {
+    "id": "t3-q18",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Streets/Park",
+    "keywords": [
+      "man",
+      "in front of"
+    ],
+    "scene": "Người đàn ông đang đứng ở vị trí phía trước cả nhóm người.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'man' và 'in front of'.",
+    "answerOptions": [
+      {
+        "text": "The man is standing in front of the group.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Sử dụng đúng cấu trúc giới từ chỉ vị trí phía trước 'in front of the group' và chứa đúng từ khóa."
+      },
+      {
+        "text": "The man is standing behind the group.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu cụm 'in front of' chứ không dùng 'behind'."
+      },
+      {
+        "text": "The man is standing in front of group.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước 'group'."
+      },
+      {
+        "text": "The men are standing in front of the group.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu 'man' số ít chứ không dùng 'men' số nhiều."
+      }
+    ],
+    "hint": "Đảm bảo câu chứa đúng từ khóa 'man' số ít và giới từ 'in front of'.",
+    "phraseOptions": [
+      {
+        "text": "Stand in front of group",
+        "meaning": "Đứng trước nhóm người",
+        "isCorrect": true
+      },
+      {
+        "text": "Walk behind others",
+        "meaning": "Đi sau những người khác",
+        "isCorrect": false
+      },
+      {
+        "text": "Sit in a circle",
+        "meaning": "Ngồi thành vòng tròn",
+        "isCorrect": false
+      },
+      {
+        "text": "Talk to friend",
+        "meaning": "Nói chuyện với bạn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/43_2_QKnaV2wdn.jpeg"
+  },
+  {
+    "id": "t3-q19",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Streets/Park",
+    "keywords": [
+      "sidewalk",
+      "walk"
+    ],
+    "scene": "Một người đang tản bộ thong thả trên vỉa hè.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'sidewalk' và 'walk'.",
+    "answerOptions": [
+      {
+        "text": "A person is walking on the sidewalk.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Chia đúng động từ tiếp diễn 'is walking' và chứa đúng từ khóa danh từ vỉa hè 'sidewalk'."
+      },
+      {
+        "text": "A person is walking in the sidewalk.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: đi trên vỉa hè ta dùng 'on the sidewalk'."
+      },
+      {
+        "text": "A person is walking on sidewalk.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước danh từ số ít 'sidewalk'."
+      },
+      {
+        "text": "A person walks on the sidewalk.",
+        "isCorrect": false,
+        "rationale": "Hiện tại tiếp diễn mô tả tranh sinh động hơn."
+      }
+    ],
+    "hint": "Chia tiếp diễn động từ 'walk' đi kèm giới từ 'on the sidewalk'.",
+    "phraseOptions": [
+      {
+        "text": "Walk on the sidewalk",
+        "meaning": "Đi bộ trên vỉa hè",
+        "isCorrect": true
+      },
+      {
+        "text": "Cross the crossing",
+        "meaning": "Đi qua lối vạch kẻ",
+        "isCorrect": false
+      },
+      {
+        "text": "Stand in street",
+        "meaning": "Đứng dưới lòng đường",
+        "isCorrect": false
+      },
+      {
+        "text": "Run in park",
+        "meaning": "Chạy trong công viên",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/44_1_Zhn_PjuPT.jpeg"
+  },
+  {
+    "id": "t3-q20",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Streets/Park",
+    "keywords": [
+      "instrument",
+      "some"
+    ],
+    "scene": "Một số người nghệ sĩ đường phố đang chơi nhạc cụ.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'instrument' và 'some'.",
+    "answerOptions": [
+      {
+        "text": "Some people are playing musical instruments.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Dùng đúng từ khóa số lượng 'some' đi với danh từ số nhiều và có chứa từ khóa gốc 'instrument' trong cụm từ 'instruments'."
+      },
+      {
+        "text": "Some people are playing musical instrument.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: 'some' phải đi kèm danh từ số nhiều 'instruments' chứ không dùng số ít."
+      },
+      {
+        "text": "People are playing musical instruments.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu từ chỉ số lượng 'some'."
+      },
+      {
+        "text": "Some people play musical instruments.",
+        "isCorrect": false,
+        "rationale": "Thì tiếp diễn mô tả hành động đang xảy ra sinh động hơn."
+      }
+    ],
+    "hint": "Đảm bảo câu dùng từ chỉ lượng 'some' và chia danh từ 'instruments' dạng số nhiều.",
+    "phraseOptions": [
+      {
+        "text": "Play musical instruments",
+        "meaning": "Chơi các nhạc cụ",
+        "isCorrect": true
+      },
+      {
+        "text": "Sing a song",
+        "meaning": "Hát một bài hát",
+        "isCorrect": false
+      },
+      {
+        "text": "Dance on street",
+        "meaning": "Nhảy trên đường",
+        "isCorrect": false
+      },
+      {
+        "text": "Listen to music",
+        "meaning": "Nghe nhạc",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/44_2_emGtsdstW.jpeg"
+  },
+  {
+    "id": "t3-q21",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Streets/Park",
+    "keywords": [
+      "boat",
+      "toward"
+    ],
+    "scene": "Một con thuyền đang lướt trên mặt nước di chuyển hướng về phía cây cầu.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'boat' và 'toward'.",
+    "answerOptions": [
+      {
+        "text": "A boat is floating toward the bridge.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Diễn tả đúng hành động di chuyển hướng về phía cây cầu của con thuyền."
+      },
+      {
+        "text": "A boat is floating away the bridge.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu giới từ hướng tới 'toward'."
+      },
+      {
+        "text": "A ship is floating toward the bridge.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu danh từ 'boat'."
+      },
+      {
+        "text": "A boat floats toward the bridge.",
+        "isCorrect": false,
+        "rationale": "Thì tiếp diễn mô tả trạng thái trôi nổi sinh động hơn."
+      }
+    ],
+    "hint": "Thuyền di chuyển hướng tới cây cầu dùng giới từ chỉ hướng 'toward'.",
+    "phraseOptions": [
+      {
+        "text": "Float toward the bridge",
+        "meaning": "Trôi về phía cầu",
+        "isCorrect": true
+      },
+      {
+        "text": "Sail under bridge",
+        "meaning": "Lướt dưới gầm cầu",
+        "isCorrect": false
+      },
+      {
+        "text": "Dock near bridge",
+        "meaning": "Cập bến cạnh cầu",
+        "isCorrect": false
+      },
+      {
+        "text": "Leave the shore",
+        "meaning": "Rời khỏi bờ",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/45_1_-LP1iLC0g.jpeg"
+  },
+  {
+    "id": "t3-q22",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Streets/Park",
+    "keywords": [
+      "bench",
+      "line"
+    ],
+    "scene": "Nhiều chiếc ghế băng công viên được xếp thẳng hàng lối dạo mát.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'bench' và 'line'.",
+    "answerOptions": [
+      {
+        "text": "The benches are arranged in a line in the park.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Trạng thái được xếp đặt ngăn nắp thành một hàng thẳng của những chiếc ghế băng."
+      },
+      {
+        "text": "The bench is arranged in a line in the park.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: nhiều chiếc ghế phải dùng danh từ số nhiều 'benches' và động từ 'are'."
+      },
+      {
+        "text": "The benches are arranged on a line in the park.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: xếp thành một hàng thẳng ta dùng cụm 'in a line'."
+      },
+      {
+        "text": "The benches are placed in the park.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu danh từ chỉ hàng lối 'line'."
+      }
+    ],
+    "hint": "Ghế số nhiều xếp thành một hàng dùng cụm giới từ 'in a line'.",
+    "phraseOptions": [
+      {
+        "text": "Benches arranged in a line",
+        "meaning": "Ghế xếp thành hàng",
+        "isCorrect": true
+      },
+      {
+        "text": "Chairs scattered in yard",
+        "meaning": "Ghế rải rác ngoài sân",
+        "isCorrect": false
+      },
+      {
+        "text": "Benches broken on path",
+        "meaning": "Ghế hỏng trên lối đi",
+        "isCorrect": false
+      },
+      {
+        "text": "Seats filled with people",
+        "meaning": "Chỗ ngồi đầy người",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/45_2_ZiIeTufgS.jpeg"
+  }
+]

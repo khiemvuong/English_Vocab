@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useQuizStore } from "@/store/quizStore";
 import { useEffect, useState } from "react";
 import { ProgressCard } from "@/components/common/ProgressCard";
@@ -17,7 +16,6 @@ export function LessonCard({ lesson, isAvailable = false }: { lesson: number; is
   const isCompleted = mounted && progressState?.isFinished;
   const amountAnswered = mounted && progressState?.answers ? Object.keys(progressState.answers).length : 0;
   const totalQuestions = mounted && progressState?.totalQuestions ? progressState.totalQuestions : 1;
-  const inProgress = mounted && !isCompleted && amountAnswered > 0;
   
   return (
     <ProgressCard

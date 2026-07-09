@@ -30,6 +30,13 @@ export interface WritingProgress {
   filteredQuestionIds: string[]; // IDs of filtered questions
   viewedHints: Record<number, boolean>; // Track hints viewed (not penalized)
   skillAccuracy: Record<string, { correct: number; total: number }>; // Accuracy by skillType
+  
+  // New Fields for 3-State Block-based Practice
+  blockIndex?: number;
+  currentState?: 1 | 2 | 3;
+  unlockedBlockIndex?: number;
+  typedAnswers?: Record<number, { text: string; isCorrect: boolean; overrideCorrect?: boolean }>;
+  vocabAnswers?: Record<number, number>; // questionIndex -> selectedPhraseOptionIndex
 }
 
 interface QuizStore {
@@ -53,6 +60,13 @@ interface QuizStore {
   goToNextWriting: (sessionId: string) => void;
   goToPrevWriting: (sessionId: string) => void;
   restartWriting: (sessionId: string, questionIds: string[]) => void;
+  
+  // New Writing Actions
+  setWritingBlockAndState: (sessionId: string, blockIndex: number, currentState: 1 | 2 | 3) => void;
+  answerWritingVocab: (sessionId: string, qIndex: number, optionIndex: number, isCorrect: boolean, skillType: string) => void;
+  answerWritingTyped: (sessionId: string, qIndex: number, text: string, isCorrect: boolean, overrideCorrect: boolean, skillType: string) => void;
+  unlockNextBlock: (sessionId: string) => void;
+  restartWritingBlock: (sessionId: string, indicesToClear: number[]) => void;
 }
 
 export const useQuizStore = create<QuizStore>()(
@@ -208,7 +222,12 @@ export const useQuizStore = create<QuizStore>()(
                 restartCount: 0,
                 filteredQuestionIds: questionIds,
                 viewedHints: {},
-                skillAccuracy: {}
+                skillAccuracy: {},
+                blockIndex: 0,
+                currentState: 1,
+                unlockedBlockIndex: 0,
+                typedAnswers: {},
+                vocabAnswers: {}
               }
             }
           };
@@ -300,7 +319,124 @@ export const useQuizStore = create<QuizStore>()(
               restartCount: (session?.restartCount || 0) + 1,
               filteredQuestionIds: questionIds,
               viewedHints: {},
-              skillAccuracy: {}
+              skillAccuracy: {},
+              blockIndex: 0,
+              currentState: 1,
+              unlockedBlockIndex: 0,
+              typedAnswers: {},
+              vocabAnswers: {}
+            }
+          }
+        };
+      }),
+      setWritingBlockAndState: (sessionId, blockIndex, currentState) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              blockIndex,
+              currentState,
+              currentIndex: 0
+            }
+          }
+        };
+      }),
+      answerWritingVocab: (sessionId, qIndex, optionIndex, isCorrect, skillType) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+        const vocabAnswers = session.vocabAnswers || {};
+        if (vocabAnswers[qIndex] !== undefined) return state;
+
+        const currentSkillAcc = session.skillAccuracy[skillType] || { correct: 0, total: 0 };
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              vocabAnswers: { ...vocabAnswers, [qIndex]: optionIndex },
+              score: isCorrect ? session.score + 1 : session.score,
+              skillAccuracy: {
+                ...session.skillAccuracy,
+                [skillType]: {
+                  correct: isCorrect ? currentSkillAcc.correct + 1 : currentSkillAcc.correct,
+                  total: currentSkillAcc.total + 1
+                }
+              }
+            }
+          }
+        };
+      }),
+      answerWritingTyped: (sessionId, qIndex, text, isCorrect, overrideCorrect, skillType) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+        const typedAnswers = session.typedAnswers || {};
+        if (typedAnswers[qIndex] !== undefined) return state;
+
+        const currentSkillAcc = session.skillAccuracy[skillType] || { correct: 0, total: 0 };
+        const finalCorrect = isCorrect || overrideCorrect;
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              typedAnswers: { ...typedAnswers, [qIndex]: { text, isCorrect, overrideCorrect } },
+              score: finalCorrect ? session.score + 1 : session.score,
+              skillAccuracy: {
+                ...session.skillAccuracy,
+                [skillType]: {
+                  correct: finalCorrect ? currentSkillAcc.correct + 1 : currentSkillAcc.correct,
+                  total: currentSkillAcc.total + 1
+                }
+              }
+            }
+          }
+        };
+      }),
+      unlockNextBlock: (sessionId) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+        const currentUnlocked = session.unlockedBlockIndex ?? 0;
+        const nextUnlocked = currentUnlocked + 1;
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              unlockedBlockIndex: nextUnlocked,
+              blockIndex: nextUnlocked,
+              currentState: 1,
+              currentIndex: 0
+            }
+          }
+        };
+      }),
+      restartWritingBlock: (sessionId, indicesToClear) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+
+        const newAnswers = { ...session.answers };
+        const newVocabAnswers = { ...(session.vocabAnswers || {}) };
+        const newTypedAnswers = { ...(session.typedAnswers || {}) };
+
+        indicesToClear.forEach((idx) => {
+          delete newAnswers[idx];
+          delete newVocabAnswers[idx];
+          delete newTypedAnswers[idx];
+        });
+
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              currentIndex: 0,
+              answers: newAnswers,
+              vocabAnswers: newVocabAnswers,
+              typedAnswers: newTypedAnswers,
+              isFinished: false
             }
           }
         };

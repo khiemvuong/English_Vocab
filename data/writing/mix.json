@@ -66,7 +66,29 @@
         }
       ],
       "hint": "Hành động có đang xảy ra ngay lúc chụp hay không? Nếu có, ưu tiên thì hiện tại tiếp diễn.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/1_ZanObMgir.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/1_ZanObMgir.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Wipe the counter",
+          "meaning": "Lau mặt bàn bếp",
+          "isCorrect": true
+        },
+        {
+          "text": "Wash the dishes",
+          "meaning": "Rửa bát đĩa",
+          "isCorrect": false
+        },
+        {
+          "text": "Clean the window",
+          "meaning": "Lau cửa sổ",
+          "isCorrect": false
+        },
+        {
+          "text": "Cook a meal",
+          "meaning": "Nấu ăn",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "vt-02",
@@ -102,7 +124,29 @@
         }
       ],
       "hint": "Với các vật ở một vị trí cố định trong tranh, TOEIC vẫn ưu tiên dùng dạng 'is + V-ing'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/2_AwqF5vvbD.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/2_AwqF5vvbD.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Hang on the hook",
+          "meaning": "Treo trên móc",
+          "isCorrect": true
+        },
+        {
+          "text": "Put in the closet",
+          "meaning": "Cất trong tủ quần áo",
+          "isCorrect": false
+        },
+        {
+          "text": "Wear a jacket",
+          "meaning": "Mặc áo khoác",
+          "isCorrect": false
+        },
+        {
+          "text": "Fold the clothes",
+          "meaning": "Gấp quần áo",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "vt-03",
@@ -113,32 +157,54 @@
         "fruit",
         "fresh"
       ],
-      "scene": "Một đĩa trái cây trên bàn ăn có vài quả táo bị thâm và mềm, trông không còn tươi ngon.",
+      "scene": "Một đĩa trái cây trên bàn ăn đều đã bị thâm héo, thối rữa và hỏng hoàn toàn.",
       "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'fruit' và 'fresh'.",
       "answerOptions": [
         {
-          "text": "Some of the fruit doesn't look fresh.",
+          "text": "All of the fruit isn't fresh.",
           "isCorrect": true,
-          "rationale": "Đây là mẫu câu chuẩn: dùng thì hiện tại đơn với động từ tri giác 'look' để mô tả trạng thái/đặc điểm của sự vật trong tranh."
+          "rationale": "Đây là câu đúng ngữ pháp: 'fruit' là danh từ không đếm được nên cụm chủ ngữ 'All of the fruit' được coi là số ít, động từ to be đi kèm chia ở số ít 'isn't'."
         },
         {
-          "text": "Some of the fruit isn't looking fresh.",
+          "text": "All of the fruit aren't fresh.",
           "isCorrect": false,
-          "rationale": "Động từ tri giác 'look' (mang nghĩa trông có vẻ) thường không dùng ở dạng tiếp diễn khi diễn tả trạng thái."
+          "rationale": "Vì 'fruit' ở đây là danh từ không đếm được, chủ ngữ 'All of the fruit' là số ít nên phải đi với 'isn't', dùng 'aren't' là sai sự hòa hợp chủ vị."
         },
         {
-          "text": "Some of the fruit didn't look fresh.",
+          "text": "All of the fruit doesn't fresh.",
           "isCorrect": false,
-          "rationale": "Thì quá khứ không phù hợp vì tranh mô tả trạng thái tại thời điểm hiện tại, không phải trong quá khứ."
+          "rationale": "'Fresh' là tính từ nên phải đi kèm động từ to be ('isn't'), không dùng trợ động từ 'doesn't' trực tiếp với tính từ."
         },
         {
-          "text": "Some of the fruit doesn't looks fresh.",
+          "text": "All of the fruit wasn't fresh.",
           "isCorrect": false,
-          "rationale": "Sau trợ động từ 'doesn't', động từ phải ở dạng nguyên mẫu 'look', không thêm 's'."
+          "rationale": "Thì quá khứ không phù hợp vì tranh mô tả trạng thái ở thời điểm hiện tại, không phải trong quá khứ."
         }
       ],
-      "hint": "Các động từ tri giác như look/seem/appear khi mô tả trạng thái thường dùng thì hiện tại đơn, không dùng tiếp diễn.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/3_ssbq553up.jpeg"
+      "hint": "'Fruit' là danh từ không đếm được nên cụm chủ ngữ 'All of the fruit' chia động từ ở số ít (isn't).",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/3_ssbq553up.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Not fresh",
+          "meaning": "Không tươi ngon",
+          "isCorrect": true
+        },
+        {
+          "text": "Taste sweet",
+          "meaning": "Có vị ngọt",
+          "isCorrect": false
+        },
+        {
+          "text": "Sell at a high price",
+          "meaning": "Bán với giá cao",
+          "isCorrect": false
+        },
+        {
+          "text": "Cook in a pot",
+          "meaning": "Nấu trong nồi",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "vt-04",
@@ -174,7 +240,29 @@
         }
       ],
       "hint": "Khi chủ ngữ là vật bị tác động bởi người khác, hãy dùng thể bị động 'is being + V3'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/4__HYmgKAOAe2.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/4__HYmgKAOAe2.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Install air conditioner",
+          "meaning": "Lắp đặt máy điều hòa",
+          "isCorrect": true
+        },
+        {
+          "text": "Repair refrigerator",
+          "meaning": "Sửa tủ lạnh",
+          "isCorrect": false
+        },
+        {
+          "text": "Clean ceiling fan",
+          "meaning": "Lau quạt trần",
+          "isCorrect": false
+        },
+        {
+          "text": "Paint the wall",
+          "meaning": "Sơn bức tường",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "vt-05",
@@ -210,7 +298,29 @@
         }
       ],
       "hint": "Khi không thấy ai đang thực hiện hành động nhưng kết quả vẫn còn đó, hãy nghĩ đến hiện tại hoàn thành bị động.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/5_Dq0M_Fard.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/5_Dq0M_Fard.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Leave the drawer open",
+          "meaning": "Để ngăn kéo mở",
+          "isCorrect": true
+        },
+        {
+          "text": "Lock the desk",
+          "meaning": "Khóa bàn làm việc",
+          "isCorrect": false
+        },
+        {
+          "text": "Clean the drawer",
+          "meaning": "Lau dọn ngăn kéo",
+          "isCorrect": false
+        },
+        {
+          "text": "Move the desk",
+          "meaning": "Di chuyển bàn làm việc",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "vt-06",
@@ -246,7 +356,29 @@
         }
       ],
       "hint": "Hành động 'đang thảo luận' là hành động tức thời trong tranh, không phải thói quen.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/6_FVaw8VENy.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/6_FVaw8VENy.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Discuss with each other",
+          "meaning": "Thảo luận với nhau",
+          "isCorrect": true
+        },
+        {
+          "text": "Answer the phone",
+          "meaning": "Trả lời điện thoại",
+          "isCorrect": false
+        },
+        {
+          "text": "Write on the board",
+          "meaning": "Viết lên bảng",
+          "isCorrect": false
+        },
+        {
+          "text": "Read a report",
+          "meaning": "Đọc báo cáo",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "vt-07",
@@ -282,7 +414,29 @@
         }
       ],
       "hint": "Vật vô tri không thể tự thực hiện hành động lên chính nó — hãy nghĩ đến thể bị động.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/7_3s_UUzUnU.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/7_3s_UUzUnU.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Park along the fence",
+          "meaning": "Đỗ dọc theo hàng rào",
+          "isCorrect": true
+        },
+        {
+          "text": "Ride on the street",
+          "meaning": "Đạp xe trên đường",
+          "isCorrect": false
+        },
+        {
+          "text": "Repair a bicycle",
+          "meaning": "Sửa xe đạp",
+          "isCorrect": false
+        },
+        {
+          "text": "Lock the door",
+          "meaning": "Khóa cửa",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "vt-08",
@@ -318,7 +472,29 @@
         }
       ],
       "hint": "'Wear' mô tả trang phục đang mặc trên người — vẫn dùng dạng tiếp diễn trong văn phong mô tả tranh.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/8_hQveB7yEA.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/8_hQveB7yEA.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Wear a safety helmet",
+          "meaning": "Đội mũ bảo hộ",
+          "isCorrect": true
+        },
+        {
+          "text": "Carry a tool",
+          "meaning": "Mang theo dụng cụ",
+          "isCorrect": false
+        },
+        {
+          "text": "Paint a building",
+          "meaning": "Sơn tòa nhà",
+          "isCorrect": false
+        },
+        {
+          "text": "Dig a hole",
+          "meaning": "Đào hố",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "prep-01",
@@ -354,7 +530,29 @@
         }
       ],
       "hint": "'On' dùng cho vật nằm trên bề mặt của vật khác.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/9_YcQJBN4YV.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/9_YcQJBN4YV.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Place on the table",
+          "meaning": "Đặt trên bàn",
+          "isCorrect": true
+        },
+        {
+          "text": "Hang on the wall",
+          "meaning": "Treo trên tường",
+          "isCorrect": false
+        },
+        {
+          "text": "Put in the drawer",
+          "meaning": "Cất trong ngăn kéo",
+          "isCorrect": false
+        },
+        {
+          "text": "Under the chair",
+          "meaning": "Dưới gầm ghế",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "prep-02",
@@ -390,7 +588,29 @@
         }
       ],
       "hint": "Cụm giới từ 'next to' luôn cần đủ hai từ 'next' + 'to'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/10_pg3aBQwLe.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/10_pg3aBQwLe.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Next to the building",
+          "meaning": "Cạnh tòa nhà",
+          "isCorrect": true
+        },
+        {
+          "text": "Inside the house",
+          "meaning": "Bên trong ngôi nhà",
+          "isCorrect": false
+        },
+        {
+          "text": "On top of the roof",
+          "meaning": "Trên mái nhà",
+          "isCorrect": false
+        },
+        {
+          "text": "Behind the tree",
+          "meaning": "Phía sau cái cây",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "prep-03",
@@ -426,7 +646,29 @@
         }
       ],
       "hint": "'Between' chỉ dùng cho đúng HAI đối tượng; 'among' dùng cho từ ba trở lên.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/11_pywgDx7xV.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/11_pywgDx7xV.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Between the two chairs",
+          "meaning": "Ở giữa hai chiếc ghế",
+          "isCorrect": true
+        },
+        {
+          "text": "Under the table",
+          "meaning": "Dưới gầm bàn",
+          "isCorrect": false
+        },
+        {
+          "text": "On the shelf",
+          "meaning": "Trên kệ sách",
+          "isCorrect": false
+        },
+        {
+          "text": "Behind the door",
+          "meaning": "Phía sau cánh cửa",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "prep-04",
@@ -462,7 +704,29 @@
         }
       ],
       "hint": "Khi nhiều vật xếp nối tiếp nhau theo chiều dài của một con đường, dùng 'along'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/12_ZxXyXYnV2.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/12_ZxXyXYnV2.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Along the street",
+          "meaning": "Dọc theo con phố",
+          "isCorrect": true
+        },
+        {
+          "text": "Across the river",
+          "meaning": "Băng qua sông",
+          "isCorrect": false
+        },
+        {
+          "text": "In the garage",
+          "meaning": "Trong nhà để xe",
+          "isCorrect": false
+        },
+        {
+          "text": "Under the bridge",
+          "meaning": "Dưới gầm cầu",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "prep-05",
@@ -498,7 +762,29 @@
         }
       ],
       "hint": "Ta nói 'under a tree' (dưới gốc cây) nhưng 'in the shade' (trong bóng râm).",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/13_vHGponLzZ.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/13_vHGponLzZ.jpeg",
+      "phraseOptions": [
+        {
+          "text": "In the shade of a tree",
+          "meaning": "Trong bóng râm của cây",
+          "isCorrect": true
+        },
+        {
+          "text": "On top of a tree",
+          "meaning": "Trên ngọn cây",
+          "isCorrect": false
+        },
+        {
+          "text": "Behind a tree",
+          "meaning": "Phía sau cái cây",
+          "isCorrect": false
+        },
+        {
+          "text": "Climb a tree",
+          "meaning": "Trèo cây",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "prep-06",
@@ -534,7 +820,29 @@
         }
       ],
       "hint": "'In front of' luôn đi cùng 'of', không có cụm 'next of'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/14_aUCFSGcPA.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/14_aUCFSGcPA.jpeg",
+      "phraseOptions": [
+        {
+          "text": "In front of the window",
+          "meaning": "Phía trước cửa sổ",
+          "isCorrect": true
+        },
+        {
+          "text": "Behind the curtain",
+          "meaning": "Phía sau tấm rèm",
+          "isCorrect": false
+        },
+        {
+          "text": "Under the bed",
+          "meaning": "Dưới gầm giường",
+          "isCorrect": false
+        },
+        {
+          "text": "In the garden",
+          "meaning": "Trong vườn hoa",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "prep-07",
@@ -570,7 +878,29 @@
         }
       ],
       "hint": "'Near' đứng một mình, không cần 'of' theo sau, khác với 'in front of' hay 'because of'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/15_q1XtbxID6.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/15_q1XtbxID6.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Near the lamppost",
+          "meaning": "Gần cột đèn đường",
+          "isCorrect": true
+        },
+        {
+          "text": "Behind the building",
+          "meaning": "Phía sau tòa nhà",
+          "isCorrect": false
+        },
+        {
+          "text": "Under the tree shade",
+          "meaning": "Dưới bóng râm của cây",
+          "isCorrect": false
+        },
+        {
+          "text": "Across from the lake",
+          "meaning": "Đối diện hồ nước",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "prep-08",
@@ -606,7 +936,29 @@
         }
       ],
       "hint": "'Across from' = đối diện; 'across' một mình lại mang nghĩa 'băng qua'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/16_I3wTKynzk.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/16_I3wTKynzk.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Across from the park",
+          "meaning": "Đối diện công viên",
+          "isCorrect": true
+        },
+        {
+          "text": "Along the street",
+          "meaning": "Dọc theo con đường",
+          "isCorrect": false
+        },
+        {
+          "text": "Behind the building",
+          "meaning": "Phía sau tòa nhà",
+          "isCorrect": false
+        },
+        {
+          "text": "Under the bridge",
+          "meaning": "Dưới gầm cầu",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "conn-01",
@@ -642,7 +994,29 @@
         }
       ],
       "hint": "Hai hành động xảy ra CÙNG LÚC thường được nối bằng 'while' hoặc 'as'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/17_U9he5Ltsl.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/17_U9he5Ltsl.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Talk while driving",
+          "meaning": "Nói chuyện khi đang lái xe",
+          "isCorrect": true
+        },
+        {
+          "text": "Drive to work",
+          "meaning": "Lái xe đi làm",
+          "isCorrect": false
+        },
+        {
+          "text": "Listen to music",
+          "meaning": "Nghe nhạc",
+          "isCorrect": false
+        },
+        {
+          "text": "Text while driving",
+          "meaning": "Nhắn tin khi đang lái xe",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "conn-02",
@@ -678,7 +1052,29 @@
         }
       ],
       "hint": "Dùng 'to + V-inf' để chỉ mục đích của hành động, hoặc 'for + V-ing'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/18_0vi_pl6gF.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/18_0vi_pl6gF.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Use a cart to carry heavy boxes",
+          "meaning": "Dùng xe đẩy chở hộp nặng",
+          "isCorrect": true
+        },
+        {
+          "text": "Lift heavy boxes",
+          "meaning": "Nhấc các hộp nặng",
+          "isCorrect": false
+        },
+        {
+          "text": "Load boxes onto a truck",
+          "meaning": "Xếp hộp lên xe tải",
+          "isCorrect": false
+        },
+        {
+          "text": "Pack items into a box",
+          "meaning": "Đóng gói đồ vào hộp",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "conn-03",
@@ -714,7 +1110,29 @@
         }
       ],
       "hint": "Khi có một trở ngại làm hành động khó thực hiện, hãy nghĩ đến 'but'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/19_qt0E6ATa9.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/19_qt0E6ATa9.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Try to lift a heavy box",
+          "meaning": "Cố nhấc chiếc hộp nặng",
+          "isCorrect": true
+        },
+        {
+          "text": "Carry a box",
+          "meaning": "Mang một chiếc hộp",
+          "isCorrect": false
+        },
+        {
+          "text": "Drop a box",
+          "meaning": "Làm rơi chiếc hộp",
+          "isCorrect": false
+        },
+        {
+          "text": "Open a box",
+          "meaning": "Mở một chiếc hộp",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "conn-04",
@@ -750,7 +1168,29 @@
         }
       ],
       "hint": "Khi muốn diễn tả MỤC ĐÍCH của hành động, hãy dùng 'so that' hoặc 'in order to'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/20_M6K-l82Iz.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/20_M6K-l82Iz.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Read the document to learn",
+          "meaning": "Đọc tài liệu để học hỏi",
+          "isCorrect": true
+        },
+        {
+          "text": "Write a document",
+          "meaning": "Viết một tài liệu",
+          "isCorrect": false
+        },
+        {
+          "text": "Print a document",
+          "meaning": "In một tài liệu",
+          "isCorrect": false
+        },
+        {
+          "text": "File a document",
+          "meaning": "Lưu trữ tài liệu",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "conn-05",
@@ -786,7 +1226,29 @@
         }
       ],
       "hint": "Dùng liên từ chỉ thời gian 'as' hoặc 'while' để diễn tả hai hành động diễn ra đồng thời.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/21_8wm_AFqxS.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/21_8wm_AFqxS.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Open the drink as walking out",
+          "meaning": "Mở lon nước khi bước ra ngoài",
+          "isCorrect": true
+        },
+        {
+          "text": "Buy a drink",
+          "meaning": "Mua đồ uống",
+          "isCorrect": false
+        },
+        {
+          "text": "Pour a drink",
+          "meaning": "Rót đồ uống",
+          "isCorrect": false
+        },
+        {
+          "text": "Open the door of the store",
+          "meaning": "Mở cửa của cửa hàng",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "conn-06",
@@ -801,28 +1263,50 @@
       "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'smile' và 'photo'.",
       "answerOptions": [
         {
-          "text": "The women are smiling as they take a photo.",
+          "text": "The women are smiling while taking a photo.",
           "isCorrect": true,
-          "rationale": "'As' diễn tả hai hành động xảy ra gần như đồng thời, phù hợp với khoảnh khắc họ cười khi được chụp ảnh."
+          "rationale": "'While + V-ing' diễn tả hai hành động xảy ra đồng thời của cùng một chủ ngữ (rút gọn mệnh đề)."
         },
         {
           "text": "The women are smiling because they take a photo.",
           "isCorrect": false,
-          "rationale": "'Because' nhấn quá mạnh vào quan hệ nhân - quả, trong khi thực tế đây chỉ là hai hành động diễn ra cùng lúc một cách tự nhiên."
+          "rationale": "'Because' chỉ nguyên nhân - kết quả, không phù hợp để mô tả hai hành động đang xảy ra song song."
         },
         {
           "text": "The women are smiling so that they take a photo.",
           "isCorrect": false,
-          "rationale": "'So that' diễn tả mục đích, không phù hợp với tình huống hai hành động xảy ra đồng thời và tự nhiên."
+          "rationale": "'So that' dùng để chỉ mục đích, không phù hợp cho trường hợp này."
         },
         {
           "text": "The women are smiling but they take a photo.",
           "isCorrect": false,
-          "rationale": "'But' diễn tả sự tương phản, nhưng việc cười và chụp ảnh ở đây không hề đối lập nhau."
+          "rationale": "'But' chỉ sự tương phản đối lập, không phù hợp ở đây."
         }
       ],
-      "hint": "'As' thường dùng cho hai hành động diễn ra gần như cùng một khoảnh khắc.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/22_CqyW6q1Vd.jpeg"
+      "hint": "Dùng 'while' để diễn tả hai hành động xảy ra đồng thời, có thể dùng dạng rút gọn 'while + V-ing'.",
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/22_CqyW6q1Vd.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Smile while taking a photo",
+          "meaning": "Cười khi chụp ảnh",
+          "isCorrect": true
+        },
+        {
+          "text": "Print a photo",
+          "meaning": "In ảnh",
+          "isCorrect": false
+        },
+        {
+          "text": "Frame a photo",
+          "meaning": "Lồng khung ảnh",
+          "isCorrect": false
+        },
+        {
+          "text": "Hold a camera",
+          "meaning": "Cầm máy ảnh",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "conn-07",
@@ -858,7 +1342,29 @@
         }
       ],
       "hint": "Khi hai hành động diễn ra LẦN LƯỢT (cái này xong mới đến cái kia), hãy dùng 'after'/'before'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/23_zuzlfrhvp.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/23_zuzlfrhvp.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Sweep after watering",
+          "meaning": "Quét dọn sau khi tưới cây",
+          "isCorrect": true
+        },
+        {
+          "text": "Water plants in the yard",
+          "meaning": "Tưới cây ngoài sân",
+          "isCorrect": false
+        },
+        {
+          "text": "Sweep the yard",
+          "meaning": "Quét sân",
+          "isCorrect": false
+        },
+        {
+          "text": "Plant a tree",
+          "meaning": "Trồng cây",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "conn-08",
@@ -894,7 +1400,29 @@
         }
       ],
       "hint": "Thời tiết thường là NGUYÊN NHÂN của hành động — hãy nghĩ đến 'because'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/24_3L3PBTXSVR.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/24_3L3PBTXSVR.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Hold an umbrella in the rain",
+          "meaning": "Cầm ô khi trời mưa",
+          "isCorrect": true
+        },
+        {
+          "text": "Walk in the rain",
+          "meaning": "Đi bộ dưới mưa",
+          "isCorrect": false
+        },
+        {
+          "text": "Buy an umbrella",
+          "meaning": "Mua ô",
+          "isCorrect": false
+        },
+        {
+          "text": "Fold the umbrella",
+          "meaning": "Gấp ô",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "int-01",
@@ -930,7 +1458,29 @@
         }
       ],
       "hint": "'People' là danh từ đếm được số nhiều — loại ngay 'much'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/25_9Kje62N8S.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/25_9Kje62N8S.jpeg",
+      "phraseOptions": [
+        {
+          "text": "A lot of people at the bookstore",
+          "meaning": "Nhiều người ở hiệu sách",
+          "isCorrect": true
+        },
+        {
+          "text": "Few people at the bookstore",
+          "meaning": "Ít người ở hiệu sách",
+          "isCorrect": false
+        },
+        {
+          "text": "Buy books at the store",
+          "meaning": "Mua sách ở cửa hàng",
+          "isCorrect": false
+        },
+        {
+          "text": "Read books in the library",
+          "meaning": "Đọc sách trong thư viện",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "int-02",
@@ -966,7 +1516,29 @@
         }
       ],
       "hint": "'Books' đếm được số nhiều → dùng 'many', không dùng 'much'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/26_0Yn6nfiCr.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/26_0Yn6nfiCr.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Hold many books",
+          "meaning": "Cầm nhiều sách",
+          "isCorrect": true
+        },
+        {
+          "text": "Hold one book",
+          "meaning": "Cầm một cuốn sách",
+          "isCorrect": false
+        },
+        {
+          "text": "Read many books",
+          "meaning": "Đọc nhiều sách",
+          "isCorrect": false
+        },
+        {
+          "text": "Borrow books",
+          "meaning": "Mượn sách",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "int-03",
@@ -1002,7 +1574,29 @@
         }
       ],
       "hint": "Trước một tính từ, hãy dùng 'so' hoặc 'very' để nhấn mạnh mức độ.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/27_ARGmMGpc_.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/27_ARGmMGpc_.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Beautiful trees in autumn",
+          "meaning": "Cây cối mùa thu đẹp đẽ",
+          "isCorrect": true
+        },
+        {
+          "text": "Green trees in summer",
+          "meaning": "Cây xanh mùa hè",
+          "isCorrect": false
+        },
+        {
+          "text": "Bare trees in winter",
+          "meaning": "Cây rụng lá mùa đông",
+          "isCorrect": false
+        },
+        {
+          "text": "Plant trees in spring",
+          "meaning": "Trồng cây mùa xuân",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "int-04",
@@ -1038,7 +1632,29 @@
         }
       ],
       "hint": "'Almost' đứng trước động từ để diễn tả một hành động 'gần như đã xong'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/28_R6yKvhqZx.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/28_R6yKvhqZx.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Almost reach the destination",
+          "meaning": "Gần như đã đến điểm đến",
+          "isCorrect": true
+        },
+        {
+          "text": "Start the journey",
+          "meaning": "Bắt đầu hành trình",
+          "isCorrect": false
+        },
+        {
+          "text": "Miss the destination",
+          "meaning": "Bỏ lỡ điểm đến",
+          "isCorrect": false
+        },
+        {
+          "text": "Walk back home",
+          "meaning": "Đi bộ về nhà",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "int-05",
@@ -1074,7 +1690,29 @@
         }
       ],
       "hint": "'Water' là danh từ không đếm được, trong câu phủ định thường đi với 'much'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/29_jzN_xzcD1.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/29_jzN_xzcD1.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Not much water in the bottle",
+          "meaning": "Không còn nhiều nước trong chai",
+          "isCorrect": true
+        },
+        {
+          "text": "Fill the bottle with water",
+          "meaning": "Đổ đầy nước vào chai",
+          "isCorrect": false
+        },
+        {
+          "text": "Drink water from the bottle",
+          "meaning": "Uống nước từ chai",
+          "isCorrect": false
+        },
+        {
+          "text": "A bottle full of water",
+          "meaning": "Một chai đầy nước",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "int-06",
@@ -1110,7 +1748,29 @@
         }
       ],
       "hint": "Trước tính từ 'excited', từ nhấn mạnh tự nhiên nhất là 'very'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/30_4BKoKtPFe.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/30_4BKoKtPFe.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Excited about the toy",
+          "meaning": "Hào hứng với đồ chơi",
+          "isCorrect": true
+        },
+        {
+          "text": "Bored with the toy",
+          "meaning": "Chán đồ chơi",
+          "isCorrect": false
+        },
+        {
+          "text": "Buy a new toy",
+          "meaning": "Mua đồ chơi mới",
+          "isCorrect": false
+        },
+        {
+          "text": "Break a toy",
+          "meaning": "Làm hỏng đồ chơi",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "combo-01",
@@ -1146,7 +1806,29 @@
         }
       ],
       "hint": "Luôn kiểm tra: câu đã dùng ĐỦ cả hai từ khóa, đúng dạng, và khớp logic với tranh chưa?",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/31_fIe9dPq-q.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/31_fIe9dPq-q.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Push a cart of boxes",
+          "meaning": "Đẩy xe đầy thùng hàng",
+          "isCorrect": true
+        },
+        {
+          "text": "Carry boxes",
+          "meaning": "Khiêng các thùng hàng",
+          "isCorrect": false
+        },
+        {
+          "text": "Load a cart",
+          "meaning": "Xếp hàng lên xe đẩy",
+          "isCorrect": false
+        },
+        {
+          "text": "Open boxes",
+          "meaning": "Mở các thùng hàng",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "combo-02",
@@ -1182,7 +1864,29 @@
         }
       ],
       "hint": "Chủ ngữ của hành động phải là NGƯỜI thực hiện hành động, không phải vật bị tác động.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/32_X9svsfa5d.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/32_X9svsfa5d.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Hang a picture on the wall",
+          "meaning": "Treo tranh lên tường",
+          "isCorrect": true
+        },
+        {
+          "text": "Paint the wall",
+          "meaning": "Sơn bức tường",
+          "isCorrect": false
+        },
+        {
+          "text": "Clean the wall",
+          "meaning": "Lau bức tường",
+          "isCorrect": false
+        },
+        {
+          "text": "Draw on the wall",
+          "meaning": "Vẽ lên tường",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "combo-03",
@@ -1218,7 +1922,29 @@
         }
       ],
       "hint": "Đừng mô tả chung chung — hãy dùng đúng động từ cụ thể được cho trong từ khóa.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/33_HUgi5jrKs.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/33_HUgi5jrKs.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Kick a ball on the grass",
+          "meaning": "Đá bóng trên bãi cỏ",
+          "isCorrect": true
+        },
+        {
+          "text": "Run on the grass",
+          "meaning": "Chạy trên cỏ",
+          "isCorrect": false
+        },
+        {
+          "text": "Cut the grass",
+          "meaning": "Cắt cỏ",
+          "isCorrect": false
+        },
+        {
+          "text": "Play on the grass",
+          "meaning": "Chơi đùa trên cỏ",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "combo-04",
@@ -1254,7 +1980,29 @@
         }
       ],
       "hint": "Kiểm tra xem chủ ngữ có thực sự là người/vật đang thực hiện hành động hay không.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/34_l8T97Je0S.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/34_l8T97Je0S.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Fix a leak under the sink",
+          "meaning": "Sửa rò rỉ dưới bồn rửa",
+          "isCorrect": true
+        },
+        {
+          "text": "Clean the sink",
+          "meaning": "Lau rửa bồn rửa",
+          "isCorrect": false
+        },
+        {
+          "text": "Wash hands in the sink",
+          "meaning": "Rửa tay ở bồn rửa",
+          "isCorrect": false
+        },
+        {
+          "text": "Install a sink",
+          "meaning": "Lắp đặt bồn rửa",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "combo-05",
@@ -1290,7 +2038,29 @@
         }
       ],
       "hint": "Chú ý chia đúng thể bị động (is + V3/ed) và không bỏ sót mạo từ 'the' trước 'screen'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/35_g-hmb30cf.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/35_g-hmb30cf.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Chart displayed on screen",
+          "meaning": "Biểu đồ hiển thị trên màn hình",
+          "isCorrect": true
+        },
+        {
+          "text": "Turn on the screen",
+          "meaning": "Bật màn hình",
+          "isCorrect": false
+        },
+        {
+          "text": "Watch a video on screen",
+          "meaning": "Xem video trên màn hình",
+          "isCorrect": false
+        },
+        {
+          "text": "Draw a chart",
+          "meaning": "Vẽ biểu đồ",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "combo-06",
@@ -1326,7 +2096,29 @@
         }
       ],
       "hint": "Lưu ý: 'water' ở đây là ĐỘNG TỪ (tưới), không phải danh từ (nước).",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/36_myp3cvuHz.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/36_myp3cvuHz.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Water the plants",
+          "meaning": "Tưới cây",
+          "isCorrect": true
+        },
+        {
+          "text": "Grow plants",
+          "meaning": "Trồng/nuôi cây",
+          "isCorrect": false
+        },
+        {
+          "text": "Cut plants",
+          "meaning": "Cắt tỉa cây",
+          "isCorrect": false
+        },
+        {
+          "text": "Buy plants",
+          "meaning": "Mua cây",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "combo-07",
@@ -1362,7 +2154,29 @@
         }
       ],
       "hint": "Hãy hình dung lại: ai/cái gì là chủ thể thực sự gây ra hành động trong tranh?",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/37_ygQgQuFu4.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/37_ygQgQuFu4.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Cut wood with a saw",
+          "meaning": "Cắt gỗ bằng cưa",
+          "isCorrect": true
+        },
+        {
+          "text": "Carry a piece of wood",
+          "meaning": "Khiêng thanh gỗ",
+          "isCorrect": false
+        },
+        {
+          "text": "Buy a piece of wood",
+          "meaning": "Mua một thanh gỗ",
+          "isCorrect": false
+        },
+        {
+          "text": "Burn wood",
+          "meaning": "Đốt củi/gỗ",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "combo-08",
@@ -1398,7 +2212,29 @@
         }
       ],
       "hint": "Kiểm tra hành động chính (sitting/standing) có khớp với tư thế thực tế trong tranh không.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/38_qvf2PkpCS.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/38_qvf2PkpCS.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Sit on a bench near the lake",
+          "meaning": "Ngồi trên ghế băng cạnh hồ",
+          "isCorrect": true
+        },
+        {
+          "text": "Walk around the lake",
+          "meaning": "Đi dạo quanh hồ",
+          "isCorrect": false
+        },
+        {
+          "text": "Swim in the lake",
+          "meaning": "Bơi dưới hồ",
+          "isCorrect": false
+        },
+        {
+          "text": "Stand near the lake",
+          "meaning": "Đứng cạnh hồ",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "combo-09",
@@ -1434,7 +2270,29 @@
         }
       ],
       "hint": "Từ khóa danh từ như 'label' có thể được chuyển đổi linh hoạt thành động từ ('labeling') để câu văn tự nhiên hơn.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/39_9gQhdoQ5q.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/39_9gQhdoQ5q.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Label products on the shelf",
+          "meaning": "Dán nhãn sản phẩm trên kệ",
+          "isCorrect": true
+        },
+        {
+          "text": "Arrange the shelf",
+          "meaning": "Sắp xếp kệ hàng",
+          "isCorrect": false
+        },
+        {
+          "text": "Clean the shelf",
+          "meaning": "Lau dọn kệ hàng",
+          "isCorrect": false
+        },
+        {
+          "text": "Place products on the shelf",
+          "meaning": "Xếp sản phẩm lên kệ",
+          "isCorrect": false
+        }
+      ]
     },
     {
       "id": "combo-10",
@@ -1470,7 +2328,29 @@
         }
       ],
       "hint": "'Onto' thường đi kèm động từ chỉ chuyển động hướng lên trên một bề mặt, như 'carry onto', 'load onto'.",
-      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/40_IAQVu9dBR.jpeg"
+      "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/40_IAQVu9dBR.jpeg",
+      "phraseOptions": [
+        {
+          "text": "Carry a sofa onto the truck",
+          "meaning": "Khiêng ghế sofa lên xe tải",
+          "isCorrect": true
+        },
+        {
+          "text": "Drive a truck",
+          "meaning": "Lái xe tải",
+          "isCorrect": false
+        },
+        {
+          "text": "Load a truck",
+          "meaning": "Bốc hàng lên xe tải",
+          "isCorrect": false
+        },
+        {
+          "text": "Repair a truck",
+          "meaning": "Sửa xe tải",
+          "isCorrect": false
+        }
+      ]
     }
   ]
 }
