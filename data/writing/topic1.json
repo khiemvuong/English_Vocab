@@ -1,0 +1,1264 @@
+[
+  {
+    "id": "t1-q01",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "phone"
+    ],
+    "scene": "Người đàn ông đang nói chuyện điện thoại tại nơi làm việc.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'phone'.",
+    "answerOptions": [
+      {
+        "text": "The man is talking on the phone.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Dùng hiện tại tiếp diễn tả hành động nói chuyện điện thoại của người đàn ông."
+      },
+      {
+        "text": "The man is talking on phone.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: thiếu mạo từ 'the' trong cụm từ 'on the phone'."
+      },
+      {
+        "text": "The man is talking at the phone.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: nói chuyện trên điện thoại phải dùng 'on the phone'."
+      },
+      {
+        "text": "The man talks on the phone.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp tả hành động đang tiếp diễn trong tranh."
+      }
+    ],
+    "hint": "Hành động nói chuyện qua điện thoại dùng giới từ 'on'.",
+    "phraseOptions": [
+      {
+        "text": "Talk on the phone",
+        "meaning": "Nói chuyện điện thoại",
+        "isCorrect": true
+      },
+      {
+        "text": "Write a message",
+        "meaning": "Viết tin nhắn",
+        "isCorrect": false
+      },
+      {
+        "text": "Listen to music",
+        "meaning": "Nghe nhạc",
+        "isCorrect": false
+      },
+      {
+        "text": "Look at the screen",
+        "meaning": "Nhìn màn hình",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/10_1_GlYKpBe-q.jpeg"
+  },
+  {
+    "id": "t1-q02",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "notes"
+    ],
+    "scene": "Một người phụ nữ đang ghi chép lại các ghi chú.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'notes'.",
+    "answerOptions": [
+      {
+        "text": "She is taking notes.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cụm từ 'take notes' diễn tả việc ghi chép lại thông tin."
+      },
+      {
+        "text": "She is making notes.",
+        "isCorrect": false,
+        "rationale": "Sai cụm từ: người bản xứ dùng 'take notes' thay vì 'make notes'."
+      },
+      {
+        "text": "She is note taking.",
+        "isCorrect": false,
+        "rationale": "Sai trật tự từ và ngữ pháp."
+      },
+      {
+        "text": "She is takes notes.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, sau 'is' phải là động từ dạng V-ing."
+      }
+    ],
+    "hint": "Cụm từ ghi chép thông tin phổ biến trong tiếng Anh.",
+    "phraseOptions": [
+      {
+        "text": "Take notes",
+        "meaning": "Ghi chép",
+        "isCorrect": true
+      },
+      {
+        "text": "Read the notes",
+        "meaning": "Đọc ghi chú",
+        "isCorrect": false
+      },
+      {
+        "text": "Type on keyboard",
+        "meaning": "Gõ bàn phím",
+        "isCorrect": false
+      },
+      {
+        "text": "Draw a chart",
+        "meaning": "Vẽ biểu đồ",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/10_2_I9cG5t6OU.jpeg"
+  },
+  {
+    "id": "t1-q03",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "computer"
+    ],
+    "scene": "Người phụ nữ đang ngồi làm việc trên máy tính.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'computer'.",
+    "answerOptions": [
+      {
+        "text": "She is working on a computer.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cụm từ 'work on a computer' miêu tả việc thao tác làm việc với máy tính."
+      },
+      {
+        "text": "She is working at computer.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'a' trước danh từ đếm được số ít 'computer'."
+      },
+      {
+        "text": "She is working with a computer.",
+        "isCorrect": false,
+        "rationale": "Không tự nhiên bằng cụm từ 'work on a computer' trong văn phong mô tả tranh."
+      },
+      {
+        "text": "She is work on a computer.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, thiếu đuôi -ing ở động từ 'work'."
+      }
+    ],
+    "hint": "Làm việc sử dụng máy vi tính.",
+    "phraseOptions": [
+      {
+        "text": "Work on a computer",
+        "meaning": "Làm việc trên máy tính",
+        "isCorrect": true
+      },
+      {
+        "text": "Clean the screen",
+        "meaning": "Lau màn hình",
+        "isCorrect": false
+      },
+      {
+        "text": "Repair the computer",
+        "meaning": "Sửa máy tính",
+        "isCorrect": false
+      },
+      {
+        "text": "Carry a laptop",
+        "meaning": "Mang máy xách tay",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/11_1_ZZuUTooIP.jpeg"
+  },
+  {
+    "id": "t1-q04",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "meeting"
+    ],
+    "scene": "Một nhóm người đang ngồi họp cùng nhau.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'meeting'.",
+    "answerOptions": [
+      {
+        "text": "They are having a meeting.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cụm từ 'have a meeting' diễn tả cuộc họp đang diễn ra."
+      },
+      {
+        "text": "They are making a meeting.",
+        "isCorrect": false,
+        "rationale": "Sai cụm từ: người bản xứ dùng 'have a meeting' hoặc 'hold a meeting'."
+      },
+      {
+        "text": "They are meeting having.",
+        "isCorrect": false,
+        "rationale": "Sai trật tự từ nghiêm trọng."
+      },
+      {
+        "text": "They have a meeting.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp để mô tả hành động đang diễn ra ngay tại thời điểm chụp."
+      }
+    ],
+    "hint": "Hành động tiến hành một cuộc họp.",
+    "phraseOptions": [
+      {
+        "text": "Have a meeting",
+        "meaning": "Họp hành",
+        "isCorrect": true
+      },
+      {
+        "text": "Give a presentation",
+        "meaning": "Thuyết trình",
+        "isCorrect": false
+      },
+      {
+        "text": "Walk out the door",
+        "meaning": "Đi ra cửa",
+        "isCorrect": false
+      },
+      {
+        "text": "Have a lunch break",
+        "meaning": "Ăn trưa nghỉ ngơi",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/11_2_jIxBNKK5f.jpeg"
+  },
+  {
+    "id": "t1-q05",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Workplace",
+    "keywords": [
+      "table"
+    ],
+    "scene": "Mọi người đang ngồi vây quanh một chiếc bàn tròn.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'table'.",
+    "answerOptions": [
+      {
+        "text": "They are sitting around the table.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giới từ 'around' diễn tả tư thế ngồi bao quanh chiếc bàn."
+      },
+      {
+        "text": "They are sitting at around the table.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc giới từ kép chồng chéo."
+      },
+      {
+        "text": "They are sitting around table.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước danh từ xác định 'table'."
+      },
+      {
+        "text": "They are sit around the table.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Vị trí ngồi vây quanh chiếc bàn của các đối tượng.",
+    "phraseOptions": [
+      {
+        "text": "Sit around the table",
+        "meaning": "Ngồi quanh bàn",
+        "isCorrect": true
+      },
+      {
+        "text": "Stand near the desk",
+        "meaning": "Đứng cạnh bàn làm việc",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the table surface",
+        "meaning": "Lau sạch mặt bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Leave the chairs",
+        "meaning": "Rời khỏi ghế",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/11_3_1HUoWj93i.jpeg"
+  },
+  {
+    "id": "t1-q06",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "presentation"
+    ],
+    "scene": "Người đàn ông đang đứng thuyết trình trước đám đông.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'presentation'.",
+    "answerOptions": [
+      {
+        "text": "The man is giving a presentation.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'Give a presentation' là cụm từ chuẩn để diễn tả hành động thuyết trình."
+      },
+      {
+        "text": "The man is making a presentation.",
+        "isCorrect": false,
+        "rationale": "Không tự nhiên bằng cụm từ 'give a presentation' trong văn phong công sở."
+      },
+      {
+        "text": "The man is doing a presentation.",
+        "isCorrect": false,
+        "rationale": "Sai cụm từ động từ."
+      },
+      {
+        "text": "The man is showing a presentation.",
+        "isCorrect": false,
+        "rationale": "Không đúng thói quen sử dụng ngôn ngữ khi thuyết trình."
+      }
+    ],
+    "hint": "Cụm từ chuẩn diễn tả hành động thuyết trình trong công việc.",
+    "phraseOptions": [
+      {
+        "text": "Give a presentation",
+        "meaning": "Thuyết trình",
+        "isCorrect": true
+      },
+      {
+        "text": "Answer the phone",
+        "meaning": "Trả lời điện thoại",
+        "isCorrect": false
+      },
+      {
+        "text": "Write on paper",
+        "meaning": "Viết trên giấy",
+        "isCorrect": false
+      },
+      {
+        "text": "Draw a chart",
+        "meaning": "Vẽ biểu đồ",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/12_1_qIg1HOBPN.jpeg"
+  },
+  {
+    "id": "t1-q07",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "paper"
+    ],
+    "scene": "Người phụ nữ đang đưa một tờ giấy cho người đồng nghiệp.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'paper'.",
+    "answerOptions": [
+      {
+        "text": "She is handing a piece of paper to another person.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'Hand a piece of paper to someone' diễn tả hành động trao tận tay một mảnh giấy."
+      },
+      {
+        "text": "She is hand a piece of paper to another person.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp tiếp diễn."
+      },
+      {
+        "text": "She is handing piece of paper to another person.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'a' trước cụm danh từ đếm được số ít 'piece of paper'."
+      },
+      {
+        "text": "She is handing a paper piece to another person.",
+        "isCorrect": false,
+        "rationale": "Diễn đạt không tự nhiên, sai thứ tự từ."
+      }
+    ],
+    "hint": "Hành động trao tay một tờ giấy cho người khác.",
+    "phraseOptions": [
+      {
+        "text": "Hand a piece of paper",
+        "meaning": "Đưa mảnh giấy",
+        "isCorrect": true
+      },
+      {
+        "text": "Read the paper",
+        "meaning": "Đọc tờ báo",
+        "isCorrect": false
+      },
+      {
+        "text": "Sign the contract",
+        "meaning": "Ký hợp đồng",
+        "isCorrect": false
+      },
+      {
+        "text": "Discard the trash",
+        "meaning": "Vứt rác",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/12_2_VQI753pSz.jpeg"
+  },
+  {
+    "id": "t1-q08",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "arms"
+    ],
+    "scene": "Người phụ nữ đang khoanh tay trước ngực.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'arms'.",
+    "answerOptions": [
+      {
+        "text": "She folds her arms.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Diễn tả trạng thái khoanh tay bằng thì hiện tại đơn."
+      },
+      {
+        "text": "She is fold her arms.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc động từ."
+      },
+      {
+        "text": "She folds her arm.",
+        "isCorrect": false,
+        "rationale": "Sai số ít: khoanh tay là hành động gấp cả 2 cánh tay nên phải dùng số nhiều 'arms'."
+      },
+      {
+        "text": "She folds arms.",
+        "isCorrect": false,
+        "rationale": "Thiếu tính từ sở hữu 'her' để làm rõ nghĩa cánh tay của ai."
+      }
+    ],
+    "hint": "Hành động khoanh tay dùng số nhiều 'arms'.",
+    "phraseOptions": [
+      {
+        "text": "Fold one's arms",
+        "meaning": "Khoanh tay",
+        "isCorrect": true
+      },
+      {
+        "text": "Wave one's hands",
+        "meaning": "Vẫy tay",
+        "isCorrect": false
+      },
+      {
+        "text": "Raise one's hands",
+        "meaning": "Giơ tay lên",
+        "isCorrect": false
+      },
+      {
+        "text": "Clap hands",
+        "meaning": "Vỗ tay",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/13_1_1-NGD14Ue.jpeg"
+  },
+  {
+    "id": "t1-q09",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Workplace",
+    "keywords": [
+      "point"
+    ],
+    "scene": "Người phụ nữ đang chỉ tay vào cuốn sách.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'point'.",
+    "answerOptions": [
+      {
+        "text": "The woman is pointing at the book.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giới từ đi với 'point' chỉ hướng vào mục tiêu là 'at'."
+      },
+      {
+        "text": "The woman is pointing on the book.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'point on'."
+      },
+      {
+        "text": "The woman is pointing at book.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước danh từ đếm được số ít 'book'."
+      },
+      {
+        "text": "The woman points at the book.",
+        "isCorrect": false,
+        "rationale": "Thì tiếp diễn 'is pointing' mô tả sinh động và chính xác hơn trạng thái tức thời."
+      }
+    ],
+    "hint": "Chỉ tay vào một vật dùng giới từ 'at'.",
+    "phraseOptions": [
+      {
+        "text": "Point at the book",
+        "meaning": "Chỉ vào quyển sách",
+        "isCorrect": true
+      },
+      {
+        "text": "Open the book",
+        "meaning": "Mở sách ra",
+        "isCorrect": false
+      },
+      {
+        "text": "Close the book",
+        "meaning": "Đóng sách lại",
+        "isCorrect": false
+      },
+      {
+        "text": "Write in the book",
+        "meaning": "Viết vào sách",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/13_2_r5bOrEEIxR.jpeg"
+  },
+  {
+    "id": "t1-q10",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "suit"
+    ],
+    "scene": "Người đàn ông đang mặc một bộ comple lịch sự.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'suit'.",
+    "answerOptions": [
+      {
+        "text": "The man is wearing a suit.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì tiếp diễn miêu tả trạng thái mặc trang phục comple."
+      },
+      {
+        "text": "The man is wearing suit.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'a' trước danh từ số ít 'suit'."
+      },
+      {
+        "text": "The man wears a suit.",
+        "isCorrect": false,
+        "rationale": "Không tự nhiên bằng thì tiếp diễn khi tả tranh vẽ."
+      },
+      {
+        "text": "The man is wear a suit.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Trạng thái mặc quần áo đang diễn ra dùng 'is wearing'.",
+    "phraseOptions": [
+      {
+        "text": "Wear a suit",
+        "meaning": "Mặc comple",
+        "isCorrect": true
+      },
+      {
+        "text": "Iron a suit",
+        "meaning": "Là comple",
+        "isCorrect": false
+      },
+      {
+        "text": "Buy a suit",
+        "meaning": "Mua comple",
+        "isCorrect": false
+      },
+      {
+        "text": "Fold a suit",
+        "meaning": "Gấp comple",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/14_1_KIMCHw2u4.jpeg"
+  },
+  {
+    "id": "t1-q11",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "air conditioner",
+      "install"
+    ],
+    "scene": "Chiếc điều hòa đang được kỹ thuật viên lắp đặt trên tường.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'air conditioner' và 'install'.",
+    "answerOptions": [
+      {
+        "text": "The air conditioner is being installed.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì hiện tại tiếp diễn thể bị động 'is being V3/ed' miêu tả hành động đang được thực hiện."
+      },
+      {
+        "text": "The air conditioner is installing.",
+        "isCorrect": false,
+        "rationale": "Sai thể chủ động: chiếc điều hòa không thể tự lắp đặt chính nó."
+      },
+      {
+        "text": "The air conditioner has installed.",
+        "isCorrect": false,
+        "rationale": "Sai chủ động hoàn thành."
+      },
+      {
+        "text": "The air conditioner installed.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp bị động và không tả được hành động đang diễn ra."
+      }
+    ],
+    "hint": "Chọn thể bị động của thì hiện tại tiếp diễn (am/is/are + being + V3/ed).",
+    "phraseOptions": [
+      {
+        "text": "Install air conditioner",
+        "meaning": "Lắp điều hòa",
+        "isCorrect": true
+      },
+      {
+        "text": "Repair the light",
+        "meaning": "Sửa đèn",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the filter",
+        "meaning": "Lau bộ lọc",
+        "isCorrect": false
+      },
+      {
+        "text": "Turn off the power",
+        "meaning": "Tắt điện",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/15_1_gE6iEfpej.jpeg"
+  },
+  {
+    "id": "t1-q12",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Workplace",
+    "keywords": [
+      "desk"
+    ],
+    "scene": "Người phụ nữ đang ngồi làm việc ngay phía sau bàn làm việc.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'desk'.",
+    "answerOptions": [
+      {
+        "text": "The woman is sitting behind the desk.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giới từ 'behind the desk' mô tả đúng vị trí ngồi của cô ấy sau bàn làm việc."
+      },
+      {
+        "text": "The woman is sitting under the desk.",
+        "isCorrect": false,
+        "rationale": "Sai bối cảnh: cô ấy không ngồi dưới gầm bàn."
+      },
+      {
+        "text": "The woman is sitting on the desk.",
+        "isCorrect": false,
+        "rationale": "Sai bối cảnh: cô ấy không ngồi hẳn lên trên mặt bàn."
+      },
+      {
+        "text": "The woman is sitting among the desk.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: 'among' không phù hợp ở đây."
+      }
+    ],
+    "hint": "Vị trí ngồi sau bàn làm việc của người phụ nữ.",
+    "phraseOptions": [
+      {
+        "text": "Sit behind the desk",
+        "meaning": "Ngồi sau bàn",
+        "isCorrect": true
+      },
+      {
+        "text": "Stand on the chair",
+        "meaning": "Đứng trên ghế",
+        "isCorrect": false
+      },
+      {
+        "text": "Lean on the wall",
+        "meaning": "Tựa vào tường",
+        "isCorrect": false
+      },
+      {
+        "text": "Lie on the floor",
+        "meaning": "Nằm trên sàn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/15_2_Xk1gjoyg1.jpeg"
+  },
+  {
+    "id": "t1-q13",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "chart"
+    ],
+    "scene": "Người đàn ông đang vẽ hoặc phác thảo một biểu đồ trên bảng trắng.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'chart'.",
+    "answerOptions": [
+      {
+        "text": "The man is drawing a chart.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì tiếp diễn miêu tả sinh động hành động vẽ biểu đồ của người đàn ông."
+      },
+      {
+        "text": "The man draws a chart.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp mô tả khoảnh khắc tức thời của bức tranh."
+      },
+      {
+        "text": "The man is drawn a chart.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc động từ tiếp diễn."
+      },
+      {
+        "text": "The man has drawn a chart.",
+        "isCorrect": false,
+        "rationale": "Thì hoàn thành không tả được hành động vẽ đang diễn ra."
+      }
+    ],
+    "hint": "Hành động vẽ biểu đồ đang tiếp diễn.",
+    "phraseOptions": [
+      {
+        "text": "Draw a chart",
+        "meaning": "Vẽ biểu đồ",
+        "isCorrect": true
+      },
+      {
+        "text": "Erase the board",
+        "meaning": "Xóa bảng",
+        "isCorrect": false
+      },
+      {
+        "text": "Write a sentence",
+        "meaning": "Viết một câu",
+        "isCorrect": false
+      },
+      {
+        "text": "Hang a poster",
+        "meaning": "Treo áp phích",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/16_1_C8eognOQQ.jpeg"
+  },
+  {
+    "id": "t1-q14",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "document"
+    ],
+    "scene": "Người đàn ông đang đọc một tài liệu trên tay.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'document'.",
+    "answerOptions": [
+      {
+        "text": "He's reading a document.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Dạng rút gọn 'He's reading' miêu tả hành động đang đọc tài liệu."
+      },
+      {
+        "text": "He's read a document.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, thiếu đuôi '-ing'."
+      },
+      {
+        "text": "He reads a document.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp mô tả tranh."
+      },
+      {
+        "text": "He's being read a document.",
+        "isCorrect": false,
+        "rationale": "Sai dạng bị động: anh ấy là người đọc tài liệu chứ không phải được đọc."
+      }
+    ],
+    "hint": "Hành động đang đọc một tài liệu.",
+    "phraseOptions": [
+      {
+        "text": "Read a document",
+        "meaning": "Đọc tài liệu",
+        "isCorrect": true
+      },
+      {
+        "text": "Fold a paper",
+        "meaning": "Gấp tờ giấy",
+        "isCorrect": false
+      },
+      {
+        "text": "Shred a paper",
+        "meaning": "Hủy tài liệu",
+        "isCorrect": false
+      },
+      {
+        "text": "Sign a contract",
+        "meaning": "Ký hợp đồng",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/16_2_667qN3htS.jpeg"
+  },
+  {
+    "id": "t1-q15",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "conversation"
+    ],
+    "scene": "Hai người đồng nghiệp đang trao đổi nói chuyện tại bàn làm việc.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'conversation'.",
+    "answerOptions": [
+      {
+        "text": "They are having a conversation.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cụm từ 'have a conversation' chỉ việc trò chuyện nói chuyện đang diễn ra."
+      },
+      {
+        "text": "They are making a conversation.",
+        "isCorrect": false,
+        "rationale": "Sai cụm từ động từ: ta dùng 'have a conversation'."
+      },
+      {
+        "text": "They are conversation having.",
+        "isCorrect": false,
+        "rationale": "Sai trật tự cấu trúc từ."
+      },
+      {
+        "text": "They have a conversation.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp mô tả hành động tiếp diễn tức thời."
+      }
+    ],
+    "hint": "Hành động tiến hành trò chuyện đối thoại.",
+    "phraseOptions": [
+      {
+        "text": "Have a conversation",
+        "meaning": "Trò chuyện",
+        "isCorrect": true
+      },
+      {
+        "text": "Make an argument",
+        "meaning": "Tranh cãi",
+        "isCorrect": false
+      },
+      {
+        "text": "Have a lunch",
+        "meaning": "Ăn trưa",
+        "isCorrect": false
+      },
+      {
+        "text": "Type on laptop",
+        "meaning": "Gõ máy tính",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/17_1_sucG-Tof4.jpeg"
+  },
+  {
+    "id": "t1-q16",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Workplace",
+    "keywords": [
+      "students",
+      "explain"
+    ],
+    "scene": "Cô giáo đang đứng chỉ lên bảng giải thích câu hỏi toán cho học sinh.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'students' và 'explain'.",
+    "answerOptions": [
+      {
+        "text": "She is explaining a Maths question to her students.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cấu trúc tiếp diễn tả hành động giảng giải câu hỏi toán học cho các học sinh."
+      },
+      {
+        "text": "She is explain a Maths question to her students.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, thiếu đuôi '-ing'."
+      },
+      {
+        "text": "She explains a Maths question to her students.",
+        "isCorrect": false,
+        "rationale": "Hiện tại đơn không phù hợp tả hành động cụ thể đang diễn ra."
+      },
+      {
+        "text": "She is explaining a Maths question for her students.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: ta dùng 'explain something TO someone' chứ không dùng 'FOR'."
+      }
+    ],
+    "hint": "Giải thích cái gì đó cho ai dùng giới từ 'to'.",
+    "phraseOptions": [
+      {
+        "text": "Explain to students",
+        "meaning": "Giải thích cho học sinh",
+        "isCorrect": true
+      },
+      {
+        "text": "Listen to teacher",
+        "meaning": "Nghe giáo viên",
+        "isCorrect": false
+      },
+      {
+        "text": "Draw on blackboard",
+        "meaning": "Vẽ lên bảng đen",
+        "isCorrect": false
+      },
+      {
+        "text": "Do homework",
+        "meaning": "Làm bài tập về nhà",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/17_2_eknl_gKnQ.jpeg"
+  },
+  {
+    "id": "t1-q17",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Workplace",
+    "keywords": [
+      "copies",
+      "while"
+    ],
+    "scene": "Người phụ nữ đang photocopy tài liệu trong khi người đàn ông đọc thông báo trên tường.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'copies' và 'while'.",
+    "answerOptions": [
+      {
+        "text": "The woman is making copies while the man reads the notices on the wall.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Câu ghép sử dụng đúng 'while' nối 2 hành động song song và dùng đúng từ khóa 'copies'."
+      },
+      {
+        "text": "The woman is making copy while the man reads the notices on the wall.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu từ số nhiều 'copies'."
+      },
+      {
+        "text": "The woman is making copies because the man reads the notices on the wall.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa 'while' không được sử dụng."
+      },
+      {
+        "text": "The woman is making copies although the man reads the notices.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa 'while' bị thay bằng liên từ nhượng bộ."
+      }
+    ],
+    "hint": "Đảm bảo câu chứa cả hai từ khóa 'copies' (số nhiều) và liên từ 'while'.",
+    "phraseOptions": [
+      {
+        "text": "Make copies",
+        "meaning": "Photocopy tài liệu",
+        "isCorrect": true
+      },
+      {
+        "text": "Read notices",
+        "meaning": "Đọc thông báo",
+        "isCorrect": false
+      },
+      {
+        "text": "Write a letter",
+        "meaning": "Viết thư",
+        "isCorrect": false
+      },
+      {
+        "text": "Make a call",
+        "meaning": "Gọi điện thoại",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/18_1_RV1zpUlxz.jpeg"
+  },
+  {
+    "id": "t1-q18",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Workplace",
+    "keywords": [
+      "point",
+      "glasses"
+    ],
+    "scene": "Người phụ nữ đeo kính đang chỉ tay vào tấm bản đồ treo tường.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'point' và 'glasses'.",
+    "answerOptions": [
+      {
+        "text": "The woman wearing glasses is pointing at the map.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'Point' chia đúng ngữ pháp tiếp diễn đi với 'at' và chứa đúng từ khóa 'glasses'."
+      },
+      {
+        "text": "The woman wearing glass is pointing at the map.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: kính mắt phải là số nhiều 'glasses' chứ không dùng 'glass' số ít."
+      },
+      {
+        "text": "The woman wearing glasses is looking at the map.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu động từ chỉ tay 'point'."
+      },
+      {
+        "text": "The woman wearing glasses points at the map.",
+        "isCorrect": false,
+        "rationale": "Thì tiếp diễn miêu tả tranh sinh động và tự nhiên hơn."
+      }
+    ],
+    "hint": "Đảm bảo chứa từ khóa 'glasses' chỉ kính mắt và động từ chỉ 'point'.",
+    "phraseOptions": [
+      {
+        "text": "Point at the map",
+        "meaning": "Chỉ tay vào bản đồ",
+        "isCorrect": true
+      },
+      {
+        "text": "Wear glasses",
+        "meaning": "Đeo kính",
+        "isCorrect": false
+      },
+      {
+        "text": "Read the map",
+        "meaning": "Đọc bản đồ",
+        "isCorrect": false
+      },
+      {
+        "text": "Explain the map",
+        "meaning": "Giải thích bản đồ",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/18_2_gtXuQK5Vu.jpeg"
+  },
+  {
+    "id": "t1-q19",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Workplace",
+    "keywords": [
+      "woman",
+      "type"
+    ],
+    "scene": "Người phụ nữ đang ngồi gõ máy tính tại bàn làm việc.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'woman' và 'type'.",
+    "answerOptions": [
+      {
+        "text": "The woman is typing on the computer.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ 'type' chia đúng tiếp diễn và chứa đúng từ khóa 'woman'."
+      },
+      {
+        "text": "The women is typing on the computer.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: tranh vẽ chỉ có 1 người phụ nữ nên dùng 'woman' số ít chứ không dùng 'women' số nhiều."
+      },
+      {
+        "text": "The woman typing on the computer.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: thiếu động từ tobe 'is'."
+      },
+      {
+        "text": "The woman is working on the computer.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu động từ gõ phím 'type'."
+      }
+    ],
+    "hint": "Mô tả người phụ nữ số ít đang thực hiện hành động gõ phím.",
+    "phraseOptions": [
+      {
+        "text": "Type on computer",
+        "meaning": "Gõ phím máy tính",
+        "isCorrect": true
+      },
+      {
+        "text": "Sit at the desk",
+        "meaning": "Ngồi tại bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Write a report",
+        "meaning": "Viết báo cáo",
+        "isCorrect": false
+      },
+      {
+        "text": "Answer the call",
+        "meaning": "Trả lời cuộc gọi",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/19_1_CcddteTTU.jpeg"
+  },
+  {
+    "id": "t1-q20",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Workplace",
+    "keywords": [
+      "put",
+      "machine"
+    ],
+    "scene": "Người phụ nữ đang đặt giấy tờ vào trong máy photocopy.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'put' và 'machine'.",
+    "answerOptions": [
+      {
+        "text": "The woman is putting paper into the machine.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Diễn tả hành động đặt giấy vào bên trong máy photocopy."
+      },
+      {
+        "text": "The woman putting paper into the machine.",
+        "isCorrect": false,
+        "rationale": "Thiếu động từ 'is' trong thì tiếp diễn."
+      },
+      {
+        "text": "The woman is put paper into the machine.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "The woman is putting paper near the machine.",
+        "isCorrect": false,
+        "rationale": "Sai bối cảnh: cô ấy đang đặt giấy vào bên trong chứ không phải ở gần."
+      }
+    ],
+    "hint": "Đặt cái gì đó vào bên trong máy dùng giới từ 'into'.",
+    "phraseOptions": [
+      {
+        "text": "Put paper into machine",
+        "meaning": "Đặt giấy vào máy",
+        "isCorrect": true
+      },
+      {
+        "text": "Clean the machine",
+        "meaning": "Lau dọn máy",
+        "isCorrect": false
+      },
+      {
+        "text": "Take notes",
+        "meaning": "Ghi chép lại",
+        "isCorrect": false
+      },
+      {
+        "text": "Repair the copier",
+        "meaning": "Sửa máy photocopy",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/19_2_ckiset-EQ.jpeg"
+  },
+  {
+    "id": "t1-q21",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Workplace",
+    "keywords": [
+      "calculator",
+      "press"
+    ],
+    "scene": "Người phụ nữ dùng ngón tay ấn nút trên máy tính bỏ túi.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'calculator' và 'press'.",
+    "answerOptions": [
+      {
+        "text": "The woman is pressing the buttons on a calculator.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Chia đúng thì tiếp diễn động từ 'press' và chứa đúng từ khóa 'calculator'."
+      },
+      {
+        "text": "The woman is press the buttons on a calculator.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp tiếp diễn."
+      },
+      {
+        "text": "The woman is pressing the buttons on calculator.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'a' trước danh từ số ít 'calculator'."
+      },
+      {
+        "text": "The woman is using a calculator.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu động từ nhấn nút 'press'."
+      }
+    ],
+    "hint": "Nhấn các nút bấm trên máy tính bỏ túi dùng giới từ 'on'.",
+    "phraseOptions": [
+      {
+        "text": "Press buttons on calculator",
+        "meaning": "Ấn nút máy tính bỏ túi",
+        "isCorrect": true
+      },
+      {
+        "text": "Write numbers",
+        "meaning": "Viết các con số",
+        "isCorrect": false
+      },
+      {
+        "text": "Read the book",
+        "meaning": "Đọc cuốn sách",
+        "isCorrect": false
+      },
+      {
+        "text": "Open a folder",
+        "meaning": "Mở thư mục tài liệu",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/20_1_4UN8R-nW2.jpeg"
+  },
+  {
+    "id": "t1-q22",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Workplace",
+    "keywords": [
+      "blonde",
+      "explain"
+    ],
+    "scene": "Người phụ nữ tóc vàng đang đứng giải thích điều gì đó cho người đàn ông tại chỗ làm việc.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'blonde' và 'explain'.",
+    "answerOptions": [
+      {
+        "text": "The blonde woman is explaining something to the man.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Dùng đúng từ khóa 'blonde' đóng vai trò tính từ bổ nghĩa cho woman, và chia đúng 'explain to someone'."
+      },
+      {
+        "text": "The blonde woman is explaining something for the man.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: giải thích cho ai dùng 'explain to someone' chứ không dùng 'explain for'."
+      },
+      {
+        "text": "The blonde woman is explain something to the man.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp tiếp diễn."
+      },
+      {
+        "text": "The woman is explaining something to the man.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu tính từ tóc vàng 'blonde'."
+      }
+    ],
+    "hint": "Giải thích cho ai đó dùng cấu trúc 'explain something TO someone'.",
+    "phraseOptions": [
+      {
+        "text": "Blonde woman explain",
+        "meaning": "Người phụ nữ tóc vàng giải thích",
+        "isCorrect": true
+      },
+      {
+        "text": "Talk to each other",
+        "meaning": "Nói chuyện với nhau",
+        "isCorrect": false
+      },
+      {
+        "text": "Discuss the plan",
+        "meaning": "Thảo luận kế hoạch",
+        "isCorrect": false
+      },
+      {
+        "text": "Sit at table",
+        "meaning": "Ngồi tại bàn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/20_2_TJjTSk3Di.jpeg"
+  }
+]

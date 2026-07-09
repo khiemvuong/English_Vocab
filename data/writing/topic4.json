@@ -1,0 +1,1206 @@
+[
+  {
+    "id": "t4-q01",
+    "skillType": "intensifier",
+    "skillLabel": "Từ chỉ mức độ/số lượng",
+    "topic": "Transportation",
+    "keywords": [
+      "baggage"
+    ],
+    "scene": "Có rất nhiều hành lý chất bên trong xe ô tô.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'baggage'.",
+    "answerOptions": [
+      {
+        "text": "There is a lot of baggage in the car.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'Baggage' là danh từ không đếm được nên đi kèm 'there is' và lượng từ 'a lot of'."
+      },
+      {
+        "text": "There are many baggage in the car.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: 'many' không đi kèm danh từ không đếm được 'baggage'."
+      },
+      {
+        "text": "There are a lot of baggages in the car.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: 'baggage' không có dạng số nhiều 'baggages'."
+      },
+      {
+        "text": "There is much baggages in the car.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp."
+      }
+    ],
+    "hint": "Phân tích tính chất không đếm được của danh từ 'baggage'.",
+    "phraseOptions": [
+      {
+        "text": "Baggage in the car",
+        "meaning": "Hành lý trong xe",
+        "isCorrect": true
+      },
+      {
+        "text": "Boxes on the table",
+        "meaning": "Thùng trên bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Clothes on the floor",
+        "meaning": "Quần áo trên sàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Bags on the seat",
+        "meaning": "Túi trên ghế",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/47_1_3kFXP2InA.jpeg"
+  },
+  {
+    "id": "t4-q02",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Transportation",
+    "keywords": [
+      "parked"
+    ],
+    "scene": "Một vài chiếc xe ô tô được đỗ ngăn nắp bên trong bãi đỗ xe.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'parked'.",
+    "answerOptions": [
+      {
+        "text": "A few cars have been parked in the parking lot.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Diễn tả trạng thái đỗ xe bên trong bãi đỗ dùng giới từ 'in the parking lot'."
+      },
+      {
+        "text": "A few cars have been parked on the parking lot.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'on the parking lot'."
+      },
+      {
+        "text": "A few cars have been parked next the parking lot.",
+        "isCorrect": false,
+        "rationale": "Thiếu giới từ 'to' sau 'next'."
+      },
+      {
+        "text": "A few cars have parked in the parking lot.",
+        "isCorrect": false,
+        "rationale": "Sai thể bị động."
+      }
+    ],
+    "hint": "Đỗ xe bên trong bãi đỗ xe dùng giới từ 'in'.",
+    "phraseOptions": [
+      {
+        "text": "Parked in the parking lot",
+        "meaning": "Đỗ trong bãi đỗ xe",
+        "isCorrect": true
+      },
+      {
+        "text": "Parked along the street",
+        "meaning": "Đỗ dọc theo đường",
+        "isCorrect": false
+      },
+      {
+        "text": "Waiting at red light",
+        "meaning": "Chờ đèn đỏ",
+        "isCorrect": false
+      },
+      {
+        "text": "Driving on road",
+        "meaning": "Lái xe trên đường",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/47_2_FJrRHpCzo.jpeg"
+  },
+  {
+    "id": "t4-q03",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Transportation",
+    "keywords": [
+      "get into"
+    ],
+    "scene": "Người đàn ông chuẩn bị bước lên hoặc đi vào trong xe ô tô.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng cụm từ 'get into'.",
+    "answerOptions": [
+      {
+        "text": "He's about to get into the car.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cấu trúc 'be about to + V-inf' chỉ hành động sắp sửa xảy ra ngay lập tức."
+      },
+      {
+        "text": "He's about to getting into the car.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: sau 'to' của cấu trúc 'about to' phải là động từ nguyên mẫu."
+      },
+      {
+        "text": "He's about to get on the car.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: đi vào trong xe nhỏ dùng 'get into', 'get on' chỉ dùng cho xe buýt, tàu hỏa, máy bay."
+      },
+      {
+        "text": "He gets into the car.",
+        "isCorrect": false,
+        "rationale": "Hiện tại đơn không thể hiện được trạng thái chuẩn bị bước vào xe."
+      }
+    ],
+    "hint": "Chuẩn bị làm điều gì đó dùng cấu trúc 'be about to V-inf'.",
+    "phraseOptions": [
+      {
+        "text": "Get into the car",
+        "meaning": "Đi vào xe ô tô",
+        "isCorrect": true
+      },
+      {
+        "text": "Get out of the bus",
+        "meaning": "Bước xuống xe buýt",
+        "isCorrect": false
+      },
+      {
+        "text": "Board the train",
+        "meaning": "Lên tàu hỏa",
+        "isCorrect": false
+      },
+      {
+        "text": "Wait for a taxi",
+        "meaning": "Chờ xe taxi",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/48_1_SikGk6H7G.jpeg"
+  },
+  {
+    "id": "t4-q04",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Transportation",
+    "keywords": [
+      "side"
+    ],
+    "scene": "Những chiếc xe ô tô đỗ xếp dọc theo các bên lề đường.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'side'.",
+    "answerOptions": [
+      {
+        "text": "Cars are parked along the side of the road.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giới từ chỉ vị trí dọc theo lề đường là 'along the side of the road'."
+      },
+      {
+        "text": "Cars are parked on the side of the road.",
+        "isCorrect": false,
+        "rationale": "Không đặc tả được sự kéo dài thẳng hàng bằng giới từ 'along'."
+      },
+      {
+        "text": "Cars are parked along the side from the road.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ 'from'."
+      },
+      {
+        "text": "Cars are park along the side of the road.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc bị động."
+      }
+    ],
+    "hint": "Đỗ dọc theo bên đường dùng giới từ 'along'.",
+    "phraseOptions": [
+      {
+        "text": "Parked along the side",
+        "meaning": "Đỗ dọc bên lề đường",
+        "isCorrect": true
+      },
+      {
+        "text": "Driving in lane",
+        "meaning": "Lái xe đúng làn",
+        "isCorrect": false
+      },
+      {
+        "text": "Waiting near crossing",
+        "meaning": "Chờ cạnh vạch qua đường",
+        "isCorrect": false
+      },
+      {
+        "text": "Turning corner",
+        "meaning": "Quẹo cua góc đường",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/48_2_c2MdMwmpw.jpeg"
+  },
+  {
+    "id": "t4-q05",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Transportation",
+    "keywords": [
+      "bus stop"
+    ],
+    "scene": "Người đàn ông đang đứng đợi xe buýt tại trạm dừng xe buýt.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng cụm từ 'bus stop'.",
+    "answerOptions": [
+      {
+        "text": "The man is waiting at the bus stop.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Chờ tại trạm dừng dùng giới từ vị trí điểm cụ thể là 'at the bus stop'."
+      },
+      {
+        "text": "The man is waiting on the bus stop.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'on the bus stop'."
+      },
+      {
+        "text": "The man is waiting in the bus stop.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: không dùng 'in the bus stop'."
+      },
+      {
+        "text": "The man is wait at the bus stop.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Chờ tại một địa điểm cụ thể dùng giới từ 'at'.",
+    "phraseOptions": [
+      {
+        "text": "Wait at the bus stop",
+        "meaning": "Chờ tại điểm xe buýt",
+        "isCorrect": true
+      },
+      {
+        "text": "Board the bus",
+        "meaning": "Lên xe buýt",
+        "isCorrect": false
+      },
+      {
+        "text": "Get off the train",
+        "meaning": "Xuống tàu hỏa",
+        "isCorrect": false
+      },
+      {
+        "text": "Buy a ticket",
+        "meaning": "Mua vé xe",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/49_1_NXc8jXfn0.jpeg"
+  },
+  {
+    "id": "t4-q06",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Transportation",
+    "keywords": [
+      "board",
+      "bus"
+    ],
+    "scene": "Mọi người xếp hàng chờ đợi để lên xe buýt.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'board' và 'bus'.",
+    "answerOptions": [
+      {
+        "text": "People are waiting to board the bus.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cấu trúc chỉ mục đích đợi để làm gì 'wait to V-inf' và động từ lên xe là 'board'."
+      },
+      {
+        "text": "People are waiting to boarding the bus.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: sau 'to' chỉ mục đích phải là động từ nguyên mẫu."
+      },
+      {
+        "text": "People are waiting for board the bus.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc giới từ: phải dùng 'waiting to board' hoặc 'waiting for boarding'."
+      },
+      {
+        "text": "People wait to board the bus.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp mô tả tranh đang tiếp diễn."
+      }
+    ],
+    "hint": "Đợi để lên xe buýt dùng cấu trúc 'wait to board'.",
+    "phraseOptions": [
+      {
+        "text": "Board the bus",
+        "meaning": "Lên xe buýt",
+        "isCorrect": true
+      },
+      {
+        "text": "Get off the car",
+        "meaning": "Xuống xe ô tô",
+        "isCorrect": false
+      },
+      {
+        "text": "Drive away",
+        "meaning": "Lái xe đi mất",
+        "isCorrect": false
+      },
+      {
+        "text": "Pay the driver",
+        "meaning": "Trả tiền tài xế",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/49_2_PzsoFzeNV.jpeg"
+  },
+  {
+    "id": "t4-q07",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Transportation",
+    "keywords": [
+      "boxes"
+    ],
+    "scene": "Người đàn ông đang bốc xếp các thùng hàng lên đuôi chiếc xe tải.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'boxes'.",
+    "answerOptions": [
+      {
+        "text": "He is loading some boxes onto the truck.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ bốc xếp lên xe là 'loading onto the truck' đi kèm danh từ số nhiều 'boxes'."
+      },
+      {
+        "text": "He is loading some boxes into the truck.",
+        "isCorrect": false,
+        "rationale": "Hành động khuân vác đặt lên sàn sau xe tải mui trần ta dùng 'onto' tự nhiên hơn."
+      },
+      {
+        "text": "He is loading some box onto the truck.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: 'some' phải đi kèm danh từ số nhiều 'boxes'."
+      },
+      {
+        "text": "He is loading some boxes at the truck.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ."
+      }
+    ],
+    "hint": "Hành động bốc xếp thùng hàng lên trên mặt sàn xe mui trần dùng giới từ 'onto'.",
+    "phraseOptions": [
+      {
+        "text": "Load boxes onto truck",
+        "meaning": "Xếp thùng lên xe tải",
+        "isCorrect": true
+      },
+      {
+        "text": "Carry bags from car",
+        "meaning": "Mang túi từ xe",
+        "isCorrect": false
+      },
+      {
+        "text": "Deliver packages",
+        "meaning": "Giao các kiện hàng",
+        "isCorrect": false
+      },
+      {
+        "text": "Unload the cargo",
+        "meaning": "Dỡ hàng hóa xuống",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/50_1_z_E4_Ffd9h.jpeg"
+  },
+  {
+    "id": "t4-q08",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Transportation",
+    "keywords": [
+      "engine"
+    ],
+    "scene": "Người đàn ông chuẩn bị khởi động động cơ xe.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'engine'.",
+    "answerOptions": [
+      {
+        "text": "The man is starting the engine.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'Start the engine' miêu tả hành động nổ máy khởi động xe."
+      },
+      {
+        "text": "The man is starting engine.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước danh từ xác định 'engine'."
+      },
+      {
+        "text": "The man is make the engine start.",
+        "isCorrect": false,
+        "rationale": "Diễn đạt rườm rà không tự nhiên."
+      },
+      {
+        "text": "The man is start the engine.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Khởi động động cơ dùng cụm 'start the engine'.",
+    "phraseOptions": [
+      {
+        "text": "Start the engine",
+        "meaning": "Khởi động động cơ",
+        "isCorrect": true
+      },
+      {
+        "text": "Open the hood",
+        "meaning": "Mở nắp ca-pô",
+        "isCorrect": false
+      },
+      {
+        "text": "Check the tire",
+        "meaning": "Kiểm tra lốp xe",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the windshield",
+        "meaning": "Lau kính chắn gió",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/50_2_ssEc53NT2.jpeg"
+  },
+  {
+    "id": "t4-q09",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Transportation",
+    "keywords": [
+      "loading"
+    ],
+    "scene": "Người đàn ông đang xếp đồ đạc hành lý vào cốp sau xe ô tô.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'loading'.",
+    "answerOptions": [
+      {
+        "text": "He's loading some items into the car.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'Loading some items into the car' tả đúng hành động chất đồ vào cốp xe."
+      },
+      {
+        "text": "He's loading some items onto the car.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: chất đồ vào không gian cốp khép kín dùng 'into', không dùng 'onto'."
+      },
+      {
+        "text": "He's load some items into the car.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "He loads some items into the car.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp."
+      }
+    ],
+    "hint": "Chất đồ vào không gian cốp sau xe ô tô dùng giới từ 'into'.",
+    "phraseOptions": [
+      {
+        "text": "Load items into the car",
+        "meaning": "Chất đồ vào xe",
+        "isCorrect": true
+      },
+      {
+        "text": "Get out of vehicle",
+        "meaning": "Bước xuống xe",
+        "isCorrect": false
+      },
+      {
+        "text": "Lock the door",
+        "meaning": "Khóa cửa xe",
+        "isCorrect": false
+      },
+      {
+        "text": "Drive away",
+        "meaning": "Lái xe rời đi",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/51_1_dH0B-V7gm.jpeg"
+  },
+  {
+    "id": "t4-q10",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Transportation",
+    "keywords": [
+      "line"
+    ],
+    "scene": "Mọi người đang xếp hàng dài chờ đợi làm thủ tục tại quầy sân bay.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'line'.",
+    "answerOptions": [
+      {
+        "text": "People are waiting in line at the airport.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cụm từ 'wait in line' nghĩa là xếp hàng chờ đợi, đi với giới từ địa điểm cụ thể 'at the airport'."
+      },
+      {
+        "text": "People are waiting on line at the airport.",
+        "isCorrect": false,
+        "rationale": "Mặc dù tiếng Anh Mỹ có dùng 'on line', nhưng trong các bài thi TOEIC tiêu chuẩn thì 'in line' được coi là lựa chọn chuẩn xác nhất cho xếp hàng vật lý."
+      },
+      {
+        "text": "People are wait in line at the airport.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      },
+      {
+        "text": "People are waiting in line in the airport.",
+        "isCorrect": false,
+        "rationale": "Không tự nhiên bằng giới từ 'at' khi nói về làm thủ tục tại sân bay."
+      }
+    ],
+    "hint": "Cụm từ xếp hàng chờ đợi là 'wait in line'.",
+    "phraseOptions": [
+      {
+        "text": "Wait in line",
+        "meaning": "Xếp hàng chờ đợi",
+        "isCorrect": true
+      },
+      {
+        "text": "Board the aircraft",
+        "meaning": "Lên máy bay",
+        "isCorrect": false
+      },
+      {
+        "text": "Check the luggage",
+        "meaning": "Kiểm tra hành lý",
+        "isCorrect": false
+      },
+      {
+        "text": "Leave the terminal",
+        "meaning": "Rời nhà ga",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/51_2_AmZ7Q_YNW.jpeg"
+  },
+  {
+    "id": "t4-q11",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Transportation",
+    "keywords": [
+      "repairing"
+    ],
+    "scene": "Người đàn ông đang cúi xuống sửa lốp xe bị thủng.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "The man is repairing a flat tire.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ 'repairing' mô tả đúng nhất hành động khắc phục sửa chữa lốp xe bị hỏng."
+      },
+      {
+        "text": "The man is boarding a flat tire.",
+        "isCorrect": false,
+        "rationale": "Hoàn toàn sai nghĩa."
+      },
+      {
+        "text": "The man is getting a flat tire.",
+        "isCorrect": false,
+        "rationale": "Không đúng bối cảnh đang sửa chữa."
+      },
+      {
+        "text": "The man is carrying a flat tire.",
+        "isCorrect": false,
+        "rationale": "Cô ấy đang thao tác sửa chứ không phải khuân vác đi."
+      }
+    ],
+    "hint": "Hành động khắc phục sửa chữa lốp xe bị xẹp.",
+    "phraseOptions": [
+      {
+        "text": "Repair a flat tire",
+        "meaning": "Sửa lốp xe xẹp",
+        "isCorrect": true
+      },
+      {
+        "text": "Pump the tire",
+        "meaning": "Bơm lốp xe",
+        "isCorrect": false
+      },
+      {
+        "text": "Change the wheel",
+        "meaning": "Thay bánh xe",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the rim",
+        "meaning": "Lau vành xe",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/52_1_linFTGJ7L.jpeg"
+  },
+  {
+    "id": "t4-q12",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Transportation",
+    "keywords": [
+      "taking off"
+    ],
+    "scene": "Chiếc máy bay đang cất cánh lao lên không trung từ đường băng.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "An airplane is taking off from the runway.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cụm động từ cất cánh bay lên là 'take off'."
+      },
+      {
+        "text": "An airplane is boarding from the runway.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: hành khách lên máy bay mới dùng 'board', máy bay cất cánh không dùng từ này."
+      },
+      {
+        "text": "An airplane is getting from the runway.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa."
+      },
+      {
+        "text": "An airplane is tying from the runway.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa."
+      }
+    ],
+    "hint": "Cụm động từ chỉ máy bay cất cánh lao lên trời.",
+    "phraseOptions": [
+      {
+        "text": "Take off from runway",
+        "meaning": "Cất cánh từ đường băng",
+        "isCorrect": true
+      },
+      {
+        "text": "Land on airport",
+        "meaning": "Hạ cánh xuống sân bay",
+        "isCorrect": false
+      },
+      {
+        "text": "Fly in sky",
+        "meaning": "Bay trên bầu trời",
+        "isCorrect": false
+      },
+      {
+        "text": "Taxi on runway",
+        "meaning": "Di chuyển trên đường băng",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/53_1_7gKO40XDF.jpeg"
+  },
+  {
+    "id": "t4-q13",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Transportation",
+    "keywords": [
+      "boarding"
+    ],
+    "scene": "Các hành khách đang xếp hàng bước lên máy bay.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "Passengers are boarding the airplane.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ lên tàu xe máy bay là 'boarding'."
+      },
+      {
+        "text": "Passengers are tying the airplane.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa hoàn toàn."
+      },
+      {
+        "text": "Passengers are getting the airplane.",
+        "isCorrect": false,
+        "rationale": "Thiếu giới từ 'on' để tạo nghĩa lên xe."
+      },
+      {
+        "text": "Passengers are carrying the airplane.",
+        "isCorrect": false,
+        "rationale": "Hành khách không thể mang vác chiếc máy bay."
+      }
+    ],
+    "hint": "Hành động bước lên máy bay để bắt đầu chuyến bay.",
+    "phraseOptions": [
+      {
+        "text": "Board the airplane",
+        "meaning": "Lên máy bay",
+        "isCorrect": true
+      },
+      {
+        "text": "Get off the bus",
+        "meaning": "Xuống xe buýt",
+        "isCorrect": false
+      },
+      {
+        "text": "Wait at gate",
+        "meaning": "Đợi ở cửa khởi hành",
+        "isCorrect": false
+      },
+      {
+        "text": "Claim the baggage",
+        "meaning": "Lấy lại hành lý",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/53_2_VJ-vx0fEA.jpeg"
+  },
+  {
+    "id": "t4-q14",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Transportation",
+    "keywords": [
+      "loading"
+    ],
+    "scene": "Nhân viên sân bay đang bốc xếp các kiện hàng lên khoang máy bay.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "The worker is loading cargo onto the plane.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Hành động bốc hàng lên máy bay dùng cụm 'loading cargo onto the plane'."
+      },
+      {
+        "text": "The worker is tying cargo onto the plane.",
+        "isCorrect": false,
+        "rationale": "Họ đang xếp hàng lên chứ không phải cột chặt nó lại."
+      },
+      {
+        "text": "The worker is boarding cargo onto the plane.",
+        "isCorrect": false,
+        "rationale": "Hàng hóa không tự lên máy bay được."
+      },
+      {
+        "text": "The worker is getting cargo onto the plane.",
+        "isCorrect": false,
+        "rationale": "Không tự nhiên bằng động từ 'loading'."
+      }
+    ],
+    "hint": "Hành động bốc xếp hàng hóa lên phương tiện.",
+    "phraseOptions": [
+      {
+        "text": "Load cargo onto plane",
+        "meaning": "Xếp hàng lên máy bay",
+        "isCorrect": true
+      },
+      {
+        "text": "Unload the boxes",
+        "meaning": "Dỡ các thùng xuống",
+        "isCorrect": false
+      },
+      {
+        "text": "Check the weight",
+        "meaning": "Kiểm tra cân nặng",
+        "isCorrect": false
+      },
+      {
+        "text": "Drive the vehicle",
+        "meaning": "Lái phương tiện",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/54_1_fClaHia3y.jpeg"
+  },
+  {
+    "id": "t4-q15",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Transportation",
+    "keywords": [
+      "getting off"
+    ],
+    "scene": "Người đàn ông đang bước xuống xe taxi.",
+    "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
+    "answerOptions": [
+      {
+        "text": "A man is getting out of a taxi.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Bước xuống phương tiện nhỏ khép kín như taxi ta dùng cụm 'get out of'."
+      },
+      {
+        "text": "A man is getting off a taxi.",
+        "isCorrect": false,
+        "rationale": "Không chuẩn xác: 'get off' dùng cho xe buýt, tàu hỏa lớn; xe con ta dùng 'get out of'."
+      },
+      {
+        "text": "A man is boarding a taxi.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa: anh ấy đang đi ra chứ không phải đi vào xe."
+      },
+      {
+        "text": "A man is tying a taxi.",
+        "isCorrect": false,
+        "rationale": "Sai nghĩa hoàn toàn."
+      }
+    ],
+    "hint": "Bước xuống khỏi xe taxi dùng cụm động từ 'get out of'.",
+    "phraseOptions": [
+      {
+        "text": "Get out of taxi",
+        "meaning": "Xuống xe taxi",
+        "isCorrect": true
+      },
+      {
+        "text": "Get into the car",
+        "meaning": "Bước vào xe ô tô",
+        "isCorrect": false
+      },
+      {
+        "text": "Pay the fare",
+        "meaning": "Trả tiền cước xe",
+        "isCorrect": false
+      },
+      {
+        "text": "Close the door",
+        "meaning": "Đóng cửa xe",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/54_2_4Y4MScRS-.jpeg"
+  },
+  {
+    "id": "t4-q16",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Transportation",
+    "keywords": [
+      "bend",
+      "bicycle"
+    ],
+    "scene": "Người đàn ông đang cúi xuống sửa xích xe đạp.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'bend' và 'bicycle'.",
+    "answerOptions": [
+      {
+        "text": "The man is bending down to fix the bicycle.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ 'bend' chia đúng tiếp diễn 'bending down' và chứa đúng từ khóa 'bicycle'."
+      },
+      {
+        "text": "The man is bending down to fix the bike.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu từ 'bicycle' chứ không dùng từ viết tắt 'bike'."
+      },
+      {
+        "text": "The man is bend down to fix the bicycle.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn, thiếu đuôi '-ing'."
+      },
+      {
+        "text": "The man is standing to fix the bicycle.",
+        "isCorrect": false,
+        "rationale": "Sai bối cảnh: anh ấy đang cúi người chứ không phải đứng thẳng."
+      }
+    ],
+    "hint": "Cúi người xuống làm việc gì đó dùng cấu trúc 'bend down to V'.",
+    "phraseOptions": [
+      {
+        "text": "Bend down to fix bicycle",
+        "meaning": "Cúi người sửa xe đạp",
+        "isCorrect": true
+      },
+      {
+        "text": "Ride a bicycle",
+        "meaning": "Đi xe đạp",
+        "isCorrect": false
+      },
+      {
+        "text": "Stand near bicycle",
+        "meaning": "Đứng cạnh xe đạp",
+        "isCorrect": false
+      },
+      {
+        "text": "Buy a new bicycle",
+        "meaning": "Mua một chiếc xe đạp mới",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/55_1_3yoBe084Y.jpeg"
+  },
+  {
+    "id": "t4-q17",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Transportation",
+    "keywords": [
+      "automobile",
+      "into"
+    ],
+    "scene": "Người phụ nữ đang bước đi vào bên trong chiếc xe ô tô.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'automobile' và 'into'.",
+    "answerOptions": [
+      {
+        "text": "The woman is getting into the automobile.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Sử dụng đúng cấu trúc 'get into' đi kèm danh từ xe ô tô 'automobile' số ít."
+      },
+      {
+        "text": "The woman is getting into the car.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu từ 'automobile' chứ không dùng 'car'."
+      },
+      {
+        "text": "The woman is getting in the automobile.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu giới từ chỉ hướng 'into' như yêu cầu."
+      },
+      {
+        "text": "The woman is get into the automobile.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Đảm bảo câu dùng đúng danh từ xe ô tô trang trọng 'automobile' và giới từ 'into'.",
+    "phraseOptions": [
+      {
+        "text": "Get into the automobile",
+        "meaning": "Đi vào xe ô tô",
+        "isCorrect": true
+      },
+      {
+        "text": "Get out of vehicle",
+        "meaning": "Bước ra khỏi xe",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the automobile",
+        "meaning": "Lau dọn xe ô tô",
+        "isCorrect": false
+      },
+      {
+        "text": "Park the automobile",
+        "meaning": "Đỗ xe ô tô",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/56_1_VShw8_NTF.jpeg"
+  },
+  {
+    "id": "t4-q18",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Transportation",
+    "keywords": [
+      "cart",
+      "because"
+    ],
+    "scene": "Người đàn ông đẩy xe chở các thùng hàng nặng.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'cart' và 'because'.",
+    "answerOptions": [
+      {
+        "text": "The man is using a cart because there are many boxes.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Sử dụng đúng liên từ nhân quả 'because' nối 2 vế và dùng đúng từ khóa 'cart'."
+      },
+      {
+        "text": "The man is using a cart but there are many boxes.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'but' chỉ tương phản không hợp lý logic."
+      },
+      {
+        "text": "The man is using a cart so that there are many boxes.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'so that' chỉ mục đích."
+      },
+      {
+        "text": "The man is push a cart because of boxes.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp."
+      }
+    ],
+    "hint": "Đảm bảo câu chứa liên từ 'because' giải thích nguyên nhân dùng xe đẩy.",
+    "phraseOptions": [
+      {
+        "text": "Use a cart",
+        "meaning": "Sử dụng xe đẩy",
+        "isCorrect": true
+      },
+      {
+        "text": "Carry heavy load",
+        "meaning": "Mang vác đồ nặng",
+        "isCorrect": false
+      },
+      {
+        "text": "Stack the boxes",
+        "meaning": "Xếp chồng các hộp",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the store",
+        "meaning": "Dọn dẹp cửa hàng",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/56_2_yPRbpWH7s.jpeg"
+  },
+  {
+    "id": "t4-q19",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Transportation",
+    "keywords": [
+      "sign",
+      "park"
+    ],
+    "scene": "Hàng loạt xe đạp đậu ngăn nắp gần tấm biển báo giao thông.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'sign' và 'park'.",
+    "answerOptions": [
+      {
+        "text": "The bicycles are parked near the sign.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Động từ 'park' chia dạng bị động 'are parked' và chứa đúng danh từ biển báo 'sign'."
+      },
+      {
+        "text": "The bicycles are parking near the sign.",
+        "isCorrect": false,
+        "rationale": "Sai chủ động: xe đạp phải được người ta đỗ chứ không tự đỗ."
+      },
+      {
+        "text": "The bicycles are parked near sign.",
+        "isCorrect": false,
+        "rationale": "Thiếu mạo từ 'the' trước danh từ số ít 'sign'."
+      },
+      {
+        "text": "The bikes are parked near the sign.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu 'bicycles' chứ không dùng 'bikes'."
+      }
+    ],
+    "hint": "Xe đạp số nhiều ở dạng bị động đỗ xe 'are parked'.",
+    "phraseOptions": [
+      {
+        "text": "Parked near the sign",
+        "meaning": "Đỗ gần biển báo",
+        "isCorrect": true
+      },
+      {
+        "text": "Hanging on wall",
+        "meaning": "Treo trên tường",
+        "isCorrect": false
+      },
+      {
+        "text": "Locking the gate",
+        "meaning": "Khóa cổng lại",
+        "isCorrect": false
+      },
+      {
+        "text": "Riding on path",
+        "meaning": "Đi trên lối đi",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/57_1_iP9SRZyuf.jpeg"
+  },
+  {
+    "id": "t4-q20",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Transportation",
+    "keywords": [
+      "in front of",
+      "some"
+    ],
+    "scene": "Một vài người công nhân đang trồng hoa phía trước tòa nhà.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'in front of' và 'some'.",
+    "answerOptions": [
+      {
+        "text": "Some workers are planting flowers in front of the building.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Câu chứa lượng từ 'some' đi với danh từ số nhiều và cụm giới từ 'in front of'."
+      },
+      {
+        "text": "Some workers are planting flowers behind the building.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu 'in front of' (phía trước) chứ không dùng 'behind'."
+      },
+      {
+        "text": "Workers are planting flowers in front of the building.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: thiếu lượng từ 'some'."
+      },
+      {
+        "text": "Some workers plant flowers in front of the building.",
+        "isCorrect": false,
+        "rationale": "Thì tiếp diễn mô tả sinh động hơn hành động đang làm."
+      }
+    ],
+    "hint": "Sử dụng từ chỉ số lượng 'some' và giới từ chỉ vị trí phía trước 'in front of'.",
+    "phraseOptions": [
+      {
+        "text": "Plant flowers in front of",
+        "meaning": "Trồng hoa phía trước",
+        "isCorrect": true
+      },
+      {
+        "text": "Sweep the courtyard",
+        "meaning": "Quét dọn khoảng sân",
+        "isCorrect": false
+      },
+      {
+        "text": "Paint the fence",
+        "meaning": "Sơn hàng rào",
+        "isCorrect": false
+      },
+      {
+        "text": "Mow the lawn",
+        "meaning": "Cắt cỏ ngoài sân",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/57_2_KUA5QIZIU.jpeg"
+  },
+  {
+    "id": "t4-q21",
+    "skillType": "sentenceCombining",
+    "skillLabel": "Ghép câu từ 2 từ khóa",
+    "topic": "Transportation",
+    "keywords": [
+      "shovel",
+      "onto"
+    ],
+    "scene": "Người đàn ông dùng chiếc xẻng xúc đất đổ lên xe hoặc mặt đất.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'shovel' và 'onto'.",
+    "answerOptions": [
+      {
+        "text": "The man is using a shovel to spread dirt onto the ground.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Sử dụng đúng danh từ cái xẻng 'shovel' và giới từ hướng lên mặt đất 'onto the ground'."
+      },
+      {
+        "text": "The man is using a shovel to spread dirt on the ground.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: đề bài yêu cầu giới từ 'onto' chỉ hướng tiếp xúc mâm xẻng lên mặt đất."
+      },
+      {
+        "text": "The man is using a spade to spread dirt onto the ground.",
+        "isCorrect": false,
+        "rationale": "Sai từ khóa: dùng từ đồng nghĩa 'spade' là sai yêu cầu từ khóa 'shovel'."
+      },
+      {
+        "text": "The man is use a shovel to spread dirt onto the ground.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc tiếp diễn."
+      }
+    ],
+    "hint": "Hành động xúc đất hất lên bề mặt dùng giới từ chỉ hướng 'onto'.",
+    "phraseOptions": [
+      {
+        "text": "Use a shovel to load",
+        "meaning": "Dùng xẻng bốc xúc đồ",
+        "isCorrect": true
+      },
+      {
+        "text": "Dig on ground",
+        "meaning": "Đào bới dưới đất",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the street",
+        "meaning": "Dọn dẹp đường phố",
+        "isCorrect": false
+      },
+      {
+        "text": "Hold a bucket",
+        "meaning": "Cầm một chiếc xô",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/58_1_ZS97glDQo.jpeg"
+  }
+]

@@ -1,0 +1,634 @@
+[
+  {
+    "id": "intro-01",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Intro",
+    "keywords": [
+      "man",
+      "sweep"
+    ],
+    "scene": "Một người đàn ông đang cầm chổi quét dọn.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'man' và 'sweep'.",
+    "answerOptions": [
+      {
+        "text": "The man is sweeping.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì hiện tại tiếp diễn dùng để tả hành động đang diễn ra của người đàn ông."
+      },
+      {
+        "text": "The man sweeps.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn diễn tả sự thật hiển nhiên hoặc thói quen, không phù hợp mô tả khoảnh khắc tranh."
+      },
+      {
+        "text": "The man is sweep.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp tiếp diễn: thiếu đuôi '-ing' của động từ sweep."
+      },
+      {
+        "text": "The man has swept.",
+        "isCorrect": false,
+        "rationale": "Thì hoàn thành tả hành động đã kết thúc, không phù hợp."
+      }
+    ],
+    "hint": "Quan sát hành động đang tiếp diễn của người đàn ông để chọn đúng thì tiếp diễn.",
+    "phraseOptions": [
+      {
+        "text": "Sweep the yard",
+        "meaning": "Quét sân",
+        "isCorrect": true
+      },
+      {
+        "text": "Wipe the counter",
+        "meaning": "Lau mặt bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the window",
+        "meaning": "Lau cửa sổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Mop the yard",
+        "meaning": "Lau sân",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/3_1_T0PLngIJp.jpeg"
+  },
+  {
+    "id": "intro-02",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Intro",
+    "keywords": [
+      "watches"
+    ],
+    "scene": "Có nhiều chiếc đồng hồ được trưng bày trên bức tường.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'watches'.",
+    "answerOptions": [
+      {
+        "text": "There are many watches on the wall.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Sử dụng giới từ 'on the wall' chỉ vị trí treo trên tường."
+      },
+      {
+        "text": "There are many watch on the wall.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: 'many' phải đi với danh từ số nhiều 'watches'."
+      },
+      {
+        "text": "There is many watches on the wall.",
+        "isCorrect": false,
+        "rationale": "Sai hòa hợp: 'watches' số nhiều phải dùng 'there are'."
+      },
+      {
+        "text": "There are many watches at the wall.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: treo trên tường ta dùng 'on the wall'."
+      }
+    ],
+    "hint": "Đồng hồ số nhiều và giới từ chỉ vị trí trên bức tường.",
+    "phraseOptions": [
+      {
+        "text": "Watches on the wall",
+        "meaning": "Đồng hồ trên tường",
+        "isCorrect": true
+      },
+      {
+        "text": "Pictures on the table",
+        "meaning": "Tranh trên bàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Clocks on the floor",
+        "meaning": "Đồng hồ trên sàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Books on the shelf",
+        "meaning": "Sách trên giá",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/3_2_wvOIzIREK.jpeg"
+  },
+  {
+    "id": "intro-03",
+    "skillType": "connector",
+    "skillLabel": "Chọn đúng liên từ/từ nối",
+    "topic": "Intro",
+    "keywords": [
+      "discuss"
+    ],
+    "scene": "Một nhóm người đang ngồi họp thảo luận và có một người quan sát họ.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'discuss'.",
+    "answerOptions": [
+      {
+        "text": "The man watches while people discuss their plan.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'While' nối hai hành động diễn ra song song hợp lý nhất."
+      },
+      {
+        "text": "The man watches because people discuss their plan.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'because' chỉ nguyên nhân không phù hợp ngữ cảnh."
+      },
+      {
+        "text": "The man watches but people discuss their plan.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'but' chỉ sự tương phản, không phù hợp."
+      },
+      {
+        "text": "The man watches so that people discuss their plan.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'so that' chỉ mục đích, không khớp với tranh."
+      }
+    ],
+    "hint": "Hành động xem và thảo luận diễn ra song song đồng thời.",
+    "phraseOptions": [
+      {
+        "text": "Discuss their plan",
+        "meaning": "Thảo luận kế hoạch của họ",
+        "isCorrect": true
+      },
+      {
+        "text": "Write a report",
+        "meaning": "Viết báo cáo",
+        "isCorrect": false
+      },
+      {
+        "text": "Make a call",
+        "meaning": "Gọi điện thoại",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the room",
+        "meaning": "Dọn phòng",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/4_1_F2GYs0zYy.jpeg"
+  },
+  {
+    "id": "intro-04",
+    "skillType": "intensifier",
+    "skillLabel": "Từ chỉ mức độ/số lượng",
+    "topic": "Intro",
+    "keywords": [
+      "tall"
+    ],
+    "scene": "Một góc công viên có những hàng cây rất cao.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'tall'.",
+    "answerOptions": [
+      {
+        "text": "There are tall trees in a park.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Diễn tả sự tồn tại của những hàng cây cao trong công viên dùng 'there are'."
+      },
+      {
+        "text": "There is tall trees in a park.",
+        "isCorrect": false,
+        "rationale": "Sai hòa hợp chủ vị: 'trees' số nhiều phải dùng 'there are'."
+      },
+      {
+        "text": "There are tall tree in a park.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: sau 'there are' phải dùng danh từ số nhiều 'trees'."
+      },
+      {
+        "text": "There are tall trees on a park.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: trong công viên dùng 'in a park'."
+      }
+    ],
+    "hint": "Cây số nhiều và giới từ chỉ vị trí trong công viên.",
+    "phraseOptions": [
+      {
+        "text": "Tall trees in a park",
+        "meaning": "Cây cao trong công viên",
+        "isCorrect": true
+      },
+      {
+        "text": "Low bushes in a yard",
+        "meaning": "Bụi cây thấp ngoài sân",
+        "isCorrect": false
+      },
+      {
+        "text": "Green grass in a field",
+        "meaning": "Cỏ xanh ngoài đồng",
+        "isCorrect": false
+      },
+      {
+        "text": "Flowers in a garden",
+        "meaning": "Hoa trong vườn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/4_2_8O-Vm8LTX.jpeg"
+  },
+  {
+    "id": "intro-05",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Intro",
+    "keywords": [
+      "sweep"
+    ],
+    "scene": "Người phụ nữ đang cầm chổi quét dọn ngoài trời.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'sweep'.",
+    "answerOptions": [
+      {
+        "text": "The woman is sweeping outside.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì tiếp diễn diễn tả hành động quét dọn đang xảy ra trong tranh."
+      },
+      {
+        "text": "The woman is sweep outside.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc: sau 'is' phải là động từ dạng V-ing."
+      },
+      {
+        "text": "The woman sweeps outside.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không phù hợp để tả hành động tức thời trong tranh."
+      },
+      {
+        "text": "The woman has swept outside.",
+        "isCorrect": false,
+        "rationale": "Thì hoàn thành không mô tả được hành động đang tiếp diễn."
+      }
+    ],
+    "hint": "Hành động đang quét dọn ngoài trời của người phụ nữ.",
+    "phraseOptions": [
+      {
+        "text": "Sweep outside",
+        "meaning": "Quét dọn bên ngoài",
+        "isCorrect": true
+      },
+      {
+        "text": "Wash inside",
+        "meaning": "Rửa dọn bên trong",
+        "isCorrect": false
+      },
+      {
+        "text": "Cook in the kitchen",
+        "meaning": "Nấu ăn trong bếp",
+        "isCorrect": false
+      },
+      {
+        "text": "Paint the wall",
+        "meaning": "Sơn bức tường",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/5_1_PFfW17Mfa.jpeg"
+  },
+  {
+    "id": "intro-06",
+    "skillType": "connector",
+    "skillLabel": "Chọn đúng liên từ/từ nối",
+    "topic": "Intro",
+    "keywords": [
+      "drink"
+    ],
+    "scene": "Người phụ nữ mở cửa tủ lạnh để lấy đồ uống.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'drink'.",
+    "answerOptions": [
+      {
+        "text": "She opens the door in order to get a drink.",
+        "isCorrect": true,
+        "rationale": "Chính xác! 'In order to' chỉ mục đích mở cửa tủ để lấy nước uống."
+      },
+      {
+        "text": "She opens the door but to get a drink.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'but' chỉ sự tương phản, không phù hợp."
+      },
+      {
+        "text": "She opens the door although get a drink.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'although' chỉ sự nhượng bộ, không phù hợp."
+      },
+      {
+        "text": "She opens the door because to get a drink.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp."
+      }
+    ],
+    "hint": "Cụm từ chỉ mục đích hành động mở cửa.",
+    "phraseOptions": [
+      {
+        "text": "Get a drink",
+        "meaning": "Lấy đồ uống",
+        "isCorrect": true
+      },
+      {
+        "text": "Pour the water",
+        "meaning": "Rót nước",
+        "isCorrect": false
+      },
+      {
+        "text": "Clean the glass",
+        "meaning": "Lau cốc",
+        "isCorrect": false
+      },
+      {
+        "text": "Buy a bottle",
+        "meaning": "Mua một cái chai",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/5_2_f85UaEfg4.jpeg"
+  },
+  {
+    "id": "intro-07",
+    "skillType": "connector",
+    "skillLabel": "Chọn đúng liên từ/từ nối",
+    "topic": "Intro",
+    "keywords": [
+      "cart",
+      "heavy"
+    ],
+    "scene": "Người đàn ông đẩy xe chở các thùng hàng nặng.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng từ khóa 'cart', 'heavy',",
+    "answerOptions": [
+      {
+        "text": "The man is using a cart because the boxes are heavy.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giải thích nguyên nhân dùng xe đẩy là vì các thùng hàng rất nặng."
+      },
+      {
+        "text": "The man is using a cart but the boxes are heavy.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'but' chỉ tương phản không phù hợp."
+      },
+      {
+        "text": "The man is using a cart although the boxes are heavy.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'although' chỉ sự nhượng bộ, không phù hợp."
+      },
+      {
+        "text": "The man is using a cart so that the boxes are heavy.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'so that' chỉ mục đích, không phù hợp."
+      }
+    ],
+    "hint": "Mối quan hệ nhân quả giữa hành động đẩy xe và cân nặng của các thùng hàng.",
+    "phraseOptions": [
+      {
+        "text": "Use a cart to carry items",
+        "meaning": "Sử dụng xe đẩy để chở đồ",
+        "isCorrect": true
+      },
+      {
+        "text": "Lift a heavy box",
+        "meaning": "Nhấc thùng hàng nặng",
+        "isCorrect": false
+      },
+      {
+        "text": "Stack boxes on floor",
+        "meaning": "Xếp thùng lên sàn",
+        "isCorrect": false
+      },
+      {
+        "text": "Drive a truck",
+        "meaning": "Lái xe tải",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/6_1_PkbNkGO2e.jpeg"
+  },
+  {
+    "id": "intro-08",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Intro",
+    "keywords": [
+      "chair"
+    ],
+    "scene": "Một chiếc bàn trang điểm đặt chính giữa hai chiếc ghế.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng từ khóa 'chair'.",
+    "answerOptions": [
+      {
+        "text": "The desk is between the chairs.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Giới từ 'between' đi với số nhiều 'chairs' chỉ vị trí ở giữa."
+      },
+      {
+        "text": "The desk is among the chairs.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: 'among' dùng cho 3 đối tượng trở lên, ở đây chỉ có 2 ghế nên dùng 'between'."
+      },
+      {
+        "text": "The desk is between the chair.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: sau 'between' phải là danh từ số nhiều 'chairs'."
+      },
+      {
+        "text": "The desk is next to the chairs.",
+        "isCorrect": false,
+        "rationale": "Sai bối cảnh: bàn nằm ở giữa chứ không phải cạnh bên."
+      }
+    ],
+    "hint": "Bàn nằm ở giữa hai chiếc ghế.",
+    "phraseOptions": [
+      {
+        "text": "Between the chairs",
+        "meaning": "Giữa các ghế",
+        "isCorrect": true
+      },
+      {
+        "text": "Next to the window",
+        "meaning": "Cạnh cửa sổ",
+        "isCorrect": false
+      },
+      {
+        "text": "Behind the sofa",
+        "meaning": "Đằng sau ghế sofa",
+        "isCorrect": false
+      },
+      {
+        "text": "Under the table",
+        "meaning": "Dưới gầm bàn",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/6_2_7nirMAvYB.jpeg"
+  },
+  {
+    "id": "intro-09",
+    "skillType": "verbTense",
+    "skillLabel": "Chia đúng thì của động từ",
+    "topic": "Intro",
+    "keywords": [
+      "pick up",
+      "apple"
+    ],
+    "scene": "Người phụ nữ đang cúi người chọn hoặc nhặt quả táo trong siêu thị.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'pick up' và 'apple'.",
+    "answerOptions": [
+      {
+        "text": "The woman is picking up an apple.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Thì tiếp diễn miêu tả hành động đang chọn quả táo."
+      },
+      {
+        "text": "The woman is pick up an apple.",
+        "isCorrect": false,
+        "rationale": "Sai cấu trúc ngữ pháp tiếp diễn."
+      },
+      {
+        "text": "The woman picks up an apple.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại đơn không mô tả sinh động bằng thì tiếp diễn khi tả tranh."
+      },
+      {
+        "text": "The woman has picked up an apple.",
+        "isCorrect": false,
+        "rationale": "Thì hiện tại hoàn thành không phù hợp mô tả hành động đang diễn ra."
+      }
+    ],
+    "hint": "Hành động nhặt quả táo đang diễn ra.",
+    "phraseOptions": [
+      {
+        "text": "Pick up an apple",
+        "meaning": "Nhặt/chọn quả táo",
+        "isCorrect": true
+      },
+      {
+        "text": "Wash the fruit",
+        "meaning": "Rửa hoa quả",
+        "isCorrect": false
+      },
+      {
+        "text": "Eat the apple",
+        "meaning": "Ăn quả táo",
+        "isCorrect": false
+      },
+      {
+        "text": "Cut the fruit",
+        "meaning": "Cắt quả táo",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/7_1_-6C41j1jA.jpeg"
+  },
+  {
+    "id": "intro-10",
+    "skillType": "preposition",
+    "skillLabel": "Giới từ chỉ vị trí",
+    "topic": "Intro",
+    "keywords": [
+      "next to",
+      "building"
+    ],
+    "scene": "Hàng xe đạp xếp ngăn nắp bên cạnh một tòa nhà.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'next to' và 'building'.",
+    "answerOptions": [
+      {
+        "text": "The bikes are next to the building.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Dùng giới từ 'next to' chỉ vị trí bên cạnh tòa nhà."
+      },
+      {
+        "text": "The bikes are between the building.",
+        "isCorrect": false,
+        "rationale": "Sai giới từ: 'between' yêu cầu 2 đối tượng trở lên."
+      },
+      {
+        "text": "The bikes are next to building.",
+        "isCorrect": false,
+        "rationale": "Sai ngữ pháp: thiếu mạo từ 'the' trước danh từ xác định 'building'."
+      },
+      {
+        "text": "The bikes are next from the building.",
+        "isCorrect": false,
+        "rationale": "Sai cụm giới từ: phải là 'next to'."
+      }
+    ],
+    "hint": "Vị trí hàng xe nằm sát bên cạnh tòa nhà.",
+    "phraseOptions": [
+      {
+        "text": "Next to the building",
+        "meaning": "Bên cạnh tòa nhà",
+        "isCorrect": true
+      },
+      {
+        "text": "In front of the house",
+        "meaning": "Trước ngôi nhà",
+        "isCorrect": false
+      },
+      {
+        "text": "Behind the gate",
+        "meaning": "Đằng sau cánh cổng",
+        "isCorrect": false
+      },
+      {
+        "text": "Across the street",
+        "meaning": "Bên kia đường",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/7_2_oNLAdlKZH.jpeg"
+  },
+  {
+    "id": "intro-11",
+    "skillType": "connector",
+    "skillLabel": "Chọn đúng liên từ/từ nối",
+    "topic": "Intro",
+    "keywords": [
+      "decide",
+      "if"
+    ],
+    "scene": "Người đàn ông đứng trước cửa tiệm để xem thực đơn và quyết định.",
+    "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'decide' và 'if'.",
+    "answerOptions": [
+      {
+        "text": "He's deciding if he likes the menu.",
+        "isCorrect": true,
+        "rationale": "Chính xác! Cấu trúc 'decide if...' chỉ việc tự cân nhắc xem có thích hay không."
+      },
+      {
+        "text": "He's deciding that he likes the menu.",
+        "isCorrect": false,
+        "rationale": "Không đúng nghĩa: 'decide that' nghĩa là đã đưa ra phán quyết khẳng định, không hợp bối cảnh đang đắn đo."
+      },
+      {
+        "text": "He's deciding although he likes the menu.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'although' chỉ sự trái ngược, vô lý."
+      },
+      {
+        "text": "He's deciding because he likes the menu.",
+        "isCorrect": false,
+        "rationale": "Sai liên từ: 'because' không tạo ra câu hợp logic ngữ cảnh."
+      }
+    ],
+    "hint": "Cấu trúc đắn đo quyết định xem một điều gì đó có xảy ra hay không.",
+    "phraseOptions": [
+      {
+        "text": "Decide if he likes the menu",
+        "meaning": "Quyết định xem có thích thực đơn không",
+        "isCorrect": true
+      },
+      {
+        "text": "Read the menu book",
+        "meaning": "Đọc quyển thực đơn",
+        "isCorrect": false
+      },
+      {
+        "text": "Order the food",
+        "meaning": "Gọi món ăn",
+        "isCorrect": false
+      },
+      {
+        "text": "Pay at the door",
+        "meaning": "Thanh toán tại cửa",
+        "isCorrect": false
+      }
+    ],
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/8_1_dM7QH9Or1.jpeg"
+  }
+]

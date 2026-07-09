@@ -23,6 +23,7 @@ export interface ProgressCardProps {
   patternTheme?: 'notebook' | 'dots' | 'none';
   
   className?: string;
+  progressOnly?: boolean;
 }
 
 const THEME_MAP = {
@@ -135,7 +136,8 @@ export function ProgressCard({
   startLabel = "Bắt đầu",
   watermarkText,
   patternTheme,
-  className = ""
+  className = "",
+  progressOnly = false
 }: ProgressCardProps) {
   
   const inProgress = !isCompleted && amountAnswered > 0;
@@ -205,33 +207,52 @@ export function ProgressCard({
         <div className="mt-auto flex flex-col items-start gap-2 pt-2 relative z-10">
           {isAvailable ? (
              isCompleted ? (
-               <div className="flex flex-col w-full text-xs gap-1.5 mt-2">
-                 <div className="flex flex-wrap justify-between items-center font-semibold text-slate-350 gap-y-1">
-                   <span className="flex items-center gap-1.5">
-                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.8)]" />
-                     <span className="text-emerald-400 font-bold whitespace-nowrap">{score} đúng</span>
-                     <span className="text-slate-600">•</span>
-                     <span className="w-1.5 h-1.5 rounded-full bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.8)]" />
-                     <span className="text-rose-400 font-bold whitespace-nowrap">{(totalQuestions - score)} sai</span>
-                   </span>
-                   <span className="text-white font-bold">{Math.round((score / totalQuestions) * 100)}%</span>
+               progressOnly ? (
+                 <div className="flex flex-col w-full text-xs gap-1.5 mt-2">
+                   <div className="flex flex-wrap justify-between items-center font-semibold text-slate-350 gap-y-1">
+                     <span className="text-emerald-400 font-bold whitespace-nowrap">Đã hoàn thành</span>
+                     <span className="text-white font-bold">100%</span>
+                   </div>
+                   <div className="w-full bg-slate-950 h-1.5 rounded-full overflow-hidden border border-white/5 shadow-[inset_0_1.5px_2px_rgba(0,0,0,0.5)]">
+                     <div 
+                       className="bg-linear-to-r from-emerald-600 to-emerald-400 h-full rounded-full transition-all duration-500 shadow-[0_0_8px_rgba(16,185,129,0.3)]" 
+                       style={{ width: `100%` }}
+                     />
+                   </div>
                  </div>
-                 <div className="w-full bg-slate-950 h-1.5 rounded-full overflow-hidden flex border border-white/5 shadow-[inset_0_1.5px_2px_rgba(0,0,0,0.5)]">
-                   <div 
-                     className="bg-linear-to-r from-emerald-600 to-emerald-400 h-full transition-all duration-500 shadow-[0_0_8px_rgba(16,185,129,0.3)]" 
-                     style={{ width: `${(score / totalQuestions) * 100}%` }}
-                   />
-                   <div 
-                     className="bg-linear-to-r from-rose-600 to-rose-400 h-full transition-all duration-500 shadow-[0_0_8px_rgba(244,63,94,0.3)]" 
-                     style={{ width: `${((totalQuestions - score) / totalQuestions) * 100}%` }}
-                   />
+               ) : (
+                 <div className="flex flex-col w-full text-xs gap-1.5 mt-2">
+                   <div className="flex flex-wrap justify-between items-center font-semibold text-slate-350 gap-y-1">
+                     <span className="flex items-center gap-1.5">
+                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shadow-[0_0_6px_rgba(16,185,129,0.8)]" />
+                       <span className="text-emerald-400 font-bold whitespace-nowrap">{score} đúng</span>
+                       <span className="text-slate-600">•</span>
+                       <span className="w-1.5 h-1.5 rounded-full bg-rose-500 shadow-[0_0_6px_rgba(244,63,94,0.8)]" />
+                       <span className="text-rose-400 font-bold whitespace-nowrap">{(totalQuestions - score)} sai</span>
+                     </span>
+                     <span className="text-white font-bold">{Math.round((score / totalQuestions) * 100)}%</span>
+                   </div>
+                   <div className="w-full bg-slate-950 h-1.5 rounded-full overflow-hidden flex border border-white/5 shadow-[inset_0_1.5px_2px_rgba(0,0,0,0.5)]">
+                     <div 
+                       className="bg-linear-to-r from-emerald-600 to-emerald-400 h-full transition-all duration-500 shadow-[0_0_8px_rgba(16,185,129,0.3)]" 
+                       style={{ width: `${(score / totalQuestions) * 100}%` }}
+                     />
+                     <div 
+                       className="bg-linear-to-r from-rose-600 to-rose-400 h-full transition-all duration-500 shadow-[0_0_8px_rgba(244,63,94,0.3)]" 
+                       style={{ width: `${((totalQuestions - score) / totalQuestions) * 100}%` }}
+                     />
+                   </div>
                  </div>
-               </div>
+               )
              ) : inProgress ? (
                <div className="flex flex-col w-full text-xs gap-1.5 mt-2">
                  <div className="flex flex-wrap justify-between items-center font-semibold text-slate-350 gap-y-1">
-                   <span className="text-slate-400 font-bold whitespace-nowrap">Đang làm: {amountAnswered} / {totalQuestions}</span>
-                   <span className="text-white font-bold">{Math.round((amountAnswered / totalQuestions) * 100)}%</span>
+                    {progressOnly ? (
+                      <span className="text-slate-400 font-bold whitespace-nowrap">Đang làm</span>
+                    ) : (
+                      <span className="text-slate-400 font-bold whitespace-nowrap">Đang làm: {amountAnswered} / {totalQuestions}</span>
+                    )}
+                    <span className="text-white font-bold">{Math.round((amountAnswered / totalQuestions) * 100)}%</span>
                  </div>
                  <div className="w-full bg-slate-950 h-1.5 rounded-full overflow-hidden relative border border-white/5 shadow-[inset_0_1.5px_2px_rgba(0,0,0,0.5)]">
                    <div 
