@@ -253,21 +253,19 @@ export function WritingQuestionCard({
       {/* Left side: Topic/Keywords + Image */}
       <div className="w-full lg:w-[45%] flex flex-col justify-between shrink-0 min-h-0 lg:h-full space-y-3">
         {/* Header info (Keywords only) */}
-        {mode !== 1 && (
-          <div className="text-xs bg-slate-950/40 p-2.5 border border-white/5 rounded-xl shrink-0">
-            <div className="flex items-center gap-1.5 flex-wrap">
-              <span className="font-bold text-slate-400">Từ khóa (Keywords):</span>
-              {question.keywords.map((keyword, idx) => (
-                <span
-                  key={idx}
-                  className="px-2 py-0.5 bg-amber-500/10 text-amber-300 text-xs font-black rounded-md border border-amber-500/20"
-                >
-                  {keyword}
-                </span>
-              ))}
-            </div>
+        <div className="text-xs bg-slate-950/40 p-2.5 border border-white/5 rounded-xl shrink-0">
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <span className="font-bold text-slate-400">Từ khóa (Keywords):</span>
+            {question.keywords.map((keyword, idx) => (
+              <span
+                key={idx}
+                className="px-2 py-0.5 bg-amber-500/10 text-amber-300 text-xs font-black rounded-md border border-amber-500/20"
+              >
+                {keyword}
+              </span>
+            ))}
           </div>
-        )}
+        </div>
 
         {/* Image Container */}
         {question.image ? (
