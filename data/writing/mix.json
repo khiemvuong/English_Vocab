@@ -1434,30 +1434,30 @@
         "people"
       ],
       "scene": "Một cửa hàng sách cũ chật kín người vào cuối tuần, khách xếp hàng dài để thanh toán.",
-      "question": "Chọn từ chỉ mức độ phù hợp để hoàn thành câu: 'There are ___ people at the bookstore.'",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, dùng từ chỉ mức độ phù hợp để nói về số lượng người ở hiệu sách.",
       "answerOptions": [
         {
-          "text": "a lot of",
+          "text": "There are a lot of people at the bookstore.",
           "isCorrect": true,
-          "rationale": "'A lot of' dùng được với cả danh từ đếm được và không đếm được, phù hợp để diễn tả số lượng người đông tại cửa hàng."
+          "rationale": "'A lot of' dùng được với danh từ đếm được số nhiều như 'people', phù hợp để diễn tả hiệu sách đang rất đông người."
         },
         {
-          "text": "much",
+          "text": "There are much people at the bookstore.",
           "isCorrect": false,
-          "rationale": "'Much' chỉ dùng với danh từ không đếm được, trong khi 'people' là danh từ đếm được (số nhiều)."
+          "rationale": "'Much' không dùng với danh từ đếm được số nhiều như 'people'."
         },
         {
-          "text": "very",
+          "text": "There are very people at the bookstore.",
           "isCorrect": false,
-          "rationale": "'Very' dùng để bổ nghĩa cho tính từ/trạng từ, không thể đứng trực tiếp trước danh từ như 'people'."
+          "rationale": "'Very' không thể đứng trực tiếp trước danh từ như 'people' trong cấu trúc này."
         },
         {
-          "text": "almost",
+          "text": "There are almost people at the bookstore.",
           "isCorrect": false,
-          "rationale": "'Almost' mang nghĩa 'gần như, hầu như', không phù hợp để diễn tả số lượng đông đúc."
+          "rationale": "'Almost people' không phải là cách diễn đạt tự nhiên để nói về số lượng đông người."
         }
       ],
-      "hint": "'People' là danh từ đếm được số nhiều — loại ngay 'much'.",
+      "hint": "Muốn nói một nơi có rất nhiều người, với danh từ đếm được số nhiều hãy nghĩ đến 'a lot of'.",
       "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/25_9Kje62N8S.jpeg",
       "phraseOptions": [
         {
@@ -1492,30 +1492,30 @@
         "books"
       ],
       "scene": "Người phụ nữ ôm trên tay một chồng sách dày, có vẻ như cô ấy vừa mượn rất nhiều sách từ thư viện.",
-      "question": "Chọn từ chỉ mức độ phù hợp: 'The woman is holding ___ books.'",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, dùng từ chỉ mức độ phù hợp để nói về số lượng sách.",
       "answerOptions": [
         {
-          "text": "many",
+          "text": "The woman is holding many books.",
           "isCorrect": true,
-          "rationale": "'Many' dùng với danh từ đếm được số nhiều như 'books', phù hợp để diễn tả số lượng sách nhiều trên tay cô ấy."
+          "rationale": "'Many' dùng với danh từ đếm được số nhiều như 'books', phù hợp với hình ảnh cô ấy đang cầm nhiều sách."
         },
         {
-          "text": "much",
+          "text": "The woman is holding much books.",
           "isCorrect": false,
-          "rationale": "'Much' chỉ dùng với danh từ không đếm được, không phù hợp với danh từ đếm được 'books'."
+          "rationale": "'Much' không dùng với danh từ đếm được số nhiều như 'books'."
         },
         {
-          "text": "so",
+          "text": "The woman is holding so books.",
           "isCorrect": false,
-          "rationale": "'So' thường bổ nghĩa cho tính từ/trạng từ (so beautiful, so quickly), không đứng trực tiếp trước danh từ số nhiều theo cách này."
+          "rationale": "'So' không đứng trực tiếp trước danh từ số nhiều theo cấu trúc này."
         },
         {
-          "text": "almost",
+          "text": "The woman is holding almost books.",
           "isCorrect": false,
-          "rationale": "'Almost' mang nghĩa 'gần như', không diễn tả số lượng nhiều của sách."
+          "rationale": "'Almost books' không phải cách diễn đạt tự nhiên để mô tả số lượng sách."
         }
       ],
-      "hint": "'Books' đếm được số nhiều → dùng 'many', không dùng 'much'.",
+      "hint": "Với danh từ đếm được số nhiều như 'books', lựa chọn tự nhiên là 'many'.",
       "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/26_0Yn6nfiCr.jpeg",
       "phraseOptions": [
         {
@@ -1550,30 +1550,30 @@
         "autumn"
       ],
       "scene": "Hàng cây trong công viên chuyển sang màu vàng cam rực rỡ vào mùa thu, cảnh vật trông rất nên thơ.",
-      "question": "Chọn từ chỉ mức độ phù hợp: 'The trees look ___ beautiful in the autumn.'",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, dùng từ chỉ mức độ phù hợp để nhấn mạnh vẻ đẹp của hàng cây.",
       "answerOptions": [
         {
-          "text": "so",
+          "text": "The trees look so beautiful in the autumn.",
           "isCorrect": true,
-          "rationale": "'So' bổ nghĩa cho tính từ 'beautiful' để nhấn mạnh mức độ."
+          "rationale": "'So' bổ nghĩa cho tính từ 'beautiful' để nhấn mạnh mức độ, phù hợp với khung cảnh mùa thu rất đẹp."
         },
         {
-          "text": "much",
+          "text": "The trees look much beautiful in the autumn.",
           "isCorrect": false,
-          "rationale": "'Much' không dùng trực tiếp trước tính từ ở dạng nguyên cấp như 'beautiful' theo cách này."
+          "rationale": "'Much' không dùng trực tiếp trước tính từ nguyên cấp như 'beautiful' trong cấu trúc này."
         },
         {
-          "text": "many",
+          "text": "The trees look many beautiful in the autumn.",
           "isCorrect": false,
-          "rationale": "'Many' chỉ dùng trước danh từ đếm được số nhiều, không thể bổ nghĩa cho tính từ 'beautiful'."
+          "rationale": "'Many' dùng với danh từ đếm được số nhiều, không thể bổ nghĩa cho tính từ 'beautiful'."
         },
         {
-          "text": "a lot of",
+          "text": "The trees look a lot of beautiful in the autumn.",
           "isCorrect": false,
-          "rationale": "'A lot of' dùng trước danh từ, không thể đứng trước tính từ để nhấn mạnh mức độ."
+          "rationale": "'A lot of' dùng trước danh từ, không đứng trước tính từ như 'beautiful'."
         }
       ],
-      "hint": "Trước một tính từ, hãy dùng 'so' hoặc 'very' để nhấn mạnh mức độ.",
+      "hint": "Khi muốn nhấn mạnh một tính từ như 'beautiful', dùng 'so' sẽ tự nhiên hơn.",
       "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/27_ARGmMGpc_.jpeg",
       "phraseOptions": [
         {
@@ -1608,30 +1608,30 @@
         "destination"
       ],
       "scene": "Đoàn khách du lịch đang đi bộ nhanh, gần như đã đến được điểm tham quan sau một quãng đường dài.",
-      "question": "Chọn từ chỉ mức độ phù hợp: 'The tourists have ___ reached the destination.'",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, dùng từ chỉ mức độ phù hợp để nói rằng họ gần tới nơi.",
       "answerOptions": [
         {
-          "text": "almost",
+          "text": "The tourists have almost reached the destination.",
           "isCorrect": true,
           "rationale": "'Almost' diễn tả một hành động gần hoàn thành, phù hợp với hình ảnh đoàn khách sắp đến nơi."
         },
         {
-          "text": "so",
+          "text": "The tourists have so reached the destination.",
           "isCorrect": false,
-          "rationale": "'So' dùng để nhấn mạnh tính từ/trạng từ, không phù hợp để diễn tả mức độ hoàn thành gần xong của một hành động."
+          "rationale": "'So' không dùng để diễn tả mức độ hoàn thành của một hành động theo cách này."
         },
         {
-          "text": "very",
+          "text": "The tourists have very reached the destination.",
           "isCorrect": false,
-          "rationale": "'Very' bổ nghĩa cho tính từ/trạng từ, không phù hợp để đứng trước động từ trong ngữ cảnh này."
+          "rationale": "'Very' không đứng tự nhiên trước động từ 'reached' trong ngữ cảnh này."
         },
         {
-          "text": "much",
+          "text": "The tourists have much reached the destination.",
           "isCorrect": false,
-          "rationale": "'Much' không diễn tả đúng ý 'gần hoàn thành' như 'almost'."
+          "rationale": "'Much reached' không phải là cách diễn đạt tự nhiên để nói rằng họ gần đến nơi."
         }
       ],
-      "hint": "'Almost' đứng trước động từ để diễn tả một hành động 'gần như đã xong'.",
+      "hint": "Muốn nói một hành động gần xong, hãy nghĩ đến 'almost'.",
       "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/28_R6yKvhqZx.jpeg",
       "phraseOptions": [
         {
@@ -1666,30 +1666,30 @@
         "water"
       ],
       "scene": "Chai nước trên bàn chỉ còn lại một chút, gần như đã cạn.",
-      "question": "Chọn từ chỉ mức độ phù hợp: 'There isn't ___ water left in the bottle.'",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, dùng từ chỉ mức độ phù hợp để nói rằng trong chai không còn nhiều nước.",
       "answerOptions": [
         {
-          "text": "much",
+          "text": "There isn't much water left in the bottle.",
           "isCorrect": true,
-          "rationale": "'Much' dùng với danh từ không đếm được như 'water', đặc biệt phổ biến trong câu phủ định."
+          "rationale": "'Much' dùng với danh từ không đếm được như 'water', đặc biệt tự nhiên trong câu phủ định."
         },
         {
-          "text": "many",
+          "text": "There isn't many water left in the bottle.",
           "isCorrect": false,
           "rationale": "'Many' chỉ dùng với danh từ đếm được số nhiều, trong khi 'water' là danh từ không đếm được."
         },
         {
-          "text": "so",
+          "text": "There isn't so water left in the bottle.",
           "isCorrect": false,
-          "rationale": "'So' không phù hợp để đứng trước danh từ 'water' trong cấu trúc này."
+          "rationale": "'So' không đứng tự nhiên trước danh từ 'water' trong cấu trúc này."
         },
         {
-          "text": "a lot of",
+          "text": "There isn't a lot of water left in the bottle.",
           "isCorrect": false,
-          "rationale": "Mặc dù 'a lot of' có thể dùng với danh từ không đếm được, nhưng trong câu phủ định, 'much' tự nhiên và phổ biến hơn."
+          "rationale": "Câu này có thể hiểu được, nhưng trong câu phủ định với danh từ không đếm được, 'much' là đáp án mục tiêu tự nhiên hơn cho mẫu ngữ pháp này."
         }
       ],
-      "hint": "'Water' là danh từ không đếm được, trong câu phủ định thường đi với 'much'.",
+      "hint": "Với danh từ không đếm được trong câu phủ định như 'water', đáp án mục tiêu là 'much'.",
       "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/29_jzN_xzcD1.jpeg",
       "phraseOptions": [
         {
@@ -1724,30 +1724,30 @@
         "toy"
       ],
       "scene": "Cậu bé nhìn thấy món đồ chơi mới trong cửa hàng và tỏ ra vô cùng phấn khích, mắt sáng lên.",
-      "question": "Chọn từ chỉ mức độ phù hợp: 'The boy looks ___ excited about the new toy.'",
+      "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, dùng từ chỉ mức độ phù hợp để nhấn mạnh cảm xúc của cậu bé.",
       "answerOptions": [
         {
-          "text": "very",
+          "text": "The boy looks very excited about the new toy.",
           "isCorrect": true,
-          "rationale": "'Very' bổ nghĩa cho tính từ 'excited' để nhấn mạnh mức độ phấn khích."
+          "rationale": "'Very' bổ nghĩa cho tính từ 'excited' để nhấn mạnh mức độ phấn khích của cậu bé."
         },
         {
-          "text": "many",
+          "text": "The boy looks many excited about the new toy.",
           "isCorrect": false,
-          "rationale": "'Many' chỉ dùng trước danh từ đếm được số nhiều, không thể bổ nghĩa cho tính từ 'excited'."
+          "rationale": "'Many' dùng với danh từ đếm được số nhiều, không thể bổ nghĩa cho tính từ 'excited'."
         },
         {
-          "text": "much",
+          "text": "The boy looks much excited about the new toy.",
           "isCorrect": false,
-          "rationale": "'Much' thường dùng với danh từ không đếm được hoặc để nhấn mạnh động từ, không phù hợp để đứng trực tiếp trước tính từ ở đây."
+          "rationale": "'Much' không đứng tự nhiên trực tiếp trước tính từ 'excited' trong mẫu câu này."
         },
         {
-          "text": "almost",
+          "text": "The boy looks almost excited about the new toy.",
           "isCorrect": false,
-          "rationale": "'Almost' mang nghĩa 'gần như', không diễn tả đúng mức độ phấn khích cao như tranh mô tả."
+          "rationale": "'Almost excited' không diễn tả đúng trạng thái rất hào hứng mà bức tranh thể hiện."
         }
       ],
-      "hint": "Trước tính từ 'excited', từ nhấn mạnh tự nhiên nhất là 'very'.",
+      "hint": "Trước tính từ 'excited', từ nhấn mạnh tự nhiên nhất ở đây là 'very'.",
       "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/30_4BKoKtPFe.jpeg",
       "phraseOptions": [
         {
