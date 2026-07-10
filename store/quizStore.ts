@@ -30,6 +30,7 @@ export interface WritingProgress {
   filteredQuestionIds: string[]; // IDs of filtered questions
   viewedHints: Record<number, boolean>; // Track hints viewed (not penalized)
   skillAccuracy: Record<string, { correct: number; total: number }>; // Accuracy by skillType
+  skippedStates?: Record<string, true>;
   
   // New Fields for 3-State Block-based Practice
   blockIndex?: number;
@@ -63,6 +64,7 @@ interface QuizStore {
   
   // New Writing Actions
   setWritingBlockAndState: (sessionId: string, blockIndex: number, currentState: 1 | 2 | 3) => void;
+  markWritingStateSkipped: (sessionId: string, qIndex: number, currentState: 1 | 2 | 3) => void;
   answerWritingVocab: (sessionId: string, qIndex: number, optionIndex: number, isCorrect: boolean, skillType: string) => void;
   answerWritingTyped: (sessionId: string, qIndex: number, text: string, isCorrect: boolean, overrideCorrect: boolean, skillType: string) => void;
   unlockNextBlock: (sessionId: string) => void;
@@ -223,6 +225,7 @@ export const useQuizStore = create<QuizStore>()(
                 filteredQuestionIds: questionIds,
                 viewedHints: {},
                 skillAccuracy: {},
+                skippedStates: {},
                 blockIndex: 0,
                 currentState: 1,
                 unlockedBlockIndex: 0,
@@ -239,6 +242,8 @@ export const useQuizStore = create<QuizStore>()(
         if (!session || session.answers[qIndex] !== undefined) return state;
 
         const currentSkillAcc = session.skillAccuracy[skillType] || { correct: 0, total: 0 };
+        const skippedStates = { ...(session.skippedStates || {}) };
+        delete skippedStates[`${qIndex}-2`];
         
         return {
           writingProgress: {
@@ -247,6 +252,7 @@ export const useQuizStore = create<QuizStore>()(
               ...session,
               answers: { ...session.answers, [qIndex]: optionIndex },
               score: isCorrect ? session.score + 1 : session.score,
+              skippedStates,
               skillAccuracy: {
                 ...session.skillAccuracy,
                 [skillType]: {
@@ -320,6 +326,7 @@ export const useQuizStore = create<QuizStore>()(
               filteredQuestionIds: questionIds,
               viewedHints: {},
               skillAccuracy: {},
+              skippedStates: {},
               blockIndex: 0,
               currentState: 1,
               unlockedBlockIndex: 0,
@@ -344,6 +351,22 @@ export const useQuizStore = create<QuizStore>()(
           }
         };
       }),
+      markWritingStateSkipped: (sessionId, qIndex, currentState) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              skippedStates: {
+                ...(session.skippedStates || {}),
+                [`${qIndex}-${currentState}`]: true
+              }
+            }
+          }
+        };
+      }),
       answerWritingVocab: (sessionId, qIndex, optionIndex, isCorrect, skillType) => set((state) => {
         const session = state.writingProgress[sessionId];
         if (!session) return state;
@@ -351,6 +374,8 @@ export const useQuizStore = create<QuizStore>()(
         if (vocabAnswers[qIndex] !== undefined) return state;
 
         const currentSkillAcc = session.skillAccuracy[skillType] || { correct: 0, total: 0 };
+        const skippedStates = { ...(session.skippedStates || {}) };
+        delete skippedStates[`${qIndex}-1`];
         return {
           writingProgress: {
             ...state.writingProgress,
@@ -358,6 +383,7 @@ export const useQuizStore = create<QuizStore>()(
               ...session,
               vocabAnswers: { ...vocabAnswers, [qIndex]: optionIndex },
               score: isCorrect ? session.score + 1 : session.score,
+              skippedStates,
               skillAccuracy: {
                 ...session.skillAccuracy,
                 [skillType]: {
@@ -377,6 +403,8 @@ export const useQuizStore = create<QuizStore>()(
 
         const currentSkillAcc = session.skillAccuracy[skillType] || { correct: 0, total: 0 };
         const finalCorrect = isCorrect || overrideCorrect;
+        const skippedStates = { ...(session.skippedStates || {}) };
+        delete skippedStates[`${qIndex}-3`];
         return {
           writingProgress: {
             ...state.writingProgress,
@@ -384,6 +412,7 @@ export const useQuizStore = create<QuizStore>()(
               ...session,
               typedAnswers: { ...typedAnswers, [qIndex]: { text, isCorrect, overrideCorrect } },
               score: finalCorrect ? session.score + 1 : session.score,
+              skippedStates,
               skillAccuracy: {
                 ...session.skillAccuracy,
                 [skillType]: {
@@ -420,11 +449,15 @@ export const useQuizStore = create<QuizStore>()(
         const newAnswers = { ...session.answers };
         const newVocabAnswers = { ...(session.vocabAnswers || {}) };
         const newTypedAnswers = { ...(session.typedAnswers || {}) };
+        const newSkippedStates = { ...(session.skippedStates || {}) };
 
         indicesToClear.forEach((idx) => {
           delete newAnswers[idx];
           delete newVocabAnswers[idx];
           delete newTypedAnswers[idx];
+          delete newSkippedStates[`${idx}-1`];
+          delete newSkippedStates[`${idx}-2`];
+          delete newSkippedStates[`${idx}-3`];
         });
 
         return {
@@ -436,6 +469,7 @@ export const useQuizStore = create<QuizStore>()(
               answers: newAnswers,
               vocabAnswers: newVocabAnswers,
               typedAnswers: newTypedAnswers,
+              skippedStates: newSkippedStates,
               isFinished: false
             }
           }
