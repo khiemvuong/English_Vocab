@@ -26,6 +26,7 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
     answerWritingVocab,
     answerWritingTyped,
     setWritingBlockAndState,
+    markWritingStateSkipped,
     unlockNextBlock,
     restartWritingBlock,
     toggleWritingHint,
@@ -104,6 +105,7 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
   const answers = useMemo(() => session?.answers ?? {}, [session?.answers]);
   const vocabAnswers = useMemo(() => session?.vocabAnswers ?? {}, [session?.vocabAnswers]);
   const typedAnswers = useMemo(() => session?.typedAnswers ?? {}, [session?.typedAnswers]);
+  const skippedStates = useMemo(() => session?.skippedStates ?? {}, [session?.skippedStates]);
 
   const isFinished = session?.isFinished ?? false;
   const viewedHints = useMemo(() => session?.viewedHints ?? {}, [session?.viewedHints]);
@@ -122,6 +124,9 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
   }, [currentState, vocabAnswers, answers, currentAbsoluteIndex]);
 
   const isAnswered = useMemo(() => {
+    if (skippedStates[`${currentAbsoluteIndex}-${currentState}`]) {
+      return true;
+    }
     if (currentState === 1) {
       return vocabAnswers[currentAbsoluteIndex] !== undefined;
     } else if (currentState === 2) {
@@ -130,7 +135,7 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
       return typedAnswers[currentAbsoluteIndex] !== undefined;
     }
     return false;
-  }, [currentState, vocabAnswers, answers, typedAnswers, currentAbsoluteIndex]);
+  }, [currentState, skippedStates, vocabAnswers, answers, typedAnswers, currentAbsoluteIndex]);
 
   const showHint = viewedHints[currentAbsoluteIndex] || false;
 
@@ -182,15 +187,19 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
     [sessionId, currentAbsoluteIndex, currentQuestion, answerWritingTyped, isMuted]
   );
 
-  const handleNext = useCallback(() => {
+  const handleAdvanceAfterState = useCallback(() => {
     if (currentIndex < blockQuestions.length - 1) {
-      // Move to next question in block
       goToNextWriting(sessionId);
-    } else {
-      // Completed last question of block -> show state complete transition
-      setShowTransition(true);
+      return;
     }
-  }, [currentIndex, blockQuestions.length, sessionId, goToNextWriting]);
+
+    setShowTransition(true);
+  }, [blockQuestions.length, currentIndex, goToNextWriting, sessionId]);
+
+
+  const handleNext = useCallback(() => {
+    handleAdvanceAfterState();
+  }, [handleAdvanceAfterState]);
 
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) {
@@ -253,6 +262,7 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
   }, [sessionId, session, questionIds, restartWriting, data.setId]);
 
   const handleFinishSession = useCallback(() => {
+    setHasReviewed(false);
     useQuizStore.setState((state) => ({
       writingProgress: {
         ...state.writingProgress,
@@ -265,42 +275,84 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
   }, [sessionId]);
 
   const handleRestartWrongOnly = useCallback(() => {
-    const wrongIds: string[] = [];
-    for (let i = 0; i < activeQuestions.length; i++) {
-      const typedAns = typedAnswers[i];
-      if (!typedAns || (!typedAns.isCorrect && !typedAns.overrideCorrect)) {
-        wrongIds.push(activeQuestions[i].id);
-      }
-    }
+    const retryIds = activeQuestions.flatMap((question, questionIndex) => {
+      for (const state of [1, 2, 3] as const) {
+        const isSkipped = skippedStates[`${questionIndex}-${state}`] === true;
 
-    if (wrongIds.length === 0) return;
+        if (state === 1) {
+          const answerIndex = vocabAnswers[questionIndex];
+          const isCorrect = answerIndex !== undefined && question.phraseOptions?.[answerIndex]?.isCorrect;
+          if (isSkipped || !isCorrect) return [question.id];
+          continue;
+        }
+
+        if (state === 2) {
+          const answerIndex = answers[questionIndex];
+          const isCorrect = answerIndex !== undefined && question.answerOptions[answerIndex]?.isCorrect;
+          if (isSkipped || !isCorrect) return [question.id];
+          continue;
+        }
+
+        const typedAnswer = typedAnswers[questionIndex];
+        const isCorrect = !!typedAnswer && (typedAnswer.isCorrect || typedAnswer.overrideCorrect);
+        if (isSkipped || !isCorrect) return [question.id];
+      }
+
+      return [];
+    });
+
+    if (retryIds.length === 0) return;
 
     const nextSessionId = "writing-practice-wrong";
-    restartWriting(nextSessionId, wrongIds);
+    restartWriting(nextSessionId, retryIds);
     setSessionId(nextSessionId);
     setHasReviewed(false);
     setShowTransition(false);
-  }, [activeQuestions, typedAnswers, restartWriting]);
+  }, [activeQuestions, answers, skippedStates, typedAnswers, vocabAnswers, restartWriting]);
 
-  const handleReviewQuestion = useCallback(() => {
+  const handleReviewQuestion = useCallback((index: number, state: 1 | 2 | 3) => {
+    const reviewBlockIndex = blockStartIndices.findIndex((startIdx, currentBlockIndex) => {
+      const blockEnd = startIdx + (blockSizes[currentBlockIndex] ?? 0);
+      return index >= startIdx && index < blockEnd;
+    });
+
+    if (reviewBlockIndex === -1) return;
+
+    const reviewStartIdx = blockStartIndices[reviewBlockIndex] ?? 0;
+
+    useQuizStore.setState((currentStore) => ({
+      writingProgress: {
+        ...currentStore.writingProgress,
+        [sessionId]: {
+          ...currentStore.writingProgress[sessionId],
+          blockIndex: reviewBlockIndex,
+          currentState: state,
+          currentIndex: index - reviewStartIdx,
+          isFinished: false,
+        },
+      },
+    }));
+
     setHasReviewed(true);
-  }, []);
+    setShowTransition(false);
+  }, [blockSizes, blockStartIndices, sessionId]);
 
   const handleExit = useCallback(() => router.push("/?tab=writing"), [router]);
 
-  const handleSkipBlock = useCallback(() => {
+  const handleSkipState = useCallback(() => {
     setIsSkipConfirmOpen(true);
   }, []);
 
   const handleConfirmSkip = useCallback(() => {
-    if (blockIndex < numBlocks - 1) {
-      unlockNextBlock(sessionId);
-      setShowTransition(false);
-    } else {
-      handleFinishSession();
-      setShowTransition(false);
+    const startIdx = blockStartIndices[blockIndex] ?? 0;
+
+    for (let index = currentIndex; index < blockQuestions.length; index++) {
+      markWritingStateSkipped(sessionId, startIdx + index, currentState);
     }
-  }, [blockIndex, numBlocks, sessionId, unlockNextBlock, handleFinishSession]);
+
+    setIsSkipConfirmOpen(false);
+    setShowTransition(true);
+  }, [blockIndex, blockQuestions.length, blockStartIndices, currentIndex, currentState, markWritingStateSkipped, sessionId]);
 
   // Compute mistake question indices for redoing wrong ones in State 3
   const blockMistakeAbsoluteIndices = useMemo(() => {
@@ -316,23 +368,65 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
     return wrong;
   }, [blockQuestions, typedAnswers, blockIndex, blockStartIndices]);
 
+  const nextSkippedTarget = useMemo(() => {
+    const startIdx = blockStartIndices[blockIndex] ?? 0;
+    const targets: Array<{ questionIndex: number; state: 1 | 2 | 3 }> = [];
+
+    for (let i = 0; i < blockQuestions.length; i++) {
+      const absIdx = startIdx + i;
+      if (skippedStates[`${absIdx}-1`]) {
+        targets.push({ questionIndex: i, state: 1 });
+      }
+      if (skippedStates[`${absIdx}-2`]) {
+        targets.push({ questionIndex: i, state: 2 });
+      }
+      if (skippedStates[`${absIdx}-3`]) {
+        targets.push({ questionIndex: i, state: 3 });
+      }
+    }
+
+    return targets.sort((a, b) => a.state - b.state || a.questionIndex - b.questionIndex)[0] ?? null;
+  }, [blockIndex, blockQuestions.length, blockStartIndices, skippedStates]);
+
   const handleRedoMistakes = useCallback(() => {
     if (blockMistakeAbsoluteIndices.length === 0) return;
     restartWritingBlock(sessionId, blockMistakeAbsoluteIndices);
     setShowTransition(false);
   }, [blockMistakeAbsoluteIndices, sessionId, restartWritingBlock]);
 
-  // Dynamic score based on final Typed Answers (Phase 3)
   const finalTypedScore = useMemo(() => {
     let correctCount = 0;
     for (let i = 0; i < activeQuestions.length; i++) {
+      const hasSkippedState =
+        skippedStates[`${i}-1`] === true ||
+        skippedStates[`${i}-2`] === true ||
+        skippedStates[`${i}-3`] === true;
       const typedAns = typedAnswers[i];
-      if (typedAns && (typedAns.isCorrect || typedAns.overrideCorrect)) {
+      if (!hasSkippedState && typedAns && (typedAns.isCorrect || typedAns.overrideCorrect)) {
         correctCount++;
       }
     }
     return correctCount;
-  }, [activeQuestions, typedAnswers]);
+  }, [activeQuestions, skippedStates, typedAnswers]);
+
+  const handleResumeSkippedState = useCallback(() => {
+    if (!nextSkippedTarget) return;
+
+    useQuizStore.setState((state) => ({
+      writingProgress: {
+        ...state.writingProgress,
+        [sessionId]: {
+          ...state.writingProgress[sessionId],
+          blockIndex,
+          currentState: nextSkippedTarget.state,
+          currentIndex: nextSkippedTarget.questionIndex,
+          isFinished: false,
+        },
+      },
+    }));
+
+    setShowTransition(false);
+  }, [blockIndex, nextSkippedTarget, sessionId]);
 
   if (!mounted) {
     return (
@@ -375,6 +469,7 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
           practiceMode={3} // Displaying the final Active Writing review list
           vocabAnswers={vocabAnswers}
           typedAnswers={typedAnswers}
+          skippedStates={skippedStates}
         />
       </div>
     );
@@ -451,15 +546,15 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
             </div>
           </div>
 
-          {/* Action buttons (Skip Block) */}
+          {/* Action buttons (Skip State) */}
           <button
-            onClick={handleSkipBlock}
+            onClick={handleSkipState}
             className="w-full sm:w-auto px-4 py-1.5 bg-slate-800 hover:bg-slate-700 border border-white/10 text-slate-300 text-xs font-bold rounded-lg transition-colors flex items-center justify-center gap-1 cursor-pointer"
           >
             <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M13 5l7 7-7 7M5 5l7 7-7 7" />
             </svg>
-            Bỏ qua Block này
+            Bỏ qua state này
           </button>
         </div>
       </div>
@@ -482,9 +577,9 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-white">Hoàn thành Học cụm từ!</h3>
+                  <h3 className="text-xl font-bold text-white">Hoàn thành phần Học cụm từ!</h3>
                   <p className="text-slate-350 text-sm leading-relaxed">
-                    Bạn đã làm quen và hiểu nghĩa toàn bộ cụm từ vựng của Block này. Tiếp theo hãy luyện tập kỹ năng chọn cấu trúc câu đúng ngữ pháp.
+                    Bạn đã xong toàn bộ phần làm quen cụm từ của Block này. Tiếp theo hãy làm phần trắc nghiệm câu.
                   </p>
                   <button
                     onClick={() => {
@@ -493,7 +588,7 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
                     }}
                     className="w-full py-3 bg-linear-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white font-bold rounded-xl transition-all shadow-md cursor-pointer"
                   >
-                    Bắt đầu Trắc nghiệm câu (State 2)
+                    Sang Trắc nghiệm câu (State 2)
                   </button>
                 </>
               ) : currentState === 2 ? (
@@ -508,9 +603,9 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
                       />
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold text-white">Hoàn thành Trắc nghiệm!</h3>
+                  <h3 className="text-xl font-bold text-white">Hoàn thành phần Trắc nghiệm!</h3>
                   <p className="text-slate-350 text-sm leading-relaxed">
-                    Tuyệt vời! Bạn đã chọn đúng cấu trúc câu cho các bối cảnh tranh. Giờ hãy thử thách tự tay viết/gõ hoàn chỉnh câu để ghi nhớ lâu dài.
+                    Tuyệt vời! Bạn đã xong toàn bộ phần trắc nghiệm của Block này. Giờ hãy chuyển sang phần tự viết câu.
                   </p>
                   <button
                     onClick={() => {
@@ -519,7 +614,7 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
                     }}
                     className="w-full py-3 bg-linear-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white font-bold rounded-xl transition-all shadow-md cursor-pointer"
                   >
-                    Bắt đầu Tự viết câu (State 3)
+                    Sang Tự viết câu (State 3)
                   </button>
                 </>
               ) : (
@@ -548,6 +643,14 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
                       >
                         Luyện lại câu sai
                       </button>
+                      {nextSkippedTarget && (
+                        <button
+                          onClick={handleResumeSkippedState}
+                          className="flex-1 py-3 bg-amber-600/20 hover:bg-amber-600/30 border border-amber-500/30 text-amber-300 font-bold rounded-xl transition-colors cursor-pointer"
+                        >
+                          Quay lại state đã skip
+                        </button>
+                      )}
                       <button
                         onClick={() => {
                           if (blockIndex < numBlocks - 1) {
@@ -580,20 +683,30 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
                     <p className="text-slate-350 text-sm leading-relaxed">
                       Chúc mừng! Bạn đã vượt qua tất cả thử thách viết câu của Block này mà không còn sai sót nào.
                     </p>
-                    <button
-                      onClick={() => {
-                        if (blockIndex < numBlocks - 1) {
-                          unlockNextBlock(sessionId);
-                          setShowTransition(false);
-                        } else {
-                          handleFinishSession();
-                          setShowTransition(false);
-                        }
-                      }}
-                      className="w-full py-3 bg-linear-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold rounded-xl transition-all shadow-md shadow-emerald-600/10 cursor-pointer"
-                    >
-                      {blockIndex < numBlocks - 1 ? "Sang Block tiếp theo" : "Xem tổng kết kết quả"}
-                    </button>
+                    <div className="flex w-full flex-col gap-3 pt-2">
+                      {nextSkippedTarget && (
+                        <button
+                          onClick={handleResumeSkippedState}
+                          className="w-full py-3 bg-amber-600/20 hover:bg-amber-600/30 border border-amber-500/30 text-amber-300 font-bold rounded-xl transition-colors cursor-pointer"
+                        >
+                          Quay lại state đã skip
+                        </button>
+                      )}
+                      <button
+                        onClick={() => {
+                          if (blockIndex < numBlocks - 1) {
+                            unlockNextBlock(sessionId);
+                            setShowTransition(false);
+                          } else {
+                            handleFinishSession();
+                            setShowTransition(false);
+                          }
+                        }}
+                        className="w-full py-3 bg-linear-to-r from-emerald-600 to-teal-600 hover:from-emerald-700 hover:to-teal-700 text-white font-bold rounded-xl transition-all shadow-md shadow-emerald-600/10 cursor-pointer"
+                      >
+                        {blockIndex < numBlocks - 1 ? "Sang Block tiếp theo" : "Xem tổng kết kết quả"}
+                      </button>
+                    </div>
                   </>
                 )
               )}
@@ -654,9 +767,9 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
 
       <ConfirmModal
         isOpen={isSkipConfirmOpen}
-        title="Bỏ qua Block này?"
-        message="Bạn có chắc chắn muốn bỏ qua Block hiện tại và mở khóa để tiếp tục học Block tiếp theo không?"
-        confirmText="Bỏ qua"
+        title="Bỏ qua state này?"
+        message="Bạn có chắc chắn muốn bỏ qua toàn bộ phần hiện tại của các câu còn lại trong block này và chuyển sang state tiếp theo không?"
+        confirmText="Bỏ qua state"
         cancelText="Quay lại"
         variant="warning"
         onConfirm={handleConfirmSkip}

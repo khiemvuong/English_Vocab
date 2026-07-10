@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import dynamic from "next/dynamic";
@@ -12,10 +13,13 @@ import { Ets2026Card } from "@/components/home/Ets2026Card";
 import { MistakeReviewCard } from "@/components/home/MistakeReviewCard";
 import { PracticeSection } from "@/components/home/PracticeSection";
 import { GlassFilter } from "@/components/ui/liquid-glass";
-import { HomeMeshBackground } from "@/components/home/HomeMeshBackground";
 import { GuidedTour, GuidedTourStep } from "@/components/common/GuidedTour";
 
-const Spline = dynamic(() => import('@splinetool/react-spline'), {
+const HomeMeshBackground = dynamic(() => import("@/components/home/HomeMeshBackground").then((m) => m.HomeMeshBackground), {
+  ssr: false,
+});
+
+const Spline = dynamic(() => import("@splinetool/react-spline"), {
   ssr: false,
   loading: () => <div className="absolute inset-0 bg-slate-950" />
 });
@@ -127,6 +131,17 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
   const [activeTab, setActiveTab] = useState(
     paramTab === "part5" || paramTab === "ets2026" ? "part5" : paramTab === "part6" ? "part6" : paramTab === "writing" ? "writing" : "vocab"
   );
+  const [isDesktopHero, setIsDesktopHero] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
+    const syncViewport = () => setIsDesktopHero(mediaQuery.matches);
+
+    syncViewport();
+    mediaQuery.addEventListener("change", syncViewport);
+
+    return () => mediaQuery.removeEventListener("change", syncViewport);
+  }, []);
 
   useEffect(() => {
     if (paramTab === "part5" || paramTab === "ets2026" || paramTab === "vocab" || paramTab === "part6" || paramTab === "writing") {
@@ -142,6 +157,10 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
   };
 
   const forwardTapToSpline = useCallback((event: React.PointerEvent<HTMLDivElement>) => {
+    if (!isDesktopHero) {
+      return;
+    }
+
     const canvas = document.querySelector<HTMLCanvasElement>("canvas");
 
     if (!canvas) {
@@ -150,7 +169,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
     }
 
     canvas.dispatchEvent(createSplineMouseMove(event));
-  }, []);
+  }, [isDesktopHero]);
 
   const getTabInfo = (id: string) => {
     switch (id) {
@@ -190,34 +209,53 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
   return (
     <div
       className="min-h-dvh relative overflow-hidden w-full bg-black flex flex-col justify-between"
-      onPointerDown={forwardTapToSpline}
+      onPointerDown={isDesktopHero ? forwardTapToSpline : undefined}
     >
-      <HomeMeshBackground />
+      {isDesktopHero ? <HomeMeshBackground /> : null}
       <GlassFilter />
       
       {/* ── Hero Section Wrapper (Stable Height, Holds centered Spline Robot) ── */}
       <div className="relative w-full min-h-[80vh] lg:min-h-[85vh] flex flex-col justify-between">
         
         {/* ── Seamless Center-Top Spline Robot Background (Anchored to Hero wrapper) ── */}
-        <div className="absolute inset-0 z-0 flex justify-center items-center pointer-events-none select-none">
-          <div className="w-[900px] h-[900px] sm:w-[1100px] sm:h-[1100px] lg:w-[1400px] lg:h-[1400px] opacity-75 shrink-0 scale-120 sm:scale-125 lg:scale-130 translate-y-[-2%] sm:translate-y-[-4%] lg:translate-y-[-5%] translate-x-[-1.5%] sm:translate-x-[-2%] lg:translate-x-[-2.5%] transition-all duration-500 flex justify-center items-center">
-            <Spline scene="https://prod.spline.design/Hoc-5P8xfjMh7imC/scene.splinecode" />
+        {isDesktopHero ? (
+          <div className="absolute inset-0 z-0 flex justify-center items-center pointer-events-none select-none">
+            <div className="w-[900px] h-[900px] sm:w-[1100px] sm:h-[1100px] lg:w-[1400px] lg:h-[1400px] opacity-75 shrink-0 scale-120 sm:scale-125 lg:scale-130 translate-y-[-2%] sm:translate-y-[-4%] lg:translate-y-[-5%] translate-x-[-1.5%] sm:translate-x-[-2%] lg:translate-x-[-2.5%] transition-all duration-500 flex justify-center items-center">
+              <Spline scene="https://prod.spline.design/Hoc-5P8xfjMh7imC/scene.splinecode" />
+            </div>
           </div>
-        </div>
+        ) : (
+          <div className="absolute inset-x-0 top-0 z-0 h-[48vh] min-h-[320px] max-h-[420px] pointer-events-none select-none overflow-hidden">
+            <div className="absolute inset-0 bg-linear-to-r from-black via-black/88 via-52% to-black/28" />
+            <div className="absolute inset-y-0 w-full max-w-full">
+              <Image
+                alt="TOEIC Mastery robot"
+                className="object-contain object-right"
+                fill
+                priority
+                sizes="100vw"
+                src="https://ik.imagekit.io/khiemvuong123/bg.jpeg"
+              />
+            </div>
+            <div className="absolute inset-x-0 bottom-0 h-24 bg-linear-to-b from-transparent to-black" />
+          </div>
+        )}
 
         {/* ── Hero Content (Max width container) ── */}
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-12 pt-24 md:pt-28 pb-10 flex flex-col flex-1 justify-between">
           
           {/* Main Title Layout */}
           {/* Mobile Unified Layout */}
-          <div className="w-full flex flex-col items-center text-center md:hidden pointer-events-none select-none mt-2 z-10 relative">
-            <h1 className="text-4xl sm:text-5xl font-black tracking-tighter uppercase drop-shadow-[0_10px_25px_rgba(0,0,0,0.9)]">
-              <span className="text-white">TOEIC</span>{" "}
-              <span className="bg-linear-to-br from-white via-white to-zinc-400 bg-clip-text text-transparent">MASTERY</span>
-            </h1>
-            <p className="text-zinc-300 text-xs sm:text-sm font-medium mt-3 max-w-sm drop-shadow-[0_2px_8px_rgba(0,0,0,0.9)] leading-relaxed">
-              Học từ vựng &amp; ngữ pháp hiệu quả. Luyện đề thi TOEIC thực chiến với giải thích đáp án chi tiết.
-            </p>
+          <div className="w-full flex flex-col items-start text-left md:hidden pointer-events-none select-none mt-1 z-10 relative min-h-[34vh] justify-start">
+            <div className="max-w-[52vw] min-w-0">
+              <h1 className="text-4xl font-black tracking-[-0.08em] uppercase leading-[0.9] drop-shadow-[0_10px_25px_rgba(0,0,0,0.92)]">
+                <span className="block text-white">TOEIC</span>
+                <span className="block bg-linear-to-br from-white via-white to-zinc-400 bg-clip-text text-transparent">MASTERY</span>
+              </h1>
+              <p className="text-zinc-300 text-[11px] font-medium mt-3 max-w-[30ch] drop-shadow-[0_2px_8px_rgba(0,0,0,0.95)] leading-relaxed">
+                Học từ vựng &amp; ngữ pháp gọn, rõ và đủ lực để luyện TOEIC thực chiến mỗi ngày.
+              </p>
+            </div>
           </div>
 
           {/* Desktop Split Layout */}
