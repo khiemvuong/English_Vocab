@@ -1,0 +1,1982 @@
+{
+  "setId": "writing67-practice-test",
+  "title": "TOEIC Writing Q6-7: Practice Test",
+  "description": "Bài luyện tổng hợp gần format thi thật.",
+  "sourceMaterial": "docs/writing-6-7-respond-to-written-request.md",
+  "prompts": [
+    {
+      "id": "w67-practice-workshop",
+      "title": "Invitation to give a workshop",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "K. Lehmann",
+        "to": "A. Mitra",
+        "subject": "Invitation to give a workshop",
+        "sent": "June 12, 9:34 A.M.",
+        "body": [
+          "Dear Dr. Mitra,",
+          "I enjoyed your workshop at the convention last week.",
+          "I'd like to invite you to give a similar presentation to the employees at Gammite Enterprises.",
+          "When would you be available?",
+          "Also, please let me know what you will need for your presentation.",
+          "Klaus Lehmann",
+          "Manager, Gammite Enterprises"
+        ],
+        "translationVi": [
+          "Gửi Dr. Mitra,",
+          "Tôi rất thích buổi workshop của bạn tại hội nghị tuần trước.",
+          "Tôi muốn mời bạn thực hiện một bài trình bày tương tự cho nhân viên của Gammite Enterprises.",
+          "Khi nào bạn có thể tham gia?",
+          "Ngoài ra, vui lòng cho tôi biết bạn cần gì cho bài trình bày.",
+          "Klaus Lehmann",
+          "Quản lý, Gammite Enterprises"
+        ]
+      },
+      "directions": "Respond to the e-mail. In your e-mail, give THREE pieces of information.",
+      "roleVi": "Bạn là Dr. Mitra, người được mời đến thuyết trình.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Say whether you can give the workshop.",
+          "example": "I would be happy to give a similar presentation."
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Say when you are available.",
+          "example": "I am available on June 20 or June 21."
+        },
+        {
+          "type": "information",
+          "label": "Information 3",
+          "requirement": "Say what you need for the presentation.",
+          "example": "I will need a projector and a large screen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "work from home",
+          "meaningVi": "làm việc tại nhà",
+          "category": "suggestion",
+          "example": "The company should allow employees to work from home twice a week."
+        },
+        {
+          "phrase": "give more vacation time",
+          "meaningVi": "cho thêm thời gian nghỉ phép",
+          "category": "suggestion",
+          "example": "Another suggestion is to give employees more vacation time."
+        },
+        {
+          "phrase": "be available for ~",
+          "meaningVi": "có thời gian cho việc gì",
+          "category": "information",
+          "example": "I am available for the meeting on Friday."
+        },
+        {
+          "phrase": "prepare for ~",
+          "meaningVi": "chuẩn bị cho",
+          "category": "general",
+          "example": "I need time to prepare for the presentation."
+        }
+      ],
+      "patterns": [
+        "I would be happy to ...",
+        "I am available on ...",
+        "For the presentation, I will need ...",
+        "Please let me know ..."
+      ],
+      "sampleAnswer": [
+        "Dear Mr. Lehmann,",
+        "Thank you for inviting me to speak at Gammite Enterprises.",
+        "I would be happy to give a similar presentation to your employees.",
+        "I am available on June 20 or June 21.",
+        "For the presentation, I will need a projector and a large screen.",
+        "Please let me know which date works best for you.",
+        "Best regards,",
+        "A. Mitra"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "I would be happy to _____ to your employees.",
+          "answer": "give a similar presentation",
+          "meaningVi": "Tôi rất sẵn lòng trình bày tương tự cho nhân viên của ông."
+        },
+        {
+          "sentence": "I am _____ on June 20 or June 21.",
+          "answer": "available",
+          "meaningVi": "Tôi có thời gian vào ngày 20 hoặc 21 tháng 6."
+        },
+        {
+          "sentence": "I will need a projector and _____.",
+          "answer": "a large screen",
+          "meaningVi": "Tôi cần máy chiếu và màn hình lớn."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Mr. Lehmann,",
+        "opening": "Thank you for inviting me to speak at Gammite Enterprises.",
+        "bodySlots": [
+          "I would be happy to ...",
+          "I am available on ...",
+          "For the presentation, I will need ..."
+        ],
+        "closing": "A. Mitra"
+      }
+    },
+    {
+      "id": "w67-practice-landscaping",
+      "title": "Customer satisfaction",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Premier Landscaping",
+        "to": "Landerson Law Offices",
+        "subject": "Customer satisfaction",
+        "sent": "July 14, 11:02 A.M.",
+        "body": [
+          "Your office recently stopped using our company for your gardening and landscaping needs.",
+          "Customer service is very important to us, so we would like to hear from you.",
+          "Please tell us why you canceled your service and how you think we might better serve our customers in the future."
+        ],
+        "translationVi": [
+          "Văn phòng của quý vị gần đây đã ngừng sử dụng dịch vụ làm vườn và cảnh quan của chúng tôi.",
+          "Dịch vụ khách hàng rất quan trọng với chúng tôi, nên chúng tôi muốn nghe ý kiến từ quý vị.",
+          "Vui lòng cho chúng tôi biết vì sao quý vị hủy dịch vụ và cách chúng tôi có thể phục vụ khách hàng tốt hơn."
+        ]
+      },
+      "directions": "Respond to the e-mail. In your e-mail, provide TWO reasons and make ONE suggestion.",
+      "roleVi": "Bạn là đại diện Landerson Law Offices phản hồi công ty cảnh quan.",
+      "tasks": [
+        {
+          "type": "reason",
+          "label": "Reason 1",
+          "requirement": "Give one reason for canceling the service.",
+          "example": "The monthly fee became too expensive."
+        },
+        {
+          "type": "reason",
+          "label": "Reason 2",
+          "requirement": "Give a second reason for canceling.",
+          "example": "The workers often arrived later than scheduled."
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion",
+          "requirement": "Make one suggestion for improvement.",
+          "example": "You should inform customers earlier when schedules change."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "customer service",
+          "meaningVi": "dịch vụ khách hàng",
+          "category": "general",
+          "example": "Customer service is very important."
+        },
+        {
+          "phrase": "be scheduled to ~",
+          "meaningVi": "được lên lịch để",
+          "category": "information",
+          "example": "The team was scheduled to arrive at 9 A.M."
+        },
+        {
+          "phrase": "monthly fee",
+          "meaningVi": "phí hàng tháng",
+          "category": "reason",
+          "example": "The monthly fee was too high."
+        },
+        {
+          "phrase": "inform customers",
+          "meaningVi": "thông báo cho khách hàng",
+          "category": "suggestion",
+          "example": "You should inform customers earlier."
+        }
+      ],
+      "patterns": [
+        "The main reason is that ...",
+        "Another reason is that ...",
+        "You should ...",
+        "Thank you for asking for feedback."
+      ],
+      "sampleAnswer": [
+        "Dear Premier Landscaping,",
+        "Thank you for asking for our feedback.",
+        "The main reason we canceled the service is that the monthly fee became too expensive.",
+        "Another reason is that the workers often arrived later than scheduled.",
+        "You should inform customers earlier when schedules change.",
+        "Sincerely,",
+        "Landerson Law Offices"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "The monthly _____ became too expensive.",
+          "answer": "fee",
+          "meaningVi": "Phí hàng tháng trở nên quá đắt."
+        },
+        {
+          "sentence": "The workers often arrived later than _____.",
+          "answer": "scheduled",
+          "meaningVi": "Nhân viên thường đến muộn hơn lịch."
+        },
+        {
+          "sentence": "You should inform customers earlier when _____ change.",
+          "answer": "schedules",
+          "meaningVi": "Bạn nên báo khách hàng sớm hơn khi lịch thay đổi."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Premier Landscaping,",
+        "opening": "Thank you for asking for our feedback.",
+        "bodySlots": [
+          "The main reason is that ...",
+          "Another reason is that ...",
+          "You should ..."
+        ],
+        "closing": "Landerson Law Offices"
+      }
+    },
+    {
+      "id": "w67-practice-tuition",
+      "title": "Tuition assistance",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Michael Dunn, HR Director",
+        "to": "Mariko Yoshida",
+        "subject": "Application for tuition assistance",
+        "sent": "September 26, 10:51 A.M.",
+        "body": [
+          "Ms. Yoshida,",
+          "Thank you for your interest in our company's program that helps employees pay for educational expenses.",
+          "Please provide information about the course you wish to take and how it relates to your job and professional development.",
+          "Let me know if you have any further questions about the program.",
+          "Michael Dunn"
+        ],
+        "translationVi": [
+          "Cô Yoshida,",
+          "Cảm ơn cô đã quan tâm đến chương trình hỗ trợ chi phí học tập cho nhân viên của công ty.",
+          "Vui lòng cung cấp thông tin về khóa học cô muốn tham gia và khóa học liên quan thế nào đến công việc, phát triển nghề nghiệp.",
+          "Hãy cho tôi biết nếu cô có thêm câu hỏi về chương trình.",
+          "Michael Dunn"
+        ]
+      },
+      "directions": "Respond to the e-mail. In your e-mail, give TWO pieces of information and ask ONE question.",
+      "roleVi": "Bạn là Mariko Yoshida, nhân viên xin hỗ trợ học phí.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Give information about the course.",
+          "example": "I would like to take an advanced accounting course."
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Explain how the course relates to your job.",
+          "example": "The course will help me prepare more accurate financial reports."
+        },
+        {
+          "type": "question",
+          "label": "Question",
+          "requirement": "Ask one question about the program.",
+          "example": "When is the deadline for submitting the application?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "educational expenses",
+          "meaningVi": "chi phí học tập",
+          "category": "general",
+          "example": "The company helps with educational expenses."
+        },
+        {
+          "phrase": "relate to",
+          "meaningVi": "liên quan đến",
+          "category": "information",
+          "example": "The course relates to my current job."
+        },
+        {
+          "phrase": "professional development",
+          "meaningVi": "phát triển nghề nghiệp",
+          "category": "information",
+          "example": "This course supports my professional development."
+        },
+        {
+          "phrase": "application deadline",
+          "meaningVi": "hạn nộp đơn",
+          "category": "question",
+          "example": "What is the application deadline?"
+        }
+      ],
+      "patterns": [
+        "I would like to take ...",
+        "This course will help me ...",
+        "Could you tell me ...?",
+        "Thank you for considering my request."
+      ],
+      "sampleAnswer": [
+        "Dear Mr. Dunn,",
+        "Thank you for your message about tuition assistance.",
+        "I would like to take an advanced accounting course at City College.",
+        "This course will help me prepare more accurate financial reports for my department.",
+        "Could you tell me when the application deadline is?",
+        "Thank you for considering my request.",
+        "Mariko Yoshida"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "I would like to take an advanced _____ course.",
+          "answer": "accounting",
+          "meaningVi": "Tôi muốn tham gia khóa kế toán nâng cao."
+        },
+        {
+          "sentence": "This course will help me prepare more accurate _____.",
+          "answer": "financial reports",
+          "meaningVi": "Khóa học giúp tôi chuẩn bị báo cáo tài chính chính xác hơn."
+        },
+        {
+          "sentence": "Could you tell me when the application _____ is?",
+          "answer": "deadline",
+          "meaningVi": "Ông có thể cho tôi biết hạn nộp đơn không?"
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Mr. Dunn,",
+        "opening": "Thank you for your message about tuition assistance.",
+        "bodySlots": [
+          "I would like to take ...",
+          "This course will help me ...",
+          "Could you tell me ...? ..."
+        ],
+        "closing": "Mariko Yoshida"
+      }
+    },
+    {
+      "id": "w67-practice-wallet",
+      "title": "Lost wallet",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Bernardo Cruz",
+        "to": "Greenline Taxi Service",
+        "subject": "My wallet",
+        "sent": "November 19, 11:22 A.M.",
+        "body": [
+          "Thanks for your phone message telling me that my wallet was found in one of your taxis this morning.",
+          "You said I can come get it at your main office.",
+          "Please tell me where this office is located and what I need to do to claim my wallet."
+        ],
+        "translationVi": [
+          "Cảm ơn tin nhắn thoại cho biết ví của tôi được tìm thấy trong một taxi của công ty sáng nay.",
+          "Quý công ty nói tôi có thể đến văn phòng chính để nhận lại.",
+          "Vui lòng cho tôi biết văn phòng ở đâu và tôi cần làm gì để nhận lại ví."
+        ]
+      },
+      "directions": "Respond to the e-mail as if you work for Greenline Taxi Service. In your e-mail, give TWO pieces of information and ONE instruction.",
+      "roleVi": "Bạn là nhân viên Greenline Taxi Service.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Give information about the office location.",
+          "example": "Our main office is located on the second floor of Central Station."
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Give information about office hours.",
+          "example": "The office is open from 8 A.M. to 6 P.M."
+        },
+        {
+          "type": "instruction",
+          "label": "Instruction",
+          "requirement": "Tell the customer what to bring.",
+          "example": "Please bring some identification with you."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "be located on the ~ floor",
+          "meaningVi": "nằm ở tầng",
+          "category": "information",
+          "example": "The office is located on the second floor."
+        },
+        {
+          "phrase": "office hours",
+          "meaningVi": "giờ làm việc",
+          "category": "information",
+          "example": "Our office hours are from 8 A.M. to 6 P.M."
+        },
+        {
+          "phrase": "bring some identification",
+          "meaningVi": "mang theo giấy tờ tùy thân",
+          "category": "instruction",
+          "example": "Please bring some identification."
+        },
+        {
+          "phrase": "claim one's wallet",
+          "meaningVi": "nhận lại ví",
+          "category": "general",
+          "example": "You can claim your wallet at the office."
+        }
+      ],
+      "patterns": [
+        "Our main office is located ...",
+        "The office is open from ...",
+        "Please bring ...",
+        "We are glad we found your wallet."
+      ],
+      "sampleAnswer": [
+        "Dear Mr. Cruz,",
+        "We are glad we found your wallet.",
+        "Our main office is located on the second floor of Central Station.",
+        "The office is open from 8 A.M. to 6 P.M.",
+        "Please bring some identification with you when you come to claim your wallet.",
+        "Sincerely,",
+        "Greenline Taxi Service"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "Our main office is located on the _____ floor.",
+          "answer": "second",
+          "meaningVi": "Văn phòng chính nằm ở tầng hai."
+        },
+        {
+          "sentence": "The office is open from 8 A.M. to _____.",
+          "answer": "6 P.M.",
+          "meaningVi": "Văn phòng mở cửa từ 8 giờ sáng đến 6 giờ chiều."
+        },
+        {
+          "sentence": "Please bring some _____ with you.",
+          "answer": "identification",
+          "meaningVi": "Vui lòng mang theo giấy tờ tùy thân."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Mr. Cruz,",
+        "opening": "We are glad we found your wallet.",
+        "bodySlots": [
+          "Our main office is located ...",
+          "The office is open from ...",
+          "Please bring ..."
+        ],
+        "closing": "Greenline Taxi Service"
+      }
+    },
+    {
+      "id": "w67-practice-vishal-travel-reimbursement",
+      "title": "Travel reimbursement",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Vishal Shah",
+        "to": "Finance Office",
+        "subject": "Travel reimbursement",
+        "sent": "December 10, 2:11 P.M.",
+        "body": [
+          "I know that I can be reimbursed for certain business trip costs but not others.",
+          "I kept records of everything I spent while on business for our company in Tokyo.",
+          "Could you give me the details on the company policy for getting refunds for the money I spent?",
+          "Thank you,",
+          "Vishal"
+        ],
+        "translationVi": [
+          "Tôi biết rằng tôi có thể được hoàn tiền cho một số chi phí công tác, nhưng không phải tất cả.",
+          "Tôi đã giữ lại hồ sơ của mọi khoản chi trong chuyến công tác ở Tokyo.",
+          "Vui lòng cho tôi biết chi tiết chính sách hoàn tiền của công ty.",
+          "Cảm ơn,",
+          "Vishal"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you work in the finance office. In your e-mail, give THREE details.",
+      "roleVi": "Bạn là nhân viên phòng tài chính trả lời Vishal về chính sách hoàn tiền công tác.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Detail 1",
+          "requirement": "Explain which costs can be reimbursed.",
+          "example": "The company reimburses food, travel, and hotel costs."
+        },
+        {
+          "type": "information",
+          "label": "Detail 2",
+          "requirement": "Explain that expenses must match the approved budget.",
+          "example": "Your expenses must be within the budget approved by your manager."
+        },
+        {
+          "type": "information",
+          "label": "Detail 3",
+          "requirement": "Explain what documents are needed.",
+          "example": "You need to submit receipts for the total amount you spent."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "be reimbursed for",
+          "meaningVi": "được hoàn tiền cho",
+          "category": "information",
+          "example": "You can be reimbursed for travel costs."
+        },
+        {
+          "phrase": "approved budget",
+          "meaningVi": "ngân sách đã được duyệt",
+          "category": "information",
+          "example": "The expenses must be within the approved budget."
+        },
+        {
+          "phrase": "submit receipts",
+          "meaningVi": "nộp hóa đơn",
+          "category": "instruction",
+          "example": "Please submit all receipts."
+        },
+        {
+          "phrase": "total amount",
+          "meaningVi": "tổng số tiền",
+          "category": "information",
+          "example": "Write the total amount on the form."
+        }
+      ],
+      "patterns": [
+        "The company reimburses ...",
+        "Your expenses must be ...",
+        "You need to submit ...",
+        "Please contact us if ..."
+      ],
+      "sampleAnswer": [
+        "Hi Vishal,",
+        "The company reimburses some food, travel, and hotel costs.",
+        "Your manager must approve a budget before the trip, and your expenses must be within that budget.",
+        "You also need to submit receipts for the total amount you spent.",
+        "If you have any other questions, please contact us again.",
+        "Best,",
+        "Joo-Won Choi"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "The company reimburses some food, travel, and _____ costs.",
+          "answer": "hotel",
+          "meaningVi": "Công ty hoàn tiền một số chi phí ăn uống, đi lại và khách sạn."
+        },
+        {
+          "sentence": "Your expenses must be within the approved _____.",
+          "answer": "budget",
+          "meaningVi": "Chi phí phải nằm trong ngân sách đã được duyệt."
+        },
+        {
+          "sentence": "You need to submit _____ for the total amount.",
+          "answer": "receipts",
+          "meaningVi": "Bạn cần nộp hóa đơn cho tổng số tiền đã chi."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Hi Vishal,",
+        "opening": "The company reimburses some food, travel, and hotel costs.",
+        "bodySlots": [
+          "The company reimburses ...",
+          "Your expenses must be ...",
+          "You need to submit ..."
+        ],
+        "closing": "Joo-Won Choi"
+      }
+    },
+    {
+      "id": "w67-practice-john-dembo-awards-dinner",
+      "title": "Employee awards dinner",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "John Dembo, TMR Industries",
+        "to": "Susan Hoffman, TMR Industries",
+        "subject": "Employee awards dinner",
+        "sent": "April 5, 6:00 P.M.",
+        "body": [
+          "Hi Susan,",
+          "I'm coordinating the employee awards dinner this year.",
+          "I know you've done this in the past.",
+          "Can you tell me about your experience planning previous dinners?",
+          "Also, I'd appreciate any suggestions that you may have.",
+          "John Dembo"
+        ],
+        "translationVi": [
+          "Chào Susan,",
+          "Tôi đang phụ trách bữa tối trao giải cho nhân viên năm nay.",
+          "Tôi biết cô từng làm việc này trước đây.",
+          "Cô có thể chia sẻ kinh nghiệm tổ chức các bữa tối trước không?",
+          "Tôi cũng rất cảm kích nếu cô có đề xuất nào.",
+          "John Dembo"
+        ]
+      },
+      "directions": "Respond to the e-mail. In your e-mail, give TWO pieces of information and make ONE suggestion.",
+      "roleVi": "Bạn là Susan Hoffman, từng lên kế hoạch cho các bữa tối trao giải.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Give information about a past planning choice.",
+          "example": "We held the dinner at a hotel in order to save money."
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Give information about available options.",
+          "example": "There are several good restaurants in the area to choose from."
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion",
+          "requirement": "Make one suggestion for planning the dinner.",
+          "example": "It is best to send invitations early so that employees can reserve the date."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "coordinate an event",
+          "meaningVi": "phụ trách điều phối sự kiện",
+          "category": "general",
+          "example": "John is coordinating the awards dinner."
+        },
+        {
+          "phrase": "reserve the date",
+          "meaningVi": "giữ lịch cho ngày đó",
+          "category": "suggestion",
+          "example": "Employees can reserve the date."
+        },
+        {
+          "phrase": "in order to save money",
+          "meaningVi": "để tiết kiệm tiền",
+          "category": "information",
+          "example": "We used a hotel in order to save money."
+        },
+        {
+          "phrase": "choose from",
+          "meaningVi": "lựa chọn từ",
+          "category": "information",
+          "example": "There are many restaurants to choose from."
+        }
+      ],
+      "patterns": [
+        "In the past, we ...",
+        "There are several ... to choose from.",
+        "It is best to ...",
+        "I hope this helps."
+      ],
+      "sampleAnswer": [
+        "Hi John,",
+        "In the past, we held the dinner at a hotel in order to save money.",
+        "There are also several good restaurants in the area to choose from.",
+        "It is best to send invitations early so that employees can reserve the date.",
+        "I hope this helps.",
+        "Best,",
+        "Susan"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "We held the dinner at a hotel in order to _____.",
+          "answer": "save money",
+          "meaningVi": "Chúng tôi tổ chức bữa tối ở khách sạn để tiết kiệm tiền."
+        },
+        {
+          "sentence": "There are several good restaurants in the area to _____.",
+          "answer": "choose from",
+          "meaningVi": "Có vài nhà hàng tốt trong khu vực để lựa chọn."
+        },
+        {
+          "sentence": "It is best to send _____ early.",
+          "answer": "invitations",
+          "meaningVi": "Tốt nhất là gửi thư mời sớm."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Hi John,",
+        "opening": "In the past, we held the dinner at a hotel in order to save money.",
+        "bodySlots": [
+          "In the past, we ...",
+          "There are several ... to choose from. ...",
+          "It is best to ..."
+        ],
+        "closing": "Susan"
+      }
+    },
+    {
+      "id": "w67-practice-ramsey-training-session",
+      "title": "Employee training session",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "S.Ramsey@lindco.com.au",
+        "to": "E.Mayer@lindco.com.au",
+        "subject": "Employee training session",
+        "sent": "June 4, 11:21 A.M.",
+        "body": [
+          "Dear Ms. Mayer,",
+          "I received a memo telling me to attend a customer service training session next Saturday.",
+          "That is outside my normal working hours.",
+          "As you are my manager, could you please tell me more about this training and why I'm being asked to take it?",
+          "Thanks,",
+          "Sheila Ramsey"
+        ],
+        "translationVi": [
+          "Gửi Ms. Mayer,",
+          "Tôi nhận được thông báo yêu cầu tham gia buổi đào tạo chăm sóc khách hàng vào thứ Bảy tới.",
+          "Thời gian đó nằm ngoài giờ làm việc bình thường của tôi.",
+          "Vì cô là quản lý của tôi, cô có thể cho tôi biết thêm về buổi đào tạo và lý do tôi được yêu cầu tham gia không?",
+          "Cảm ơn,",
+          "Sheila Ramsey"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are Sheila Ramsey's manager. In your e-mail, give TWO pieces of information and ONE reason.",
+      "roleVi": "Bạn là Eric Mayer, quản lý của Sheila Ramsey.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Give information about the training topic.",
+          "example": "The Saturday session is about our new products."
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Give information about what the training will teach.",
+          "example": "It will teach you how to answer customer questions."
+        },
+        {
+          "type": "reason",
+          "label": "Reason",
+          "requirement": "Explain why Sheila needs the training.",
+          "example": "You need the training because you will soon work with customers who buy the new products."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "training session",
+          "meaningVi": "buổi đào tạo",
+          "category": "information",
+          "example": "The training session is on Saturday."
+        },
+        {
+          "phrase": "outside normal working hours",
+          "meaningVi": "ngoài giờ làm việc bình thường",
+          "category": "general",
+          "example": "The training is outside normal working hours."
+        },
+        {
+          "phrase": "answer customer questions",
+          "meaningVi": "trả lời câu hỏi của khách hàng",
+          "category": "information",
+          "example": "The session will teach you to answer customer questions."
+        },
+        {
+          "phrase": "new products",
+          "meaningVi": "sản phẩm mới",
+          "category": "reason",
+          "example": "You need to learn about the new products."
+        }
+      ],
+      "patterns": [
+        "The training session is about ...",
+        "It will teach you how to ...",
+        "You need this training because ...",
+        "Please let me know if ..."
+      ],
+      "sampleAnswer": [
+        "Dear Sheila,",
+        "The Saturday training session is about our new products.",
+        "It will teach you how to answer customer questions about them.",
+        "You need this training because you will soon work with customers who buy the new products.",
+        "Please let me know if you cannot attend.",
+        "Best,",
+        "Eric"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "The Saturday training session is about our new _____.",
+          "answer": "products",
+          "meaningVi": "Buổi đào tạo thứ Bảy nói về sản phẩm mới của chúng ta."
+        },
+        {
+          "sentence": "It will teach you how to answer customer _____.",
+          "answer": "questions",
+          "meaningVi": "Buổi này sẽ dạy bạn cách trả lời câu hỏi của khách hàng."
+        },
+        {
+          "sentence": "You need this training because you will soon work with _____.",
+          "answer": "customers",
+          "meaningVi": "Bạn cần buổi đào tạo này vì sắp làm việc với khách hàng."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Sheila,",
+        "opening": "The Saturday training session is about our new products.",
+        "bodySlots": [
+          "The training session is about ...",
+          "It will teach you how to ...",
+          "You need this training because ..."
+        ],
+        "closing": "Eric"
+      }
+    },
+    {
+      "id": "w67-practice-jason-vornas-rental",
+      "title": "Vacation rental inquiry",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Jason Vornas, Best Vacation Rentals",
+        "to": "Pearl Seine",
+        "subject": "Vacation rental inquiry",
+        "sent": "March 4, 10:01 A.M.",
+        "body": [
+          "Thank you for expressing interest in our vacation rental houses.",
+          "If you provide details about what you're looking for, we can suggest rental houses that would fit your needs.",
+          "We're happy to answer any questions."
+        ],
+        "translationVi": [
+          "Cảm ơn bạn đã quan tâm đến nhà cho thuê kỳ nghỉ của chúng tôi.",
+          "Nếu bạn cung cấp chi tiết về điều mình đang tìm, chúng tôi có thể gợi ý các căn nhà phù hợp với nhu cầu của bạn.",
+          "Chúng tôi sẵn lòng trả lời mọi câu hỏi."
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are looking for a vacation rental house. In your e-mail, give TWO pieces of information and ask ONE question.",
+      "roleVi": "Bạn là Pearl Seine, đang tìm nhà thuê cho kỳ nghỉ.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Give information about the size of the rental house.",
+          "example": "I am looking for a rental house with four bedrooms."
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Give information about the location you prefer.",
+          "example": "I would prefer something near the beach but not too expensive."
+        },
+        {
+          "type": "question",
+          "label": "Question",
+          "requirement": "Ask one question about available rentals.",
+          "example": "Do you have any rentals that are available in July?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "rental house",
+          "meaningVi": "nhà cho thuê",
+          "category": "information",
+          "example": "I am looking for a rental house."
+        },
+        {
+          "phrase": "fit one's needs",
+          "meaningVi": "phù hợp với nhu cầu của ai",
+          "category": "general",
+          "example": "The house fits our needs."
+        },
+        {
+          "phrase": "near the beach",
+          "meaningVi": "gần bãi biển",
+          "category": "information",
+          "example": "We prefer a house near the beach."
+        },
+        {
+          "phrase": "be available in July",
+          "meaningVi": "còn trống vào tháng Bảy",
+          "category": "question",
+          "example": "Is the rental available in July?"
+        }
+      ],
+      "patterns": [
+        "I am looking for ...",
+        "I would prefer something ...",
+        "Do you have any rentals that ...?",
+        "I would like to ..."
+      ],
+      "sampleAnswer": [
+        "Hi Jason,",
+        "I am looking for a rental house with four bedrooms.",
+        "I would prefer something near the beach but not too expensive.",
+        "Do you have any rentals that are available in July?",
+        "I would like to see photos if possible.",
+        "Thanks,",
+        "Pearl"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "I am looking for a rental house with four _____.",
+          "answer": "bedrooms",
+          "meaningVi": "Tôi đang tìm một căn nhà thuê có bốn phòng ngủ."
+        },
+        {
+          "sentence": "I would prefer something near the _____.",
+          "answer": "beach",
+          "meaningVi": "Tôi muốn nơi nào đó gần bãi biển."
+        },
+        {
+          "sentence": "Do you have any rentals that are _____ in July?",
+          "answer": "available",
+          "meaningVi": "Anh có căn nào còn trống vào tháng Bảy không?"
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Hi Jason,",
+        "opening": "I am looking for a rental house with four bedrooms.",
+        "bodySlots": [
+          "I am looking for ...",
+          "I would prefer something ...",
+          "Do you have any rentals that ...? ..."
+        ],
+        "closing": "Pearl"
+      }
+    },
+    {
+      "id": "w67-practice-piero-art-lessons",
+      "title": "Art lessons",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Piero Caggia",
+        "to": "artlessons@ikedasartstudio.com",
+        "subject": "Art lessons",
+        "sent": "August 17, 10:30 A.M.",
+        "body": [
+          "Hello,",
+          "I saw your advertisement about art lessons on the Ikeda's Art Studio Web site.",
+          "I am interested in lessons for my son.",
+          "Could you tell me about your qualifications and more about the lessons you provide?",
+          "Thanks,",
+          "Piero Caggia"
+        ],
+        "translationVi": [
+          "Xin chào,",
+          "Tôi thấy quảng cáo về lớp học mỹ thuật trên trang web của Ikeda's Art Studio.",
+          "Tôi quan tâm đến lớp học cho con trai mình.",
+          "Bạn có thể cho tôi biết về bằng cấp và các lớp học bạn cung cấp không?",
+          "Cảm ơn,",
+          "Piero Caggia"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are the art instructor. In your e-mail, give TWO pieces of information and ONE instruction.",
+      "roleVi": "Bạn là Yoo-Jin Kim, giáo viên mỹ thuật trả lời phụ huynh.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Give information about the lessons you offer.",
+          "example": "I offer beginner art classes for different age groups."
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Give information about your qualifications.",
+          "example": "I have a degree in art education and ten years of experience teaching children."
+        },
+        {
+          "type": "instruction",
+          "label": "Instruction",
+          "requirement": "Tell Piero what to do next.",
+          "example": "Please bring your son to try one class for free."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "art instructor",
+          "meaningVi": "giáo viên mỹ thuật",
+          "category": "general",
+          "example": "The art instructor teaches children."
+        },
+        {
+          "phrase": "different age groups",
+          "meaningVi": "nhiều nhóm tuổi khác nhau",
+          "category": "information",
+          "example": "We offer classes for different age groups."
+        },
+        {
+          "phrase": "art education",
+          "meaningVi": "giáo dục mỹ thuật",
+          "category": "information",
+          "example": "She has a degree in art education."
+        },
+        {
+          "phrase": "try one out for free",
+          "meaningVi": "học thử miễn phí",
+          "category": "instruction",
+          "example": "Your son can try one class for free."
+        }
+      ],
+      "patterns": [
+        "I offer ...",
+        "I have ...",
+        "Please bring your son to ...",
+        "Let me know if ..."
+      ],
+      "sampleAnswer": [
+        "Hello Piero,",
+        "Thank you for contacting me.",
+        "I offer beginner art classes for different age groups and skill levels.",
+        "I have a degree in art education and ten years of experience teaching children.",
+        "Please bring your son to try one class for free next week.",
+        "Sincerely,",
+        "Yoo-Jin Kim"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "I offer beginner art classes for different age groups and skill _____.",
+          "answer": "levels",
+          "meaningVi": "Tôi có lớp mỹ thuật cơ bản cho nhiều nhóm tuổi và trình độ khác nhau."
+        },
+        {
+          "sentence": "I have a degree in art _____ and ten years of experience.",
+          "answer": "education",
+          "meaningVi": "Tôi có bằng về giáo dục mỹ thuật và mười năm kinh nghiệm."
+        },
+        {
+          "sentence": "Please bring your son to try one class for _____.",
+          "answer": "free",
+          "meaningVi": "Vui lòng đưa con trai ông đến học thử một lớp miễn phí."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Hello Piero,",
+        "opening": "Thank you for contacting me.",
+        "bodySlots": [
+          "I offer ...",
+          "I have ...",
+          "Please bring your son to ..."
+        ],
+        "closing": "Yoo-Jin Kim"
+      }
+    },
+    {
+      "id": "w67-practice-hopkins-rewards-program",
+      "title": "Customer rewards program",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Hopkins Bookstore",
+        "to": "Customer Mailing List",
+        "subject": "Customer rewards program",
+        "sent": "November 3, 4:32 P.M.",
+        "body": [
+          "Dear Customer,",
+          "Hopkins Bookstore is launching a Customer Rewards Program.",
+          "Shoppers will earn rewards points on every purchase, and they will be able to use these points to receive free merchandise.",
+          "Please let us know if you have any questions about this program.",
+          "Hopkins Bookstore"
+        ],
+        "translationVi": [
+          "Gửi quý khách,",
+          "Hopkins Bookstore sắp ra mắt chương trình tích điểm cho khách hàng.",
+          "Người mua sẽ nhận điểm thưởng cho mỗi lần mua và có thể dùng điểm để nhận hàng miễn phí.",
+          "Vui lòng cho chúng tôi biết nếu quý khách có câu hỏi về chương trình.",
+          "Hopkins Bookstore"
+        ]
+      },
+      "directions": "Respond to the e-mail. In your e-mail, give ONE piece of information and ask TWO questions.",
+      "roleVi": "Bạn là khách hàng của Hopkins Bookstore quan tâm đến chương trình tích điểm.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information",
+          "requirement": "Give one piece of information about your shopping habits.",
+          "example": "I buy books at your store almost every month."
+        },
+        {
+          "type": "question",
+          "label": "Question 1",
+          "requirement": "Ask how to join the program.",
+          "example": "How can I sign up for the rewards program?"
+        },
+        {
+          "type": "question",
+          "label": "Question 2",
+          "requirement": "Ask how points can be used.",
+          "example": "How many points do I need to receive free merchandise?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "rewards program",
+          "meaningVi": "chương trình tích điểm",
+          "category": "general",
+          "example": "The store is launching a rewards program."
+        },
+        {
+          "phrase": "sign up for",
+          "meaningVi": "đăng ký tham gia",
+          "category": "question",
+          "example": "How can I sign up for the program?"
+        },
+        {
+          "phrase": "earn points",
+          "meaningVi": "tích điểm",
+          "category": "information",
+          "example": "Customers can earn points on purchases."
+        },
+        {
+          "phrase": "free merchandise",
+          "meaningVi": "hàng miễn phí",
+          "category": "question",
+          "example": "Points can be used for free merchandise."
+        }
+      ],
+      "patterns": [
+        "I buy ...",
+        "How can I sign up for ...?",
+        "How many points do I need to ...?",
+        "Thank you for the information."
+      ],
+      "sampleAnswer": [
+        "Dear Hopkins Bookstore,",
+        "I buy books at your store almost every month.",
+        "How can I sign up for the rewards program?",
+        "How many points do I need to receive free merchandise?",
+        "Thank you for the information."
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "I buy books at your store almost every _____.",
+          "answer": "month",
+          "meaningVi": "Tôi mua sách ở cửa hàng gần như mỗi tháng."
+        },
+        {
+          "sentence": "How can I sign up for the rewards _____?",
+          "answer": "program",
+          "meaningVi": "Tôi có thể đăng ký chương trình tích điểm như thế nào?"
+        },
+        {
+          "sentence": "How many points do I need to receive free _____?",
+          "answer": "merchandise",
+          "meaningVi": "Tôi cần bao nhiêu điểm để nhận hàng miễn phí?"
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Hopkins Bookstore,",
+        "opening": "I buy books at your store almost every month.",
+        "bodySlots": [
+          "I buy ...",
+          "How can I sign up for ...? ...",
+          "How many points do I need to ...? ..."
+        ],
+        "closing": "Thank you for the information."
+      }
+    },
+    {
+      "id": "w67-practice-lucas-customer-complaints",
+      "title": "Common customer complaints",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Lucas Brent, Manager",
+        "to": "Customer Service Department",
+        "subject": "Common customer complaints",
+        "sent": "October 6, 9:00 A.M.",
+        "body": [
+          "Hi everybody,",
+          "I'm planning to train some new customer service employees.",
+          "I want them to get a sense of the issues they're most likely to hear about.",
+          "What is the most common customer complaint you've heard, and how do you typically respond?",
+          "Thanks,",
+          "Lucas",
+          "Customer Service Department Manager"
+        ],
+        "translationVi": [
+          "Chào mọi người,",
+          "Tôi đang lên kế hoạch đào tạo một số nhân viên chăm sóc khách hàng mới.",
+          "Tôi muốn họ hiểu những vấn đề họ có khả năng nghe nhiều nhất.",
+          "Phàn nàn phổ biến nhất mà các bạn từng nghe là gì, và các bạn thường phản hồi thế nào?",
+          "Cảm ơn,",
+          "Lucas",
+          "Quản lý bộ phận chăm sóc khách hàng"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are a customer service employee. In your e-mail, describe ONE complaint and give TWO pieces of information.",
+      "roleVi": "Bạn là nhân viên chăm sóc khách hàng phản hồi Lucas.",
+      "tasks": [
+        {
+          "type": "complaint",
+          "label": "Complaint",
+          "requirement": "Describe one common customer complaint.",
+          "example": "The most common complaint is that deliveries arrive late."
+        },
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Give information about your normal response.",
+          "example": "I first apologize and check the tracking information."
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Give information about a solution you offer.",
+          "example": "If the package is delayed, I offer a discount on the next order."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "common complaint",
+          "meaningVi": "phàn nàn phổ biến",
+          "category": "complaint",
+          "example": "Late delivery is a common complaint."
+        },
+        {
+          "phrase": "tracking information",
+          "meaningVi": "thông tin theo dõi đơn hàng",
+          "category": "information",
+          "example": "I check the tracking information."
+        },
+        {
+          "phrase": "be delayed",
+          "meaningVi": "bị chậm",
+          "category": "complaint",
+          "example": "The package is delayed."
+        },
+        {
+          "phrase": "offer a discount",
+          "meaningVi": "đưa ra giảm giá",
+          "category": "information",
+          "example": "We offer a discount on the next order."
+        }
+      ],
+      "patterns": [
+        "The most common complaint is that ...",
+        "I usually ...",
+        "If ..., I ...",
+        "This response usually ..."
+      ],
+      "sampleAnswer": [
+        "Hi Lucas,",
+        "The most common complaint I hear is that deliveries arrive late.",
+        "I usually apologize first and check the tracking information for the customer.",
+        "If the package is delayed, I offer a discount on the next order.",
+        "This response usually helps customers feel that we are taking care of the problem.",
+        "Best,",
+        "Customer Service Team"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "The most common complaint is that deliveries arrive _____.",
+          "answer": "late",
+          "meaningVi": "Phàn nàn phổ biến nhất là hàng giao muộn."
+        },
+        {
+          "sentence": "I check the tracking _____ for the customer.",
+          "answer": "information",
+          "meaningVi": "Tôi kiểm tra thông tin theo dõi đơn hàng cho khách."
+        },
+        {
+          "sentence": "I offer a discount on the next _____.",
+          "answer": "order",
+          "meaningVi": "Tôi đưa ra giảm giá cho đơn hàng tiếp theo."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Hi Lucas,",
+        "opening": "The most common complaint I hear is that deliveries arrive late.",
+        "bodySlots": [
+          "The most common complaint is that ...",
+          "I usually ...",
+          "If ..., I ..."
+        ],
+        "closing": "Customer Service Team"
+      }
+    },
+    {
+      "id": "w67-practice-modi-work-schedule",
+      "title": "Work schedule",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "G. Modi",
+        "to": "All employees",
+        "subject": "Work schedule",
+        "sent": "August 3, 2:16 P.M.",
+        "body": [
+          "I am creating a work schedule for next month.",
+          "In order to do this, I need information about your workload.",
+          "Please tell me about the projects you are currently working on.",
+          "Thanks,",
+          "Girisha Modi",
+          "Manager"
+        ],
+        "translationVi": [
+          "Tôi đang lập lịch làm việc cho tháng tới.",
+          "Để làm việc này, tôi cần thông tin về khối lượng công việc của các bạn.",
+          "Vui lòng cho tôi biết các dự án bạn hiện đang thực hiện.",
+          "Cảm ơn,",
+          "Girisha Modi",
+          "Quản lý"
+        ]
+      },
+      "directions": "Respond to the e-mail. In your e-mail, give THREE pieces of information.",
+      "roleVi": "Bạn là nhân viên gửi thông tin khối lượng công việc cho G. Modi.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Give information about your main project.",
+          "example": "I am currently working on the annual sales report."
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Give information about the deadline.",
+          "example": "The report is due on August 20."
+        },
+        {
+          "type": "information",
+          "label": "Information 3",
+          "requirement": "Give information about your availability.",
+          "example": "I will be available to help with other tasks after August 21."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "workload",
+          "meaningVi": "khối lượng công việc",
+          "category": "information",
+          "example": "The manager needs information about our workload."
+        },
+        {
+          "phrase": "annual sales report",
+          "meaningVi": "báo cáo doanh số hằng năm",
+          "category": "information",
+          "example": "I am working on the annual sales report."
+        },
+        {
+          "phrase": "be due on",
+          "meaningVi": "đến hạn vào",
+          "category": "information",
+          "example": "The report is due on August 20."
+        },
+        {
+          "phrase": "be available to help",
+          "meaningVi": "có thời gian hỗ trợ",
+          "category": "information",
+          "example": "I am available to help next week."
+        }
+      ],
+      "patterns": [
+        "I am currently working on ...",
+        "It is due on ...",
+        "I will be available to ...",
+        "Please let me know if ..."
+      ],
+      "sampleAnswer": [
+        "Dear Ms. Modi,",
+        "I am currently working on the annual sales report.",
+        "The report is due on August 20, so I will be busy until then.",
+        "I will be available to help with other tasks after August 21.",
+        "Please let me know if you need more information.",
+        "Best,",
+        "Alex"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "I am currently working on the annual sales _____.",
+          "answer": "report",
+          "meaningVi": "Tôi hiện đang làm báo cáo doanh số hằng năm."
+        },
+        {
+          "sentence": "The report is due on August _____.",
+          "answer": "20",
+          "meaningVi": "Báo cáo đến hạn vào ngày 20 tháng 8."
+        },
+        {
+          "sentence": "I will be available to help after August _____.",
+          "answer": "21",
+          "meaningVi": "Tôi sẽ có thời gian hỗ trợ sau ngày 21 tháng 8."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Ms. Modi,",
+        "opening": "I am currently working on the annual sales report.",
+        "bodySlots": [
+          "I am currently working on ...",
+          "It is due on ...",
+          "I will be available to ..."
+        ],
+        "closing": "Alex"
+      }
+    },
+    {
+      "id": "w67-practice-louisa-restaurant-business",
+      "title": "Ways to increase business",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Louisa Johnson, Restaurant Manager",
+        "to": "All Restaurant Employees",
+        "subject": "Ways to increase business",
+        "sent": "October 8, 9:20 A.M.",
+        "body": [
+          "Dear restaurant employees,",
+          "As you know, we are trying to increase business here at the restaurant.",
+          "Please send me ideas for ways we can attract new customers.",
+          "I'd appreciate it if you could submit your suggestions by next week.",
+          "Louisa Johnson",
+          "Restaurant Manager"
+        ],
+        "translationVi": [
+          "Gửi nhân viên nhà hàng,",
+          "Như các bạn biết, chúng ta đang cố gắng tăng doanh thu tại nhà hàng.",
+          "Vui lòng gửi cho tôi ý tưởng về cách thu hút khách hàng mới.",
+          "Tôi rất cảm kích nếu các bạn gửi đề xuất trước tuần tới.",
+          "Louisa Johnson",
+          "Quản lý nhà hàng"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you work at a restaurant. In your e-mail, make THREE suggestions.",
+      "roleVi": "Bạn là nhân viên nhà hàng gửi đề xuất cho Louisa Johnson.",
+      "tasks": [
+        {
+          "type": "suggestion",
+          "label": "Suggestion 1",
+          "requirement": "Make one suggestion to attract customers.",
+          "example": "We should offer a lunch discount on weekdays."
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion 2",
+          "requirement": "Make a second suggestion to promote the restaurant.",
+          "example": "We could advertise our special dishes on social media."
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion 3",
+          "requirement": "Make a third suggestion to improve repeat visits.",
+          "example": "It is best to create a customer loyalty card."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "increase business",
+          "meaningVi": "tăng doanh thu",
+          "category": "general",
+          "example": "The restaurant wants to increase business."
+        },
+        {
+          "phrase": "lunch discount",
+          "meaningVi": "giảm giá bữa trưa",
+          "category": "suggestion",
+          "example": "We should offer a lunch discount."
+        },
+        {
+          "phrase": "special dishes",
+          "meaningVi": "món đặc biệt",
+          "category": "suggestion",
+          "example": "Advertise special dishes online."
+        },
+        {
+          "phrase": "loyalty card",
+          "meaningVi": "thẻ khách hàng thân thiết",
+          "category": "suggestion",
+          "example": "Create a customer loyalty card."
+        }
+      ],
+      "patterns": [
+        "We should ...",
+        "We could also ...",
+        "It is best to ...",
+        "I believe these ideas will ..."
+      ],
+      "sampleAnswer": [
+        "Dear Ms. Johnson,",
+        "I have three suggestions for attracting new customers.",
+        "First, we should offer a lunch discount on weekdays.",
+        "We could also advertise our special dishes on social media.",
+        "It is best to create a customer loyalty card so customers will come back more often.",
+        "I believe these ideas will help increase business.",
+        "Best regards,",
+        "Restaurant Staff"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "We should offer a lunch _____ on weekdays.",
+          "answer": "discount",
+          "meaningVi": "Chúng ta nên giảm giá bữa trưa vào ngày trong tuần."
+        },
+        {
+          "sentence": "We could advertise our special dishes on social _____.",
+          "answer": "media",
+          "meaningVi": "Chúng ta có thể quảng cáo món đặc biệt trên mạng xã hội."
+        },
+        {
+          "sentence": "It is best to create a customer loyalty _____.",
+          "answer": "card",
+          "meaningVi": "Tốt nhất là tạo thẻ khách hàng thân thiết."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Ms. Johnson,",
+        "opening": "I have three suggestions for attracting new customers.",
+        "bodySlots": [
+          "We should ...",
+          "We could also ...",
+          "It is best to ..."
+        ],
+        "closing": "Restaurant Staff"
+      }
+    },
+    {
+      "id": "w67-practice-james-moving-offices",
+      "title": "Moving offices",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "James Parker, Office Manager",
+        "to": "All employees",
+        "subject": "Moving offices",
+        "sent": "August 16, 2:35 P.M.",
+        "body": [
+          "We are going to be moving our current office to another section of this building from Monday to Wednesday next week.",
+          "I would like all staff members to be involved in this process.",
+          "Please tell me on which of these days you can participate.",
+          "Thank you,",
+          "James"
+        ],
+        "translationVi": [
+          "Chúng ta sẽ chuyển văn phòng hiện tại sang khu khác trong tòa nhà này từ thứ Hai đến thứ Tư tuần tới.",
+          "Tôi muốn tất cả nhân viên tham gia vào quá trình này.",
+          "Vui lòng cho tôi biết bạn có thể tham gia vào ngày nào.",
+          "Cảm ơn,",
+          "James"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are an employee of James Parker. In your e-mail, suggest ONE time that you would like to participate and ask TWO questions about the move.",
+      "roleVi": "Bạn là nhân viên của James Parker tham gia chuyển văn phòng.",
+      "tasks": [
+        {
+          "type": "suggestion",
+          "label": "Time",
+          "requirement": "Suggest one time you can participate.",
+          "example": "I can participate on Tuesday morning."
+        },
+        {
+          "type": "question",
+          "label": "Question 1",
+          "requirement": "Ask what you should bring or prepare.",
+          "example": "Should I bring any packing supplies?"
+        },
+        {
+          "type": "question",
+          "label": "Question 2",
+          "requirement": "Ask where to meet.",
+          "example": "Where should we meet before the move starts?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "move offices",
+          "meaningVi": "chuyển văn phòng",
+          "category": "general",
+          "example": "We will move offices next week."
+        },
+        {
+          "phrase": "participate on",
+          "meaningVi": "tham gia vào",
+          "category": "suggestion",
+          "example": "I can participate on Tuesday."
+        },
+        {
+          "phrase": "packing supplies",
+          "meaningVi": "vật dụng đóng gói",
+          "category": "question",
+          "example": "Should I bring packing supplies?"
+        },
+        {
+          "phrase": "before the move starts",
+          "meaningVi": "trước khi việc chuyển văn phòng bắt đầu",
+          "category": "question",
+          "example": "Where should we meet before the move starts?"
+        }
+      ],
+      "patterns": [
+        "I can participate on ...",
+        "Should I bring ...?",
+        "Where should we ...?",
+        "Thank you for organizing this."
+      ],
+      "sampleAnswer": [
+        "Dear Mr. Parker,",
+        "I can participate in the office move on Tuesday morning.",
+        "Should I bring any packing supplies?",
+        "Also, where should we meet before the move starts?",
+        "Thank you for organizing this.",
+        "Best,",
+        "Employee"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "I can participate in the office move on Tuesday _____.",
+          "answer": "morning",
+          "meaningVi": "Tôi có thể tham gia chuyển văn phòng vào sáng thứ Ba."
+        },
+        {
+          "sentence": "Should I bring any packing _____?",
+          "answer": "supplies",
+          "meaningVi": "Tôi có nên mang vật dụng đóng gói không?"
+        },
+        {
+          "sentence": "Where should we meet before the move _____?",
+          "answer": "starts",
+          "meaningVi": "Chúng ta nên gặp ở đâu trước khi việc chuyển văn phòng bắt đầu?"
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Mr. Parker,",
+        "opening": "I can participate in the office move on Tuesday morning.",
+        "bodySlots": [
+          "I can participate on ...",
+          "Should I bring ...? ...",
+          "Where should we ...? ..."
+        ],
+        "closing": "Employee"
+      }
+    },
+    {
+      "id": "w67-practice-bill-summer-concert",
+      "title": "Summer concert recruitment",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Bill Britten, Teachers' Association Chairman",
+        "to": "TA Members",
+        "subject": "Summer Concert Participant Recruitment",
+        "sent": "May 28, 3:45 P.M.",
+        "body": [
+          "We're going to hold our annual summer concert festival from July 7 to 11.",
+          "If you have any students interested in playing in our orchestra, please give us their names and the instruments they play so they can join in this wonderful event.",
+          "Please reply by e-mail no later than June 6.",
+          "Thanks in advance for your assistance"
+        ],
+        "translationVi": [
+          "Chúng ta sẽ tổ chức lễ hội hòa nhạc mùa hè hằng năm từ ngày 7 đến 11 tháng 7.",
+          "Nếu bạn có học sinh muốn chơi trong dàn nhạc, vui lòng gửi tên và nhạc cụ các em chơi để các em có thể tham gia sự kiện tuyệt vời này.",
+          "Vui lòng trả lời qua email không muộn hơn ngày 6 tháng 6.",
+          "Cảm ơn trước vì sự hỗ trợ của bạn"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are a member of the Teachers' Association. In your e-mail, ask TWO questions and give ONE piece of information about the event.",
+      "roleVi": "Bạn là thành viên Teachers' Association có học sinh muốn tham gia.",
+      "tasks": [
+        {
+          "type": "question",
+          "label": "Question 1",
+          "requirement": "Ask one question about rehearsals.",
+          "example": "When will rehearsals begin?"
+        },
+        {
+          "type": "question",
+          "label": "Question 2",
+          "requirement": "Ask one question about music materials.",
+          "example": "Will the association provide the sheet music?"
+        },
+        {
+          "type": "information",
+          "label": "Information",
+          "requirement": "Give information about a student participant.",
+          "example": "One of my students, Mina Lee, plays the violin and would like to participate."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "annual summer concert",
+          "meaningVi": "buổi hòa nhạc mùa hè hằng năm",
+          "category": "general",
+          "example": "The annual summer concert is in July."
+        },
+        {
+          "phrase": "rehearsal",
+          "meaningVi": "buổi tập",
+          "category": "question",
+          "example": "When will rehearsals begin?"
+        },
+        {
+          "phrase": "sheet music",
+          "meaningVi": "bản nhạc",
+          "category": "question",
+          "example": "Will you provide sheet music?"
+        },
+        {
+          "phrase": "participate in",
+          "meaningVi": "tham gia vào",
+          "category": "information",
+          "example": "Mina would like to participate in the concert."
+        }
+      ],
+      "patterns": [
+        "When will ... begin?",
+        "Will the association provide ...?",
+        "One of my students ...",
+        "Thank you for arranging this event."
+      ],
+      "sampleAnswer": [
+        "Dear Mr. Britten,",
+        "When will rehearsals begin for the summer concert?",
+        "Will the association provide the sheet music?",
+        "One of my students, Mina Lee, plays the violin and would like to participate.",
+        "Thank you for arranging this event.",
+        "Best regards,",
+        "TA Member"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "When will rehearsals _____ for the summer concert?",
+          "answer": "begin",
+          "meaningVi": "Khi nào các buổi tập cho hòa nhạc mùa hè bắt đầu?"
+        },
+        {
+          "sentence": "Will the association provide the sheet _____?",
+          "answer": "music",
+          "meaningVi": "Hiệp hội có cung cấp bản nhạc không?"
+        },
+        {
+          "sentence": "One of my students plays the _____ and would like to participate.",
+          "answer": "violin",
+          "meaningVi": "Một học sinh của tôi chơi violin và muốn tham gia."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Mr. Britten,",
+        "opening": "When will rehearsals begin for the summer concert?",
+        "bodySlots": [
+          "When will ... begin? ...",
+          "Will the association provide ...? ...",
+          "One of my students ..."
+        ],
+        "closing": "TA Member"
+      }
+    },
+    {
+      "id": "w67-practice-tradewinds-residents-meeting",
+      "title": "Residents' meeting",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "Tradewinds Apartments",
+        "to": "All residents",
+        "subject": "Residents' meeting",
+        "sent": "September 3, 12:28 P.M.",
+        "body": [
+          "Dear Tradewinds residents,",
+          "This message is to remind you that we will be having our monthly meeting next week.",
+          "To make the meeting more beneficial for all, please e-mail us with some suggestions for topics to discuss and let us know if you are going to attend the meeting or not.",
+          "Thank you."
+        ],
+        "translationVi": [
+          "Gửi cư dân Tradewinds,",
+          "Tin nhắn này nhằm nhắc rằng chúng ta sẽ có buổi họp hằng tháng vào tuần tới.",
+          "Để buổi họp hữu ích hơn cho mọi người, vui lòng gửi email với đề xuất về chủ đề thảo luận và cho chúng tôi biết bạn có tham dự hay không.",
+          "Cảm ơn."
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are a resident at Tradewinds Apartments. In your e-mail, suggest TWO topics and ask ONE question about the meeting.",
+      "roleVi": "Bạn là cư dân Tradewinds Apartments phản hồi về buổi họp cư dân.",
+      "tasks": [
+        {
+          "type": "suggestion",
+          "label": "Topic 1",
+          "requirement": "Suggest one topic for the meeting.",
+          "example": "We should discuss improving building security."
+        },
+        {
+          "type": "suggestion",
+          "label": "Topic 2",
+          "requirement": "Suggest a second topic for the meeting.",
+          "example": "We could also discuss adding more recycling bins."
+        },
+        {
+          "type": "question",
+          "label": "Question",
+          "requirement": "Ask one question about the meeting.",
+          "example": "What time will the meeting start?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "monthly meeting",
+          "meaningVi": "buổi họp hằng tháng",
+          "category": "general",
+          "example": "The monthly meeting is next week."
+        },
+        {
+          "phrase": "building security",
+          "meaningVi": "an ninh tòa nhà",
+          "category": "suggestion",
+          "example": "We should discuss building security."
+        },
+        {
+          "phrase": "recycling bins",
+          "meaningVi": "thùng tái chế",
+          "category": "suggestion",
+          "example": "Add more recycling bins."
+        },
+        {
+          "phrase": "What time will ... start?",
+          "meaningVi": "Mấy giờ ... bắt đầu?",
+          "category": "question",
+          "example": "What time will the meeting start?"
+        }
+      ],
+      "patterns": [
+        "We should discuss ...",
+        "We could also discuss ...",
+        "What time will ...?",
+        "I plan to attend ..."
+      ],
+      "sampleAnswer": [
+        "Dear Tradewinds Apartments,",
+        "I plan to attend the residents' meeting next week.",
+        "We should discuss improving building security.",
+        "We could also discuss adding more recycling bins near the entrance.",
+        "What time will the meeting start?",
+        "Thank you.",
+        "Resident"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "We should discuss improving building _____.",
+          "answer": "security",
+          "meaningVi": "Chúng ta nên thảo luận về việc cải thiện an ninh tòa nhà."
+        },
+        {
+          "sentence": "We could add more recycling bins near the _____.",
+          "answer": "entrance",
+          "meaningVi": "Chúng ta có thể thêm thùng tái chế gần lối vào."
+        },
+        {
+          "sentence": "What time will the meeting _____?",
+          "answer": "start",
+          "meaningVi": "Buổi họp sẽ bắt đầu lúc mấy giờ?"
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Tradewinds Apartments,",
+        "opening": "I plan to attend the residents' meeting next week.",
+        "bodySlots": [
+          "We should discuss ...",
+          "We could also discuss ...",
+          "What time will ...? ..."
+        ],
+        "closing": "Resident"
+      }
+    },
+    {
+      "id": "w67-practice-chavez-conference-center",
+      "title": "Directions to the conference center",
+      "topic": "Practice Test",
+      "level": "exam",
+      "email": {
+        "from": "J. Chavez",
+        "to": "Job fair event organizer",
+        "subject": "Directions to the conference center",
+        "sent": "January 5, 9:56 A.M.",
+        "body": [
+          "I am registered to attend the job fair at the conference center this weekend.",
+          "Could you please let me know the best way to get to the center from the Mira Beau Hotel where I am staying?",
+          "I do not have a car.",
+          "Thank you,",
+          "J. Chavez"
+        ],
+        "translationVi": [
+          "Tôi đã đăng ký tham dự hội chợ việc làm tại trung tâm hội nghị cuối tuần này.",
+          "Vui lòng cho tôi biết cách tốt nhất để đi từ khách sạn Mira Beau, nơi tôi đang ở, đến trung tâm.",
+          "Tôi không có xe hơi.",
+          "Cảm ơn,",
+          "J. Chavez"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are the job fair event organizer. In your e-mail, ask J. Chavez ONE question about his participation and make TWO suggestions for transportation to the event.",
+      "roleVi": "Bạn là ban tổ chức hội chợ việc làm trả lời J. Chavez.",
+      "tasks": [
+        {
+          "type": "question",
+          "label": "Question",
+          "requirement": "Ask one question about participation.",
+          "example": "What time are you planning to arrive at the job fair?"
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion 1",
+          "requirement": "Make one transportation suggestion.",
+          "example": "You should take bus number 12 from the hotel."
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion 2",
+          "requirement": "Make a second transportation suggestion.",
+          "example": "You could also take a taxi, which takes about ten minutes."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "conference center",
+          "meaningVi": "trung tâm hội nghị",
+          "category": "general",
+          "example": "The job fair is at the conference center."
+        },
+        {
+          "phrase": "be registered to attend",
+          "meaningVi": "đã đăng ký tham dự",
+          "category": "information",
+          "example": "J. Chavez is registered to attend."
+        },
+        {
+          "phrase": "take bus number 12",
+          "meaningVi": "đi xe buýt số 12",
+          "category": "suggestion",
+          "example": "You should take bus number 12."
+        },
+        {
+          "phrase": "take about ten minutes",
+          "meaningVi": "mất khoảng mười phút",
+          "category": "suggestion",
+          "example": "A taxi takes about ten minutes."
+        }
+      ],
+      "patterns": [
+        "What time are you planning to ...?",
+        "You should take ...",
+        "You could also ...",
+        "Please let us know if ..."
+      ],
+      "sampleAnswer": [
+        "Dear Mr. Chavez,",
+        "What time are you planning to arrive at the job fair?",
+        "You should take bus number 12 from the Mira Beau Hotel to the conference center.",
+        "You could also take a taxi, which takes about ten minutes.",
+        "Please let us know if you need more help.",
+        "Sincerely,",
+        "Job Fair Event Organizer"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "What time are you planning to _____ at the job fair?",
+          "answer": "arrive",
+          "meaningVi": "Ông dự định đến hội chợ việc làm lúc mấy giờ?"
+        },
+        {
+          "sentence": "You should take bus number _____ from the hotel.",
+          "answer": "12",
+          "meaningVi": "Ông nên đi xe buýt số 12 từ khách sạn."
+        },
+        {
+          "sentence": "You could also take a taxi, which takes about ten _____.",
+          "answer": "minutes",
+          "meaningVi": "Ông cũng có thể đi taxi, mất khoảng mười phút."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Mr. Chavez,",
+        "opening": "What time are you planning to arrive at the job fair?",
+        "bodySlots": [
+          "What time are you planning to ...? ...",
+          "You should take ...",
+          "You could also ..."
+        ],
+        "closing": "Job Fair Event Organizer"
+      }
+    }
+  ]
+}

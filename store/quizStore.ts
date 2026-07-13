@@ -8,6 +8,7 @@ export interface LessonProgress {
   isFinished: boolean;
   totalQuestions: number;
   restartCount?: number;
+  updatedAt?: number;
 }
 
 export interface ScenarioProgress {
@@ -18,6 +19,7 @@ export interface ScenarioProgress {
   isFinished: boolean;
   score: number;
   restartCount?: number;
+  updatedAt?: number;
 }
 
 export interface WritingProgress {
@@ -40,6 +42,29 @@ export interface WritingProgress {
   vocabAnswers?: Record<number, number>; // questionIndex -> selectedPhraseOptionIndex
   enabledStates?: Record<1 | 2 | 3, boolean>;
   state3RetryIndices?: number[];
+  updatedAt?: number;
+}
+
+const MAX_PERSISTED_LESSON_PROGRESS = 160;
+const MAX_PERSISTED_SCENARIO_PROGRESS = 80;
+const MAX_PERSISTED_WRITING_PROGRESS = 40;
+
+function withUpdatedAt<T extends object>(entry: T): T & { updatedAt: number } {
+  return { ...entry, updatedAt: Date.now() };
+}
+
+function pruneProgressRecord<T extends { isFinished: boolean; updatedAt?: number }>(
+  record: Record<string, T>,
+  limit: number
+) {
+  return Object.fromEntries(
+    Object.entries(record)
+      .sort(([, a], [, b]) => {
+        if (a.isFinished !== b.isFinished) return a.isFinished ? 1 : -1;
+        return (b.updatedAt ?? 0) - (a.updatedAt ?? 0);
+      })
+      .slice(0, limit)
+  ) as Record<string, T>;
 }
 
 interface QuizStore {
@@ -89,11 +114,11 @@ export const useQuizStore = create<QuizStore>()(
           return {
             progress: {
               ...state.progress,
-              [lessonId]: { currentIndex: 0, answers: {}, isFinished: false, score: 0, totalQuestions }
+              [lessonId]: withUpdatedAt({ currentIndex: 0, answers: {}, isFinished: false, score: 0, totalQuestions })
             }
           }
         } else if (lesson.totalQuestions !== totalQuestions) {
-          return { progress: { ...state.progress, [lessonId]: { ...lesson, totalQuestions } } };
+          return { progress: { ...state.progress, [lessonId]: withUpdatedAt({ ...lesson, totalQuestions }) } };
         }
         return state;
       }),
@@ -104,11 +129,11 @@ export const useQuizStore = create<QuizStore>()(
         return {
           progress: {
             ...state.progress,
-            [lessonId]: {
+            [lessonId]: withUpdatedAt({
               ...lesson,
               answers: { ...lesson.answers, [qIndex]: optionIndex },
               score: isCorrect ? lesson.score + 1 : lesson.score
-            }
+            })
           }
         }
       }),
@@ -119,14 +144,14 @@ export const useQuizStore = create<QuizStore>()(
           return {
             progress: {
               ...state.progress,
-              [lessonId]: { ...lesson, currentIndex: lesson.currentIndex + 1 }
+              [lessonId]: withUpdatedAt({ ...lesson, currentIndex: lesson.currentIndex + 1 })
             }
           }
         } else {
           return {
             progress: {
               ...state.progress,
-              [lessonId]: { ...lesson, isFinished: true }
+              [lessonId]: withUpdatedAt({ ...lesson, isFinished: true })
             }
           }
         }
@@ -137,14 +162,14 @@ export const useQuizStore = create<QuizStore>()(
         return {
           progress: {
             ...state.progress,
-            [lessonId]: { ...lesson, currentIndex: lesson.currentIndex - 1 }
+            [lessonId]: withUpdatedAt({ ...lesson, currentIndex: lesson.currentIndex - 1 })
           }
         }
       }),
       restartLesson: (lessonId) => set((state) => ({
         progress: {
           ...state.progress,
-          [lessonId]: { 
+          [lessonId]: withUpdatedAt({ 
             ...(state.progress[lessonId] || {}),
             currentIndex: 0, 
             answers: {}, 
@@ -152,7 +177,7 @@ export const useQuizStore = create<QuizStore>()(
             score: 0, 
             totalQuestions: state.progress[lessonId]?.totalQuestions || 0,
             restartCount: (state.progress[lessonId]?.restartCount || 0) + 1
-          }
+          })
         }
       })),
       updateScenarioState: (testId, updates) => set((state) => {
@@ -167,7 +192,7 @@ export const useQuizStore = create<QuizStore>()(
         return {
           scenarioProgress: {
             ...state.scenarioProgress,
-            [testId]: { ...current, ...updates }
+            [testId]: withUpdatedAt({ ...current, ...updates })
           }
         };
       }),
@@ -186,11 +211,11 @@ export const useQuizStore = create<QuizStore>()(
         return {
           scenarioProgress: {
             ...state.scenarioProgress,
-            [testId]: {
+            [testId]: withUpdatedAt({
               ...current,
               answers: { ...current.answers, [blankKey]: answer },
               score: isCorrect ? current.score + 1 : current.score
-            }
+            })
           }
         };
       }),
@@ -199,7 +224,7 @@ export const useQuizStore = create<QuizStore>()(
         return {
           scenarioProgress: {
             ...state.scenarioProgress,
-            [testId]: {
+            [testId]: withUpdatedAt({
               ...(current || { scenarioIdx: 0, passageIdx: 0, blankIdx: 0, answers: {}, isFinished: false, score: 0 }),
               answers: {},
               scenarioIdx: 0,
@@ -208,7 +233,7 @@ export const useQuizStore = create<QuizStore>()(
               isFinished: false,
               score: 0,
               restartCount: (current?.restartCount || 0) + 1
-            }
+            })
           }
         };
       }),
@@ -220,7 +245,7 @@ export const useQuizStore = create<QuizStore>()(
           return {
             writingProgress: {
               ...state.writingProgress,
-              [sessionId]: {
+              [sessionId]: withUpdatedAt({
                 currentIndex: 0,
                 answers: {},
                 score: 0,
@@ -238,7 +263,7 @@ export const useQuizStore = create<QuizStore>()(
                 vocabAnswers: {},
                 enabledStates: { 1: true, 2: true, 3: true },
                 state3RetryIndices: []
-              }
+              })
             }
           };
         }
@@ -255,7 +280,7 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               answers: { ...session.answers, [qIndex]: optionIndex },
               score: isCorrect ? session.score + 1 : session.score,
@@ -267,7 +292,7 @@ export const useQuizStore = create<QuizStore>()(
                   total: currentSkillAcc.total + 1
                 }
               }
-            }
+            })
           }
         };
       }),
@@ -278,13 +303,13 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               viewedHints: {
                 ...session.viewedHints,
                 [qIndex]: !session.viewedHints[qIndex]
               }
-            }
+            })
           }
         };
       }),
@@ -296,14 +321,14 @@ export const useQuizStore = create<QuizStore>()(
           return {
             writingProgress: {
               ...state.writingProgress,
-              [sessionId]: { ...session, currentIndex: session.currentIndex + 1 }
+              [sessionId]: withUpdatedAt({ ...session, currentIndex: session.currentIndex + 1 })
             }
           };
         } else {
           return {
             writingProgress: {
               ...state.writingProgress,
-              [sessionId]: { ...session, isFinished: true }
+              [sessionId]: withUpdatedAt({ ...session, isFinished: true })
             }
           };
         }
@@ -314,7 +339,7 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: { ...session, currentIndex: session.currentIndex - 1 }
+            [sessionId]: withUpdatedAt({ ...session, currentIndex: session.currentIndex - 1 })
           }
         };
       }),
@@ -323,7 +348,7 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               currentIndex: 0,
               answers: {},
               score: 0,
@@ -341,7 +366,7 @@ export const useQuizStore = create<QuizStore>()(
               vocabAnswers: {},
               enabledStates: { 1: true, 2: true, 3: true },
               state3RetryIndices: []
-            }
+            })
           }
         };
       }),
@@ -351,13 +376,13 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               blockIndex,
               currentState,
               currentIndex: 0,
               state3RetryIndices: currentState === 3 ? session.state3RetryIndices || [] : []
-            }
+            })
           }
         };
       }),
@@ -367,7 +392,7 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               skippedStates: {
                 ...(session.skippedStates || {}),
@@ -380,7 +405,7 @@ export const useQuizStore = create<QuizStore>()(
                     )
                   }
                 : {})
-            }
+            })
           }
         };
       }),
@@ -396,7 +421,7 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               vocabAnswers: { ...vocabAnswers, [qIndex]: optionIndex },
               score: isCorrect ? session.score + 1 : session.score,
@@ -408,7 +433,7 @@ export const useQuizStore = create<QuizStore>()(
                   total: currentSkillAcc.total + 1
                 }
               }
-            }
+            })
           }
         };
       }),
@@ -425,7 +450,7 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               typedAnswers: { ...typedAnswers, [qIndex]: { text, isCorrect, overrideCorrect } },
               score: finalCorrect ? session.score + 1 : session.score,
@@ -437,7 +462,7 @@ export const useQuizStore = create<QuizStore>()(
                   total: currentSkillAcc.total + 1
                 }
               }
-            }
+            })
           }
         };
       }),
@@ -449,14 +474,14 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               unlockedBlockIndex: nextUnlocked,
               blockIndex: nextUnlocked,
               currentState: 1,
               currentIndex: 0,
               state3RetryIndices: []
-            }
+            })
           }
         };
       }),
@@ -481,7 +506,7 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               currentIndex: 0,
               answers: newAnswers,
@@ -489,7 +514,7 @@ export const useQuizStore = create<QuizStore>()(
               typedAnswers: newTypedAnswers,
               skippedStates: newSkippedStates,
               isFinished: false
-            }
+            })
           }
         };
       }),
@@ -499,10 +524,10 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               enabledStates
-            }
+            })
           }
         };
       }),
@@ -521,7 +546,7 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               currentIndex: 0,
               currentState: 3,
@@ -529,7 +554,7 @@ export const useQuizStore = create<QuizStore>()(
               skippedStates: newSkippedStates,
               state3RetryIndices: indicesToClear,
               isFinished: false
-            }
+            })
           }
         };
       }),
@@ -539,16 +564,22 @@ export const useQuizStore = create<QuizStore>()(
         return {
           writingProgress: {
             ...state.writingProgress,
-            [sessionId]: {
+            [sessionId]: withUpdatedAt({
               ...session,
               state3RetryIndices: []
-            }
+            })
           }
         };
       })
     }),
     {
       name: 'toeic-quiz-storage',
+      partialize: (state) => ({
+        progress: pruneProgressRecord(state.progress, MAX_PERSISTED_LESSON_PROGRESS),
+        scenarioProgress: pruneProgressRecord(state.scenarioProgress, MAX_PERSISTED_SCENARIO_PROGRESS),
+        writingProgress: pruneProgressRecord(state.writingProgress, MAX_PERSISTED_WRITING_PROGRESS),
+        isMuted: state.isMuted,
+      }),
     }
   )
 )

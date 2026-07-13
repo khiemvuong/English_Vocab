@@ -6,6 +6,7 @@ import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import dynamic from "next/dynamic";
 import { BookOpen, FileText, LayoutList, CheckCircle, Pencil } from "lucide-react";
 import { WritingLessonCard } from "@/components/home/WritingLessonCard";
+import { Writing67LessonCard } from "@/components/home/Writing67LessonCard";
 import { LessonCard } from "@/components/home/LessonCard";
 import { PracticeCard } from "@/components/home/PracticeCard";
 import { Part6Card } from "@/components/home/Part6Card";
@@ -79,6 +80,50 @@ const TABS = [
   },
 ] as const;
 
+const WRITING_Q15_LESSONS = [
+  { file: "mix", tagLabel: "Writing Mix", mainTitle: "40 câu tổng hợp", totalQuestions: 40, colorTheme: "purple" },
+  { file: "intro", tagLabel: "Writing Intro", mainTitle: "Khởi động", totalQuestions: 11, colorTheme: "blue" },
+  { file: "topic1", tagLabel: "Topic 1", mainTitle: "Workplace", totalQuestions: 22, colorTheme: "amber" },
+  { file: "topic2", tagLabel: "Topic 2", mainTitle: "Home", totalQuestions: 22, colorTheme: "emerald" },
+  { file: "topic3", tagLabel: "Topic 3", mainTitle: "Streets/Park", totalQuestions: 22, colorTheme: "orange" },
+  { file: "topic4", tagLabel: "Topic 4", mainTitle: "Transportation", totalQuestions: 21, colorTheme: "blue" },
+  { file: "topic5", tagLabel: "Topic 5", mainTitle: "Places", totalQuestions: 21, colorTheme: "purple" },
+] as const;
+
+const WRITING67_LESSONS = [
+  {
+    file: "company-events",
+    tagLabel: "Q6-7 Topic 1",
+    mainTitle: "Company / Events",
+    subtitle: "3 email prompts",
+    totalPrompts: 3,
+    colorTheme: "amber",
+  },
+  {
+    file: "customer-service",
+    tagLabel: "Q6-7 Topic 2",
+    mainTitle: "Customer Service",
+    subtitle: "3 email prompts",
+    totalPrompts: 3,
+    colorTheme: "blue",
+  },
+  {
+    file: "products-services",
+    tagLabel: "Q6-7 Topic 3",
+    mainTitle: "Products / Services",
+    subtitle: "3 email prompts",
+    totalPrompts: 3,
+    colorTheme: "orange",
+  },
+  {
+    file: "practice-test",
+    tagLabel: "Q6-7 Exam",
+    mainTitle: "Practice Test",
+    subtitle: "17 email prompts",
+    totalPrompts: 17,
+    colorTheme: "purple",
+  },
+] as const;
 
 interface Part5Test {
   id: string;
@@ -196,7 +241,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
       case "writing":
         return {
           icon: <Pencil className="w-5 h-5" />,
-          description: "40 câu hỏi — TOEIC Writing Q1-5, 6 kỹ năng",
+          description: "TOEIC Writing Q1-5 và Q6-7",
         };
       default:
         return {
@@ -347,7 +392,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
                 : activeTab === "part6"
                 ? `${part6Tests.length} bộ đề Part 6 — Text Completion, giải thích chi tiết`
                 : activeTab === "writing"
-                ? "TOEIC Writing Q1-5"
+                ? "TOEIC Writing Q1-5 và Q6-7"
                 : `${part5Tests.length} bộ Part 5 + ${ets2026Tests.length} đề ETS 2026 — có ôn lỗi sai`}
             </p>
           </div>
@@ -436,14 +481,41 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
             style={{ display: activeTab === "writing" ? "block" : "none" }}
             className="animate-in fade-in duration-200"
           >
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
-              <WritingLessonCard file="mix" tagLabel="Writing Mix" mainTitle="40 câu tổng hợp" totalQuestions={40} colorTheme="purple" />
-              <WritingLessonCard file="intro" tagLabel="Writing Intro" mainTitle="Khởi động" totalQuestions={11} colorTheme="blue" />
-              <WritingLessonCard file="topic1" tagLabel="Topic 1" mainTitle="Workplace" totalQuestions={22} colorTheme="amber" />
-              <WritingLessonCard file="topic2" tagLabel="Topic 2" mainTitle="Home" totalQuestions={22} colorTheme="emerald" />
-              <WritingLessonCard file="topic3" tagLabel="Topic 3" mainTitle="Streets/Park" totalQuestions={22} colorTheme="orange" />
-              <WritingLessonCard file="topic4" tagLabel="Topic 4" mainTitle="Transportation" totalQuestions={21} colorTheme="blue" />
-              <WritingLessonCard file="topic5" tagLabel="Topic 5" mainTitle="Places" totalQuestions={21} colorTheme="purple" />
+            <div className="space-y-10">
+              <PracticeSection
+                eyebrow="Email response"
+                title="TOEIC Writing Q6-7"
+                description="Luyện trả lời email theo luồng từ vựng, dịch nghĩa, task map, mẫu câu và tự viết."
+              >
+                {WRITING67_LESSONS.map((lesson) => (
+                  <Writing67LessonCard
+                    key={lesson.file}
+                    file={lesson.file}
+                    tagLabel={lesson.tagLabel}
+                    mainTitle={lesson.mainTitle}
+                    subtitle={lesson.subtitle}
+                    totalPrompts={lesson.totalPrompts}
+                    colorTheme={lesson.colorTheme}
+                  />
+                ))}
+              </PracticeSection>
+
+              <PracticeSection
+                eyebrow="Picture description"
+                title="TOEIC Writing Q1-5"
+                description="Luyện viết câu mô tả tranh theo từng chủ đề và kỹ năng."
+              >
+                {WRITING_Q15_LESSONS.map((lesson) => (
+                  <WritingLessonCard
+                    key={lesson.file}
+                    file={lesson.file}
+                    tagLabel={lesson.tagLabel}
+                    mainTitle={lesson.mainTitle}
+                    totalQuestions={lesson.totalQuestions}
+                    colorTheme={lesson.colorTheme}
+                  />
+                ))}
+              </PracticeSection>
             </div>
           </div>
 

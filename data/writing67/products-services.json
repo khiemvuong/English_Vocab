@@ -1,0 +1,368 @@
+{
+  "setId": "writing67-products-services",
+  "title": "TOEIC Writing Q6-7: Products / Services",
+  "description": "Email dịch vụ và sản phẩm: tour, in ấn, dịch thuật.",
+  "sourceMaterial": "docs/writing-6-7-respond-to-written-request.md",
+  "prompts": [
+    {
+      "id": "w67-products-sightseeing",
+      "title": "Sightseeing tours",
+      "topic": "Products / Services",
+      "level": "guided",
+      "email": {
+        "from": "M. Lee",
+        "to": "Explore The City Tour Company",
+        "subject": "Sightseeing tours",
+        "sent": "June 14, 9:46 A.M.",
+        "body": [
+          "I will be staying in your city for five days in July.",
+          "I'd like to see some interesting places during that time.",
+          "Could you please give me some information about the sightseeing tours that your company offers?"
+        ],
+        "translationVi": [
+          "Tôi sẽ ở thành phố của quý công ty trong năm ngày vào tháng Bảy.",
+          "Tôi muốn tham quan một số địa điểm thú vị trong thời gian đó.",
+          "Quý công ty có thể cho tôi một số thông tin về các tour tham quan không?"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you work for a tour company. In your e-mail, give TWO pieces of information and ask ONE question.",
+      "roleVi": "Bạn là nhân viên của công ty tour.",
+      "tasks": [
+        {
+          "type": "question",
+          "label": "Question",
+          "requirement": "Ask what type of tour the customer prefers.",
+          "example": "Are you interested in walking tours or bus tours?"
+        },
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Give one piece of information about the tours.",
+          "example": "All of our tours are led by experienced guides."
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Give another piece of information about tour options.",
+          "example": "We have tours that focus on food, history, and architecture."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "provide ~ with a description of ~",
+          "meaningVi": "cung cấp cho ai phần mô tả về điều gì",
+          "category": "information",
+          "example": "Please provide us with a description of the document."
+        },
+        {
+          "phrase": "give ~ a full refund",
+          "meaningVi": "hoàn tiền đầy đủ cho ai",
+          "category": "suggestion",
+          "example": "We can give you a full refund."
+        },
+        {
+          "phrase": "meet one's needs",
+          "meaningVi": "đáp ứng nhu cầu của ai",
+          "category": "information",
+          "example": "The new office can meet our needs."
+        },
+        {
+          "phrase": "take care of it",
+          "meaningVi": "xử lý việc đó",
+          "category": "general",
+          "example": "We will take care of it immediately."
+        },
+        {
+          "phrase": "be interested in ~",
+          "meaningVi": "quan tâm đến",
+          "category": "information",
+          "example": "I am interested in your sightseeing tours."
+        },
+        {
+          "phrase": "be led by experienced guides",
+          "meaningVi": "được dẫn bởi hướng dẫn viên giàu kinh nghiệm",
+          "category": "information",
+          "example": "All tours are led by experienced guides."
+        }
+      ],
+      "patterns": [
+        "Are you interested in ...?",
+        "All of our tours are ...",
+        "We have tours that ...",
+        "Let us know ..."
+      ],
+      "sampleAnswer": [
+        "Hi,",
+        "Are you interested in walking tours or bus tours?",
+        "All of our tours are led by experienced guides.",
+        "We have tours that focus on food, history, and architecture.",
+        "Let us know what you are interested in.",
+        "Sincerely,",
+        "Explore The City Tour Company"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "Are you interested in _____ tours or bus tours?",
+          "answer": "walking",
+          "meaningVi": "Bạn quan tâm tour đi bộ hay tour xe buýt?"
+        },
+        {
+          "sentence": "All of our tours are led by _____.",
+          "answer": "experienced guides",
+          "meaningVi": "Tất cả tour được dẫn bởi hướng dẫn viên giàu kinh nghiệm."
+        },
+        {
+          "sentence": "We have tours that _____ food, history, and architecture.",
+          "answer": "focus on",
+          "meaningVi": "Chúng tôi có các tour tập trung vào ẩm thực, lịch sử và kiến trúc."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Hi,",
+        "opening": "Are you interested in walking tours or bus tours?",
+        "bodySlots": [
+          "Are you interested in ...? ...",
+          "All of our tours are ...",
+          "We have tours that ..."
+        ],
+        "closing": "Explore The City Tour Company"
+      }
+    },
+    {
+      "id": "w67-products-printing-accident",
+      "title": "Printing accident",
+      "topic": "Products / Services",
+      "level": "guided",
+      "email": {
+        "from": "A. Chae, General Company",
+        "to": "Fine Prints",
+        "subject": "Printing accident",
+        "sent": "May 2, 10:32 A.M.",
+        "body": [
+          "Dear Fine Prints,",
+          "Your company recently prepared letterheads for us.",
+          "However, I've just noticed that you printed our old address by mistake.",
+          "I have to send out hundreds of letters to our customers for a new promotion.",
+          "Please e-mail me about this as soon as possible.",
+          "Thank you,",
+          "A. Chae"
+        ],
+        "translationVi": [
+          "Gửi Fine Prints,",
+          "Công ty của quý vị gần đây đã chuẩn bị giấy tiêu đề cho chúng tôi.",
+          "Tuy nhiên, tôi vừa nhận thấy quý vị đã in nhầm địa chỉ cũ của chúng tôi.",
+          "Tôi phải gửi hàng trăm lá thư cho khách hàng về chương trình khuyến mãi mới.",
+          "Vui lòng gửi email cho tôi về việc này sớm nhất có thể.",
+          "Cảm ơn,",
+          "A. Chae"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are an employee at Fine Prints. In your e-mail, make TWO suggestions and provide ONE useful piece of information.",
+      "roleVi": "Bạn là nhân viên của Fine Prints xử lý lỗi in ấn.",
+      "tasks": [
+        {
+          "type": "suggestion",
+          "label": "Suggestion 1",
+          "requirement": "Suggest one way to handle the problem.",
+          "example": "The first way is to print your new address on a sticker label."
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion 2",
+          "requirement": "Suggest a second way to handle the problem.",
+          "example": "The other way is to print new letterheads with the correct address."
+        },
+        {
+          "type": "information",
+          "label": "Information",
+          "requirement": "Provide one useful piece of information.",
+          "example": "The first option would be faster, but it might not look as professional."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "provide ~ with a description of ~",
+          "meaningVi": "cung cấp cho ai phần mô tả về điều gì",
+          "category": "information",
+          "example": "Please provide us with a description of the document."
+        },
+        {
+          "phrase": "give ~ a full refund",
+          "meaningVi": "hoàn tiền đầy đủ cho ai",
+          "category": "suggestion",
+          "example": "We can give you a full refund."
+        },
+        {
+          "phrase": "meet one's needs",
+          "meaningVi": "đáp ứng nhu cầu của ai",
+          "category": "information",
+          "example": "The new office can meet our needs."
+        },
+        {
+          "phrase": "take care of it",
+          "meaningVi": "xử lý việc đó",
+          "category": "general",
+          "example": "We will take care of it immediately."
+        }
+      ],
+      "patterns": [
+        "The first way is to ...",
+        "The other way is to ...",
+        "I must inform you that ...",
+        "We will take care of it ..."
+      ],
+      "sampleAnswer": [
+        "Dear Mr. Chae,",
+        "We apologize for this mistake.",
+        "The first way is to print your new address on a sticker label and place it over the old address.",
+        "The other way is to print new letterheads with the correct address.",
+        "I must inform you that the first option would be faster, but it might not look as professional.",
+        "Please send us your new address again, and we will take care of it immediately.",
+        "Sincerely,",
+        "Fine Prints"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "The first way is to print your new address on a _____.",
+          "answer": "sticker label",
+          "meaningVi": "Cách đầu tiên là in địa chỉ mới lên nhãn dán."
+        },
+        {
+          "sentence": "The other way is to print new _____ with the correct address.",
+          "answer": "letterheads",
+          "meaningVi": "Cách còn lại là in giấy tiêu đề mới với địa chỉ đúng."
+        },
+        {
+          "sentence": "We will take care of it _____.",
+          "answer": "immediately",
+          "meaningVi": "Chúng tôi sẽ xử lý ngay lập tức."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Mr. Chae,",
+        "opening": "We apologize for this mistake.",
+        "bodySlots": [
+          "The first way is to ...",
+          "The other way is to ...",
+          "I must inform you that ..."
+        ],
+        "closing": "Fine Prints"
+      }
+    },
+    {
+      "id": "w67-products-translation",
+      "title": "Translation service",
+      "topic": "Products / Services",
+      "level": "guided",
+      "email": {
+        "from": "Daniel Tucker",
+        "to": "Exacto Translation Services",
+        "subject": "Need more information",
+        "sent": "November 14, 11:37 A.M.",
+        "body": [
+          "I am currently working on a 5,000-word document for my Ph.D. course that I need translated into French.",
+          "I checked your website but there is not much information about your services.",
+          "Please let me know more about pricing, how long translations take, and so on.",
+          "Daniel Tucker"
+        ],
+        "translationVi": [
+          "Tôi hiện đang làm một tài liệu 5.000 từ cho khóa học tiến sĩ và cần dịch sang tiếng Pháp.",
+          "Tôi đã xem trang web của quý công ty nhưng không có nhiều thông tin về dịch vụ.",
+          "Vui lòng cho tôi biết thêm về giá, thời gian dịch và các thông tin liên quan.",
+          "Daniel Tucker"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are a translator. In your e-mail, explain TWO steps in the translation process and request ONE additional piece of information.",
+      "roleVi": "Bạn là điều phối viên dịch thuật của Exacto Translation Services.",
+      "tasks": [
+        {
+          "type": "instruction",
+          "label": "Step 1",
+          "requirement": "Explain the first step in the translation process.",
+          "example": "The first step is for you to send us the document."
+        },
+        {
+          "type": "instruction",
+          "label": "Step 2",
+          "requirement": "Explain the second step in the process.",
+          "example": "After that, we will send you a price estimate."
+        },
+        {
+          "type": "request",
+          "label": "Request",
+          "requirement": "Request one additional piece of information.",
+          "example": "Please inform us if the document has a deadline."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "provide ~ with a description of ~",
+          "meaningVi": "cung cấp cho ai phần mô tả về điều gì",
+          "category": "information",
+          "example": "Please provide us with a description of the document."
+        },
+        {
+          "phrase": "give ~ a full refund",
+          "meaningVi": "hoàn tiền đầy đủ cho ai",
+          "category": "suggestion",
+          "example": "We can give you a full refund."
+        },
+        {
+          "phrase": "meet one's needs",
+          "meaningVi": "đáp ứng nhu cầu của ai",
+          "category": "information",
+          "example": "The new office can meet our needs."
+        },
+        {
+          "phrase": "take care of it",
+          "meaningVi": "xử lý việc đó",
+          "category": "general",
+          "example": "We will take care of it immediately."
+        }
+      ],
+      "patterns": [
+        "The first step is ...",
+        "After that, we will ...",
+        "Please inform us if ...",
+        "Thank you for choosing us."
+      ],
+      "sampleAnswer": [
+        "Dear Mr. Tucker,",
+        "Thank you for asking about our translation services.",
+        "The first step is for you to send us the document so we can review it.",
+        "After that, we will send you a price estimate and a timeline.",
+        "Please inform us if the document has a strict deadline.",
+        "Thank you for choosing us.",
+        "Sally Whitman",
+        "Coordinator of Exacto Translation Services"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "The first step is for you to send us the _____.",
+          "answer": "document",
+          "meaningVi": "Bước đầu tiên là bạn gửi tài liệu cho chúng tôi."
+        },
+        {
+          "sentence": "After that, we will send you a price _____ and a timeline.",
+          "answer": "estimate",
+          "meaningVi": "Sau đó, chúng tôi sẽ gửi báo giá và thời gian dự kiến."
+        },
+        {
+          "sentence": "Please inform us if the document has a strict _____.",
+          "answer": "deadline",
+          "meaningVi": "Vui lòng cho chúng tôi biết nếu tài liệu có hạn chót gấp."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Mr. Tucker,",
+        "opening": "Thank you for asking about our translation services.",
+        "bodySlots": [
+          "The first step is ...",
+          "After that, we will ...",
+          "Please inform us if ..."
+        ],
+        "closing": "Coordinator of Exacto Translation Services"
+      }
+    }
+  ]
+}
