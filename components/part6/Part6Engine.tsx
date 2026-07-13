@@ -3,7 +3,8 @@
 import { useState, useEffect, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import type { Part6Data } from "@/lib/types";
-import { useQuizStore } from "@/store/quizStore";
+import { useAudioStore } from "@/store/audioStore";
+import { useLessonProgressStore } from "@/store/lessonProgressStore";
 import { playSound } from "@/utils/audio";
 import { ResultSummary } from "@/components/common/ResultSummary";
 import { QuizHeader } from "@/components/common/QuizHeader";
@@ -40,7 +41,8 @@ export function Part6Engine({ data, testId }: Part6EngineProps) {
   const router = useRouter();
   const lessonId = `part6-${testId}`;
   
-  const { progress, initLesson, answerQuestion, goToNext, goToPrev, restartLesson, isMuted, toggleMute } = useQuizStore();
+  const { progress, initLesson, answerQuestion, goToNext, goToPrev, restartLesson } = useLessonProgressStore();
+  const { isMuted, toggleMute } = useAudioStore();
   const [mounted, setMounted] = useState(false);
   const [previewQIndex, setPreviewQIndex] = useState<number | null>(null);
   const [showHint, setShowHint] = useState(false);

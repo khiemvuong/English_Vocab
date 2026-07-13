@@ -5,8 +5,14 @@ import { useRouter } from "next/navigation";
 import { AlertTriangle, ArrowLeft, ArrowRight, Check, CheckCircle2, ClipboardList, Eye, FilePenLine, Flag, Languages, RotateCcw, Timer, Trophy, Wand2 } from "lucide-react";
 import { AnswerButtonList } from "@/components/common/AnswerButtonList";
 import { QuizHeader } from "@/components/common/QuizHeader";
-import { useQuizStore } from "@/store/quizStore";
+import { WritingProgressOverview } from "@/components/writing/shared/WritingProgressOverview";
+import { useAudioStore } from "@/store/audioStore";
 import type { Writing67Prompt, Writing67Set, Writing67TaskType, Writing67VocabularyItem } from "@/lib/types";
+import {
+  getWriting67DraftStorageKey,
+  getWriting67ProgressStorageKey,
+  type Writing67SavedProgress,
+} from "@/lib/writing67Progress";
 
 interface Writing67PracticeEngineProps {
   data: Writing67Set;
@@ -16,20 +22,6 @@ interface ChoiceOption {
   id: string;
   text: string;
   detail?: string;
-}
-
-interface Writing67SavedProgress {
-  promptIndex: number;
-  step: number;
-  selectedVocabAnswers: Record<string, string>;
-  contextAnswers: Record<string, string>;
-  selectedTaskTypesByPrompt: Record<string, Writing67TaskType[]>;
-  selectedPatternIdsByPrompt: Record<string, string[]>;
-  blankAnswers: Record<string, string>;
-  drafts: Record<string, string>;
-  completedSteps: Record<string, true>;
-  completedPrompts: Record<string, true>;
-  isFinished: boolean;
 }
 
 const STEPS = [
@@ -80,14 +72,6 @@ function includesAnswer(value: string, answer: string) {
   const normalizedAnswer = normalizeText(answer);
   if (!normalizedValue || !normalizedAnswer) return false;
   return normalizedValue.includes(normalizedAnswer);
-}
-
-function getStorageKey(setId: string) {
-  return `writing67:${setId}:drafts`;
-}
-
-function getProgressStorageKey(setId: string) {
-  return `writing67:${setId}:progress`;
 }
 
 function stepKey(promptId: string, step: number) {
@@ -255,12 +239,12 @@ function getStepMissingText({
 
 export function Writing67PracticeEngine({ data }: Writing67PracticeEngineProps) {
   const router = useRouter();
-  const { isMuted, toggleMute } = useQuizStore();
+  const { isMuted, toggleMute } = useAudioStore();
   const savedProgress = useMemo<Partial<Writing67SavedProgress>>(() => {
     if (typeof window === "undefined") return {};
 
     try {
-      return JSON.parse(window.localStorage.getItem(getProgressStorageKey(data.setId)) || "{}") as Partial<Writing67SavedProgress>;
+      return JSON.parse(window.localStorage.getItem(getWriting67ProgressStorageKey(data.setId)) || "{}") as Partial<Writing67SavedProgress>;
     } catch {
       return {};
     }
@@ -290,7 +274,7 @@ export function Writing67PracticeEngine({ data }: Writing67PracticeEngineProps) 
     if (typeof window === "undefined") return {};
 
     try {
-      return JSON.parse(window.localStorage.getItem(getStorageKey(data.setId)) || "{}") as Record<string, string>;
+      return JSON.parse(window.localStorage.getItem(getWriting67DraftStorageKey(data.setId)) || "{}") as Record<string, string>;
     } catch {
       return {};
     }
@@ -377,7 +361,7 @@ export function Writing67PracticeEngine({ data }: Writing67PracticeEngineProps) 
       isFinished,
     };
 
-    window.localStorage.setItem(getProgressStorageKey(data.setId), JSON.stringify(payload));
+    window.localStorage.setItem(getWriting67ProgressStorageKey(data.setId), JSON.stringify(payload));
   }, [
     blankAnswers,
     completedPrompts,
@@ -459,8 +443,8 @@ export function Writing67PracticeEngine({ data }: Writing67PracticeEngineProps) 
     setCheckpointPromptId(null);
     setIsFinished(false);
     setDrafts({});
-    window.localStorage.removeItem(getStorageKey(data.setId));
-    window.localStorage.removeItem(getProgressStorageKey(data.setId));
+    window.localStorage.removeItem(getWriting67DraftStorageKey(data.setId));
+    window.localStorage.removeItem(getWriting67ProgressStorageKey(data.setId));
   };
 
   const goNext = () => {
@@ -523,13 +507,12 @@ export function Writing67PracticeEngine({ data }: Writing67PracticeEngineProps) 
           onExit={() => router.push("/?tab=writing")}
         />
 
-        <ProgressOverview
-          promptIndex={promptIndex}
-          totalPrompts={data.prompts.length}
-          completedPrompts={completedPromptCount}
-          currentStepLabel={STEPS[step].label}
-          completedSteps={completedUnitCount}
-          totalSteps={totalUnits}
+        <WritingProgressOverview
+          currentLabel={`Câu ${promptIndex + 1} - ${STEPS[step].label}`}
+          completedItems={completedPromptCount}
+          totalItems={data.prompts.length}
+          completedUnits={completedUnitCount}
+          totalUnits={totalUnits}
           progressPercent={progressPercent}
           isFinished={isFinished}
         />
@@ -669,53 +652,6 @@ export function Writing67PracticeEngine({ data }: Writing67PracticeEngineProps) 
         </div>
       </div>
     </main>
-  );
-}
-
-function ProgressOverview({
-  promptIndex,
-  totalPrompts,
-  completedPrompts,
-  currentStepLabel,
-  completedSteps,
-  totalSteps,
-  progressPercent,
-  isFinished,
-}: {
-  promptIndex: number;
-  totalPrompts: number;
-  completedPrompts: number;
-  currentStepLabel: string;
-  completedSteps: number;
-  totalSteps: number;
-  progressPercent: number;
-  isFinished: boolean;
-}) {
-  return (
-    <div className="mb-3 grid gap-2 rounded-xl border border-white/10 bg-white/3 p-2.5 sm:grid-cols-3">
-      <div className="rounded-lg border border-white/10 bg-slate-950/35 p-2.5">
-        <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">Tiến trình câu</p>
-        <p className="mt-1 text-sm font-black text-white">
-          {completedPrompts}/{totalPrompts} câu hoàn thành
-        </p>
-      </div>
-      <div className="rounded-lg border border-white/10 bg-slate-950/35 p-2.5">
-        <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">Đang ở</p>
-        <p className="mt-1 text-sm font-black text-cyan-100">
-          {isFinished ? "Hoàn thành bộ câu hỏi" : `Câu ${promptIndex + 1} - ${currentStepLabel}`}
-        </p>
-      </div>
-      <div className="rounded-lg border border-white/10 bg-slate-950/35 p-2.5">
-        <div className="flex items-center justify-between gap-2">
-          <p className="text-[10px] font-bold uppercase tracking-wider text-slate-500">State đã xong</p>
-          <span className="text-xs font-black text-white">{progressPercent}%</span>
-        </div>
-        <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-800">
-          <div className="h-full rounded-full bg-linear-to-r from-emerald-400 via-cyan-300 to-blue-400 transition-all" style={{ width: `${progressPercent}%` }} />
-        </div>
-        <p className="mt-1 text-[11px] font-semibold text-slate-400">{completedSteps}/{totalSteps} state</p>
-      </div>
-    </div>
   );
 }
 

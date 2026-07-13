@@ -2,14 +2,14 @@
 
 import Link from "next/link";
 import { AlertTriangle, ArrowRight, RotateCcw } from "lucide-react";
-import { useQuizStore } from "@/store/quizStore";
+import { useLessonProgressStore } from "@/store/lessonProgressStore";
 
 interface MistakeReviewCardProps {
   href: string;
 }
 
 export function MistakeReviewCard({ href }: MistakeReviewCardProps) {
-  const wrongCount = useQuizStore((state) =>
+  const wrongCount = useLessonProgressStore((state) =>
     Object.entries(state.progress)
       .filter(([lessonId]) => lessonId.startsWith("part5-") && !lessonId.startsWith("part5-ets2026-"))
       .reduce((total, [, progress]) => {

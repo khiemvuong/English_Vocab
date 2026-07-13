@@ -4,7 +4,8 @@
 import { useState, useEffect, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import type { ScenarioData } from "@/lib/types";
-import { useQuizStore } from "@/store/quizStore";
+import { useAudioStore } from "@/store/audioStore";
+import { useScenarioProgressStore } from "@/store/scenarioProgressStore";
 import { playSound } from "@/utils/audio";
 import { ScenarioOptionGrid } from "@/components/scenario/ScenarioOptionGrid";
 import { ResultSummary } from "@/components/common/ResultSummary";
@@ -19,7 +20,8 @@ interface ScenarioEngineProps {
 
 export function ScenarioEngine({ data, testId }: ScenarioEngineProps) {
   const router = useRouter();
-  const { scenarioProgress, updateScenarioState, answerScenarioBlank, restartScenario, isMuted, toggleMute } = useQuizStore();
+  const { scenarioProgress, updateScenarioState, answerScenarioBlank, restartScenario } = useScenarioProgressStore();
+  const { isMuted, toggleMute } = useAudioStore();
   const [mounted, setMounted] = useState(false);
   const [previewBlankKey, setPreviewBlankKey] = useState<string | null>(null);
 

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowLeft, CheckCircle2, Inbox, XCircle } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import type { Question, QuizData } from "@/lib/types";
-import { useQuizStore } from "@/store/quizStore";
+import { useLessonProgressStore } from "@/store/lessonProgressStore";
 import { renderFormattedText } from "@/utils/textFormatting";
 
 interface Part5QuizBundle {
@@ -29,7 +29,7 @@ interface Part5MistakesReviewProps {
 
 export function Part5MistakesReview({ quizzes }: Part5MistakesReviewProps) {
   const [mounted, setMounted] = useState(false);
-  const progress = useQuizStore((state) => state.progress);
+  const progress = useLessonProgressStore((state) => state.progress);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect

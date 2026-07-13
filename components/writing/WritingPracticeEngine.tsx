@@ -2,12 +2,14 @@
 
 import React, { useEffect, useState, useMemo, useCallback } from "react";
 import { useRouter } from "next/navigation";
-import { useQuizStore } from "@/store/quizStore";
+import { useAudioStore } from "@/store/audioStore";
+import { useWritingProgressStore } from "@/store/writingProgressStore";
 import { getDeterministicShuffle } from "@/utils/shuffle";
 import type { WritingQuestionSet, PhraseOption } from "@/lib/types";
 import { WritingQuestionCard } from "./WritingQuestionCard";
 import { WritingResultSummary } from "./WritingResultSummary";
 import { QuizHeader } from "@/components/common/QuizHeader";
+import { WritingProgressOverview } from "@/components/writing/shared/WritingProgressOverview";
 import { playSound } from "@/utils/audio";
 
 interface WritingPracticeEngineProps {
@@ -18,8 +20,6 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
   const router = useRouter();
   const {
     writingProgress,
-    isMuted,
-    toggleMute,
     initWriting,
     answerWritingQuestion,
     answerWritingVocab,
@@ -31,10 +31,12 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
     clearWritingState3Retry,
     setWritingEnabledStates,
     toggleWritingHint,
+    finishWriting,
     restartWriting,
     goToNextWriting,
     goToPrevWriting,
-  } = useQuizStore();
+  } = useWritingProgressStore();
+  const { isMuted, toggleMute } = useAudioStore();
 
   const [mounted, setMounted] = useState(false);
   const [hasReviewed, setHasReviewed] = useState(false);
@@ -279,16 +281,8 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
 
   const handleFinishSession = useCallback(() => {
     setHasReviewed(false);
-    useQuizStore.setState((state) => ({
-      writingProgress: {
-        ...state.writingProgress,
-        [sessionId]: {
-          ...state.writingProgress[sessionId],
-          isFinished: true,
-        },
-      },
-    }));
-  }, [sessionId]);
+    finishWriting(sessionId);
+  }, [finishWriting, sessionId]);
 
   const handleExit = useCallback(() => router.push("/?tab=writing"), [router]);
 
@@ -435,8 +429,23 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
     );
   }
 
-  const progressPercent = visibleAbsoluteIndices.length > 0 ? Math.round((currentIndex / visibleAbsoluteIndices.length) * 100) : 0;
-  const progressText = `Block ${blockIndex + 1}/${numBlocks} - Cau ${currentIndex + 1}/${visibleAbsoluteIndices.length}`;
+  const totalProgressUnits = activeQuestions.length * 3;
+  let completedProgressUnits = 0;
+  let completedQuestionCount = 0;
+
+  activeQuestions.forEach((_, index) => {
+    const state1Done = vocabAnswers[index] !== undefined || !!skippedStates[`${index}-1`];
+    const state2Done = answers[index] !== undefined || !!skippedStates[`${index}-2`];
+    const state3Done = typedAnswers[index] !== undefined || !!skippedStates[`${index}-3`];
+
+    completedProgressUnits += Number(state1Done) + Number(state2Done) + Number(state3Done);
+    if (state1Done && state2Done && state3Done) {
+      completedQuestionCount += 1;
+    }
+  });
+
+  const progressPercent = totalProgressUnits > 0 ? Math.round((completedProgressUnits / totalProgressUnits) * 100) : 0;
+  const progressText = `Block ${blockIndex + 1}/${numBlocks} - Câu ${currentIndex + 1}/${visibleAbsoluteIndices.length}`;
 
   return (
     <div className="min-h-dvh w-screen bg-slate-950 text-white relative flex flex-col p-4 md:p-6 lg:h-dvh lg:overflow-hidden">
@@ -457,6 +466,15 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
           onToggleMute={toggleMute}
           onRestart={handleRestart}
           onExit={handleExit}
+        />
+        <WritingProgressOverview
+          currentLabel={`Block ${blockIndex + 1} - State ${currentState} - Câu ${currentIndex + 1}/${visibleAbsoluteIndices.length}`}
+          completedItems={completedQuestionCount}
+          totalItems={activeQuestions.length}
+          completedUnits={completedProgressUnits}
+          totalUnits={totalProgressUnits}
+          progressPercent={progressPercent}
+          isFinished={isFinished}
         />
       </div>
 

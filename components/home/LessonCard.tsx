@@ -1,12 +1,12 @@
 "use client";
 
-import { useQuizStore } from "@/store/quizStore";
+import { useLessonProgressStore } from "@/store/lessonProgressStore";
 import { useEffect, useState } from "react";
 import { ProgressCard } from "@/components/common/ProgressCard";
 
 export function LessonCard({ lesson, isAvailable = false }: { lesson: number; isAvailable?: boolean }) {
   const [mounted, setMounted] = useState(false);
-  const progressState = useQuizStore(state => state.progress[lesson.toString()]);
+  const progressState = useLessonProgressStore(state => state.progress[lesson.toString()]);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect

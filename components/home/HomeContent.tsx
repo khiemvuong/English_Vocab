@@ -15,6 +15,7 @@ import { MistakeReviewCard } from "@/components/home/MistakeReviewCard";
 import { PracticeSection } from "@/components/home/PracticeSection";
 import { GlassFilter } from "@/components/ui/liquid-glass";
 import { GuidedTour, GuidedTourStep } from "@/components/common/GuidedTour";
+import { WRITING_Q15_LESSONS, WRITING_Q67_LESSONS } from "@/lib/writingLessonCatalog";
 
 const HomeMeshBackground = dynamic(() => import("@/components/home/HomeMeshBackground").then((m) => m.HomeMeshBackground), {
   ssr: false,
@@ -77,51 +78,6 @@ const TABS = [
       </svg>
     ),
     accent: "from-violet-500 to-purple-600",
-  },
-] as const;
-
-const WRITING_Q15_LESSONS = [
-  { file: "mix", tagLabel: "Writing Mix", mainTitle: "40 câu tổng hợp", totalQuestions: 40, colorTheme: "purple" },
-  { file: "intro", tagLabel: "Writing Intro", mainTitle: "Khởi động", totalQuestions: 11, colorTheme: "blue" },
-  { file: "topic1", tagLabel: "Topic 1", mainTitle: "Workplace", totalQuestions: 22, colorTheme: "amber" },
-  { file: "topic2", tagLabel: "Topic 2", mainTitle: "Home", totalQuestions: 22, colorTheme: "emerald" },
-  { file: "topic3", tagLabel: "Topic 3", mainTitle: "Streets/Park", totalQuestions: 22, colorTheme: "orange" },
-  { file: "topic4", tagLabel: "Topic 4", mainTitle: "Transportation", totalQuestions: 21, colorTheme: "blue" },
-  { file: "topic5", tagLabel: "Topic 5", mainTitle: "Places", totalQuestions: 21, colorTheme: "purple" },
-] as const;
-
-const WRITING67_LESSONS = [
-  {
-    file: "company-events",
-    tagLabel: "Q6-7 Topic 1",
-    mainTitle: "Company / Events",
-    subtitle: "3 email prompts",
-    totalPrompts: 3,
-    colorTheme: "amber",
-  },
-  {
-    file: "customer-service",
-    tagLabel: "Q6-7 Topic 2",
-    mainTitle: "Customer Service",
-    subtitle: "3 email prompts",
-    totalPrompts: 3,
-    colorTheme: "blue",
-  },
-  {
-    file: "products-services",
-    tagLabel: "Q6-7 Topic 3",
-    mainTitle: "Products / Services",
-    subtitle: "3 email prompts",
-    totalPrompts: 3,
-    colorTheme: "orange",
-  },
-  {
-    file: "practice-test",
-    tagLabel: "Q6-7 Exam",
-    mainTitle: "Practice Test",
-    subtitle: "17 email prompts",
-    totalPrompts: 17,
-    colorTheme: "purple",
   },
 ] as const;
 
@@ -487,7 +443,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
                 title="TOEIC Writing Q6-7"
                 description="Luyện trả lời email theo luồng từ vựng, dịch nghĩa, task map, mẫu câu và tự viết."
               >
-                {WRITING67_LESSONS.map((lesson) => (
+                {WRITING_Q67_LESSONS.map((lesson) => (
                   <Writing67LessonCard
                     key={lesson.file}
                     file={lesson.file}

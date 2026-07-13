@@ -1,6 +1,7 @@
 "use client";
 
-import { ProgressCard, type CardColorTheme } from "@/components/common/ProgressCard";
+import { type CardColorTheme } from "@/components/common/ProgressCard";
+import { WritingCourseCard } from "@/components/home/WritingCourseCard";
 
 interface Writing67LessonCardProps {
   file: string;
@@ -11,28 +12,6 @@ interface Writing67LessonCardProps {
   colorTheme: CardColorTheme;
 }
 
-export function Writing67LessonCard({
-  file,
-  tagLabel,
-  mainTitle,
-  subtitle,
-  totalPrompts,
-  colorTheme,
-}: Writing67LessonCardProps) {
-  return (
-    <ProgressCard
-      href={`/writing-67-practice?file=${file}`}
-      tagLabel={tagLabel}
-      mainTitle={mainTitle}
-      subtitle={subtitle}
-      isAvailable={true}
-      amountAnswered={0}
-      totalQuestions={totalPrompts * 7}
-      colorTheme={colorTheme}
-      startLabel="Học email"
-      progressOnly={true}
-      watermarkText="67"
-      patternTheme="notebook"
-    />
-  );
+export function Writing67LessonCard(props: Writing67LessonCardProps) {
+  return <WritingCourseCard kind="q6-7" {...props} />;
 }

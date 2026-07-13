@@ -1,6 +1,6 @@
 "use client";
 
-import { useQuizStore } from "@/store/quizStore";
+import { useLessonProgressStore } from "@/store/lessonProgressStore";
 import { useEffect, useState } from "react";
 import { ProgressCard } from "@/components/common/ProgressCard";
 
@@ -12,7 +12,7 @@ interface Ets2026CardProps {
 
 export function Ets2026Card({ testId, testLabel, isAvailable }: Ets2026CardProps) {
   const [mounted, setMounted] = useState(false);
-  const progressState = useQuizStore((state) => state.progress[`part5-ets2026-${testId}`]);
+  const progressState = useLessonProgressStore((state) => state.progress[`part5-ets2026-${testId}`]);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect

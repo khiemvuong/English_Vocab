@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useLayoutEffect, useState, useCallback, useMemo } from "react";
-import { useQuizStore } from "@/store/quizStore";
+import { useAudioStore } from "@/store/audioStore";
+import { useLessonProgressStore } from "@/store/lessonProgressStore";
 import { playSound, speakWord } from "@/utils/audio";
 import { useRouter } from "next/navigation";
 import type { QuizData } from "@/lib/types";
@@ -36,7 +37,8 @@ const VOCAB_TOUR_STEPS: GuidedTourStep[] = [
 ];
 
 export function QuizEngine({ quizData, lessonId }: { quizData: QuizData; lessonId: string }) {
-  const { progress, isMuted, toggleMute, initLesson, answerQuestion, goToNext, goToPrev, restartLesson } = useQuizStore();
+  const { progress, initLesson, answerQuestion, goToNext, goToPrev, restartLesson } = useLessonProgressStore();
+  const { isMuted, toggleMute } = useAudioStore();
   const [mounted, setMounted] = useState(false);
   const [showHint, setShowHint] = useState(false);
   const [previewQuestionIndex, setPreviewQuestionIndex] = useState<number | null>(null);
