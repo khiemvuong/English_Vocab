@@ -1,0 +1,355 @@
+{
+  "setId": "writing67-customer-service",
+  "title": "TOEIC Writing Q6-7: Customer Service",
+  "description": "Email chăm sóc khách hàng: đổi trả, gói du lịch, phàn nàn dịch vụ.",
+  "sourceMaterial": "docs/writing-6-7-respond-to-written-request.md",
+  "prompts": [
+    {
+      "id": "w67-service-product-return",
+      "title": "Product return",
+      "topic": "Customer Service",
+      "level": "guided",
+      "email": {
+        "from": "Robert Bremen",
+        "to": "Glenn Cameras Customer Service",
+        "subject": "Product return",
+        "sent": "February 9, 10:51 A.M.",
+        "body": [
+          "I recently purchased a battery for my camera from your Web site.",
+          "The online description said that the battery would be compatible with my camera, but it's the wrong size.",
+          "What do I need to do to return this battery and get the right one for my camera?",
+          "Thanks,",
+          "Robert Bremen"
+        ],
+        "translationVi": [
+          "Gần đây tôi mua pin máy ảnh trên trang web của quý công ty.",
+          "Mô tả trực tuyến nói pin này tương thích với máy ảnh của tôi, nhưng kích cỡ lại không đúng.",
+          "Tôi cần làm gì để trả lại pin này và nhận đúng loại pin cho máy ảnh của tôi?",
+          "Cảm ơn,",
+          "Robert Bremen"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are a customer service representative. In your e-mail, give TWO pieces of information and ask ONE question.",
+      "roleVi": "Bạn là nhân viên chăm sóc khách hàng của Glenn Cameras.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information 1",
+          "requirement": "Explain that there should be a return label.",
+          "example": "There should be a return label inside the package you received."
+        },
+        {
+          "type": "question",
+          "label": "Question",
+          "requirement": "Ask for one detail needed to process the return.",
+          "example": "Can you send me your order number?"
+        },
+        {
+          "type": "information",
+          "label": "Information 2",
+          "requirement": "Explain what will happen after receiving the product.",
+          "example": "Once I receive it, I will send the correct battery to you."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "customer service department",
+          "meaningVi": "phòng chăm sóc khách hàng",
+          "category": "general",
+          "example": "The customer service department will contact you today."
+        },
+        {
+          "phrase": "return/send ~ back",
+          "meaningVi": "gửi trả lại",
+          "category": "instruction",
+          "example": "You can send the product back in any box."
+        },
+        {
+          "phrase": "be compatible with ~",
+          "meaningVi": "tương thích với",
+          "category": "information",
+          "example": "This battery is compatible with your camera."
+        },
+        {
+          "phrase": "reduce the wait time",
+          "meaningVi": "giảm thời gian chờ",
+          "category": "suggestion",
+          "example": "We should reduce the wait time for customers."
+        }
+      ],
+      "patterns": [
+        "I apologize for ...",
+        "There should be ...",
+        "Can you send me ...?",
+        "Once I receive it, I will ..."
+      ],
+      "sampleAnswer": [
+        "Hello, Robert,",
+        "I apologize for the confusion.",
+        "There should be a return label inside the package you received.",
+        "Can you send me your order number?",
+        "Once I receive the battery, I will send the correct one to you.",
+        "Thank you,",
+        "Glenn Cameras"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "I _____ for the confusion.",
+          "answer": "apologize",
+          "meaningVi": "Tôi xin lỗi về sự nhầm lẫn này."
+        },
+        {
+          "sentence": "There should be a _____ inside the package.",
+          "answer": "return label",
+          "meaningVi": "Nên có nhãn trả hàng trong gói hàng."
+        },
+        {
+          "sentence": "Can you send me your _____?",
+          "answer": "order number",
+          "meaningVi": "Bạn có thể gửi cho tôi mã đơn hàng không?"
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Hello, Robert,",
+        "opening": "I apologize for the confusion.",
+        "bodySlots": [
+          "I apologize for ...",
+          "There should be ...",
+          "Can you send me ...? ..."
+        ],
+        "closing": "Glenn Cameras"
+      }
+    },
+    {
+      "id": "w67-service-vacation-package",
+      "title": "Vacation package",
+      "topic": "Customer Service",
+      "level": "guided",
+      "email": {
+        "from": "Cameron Contos, Passageways Travel Company",
+        "to": "Customer list",
+        "subject": "A great vacation package",
+        "sent": "December 22, 9:23 A.M.",
+        "body": [
+          "Dear Passageways customers,",
+          "We are offering an unbelievable opportunity for you to explore the Galapagos Islands.",
+          "The first 200 customers who respond to this advertisement will receive a 10% discount on their hotel fares."
+        ],
+        "translationVi": [
+          "Gửi quý khách của Passageways,",
+          "Chúng tôi đang cung cấp một cơ hội tuyệt vời để quý khách khám phá quần đảo Galapagos.",
+          "200 khách hàng đầu tiên phản hồi quảng cáo này sẽ được giảm 10% giá khách sạn."
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are a Passageways Travel customer. In your e-mail, ask TWO questions and make ONE request regarding the travel package.",
+      "roleVi": "Bạn là khách hàng quan tâm đến gói du lịch.",
+      "tasks": [
+        {
+          "type": "question",
+          "label": "Question 1",
+          "requirement": "Ask one question about the length of the trip.",
+          "example": "How many days does the tour last?"
+        },
+        {
+          "type": "question",
+          "label": "Question 2",
+          "requirement": "Ask one question about family options.",
+          "example": "Are there discounts for children?"
+        },
+        {
+          "type": "request",
+          "label": "Request",
+          "requirement": "Request more information about the package.",
+          "example": "Could you please send me more information about this package?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "be interested in ~",
+          "meaningVi": "quan tâm đến",
+          "category": "information",
+          "example": "I am interested in your sightseeing tours."
+        },
+        {
+          "phrase": "be led by experienced guides",
+          "meaningVi": "được dẫn bởi hướng dẫn viên giàu kinh nghiệm",
+          "category": "information",
+          "example": "All tours are led by experienced guides."
+        },
+        {
+          "phrase": "complaint about ~",
+          "meaningVi": "phàn nàn về",
+          "category": "complaint",
+          "example": "I have a complaint about the hotel service."
+        },
+        {
+          "phrase": "offer a coupon",
+          "meaningVi": "tặng phiếu giảm giá",
+          "category": "suggestion",
+          "example": "You could offer a coupon for our next trip."
+        },
+        {
+          "phrase": "travel package",
+          "meaningVi": "gói du lịch",
+          "category": "general",
+          "example": "I am interested in the travel package."
+        }
+      ],
+      "patterns": [
+        "How many days ...?",
+        "Are there ...?",
+        "Could you please send me ...?",
+        "I am interested in ..."
+      ],
+      "sampleAnswer": [
+        "Dear Mr. Contos,",
+        "I am very interested in the travel package to the Galapagos Islands.",
+        "How many days does the tour last?",
+        "Also, are there discounts for children?",
+        "Could you please send me more information about this package as soon as possible?",
+        "Thank you,",
+        "Pamela Frederickson"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "I am very _____ in the travel package.",
+          "answer": "interested",
+          "meaningVi": "Tôi rất quan tâm đến gói du lịch."
+        },
+        {
+          "sentence": "How many days does the tour _____?",
+          "answer": "last",
+          "meaningVi": "Chuyến tham quan kéo dài bao nhiêu ngày?"
+        },
+        {
+          "sentence": "Could you please send me more _____?",
+          "answer": "information",
+          "meaningVi": "Bạn có thể gửi thêm thông tin cho tôi không?"
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Mr. Contos,",
+        "opening": "I am very interested in the travel package to the Galapagos Islands.",
+        "bodySlots": [
+          "How many days ...? ...",
+          "Are there ...? ...",
+          "Could you please send me ...? ..."
+        ],
+        "closing": "Pamela Frederickson"
+      }
+    },
+    {
+      "id": "w67-service-travel-complaint",
+      "title": "Travel complaint",
+      "topic": "Customer Service",
+      "level": "guided",
+      "email": {
+        "from": "Paradise Travel",
+        "to": "Marilyn McMillan",
+        "subject": "About your complaint",
+        "sent": "October 29, 3:05 P.M.",
+        "body": [
+          "Dear Ms. McMillan,",
+          "My manager tells me you experienced some problems with our service during your recent trip to Malaysia.",
+          "Please tell us what happened to you and how we can make you satisfied with our company.",
+          "Paradise Travel"
+        ],
+        "translationVi": [
+          "Gửi cô McMillan,",
+          "Quản lý của tôi cho biết cô đã gặp một số vấn đề với dịch vụ của chúng tôi trong chuyến đi Malaysia gần đây.",
+          "Vui lòng cho chúng tôi biết chuyện gì đã xảy ra và chúng tôi có thể làm gì để khiến cô hài lòng.",
+          "Paradise Travel"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are Marilyn McMillan. In your e-mail, describe TWO problems and suggest ONE way the travel company can make you more satisfied.",
+      "roleVi": "Bạn là Marilyn McMillan, khách hàng đã phàn nàn về chuyến du lịch.",
+      "tasks": [
+        {
+          "type": "complaint",
+          "label": "Problem 1",
+          "requirement": "Describe one problem from the trip.",
+          "example": "The hotel room did not have an ocean view."
+        },
+        {
+          "type": "complaint",
+          "label": "Problem 2",
+          "requirement": "Describe a second problem from the trip.",
+          "example": "Breakfast was not included every day."
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion",
+          "requirement": "Suggest one way to make you satisfied.",
+          "example": "Please offer a coupon for our next trip."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "be interested in ~",
+          "meaningVi": "quan tâm đến",
+          "category": "information",
+          "example": "I am interested in your sightseeing tours."
+        },
+        {
+          "phrase": "be led by experienced guides",
+          "meaningVi": "được dẫn bởi hướng dẫn viên giàu kinh nghiệm",
+          "category": "information",
+          "example": "All tours are led by experienced guides."
+        },
+        {
+          "phrase": "complaint about ~",
+          "meaningVi": "phàn nàn về",
+          "category": "complaint",
+          "example": "I have a complaint about the hotel service."
+        },
+        {
+          "phrase": "offer a coupon",
+          "meaningVi": "tặng phiếu giảm giá",
+          "category": "suggestion",
+          "example": "You could offer a coupon for our next trip."
+        }
+      ],
+      "patterns": [
+        "The first problem was that ...",
+        "The other problem was that ...",
+        "Please ...",
+        "If you want to make us happy customers again, ..."
+      ],
+      "sampleAnswer": [
+        "Dear Paradise Travel,",
+        "Thank you for asking about my complaint.",
+        "The first problem was that our hotel room did not have an ocean view.",
+        "The other problem was that breakfast was not included every day.",
+        "If you want to make us happy customers again, please offer a coupon for our next trip.",
+        "Marilyn McMillan"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "The first problem was that our room did not have _____.",
+          "answer": "an ocean view",
+          "meaningVi": "Vấn đề đầu tiên là phòng không có tầm nhìn ra biển."
+        },
+        {
+          "sentence": "The other problem was that breakfast was not _____.",
+          "answer": "included every day",
+          "meaningVi": "Vấn đề còn lại là bữa sáng không được bao gồm mỗi ngày."
+        },
+        {
+          "sentence": "Please offer a _____ for our next trip.",
+          "answer": "coupon",
+          "meaningVi": "Vui lòng tặng phiếu giảm giá cho chuyến đi tiếp theo."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Dear Paradise Travel,",
+        "opening": "Thank you for asking about my complaint.",
+        "bodySlots": [
+          "The first problem was that ...",
+          "The other problem was that ...",
+          "Please ..."
+        ],
+        "closing": "Marilyn McMillan"
+      }
+    }
+  ]
+}

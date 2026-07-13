@@ -121,3 +121,69 @@ export interface WritingQuestionSet {
   totalQuestions: number;
   questions: WritingQuestion[];
 }
+
+// Writing Practice types (TOEIC Writing Q6-7)
+export type Writing67TaskType =
+  | "information"
+  | "suggestion"
+  | "reason"
+  | "question"
+  | "instruction"
+  | "complaint"
+  | "request";
+
+export interface Writing67VocabularyItem {
+  phrase: string;
+  meaningVi: string;
+  category: Writing67TaskType | "general";
+  example: string;
+}
+
+export interface Writing67Task {
+  type: Writing67TaskType;
+  label: string;
+  requirement: string;
+  example: string;
+}
+
+export interface Writing67Email {
+  from: string;
+  to: string;
+  subject: string;
+  sent: string;
+  body: string[];
+  translationVi: string[];
+}
+
+export interface Writing67Prompt {
+  id: string;
+  title: string;
+  topic: string;
+  level: "foundation" | "guided" | "exam";
+  email: Writing67Email;
+  directions: string;
+  roleVi: string;
+  tasks: Writing67Task[];
+  vocabulary: Writing67VocabularyItem[];
+  patterns: string[];
+  sampleAnswer: string[];
+  sampleBlanks: {
+    sentence: string;
+    answer: string;
+    meaningVi: string;
+  }[];
+  guidedOutline: {
+    greeting: string;
+    opening: string;
+    bodySlots: string[];
+    closing: string;
+  };
+}
+
+export interface Writing67Set {
+  setId: string;
+  title: string;
+  description: string;
+  sourceMaterial: string;
+  prompts: Writing67Prompt[];
+}

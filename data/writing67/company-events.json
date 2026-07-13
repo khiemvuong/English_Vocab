@@ -1,0 +1,358 @@
+{
+  "setId": "writing67-company-events",
+  "title": "TOEIC Writing Q6-7: Company Business / Events",
+  "description": "Email công sở: phỏng vấn nghỉ việc, sự cố máy tính, nhân viên mới.",
+  "sourceMaterial": "docs/writing-6-7-respond-to-written-request.md",
+  "prompts": [
+    {
+      "id": "w67-company-exit-interview",
+      "title": "Exit interview",
+      "topic": "Company Business / Events",
+      "level": "foundation",
+      "email": {
+        "from": "JRichards@timutelectronics.com",
+        "to": "GPeters@timutelectronics.com",
+        "subject": "Exit interview",
+        "sent": "June 12, 7:59 A.M.",
+        "body": [
+          "Dear Ms. Peters,",
+          "Since you'll soon be leaving our company for another job, I'd like to meet with you for a brief discussion.",
+          "To prepare for that meeting, could you send me an e-mail about your experience working here and how the company can improve?",
+          "Thanks,",
+          "Jessica Richards",
+          "Human Resources Manager"
+        ],
+        "translationVi": [
+          "Gửi cô Peters,",
+          "Vì cô sắp rời công ty để chuyển sang công việc khác, tôi muốn gặp cô để trao đổi ngắn.",
+          "Để chuẩn bị cho buổi gặp, cô có thể gửi email về trải nghiệm làm việc tại đây và cách công ty có thể cải thiện không?",
+          "Cảm ơn,",
+          "Jessica Richards",
+          "Quản lý nhân sự"
+        ]
+      },
+      "directions": "Respond to the e-mail. In your e-mail, give ONE piece of information and make TWO suggestions.",
+      "roleVi": "Bạn là Ms. Peters, sắp rời công ty và cần phản hồi phòng nhân sự.",
+      "tasks": [
+        {
+          "type": "information",
+          "label": "Information",
+          "requirement": "Give one piece of information about your experience.",
+          "example": "The commute was very long."
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion 1",
+          "requirement": "Make one suggestion for improvement.",
+          "example": "I think the company can improve by allowing employees to work from home more often."
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion 2",
+          "requirement": "Make a second suggestion for improvement.",
+          "example": "Another suggestion is to give employees more vacation time."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "work from home",
+          "meaningVi": "làm việc tại nhà",
+          "category": "suggestion",
+          "example": "The company should allow employees to work from home twice a week."
+        },
+        {
+          "phrase": "give more vacation time",
+          "meaningVi": "cho thêm thời gian nghỉ phép",
+          "category": "suggestion",
+          "example": "Another suggestion is to give employees more vacation time."
+        },
+        {
+          "phrase": "be available for ~",
+          "meaningVi": "có thời gian cho việc gì",
+          "category": "information",
+          "example": "I am available for the meeting on Friday."
+        },
+        {
+          "phrase": "prepare for ~",
+          "meaningVi": "chuẩn bị cho",
+          "category": "general",
+          "example": "I need time to prepare for the presentation."
+        }
+      ],
+      "patterns": [
+        "I enjoyed working here, but ...",
+        "I think the company can improve by ...",
+        "Another suggestion is to ...",
+        "Thank you for asking for my opinion."
+      ],
+      "sampleAnswer": [
+        "Hello, Ms. Richards,",
+        "Thank you for asking about my experience working here.",
+        "I enjoyed working here, but the commute was very long.",
+        "I think the company can improve by allowing employees to work from home more often.",
+        "Another suggestion is to give employees more vacation time.",
+        "Thank you."
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "I enjoyed working here, but the _____ was very long.",
+          "answer": "commute",
+          "meaningVi": "Tôi thích làm việc ở đây, nhưng quãng đường đi làm rất xa."
+        },
+        {
+          "sentence": "The company can improve by _____.",
+          "answer": "allowing employees to work from home",
+          "meaningVi": "Công ty có thể cải thiện bằng cách cho nhân viên làm việc tại nhà."
+        },
+        {
+          "sentence": "Another suggestion is to _____.",
+          "answer": "give employees more vacation time",
+          "meaningVi": "Một đề xuất khác là cho nhân viên thêm thời gian nghỉ phép."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Hello, Ms. Richards,",
+        "opening": "Thank you for asking about my experience working here.",
+        "bodySlots": [
+          "I enjoyed working here, but ...",
+          "I think the company can improve by ...",
+          "Another suggestion is to ..."
+        ],
+        "closing": "Thank you."
+      }
+    },
+    {
+      "id": "w67-company-computer-problems",
+      "title": "Computer problems",
+      "topic": "Company Business / Events",
+      "level": "guided",
+      "email": {
+        "from": "Barry Cole, Accounting",
+        "to": "Jim Slate, Assistant Manager, Accounting",
+        "subject": "Computer problems",
+        "sent": "March 10, 3:58 P.M.",
+        "body": [
+          "Hi Mr. Slate,",
+          "I have been having problems with my office computer recently.",
+          "I requested assistance from the help desk several times but they have not fixed it yet.",
+          "Could you please help me find a way to solve this problem?",
+          "Thank you,",
+          "Barry"
+        ],
+        "translationVi": [
+          "Chào ông Slate,",
+          "Gần đây tôi gặp vấn đề với máy tính văn phòng.",
+          "Tôi đã yêu cầu bộ phận hỗ trợ nhiều lần nhưng họ vẫn chưa sửa.",
+          "Ông có thể giúp tôi tìm cách giải quyết vấn đề này không?",
+          "Cảm ơn,",
+          "Barry"
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are Mr. Slate. In your e-mail, ask ONE question and make TWO suggestions about getting the computer fixed.",
+      "roleVi": "Bạn là Mr. Slate, quản lý hỗ trợ Barry xử lý sự cố máy tính.",
+      "tasks": [
+        {
+          "type": "question",
+          "label": "Question",
+          "requirement": "Ask one question about the computer problem.",
+          "example": "Exactly how long ago did you contact the help desk?"
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion 1",
+          "requirement": "Make one suggestion about getting support.",
+          "example": "I think you should visit the help desk in person."
+        },
+        {
+          "type": "suggestion",
+          "label": "Suggestion 2",
+          "requirement": "Make a second suggestion if the issue continues.",
+          "example": "If that does not work, please ask to speak to the help desk manager."
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "work from home",
+          "meaningVi": "làm việc tại nhà",
+          "category": "suggestion",
+          "example": "The company should allow employees to work from home twice a week."
+        },
+        {
+          "phrase": "help desk",
+          "meaningVi": "bộ phận hỗ trợ kỹ thuật",
+          "category": "general",
+          "example": "The help desk can repair your computer."
+        },
+        {
+          "phrase": "in person",
+          "meaningVi": "trực tiếp",
+          "category": "suggestion",
+          "example": "You should speak with them in person."
+        },
+        {
+          "phrase": "get fixed",
+          "meaningVi": "được sửa xong",
+          "category": "information",
+          "example": "We can get the problem fixed soon."
+        }
+      ],
+      "patterns": [
+        "Exactly how long ago ...?",
+        "I think you should ...",
+        "If that does not work, please ...",
+        "Do not worry."
+      ],
+      "sampleAnswer": [
+        "Hi Barry,",
+        "I understand your problem and I am sorry that the help desk has not solved it yet.",
+        "Exactly how long ago did you contact them?",
+        "I think you should visit the help desk in person and explain the issue again.",
+        "If that does not work, please ask to speak to the help desk manager.",
+        "Do not worry. I am sure we can get your computer fixed soon.",
+        "Slate"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "Exactly how long ago did you _____ them?",
+          "answer": "contact",
+          "meaningVi": "Bạn đã liên hệ với họ từ bao lâu trước?"
+        },
+        {
+          "sentence": "I think you should visit the help desk _____.",
+          "answer": "in person",
+          "meaningVi": "Bạn nên đến gặp bộ phận hỗ trợ trực tiếp."
+        },
+        {
+          "sentence": "I am sure we can get your computer _____ soon.",
+          "answer": "fixed",
+          "meaningVi": "Tôi chắc chúng ta có thể sửa máy tính của bạn sớm."
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Hi Barry,",
+        "opening": "I understand your problem and I am sorry that the help desk has not solved it yet.",
+        "bodySlots": [
+          "Exactly how long ago ...? ...",
+          "I think you should ...",
+          "If that does not work, please ..."
+        ],
+        "closing": "Slate"
+      }
+    },
+    {
+      "id": "w67-company-new-office",
+      "title": "Welcome to the department",
+      "topic": "Company Business / Events",
+      "level": "guided",
+      "email": {
+        "from": "P. Spata",
+        "to": "A. Means",
+        "subject": "Welcome",
+        "sent": "November 9, 4:08 P.M.",
+        "body": [
+          "Welcome!",
+          "I'm happy to have you in our department.",
+          "Please tell me if there is anything I can do to make your transition here more comfortable.",
+          "And let me know if you have any questions about working in our office."
+        ],
+        "translationVi": [
+          "Chào mừng!",
+          "Tôi rất vui khi có bạn trong phòng ban của chúng tôi.",
+          "Hãy cho tôi biết nếu có điều gì tôi có thể làm để giúp quá trình chuyển sang đây thoải mái hơn.",
+          "Và hãy cho tôi biết nếu bạn có câu hỏi nào về việc làm việc tại văn phòng của chúng tôi."
+        ]
+      },
+      "directions": "Respond to the e-mail as if you are A. Means. In your e-mail, ask TWO questions about working in the new office and make ONE request.",
+      "roleVi": "Bạn là A. Means, nhân viên mới chuyển đến văn phòng.",
+      "tasks": [
+        {
+          "type": "question",
+          "label": "Question 1",
+          "requirement": "Ask one question about the new office.",
+          "example": "Can you tell me where my desk will be located?"
+        },
+        {
+          "type": "question",
+          "label": "Question 2",
+          "requirement": "Ask a second question about office work.",
+          "example": "Will there be a meeting for new employees soon?"
+        },
+        {
+          "type": "request",
+          "label": "Request",
+          "requirement": "Make one request to help your transition.",
+          "example": "Could you provide me with a copy of the office schedule?"
+        }
+      ],
+      "vocabulary": [
+        {
+          "phrase": "transition",
+          "meaningVi": "quá trình chuyển đổi",
+          "category": "general",
+          "example": "I want to make the transition smoother."
+        },
+        {
+          "phrase": "provide me with ~",
+          "meaningVi": "cung cấp cho tôi",
+          "category": "request",
+          "example": "Could you provide me with the office schedule?"
+        },
+        {
+          "phrase": "be located",
+          "meaningVi": "được đặt ở",
+          "category": "question",
+          "example": "Where is my desk located?"
+        },
+        {
+          "phrase": "new employees",
+          "meaningVi": "nhân viên mới",
+          "category": "general",
+          "example": "There will be a meeting for new employees."
+        }
+      ],
+      "patterns": [
+        "Could you provide me with ...?",
+        "Can you tell me ...?",
+        "Will there be ...?",
+        "I am looking forward to ..."
+      ],
+      "sampleAnswer": [
+        "Hello, Mr. Spata,",
+        "I am very happy to be moving to your department.",
+        "Could you provide me with a copy of the office schedule?",
+        "Also, can you tell me where my desk will be located?",
+        "Lastly, will there be a meeting for new employees soon?",
+        "I am looking forward to working with you.",
+        "Thank you,",
+        "A. Means"
+      ],
+      "sampleBlanks": [
+        {
+          "sentence": "Could you provide me with a copy of the _____?",
+          "answer": "office schedule",
+          "meaningVi": "Ông có thể cung cấp cho tôi lịch văn phòng không?"
+        },
+        {
+          "sentence": "Can you tell me where my _____ will be located?",
+          "answer": "desk",
+          "meaningVi": "Ông có thể cho tôi biết bàn làm việc của tôi ở đâu không?"
+        },
+        {
+          "sentence": "Will there be a meeting for _____ soon?",
+          "answer": "new employees",
+          "meaningVi": "Sắp tới có cuộc họp cho nhân viên mới không?"
+        }
+      ],
+      "guidedOutline": {
+        "greeting": "Hello, Mr. Spata,",
+        "opening": "I am very happy to be moving to your department.",
+        "bodySlots": [
+          "Could you provide me with ...? ...",
+          "Can you tell me ...? ...",
+          "Will there be ...? ..."
+        ],
+        "closing": "A. Means"
+      }
+    }
+  ]
+}
