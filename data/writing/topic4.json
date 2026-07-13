@@ -587,19 +587,19 @@
         "rationale": "Chính xác! Động từ 'repairing' mô tả đúng nhất hành động khắc phục sửa chữa lốp xe bị hỏng."
       },
       {
-        "text": "The man is boarding a flat tire.",
+        "text": "The man is repairing at a flat tire.",
         "isCorrect": false,
-        "rationale": "Hoàn toàn sai nghĩa."
+        "rationale": "Wrong preposition. Repair takes the direct object a flat tire."
       },
       {
-        "text": "The man is getting a flat tire.",
+        "text": "The man is repair a flat tire.",
         "isCorrect": false,
-        "rationale": "Không đúng bối cảnh đang sửa chữa."
+        "rationale": "Wrong progressive form. After is, use repairing."
       },
       {
-        "text": "The man is carrying a flat tire.",
+        "text": "The man repairs a flat tire.",
         "isCorrect": false,
-        "rationale": "Cô ấy đang thao tác sửa chứ không phải khuân vác đi."
+        "rationale": "Simple present is less suitable for the action in progress."
       }
     ],
     "hint": "Hành động khắc phục sửa chữa lốp xe bị xẹp.",
@@ -644,19 +644,19 @@
         "rationale": "Chính xác! Cụm động từ cất cánh bay lên là 'take off'."
       },
       {
-        "text": "An airplane is boarding from the runway.",
+        "text": "An airplane is taking off the runway.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa: hành khách lên máy bay mới dùng 'board', máy bay cất cánh không dùng từ này."
+        "rationale": "The phrase needs from: taking off from the runway."
       },
       {
-        "text": "An airplane is getting from the runway.",
+        "text": "An airplane taking off from the runway.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa."
+        "rationale": "The sentence is incomplete because it is missing is."
       },
       {
-        "text": "An airplane is tying from the runway.",
+        "text": "An airplane takes off from the runway.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa."
+        "rationale": "Simple present is less suitable for the action shown now."
       }
     ],
     "hint": "Cụm động từ chỉ máy bay cất cánh lao lên trời.",
@@ -701,19 +701,19 @@
         "rationale": "Chính xác! Động từ lên tàu xe máy bay là 'boarding'."
       },
       {
-        "text": "Passengers are tying the airplane.",
+        "text": "Passengers are boarding on the airplane.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa hoàn toàn."
+        "rationale": "Board is transitive here, so we say board the airplane."
       },
       {
-        "text": "Passengers are getting the airplane.",
+        "text": "Passengers boarding the airplane.",
         "isCorrect": false,
-        "rationale": "Thiếu giới từ 'on' để tạo nghĩa lên xe."
+        "rationale": "The sentence is incomplete because it is missing are."
       },
       {
-        "text": "Passengers are carrying the airplane.",
+        "text": "Passengers board the airplane.",
         "isCorrect": false,
-        "rationale": "Hành khách không thể mang vác chiếc máy bay."
+        "rationale": "Simple present is less suitable for the action in progress."
       }
     ],
     "hint": "Hành động bước lên máy bay để bắt đầu chuyến bay.",
@@ -758,19 +758,19 @@
         "rationale": "Chính xác! Hành động bốc hàng lên máy bay dùng cụm 'loading cargo onto the plane'."
       },
       {
-        "text": "The worker is tying cargo onto the plane.",
+        "text": "The worker is loading cargo in the plane.",
         "isCorrect": false,
-        "rationale": "Họ đang xếp hàng lên chứ không phải cột chặt nó lại."
+        "rationale": "The intended movement onto the plane is best expressed with onto the plane."
       },
       {
-        "text": "The worker is boarding cargo onto the plane.",
+        "text": "The worker is load cargo onto the plane.",
         "isCorrect": false,
-        "rationale": "Hàng hóa không tự lên máy bay được."
+        "rationale": "Wrong progressive form. After is, use loading."
       },
       {
-        "text": "The worker is getting cargo onto the plane.",
+        "text": "The worker loads cargo onto the plane.",
         "isCorrect": false,
-        "rationale": "Không tự nhiên bằng động từ 'loading'."
+        "rationale": "Simple present is less suitable for the scene in progress."
       }
     ],
     "hint": "Hành động bốc xếp hàng hóa lên phương tiện.",
@@ -804,7 +804,7 @@
     "skillLabel": "Chia đúng thì của động từ",
     "topic": "Transportation",
     "keywords": [
-      "getting off"
+      "getting out of"
     ],
     "scene": "Người đàn ông đang bước xuống xe taxi.",
     "question": "Chọn động từ thích hợp nhất để điền vào chỗ trống.",
@@ -815,19 +815,19 @@
         "rationale": "Chính xác! Bước xuống phương tiện nhỏ khép kín như taxi ta dùng cụm 'get out of'."
       },
       {
-        "text": "A man is getting off a taxi.",
+        "text": "A man is getting out a taxi.",
         "isCorrect": false,
-        "rationale": "Không chuẩn xác: 'get off' dùng cho xe buýt, tàu hỏa lớn; xe con ta dùng 'get out of'."
+        "rationale": "The phrase needs of: getting out of a taxi."
       },
       {
-        "text": "A man is boarding a taxi.",
+        "text": "A man is get out of a taxi.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa: anh ấy đang đi ra chứ không phải đi vào xe."
+        "rationale": "Wrong progressive form. After is, use getting."
       },
       {
-        "text": "A man is tying a taxi.",
+        "text": "A man gets out of a taxi.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa hoàn toàn."
+        "rationale": "Simple present is less suitable for the action in progress."
       }
     ],
     "hint": "Bước xuống khỏi xe taxi dùng cụm động từ 'get out of'.",

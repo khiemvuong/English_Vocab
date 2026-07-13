@@ -587,19 +587,19 @@
         "rationale": "Chính xác! 'Parasol' là chiếc ô che nắng lớn ngoài trời, rất phù hợp bối cảnh."
       },
       {
-        "text": "They’re resting under a tree.",
+        "text": "They are resting under parasol.",
         "isCorrect": false,
-        "rationale": "Mặc dù đúng ngữ pháp nhưng bức tranh cho thấy họ đang ngồi dưới chiếc ô lớn ('parasol') chứ không phải gốc cây."
+        "rationale": "The singular noun parasol needs the article a."
       },
       {
-        "text": "They’re resting under a roof.",
+        "text": "They are resting in a parasol.",
         "isCorrect": false,
-        "rationale": "Không đúng bối cảnh mái nhà."
+        "rationale": "Wrong preposition. The natural phrase is under a parasol."
       },
       {
-        "text": "They’re resting under a bridge.",
+        "text": "They rest under a parasol.",
         "isCorrect": false,
-        "rationale": "Không đúng bối cảnh gầm cầu."
+        "rationale": "Simple present is less suitable for the action in the picture."
       }
     ],
     "hint": "Quan sát chiếc ô lớn che nắng ngoài bãi biển/công viên.",
@@ -644,19 +644,19 @@
         "rationale": "Chính xác! Hành động đẩy xe đẩy em bé dùng động từ 'pushing'."
       },
       {
-        "text": "The woman is pulling the baby stroller.",
+        "text": "The woman is push the baby stroller.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa: cô ấy đang đẩy phía trước chứ không phải kéo phía sau."
+        "rationale": "Wrong progressive form. After is, use pushing."
       },
       {
-        "text": "The woman is lifting the baby stroller.",
+        "text": "The woman pushes the baby stroller.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa: cô ấy không nhấc bổng xe lên."
+        "rationale": "Simple present is less suitable for the action in progress."
       },
       {
-        "text": "The woman is cleaning the baby stroller.",
+        "text": "The woman is pushing on the baby stroller.",
         "isCorrect": false,
-        "rationale": "Không đúng bối cảnh đi dạo."
+        "rationale": "Wrong preposition. Push here takes a direct object."
       }
     ],
     "hint": "Hành động đẩy phương tiện di chuyển về phía trước.",
@@ -701,19 +701,19 @@
         "rationale": "Chính xác! Cụm từ 'be gathered' chỉ trạng thái đám đông tụ tập cùng nhau."
       },
       {
-        "text": "People are leaning outside the building.",
+        "text": "People gathered outside the building.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa: đám đông tụ tập chứ không phải tất cả tựa vào tường."
+        "rationale": "The sentence needs are gathered to form the intended structure."
       },
       {
-        "text": "People are floating outside the building.",
+        "text": "People are gather outside the building.",
         "isCorrect": false,
-        "rationale": "Hoàn toàn sai nghĩa."
+        "rationale": "Wrong verb form. After are, use gathered."
       },
       {
-        "text": "People are shining outside the building.",
+        "text": "People is gathered outside the building.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa."
+        "rationale": "Wrong subject-verb agreement. People takes are."
       }
     ],
     "hint": "Trạng thái tụ tập tập hợp của một đám đông.",
@@ -815,19 +815,19 @@
         "rationale": "Chính xác! Trôi nổi trên mặt nước dùng động từ 'floating'."
       },
       {
-        "text": "A boat is sinking on the water.",
+        "text": "A boat is floating at the water.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa: thuyền đang trôi nổi chứ không phải bị đắm chìm."
+        "rationale": "Wrong preposition. The natural phrase is on the water."
       },
       {
-        "text": "A boat is flying on the water.",
+        "text": "A boat floating on the water.",
         "isCorrect": false,
-        "rationale": "Hoàn toàn sai nghĩa."
+        "rationale": "The sentence is incomplete because it is missing is."
       },
       {
-        "text": "A boat is gathered on the water.",
+        "text": "A boat floats on the water.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa."
+        "rationale": "Simple present is less suitable for the action shown in the picture."
       }
     ],
     "hint": "Thuyền trôi nổi lững lờ trên mặt nước.",
@@ -872,19 +872,19 @@
         "rationale": "Chính xác! Chiếu sáng rực rỡ chói chang dùng trạng từ 'brightly' bổ nghĩa cho động từ 'shining'."
       },
       {
-        "text": "The sun is shining gatherly.",
+        "text": "The sun is shining bright.",
         "isCorrect": false,
-        "rationale": "Sai từ nghĩa hoàn toàn."
+        "rationale": "Wrong word form. The verb shining needs the adverb brightly."
       },
       {
-        "text": "The sun is shining leanly.",
+        "text": "The sun shining brightly.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa hoàn toàn."
+        "rationale": "The sentence is incomplete because it is missing is."
       },
       {
-        "text": "The sun is shining floatingly.",
+        "text": "The sun shines brightly.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa hoàn toàn."
+        "rationale": "Simple present is less suitable for the scene happening now."
       }
     ],
     "hint": "Mặt trời tỏa nắng chói chang chói lọi.",

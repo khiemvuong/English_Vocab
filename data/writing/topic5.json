@@ -824,19 +824,19 @@
         "rationale": "Chính xác! 'Turn the page' là cụm từ cố định nghĩa là lật trang."
       },
       {
-        "text": "He's flipping the page of the book.",
+        "text": "He's turning page of the book.",
         "isCorrect": false,
-        "rationale": "Không dùng từ khóa 'turn' theo yêu cầu."
+        "rationale": "The fixed phrase needs the article the: turn the page."
+      },
+      {
+        "text": "He's turning the page on the book.",
+        "isCorrect": false,
+        "rationale": "Wrong preposition. The natural phrase is the page of the book."
       },
       {
         "text": "He turns the page of the book.",
         "isCorrect": false,
-        "rationale": "Thì hiện tại đơn không diễn tả khoảnh khắc đang lật trang."
-      },
-      {
-        "text": "He's turning the pages of the books.",
-        "isCorrect": false,
-        "rationale": "Sai số: anh ấy lật một trang của một cuốn sách, không phải nhiều."
+        "rationale": "Simple present is less suitable for the action happening now."
       }
     ],
     "hint": "Từ cần điền: turning (đang lật). Anh ấy đang lật trang sách.",

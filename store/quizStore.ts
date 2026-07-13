@@ -38,6 +38,8 @@ export interface WritingProgress {
   unlockedBlockIndex?: number;
   typedAnswers?: Record<number, { text: string; isCorrect: boolean; overrideCorrect?: boolean }>;
   vocabAnswers?: Record<number, number>; // questionIndex -> selectedPhraseOptionIndex
+  enabledStates?: Record<1 | 2 | 3, boolean>;
+  state3RetryIndices?: number[];
 }
 
 interface QuizStore {
@@ -69,6 +71,9 @@ interface QuizStore {
   answerWritingTyped: (sessionId: string, qIndex: number, text: string, isCorrect: boolean, overrideCorrect: boolean, skillType: string) => void;
   unlockNextBlock: (sessionId: string) => void;
   restartWritingBlock: (sessionId: string, indicesToClear: number[]) => void;
+  setWritingEnabledStates: (sessionId: string, enabledStates: Record<1 | 2 | 3, boolean>) => void;
+  restartWritingState3Mistakes: (sessionId: string, indicesToClear: number[]) => void;
+  clearWritingState3Retry: (sessionId: string) => void;
 }
 
 export const useQuizStore = create<QuizStore>()(
@@ -230,7 +235,9 @@ export const useQuizStore = create<QuizStore>()(
                 currentState: 1,
                 unlockedBlockIndex: 0,
                 typedAnswers: {},
-                vocabAnswers: {}
+                vocabAnswers: {},
+                enabledStates: { 1: true, 2: true, 3: true },
+                state3RetryIndices: []
               }
             }
           };
@@ -331,7 +338,9 @@ export const useQuizStore = create<QuizStore>()(
               currentState: 1,
               unlockedBlockIndex: 0,
               typedAnswers: {},
-              vocabAnswers: {}
+              vocabAnswers: {},
+              enabledStates: { 1: true, 2: true, 3: true },
+              state3RetryIndices: []
             }
           }
         };
@@ -346,7 +355,8 @@ export const useQuizStore = create<QuizStore>()(
               ...session,
               blockIndex,
               currentState,
-              currentIndex: 0
+              currentIndex: 0,
+              state3RetryIndices: currentState === 3 ? session.state3RetryIndices || [] : []
             }
           }
         };
@@ -362,7 +372,14 @@ export const useQuizStore = create<QuizStore>()(
               skippedStates: {
                 ...(session.skippedStates || {}),
                 [`${qIndex}-${currentState}`]: true
-              }
+              },
+              ...(currentState === 3
+                ? {
+                    typedAnswers: Object.fromEntries(
+                      Object.entries(session.typedAnswers || {}).filter(([key]) => Number(key) !== qIndex)
+                    )
+                  }
+                : {})
             }
           }
         };
@@ -437,7 +454,8 @@ export const useQuizStore = create<QuizStore>()(
               unlockedBlockIndex: nextUnlocked,
               blockIndex: nextUnlocked,
               currentState: 1,
-              currentIndex: 0
+              currentIndex: 0,
+              state3RetryIndices: []
             }
           }
         };
@@ -471,6 +489,59 @@ export const useQuizStore = create<QuizStore>()(
               typedAnswers: newTypedAnswers,
               skippedStates: newSkippedStates,
               isFinished: false
+            }
+          }
+        };
+      }),
+      setWritingEnabledStates: (sessionId, enabledStates) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              enabledStates
+            }
+          }
+        };
+      }),
+      restartWritingState3Mistakes: (sessionId, indicesToClear) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+
+        const newTypedAnswers = { ...(session.typedAnswers || {}) };
+        const newSkippedStates = { ...(session.skippedStates || {}) };
+
+        indicesToClear.forEach((idx) => {
+          delete newTypedAnswers[idx];
+          delete newSkippedStates[`${idx}-3`];
+        });
+
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              currentIndex: 0,
+              currentState: 3,
+              typedAnswers: newTypedAnswers,
+              skippedStates: newSkippedStates,
+              state3RetryIndices: indicesToClear,
+              isFinished: false
+            }
+          }
+        };
+      }),
+      clearWritingState3Retry: (sessionId) => set((state) => {
+        const session = state.writingProgress[sessionId];
+        if (!session) return state;
+        return {
+          writingProgress: {
+            ...state.writingProgress,
+            [sessionId]: {
+              ...session,
+              state3RetryIndices: []
             }
           }
         };

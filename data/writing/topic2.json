@@ -590,19 +590,19 @@
         "rationale": "Chính xác! Động từ 'vacuum' mô tả đúng nhất hành động của máy hút bụi trên sàn."
       },
       {
-        "text": "She is cleaning the floor.",
+        "text": "She is vacuuming on the floor.",
         "isCorrect": false,
-        "rationale": "Mặc dù đúng nghĩa nhưng động từ 'vacuuming' đặc tả và chính xác hơn cho hành động dùng máy hút bụi."
+        "rationale": "Wrong preposition. In this sentence, vacuum takes the direct object the floor."
       },
       {
-        "text": "She is pouring the floor.",
+        "text": "She is vacuum the floor.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa hoàn toàn."
+        "rationale": "Wrong progressive form. After is, use vacuuming."
       },
       {
-        "text": "She is dumping the floor.",
+        "text": "She vacuums the floor.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa hoàn toàn."
+        "rationale": "Simple present is less suitable for the action happening right now in the picture."
       }
     ],
     "hint": "Quan sát dụng cụ máy hút bụi cầm trên tay người phụ nữ.",
@@ -647,19 +647,19 @@
         "rationale": "Chính xác! Rót chất lỏng từ bình sang cốc dùng động từ 'pouring'."
       },
       {
-        "text": "She is dumping water into a cup.",
+        "text": "She is pouring water to a cup.",
         "isCorrect": false,
-        "rationale": "Động từ 'dump' mang nghĩa đổ bỏ rác hoặc vật liệu thô, không dùng cho rót nước."
+        "rationale": "Wrong preposition. The natural phrase is pour water into a cup."
       },
       {
-        "text": "She is cleaning water into a cup.",
+        "text": "She is pour water into a cup.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa."
+        "rationale": "Wrong progressive form. After is, use pouring."
       },
       {
-        "text": "She is arranging water into a cup.",
+        "text": "She pours water into a cup.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa."
+        "rationale": "Simple present is less suitable for the action happening now."
       }
     ],
     "hint": "Hành động rót nước vào cốc dùng động từ 'pour'.",
@@ -704,19 +704,19 @@
         "rationale": "Chính xác! Trạng thái được sắp đặt ngăn nắp dùng bị động 'have been arranged'."
       },
       {
-        "text": "Some items have been dumped on the floor.",
+        "text": "Some items have been arranged in the floor.",
         "isCorrect": false,
-        "rationale": "Động từ 'dump' chỉ việc đổ bỏ lộn xộn, trái ngược với trạng thái ngăn nắp trong tranh."
+        "rationale": "Wrong preposition. Items are arranged on the floor."
       },
       {
-        "text": "Some items have been poured on the floor.",
+        "text": "Some items have arranged on the floor.",
         "isCorrect": false,
-        "rationale": "Không dùng 'pour' cho đồ đạc (chỉ dùng cho chất lỏng/hạt nhỏ)."
+        "rationale": "Wrong passive structure. The sentence needs have been arranged."
       },
       {
-        "text": "Some items have been vacuumed on the floor.",
+        "text": "Some items have been arranging on the floor.",
         "isCorrect": false,
-        "rationale": "Không hợp ngữ nghĩa."
+        "rationale": "Wrong verb form. After have been in this passive pattern, use arranged."
       }
     ],
     "hint": "Vật dụng được xếp đặt gọn gàng ngăn nắp.",
@@ -761,19 +761,19 @@
         "rationale": "Chính xác! Động từ 'dump' đặc tả hành động đổ rác hoặc vứt bỏ chất thải."
       },
       {
-        "text": "The man is cleaning the garbage.",
+        "text": "The man is dump the garbage.",
         "isCorrect": false,
-        "rationale": "Không tự nhiên bằng động từ 'dumping the garbage'."
+        "rationale": "Wrong progressive form. After is, use dumping."
       },
       {
-        "text": "The man is arranging the garbage.",
+        "text": "The man dumping the garbage.",
         "isCorrect": false,
-        "rationale": "Không ai đi sắp xếp rác thải theo cách này."
+        "rationale": "The sentence is incomplete because it is missing is."
       },
       {
-        "text": "The man is vacuuming the garbage.",
+        "text": "The man dumps the garbage.",
         "isCorrect": false,
-        "rationale": "Hút bụi rác thải không đúng ngữ cảnh."
+        "rationale": "Simple present is less suitable for the action in progress."
       }
     ],
     "hint": "Hành động đổ hoặc vứt bỏ rác thải.",
@@ -818,19 +818,19 @@
         "rationale": "Chính xác! Động từ 'stands' mô tả vị trí dựng đứng, đứng yên dọc theo bức tường."
       },
       {
-        "text": "A television pours along the wall.",
+        "text": "A television stands on the wall.",
         "isCorrect": false,
-        "rationale": "Hoàn toàn sai nghĩa."
+        "rationale": "Wrong location phrase. The television is standing along the wall, not on the wall."
       },
       {
-        "text": "A television cleans along the wall.",
+        "text": "A television stand along the wall.",
         "isCorrect": false,
-        "rationale": "Ti vi không tự làm sạch dọc theo bức tường."
+        "rationale": "Wrong subject-verb agreement. A television takes stands."
       },
       {
-        "text": "A television vacuums along the wall.",
+        "text": "A television stands along wall.",
         "isCorrect": false,
-        "rationale": "Sai nghĩa."
+        "rationale": "The sentence needs the article the before wall."
       }
     ],
     "hint": "Vị trí đặt thẳng đứng của chiếc ti vi cạnh bức tường.",
@@ -875,19 +875,19 @@
         "rationale": "Chính xác! Hành động lau dọn bàn bếp dùng động từ 'cleaning'."
       },
       {
-        "text": "The woman is pouring the counter.",
+        "text": "The woman is cleaning at the counter.",
         "isCorrect": false,
-        "rationale": "Rót bàn bếp là sai nghĩa."
+        "rationale": "Wrong preposition. Here clean takes the direct object the counter."
       },
       {
-        "text": "The woman is arranging the counter.",
+        "text": "The woman is clean the counter.",
         "isCorrect": false,
-        "rationale": "Không phù hợp bối cảnh dùng giẻ lau mặt bàn."
+        "rationale": "Wrong progressive form. After is, use cleaning."
       },
       {
-        "text": "The woman is standing the counter.",
+        "text": "The woman cleans the counter.",
         "isCorrect": false,
-        "rationale": "Sai ngữ pháp và nghĩa."
+        "rationale": "Simple present is less suitable for the action in progress."
       }
     ],
     "hint": "Hành động lau chùi, dọn dẹp mặt bàn bếp.",
