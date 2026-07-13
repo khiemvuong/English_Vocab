@@ -1,6 +1,6 @@
 "use client";
 
-import { useQuizStore } from "@/store/quizStore";
+import { useLessonProgressStore } from "@/store/lessonProgressStore";
 import { useEffect, useState } from "react";
 import { ProgressCard } from "@/components/common/ProgressCard";
 
@@ -13,7 +13,7 @@ interface PracticeCardProps {
 
 export function PracticeCard({ testId, testLabel, questionRange, isAvailable }: PracticeCardProps) {
   const [mounted, setMounted] = useState(false);
-  const progressState = useQuizStore(state => state.progress[`part5-${testId}`]);
+  const progressState = useLessonProgressStore(state => state.progress[`part5-${testId}`]);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect

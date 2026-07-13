@@ -1,12 +1,12 @@
 "use client";
 
-import { useQuizStore } from "@/store/quizStore";
+import { useScenarioProgressStore } from "@/store/scenarioProgressStore";
 import { useEffect, useState } from "react";
 import { ProgressCard } from "@/components/common/ProgressCard";
 
 export function ScenarioBanner({ testId, totalBlanks }: { testId: string, totalBlanks: number }) {
   const [mounted, setMounted] = useState(false);
-  const progressState = useQuizStore(state => state.scenarioProgress[testId]);
+  const progressState = useScenarioProgressStore(state => state.scenarioProgress[testId]);
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
