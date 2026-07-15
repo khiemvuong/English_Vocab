@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useMemo, useRef, useSyncExternalStore, type PointerEvent, type RefObject } from "react";
 import { useSearchParams, useRouter, usePathname } from "next/navigation";
 import dynamic from "next/dynamic";
 import { BookOpen, FileText, LayoutList, CheckCircle, Pencil } from "lucide-react";
@@ -17,16 +17,18 @@ import { GlassFilter } from "@/components/ui/liquid-glass";
 import { GuidedTour, GuidedTourStep } from "@/components/common/GuidedTour";
 import { WRITING_Q15_LESSONS, WRITING_Q67_LESSONS } from "@/lib/writingLessonCatalog";
 
-const HomeMeshBackground = dynamic(() => import("@/components/home/HomeMeshBackground").then((m) => m.HomeMeshBackground), {
-  ssr: false,
-});
-
 const Spline = dynamic(() => import("@splinetool/react-spline"), {
   ssr: false,
-  loading: () => <div className="absolute inset-0 bg-slate-950" />
+  loading: () => <div className="h-full w-full" />
 });
 
-const createSplineMouseMove = (event: React.PointerEvent<HTMLDivElement>) => (
+const HERO_3D_MEDIA_QUERY = "(min-width: 1024px) and (pointer: fine)";
+const REDUCED_MOTION_MEDIA_QUERY = "(prefers-reduced-motion: reduce)";
+const HERO_3D_IDLE_TIMEOUT = 1400;
+const HERO_POSTER_URL = "https://ik.imagekit.io/khiemvuong123/bg.jpeg";
+const SPLINE_SCENE_URL = "https://prod.spline.design/Hoc-5P8xfjMh7imC/scene.splinecode";
+
+const createSplineMouseMove = (event: PointerEvent<HTMLDivElement>) => (
   new MouseEvent("mousemove", {
     bubbles: true,
     cancelable: true,
@@ -81,6 +83,116 @@ const TABS = [
   },
 ] as const;
 
+type TabId = (typeof TABS)[number]["id"];
+
+function normalizeTab(tab: string | null): TabId {
+  if (tab === "part5" || tab === "ets2026") return "part5";
+  if (tab === "part6" || tab === "writing" || tab === "vocab") return tab;
+  return "vocab";
+}
+
+type IdleWindow = Window & {
+  requestIdleCallback?: (callback: IdleRequestCallback, options?: IdleRequestOptions) => number;
+  cancelIdleCallback?: (handle: number) => void;
+};
+
+function useMediaQuery(query: string) {
+  const subscribe = useCallback((callback: () => void) => {
+    const mediaQuery = window.matchMedia(query);
+    mediaQuery.addEventListener("change", callback);
+
+    return () => mediaQuery.removeEventListener("change", callback);
+  }, [query]);
+  const getSnapshot = useCallback(() => window.matchMedia(query).matches, [query]);
+  const getServerSnapshot = useCallback(() => false, []);
+
+  return useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
+}
+
+function useDeferredHero3d(heroRef: RefObject<HTMLDivElement | null>) {
+  const isDesktopPointer = useMediaQuery(HERO_3D_MEDIA_QUERY);
+  const prefersReducedMotion = useMediaQuery(REDUCED_MOTION_MEDIA_QUERY);
+  const [isHeroVisible, setIsHeroVisible] = useState(false);
+  const [isIdle, setIsIdle] = useState(false);
+
+  useEffect(() => {
+    if (!isDesktopPointer || prefersReducedMotion) {
+      return;
+    }
+
+    const node = heroRef.current;
+    if (!node || !("IntersectionObserver" in window)) {
+      const handle = window.setTimeout(() => setIsHeroVisible(true), 0);
+      return () => window.clearTimeout(handle);
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((entry) => entry.isIntersecting)) {
+          setIsHeroVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "180px" }
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [heroRef, isDesktopPointer, prefersReducedMotion]);
+
+  useEffect(() => {
+    if (!isDesktopPointer || prefersReducedMotion || !isHeroVisible) {
+      return;
+    }
+
+    const idleWindow = window as IdleWindow;
+    if (idleWindow.requestIdleCallback) {
+      const handle = idleWindow.requestIdleCallback(() => setIsIdle(true), {
+        timeout: HERO_3D_IDLE_TIMEOUT,
+      });
+
+      return () => idleWindow.cancelIdleCallback?.(handle);
+    }
+
+    const handle = window.setTimeout(() => setIsIdle(true), HERO_3D_IDLE_TIMEOUT);
+    return () => window.clearTimeout(handle);
+  }, [isDesktopPointer, isHeroVisible, prefersReducedMotion]);
+
+  return isDesktopPointer && !prefersReducedMotion && isHeroVisible && isIdle;
+}
+
+function HomeStaticBackdrop() {
+  return (
+    <div className="fixed inset-0 z-0 pointer-events-none select-none bg-[linear-gradient(135deg,#030712_0%,#0a0f1f_40%,#050505_100%)]">
+      <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(20,184,166,0.1),transparent_30%,rgba(245,158,11,0.08)_68%,transparent)]" />
+      <div className="absolute inset-0 bg-black/45" />
+    </div>
+  );
+}
+
+function HeroRobotFallback({ isDimmed }: { isDimmed: boolean }) {
+  return (
+    <div
+      className={`absolute inset-x-0 top-0 z-0 h-[48vh] min-h-[320px] max-h-[420px] pointer-events-none select-none overflow-hidden transition-opacity duration-500 md:inset-0 md:h-full md:max-h-none ${
+        isDimmed ? "opacity-0" : "opacity-100"
+      }`}
+    >
+      <div className="absolute inset-0 bg-linear-to-r from-black via-black/88 via-52% to-black/28 md:bg-[linear-gradient(90deg,rgba(0,0,0,0.84),rgba(0,0,0,0.32)_50%,rgba(0,0,0,0.86))]" />
+      <div className="absolute inset-y-0 w-full max-w-full">
+        <Image
+          alt="TOEIC Mastery robot"
+          className="object-contain object-right md:object-center"
+          fill
+          priority
+          sizes="100vw"
+          src={HERO_POSTER_URL}
+        />
+      </div>
+      <div className="absolute inset-x-0 bottom-0 h-24 bg-linear-to-b from-transparent to-black" />
+    </div>
+  );
+}
+
 interface Part5Test {
   id: string;
   label: string;
@@ -128,49 +240,42 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
   const router = useRouter();
   const pathname = usePathname();
   const paramTab = searchParams.get("tab");
+  const heroRef = useRef<HTMLDivElement>(null);
+  const splineHostRef = useRef<HTMLDivElement>(null);
 
-  const [activeTab, setActiveTab] = useState(
-    paramTab === "part5" || paramTab === "ets2026" ? "part5" : paramTab === "part6" ? "part6" : paramTab === "writing" ? "writing" : "vocab"
+  const [activeTab, setActiveTab] = useState<TabId>(() => normalizeTab(paramTab));
+  const shouldMountHero3d = useDeferredHero3d(heroRef);
+  const vocabLessons = useMemo(
+    () => Array.from({ length: totalVocabLessons }, (_, i) => i + 1),
+    [totalVocabLessons]
   );
-  const [isDesktopHero, setIsDesktopHero] = useState(false);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(min-width: 768px)");
-    const syncViewport = () => setIsDesktopHero(mediaQuery.matches);
-
-    syncViewport();
-    mediaQuery.addEventListener("change", syncViewport);
-
-    return () => mediaQuery.removeEventListener("change", syncViewport);
-  }, []);
+  const availableVocabLessonSet = useMemo(
+    () => new Set(availableVocabLessons),
+    [availableVocabLessons]
+  );
 
   useEffect(() => {
     if (paramTab === "part5" || paramTab === "ets2026" || paramTab === "vocab" || paramTab === "part6" || paramTab === "writing") {
       // eslint-disable-next-line react-hooks/set-state-in-effect
-      setActiveTab(paramTab === "ets2026" ? "part5" : paramTab);
+      setActiveTab(normalizeTab(paramTab));
     }
   }, [paramTab]);
 
 
-  const handleTabChange = (tabId: string) => {
+  const handleTabChange = useCallback((tabId: TabId) => {
     setActiveTab(tabId);
     router.replace(`${pathname}?tab=${tabId}`, { scroll: false });
-  };
+  }, [pathname, router]);
 
-  const forwardTapToSpline = useCallback((event: React.PointerEvent<HTMLDivElement>) => {
-    if (!isDesktopHero) {
-      return;
-    }
-
-    const canvas = document.querySelector<HTMLCanvasElement>("canvas");
+  const forwardTapToSpline = useCallback((event: PointerEvent<HTMLDivElement>) => {
+    const canvas = splineHostRef.current?.querySelector<HTMLCanvasElement>("canvas");
 
     if (!canvas) {
-      window.dispatchEvent(createSplineMouseMove(event));
       return;
     }
 
     canvas.dispatchEvent(createSplineMouseMove(event));
-  }, [isDesktopHero]);
+  }, []);
 
   const getTabInfo = (id: string) => {
     switch (id) {
@@ -210,37 +315,23 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
   return (
     <div
       className="min-h-dvh relative overflow-hidden w-full bg-black flex flex-col justify-between"
-      onPointerDown={isDesktopHero ? forwardTapToSpline : undefined}
+      onPointerDown={shouldMountHero3d ? forwardTapToSpline : undefined}
     >
-      {isDesktopHero ? <HomeMeshBackground /> : null}
+      <HomeStaticBackdrop />
       <GlassFilter />
       
       {/* ── Hero Section Wrapper (Stable Height, Holds centered Spline Robot) ── */}
-      <div className="relative w-full min-h-[80vh] lg:min-h-[85vh] flex flex-col justify-between">
+      <div ref={heroRef} className="relative w-full min-h-[80vh] lg:min-h-[85vh] flex flex-col justify-between">
         
         {/* ── Seamless Center-Top Spline Robot Background (Anchored to Hero wrapper) ── */}
-        {isDesktopHero ? (
+        <HeroRobotFallback isDimmed={shouldMountHero3d} />
+        {shouldMountHero3d ? (
           <div className="absolute inset-0 z-0 flex justify-center items-center pointer-events-none select-none">
-            <div className="w-[900px] h-[900px] sm:w-[1100px] sm:h-[1100px] lg:w-[1400px] lg:h-[1400px] opacity-75 shrink-0 scale-120 sm:scale-125 lg:scale-130 translate-y-[-2%] sm:translate-y-[-4%] lg:translate-y-[-5%] translate-x-[-1.5%] sm:translate-x-[-2%] lg:translate-x-[-2.5%] transition-all duration-500 flex justify-center items-center">
-              <Spline scene="https://prod.spline.design/Hoc-5P8xfjMh7imC/scene.splinecode" />
+            <div ref={splineHostRef} className="w-[900px] h-[900px] sm:w-[1100px] sm:h-[1100px] lg:w-[1400px] lg:h-[1400px] opacity-75 shrink-0 scale-120 sm:scale-125 lg:scale-130 translate-y-[-2%] sm:translate-y-[-4%] lg:translate-y-[-5%] translate-x-[-1.5%] sm:translate-x-[-2%] lg:translate-x-[-2.5%] transition-all duration-500 flex justify-center items-center">
+              <Spline scene={SPLINE_SCENE_URL} />
             </div>
           </div>
-        ) : (
-          <div className="absolute inset-x-0 top-0 z-0 h-[48vh] min-h-[320px] max-h-[420px] pointer-events-none select-none overflow-hidden">
-            <div className="absolute inset-0 bg-linear-to-r from-black via-black/88 via-52% to-black/28" />
-            <div className="absolute inset-y-0 w-full max-w-full">
-              <Image
-                alt="TOEIC Mastery robot"
-                className="object-contain object-right"
-                fill
-                priority
-                sizes="100vw"
-                src="https://ik.imagekit.io/khiemvuong123/bg.jpeg"
-              />
-            </div>
-            <div className="absolute inset-x-0 bottom-0 h-24 bg-linear-to-b from-transparent to-black" />
-          </div>
-        )}
+        ) : null}
 
         {/* ── Hero Content (Max width container) ── */}
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-8 lg:px-12 pt-24 md:pt-28 pb-10 flex flex-col flex-1 justify-between">
@@ -355,24 +446,21 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
 
 
           {/* Vocab tab */}
-          <div
-            style={{ display: activeTab === "vocab" ? "block" : "none" }}
-            className="animate-in fade-in duration-200"
-          >
+          {activeTab === "vocab" ? (
+          <div className="animate-in fade-in duration-200">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
-              {Array.from({ length: totalVocabLessons }, (_, i) => i + 1).map((lesson) => (
+              {vocabLessons.map((lesson) => (
                 <div key={lesson} id={lesson === 1 ? "vocab-lesson-1" : undefined} className="w-full">
-                  <LessonCard lesson={lesson} isAvailable={availableVocabLessons.includes(lesson)} />
+                  <LessonCard lesson={lesson} isAvailable={availableVocabLessonSet.has(lesson)} />
                 </div>
               ))}
             </div>
           </div>
+          ) : null}
 
           {/* Part5 + ETS tab */}
-          <div
-            style={{ display: activeTab === "part5" ? "block" : "none" }}
-            className="animate-in fade-in duration-200"
-          >
+          {activeTab === "part5" ? (
+          <div className="animate-in fade-in duration-200">
             <div className="space-y-10">
               <PracticeSection
                 eyebrow="Review"
@@ -414,12 +502,11 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
               </PracticeSection>
             </div>
           </div>
+          ) : null}
 
           {/* Part6 tab */}
-          <div
-            style={{ display: activeTab === "part6" ? "block" : "none" }}
-            className="animate-in fade-in duration-200"
-          >
+          {activeTab === "part6" ? (
+          <div className="animate-in fade-in duration-200">
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5">
               {part6Tests.map((test) => (
                 <Part6Card
@@ -431,12 +518,11 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
               ))}
             </div>
           </div>
+          ) : null}
 
           {/* Writing Practice tab */}
-          <div
-            style={{ display: activeTab === "writing" ? "block" : "none" }}
-            className="animate-in fade-in duration-200"
-          >
+          {activeTab === "writing" ? (
+          <div className="animate-in fade-in duration-200">
             <div className="space-y-10">
               <PracticeSection
                 eyebrow="Email response"
@@ -474,6 +560,7 @@ export function HomeContent({ part5Tests, part6Tests, ets2026Tests, totalVocabLe
               </PracticeSection>
             </div>
           </div>
+          ) : null}
 
       </div>
 

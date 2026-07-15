@@ -10,12 +10,18 @@ import { renderFormattedText } from "@/utils/textFormatting";
 interface Part5QuizBundle {
   id: string;
   title: string;
+  sourceLabel: string;
+  progressKey: string;
+  href: string;
   quizData: QuizData;
 }
 
 interface WrongQuestion {
   testId: string;
   testTitle: string;
+  sourceLabel: string;
+  progressKey: string;
+  href: string;
   questionIndex: number;
   question: Question;
   selectedText: string;
@@ -39,8 +45,8 @@ export function Part5MistakesReview({ quizzes }: Part5MistakesReviewProps) {
   const wrongQuestions = useMemo(() => {
     if (!mounted) return [];
 
-    return quizzes.flatMap(({ id, title, quizData }) => {
-      const lessonProgress = progress[`part5-${id}`];
+    return quizzes.flatMap(({ id, title, sourceLabel, progressKey, href, quizData }) => {
+      const lessonProgress = progress[progressKey];
       if (!lessonProgress) return [];
 
       return Object.entries(lessonProgress.answers).flatMap(([rawIndex, selectedIndex]) => {
@@ -54,6 +60,9 @@ export function Part5MistakesReview({ quizzes }: Part5MistakesReviewProps) {
         return [{
           testId: id,
           testTitle: title,
+          sourceLabel,
+          progressKey,
+          href,
           questionIndex,
           question,
           selectedText: selectedOption.text,
@@ -66,7 +75,7 @@ export function Part5MistakesReview({ quizzes }: Part5MistakesReviewProps) {
 
   const groupedQuestions = useMemo(() => {
     return wrongQuestions.reduce<Record<string, WrongQuestion[]>>((groups, item) => {
-      groups[item.testId] = [...(groups[item.testId] ?? []), item];
+      groups[item.progressKey] = [...(groups[item.progressKey] ?? []), item];
       return groups;
     }, {});
   }, [wrongQuestions]);
@@ -113,11 +122,13 @@ export function Part5MistakesReview({ quizzes }: Part5MistakesReviewProps) {
           </section>
         ) : (
           <div className="space-y-8">
-            {Object.entries(groupedQuestions).map(([testId, items]) => (
-              <section key={testId} className="space-y-4">
+            {Object.entries(groupedQuestions).map(([progressKey, items]) => (
+              <section key={progressKey} className="space-y-4">
                 <div className="flex items-center justify-between px-1">
                   <div>
-                    <p className="text-[11px] font-black uppercase tracking-[0.22em] text-amber-300/80">{testId}</p>
+                    <p className="text-[11px] font-black uppercase tracking-[0.22em] text-amber-300/80">
+                      {items[0].sourceLabel} / {items[0].testId}
+                    </p>
                     <h2 className="text-2xl font-black tracking-tight text-white">{items[0].testTitle}</h2>
                   </div>
                   <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-bold text-slate-300">
@@ -128,7 +139,7 @@ export function Part5MistakesReview({ quizzes }: Part5MistakesReviewProps) {
                 <div className="space-y-4">
                   {items.map((item) => (
                     <article
-                      key={`${item.testId}-${item.questionIndex}`}
+                      key={`${item.progressKey}-${item.questionIndex}`}
                       className="rounded-3xl border border-white/10 bg-white/4 p-5 shadow-xl shadow-black/20"
                     >
                       <div className="mb-4 flex items-center justify-between gap-3">
@@ -136,7 +147,7 @@ export function Part5MistakesReview({ quizzes }: Part5MistakesReviewProps) {
                           Câu {item.questionIndex + 1}
                         </span>
                         <Link
-                          href={`/part5/${item.testId}`}
+                          href={item.href}
                           className="text-xs font-bold text-amber-200 transition-colors hover:text-amber-100"
                         >
                           Mở bài gốc
