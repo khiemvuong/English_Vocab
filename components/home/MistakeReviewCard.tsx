@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useSyncExternalStore } from "react";
 import { AlertTriangle, ArrowRight, RotateCcw } from "lucide-react";
 import { useLessonProgressStore } from "@/store/lessonProgressStore";
 
@@ -8,15 +9,29 @@ interface MistakeReviewCardProps {
   href: string;
 }
 
+const subscribeToHydration = () => () => {};
+const getClientHydrationSnapshot = () => true;
+const getServerHydrationSnapshot = () => false;
+
+function useHasHydrated() {
+  return useSyncExternalStore(
+    subscribeToHydration,
+    getClientHydrationSnapshot,
+    getServerHydrationSnapshot
+  );
+}
+
 export function MistakeReviewCard({ href }: MistakeReviewCardProps) {
+  const hasHydrated = useHasHydrated();
   const wrongCount = useLessonProgressStore((state) =>
     Object.entries(state.progress)
-      .filter(([lessonId]) => lessonId.startsWith("part5-") && !lessonId.startsWith("part5-ets2026-"))
+      .filter(([lessonId]) => lessonId.startsWith("part5-"))
       .reduce((total, [, progress]) => {
         const answeredCount = Object.keys(progress.answers).length;
         return total + Math.max(0, answeredCount - progress.score);
       }, 0)
   );
+  const visibleWrongCount = hasHydrated ? wrongCount : 0;
 
   return (
     <Link
@@ -39,7 +54,7 @@ export function MistakeReviewCard({ href }: MistakeReviewCardProps) {
         </div>
         <div className="flex items-center justify-between gap-4 md:flex-col md:items-end">
           <div className="text-left md:text-right">
-            <p className="text-4xl font-black tabular-nums text-white">{wrongCount}</p>
+            <p className="text-4xl font-black tabular-nums text-white">{visibleWrongCount}</p>
             <p className="text-xs font-bold uppercase tracking-widest text-amber-100/60">câu cần ôn</p>
           </div>
           <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-black text-slate-950 transition-transform duration-300 group-hover:translate-x-1">

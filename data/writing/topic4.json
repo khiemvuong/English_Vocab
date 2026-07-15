@@ -64,7 +64,7 @@
     "keywords": [
       "parked"
     ],
-    "scene": "Một vài chiếc xe ô tô được đỗ ngăn nắp bên trong bãi đỗ xe.",
+    "scene": "Một vài chiếc xe ô tô được đỗ bên trong bãi đỗ xe.",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'parked'.",
     "answerOptions": [
       {
@@ -853,7 +853,7 @@
         "isCorrect": false
       }
     ],
-    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/54_2_4Y4MScRS-.jpeg"
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/images.jpg"
   },
   {
     "id": "t4-q16",
@@ -911,7 +911,7 @@
         "isCorrect": false
       }
     ],
-    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/55_1_3yoBe084Y.jpeg"
+    "image": "https://ik.imagekit.io/khiemvuong123/toeic-writing/55_2.jpeg"
   },
   {
     "id": "t4-q17",
@@ -1096,26 +1096,26 @@
       "in front of",
       "some"
     ],
-    "scene": "Một vài người công nhân đang trồng hoa phía trước tòa nhà.",
+    "scene": "Một vài người công nhân đang trồng cây phía trước tòa nhà.",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'in front of' và 'some'.",
     "answerOptions": [
       {
-        "text": "Some workers are planting flowers in front of the building.",
+        "text": "Some workers are planting some plants in front of the building.",
         "isCorrect": true,
         "rationale": "Chính xác! Câu chứa lượng từ 'some' đi với danh từ số nhiều và cụm giới từ 'in front of'."
       },
       {
-        "text": "Some workers are planting flowers behind the building.",
+        "text": "Some workers are planting some plants behind the building.",
         "isCorrect": false,
         "rationale": "Sai từ khóa: đề bài yêu cầu 'in front of' (phía trước) chứ không dùng 'behind'."
       },
       {
-        "text": "Workers are planting flowers in front of the building.",
+        "text": "Workers are planting some plants in front of the building.",
         "isCorrect": false,
         "rationale": "Sai từ khóa: thiếu lượng từ 'some'."
       },
       {
-        "text": "Some workers plant flowers in front of the building.",
+        "text": "Some workers plant some plants in front of the building.",
         "isCorrect": false,
         "rationale": "Thì tiếp diễn mô tả sinh động hơn hành động đang làm."
       }
@@ -1123,8 +1123,8 @@
     "hint": "Sử dụng từ chỉ số lượng 'some' và giới từ chỉ vị trí phía trước 'in front of'.",
     "phraseOptions": [
       {
-        "text": "Plant flowers in front of",
-        "meaning": "Trồng hoa phía trước",
+        "text": "Plant some plants in front of",
+        "meaning": "Trồng cây phía trước",
         "isCorrect": true
       },
       {
@@ -1154,7 +1154,7 @@
       "shovel",
       "onto"
     ],
-    "scene": "Người đàn ông dùng chiếc xẻng xúc đất đổ lên xe hoặc mặt đất.",
+    "scene": "Người đàn ông dùng chiếc xẻng xúc cát đổ lên xe hoặc mặt đất.",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'shovel' và 'onto'.",
     "answerOptions": [
       {
