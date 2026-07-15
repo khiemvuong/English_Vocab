@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { AlertTriangle, ArrowLeft, ArrowRight, Check, CheckCircle2, ClipboardList, Eye, FilePenLine, Flag, Languages, RotateCcw, Timer, Trophy, Wand2 } from "lucide-react";
 import { AnswerButtonList } from "@/components/common/AnswerButtonList";
 import { QuizHeader } from "@/components/common/QuizHeader";
-import { WritingProgressOverview } from "@/components/writing/shared/WritingProgressOverview";
 import { useAudioStore } from "@/store/audioStore";
 import type { Writing67Prompt, Writing67Set, Writing67TaskType, Writing67VocabularyItem } from "@/lib/types";
 import {
@@ -299,20 +298,6 @@ export function Writing67PracticeEngine({ data }: Writing67PracticeEngineProps) 
       });
     }).length;
   }, 0);
-  const completedPromptCount = data.prompts.filter((item) => {
-    return Boolean(completedPrompts[item.id]) && STEPS.every((stepItem) => {
-      return Boolean(completedSteps[stepKey(item.id, stepItem.id)]) && isStepReady({
-        prompt: item,
-        step: stepItem.id,
-        selectedVocabAnswers,
-        contextAnswers,
-        selectedTaskTypes: selectedTaskTypesByPrompt[item.id] ?? [],
-        selectedPatternIds: selectedPatternIdsByPrompt[item.id] ?? [],
-        blankAnswers,
-        draft: drafts[item.id] ?? "",
-      });
-    });
-  }).length;
   const progressPercent = isFinished ? 100 : Math.round((completedUnitCount / totalUnits) * 100);
   const currentStepReady = isStepReady({
     prompt,
@@ -505,16 +490,6 @@ export function Writing67PracticeEngine({ data }: Writing67PracticeEngineProps) 
           onToggleMute={toggleMute}
           onRestart={restartAll}
           onExit={() => router.push("/?tab=writing")}
-        />
-
-        <WritingProgressOverview
-          currentLabel={`Câu ${promptIndex + 1} - ${STEPS[step].label}`}
-          completedItems={completedPromptCount}
-          totalItems={data.prompts.length}
-          completedUnits={completedUnitCount}
-          totalUnits={totalUnits}
-          progressPercent={progressPercent}
-          isFinished={isFinished}
         />
 
         <StepBar

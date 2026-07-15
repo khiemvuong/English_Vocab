@@ -66,26 +66,26 @@
       "sells",
       "clothes"
     ],
-    "scene": "Một cửa hàng bán nhiều quần áo dành cho nam giới.",
+    "scene": "Một cửa hàng bán nhiều quần áo",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng từ khóa 'sells, clothes'.",
     "answerOptions": [
       {
-        "text": "The shop sells many clothes for men.",
+        "text": "The shop sells many clothes.",
         "isCorrect": true,
         "rationale": "Chính xác! Hiện tại đơn diễn tả trạng thái thường xuyên của cửa hàng."
       },
       {
-        "text": "The shop is selling many clothes for men.",
+        "text": "The shop is selling many clothes.",
         "isCorrect": false,
         "rationale": "Hiện tại tiếp diễn không phù hợp khi mô tả đặc điểm cố định của cửa hàng."
       },
       {
-        "text": "The shop sell many clothes for men.",
+        "text": "The shop sell many clothes.",
         "isCorrect": false,
         "rationale": "Sai chia động từ: chủ ngữ số ít 'the shop' cần động từ có 's'."
       },
       {
-        "text": "The shop sold many clothes for men.",
+        "text": "The shop sold many clothes.",
         "isCorrect": false,
         "rationale": "Thì quá khứ không phù hợp để mô tả đặc điểm hiện tại."
       }
@@ -93,13 +93,13 @@
     "hint": "Cửa hàng bán (sells) nhiều loại quần áo nam (clothes for men).",
     "phraseOptions": [
       {
-        "text": "Sell clothes for men",
-        "meaning": "Bán quần áo nam",
+        "text": "Sell clothes",
+        "meaning": "Bán quần áo",
         "isCorrect": true
       },
       {
-        "text": "Display women's fashion",
-        "meaning": "Trưng bày thời trang nữ",
+        "text": "Display some food",
+        "meaning": "Trưng bày đồ ăn",
         "isCorrect": false
       },
       {
@@ -930,35 +930,35 @@
       "some",
       "up"
     ],
-    "scene": "Một số đồ vật được xếp chồng lên nhau trên xe đẩy.",
+    "scene": "Một số đồ vật bị bỏ lại trên xe đẩy.",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng từ khóa 'some, up'.",
     "answerOptions": [
       {
-        "text": "Some items are piled up on the cart.",
+        "text": "Some items were left on the cart.",
         "isCorrect": true,
-        "rationale": "Chính xác! 'Pile up' nghĩa là xếp chồng, bị động 'are piled up' diễn tả đồ đang được xếp chồng."
+        "rationale": "Chính xác!"
       },
       {
-        "text": "Some items pile up on the cart.",
+        "text": "Some items was left on the cart.",
         "isCorrect": false,
-        "rationale": "Sai dạng: cần bị động 'are piled up' vì đồ vật không tự chồng lên nhau."
+        "rationale": "Danh từ số nhiều 'some items' đi với 'were', không phải 'was'."
       },
       {
-        "text": "Some item is piled up on the cart.",
+        "text": "Some item left on the cart.",
+        "isCorrect": false,
+        "rationale": "Thiếu động từ to be"
+      },
+      {
+        "text": "Some item are being put up on the cart.",
         "isCorrect": false,
         "rationale": "Sai số: 'some' đi với danh từ số nhiều 'items'."
-      },
-      {
-        "text": "Some items are being piled up on the cart.",
-        "isCorrect": false,
-        "rationale": "Bị động tiếp diễn ám chỉ ai đó đang xếp lúc này, không tự nhiên bằng trạng thái đã xếp sẵn."
       }
     ],
     "hint": "Dùng cả 'some' và 'up'. Một số đồ vật (some items) được chất đống (piled up) trên xe.",
     "phraseOptions": [
       {
-        "text": "Pile up some items on the cart",
-        "meaning": "Xếp chồng đồ vật lên xe đẩy",
+        "text": "Left on the cart",
+        "meaning": "Bị để lại trên xe đẩy",
         "isCorrect": true
       },
       {
@@ -1162,26 +1162,26 @@
       "man",
       "knife"
     ],
-    "scene": "Người đàn ông đang cắt bánh mì bằng dao.",
+    "scene": "Người đàn ông đang cắt đồ ăn bằng dao.",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng từ khóa 'man, knife'.",
     "answerOptions": [
       {
-        "text": "The man is cutting bread with a knife.",
+        "text": "The man is cutting food with a knife.",
         "isCorrect": true,
         "rationale": "Chính xác! 'Cut something with a knife' là cấu trúc đúng mô tả hành động cắt bằng dao."
       },
       {
-        "text": "The man is cutting bread by a knife.",
+        "text": "The man is cutting food by a knife.",
         "isCorrect": false,
         "rationale": "Sai giới từ: dùng 'with a knife', không phải 'by a knife'."
       },
       {
-        "text": "The man cuts bread with a knife.",
+        "text": "The man cuts food with a knife.",
         "isCorrect": false,
         "rationale": "Thì hiện tại đơn không mô tả khoảnh khắc đang cắt trong ảnh."
       },
       {
-        "text": "The man is cutting bread using knife.",
+        "text": "The man is cutting food using knife.",
         "isCorrect": false,
         "rationale": "Thiếu mạo từ: phải có 'a knife' hoặc 'the knife'."
       }
@@ -1189,8 +1189,8 @@
     "hint": "Dùng cả 'man' và 'knife'. Người đàn ông (man) đang cắt bánh mì bằng dao (knife).",
     "phraseOptions": [
       {
-        "text": "Cut bread with a knife",
-        "meaning": "Cắt bánh mì bằng dao",
+        "text": "Cut food with a knife",
+        "meaning": "Cắt thức ăn bằng dao",
         "isCorrect": true
       },
       {

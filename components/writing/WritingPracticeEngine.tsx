@@ -9,7 +9,6 @@ import type { WritingQuestionSet, PhraseOption } from "@/lib/types";
 import { WritingQuestionCard } from "./WritingQuestionCard";
 import { WritingResultSummary } from "./WritingResultSummary";
 import { QuizHeader } from "@/components/common/QuizHeader";
-import { WritingProgressOverview } from "@/components/writing/shared/WritingProgressOverview";
 import { playSound } from "@/utils/audio";
 
 interface WritingPracticeEngineProps {
@@ -431,7 +430,6 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
 
   const totalProgressUnits = activeQuestions.length * 3;
   let completedProgressUnits = 0;
-  let completedQuestionCount = 0;
 
   activeQuestions.forEach((_, index) => {
     const state1Done = vocabAnswers[index] !== undefined || !!skippedStates[`${index}-1`];
@@ -439,9 +437,6 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
     const state3Done = typedAnswers[index] !== undefined || !!skippedStates[`${index}-3`];
 
     completedProgressUnits += Number(state1Done) + Number(state2Done) + Number(state3Done);
-    if (state1Done && state2Done && state3Done) {
-      completedQuestionCount += 1;
-    }
   });
 
   const progressPercent = totalProgressUnits > 0 ? Math.round((completedProgressUnits / totalProgressUnits) * 100) : 0;
@@ -466,15 +461,6 @@ export function WritingPracticeEngine({ data }: WritingPracticeEngineProps) {
           onToggleMute={toggleMute}
           onRestart={handleRestart}
           onExit={handleExit}
-        />
-        <WritingProgressOverview
-          currentLabel={`Block ${blockIndex + 1} - State ${currentState} - Câu ${currentIndex + 1}/${visibleAbsoluteIndices.length}`}
-          completedItems={completedQuestionCount}
-          totalItems={activeQuestions.length}
-          completedUnits={completedProgressUnits}
-          totalUnits={totalProgressUnits}
-          progressPercent={progressPercent}
-          isFinished={isFinished}
         />
       </div>
 

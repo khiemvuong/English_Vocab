@@ -980,7 +980,7 @@
       "point",
       "glasses"
     ],
-    "scene": "Người phụ nữ đeo kính đang chỉ tay vào tấm bản đồ treo tường.",
+    "scene": "Người phụ nữ đeo kính đang chỉ tay vào tấm bản đồ.",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'point' và 'glasses'.",
     "answerOptions": [
       {
@@ -1212,7 +1212,7 @@
       "blonde",
       "explain"
     ],
-    "scene": "Người phụ nữ tóc vàng đang đứng giải thích điều gì đó cho người đàn ông tại chỗ làm việc.",
+    "scene": "Người phụ nữ tóc vàng đang ngồi giải thích điều gì đó cho người đàn ông tại chỗ làm việc.",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'blonde' và 'explain'.",
     "answerOptions": [
       {

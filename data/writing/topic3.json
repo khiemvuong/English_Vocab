@@ -464,7 +464,7 @@
     "keywords": [
       "path"
     ],
-    "scene": "Mọi người đang thong thả đi bộ dọc theo con đường nhỏ trong công viên.",
+    "scene": "Chúng đang thong thả đi bộ dọc theo con đường nhỏ trong công viên.",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng từ khóa 'path'.",
     "answerOptions": [
       {
@@ -692,7 +692,7 @@
     "keywords": [
       "gathered"
     ],
-    "scene": "Đám đông mọi người tụ tập tập trung trước hiên một tòa nhà lớn.",
+    "scene": "Đám đông mọi người tụ tập tập trung trước một tòa nhà lớn.",
     "question": "Chọn từ thích hợp nhất để điền vào chỗ trống.",
     "answerOptions": [
       {
@@ -749,7 +749,7 @@
     "keywords": [
       "leaning"
     ],
-    "scene": "Người đàn ông đang đứng dựa lưng vào bức tường.",
+    "scene": "Người đàn ông đang dựa lưng vào bức tường.",
     "question": "Chọn từ thích hợp nhất để điền vào chỗ trống.",
     "answerOptions": [
       {
@@ -921,7 +921,7 @@
       "athletic",
       "trees"
     ],
-    "scene": "Người thanh niên khỏe khoắn đang chạy bộ qua những hàng cây cao trong công viên.",
+    "scene": "Hàng cây cao đang đứng gần sân vận động",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'athletic' và 'trees'.",
     "answerOptions": [
       {
@@ -948,8 +948,8 @@
     "hint": "Sử dụng tính từ 'athletic' bổ nghĩa cho danh từ và 'trees' dạng số nhiều.",
     "phraseOptions": [
       {
-        "text": "Athletic field near trees",
-        "meaning": "Sân vận động cạnh hàng cây",
+        "text": "Trees near athletic field ",
+        "meaning": "Hàng cây gần sân vận động",
         "isCorrect": true
       },
       {
@@ -1037,26 +1037,26 @@
       "sidewalk",
       "walk"
     ],
-    "scene": "Một người đang tản bộ thong thả trên vỉa hè.",
+    "scene": "Một vài người đang tản bộ thong thả trên vỉa hè.",
     "question": "Chọn câu mô tả đúng nhất cho bức tranh trên, sử dụng đúng 2 từ khóa 'sidewalk' và 'walk'.",
     "answerOptions": [
       {
-        "text": "A person is walking on the sidewalk.",
+        "text": "Some people are walking on the sidewalk.",
         "isCorrect": true,
         "rationale": "Chính xác! Chia đúng động từ tiếp diễn 'is walking' và chứa đúng từ khóa danh từ vỉa hè 'sidewalk'."
       },
       {
-        "text": "A person is walking in the sidewalk.",
+        "text": "Some people are walking in the sidewalk.",
         "isCorrect": false,
         "rationale": "Sai giới từ: đi trên vỉa hè ta dùng 'on the sidewalk'."
       },
       {
-        "text": "A person is walking on sidewalk.",
+        "text": "Some people are walking on sidewalk.",
         "isCorrect": false,
         "rationale": "Thiếu mạo từ 'the' trước danh từ số ít 'sidewalk'."
       },
       {
-        "text": "A person walks on the sidewalk.",
+        "text": "Some people walk on the sidewalk.",
         "isCorrect": false,
         "rationale": "Hiện tại tiếp diễn mô tả tranh sinh động hơn."
       }
